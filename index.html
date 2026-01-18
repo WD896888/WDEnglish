@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英语练习题</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>英语练习题</h1>
+        <div class="menu">
+            <button class="menu-item active">连词成句</button>
+            <button class="menu-item disabled">语法填空 <span class="pending">更多功能敬请期待</span></button>
+            <button class="menu-item disabled">英文翻译 <span class="pending">更多功能敬请期待</span></button>
+            <button class="menu-item disabled">英语短文 <span class="pending">更多功能敬请期待</span></button>
+            <button class="menu-item disabled">英语作文 <span class="pending">更多功能敬请期待</span></button>
+        </div>
+        
+        <div class="exercise-container">
+            <h2>连词成句</h2>
+            <p class="instructions">请将以下单词按正确顺序排列组成句子</p>
+            
+            <div id="wordsContainer" class="words-container">
+                <!-- Words will be dynamically placed here -->
+            </div>
+            
+            <div class="actions">
+                <button id="checkBtn" class="btn-check">检查答案</button>
+                <button id="nextBtn" class="btn-next">下一题</button>
+            </div>
+            
+            <div id="result" class="result"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
