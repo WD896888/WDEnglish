@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英语练习题</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>英语练习题</h1>
+        <div class="menu">
+            <button class="menu-btn active" id="wordOrderBtn">连词成句</button>
+            <button class="menu-btn disabled">语法填空（敬请期待）</button>
+            <button class="menu-btn disabled">英文翻译（敬请期待）</button>
+            <button class="menu-btn disabled">英语短文（敬请期待）</button>
+            <button class="menu-btn disabled">英语作文（敬请期待）</button>
+        </div>
+
+        <div id="exerciseArea">
+            <div id="wordOrderExercise">
+                <h2>连词成句</h2>
+                <p id="instructions">请将以下单词按正确顺序排列组成句子</p>
+
+                <div id="wordsContainer" class="words-container">
+                    <!-- 单词卡片将通过JavaScript动态生成 -->
+                </div>
+
+                <div class="controls">
+                    <button id="checkAnswerBtn" class="btn-check">检查答案</button>
+                    <button id="nextQuestionBtn" class="btn-next">下一题</button>
+                </div>
+
+                <div id="resultMessage"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
