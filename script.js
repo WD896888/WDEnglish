@@ -554,12 +554,13 @@ function handleDragStart(e) {
     dragSrcElement = this;
     e.dataTransfer.effectAllowed = 'move';
     e.dataTransfer.setData('text/plain', this.textContent);
+    this.classList.add('dragging');
 }
 
 // 拖拽结束处理
 function handleDragEnd(e) {
     this.classList.remove('dragging');
-    document.querySelectorAll('.word-card').forEach(card => {
+    document.querySelectorAll('.word').forEach(card => {
         card.classList.remove('drag-over');
     });
     dragSrcElement = null;
@@ -612,7 +613,7 @@ function handleDrop(e) {
 // 检查答案
 function checkAnswer() {
     const container = document.getElementById('wordsContainer');
-    const wordCards = container.querySelectorAll('.word-card');
+    const wordCards = container.querySelectorAll('.word');
     
     // 获取当前排列的单词
     let userAnswer = '';
@@ -635,10 +636,10 @@ function checkAnswer() {
     const resultDiv = document.getElementById('resultMessage');
     
     if (isCorrect) {
-        resultDiv.className = 'result-correct';
+        resultDiv.className = 'result correct-result';
         resultDiv.innerHTML = '回答正确！🎉<br><span class="correct-answer">标准答案: ' + correctAnswer + '</span>';
     } else {
-        resultDiv.className = 'result-incorrect';
+        resultDiv.className = 'result incorrect-result';
         resultDiv.innerHTML = '回答错误 😔<br><span class="correct-answer">您的答案: ' + userAnswer + '<br>标准答案: ' + correctAnswer + '</span>';
     }
 }
