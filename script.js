@@ -197,6 +197,11 @@ function handleDragStart(e) {
     e.dataTransfer.effectAllowed = 'move';
     e.dataTransfer.setData('text/html', this.innerHTML);
     this.classList.add('dragging');
+    
+    // 在拖拽开始时固定容器的高度以防止抖动
+    const containerRect = wordsContainer.getBoundingClientRect();
+    wordsContainer.style.height = containerRect.height + 'px';
+    
     // 添加 will-change 提升性能
     this.style.willChange = 'transform';
 }
@@ -206,6 +211,9 @@ function handleDragEnd() {
     dragSrcElement = null;
     // 移除 willChange 属性
     this.style.willChange = 'auto';
+    
+    // 拖拽结束后移除固定的高度，让容器恢复正常
+    wordsContainer.style.height = 'auto';
 }
 
 function handleDragOver(e) {
