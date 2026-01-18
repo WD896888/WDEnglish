@@ -553,27 +553,27 @@ function shuffleArray(array) {
 function handleDragStart(e) {
     dragSrcElement = this;
     e.dataTransfer.effectAllowed = 'move';
-    e.dataTransfer.setData('text/html', this.innerHTML);
-    this.classList.add('dragging');
+    e.dataTransfer.setData('text/plain', this.textContent);
 }
 
 // 拖拽结束处理
 function handleDragEnd(e) {
     this.classList.remove('dragging');
+    document.querySelectorAll('.word-card').forEach(card => {
+        card.classList.remove('drag-over');
+    });
     dragSrcElement = null;
 }
 
 // 拖拽经过元素时的处理
 function handleDragOver(e) {
-    if (e.preventDefault) {
-        e.preventDefault();
-    }
+    e.preventDefault();
     e.dataTransfer.dropEffect = 'move';
-    return false;
 }
 
 // 拖拽进入元素时的处理
 function handleDragEnter(e) {
+    e.preventDefault();
     this.classList.add('drag-over');
 }
 
@@ -584,33 +584,29 @@ function handleDragLeave(e) {
 
 // 拖拽释放时的处理
 function handleDrop(e) {
-    if (e.stopPropagation) {
-        e.stopPropagation();
-    }
+    e.preventDefault();
+    this.classList.remove('drag-over');
     
     if (dragSrcElement !== this && dragSrcElement) {
-        // 交换两个元素在数组中的位置
-        const srcIndex = parseInt(dragSrcElement.dataset.index);
-        const targetIndex = parseInt(this.dataset.index);
+        // 获取源和目标元素的文本内容
+        const srcText = dragSrcElement.textContent;
+        const destText = this.textContent;
         
-        // 交换DOM元素
-        const tempNode = document.createElement('div');
-        dragSrcElement.parentNode.insertBefore(tempNode, dragSrcElement);
-        this.parentNode.insertBefore(dragSrcElement, this);
-        tempNode.parentNode.insertBefore(this, tempNode);
-        tempNode.parentNode.removeChild(tempNode);
+        // 交换文本内容
+        dragSrcElement.textContent = destText;
+        this.textContent = srcText;
         
-        // 更新data-index属性
-        document.querySelectorAll('.word-card').forEach((card, idx) => {
-            card.dataset.index = idx;
-        });
+        // 交换data-index属性
+        const srcIndex = dragSrcElement.dataset.index;
+        const destIndex = this.dataset.index;
+        dragSrcElement.dataset.index = destIndex;
+        this.dataset.index = srcIndex;
         
-        // 更新currentWords数组
-        [currentWords[srcIndex], currentWords[targetIndex]] = [currentWords[targetIndex], currentWords[srcIndex]];
+        // 更新currentWords数组中对应位置的内容
+        const srcIndexNum = parseInt(srcIndex);
+        const destIndexNum = parseInt(destIndex);
+        [currentWords[srcIndexNum], currentWords[destIndexNum]] = [currentWords[destIndexNum], currentWords[srcIndexNum]];
     }
-    
-    this.classList.remove('drag-over');
-    return false;
 }
 
 // 检查答案
