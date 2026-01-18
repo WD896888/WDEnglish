@@ -90,12 +90,14 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    min-height: 80px;
+    min-height: 120px;
+    height: auto;
     margin: 30px 0;
     padding: 20px;
     border: 2px dashed #3498db;
     border-radius: 10px;
     background-color: #ecf0f1;
+    position: relative;
 }
 
 .word-item {
@@ -109,6 +111,14 @@ h1 {
     min-width: 60px;
     text-align: center;
     flex: 0 0 auto; /* Prevent flex shrinking */
+}
+
+.word-placeholder {
+    padding: 12px 16px;
+    min-width: 60px;
+    text-align: center;
+    flex: 0 0 auto;
+    border: 2px dashed transparent;
 }
 
 .word-item:hover {

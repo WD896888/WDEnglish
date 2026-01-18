@@ -4,6 +4,8 @@
 __pycache__/
 *.o
 *.obj
+dist/
+build/
 *.class
 *.exe
 *.dll
@@ -61,12 +63,4 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
 ```
