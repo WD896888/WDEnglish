@@ -194,6 +194,11 @@ function shuffleArray(array) {
 // 拖拽相关函数
 function handleDragStart(e) {
     dragSrcElement = this;
+    // 记录原始尺寸以防止拖动时布局抖动
+    const rect = this.getBoundingClientRect();
+    this.style.width = rect.width + 'px';
+    this.style.height = rect.height + 'px';
+    
     e.dataTransfer.effectAllowed = 'move';
     e.dataTransfer.setData('text/html', this.innerHTML);
     this.classList.add('dragging');
@@ -201,6 +206,9 @@ function handleDragStart(e) {
 
 function handleDragEnd() {
     this.classList.remove('dragging');
+    // 清除设置的固定宽高以恢复原始样式
+    this.style.width = '';
+    this.style.height = '';
     dragSrcElement = null;
 }
 
