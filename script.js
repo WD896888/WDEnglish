@@ -500,15 +500,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // 下一题按钮事件
     document.getElementById('nextQuestionBtn').addEventListener('click', nextQuestion);
-    
-    // 禁用其他菜单项的点击事件
-    const menuButtons = document.querySelectorAll('.menu-btn:not(#wordOrderBtn)');
-    menuButtons.forEach(btn => {
-        btn.addEventListener('click', function(e) {
-            e.preventDefault();
-            alert('该功能正在开发中，敬请期待！');
-        });
-    });
 });
 
 // 加载当前题目
