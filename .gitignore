@@ -1,5 +1,6 @@
-```
-# Logs and temp files
-*.log
-server.log
+Nothing should be ignored in this case, as the modified files (`script.js` and `style.css`) are source code files that should be tracked in version control. There are no build artifacts, dependencies, or temporary files in the provided change list that would warrant adding ignore rules.
+
+Therefore, the output is empty:
+
+```(empty)
 ```

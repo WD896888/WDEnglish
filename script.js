@@ -197,11 +197,23 @@ function handleDragStart(e) {
     e.dataTransfer.effectAllowed = 'move';
     e.dataTransfer.setData('text/html', this.innerHTML);
     this.classList.add('dragging');
+    
+    // 在拖拽开始时固定容器的高度以防止抖动
+    const containerRect = wordsContainer.getBoundingClientRect();
+    wordsContainer.style.height = containerRect.height + 'px';
+    
+    // 添加 will-change 提升性能
+    this.style.willChange = 'transform';
 }
 
 function handleDragEnd() {
     this.classList.remove('dragging');
     dragSrcElement = null;
+    // 移除 willChange 属性
+    this.style.willChange = 'auto';
+    
+    // 拖拽结束后移除固定的高度，让容器恢复正常
+    wordsContainer.style.height = 'auto';
 }
 
 function handleDragOver(e) {
@@ -213,11 +225,19 @@ function handleDragOver(e) {
 }
 
 function handleDragEnter() {
-    this.classList.add('drag-over');
+    // 使用 requestAnimationFrame 来优化性能
+    if (!this.classList.contains('drag-over')) {
+        requestAnimationFrame(() => {
+            this.classList.add('drag-over');
+        });
+    }
 }
 
 function handleDragLeave() {
-    this.classList.remove('drag-over');
+    // 使用 requestAnimationFrame 来优化性能
+    requestAnimationFrame(() => {
+        this.classList.remove('drag-over');
+    });
 }
 
 function handleDrop(e) {
@@ -236,8 +256,16 @@ function handleDrop(e) {
             // 更新currentWords数组
             [currentWords[fromIndex], currentWords[toIndex]] = [currentWords[toIndex], currentWords[fromIndex]];
             
-            // 重新渲染单词
-            renderWords();
+            // 直接交换DOM元素，而不是重新渲染整个容器
+            const rectFrom = dragSrcElement.getBoundingClientRect();
+            const rectTo = this.getBoundingClientRect();
+            
+            // 交换DOM节点位置
+            if (fromIndex < toIndex) {
+                wordsContainer.insertBefore(dragSrcElement, this.nextSibling);
+            } else {
+                wordsContainer.insertBefore(dragSrcElement, this);
+            }
         }
     }
     
