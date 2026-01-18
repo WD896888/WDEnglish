@@ -194,13 +194,29 @@ function shuffleArray(array) {
 // 拖拽相关函数
 function handleDragStart(e) {
     dragSrcElement = this;
+
     e.dataTransfer.effectAllowed = 'move';
     e.dataTransfer.setData('text/html', this.innerHTML);
     this.classList.add('dragging');
+    
+    // 添加占位符以保持布局稳定
+    const placeholder = document.createElement('div');
+    const rect = this.getBoundingClientRect();
+    placeholder.classList.add('word-placeholder');
+    placeholder.style.width = rect.width + 'px';
+    placeholder.style.height = rect.height + 'px';
+    placeholder.style.flex = '0 0 auto';
+    placeholder.style.visibility = 'hidden';
+    this.parentNode.insertBefore(placeholder, this);
 }
 
 function handleDragEnd() {
     this.classList.remove('dragging');
+    // 移除占位符
+    const placeholder = document.querySelector('.word-placeholder');
+    if (placeholder) {
+        placeholder.remove();
+    }
     dragSrcElement = null;
 }
 
