@@ -5,32 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>英语练习题</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="background-decoration">
+        <div class="bubble bubble-1"></div>
+        <div class="bubble bubble-2"></div>
+        <div class="bubble bubble-3"></div>
+        <div class="bubble bubble-4"></div>
+        <div class="bubble bubble-5"></div>
+    </div>
+    
     <div class="container">
-        <h1>英语练习题</h1>
-        <div class="menu">
-            <button class="menu-item active">连词成句</button>
-            <button class="menu-item disabled">语法填空 <span class="pending">更多功能敬请期待</span></button>
-            <button class="menu-item disabled">英文翻译 <span class="pending">更多功能敬请期待</span></button>
-            <button class="menu-item disabled">英语短文 <span class="pending">更多功能敬请期待</span></button>
-            <button class="menu-item disabled">英语作文 <span class="pending">更多功能敬请期待</span></button>
+        <div class="header">
+            <h1 class="title">
+                <span class="title-icon">📚</span>
+                英语练习题
+            </h1>
+            <p class="subtitle">轻松学英语，快乐每一天</p>
         </div>
         
-        <div class="exercise-container">
-            <h2>连词成句</h2>
-            <p class="instructions">请将以下单词按正确顺序排列组成句子</p>
+        <div class="menu">
+            <button class="menu-item active">
+                <span class="menu-icon">🔗</span>
+                连词成句
+            </button>
+            <button class="menu-item disabled">
+                <span class="menu-icon">📝</span>
+                语法填空
+                <span class="pending">更多功能敬请期待</span>
+            </button>
+            <button class="menu-item disabled">
+                <span class="menu-icon">🌐</span>
+                英文翻译
+                <span class="pending">更多功能敬请期待</span>
+            </button>
+            <button class="menu-item disabled">
+                <span class="menu-icon">📖</span>
+                英语短文
+                <span class="pending">更多功能敬请期待</span>
+            </button>
+            <button class="menu-item disabled">
+                <span class="menu-icon">✍️</span>
+                英语作文
+                <span class="pending">更多功能敬请期待</span>
+            </button>
+        </div>
+        
+        <div class="exercise-card">
+            <div class="card-header">
+                <h2>连词成句</h2>
+                <div class="progress-indicator">
+                    <span id="questionNumber">1</span>
+                    <span class="divider">/</span>
+                    <span id="totalQuestions">100</span>
+                </div>
+            </div>
+            
+
             
             <div id="wordsContainer" class="words-container">
                 <!-- Words will be dynamically placed here -->
             </div>
             
             <div class="actions">
-                <button id="checkBtn" class="btn-check">检查答案</button>
-                <button id="nextBtn" class="btn-next">下一题</button>
+                <button id="prevBtn" class="btn btn-prev">
+                    <span class="btn-icon">←</span>
+                    上一题
+                </button>
+                <button id="checkBtn" class="btn btn-check">
+                    <span class="btn-icon">✓</span>
+                    检查答案
+                </button>
+                <button id="nextBtn" class="btn btn-next">
+                    下一题
+                    <span class="btn-icon">→</span>
+                </button>
             </div>
             
             <div id="result" class="result"></div>
+            <div id="explanation" class="explanation"></div>
         </div>
     </div>
     
