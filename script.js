@@ -129,6 +129,16 @@ let currentQuestionIndex = 0;
 let currentWords = [];
 let dragSrcElement = null;
 
+// 触摸拖拽相关变量
+let touchDragSrcElement = null;
+let touchDragClone = null;
+let touchStartX = 0;
+let touchStartY = 0;
+let touchOffsetX = 0;
+let touchOffsetY = 0;
+let isDragging = false;
+let touchAnimationFrame = null;
+
 // 进度保存相关的常量
 const PROGRESS_STORAGE_KEY = 'wdenglish_sentence_progress';
 
@@ -203,6 +213,12 @@ function renderWords() {
             wordElement.addEventListener('dragenter', handleDragEnter);
             wordElement.addEventListener('dragleave', handleDragLeave);
             wordElement.addEventListener('drop', handleDrop);
+            
+            // 触摸事件（移动端支持）
+            wordElement.addEventListener('touchstart', handleTouchStart, { passive: false });
+            wordElement.addEventListener('touchmove', handleTouchMove, { passive: false });
+            wordElement.addEventListener('touchend', handleTouchEnd, { passive: false });
+            wordElement.addEventListener('touchcancel', handleTouchEnd, { passive: false });
             
             // 添加入场动画延迟
             // wordElement.style.animation = `scaleIn 0.4s ease-out ${index * 0.05}s both`;
@@ -441,3 +457,163 @@ function clearProgress() {
         console.error('清除进度失败:', error);
     }
 }
+
+// ========== 触摸事件处理函数（移动端支持） ==========
+
+function handleTouchStart(e) {
+    e.preventDefault();
+    
+    const touch = e.touches[0];
+    touchDragSrcElement = this;
+    touchStartX = touch.clientX;
+    touchStartY = touch.clientY;
+    
+    const rect = this.getBoundingClientRect();
+    touchOffsetX = touch.clientX - rect.left;
+    touchOffsetY = touch.clientY - rect.top;
+    
+    isDragging = true;
+    this.classList.add('dragging');
+    
+    // 创建拖拽克隆元素
+    touchDragClone = this.cloneNode(true);
+    touchDragClone.style.position = 'fixed';
+    touchDragClone.style.zIndex = '10000';
+    touchDragClone.style.pointerEvents = 'none';
+    touchDragClone.style.opacity = '0.9';
+    touchDragClone.style.transform = 'scale(1.1)';
+    touchDragClone.style.boxShadow = '0 8px 20px rgba(0, 0, 0, 0.3)';
+    touchDragClone.style.width = rect.width + 'px';
+    touchDragClone.style.height = rect.height + 'px';
+    touchDragClone.style.left = (touch.clientX - touchOffsetX) + 'px';
+    touchDragClone.style.top = (touch.clientY - touchOffsetY) + 'px';
+    
+    document.body.appendChild(touchDragClone);
+    
+    // 隐藏原始元素
+    this.style.opacity = '0.3';
+    
+    playSound('drag');
+}
+
+function handleTouchMove(e) {
+    if (!isDragging || !touchDragClone) return;
+    
+    e.preventDefault();
+    
+    const touch = e.touches[0];
+    const currentX = touch.clientX;
+    const currentY = touch.clientY;
+    
+    // 使用requestAnimationFrame优化性能
+    if (touchAnimationFrame) {
+        cancelAnimationFrame(touchAnimationFrame);
+    }
+    
+    touchAnimationFrame = requestAnimationFrame(() => {
+        touchDragClone.style.left = (currentX - touchOffsetX) + 'px';
+        touchDragClone.style.top = (currentY - touchOffsetY) + 'px';
+        
+        // 高亮当前触摸位置下方的元素
+        highlightElementUnderTouch(currentX, currentY);
+    });
+}
+
+function handleTouchEnd(e) {
+    if (!isDragging) return;
+    
+    e.preventDefault();
+    isDragging = false;
+    
+    if (touchAnimationFrame) {
+        cancelAnimationFrame(touchAnimationFrame);
+        touchAnimationFrame = null;
+    }
+    
+    const touch = e.changedTouches[0];
+    const currentX = touch.clientX;
+    const currentY = touch.clientY;
+    
+    // 查找放置位置
+    const targetElement = findElementUnderTouch(currentX, currentY);
+    
+    if (targetElement && targetElement !== touchDragSrcElement && targetElement.classList.contains('word-item')) {
+        // 交换位置
+        const wordElements = Array.from(wordsContainer.children);
+        const fromIndex = wordElements.indexOf(touchDragSrcElement);
+        const toIndex = wordElements.indexOf(targetElement);
+        
+        if (fromIndex !== -1 && toIndex !== -1) {
+            // 更新currentWords数组
+            [currentWords[fromIndex], currentWords[toIndex]] = [currentWords[toIndex], currentWords[fromIndex]];
+            
+            // 在DOM中交换元素
+            const nextSibling = targetElement.nextSibling;
+            const parent = targetElement.parentNode;
+            
+            if (fromIndex < toIndex) {
+                parent.insertBefore(touchDragSrcElement, nextSibling);
+            } else {
+                parent.insertBefore(touchDragSrcElement, targetElement);
+            }
+            
+            playSound('drop');
+        }
+    }
+    
+    // 清理
+    cleanupTouchDrag();
+}
+
+function findElementUnderTouch(x, y) {
+    const elements = document.elementsFromPoint(x, y);
+    for (const element of elements) {
+        if (element.classList.contains('word-item') && element !== touchDragClone) {
+            return element;
+        }
+    }
+    return null;
+}
+
+function highlightElementUnderTouch(x, y) {
+    const targetElement = findElementUnderTouch(x, y);
+    
+    // 移除所有高亮
+    const allWordItems = document.querySelectorAll('.word-item');
+    allWordItems.forEach(item => {
+        if (item !== touchDragSrcElement) {
+            item.classList.remove('drag-over');
+        }
+    });
+    
+    // 添加高亮到目标元素
+    if (targetElement && targetElement !== touchDragSrcElement) {
+        targetElement.classList.add('drag-over');
+    }
+}
+
+function cleanupTouchDrag() {
+    if (touchDragClone) {
+        document.body.removeChild(touchDragClone);
+        touchDragClone = null;
+    }
+    
+    if (touchDragSrcElement) {
+        touchDragSrcElement.style.opacity = '';
+        touchDragSrcElement.classList.remove('dragging');
+        touchDragSrcElement = null;
+    }
+    
+    // 移除所有高亮
+    const allWordItems = document.querySelectorAll('.word-item');
+    allWordItems.forEach(item => {
+        item.classList.remove('drag-over');
+    });
+}
+
+// 防止移动端滚动干扰
+document.addEventListener('touchmove', function(e) {
+    if (isDragging) {
+        e.preventDefault();
+    }
+}, { passive: false });
