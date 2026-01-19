@@ -384,11 +384,11 @@ body {
     }
 }
 
-/* 防止iOS上的点击延迟 */
+/* 允许文本选择，仅在拖拽元素上禁用 */
 * {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    user-select: none;
+    -webkit-touch-callout: auto;
+    -webkit-user-select: auto;
+    user-select: auto;
 }
 
 /* 触摸拖拽克隆元素样式 */

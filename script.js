@@ -140,6 +140,8 @@ let isDragging = false;
 let touchAnimationFrame = null;
 let lastHighlightTime = 0;
 let lastHighlightElement = null;
+let isTouchDragStarted = false;
+const DRAG_THRESHOLD = 10;
 
 // 进度保存相关的常量
 const PROGRESS_STORAGE_KEY = 'wdenglish_sentence_progress';
@@ -217,10 +219,10 @@ function renderWords() {
             wordElement.addEventListener('drop', handleDrop);
             
             // 触摸事件（移动端支持）
-            wordElement.addEventListener('touchstart', handleTouchStart, { passive: false });
+            wordElement.addEventListener('touchstart', handleTouchStart);
             wordElement.addEventListener('touchmove', handleTouchMove, { passive: false });
-            wordElement.addEventListener('touchend', handleTouchEnd, { passive: false });
-            wordElement.addEventListener('touchcancel', handleTouchEnd, { passive: false });
+            wordElement.addEventListener('touchend', handleTouchEnd);
+            wordElement.addEventListener('touchcancel', handleTouchEnd);
             
             // 添加入场动画延迟
             // wordElement.style.animation = `scaleIn 0.4s ease-out ${index * 0.05}s both`;
@@ -463,8 +465,6 @@ function clearProgress() {
 // ========== 触摸事件处理函数（移动端支持） ==========
 
 function handleTouchStart(e) {
-    e.preventDefault();
-    
     const touch = e.touches[0];
     touchDragSrcElement = this;
     touchStartX = touch.clientX;
@@ -474,58 +474,71 @@ function handleTouchStart(e) {
     touchOffsetX = touch.clientX - rect.left;
     touchOffsetY = touch.clientY - rect.top;
     
+    isTouchDragStarted = false;
     isDragging = true;
-    this.classList.add('dragging');
-    
-    // 创建拖拽克隆元素
-    touchDragClone = this.cloneNode(true);
-    touchDragClone.style.position = 'fixed';
-    touchDragClone.style.zIndex = '10000';
-    touchDragClone.style.pointerEvents = 'none';
-    touchDragClone.style.opacity = '0.9';
-    touchDragClone.style.boxShadow = '0 8px 20px rgba(0, 0, 0, 0.3)';
-    touchDragClone.style.width = rect.width + 'px';
-    touchDragClone.style.height = rect.height + 'px';
-    touchDragClone.style.left = '0';
-    touchDragClone.style.top = '0';
-    touchDragClone.style.willChange = 'transform';
-    touchDragClone.style.transform = `translate3d(${touch.clientX - touchOffsetX}px, ${touch.clientY - touchOffsetY}px, 0) scale(1.1)`;
-    
-    document.body.appendChild(touchDragClone);
-    
-    // 隐藏原始元素
-    this.style.opacity = '0.3';
-    
-    // 重置高亮状态
-    lastHighlightElement = null;
-    
-    playSound('drag');
 }
 
 function handleTouchMove(e) {
-    if (!isDragging || !touchDragClone) return;
-    
-    e.preventDefault();
+    if (!isDragging) return;
     
     const touch = e.touches[0];
     const currentX = touch.clientX;
     const currentY = touch.clientY;
     
-    // 直接更新transform，不使用requestAnimationFrame以减少延迟
-    touchDragClone.style.transform = `translate3d(${currentX - touchOffsetX}px, ${currentY - touchOffsetY}px, 0) scale(1.1)`;
+    // 计算移动距离
+    const deltaX = Math.abs(currentX - touchStartX);
+    const deltaY = Math.abs(currentY - touchStartY);
     
-    // 节流高亮逻辑，每50ms最多执行一次
-    const now = Date.now();
-    if (now - lastHighlightTime > 50) {
-        lastHighlightTime = now;
-        highlightElementUnderTouch(currentX, currentY);
+    // 如果移动距离超过阈值，启动拖拽
+    if (!isTouchDragStarted && (deltaX > DRAG_THRESHOLD || deltaY > DRAG_THRESHOLD)) {
+        isTouchDragStarted = true;
+        
+        // 创建拖拽克隆元素
+        const rect = touchDragSrcElement.getBoundingClientRect();
+        touchDragClone = touchDragSrcElement.cloneNode(true);
+        touchDragClone.style.position = 'fixed';
+        touchDragClone.style.zIndex = '10000';
+        touchDragClone.style.pointerEvents = 'none';
+        touchDragClone.style.opacity = '0.9';
+        touchDragClone.style.boxShadow = '0 8px 20px rgba(0, 0, 0, 0.3)';
+        touchDragClone.style.width = rect.width + 'px';
+        touchDragClone.style.height = rect.height + 'px';
+        touchDragClone.style.left = '0';
+        touchDragClone.style.top = '0';
+        touchDragClone.style.willChange = 'transform';
+        touchDragClone.style.transform = `translate3d(${currentX - touchOffsetX}px, ${currentY - touchOffsetY}px, 0) scale(1.1)`;
+        
+        document.body.appendChild(touchDragClone);
+        
+        // 隐藏原始元素
+        touchDragSrcElement.style.opacity = '0.3';
+        touchDragSrcElement.classList.add('dragging');
+        
+        // 重置高亮状态
+        lastHighlightElement = null;
+        
+        playSound('drag');
+    }
+    
+    // 如果拖拽已启动，阻止默认行为并更新位置
+    if (isTouchDragStarted && touchDragClone) {
+        e.preventDefault();
+        
+        // 直接更新transform，不使用requestAnimationFrame以减少延迟
+        touchDragClone.style.transform = `translate3d(${currentX - touchOffsetX}px, ${currentY - touchOffsetY}px, 0) scale(1.1)`;
+        
+        // 节流高亮逻辑，每50ms最多执行一次
+        const now = Date.now();
+        if (now - lastHighlightTime > 50) {
+            lastHighlightTime = now;
+            highlightElementUnderTouch(currentX, currentY);
+        }
     }
 }
 
 function handleTouchEnd(e) {
     if (!isDragging) return;
     
-    e.preventDefault();
     isDragging = false;
     
     if (touchAnimationFrame) {
@@ -617,6 +630,8 @@ function cleanupTouchDrag() {
         lastHighlightElement.classList.remove('drag-over');
         lastHighlightElement = null;
     }
+    
+    isTouchDragStarted = false;
 }
 
 // 防止移动端滚动干扰
