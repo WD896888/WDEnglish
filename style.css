@@ -522,47 +522,55 @@ body {
 /* ========== 响应式设计 ========== */
 @media (max-width: 768px) {
     .container {
-        padding: 15px 12px;
+        padding: 20px 15px;
     }
     
     .header {
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
     
     .title {
-        font-size: 1.8em;
-        margin-bottom: 5px;
+        font-size: 2em;
+        margin-bottom: 8px;
     }
     
     .title-icon {
-        font-size: 1em;
-        margin-right: 5px;
+        font-size: 1.1em;
+        margin-right: 8px;
     }
     
     .subtitle {
-        font-size: 0.9em;
+        font-size: 1em;
     }
     
     .menu {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 8px;
-        margin-bottom: 20px;
-        padding: 0 5px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 25px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding: 5px 30px;
+        -webkit-overflow-scrolling: touch;
     }
     
     .menu-item {
-        padding: 12px 10px;
-        font-size: 13px;
-        min-width: auto;
-        flex-direction: row;
+        padding: 8px 6px;
+        font-size: 10px;
+        min-width: 65px;
+        width: 65px;
+        height: 65px;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
-        gap: 5px;
+        border-radius: 12px;
+        flex-shrink: 0;
+        box-shadow: 4px 4px 8px rgba(184, 190, 200, 0.5), -4px -4px 8px rgba(255, 255, 255, 0.8);
     }
     
     .menu-icon {
-        font-size: 1.2em;
-        margin-bottom: 0;
+        font-size: 1.3em;
+        margin-bottom: 3px;
     }
     
     .pending {
@@ -570,16 +578,16 @@ body {
     }
     
     .exercise-card {
-        padding: 18px;
-        border-radius: 18px;
+        padding: 25px;
+        border-radius: 25px;
     }
     
     .card-header {
         flex-direction: row;
-        gap: 10px;
+        gap: 15px;
         text-align: left;
-        margin-bottom: 15px;
-        padding-bottom: 12px;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
     }
     
     .card-header h2 {
@@ -587,58 +595,58 @@ body {
     }
     
     .progress-indicator {
-        padding: 5px 12px;
-        font-size: 0.95em;
+        padding: 6px 14px;
+        font-size: 0.9em;
         border-radius: 12px;
     }
     
     .words-container {
-        padding: 15px;
-        gap: 8px;
-        margin: 20px 0;
-        min-height: 80px;
+        padding: 20px;
+        gap: 12px;
+        margin: 25px 0;
+        min-height: 90px;
     }
     
     .word-item {
-        padding: 10px 14px;
-        font-size: 0.95em;
-        min-width: 55px;
-        border-radius: 15px;
+        padding: 12px 16px;
+        font-size: 0.9em;
+        min-width: 60px;
+        border-radius: 18px;
     }
     
     .actions {
         flex-direction: row;
-        gap: 8px;
-        margin: 20px 0;
+        gap: 12px;
+        margin: 25px 0;
     }
     
     .btn {
-        padding: 10px 15px;
-        font-size: 14px;
+        padding: 12px 20px;
+        font-size: 15px;
         min-width: auto;
         flex: 1;
-        border-radius: 15px;
+        border-radius: 18px;
     }
     
     .btn-icon {
-        font-size: 1em;
-        margin: 0 3px;
+        font-size: 1.1em;
+        margin: 0 4px;
     }
     
     .btn-check {
-        flex: 1.2;
+        flex: 1.3;
     }
     
     .result {
-        font-size: 1.05em;
-        padding: 15px 20px;
-        margin-top: 15px;
+        font-size: 1em;
+        padding: 18px 22px;
+        margin-top: 18px;
     }
     
     .explanation {
         font-size: 0.95em;
-        padding: 15px 20px;
-        margin-top: 15px;
+        padding: 18px 22px;
+        margin-top: 18px;
     }
     
     .bubble {
@@ -648,21 +656,149 @@ body {
 
 @media (max-width: 480px) {
     .container {
-        padding: 12px 10px;
+        padding: 15px 12px;
     }
     
+    .header {
+        margin-bottom: 20px;
+    }
+    
+    .title {
+        font-size: 1.7em;
+        letter-spacing: 1px;
+    }
+    
+    .title-icon {
+        font-size: 1em;
+        margin-right: 6px;
+    }
+    
+    .subtitle {
+        font-size: 0.9em;
+    }
+    
+    .menu {
+        gap: 8px;
+        margin-bottom: 20px;
+        padding: 5px 25px;
+    }
+    
+    .menu-item {
+        padding: 6px 5px;
+        font-size: 9px;
+        min-width: 55px;
+        width: 55px;
+        height: 55px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 6px rgba(184, 190, 200, 0.4), -3px -3px 6px rgba(255, 255, 255, 0.9);
+    }
+    
+    .menu-icon {
+        font-size: 1.1em;
+        margin-bottom: 2px;
+    }
+    
+    .exercise-card {
+        padding: 20px;
+        border-radius: 20px;
+    }
+    
+    .card-header {
+        flex-direction: row;
+        gap: 12px;
+        text-align: left;
+        margin-bottom: 18px;
+        padding-bottom: 12px;
+    }
+    
+    .card-header h2 {
+        font-size: 1.1em;
+    }
+    
+    .progress-indicator {
+        padding: 5px 12px;
+        font-size: 0.85em;
+        border-radius: 10px;
+    }
+    
+    .words-container {
+        padding: 18px;
+        gap: 10px;
+        margin: 20px 0;
+        min-height: 80px;
+    }
+    
+    .word-item {
+        padding: 10px 14px;
+        font-size: 0.9em;
+        min-width: 55px;
+        border-radius: 15px;
+    }
+    
+    .actions {
+        gap: 10px;
+        margin: 20px 0;
+    }
+    
+    .btn {
+        padding: 11px 18px;
+        font-size: 14px;
+        border-radius: 15px;
+    }
+    
+    .btn-icon {
+        font-size: 1em;
+        margin: 0 3px;
+    }
+    
+    .result {
+        font-size: 0.95em;
+        padding: 15px 20px;
+        margin-top: 15px;
+        border-radius: 15px;
+    }
+    
+    .explanation {
+        font-size: 0.9em;
+        padding: 15px 20px;
+        margin-top: 15px;
+        border-radius: 15px;
+        line-height: 1.7;
+    }
+}
+
+@media (max-width: 360px) {
+    .menu {
+        gap: 6px;
+        padding: 5px 20px;
+    }
+    
+    .menu-item {
+        min-width: 50px;
+        width: 50px;
+        height: 50px;
+        padding: 5px 4px;
+        font-size: 8px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px rgba(184, 190, 200, 0.3), -2px -2px 4px rgba(255, 255, 255, 0.95);
+    }
+    
+    .menu-icon {
+        font-size: 1em;
+    }
+    
+    .title {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-height: 600px) and (orientation: landscape) {
     .header {
         margin-bottom: 15px;
     }
     
     .title {
         font-size: 1.5em;
-        letter-spacing: 1px;
-    }
-    
-    .title-icon {
-        display: inline;
-        margin-right: 3px;
     }
     
     .subtitle {
@@ -670,86 +806,63 @@ body {
     }
     
     .menu {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 6px;
-        margin-bottom: 15px;
+        gap: 8px;
+        margin-bottom: 20px;
+        padding: 5px 30px;
     }
     
     .menu-item {
-        padding: 10px 8px;
-        font-size: 12px;
-        border-radius: 12px;
+        min-width: 55px;
+        width: 55px;
+        height: 55px;
+        padding: 6px 5px;
+        font-size: 9px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px rgba(184, 190, 200, 0.3), -2px -2px 4px rgba(255, 255, 255, 0.95);
     }
     
     .menu-icon {
-        font-size: 1em;
+        font-size: 1.1em;
+        margin-bottom: 2px;
     }
     
     .exercise-card {
-        padding: 15px;
-        border-radius: 15px;
+        padding: 18px;
     }
     
     .card-header {
-        flex-direction: column;
-        gap: 8px;
-        text-align: center;
-        margin-bottom: 12px;
+        margin-bottom: 15px;
         padding-bottom: 10px;
     }
     
     .card-header h2 {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
     
     .progress-indicator {
         padding: 4px 10px;
-        font-size: 0.9em;
+        font-size: 0.8em;
         border-radius: 10px;
     }
     
     .words-container {
-        padding: 12px;
-        gap: 6px;
+        padding: 15px;
         margin: 15px 0;
         min-height: 70px;
     }
     
     .word-item {
         padding: 8px 12px;
-        font-size: 0.9em;
-        min-width: 50px;
-        border-radius: 12px;
+        font-size: 0.85em;
     }
     
     .actions {
-        gap: 6px;
         margin: 15px 0;
+        gap: 8px;
     }
     
     .btn {
-        padding: 8px 12px;
+        padding: 8px 14px;
         font-size: 13px;
-        border-radius: 12px;
-    }
-    
-    .btn-icon {
-        font-size: 0.9em;
-        margin: 0 2px;
-    }
-    
-    .result {
-        font-size: 1em;
-        padding: 12px 15px;
-        margin-top: 12px;
-        border-radius: 15px;
-    }
-    
-    .explanation {
-        font-size: 0.9em;
-        padding: 12px 15px;
-        margin-top: 12px;
-        border-radius: 15px;
-        line-height: 1.6;
     }
 }
