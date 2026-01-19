@@ -461,14 +461,14 @@ body {
 }
 
 .btn-check {
-    padding: 14px 20px;
+    padding: 14px 30px !important;
     background: linear-gradient(135deg, #7aa8d6, #5d8ab8);
     color: #ffffff;
     box-shadow: 6px 6px 12px #4a6fa5, -6px -6px 12px #a5c8e8;
-    min-width: 80px;
-    min-height: 48px;
-    height: auto;
-    border-radius: 20px;
+    min-width: 100px !important;
+    min-height: 48px !important;
+    height: auto !important;
+    border-radius: 20px !important;
 }
 
 .btn-check:hover {
@@ -483,14 +483,14 @@ body {
 }
 
 .btn-prev {
-    padding: 14px 20px;
+    padding: 14px 30px !important;
     background: linear-gradient(135deg, #e8f0f8, #d4e6f9);
     color: #5d8ab8;
     box-shadow: 6px 6px 12px #b8bec8, -6px -6px 12px #ffffff;
-    min-width: 80px;
-    min-height: 48px;
-    height: auto;
-    border-radius: 20px;
+    min-width: 100px !important;
+    min-height: 48px !important;
+    height: auto !important;
+    border-radius: 20px !important;
 }
 
 .btn-prev:hover {
@@ -505,14 +505,14 @@ body {
 }
 
 .btn-next {
-    padding: 14px 20px;
+    padding: 14px 30px !important;
     background: linear-gradient(135deg, #e8f0f8, #d4e6f9);
     color: #5d8ab8;
     box-shadow: 6px 6px 12px #b8bec8, -6px -6px 12px #ffffff;
-    min-width: 80px;
-    min-height: 48px;
-    height: auto;
-    border-radius: 20px;
+    min-width: 100px !important;
+    min-height: 48px !important;
+    height: auto !important;
+    border-radius: 20px !important;
 }
 
 .btn-next:hover {
