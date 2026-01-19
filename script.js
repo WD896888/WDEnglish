@@ -138,6 +138,8 @@ let touchOffsetX = 0;
 let touchOffsetY = 0;
 let isDragging = false;
 let touchAnimationFrame = null;
+let lastHighlightTime = 0;
+let lastHighlightElement = null;
 
 // 进度保存相关的常量
 const PROGRESS_STORAGE_KEY = 'wdenglish_sentence_progress';
@@ -481,17 +483,21 @@ function handleTouchStart(e) {
     touchDragClone.style.zIndex = '10000';
     touchDragClone.style.pointerEvents = 'none';
     touchDragClone.style.opacity = '0.9';
-    touchDragClone.style.transform = 'scale(1.1)';
     touchDragClone.style.boxShadow = '0 8px 20px rgba(0, 0, 0, 0.3)';
     touchDragClone.style.width = rect.width + 'px';
     touchDragClone.style.height = rect.height + 'px';
-    touchDragClone.style.left = (touch.clientX - touchOffsetX) + 'px';
-    touchDragClone.style.top = (touch.clientY - touchOffsetY) + 'px';
+    touchDragClone.style.left = '0';
+    touchDragClone.style.top = '0';
+    touchDragClone.style.willChange = 'transform';
+    touchDragClone.style.transform = `translate3d(${touch.clientX - touchOffsetX}px, ${touch.clientY - touchOffsetY}px, 0) scale(1.1)`;
     
     document.body.appendChild(touchDragClone);
     
     // 隐藏原始元素
     this.style.opacity = '0.3';
+    
+    // 重置高亮状态
+    lastHighlightElement = null;
     
     playSound('drag');
 }
@@ -505,18 +511,15 @@ function handleTouchMove(e) {
     const currentX = touch.clientX;
     const currentY = touch.clientY;
     
-    // 使用requestAnimationFrame优化性能
-    if (touchAnimationFrame) {
-        cancelAnimationFrame(touchAnimationFrame);
-    }
+    // 直接更新transform，不使用requestAnimationFrame以减少延迟
+    touchDragClone.style.transform = `translate3d(${currentX - touchOffsetX}px, ${currentY - touchOffsetY}px, 0) scale(1.1)`;
     
-    touchAnimationFrame = requestAnimationFrame(() => {
-        touchDragClone.style.left = (currentX - touchOffsetX) + 'px';
-        touchDragClone.style.top = (currentY - touchOffsetY) + 'px';
-        
-        // 高亮当前触摸位置下方的元素
+    // 节流高亮逻辑，每50ms最多执行一次
+    const now = Date.now();
+    if (now - lastHighlightTime > 50) {
+        lastHighlightTime = now;
         highlightElementUnderTouch(currentX, currentY);
-    });
+    }
 }
 
 function handleTouchEnd(e) {
@@ -568,7 +571,7 @@ function handleTouchEnd(e) {
 function findElementUnderTouch(x, y) {
     const elements = document.elementsFromPoint(x, y);
     for (const element of elements) {
-        if (element.classList.contains('word-item') && element !== touchDragClone) {
+        if (element.classList.contains('word-item') && element !== touchDragClone && element !== touchDragSrcElement) {
             return element;
         }
     }
@@ -578,17 +581,22 @@ function findElementUnderTouch(x, y) {
 function highlightElementUnderTouch(x, y) {
     const targetElement = findElementUnderTouch(x, y);
     
-    // 移除所有高亮
-    const allWordItems = document.querySelectorAll('.word-item');
-    allWordItems.forEach(item => {
-        if (item !== touchDragSrcElement) {
-            item.classList.remove('drag-over');
-        }
-    });
+    // 如果目标元素没有变化，直接返回
+    if (targetElement === lastHighlightElement) {
+        return;
+    }
     
-    // 添加高亮到目标元素
-    if (targetElement && targetElement !== touchDragSrcElement) {
+    // 移除之前的高亮
+    if (lastHighlightElement) {
+        lastHighlightElement.classList.remove('drag-over');
+    }
+    
+    // 添加新的高亮
+    if (targetElement) {
         targetElement.classList.add('drag-over');
+        lastHighlightElement = targetElement;
+    } else {
+        lastHighlightElement = null;
     }
 }
 
@@ -604,11 +612,11 @@ function cleanupTouchDrag() {
         touchDragSrcElement = null;
     }
     
-    // 移除所有高亮
-    const allWordItems = document.querySelectorAll('.word-item');
-    allWordItems.forEach(item => {
-        item.classList.remove('drag-over');
-    });
+    // 移除高亮
+    if (lastHighlightElement) {
+        lastHighlightElement.classList.remove('drag-over');
+        lastHighlightElement = null;
+    }
 }
 
 // 防止移动端滚动干扰

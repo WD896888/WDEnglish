@@ -353,6 +353,9 @@ body {
     -webkit-tap-highlight-color: transparent;
     touch-action: none;
     will-change: transform, opacity;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ(0);
 }
 
 .word-item:active {
@@ -367,6 +370,8 @@ body {
         min-width: 44px;
         padding: 16px 22px;
         font-size: 1.2em;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
     }
     
     .word-item:hover {
@@ -392,9 +397,28 @@ body {
     z-index: 10000 !important;
     pointer-events: none !important;
     opacity: 0.9 !important;
-    transform: scale(1.1) !important;
+    transform: translateZ(0) scale(1.1) !important;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3) !important;
     transition: none !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: transform;
+}
+
+/* 优化拖拽时的动画性能 */
+.word-item.dragging {
+    opacity: 0.3;
+    transition: opacity 0.1s ease;
+}
+
+.word-item.drag-over {
+    background: linear-gradient(135deg, #7aa8d6, #5d8ab8);
+    color: #ffffff;
+    box-shadow: inset 4px 4px 8px #4a6fa5, inset -4px -4px 8px #7aa8d6;
+    transform: scale(1.05);
+    transition: all 0.15s ease;
+    -webkit-transform: scale(1.05) translateZ(0);
+    transform: scale(1.05) translateZ(0);
 }
 
 @keyframes glow {
