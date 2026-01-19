@@ -476,10 +476,30 @@ function handleTouchStart(e) {
     
     isTouchDragStarted = false;
     isDragging = true;
+    
+    // 立即创建拖拽克隆元素，但保持隐藏状态
+    touchDragClone = this.cloneNode(true);
+    touchDragClone.style.position = 'fixed';
+    touchDragClone.style.zIndex = '10000';
+    touchDragClone.style.pointerEvents = 'none';
+    touchDragClone.style.opacity = '0';
+    touchDragClone.style.boxShadow = '0 8px 20px rgba(0, 0, 0, 0.3)';
+    touchDragClone.style.width = rect.width + 'px';
+    touchDragClone.style.height = rect.height + 'px';
+    touchDragClone.style.left = '0';
+    touchDragClone.style.top = '0';
+    touchDragClone.style.willChange = 'transform';
+    touchDragClone.style.transform = `translate3d(${touch.clientX - touchOffsetX}px, ${touch.clientY - touchOffsetY}px, 0) scale(1.1)`;
+    touchDragClone.style.transition = 'opacity 0.15s ease';
+    
+    document.body.appendChild(touchDragClone);
+    
+    // 重置高亮状态
+    lastHighlightElement = null;
 }
 
 function handleTouchMove(e) {
-    if (!isDragging) return;
+    if (!isDragging || !touchDragClone) return;
     
     const touch = e.touches[0];
     const currentX = touch.clientX;
@@ -489,44 +509,28 @@ function handleTouchMove(e) {
     const deltaX = Math.abs(currentX - touchStartX);
     const deltaY = Math.abs(currentY - touchStartY);
     
-    // 如果移动距离超过阈值，启动拖拽
+    // 如果移动距离超过阈值，启动拖拽（显示克隆元素）
     if (!isTouchDragStarted && (deltaX > DRAG_THRESHOLD || deltaY > DRAG_THRESHOLD)) {
         isTouchDragStarted = true;
         
-        // 创建拖拽克隆元素
-        const rect = touchDragSrcElement.getBoundingClientRect();
-        touchDragClone = touchDragSrcElement.cloneNode(true);
-        touchDragClone.style.position = 'fixed';
-        touchDragClone.style.zIndex = '10000';
-        touchDragClone.style.pointerEvents = 'none';
+        // 显示克隆元素并隐藏原始元素
         touchDragClone.style.opacity = '0.9';
-        touchDragClone.style.boxShadow = '0 8px 20px rgba(0, 0, 0, 0.3)';
-        touchDragClone.style.width = rect.width + 'px';
-        touchDragClone.style.height = rect.height + 'px';
-        touchDragClone.style.left = '0';
-        touchDragClone.style.top = '0';
-        touchDragClone.style.willChange = 'transform';
-        touchDragClone.style.transform = `translate3d(${currentX - touchOffsetX}px, ${currentY - touchOffsetY}px, 0) scale(1.1)`;
-        
-        document.body.appendChild(touchDragClone);
-        
-        // 隐藏原始元素
         touchDragSrcElement.style.opacity = '0.3';
         touchDragSrcElement.classList.add('dragging');
-        
-        // 重置高亮状态
-        lastHighlightElement = null;
         
         playSound('drag');
     }
     
-    // 如果拖拽已启动，阻止默认行为并更新位置
-    if (isTouchDragStarted && touchDragClone) {
+    // 如果拖拽已启动，阻止默认行为
+    if (isTouchDragStarted) {
         e.preventDefault();
-        
-        // 直接更新transform，不使用requestAnimationFrame以减少延迟
-        touchDragClone.style.transform = `translate3d(${currentX - touchOffsetX}px, ${currentY - touchOffsetY}px, 0) scale(1.1)`;
-        
+    }
+    
+    // 始终更新克隆元素位置，即使未超过阈值（这样移动超过阈值时不会有跳跃）
+    touchDragClone.style.transform = `translate3d(${currentX - touchOffsetX}px, ${currentY - touchOffsetY}px, 0) scale(1.1)`;
+    
+    // 如果拖拽已启动，执行高亮逻辑
+    if (isTouchDragStarted) {
         // 节流高亮逻辑，每50ms最多执行一次
         const now = Date.now();
         if (now - lastHighlightTime > 50) {
@@ -546,34 +550,37 @@ function handleTouchEnd(e) {
         touchAnimationFrame = null;
     }
     
-    const touch = e.changedTouches[0];
-    const currentX = touch.clientX;
-    const currentY = touch.clientY;
-    
-    // 查找放置位置
-    const targetElement = findElementUnderTouch(currentX, currentY);
-    
-    if (targetElement && targetElement !== touchDragSrcElement && targetElement.classList.contains('word-item')) {
-        // 交换位置
-        const wordElements = Array.from(wordsContainer.children);
-        const fromIndex = wordElements.indexOf(touchDragSrcElement);
-        const toIndex = wordElements.indexOf(targetElement);
+    // 如果拖拽已启动，执行放置逻辑
+    if (isTouchDragStarted) {
+        const touch = e.changedTouches[0];
+        const currentX = touch.clientX;
+        const currentY = touch.clientY;
         
-        if (fromIndex !== -1 && toIndex !== -1) {
-            // 更新currentWords数组
-            [currentWords[fromIndex], currentWords[toIndex]] = [currentWords[toIndex], currentWords[fromIndex]];
+        // 查找放置位置
+        const targetElement = findElementUnderTouch(currentX, currentY);
+        
+        if (targetElement && targetElement !== touchDragSrcElement && targetElement.classList.contains('word-item')) {
+            // 交换位置
+            const wordElements = Array.from(wordsContainer.children);
+            const fromIndex = wordElements.indexOf(touchDragSrcElement);
+            const toIndex = wordElements.indexOf(targetElement);
             
-            // 在DOM中交换元素
-            const nextSibling = targetElement.nextSibling;
-            const parent = targetElement.parentNode;
-            
-            if (fromIndex < toIndex) {
-                parent.insertBefore(touchDragSrcElement, nextSibling);
-            } else {
-                parent.insertBefore(touchDragSrcElement, targetElement);
+            if (fromIndex !== -1 && toIndex !== -1) {
+                // 更新currentWords数组
+                [currentWords[fromIndex], currentWords[toIndex]] = [currentWords[toIndex], currentWords[fromIndex]];
+                
+                // 在DOM中交换元素
+                const nextSibling = targetElement.nextSibling;
+                const parent = targetElement.parentNode;
+                
+                if (fromIndex < toIndex) {
+                    parent.insertBefore(touchDragSrcElement, nextSibling);
+                } else {
+                    parent.insertBefore(touchDragSrcElement, targetElement);
+                }
+                
+                playSound('drop');
             }
-            
-            playSound('drop');
         }
     }
     
