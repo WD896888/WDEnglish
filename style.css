@@ -1,8 +1,20 @@
-/* ========== 全局重置和基础样式 ========== */
+:root {
+    --btn-padding-y: 15px;
+    --btn-padding-x: 27px;
+    --btn-min-height: 31px;
+    --btn-font-size: 16px;
+    --btn-border-radius: 20px;
+    --btn-min-width: 165px;
+    --btn-icon-size: 1.3em;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-touch-callout: auto;
+    -webkit-user-select: auto;
+    user-select: auto;
 }
 
 body {
@@ -14,7 +26,6 @@ body {
     overflow-x: hidden;
 }
 
-/* ========== 背景装饰气泡 ========== */
 .background-decoration {
     position: fixed;
     top: 0;
@@ -93,7 +104,6 @@ body {
     }
 }
 
-/* ========== 主容器 ========== */
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -102,7 +112,6 @@ body {
     z-index: 1;
 }
 
-/* ========== 头部样式 ========== */
 .header {
     text-align: center;
     margin-bottom: 40px;
@@ -145,7 +154,17 @@ body {
     }
 }
 
-/* ========== 菜单样式 ========== */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .menu {
     display: flex;
     justify-content: center;
@@ -205,24 +224,23 @@ body {
     font-weight: normal;
 }
 
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* ========== 练习卡片 ========== */
 .exercise-card {
     background: linear-gradient(135deg, #e3edf7, #d4e6f9);
     border-radius: 30px;
     padding: 40px;
     box-shadow: 12px 12px 24px #b8bec8, -12px -12px 24px #ffffff;
     animation: scaleIn 0.6s ease-out 0.4s both;
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 .card-header {
@@ -255,18 +273,6 @@ body {
     color: #a0b4c9;
 }
 
-@keyframes scaleIn {
-    from {
-        opacity: 0;
-        transform: scale(0.9);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-/* ========== 说明文字 ========== */
 .instructions {
     color: #6a9bc8;
     margin-bottom: 25px;
@@ -290,7 +296,6 @@ body {
     50% { transform: scale(1.1); }
 }
 
-/* ========== 单词容器 ========== */
 .words-container {
     display: flex;
     flex-wrap: wrap;
@@ -309,7 +314,6 @@ body {
     box-shadow: inset 8px 8px 16px #ccd9e6, inset -8px -8px 16px #ffffff;
 }
 
-/* ========== 单词卡片 ========== */
 .word-item {
     padding: 14px 20px;
     background: linear-gradient(135deg, #e8f0f8, #d4e6f9);
@@ -324,6 +328,12 @@ body {
     box-shadow: 5px 5px 10px #b8bec8, -5px -5px 10px #ffffff;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     border: 2px solid transparent;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: none;
+    will-change: transform, opacity;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ(0);
 }
 
 .word-item:hover {
@@ -333,31 +343,52 @@ body {
 }
 
 .word-item.dragging {
-    opacity: 0.8;
+    opacity: 0.3;
     transform: translateY(-5px) scale(1.1) rotate(2deg);
     box-shadow: 10px 10px 20px #b8bec8, -10px -10px 20px #ffffff;
     z-index: 100;
+    transition: opacity 0.1s ease;
 }
 
 .word-item.drag-over {
     background: linear-gradient(135deg, #7aa8d6, #5d8ab8);
     color: #ffffff;
     box-shadow: inset 4px 4px 8px #4a6fa5, inset -4px -4px 8px #7aa8d6;
-    transform: scale(1.05);
-    /* animation: glow 1s ease-in-out infinite alternate; */
-    transition: all 0.2s ease;
+    transform: scale(1.05) translateZ(0);
+    transition: all 0.15s ease;
 }
 
-@keyframes glow {
-    from {
-        box-shadow: inset 4px 4px 8px #4a6fa5, inset -4px -4px 8px #7aa8d6, 0 0 10px rgba(122, 168, 214, 0.5);
+.word-item:active {
+    transform: scale(0.95);
+    background: linear-gradient(135deg, #d4e6f9, #c5d8f0);
+}
+
+.word-item-touch-clone {
+    position: fixed !important;
+    z-index: 10000 !important;
+    pointer-events: none !important;
+    opacity: 0.9 !important;
+    transform: translateZ(0) scale(1.1) !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3) !important;
+    transition: none !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: transform;
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .word-item {
+        min-height: 44px;
+        min-width: 44px;
+        padding: 16px 22px;
+        font-size: 1.2em;
     }
-    to {
-        box-shadow: inset 4px 4px 8px #4a6fa5, inset -4px -4px 8px #7aa8d6, 0 0 20px rgba(122, 168, 214, 0.8);
+
+    .word-item:hover {
+        transform: none;
     }
 }
 
-/* ========== 按钮区域 ========== */
 .actions {
     display: flex;
     justify-content: center;
@@ -366,22 +397,24 @@ body {
 }
 
 .btn {
-    padding: 15px 35px;
+    padding: var(--btn-padding-y) var(--btn-padding-x);
     border: none;
-    border-radius: 20px;
+    border-radius: var(--btn-border-radius);
     cursor: pointer;
-    font-size: 16px;
+    font-size: var(--btn-font-size);
     font-weight: 700;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: center;
     gap: 8px;
-    min-width: 140px;
+    min-width: var(--btn-min-width);
     justify-content: center;
+    height: auto;
+    min-height: var(--btn-min-height);
 }
 
 .btn-icon {
-    font-size: 1.2em;
+    font-size: var(--btn-icon-size);
     margin: 0 5px;
 }
 
@@ -402,41 +435,26 @@ body {
     box-shadow: inset 3px 3px 6px #4a6fa5, inset -3px -3px 6px #7aa8d6;
 }
 
-.btn-prev {
-    background: linear-gradient(135deg, #e8f0f8, #d4e6f9);
-    color: #5d8ab8;
-    box-shadow: 6px 6px 12px #b8bec8, -6px -6px 12px #ffffff;
-}
-
-.btn-prev:hover {
-    transform: translateY(-3px);
-    box-shadow: 8px 8px 16px #b8bec8, -8px -8px 16px #ffffff;
-    background: linear-gradient(135deg, #f0f6fc, #e8f0f8);
-}
-
-.btn-prev:active {
-    transform: translateY(0);
-    box-shadow: inset 3px 3px 6px #ccd9e6, inset -3px -3px 6px #ffffff;
-}
-
+.btn-prev,
 .btn-next {
     background: linear-gradient(135deg, #e8f0f8, #d4e6f9);
     color: #5d8ab8;
     box-shadow: 6px 6px 12px #b8bec8, -6px -6px 12px #ffffff;
 }
 
+.btn-prev:hover,
 .btn-next:hover {
     transform: translateY(-3px);
     box-shadow: 8px 8px 16px #b8bec8, -8px -8px 16px #ffffff;
     background: linear-gradient(135deg, #f0f6fc, #e8f0f8);
 }
 
+.btn-prev:active,
 .btn-next:active {
     transform: translateY(0);
     box-shadow: inset 3px 3px 6px #ccd9e6, inset -3px -3px 6px #ffffff;
 }
 
-/* ========== 结果显示 ========== */
 .result {
     margin-top: 25px;
     padding: 20px 30px;
@@ -475,7 +493,6 @@ body {
     75% { transform: translateX(5px); }
 }
 
-/* ========== 答案解析 ========== */
 .explanation {
     margin-top: 20px;
     padding: 25px 30px;
@@ -508,114 +525,359 @@ body {
     font-size: 1.2em;
 }
 
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* ========== 响应式设计 ========== */
 @media (max-width: 768px) {
+    :root {
+        --btn-padding-y: 9px;
+        --btn-padding-x: 14px;
+        --btn-min-height: 38px;
+        --btn-font-size: 15px;
+        --btn-border-radius: 18px;
+        --btn-min-width: 85px;
+        --btn-icon-size: 1.1em;
+    }
+
     .container {
         padding: 20px 15px;
     }
-    
+
+    .header {
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
     .title {
-        font-size: 2.2em;
+        font-size: 2.4em;
+        margin-bottom: 12px;
     }
-    
+
+    .title-icon {
+        font-size: 1.3em;
+        margin-right: 10px;
+    }
+
     .subtitle {
-        font-size: 1em;
+        font-size: 1.2em;
     }
-    
+
     .menu {
-        flex-direction: column;
-        align-items: center;
+        gap: 10px;
+        margin-bottom: 25px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding: 5px 30px;
+        -webkit-overflow-scrolling: touch;
     }
-    
+
     .menu-item {
-        width: 100%;
-        max-width: 280px;
-        min-width: auto;
+        padding: 8px 6px;
+        font-size: 10px;
+        min-width: 65px;
+        width: 65px;
+        height: 65px;
+        border-radius: 12px;
+        flex-shrink: 0;
+        box-shadow: 4px 4px 8px rgba(184, 190, 200, 0.5), -4px -4px 8px rgba(255, 255, 255, 0.8);
     }
-    
+
+    .menu-icon {
+        font-size: 1.3em;
+        margin-bottom: 3px;
+    }
+
+    .pending {
+        display: none;
+    }
+
     .exercise-card {
         padding: 25px;
-        border-radius: 20px;
+        border-radius: 25px;
     }
-    
+
     .card-header {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
+        gap: 15px;
+        text-align: left;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
     }
-    
+
     .card-header h2 {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
-    
+
+    .progress-indicator {
+        padding: 6px 14px;
+        font-size: 0.9em;
+        border-radius: 12px;
+    }
+
     .words-container {
         padding: 20px;
-        gap: 10px;
+        gap: 12px;
+        margin: 25px 0;
+        min-height: 90px;
     }
-    
+
     .word-item {
         padding: 12px 16px;
-        font-size: 1em;
+        font-size: 0.9em;
         min-width: 60px;
+        min-height: 44px;
+        border-radius: 18px;
     }
-    
+
     .actions {
-        flex-direction: column;
-        align-items: center;
+        gap: 12px;
+        margin: 25px 0;
+        justify-content: center;
+        flex-wrap: wrap;
     }
-    
-    .btn {
-        width: 100%;
-        max-width: 250px;
+
+    .result {
+        font-size: 1em;
+        padding: 18px 22px;
+        margin-top: 18px;
     }
-    
+
+    .explanation {
+        font-size: 0.95em;
+        padding: 18px 22px;
+        margin-top: 18px;
+    }
+
     .bubble {
         display: none;
     }
 }
 
 @media (max-width: 480px) {
+    :root {
+        --btn-padding-y: 8px;
+        --btn-padding-x: 12px;
+        --btn-min-height: 36px;
+        --btn-font-size: 14px;
+        --btn-border-radius: 15px;
+        --btn-min-width: 80px;
+        --btn-icon-size: 1em;
+    }
+
+    .container {
+        padding: 15px 12px;
+    }
+
+    .header {
+        margin-bottom: 25px;
+        margin-top: 18px;
+    }
+
+    .title {
+        font-size: 2.1em;
+        letter-spacing: 1px;
+    }
+
+    .title-icon {
+        font-size: 1.2em;
+        margin-right: 8px;
+    }
+
+    .subtitle {
+        font-size: 1.1em;
+    }
+
+    .menu {
+        gap: 8px;
+        margin-bottom: 20px;
+        padding: 5px 25px;
+    }
+
+    .menu-item {
+        padding: 6px 5px;
+        font-size: 9px;
+        min-width: 55px;
+        width: 55px;
+        height: 55px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 6px rgba(184, 190, 200, 0.4), -3px -3px 6px rgba(255, 255, 255, 0.9);
+    }
+
+    .menu-icon {
+        font-size: 1.1em;
+        margin-bottom: 2px;
+    }
+
+    .exercise-card {
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .card-header {
+        gap: 12px;
+        text-align: left;
+        margin-bottom: 18px;
+        padding-bottom: 12px;
+    }
+
+    .card-header h2 {
+        font-size: 1.1em;
+    }
+
+    .progress-indicator {
+        padding: 5px 12px;
+        font-size: 0.85em;
+        border-radius: 10px;
+    }
+
+    .words-container {
+        padding: 18px;
+        gap: 10px;
+        margin: 20px 0;
+        min-height: 80px;
+    }
+
+    .word-item {
+        padding: 10px 14px;
+        font-size: 0.9em;
+        min-width: 55px;
+        min-height: 44px;
+        border-radius: 15px;
+    }
+
+    .actions {
+        gap: 10px;
+        margin: 20px 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .result {
+        font-size: 0.95em;
+        padding: 15px 20px;
+        margin-top: 15px;
+        border-radius: 15px;
+    }
+
+    .explanation {
+        font-size: 0.9em;
+        padding: 15px 20px;
+        margin-top: 15px;
+        border-radius: 15px;
+        line-height: 1.7;
+    }
+}
+
+@media (max-width: 360px) {
+    .menu {
+        gap: 6px;
+        padding: 5px 20px;
+    }
+
+    .menu-item {
+        min-width: 50px;
+        width: 50px;
+        height: 50px;
+        padding: 5px 4px;
+        font-size: 8px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px rgba(184, 190, 200, 0.3), -2px -2px 4px rgba(255, 255, 255, 0.95);
+    }
+
+    .menu-icon {
+        font-size: 1em;
+    }
+
+    .header {
+        margin-bottom: 22px;
+        margin-top: 15px;
+    }
+
+    .title {
+        font-size: 1.9em;
+    }
+
+    .subtitle {
+        font-size: 1em;
+    }
+}
+
+@media (max-height: 600px) and (orientation: landscape) {
+    :root {
+        --btn-padding-y: 8px;
+        --btn-padding-x: 12px;
+        --btn-min-height: 36px;
+        --btn-font-size: 13px;
+        --btn-border-radius: 15px;
+        --btn-min-width: 75px;
+        --btn-icon-size: 1em;
+    }
+
+    .header {
+        margin-bottom: 20px;
+        margin-top: 12px;
+    }
+
     .title {
         font-size: 1.8em;
     }
-    
-    .title-icon {
-        display: block;
-        margin-bottom: 5px;
-    }
-    
-    .exercise-card {
-        padding: 20px;
-    }
-    
-    .instructions {
-        font-size: 1em;
-        padding: 12px;
-    }
-    
-    .word-item {
-        padding: 10px 14px;
+
+    .subtitle {
         font-size: 0.95em;
     }
-    
-    .result {
-        font-size: 1.1em;
-        padding: 15px 20px;
+
+    .menu {
+        gap: 8px;
+        margin-bottom: 20px;
+        padding: 5px 30px;
     }
-    
-    .explanation {
-        font-size: 1em;
-        padding: 20px 25px;
+
+    .menu-item {
+        min-width: 55px;
+        width: 55px;
+        height: 55px;
+        padding: 6px 5px;
+        font-size: 9px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px rgba(184, 190, 200, 0.3), -2px -2px 4px rgba(255, 255, 255, 0.95);
+    }
+
+    .menu-icon {
+        font-size: 1.1em;
+        margin-bottom: 2px;
+    }
+
+    .exercise-card {
+        padding: 18px;
+    }
+
+    .card-header {
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+    }
+
+    .card-header h2 {
+        font-size: 1.1em;
+    }
+
+    .progress-indicator {
+        padding: 4px 10px;
+        font-size: 0.8em;
+        border-radius: 10px;
+    }
+
+    .words-container {
+        padding: 15px;
+        margin: 15px 0;
+        min-height: 70px;
+    }
+
+    .word-item {
+        padding: 8px 12px;
+        font-size: 0.85em;
+        min-height: 44px;
+    }
+
+    .actions {
+        margin: 15px 0;
+        gap: 8px;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
