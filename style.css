@@ -1,14 +1,4 @@
 /* ========== 全局重置和基础样式 ========== */
-:root {
-    --btn-padding-y: 12px;
-    --btn-padding-x: 20px;
-    --btn-min-height: 44px;
-    --btn-font-size: 16px;
-    --btn-border-radius: 20px;
-    --btn-min-width: 95px;
-    --btn-icon-size: 1.2em;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -358,79 +348,6 @@ body {
     transition: all 0.2s ease;
 }
 
-/* 移动端触摸优化 */
-.word-item {
-    -webkit-tap-highlight-color: transparent;
-    touch-action: none;
-    will-change: transform, opacity;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    transform: translateZ(0);
-}
-
-.word-item:active {
-    transform: scale(0.95);
-    background: linear-gradient(135deg, #d4e6f9, #c5d8f0);
-}
-
-/* 触摸时的视觉反馈 */
-@media (hover: none) and (pointer: coarse) {
-    .word-item {
-        min-height: 44px;
-        min-width: 44px;
-        padding: 16px 22px;
-        font-size: 1.2em;
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
-    }
-    
-    .word-item:hover {
-        transform: none;
-    }
-    
-    .word-item:active {
-        transform: scale(0.95);
-        background: linear-gradient(135deg, #d4e6f9, #c5d8f0);
-    }
-}
-
-/* 允许文本选择，仅在拖拽元素上禁用 */
-* {
-    -webkit-touch-callout: auto;
-    -webkit-user-select: auto;
-    user-select: auto;
-}
-
-/* 触摸拖拽克隆元素样式 */
-.word-item-touch-clone {
-    position: fixed !important;
-    z-index: 10000 !important;
-    pointer-events: none !important;
-    opacity: 0.9 !important;
-    transform: translateZ(0) scale(1.1) !important;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3) !important;
-    transition: none !important;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    will-change: transform;
-}
-
-/* 优化拖拽时的动画性能 */
-.word-item.dragging {
-    opacity: 0.3;
-    transition: opacity 0.1s ease;
-}
-
-.word-item.drag-over {
-    background: linear-gradient(135deg, #7aa8d6, #5d8ab8);
-    color: #ffffff;
-    box-shadow: inset 4px 4px 8px #4a6fa5, inset -4px -4px 8px #7aa8d6;
-    transform: scale(1.05);
-    transition: all 0.15s ease;
-    -webkit-transform: scale(1.05) translateZ(0);
-    transform: scale(1.05) translateZ(0);
-}
-
 @keyframes glow {
     from {
         box-shadow: inset 4px 4px 8px #4a6fa5, inset -4px -4px 8px #7aa8d6, 0 0 10px rgba(122, 168, 214, 0.5);
@@ -449,24 +366,22 @@ body {
 }
 
 .btn {
-    padding: var(--btn-padding-y) var(--btn-padding-x);
+    padding: 15px 35px;
     border: none;
-    border-radius: var(--btn-border-radius);
+    border-radius: 20px;
     cursor: pointer;
-    font-size: var(--btn-font-size);
+    font-size: 16px;
     font-weight: 700;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: center;
     gap: 8px;
-    min-width: var(--btn-min-width);
+    min-width: 140px;
     justify-content: center;
-    height: auto;
-    min-height: var(--btn-min-height);
 }
 
 .btn-icon {
-    font-size: var(--btn-icon-size);
+    font-size: 1.2em;
     margin: 0 5px;
 }
 
@@ -610,132 +525,59 @@ body {
         padding: 20px 15px;
     }
     
-    .header {
-        margin-bottom: 30px;
-        margin-top: 20px;
-    }
-    
     .title {
-        font-size: 2.4em;
-        margin-bottom: 12px;
-    }
-    
-    .title-icon {
-        font-size: 1.3em;
-        margin-right: 10px;
+        font-size: 2.2em;
     }
     
     .subtitle {
-        font-size: 1.2em;
+        font-size: 1em;
     }
     
     .menu {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        margin-bottom: 25px;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        padding: 5px 30px;
-        -webkit-overflow-scrolling: touch;
+        flex-direction: column;
+        align-items: center;
     }
     
     .menu-item {
-        padding: 8px 6px;
-        font-size: 10px;
-        min-width: 65px;
-        width: 65px;
-        height: 65px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border-radius: 12px;
-        flex-shrink: 0;
-        box-shadow: 4px 4px 8px rgba(184, 190, 200, 0.5), -4px -4px 8px rgba(255, 255, 255, 0.8);
-    }
-    
-    .menu-icon {
-        font-size: 1.3em;
-        margin-bottom: 3px;
-    }
-    
-    .pending {
-        display: none;
+        width: 100%;
+        max-width: 280px;
+        min-width: auto;
     }
     
     .exercise-card {
         padding: 25px;
-        border-radius: 25px;
+        border-radius: 20px;
     }
     
     .card-header {
-        flex-direction: row;
-        gap: 15px;
-        text-align: left;
-        margin-bottom: 20px;
-        padding-bottom: 15px;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
     }
     
     .card-header h2 {
-        font-size: 1.3em;
-    }
-    
-    .progress-indicator {
-        padding: 6px 14px;
-        font-size: 0.9em;
-        border-radius: 12px;
+        font-size: 1.5em;
     }
     
     .words-container {
         padding: 20px;
-        gap: 12px;
-        margin: 25px 0;
-        min-height: 90px;
+        gap: 10px;
     }
     
     .word-item {
         padding: 12px 16px;
-        font-size: 0.9em;
+        font-size: 1em;
         min-width: 60px;
-        min-height: 44px;
-        border-radius: 18px;
-        touch-action: none;
-        -webkit-tap-highlight-color: transparent;
-    }
-    
-    .word-item:active {
-        transform: scale(0.95);
-        background: linear-gradient(135deg, #d4e6f9, #c5d8f0);
     }
     
     .actions {
-        flex-direction: row;
-        gap: 12px;
-        margin: 25px 0;
-        justify-content: center;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
     }
     
-    :root {
-        --btn-padding-y: 9px;
-        --btn-padding-x: 14px;
-        --btn-min-height: 38px;
-        --btn-font-size: 15px;
-        --btn-border-radius: 18px;
-        --btn-min-width: 85px;
-        --btn-icon-size: 1.1em;
-    }
-    
-    .result {
-        font-size: 1em;
-        padding: 18px 22px;
-        margin-top: 18px;
-    }
-    
-    .explanation {
-        font-size: 0.95em;
-        padding: 18px 22px;
-        margin-top: 18px;
+    .btn {
+        width: 100%;
+        max-width: 250px;
     }
     
     .bubble {
@@ -744,253 +586,36 @@ body {
 }
 
 @media (max-width: 480px) {
-    .container {
-        padding: 15px 12px;
-    }
-    
-    .header {
-        margin-bottom: 25px;
-        margin-top: 18px;
-    }
-    
-    .title {
-        font-size: 2.1em;
-        letter-spacing: 1px;
-    }
-    
-    .title-icon {
-        font-size: 1.2em;
-        margin-right: 8px;
-    }
-    
-    .subtitle {
-        font-size: 1.1em;
-    }
-    
-    .menu {
-        gap: 8px;
-        margin-bottom: 20px;
-        padding: 5px 25px;
-    }
-    
-    .menu-item {
-        padding: 6px 5px;
-        font-size: 9px;
-        min-width: 55px;
-        width: 55px;
-        height: 55px;
-        border-radius: 10px;
-        box-shadow: 3px 3px 6px rgba(184, 190, 200, 0.4), -3px -3px 6px rgba(255, 255, 255, 0.9);
-    }
-    
-    .menu-icon {
-        font-size: 1.1em;
-        margin-bottom: 2px;
-    }
-    
-    .exercise-card {
-        padding: 20px;
-        border-radius: 20px;
-    }
-    
-    .card-header {
-        flex-direction: row;
-        gap: 12px;
-        text-align: left;
-        margin-bottom: 18px;
-        padding-bottom: 12px;
-    }
-    
-    .card-header h2 {
-        font-size: 1.1em;
-    }
-    
-    .progress-indicator {
-        padding: 5px 12px;
-        font-size: 0.85em;
-        border-radius: 10px;
-    }
-    
-    .words-container {
-        padding: 18px;
-        gap: 10px;
-        margin: 20px 0;
-        min-height: 80px;
-    }
-    
-    .word-item {
-        padding: 10px 14px;
-        font-size: 0.9em;
-        min-width: 55px;
-        min-height: 44px;
-        border-radius: 15px;
-        touch-action: none;
-        -webkit-tap-highlight-color: transparent;
-    }
-    
-    .word-item:active {
-        transform: scale(0.95);
-        background: linear-gradient(135deg, #d4e6f9, #c5d8f0);
-    }
-    }
-    
-    .actions {
-        gap: 10px;
-        margin: 20px 0;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    
-    :root {
-        --btn-padding-y: 8px;
-        --btn-padding-x: 12px;
-        --btn-min-height: 36px;
-        --btn-font-size: 14px;
-        --btn-border-radius: 15px;
-        --btn-min-width: 80px;
-        --btn-icon-size: 1em;
-    }
-    
-    .result {
-        font-size: 0.95em;
-        padding: 15px 20px;
-        margin-top: 15px;
-        border-radius: 15px;
-    }
-    
-    .explanation {
-        font-size: 0.9em;
-        padding: 15px 20px;
-        margin-top: 15px;
-        border-radius: 15px;
-        line-height: 1.7;
-    }
-
-
-
-
-
-@media (max-width: 360px) {
-    .menu {
-        gap: 6px;
-        padding: 5px 20px;
-    }
-    
-    .menu-item {
-        min-width: 50px;
-        width: 50px;
-        height: 50px;
-        padding: 5px 4px;
-        font-size: 8px;
-        border-radius: 10px;
-        box-shadow: 2px 2px 4px rgba(184, 190, 200, 0.3), -2px -2px 4px rgba(255, 255, 255, 0.95);
-    }
-    
-    .menu-icon {
-        font-size: 1em;
-    }
-    
-    .header {
-        margin-bottom: 22px;
-        margin-top: 15px;
-    }
-    
-    .title {
-        font-size: 1.9em;
-    }
-    
-    .subtitle {
-        font-size: 1em;
-    }
-}
-
-@media (max-height: 600px) and (orientation: landscape) {
-    .header {
-        margin-bottom: 20px;
-        margin-top: 12px;
-    }
-    
     .title {
         font-size: 1.8em;
     }
     
-    .subtitle {
-        font-size: 0.95em;
-    }
-    
-    .menu {
-        gap: 8px;
-        margin-bottom: 20px;
-        padding: 5px 30px;
-    }
-    
-    .menu-item {
-        min-width: 55px;
-        width: 55px;
-        height: 55px;
-        padding: 6px 5px;
-        font-size: 9px;
-        border-radius: 10px;
-        box-shadow: 2px 2px 4px rgba(184, 190, 200, 0.3), -2px -2px 4px rgba(255, 255, 255, 0.95);
-    }
-    
-    .menu-icon {
-        font-size: 1.1em;
-        margin-bottom: 2px;
+    .title-icon {
+        display: block;
+        margin-bottom: 5px;
     }
     
     .exercise-card {
-        padding: 18px;
+        padding: 20px;
     }
     
-    .card-header {
-        margin-bottom: 15px;
-        padding-bottom: 10px;
-    }
-    
-    .card-header h2 {
-        font-size: 1.1em;
-    }
-    
-    .progress-indicator {
-        padding: 4px 10px;
-        font-size: 0.8em;
-        border-radius: 10px;
-    }
-    
-    .words-container {
-        padding: 15px;
-        margin: 15px 0;
-        min-height: 70px;
+    .instructions {
+        font-size: 1em;
+        padding: 12px;
     }
     
     .word-item {
-        padding: 8px 12px;
-        font-size: 0.85em;
-        min-height: 44px;
-        touch-action: none;
-        -webkit-tap-highlight-color: transparent;
+        padding: 10px 14px;
+        font-size: 0.95em;
     }
     
-    .word-item:active {
-        transform: scale(0.95);
-        background: linear-gradient(135deg, #d4e6f9, #c5d8f0);
+    .result {
+        font-size: 1.1em;
+        padding: 15px 20px;
     }
     
-    .actions {
-        margin: 15px 0;
-        gap: 8px;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    
-    :root {
-        --btn-padding-y: 8px;
-        --btn-padding-x: 12px;
-        --btn-min-height: 36px;
-        --btn-font-size: 13px;
-        --btn-border-radius: 15px;
-        --btn-min-width: 75px;
-        --btn-icon-size: 1em;
+    .explanation {
+        font-size: 1em;
+        padding: 20px 25px;
     }
 }
