@@ -86,8 +86,124 @@
             <div id="result" class="result"></div>
             <div id="explanation" class="explanation"></div>
         </div>
+
+        <div class="ai-chat-card">
+            <div class="card-header">
+                <h2>AI英语助手 <span class="ai-status-indicator"><span class="status-dot"></span><span class="status-text">在线</span></span></h2>
+                <button id="newChatBtn" class="new-chat-btn">
+                    <span class="new-chat-icon">🐾</span>
+                    新建对话
+                </button>
+            </div>
+
+            <div id="chatMessages" class="chat-messages">
+                <div class="chat-messages-wrapper">
+                    <div class="chat-message ai-message">
+                        <div class="message-avatar has-image">
+                            <img src="史迪仔.png" alt="AI头像">
+                        </div>
+                        <div class="message-content">
+                            <div class="message-text">你好！我是你的AI英语学习助手。你可以问我任何关于英语语法、词汇、翻译的问题，我会尽力帮助你！</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-input-container">
+                <div class="input-wrapper">
+                    <input 
+                        type="text" 
+                        id="chatInput" 
+                        class="chat-input" 
+                        placeholder="输入你的问题..."
+                        autocomplete="off"
+                    >
+                    <button id="sendBtn" class="send-btn">
+                        <span class="send-icon">➤</span>
+                    </button>
+                </div>
+                <div class="input-hint">按 Enter 发送消息</div>
+            </div>
+        </div>
     </div>
     
+    <!-- 头像更换模态窗口 -->
+    <div id="avatarModal" class="avatar-modal">
+        <div class="avatar-modal-overlay"></div>
+        <div class="avatar-modal-content">
+            <div class="avatar-modal-header">
+                <h3>更换头像</h3>
+                <button class="avatar-modal-close" id="closeAvatarModal">&times;</button>
+            </div>
+            <div class="avatar-modal-body">
+                <div class="avatar-preview-container">
+                    <div class="avatar-preview">
+                        <img id="avatarPreviewImg" src="" class="avatar-preview-img">
+                        <span id="avatarPreviewDefault" class="avatar-preview-default">👤</span>
+                    </div>
+                </div>
+                <div class="avatar-presets-section">
+                    <p class="presets-title">或选择预设头像</p>
+                    <div class="avatar-presets">
+                        <div class="avatar-preset" data-avatar="用户1.png">
+                            <img src="用户1.png" alt="预设头像1">
+                        </div>
+                        <div class="avatar-preset" data-avatar="用户2.jpg">
+                            <img src="用户2.jpg" alt="预设头像2">
+                        </div>
+                        <div class="avatar-preset" data-avatar="用户3.jpg">
+                            <img src="用户3.jpg" alt="预设头像3">
+                        </div>
+                    </div>
+                </div>
+                <div class="avatar-upload-section">
+                    <label for="avatarUpload" class="avatar-upload-btn">
+                        <span class="upload-icon">📷</span>
+                        选择图片
+                    </label>
+                    <input type="file" id="avatarUpload" accept="image/*" class="avatar-upload-input" hidden>
+                    <p class="upload-hint">支持 JPG、PNG、GIF 格式，建议尺寸 200x200 像素</p>
+                </div>
+                <div class="avatar-advanced-section">
+                    <button class="avatar-advanced-toggle" id="advancedToggle">
+                        <span class="advanced-icon">⚙️</span>
+                        高级功能
+                        <span class="toggle-arrow">▼</span>
+                    </button>
+                    <div class="avatar-advanced-content" id="advancedContent">
+                        <div class="advanced-item">
+                            <label class="advanced-label">名称：</label>
+                            <input type="text" id="aiNameInput" class="advanced-input" placeholder="AI英语助手">
+                        </div>
+                        <div class="advanced-item">
+                            <label class="advanced-label">模型：</label>
+                            <select id="modelSelect" class="advanced-select">
+                                <option value="qwen-flash">qwen-flash</option>
+                                <option value="qwen-turbo">qwen-turbo</option>
+                                <option value="qwen-plus">qwen-plus</option>
+                                <option value="qwen-max">qwen-max</option>
+                                <option value="qwen-long-latest">qwen-long-latest</option>
+                                <option value="qwen3-coder-plus">qwen3-coder-plus</option>
+                            </select>
+                        </div>
+                        <div class="advanced-item">
+                            <label class="advanced-label">系统提示词：</label>
+                            <textarea id="systemPromptInput" class="advanced-textarea" rows="4" placeholder="请输入系统提示词"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="avatar-modal-footer">
+                <button class="avatar-btn avatar-btn-reset" id="resetAvatarBtn">重置</button>
+                <button class="avatar-btn avatar-btn-cancel" id="cancelAvatarBtn">取消</button>
+                <button class="avatar-btn avatar-btn-confirm" id="confirmAvatarBtn">确认更换</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.19.0/js/md5.min.js"></script>
+    <script src="baidu-translate.js"></script>
+    <script src="ai-service.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
