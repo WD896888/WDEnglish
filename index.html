@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>英语练习题</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grammar-fill.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -22,7 +23,7 @@
                 <span class="title-icon">📚</span>
                 WDEnglish
             </h1>
-            <p class="subtitle">拾起散落的语言碎片，拼凑属于自己的表达</p>
+            <p class="subtitle" id="subtitle">拾起散落的语言碎片，拼凑属于自己的表达</p>
         </div>
         
         <div class="menu">
@@ -30,10 +31,9 @@
                 <span class="menu-icon">🔗</span>
                 连词成句
             </button>
-            <button class="menu-item disabled">
+            <button class="menu-item">
                 <span class="menu-icon">📝</span>
                 语法填空
-                <span class="pending">更多功能敬请期待</span>
             </button>
             <button class="menu-item disabled">
                 <span class="menu-icon">🌐</span>
@@ -85,6 +85,39 @@
             
             <div id="result" class="result"></div>
             <div id="explanation" class="explanation"></div>
+        </div>
+
+        <div class="exercise-card grammar-card hidden">
+            <div class="card-header">
+                <h2>语法填空</h2>
+                <div class="progress-indicator">
+                    <span id="grammarQuestionNumber">1</span>
+                    <span class="divider">/</span>
+                    <span id="grammarTotalQuestions">1</span>
+                </div>
+            </div>
+
+            <div id="grammarContent" class="grammar-content">
+                <!-- 动态渲染题目内容 -->
+            </div>
+
+            <div class="actions">
+                <button id="grammarPrevBtn" class="btn btn-prev">
+                    <span class="btn-icon">←</span>
+                    上一题
+                </button>
+                <button id="grammarCheckBtn" class="btn btn-check">
+                    <span class="btn-icon">✓</span>
+                    检查答案
+                </button>
+                <button id="grammarNextBtn" class="btn btn-next">
+                    下一题
+                    <span class="btn-icon">→</span>
+                </button>
+            </div>
+
+            <div id="grammarResult" class="result"></div>
+            <div id="grammarExplanation" class="explanation"></div>
         </div>
 
         <div class="ai-chat-card">
@@ -205,5 +238,6 @@
     <script src="baidu-translate.js"></script>
     <script src="ai-service.js"></script>
     <script src="script.js"></script>
+    <script src="grammar-fill.js"></script>
 </body>
 </html>

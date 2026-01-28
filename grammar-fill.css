@@ -1,0 +1,568 @@
+/* ========== 菜单切换样式 ========== */
+.menu-item {
+    transition: all 0.3s ease;
+}
+
+.menu-item.active {
+    background: linear-gradient(135deg, #7aa8d6, #5d8ab8);
+    color: #ffffff;
+    box-shadow: 6px 6px 12px #4a6fa5, -6px -6px 12px #a5c8e8;
+}
+
+/* ========== 卡片显示控制 ========== */
+.exercise-card.hidden {
+    display: none !important;
+}
+
+/* ========== 语法填空卡片样式 (轻度笔记风) ========== */
+.grammar-card {
+    /* 继承现有卡片基础样式 */
+    /* 添加笔记纹理装饰 */
+    position: relative;
+    overflow: visible;
+    pointer-events: auto;
+}
+
+/* 语法填空引言横线容器 */
+.grammar-quote-line {
+    position: relative;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -15px 0 15px 0;
+}
+
+/* 引言横线 */
+.grammar-quote-line::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 2px;
+    background: rgba(173, 216, 230, 0.5);
+    z-index: 1;
+}
+
+/* 语法填空引言区域 */
+.grammar-quote {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 0 20px;
+    background: linear-gradient(135deg, #e3edf7, #d4e6f9);
+}
+
+.grammar-quote .quote-mark {
+    font-size: 18px;
+    color: rgba(122, 168, 214, 0.5);
+    font-family: 'Georgia', serif;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.grammar-quote .quote-text {
+    font-size: 13px;
+    font-style: italic;
+    color: #5d8ab8;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+
+.grammar-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: repeating-linear-gradient(
+        transparent,
+        transparent 27px,
+        rgba(173, 216, 230, 0.15) 28px
+    );
+    pointer-events: none;
+    z-index: 0;
+}
+
+.grammar-content {
+    position: relative;
+    z-index: 10;
+    padding: 20px 0;
+    min-height: 200px;
+    -webkit-user-select: text;
+    user-select: text;
+    pointer-events: auto;
+}
+
+.grammar-paragraph {
+    margin-bottom: 24px;
+    line-height: 2;
+    font-size: 16px;
+    color: #4a6fa5;
+    pointer-events: auto;
+    position: relative;
+    z-index: 5;
+}
+
+.grammar-sentence {
+    display: inline;
+    margin-right: 8px;
+    -webkit-user-select: text;
+    user-select: text;
+    pointer-events: auto;
+    position: relative;
+    z-index: 5;
+}
+
+.grammar-text {
+    color: #4a6fa5;
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+.grammar-number {
+    color: #5d8ab8;
+    font-weight: 600;
+    margin: 0 0 0 8px;
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+/* 语法填空输入框 */
+.grammar-blank {
+    display: inline-block;
+    width: 80px;
+    min-width: 80px;
+    max-width: 200px;
+    height: 24px;
+    border: none;
+    border-bottom: 2px solid rgba(93, 138, 184, 0.5);
+    border-radius: 0;
+    background: transparent;
+    padding: 0 6px;
+    margin: 0 4px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #4a6fa5;
+    text-align: left;
+    pointer-events: auto;
+    -webkit-user-select: text;
+    user-select: text;
+    -webkit-touch-callout: text;
+    cursor: text;
+    box-sizing: border-box;
+    line-height: 20px;
+    vertical-align: middle;
+    transition: none;
+}
+
+.grammar-hint {
+    color: #7aa8d6;
+    font-size: 15px;
+    font-style: italic;
+    margin: 0 2px;
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+.grammar-blank:focus {
+    outline: none;
+    border-bottom-color: rgba(93, 138, 184, 0.6);
+}
+
+/* 正确状态 */
+.grammar-blank.correct {
+    border-bottom-color: rgba(40, 167, 69, 0.6);
+    color: #155724;
+}
+
+/* 错误状态 */
+.grammar-blank.incorrect {
+    border-bottom-color: rgba(220, 53, 69, 0.6);
+    color: #721c24;
+}
+
+/* 答案列表样式 */
+.answers-list {
+    margin-bottom: 5px;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+.answers-list strong {
+    color: #4a6fa5;
+    font-size: 16px;
+}
+
+.answer-item {
+    display: inline-block;
+    width: 120px;
+    color: #5d8ab8;
+    font-weight: 600;
+    margin: 5px 0;
+    text-align: left;
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+.answer-spacer {
+    display: inline-block;
+    width: 60px;
+}
+
+/* 按钮禁用状态 */
+.btn.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* 响应式适配 */
+@media (max-width: 768px) {
+    .grammar-quote-line {
+        height: 26px;
+        margin: -13px 0 12px 0;
+    }
+
+    .grammar-quote {
+        padding: 0 15px;
+        gap: 4px;
+    }
+
+    .grammar-quote .quote-mark {
+        font-size: 16px;
+    }
+
+    .grammar-quote .quote-text {
+        font-size: 12px;
+        letter-spacing: 0.2px;
+        white-space: normal;
+    }
+
+    .grammar-content {
+        padding: 15px 0;
+    }
+
+    .grammar-paragraph {
+        font-size: 15px;
+        line-height: 1.9;
+        margin-bottom: 20px;
+    }
+
+    .grammar-blank {
+        min-width: 70px !important;
+        max-width: 180px !important;
+        min-height: 22px !important;
+        font-size: 14px !important;
+        padding: 3px 5px 1px 5px !important;
+        margin: 0 4px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .grammar-quote-line {
+        height: 24px;
+        margin: -12px 0 10px 0;
+    }
+
+    .grammar-quote {
+        padding: 0 12px;
+        gap: 3px;
+    }
+
+    .grammar-quote .quote-mark {
+        font-size: 14px;
+    }
+
+    .grammar-quote .quote-text {
+        font-size: 11px;
+        letter-spacing: 0.1px;
+        white-space: normal;
+        line-height: 1.3;
+    }
+
+    .grammar-content {
+        padding: 10px 0;
+    }
+
+    .grammar-paragraph {
+        font-size: 14px;
+        line-height: 1.8;
+        margin-bottom: 16px;
+    }
+
+    .grammar-sentence {
+        margin-right: 4px;
+    }
+
+    .grammar-blank {
+        min-width: 60px !important;
+        max-width: 160px !important;
+        min-height: 20px !important;
+        font-size: 13px !important;
+        padding: 2px 4px 1px 4px !important;
+        margin: 0 3px !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .grammar-quote-line {
+        height: 22px;
+        margin: -11px 0 8px 0;
+    }
+
+    .grammar-quote {
+        padding: 0 10px;
+        gap: 2px;
+    }
+
+    .grammar-quote .quote-mark {
+        font-size: 12px;
+    }
+
+    .grammar-quote .quote-text {
+        font-size: 10px;
+        letter-spacing: 0;
+        white-space: normal;
+        line-height: 1.2;
+    }
+
+    .grammar-paragraph {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .grammar-blank {
+        min-width: 50px !important;
+        max-width: 140px !important;
+        min-height: 18px !important;
+        font-size: 13px !important;
+        padding: 2px 3px 1px 3px !important;
+        margin: 0 2px !important;
+    }
+}
+
+/* 横屏模式优化 */
+@media (max-height: 600px) and (orientation: landscape) {
+    .grammar-quote-line {
+        height: 24px;
+        margin: -12px 0 10px 0;
+    }
+
+    .grammar-quote {
+        padding: 0 12px;
+        gap: 3px;
+    }
+
+    .grammar-quote .quote-mark {
+        font-size: 14px;
+    }
+
+    .grammar-quote .quote-text {
+        font-size: 11px;
+        white-space: normal;
+    }
+
+    .grammar-content {
+        padding: 10px 0;
+    }
+
+    .grammar-paragraph {
+        margin-bottom: 12px;
+        line-height: 1.6;
+    }
+}
+
+/* 动画效果已移除 */
+
+/* 打印样式 */
+@media print {
+    .grammar-card::before {
+        display: none;
+    }
+    
+    .grammar-blank {
+        border-bottom: 1px solid #000;
+        background: transparent;
+        color: #000;
+    }
+}
+
+/* ========== 翻译气泡框样式 ========== */
+.translation-tooltip {
+    position: fixed;
+    z-index: 9999;
+    width: 200px;
+    min-height: 60px;
+    max-height: 150px;
+    overflow-y: auto;
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    border: 1px solid rgba(122, 168, 214, 0.3);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(74, 111, 165, 0.2), 0 2px 8px rgba(74, 111, 165, 0.1);
+    padding: 12px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #4a6fa5;
+    display: none;
+    pointer-events: auto;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    animation: tooltipFadeIn 0.2s ease-out;
+}
+
+/* 气泡框箭头 */
+.translation-tooltip::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 10px solid transparent;
+    border-top-color: rgba(255, 255, 255, 0.95);
+    filter: drop-shadow(0 2px 4px rgba(74, 111, 165, 0.1));
+}
+
+/* 气泡框箭头（底部显示时） */
+.translation-tooltip.tooltip-bottom::before {
+    top: -10px;
+    bottom: auto;
+    border-top-color: transparent;
+    border-bottom-color: rgba(255, 255, 255, 0.95);
+}
+
+/* 气泡框内容 */
+.tooltip-content {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.tooltip-original {
+    font-size: 13px;
+    color: #7aa8d6;
+    font-weight: 500;
+    font-style: italic;
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgba(122, 168, 214, 0.2);
+}
+
+.tooltip-translation {
+    font-size: 15px;
+    color: #4a6fa5;
+    font-weight: 600;
+}
+
+/* 加载状态 */
+.tooltip-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    color: #7aa8d6;
+    font-size: 14px;
+    gap: 8px;
+}
+
+.tooltip-loading::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(122, 168, 214, 0.3);
+    border-top-color: #7aa8d6;
+    border-radius: 50%;
+    animation: tooltipSpin 0.8s linear infinite;
+}
+
+/* 错误状态 */
+.tooltip-error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    color: #dc3545;
+    font-size: 14px;
+}
+
+/* 气泡框动画 */
+@keyframes tooltipFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes tooltipSpin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* 响应式适配 */
+@media (max-width: 768px) {
+    .translation-tooltip {
+        width: 180px;
+        min-height: 50px;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .tooltip-original {
+        font-size: 12px;
+    }
+
+    .tooltip-translation {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .translation-tooltip {
+        width: 160px;
+        min-height: 45px;
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .tooltip-original {
+        font-size: 11px;
+    }
+
+    .tooltip-translation {
+        font-size: 13px;
+    }
+}
+
+/* 滚动条样式 */
+.translation-tooltip::-webkit-scrollbar {
+    width: 4px;
+}
+
+.translation-tooltip::-webkit-scrollbar-track {
+    background: rgba(122, 168, 214, 0.1);
+    border-radius: 2px;
+}
+
+.translation-tooltip::-webkit-scrollbar-thumb {
+    background: rgba(122, 168, 214, 0.3);
+    border-radius: 2px;
+}
+
+.translation-tooltip::-webkit-scrollbar-thumb:hover {
+    background: rgba(122, 168, 214, 0.5);
+}

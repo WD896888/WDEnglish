@@ -164,19 +164,60 @@ const explanationDiv = document.getElementById('explanation');
 const questionNumberEl = document.getElementById('questionNumber');
 const totalQuestionsEl = document.getElementById('totalQuestions');
 
+// ========== 菜单切换功能 ==========
+function initMenuSwitch() {
+    const menuItems = document.querySelectorAll('.menu-item');
+    const sentenceCard = document.querySelector('.exercise-card:not(.grammar-card)');
+    const grammarCard = document.querySelector('.grammar-card');
+
+    menuItems.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            // 跳过 disabled 菜单项
+            if (item.classList.contains('disabled')) {
+                return;
+            }
+
+            // 切换 active 状态
+            menuItems.forEach(mi => mi.classList.remove('active'));
+            item.classList.add('active');
+
+            // 切换卡片显示
+            switchCard(index, sentenceCard, grammarCard);
+        });
+    });
+}
+
+// 切换卡片显示
+function switchCard(menuIndex, sentenceCard, grammarCard) {
+    // 0: 连词成句, 1: 语法填空
+    const subtitle = document.getElementById('subtitle');
+    if (menuIndex === 0) {
+        if (sentenceCard) sentenceCard.classList.remove('hidden');
+        if (grammarCard) grammarCard.classList.add('hidden');
+        if (subtitle) subtitle.textContent = '拾起散落的语言碎片，拼凑属于自己的表达';
+    } else if (menuIndex === 1) {
+        if (sentenceCard) sentenceCard.classList.add('hidden');
+        if (grammarCard) grammarCard.classList.remove('hidden');
+        if (subtitle) subtitle.textContent = '不是所有空白都代表缺失，有些，是词语间未说完的余韵';
+    }
+}
+
 // 初始化页面
 document.addEventListener('DOMContentLoaded', () => {
+    // 初始化菜单切换
+    initMenuSwitch();
+
     // 更新总题数
     totalQuestionsEl.textContent = questions.length;
-    
+
     // 尝试恢复进度
     const progressRestored = loadProgress();
     if (progressRestored) {
         console.log('进度已恢复到第', currentQuestionIndex + 1, '题');
     }
-    
+
     loadQuestion();
-    
+
     // 绑定事件
     checkBtn.addEventListener('click', checkAnswer);
     prevBtn.addEventListener('click', prevQuestion);
@@ -184,7 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 初始化AI聊天窗口滚动控制
     initChatScrollControl();
-    
+
     // 禁用右键菜单
     document.addEventListener('contextmenu', (e) => {
         e.preventDefault();
