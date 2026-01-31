@@ -932,6 +932,177 @@ Audience 这个词很特殊，它是一个集合名词，通常指“观众群�
 所有的熟练，都是从生涩的填空开始的
 此处留白，非为缺憾，乃邀君共书
 `
+    },
+    {
+content: `The Sichuan-Tibet Railway, 1. ________ is being built with world-leading technology, will be one of the 2. ________ (difficult) railway projects in human history. It starts in Chengdu and ends in Lhasa, 3. ________ (cover) a distance of 1,838 kilometers.
+
+What makes this project challenging is that workers must build tracks through mountains and over rivers 4. ________ (dig) dozens of tunnels and bridges. The railway climbs from 500 meters 5. ________ sea level to over 4,000 meters, requiring engineers 6. ________ (solve) complex geological problems.
+
+7. ________ (complete), the railway will shorten the travel time between Tibet and inland China from 48 hours to just 13 hours. This will greatly boost local economic 8. ________ (grow) and improve the lives of people in Tibet.
+
+"Every tunnel we dig and every bridge 9. ________ (build) represents a promise to 10. ________ (connect) the mainland with our Tibetan brothers and sisters," said a chief engineer.`,
+        blanks: [
+            { index: 1, answer: "which" },
+            { index: 2, answer: "most difficult" },
+            { index: 3, answer: "covering" },
+            { index: 4, answer: "digging" },
+            { index: 5, answer: "above" },
+            { index: 6, answer: "to solve" },
+            { index: 7, answer: "Completed" },
+            { index: 8, answer: "growth" },
+            { index: 9, answer: "built / we build" },
+            { index: 10, answer: "connect" }
+        ],
+        explanation: `题目解析：
+
+第一题
+原文： The Sichuan-Tibet Railway, 1.  is being built with world-leading technology, will be one of the most difficult railway projects in human history.
+翻译： 川藏铁路正在以世界领先的技术建设，将是人类历史上最困难的铁路项目之一。
+
+分析：
+你看，句子中间有两个逗号，把一部分话隔开了：“1.  is being built...”。这部分是在补充说明前面的“川藏铁路”。
+这里的线索词是逗号。在英语里，如果两个句子中间只用逗号隔开，通常会出问题，除非有一个连词或者引导词。
+这个空缺处缺的是主语，指代前面的“铁路”。铁路是物体，不是人。
+我们需要一个能指代物体、又能放在句首的词。
+
+规则： 这里考的是 非限制性定语从句。
+专业术语解释：“定语从句”就是一个像小尾巴一样的句子，用来修饰前面的名词。
+大白话规则：逗号后面如果要接一个完整的句子来补充前面的事物，而且前面是“物”，我们就用 which。如果是人，才用 who。
+答案： which
+
+第二题
+原文： ...will be one of the 2. ________ (difficult) railway projects in human history.
+翻译： ...将是人类历史上最困难的铁路项目之一。
+
+分析：
+线索词是前面的 one of（...之一）和后面的 in human history（在人类历史上）。
+既然是“人类历史上”的“之一”，说明是在和全世界的所有铁路项目做比较。
+这时候我们就不能只用普通的形容词了，要用“最...”的那种感觉。
+
+规则： 这里考的是 形容词的最高级。
+大白话规则：当你要表达“最...”的意思时，如果是长单词（比如 difficult），就在前面加 most；如果是短单词，通常加 -est。这里肯定是形容“最困难”的。
+答案： most difficult
+
+第三题
+原文： It starts in Chengdu and ends in Lhasa, 3. ________ (cover) a distance of 1,838 kilometers.
+翻译： 它起于成都止于拉萨，全程1838公里。
+
+分析：
+前半句说“起于成都止于拉萨”，后半句说“覆盖1838公里”。
+你看，逗号后面的动作是“铁路”发出的。铁路“覆盖”距离，是它自然而然的一个结果。
+注意看，前面已经有动词 starts 和 ends 了，中间用的是 and 连接。现在逗号后面不能再来一个谓语动词，否则就乱套了。我们要把它变成一种“陪衬”的形式。
+
+规则： 这里考的是 非谓语动词中的现在分词（-ing形式）做状语。
+专业术语解释：“非谓语动词”就是虽然它长着动词的样子，但不是句子里的大佬（谓语）。
+大白话规则：当主语（铁路）主动发出某个动作，并且这个动作是顺便发生的或自然的结果，就把动词后面加 -ing。
+答案： covering
+
+第四题
+原文： What makes this project challenging is that workers must build tracks through mountains and over rivers 4. ________ (dig) dozens of tunnels and bridges.
+翻译： 这个项目之所以具有挑战性，是因为工人们必须穿过山脉、越过河流修建轨道，（同时）挖掘几十条隧道和桥梁。
+
+分析：
+工人们要“修建轨道”，还要“挖掘隧道”。这两个动作是工人们同时在做。
+这里的 dig 不是主句的主要动作，它是用来解释怎么 build tracks 的，是一种方式或伴随的情况。
+
+规则： 这里考的是 非谓语动词做方式状语或伴随状语。
+大白话规则：做一件事的同时，顺便做另一件事，或者说通过做这件事来达到目的，通常就在动词后面加 -ing。你可以理解为前面省略了一个“by”（通过...）。
+答案： digging
+
+第五题
+原文： The railway climbs from 500 meters 5. ________ sea level to over 4,000 meters...
+翻译： 铁路从海拔500米攀升到4000米以上...
+
+分析：
+这里讲的是高度，是关于“海平面”的。
+这是一个固定的搭配，就像我们说“在...之上”。
+规则： 这里考的是 介词短语固定搭配。
+大白话规则：提到“海拔...”或者“海平面之上”，英语里习惯用 above sea level。记下来这个短语就好。
+答案： above
+
+第六题
+原文： ...requiring engineers 6. ________ (solve) complex geological problems.
+翻译： ...这就要求工程师们解决复杂的地质问题。
+
+分析：
+线索词是 requiring（要求）。
+我们常说“要求某人做某事”。工程师是“被要求”去解决问题的。
+当表示“要求去做...”这个目的时，我们需要用一个特定的符号来连接。
+
+规则： 这里考的是 不定式做宾语补足语。
+专业术语解释：“不定式”就是 to + 动词原形。
+大白话规则：在 require（要求）、tell（告诉）、want（想要）这些词后面，要让某人去干活，一定要加 to。
+答案： to solve
+
+第七题
+原文： 7. ________ (complete), the railway will shorten the travel time between Tibet and inland China from 48 hours to just 13 hours.
+翻译： （铁路）完工后，将缩短西藏和中国内陆之间的旅行时间...
+
+分析：
+这个空的词是 complete（完成）。
+你想，是铁路自己完成吗？不是，是铁路“被”工程师完成。所以是被动的意思。
+而且，只有先“完成了”，后面才能“缩短旅行时间”。这是个时间先后顺序。
+
+规则： 这里考的是 过去分词做状语。
+专业术语解释：“过去分词”通常表示 被动 或 完成。
+大白话规则：既然这件事（完成）是主语（铁路）接受的动作，而且已经做完了，我们就把 complete 变成 Completed。这就像说“Once it is completed”（一旦它完工了）的简化版。
+答案： Completed
+
+第八题
+原文： This will greatly boost local economic 8. ________ (grow)...
+翻译： 这将极大地促进当地的经济发展...
+
+分析：
+线索词是前面的 economic（经济的）。你看，它是个形容词。
+形容词后面通常要跟一个名词，这样才能组成一个名词短语（比如：经济增长）。
+grow 是动词“生长”，我们要把它变成名词形式。
+
+规则： 这里考的是 词性转换（动词变名词）。
+大白话规则：英语里很多动词后面加 -th 就可以变成名词。比如 wide（宽）-> width（宽度），long（长）-> length（长度），grow（生长）-> growth（增长）。
+答案： growth
+
+第九题
+原文： "Every tunnel we dig and every bridge 9. ________ (build) represents a promise to connect the mainland with our Tibetan brothers and sisters," said a chief engineer.
+翻译： “我们挖掘的每一条隧道和建造的每一座桥，都代表着将大陆与我们的藏族兄弟姐妹连接起来的承诺，”一位总工程师说道。
+
+分析：
+前半句说 "Every tunnel we dig"（我们挖的每一条隧道）。这里其实省略了 "that"：Every tunnel (that) we dig。
+后半句是 "every bridge 9. ________"。你看，它是和前面的 "we dig" 对应的。
+为了保持对称，这里也应该是“（我们）建造”。
+
+规则： 这里考的是 定语从句的主谓一致。
+大白话规则：前面怎么写，后面就怎么模仿。前面是 "we dig"（我们挖），后面就是 "we build"（我们建）。为了通顺，最好把主语 we 也写上，或者只填 build 也可以（省略了主语），但在这种强调“我们建造”的语境下，we build 更完整有力。答案给的是两者皆可，我们填 we build 最容易理解。
+答案： we build (或者 build)
+
+第十题
+原文： ...represents a promise to 10. ________ (connect) the mainland with our Tibetan brothers and sisters...
+翻译： ...代表着将大陆与我们的藏族兄弟姐妹连接起来的承诺...
+
+分析：
+线索词是前面的 promise（承诺）。
+通常是“承诺去做某事”。这个“去做某事”就是承诺的内容。
+表示将来、目的或者承诺的内容时，我们要用一种固定的形式。
+
+规则： 这里考的是 不定式做后置定语。
+大白话规则：在 promise（承诺）、plan（计划）、ability（能力）这些词后面，如果要接动作，一定要用 to + 动词原形。
+答案： connect
+
+整体总结
+好啦，我们一道一道地把难关都闯过来了！这篇文章里其实主要考察了这几个核心语法点，你要记一下：
+从句引导词：看到逗号隔开句子修饰物体，用 which。
+最高级：看到“one of the + 范围”，用 most + 形容词。
+非谓语动词：
+主动、顺便发生的动作，加 -ing。
+被动、完成的动作，加 -ed。
+固定搭配：
+要求某人做某事：require to do。
+海平面以上：above sea level。
+承诺做某事：a promise to do。
+词性转换：动词变名词通常加后缀，比如 grow 变 growth。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
     }
 ];
 
