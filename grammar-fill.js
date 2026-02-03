@@ -1103,7 +1103,164 @@ grow 是动词“生长”，我们要把它变成名词形式。
 所有的熟练，都是从生涩的填空开始的
 此处留白，非为缺憾，乃邀君共书
 `
+    },
+    {
+content: `Black Myth: Wukong, a Chinese action adventure game released in August 2024, became a global 1. ________ (succeed) within weeks. Based on the classic Chinese novel Journey to the West, it allows players 2. ________ (experience) the story of the Monkey King in 3. ________ visually stunning way.
+
+The game sold over 28 million copies worldwide, earning 4. ________ (multiple) awards at international game ceremonies. What surprised Western gamers 5. ________ (be) not just the excellent graphics, but the deep cultural 6. ________ (root) of Chinese mythology.
+
+"This game serves 7. ________ a bridge between Eastern and Western cultures," said a reviewer from IGN. It proves that Chinese developers can create world-class games 8. ________ telling our own stories. The success has inspired many Chinese game companies 9. ________ (invest) more in quality rather than quick profits.
+
+As the game continues 10. ________ (attract) new players, it represents a new era of Chinese cultural products going global.`,
+        blanks: [
+            { index: 1, answer: "success" },
+            { index: 2, answer: "to experience" },
+            { index: 3, answer: "a" },
+            { index: 4, answer: "multiple" },
+            { index: 5, answer: "was" },
+            { index: 6, answer: "roots" },
+            { index: 7, answer: "as" },
+            { index: 8, answer: "by" },
+            { index: 9, answer: "to invest" },
+            { index: 10, answer: "to attract" }
+        ],
+        explanation: `题目解析：
+第1题
+原文：Black Myth: Wukong... became a global 1. ________ (succeed) within weeks.
+
+翻译：《黑神话：悟空》……在几周内成为了一个全球性的成功。
+
+分析：
+首先看空前面的词 a。在英语里，a 是“不定冠词”，就像个导游，后面通常要跟着一个名词。
+再看括号里的 succeed，这是一个动词，意思是“成功”。但是，这里不能放动词，因为 a 后面不能直接跟动词。所以，我们要把这个动词变成名词形式。
+规则：
+词性转换：动词 变成名词。常用的规则是把动词结尾的 -ed 去掉，加上 -cess（注意拼写不是 succes，而是双写 c）。
+答案：success
+
+第2题
+原文：...it allows players 2. ________ (experience) the story of the Monkey King...
+
+翻译：……它允许玩家体验美猴王的故事……
+
+分析：
+我们要看空前面的词 allows。它的意思是“允许”。
+在英语里，有一个非常固定的句式：allow sb. to do sth.（允许某人做某事）。
+这里的 sb. 就是 players（玩家），那么后面的空就应该填“去做某事”的格式。
+规则：
+固定搭配：allow 后面如果要接动词，必须用 to + 动词原形。这个 to 就像是一个小钩子，把动作钩过来。
+答案：to experience
+
+第3题
+原文：...in 3. ________ visually stunning way.
+
+翻译：……以一种视觉上令人惊叹的方式。
+
+分析：
+这里要注意，原文里已经有了 visually（视觉上地）这个副词。空格后面紧跟着的是形容词 stunning（令人惊叹的）和名词 way（方式）。
+我们要找的是一个能搭配“ visually stunning way”的词。这是一个单数的名词短语，前面通常需要一个“冠词”来限定它。表示“一种……的方式”，我们要用 a。
+规则：
+冠词用法：a 用于辅音音素开头的单数可数名词前，表示“一个”或“一种”。这里就是“一种方式”。
+答案：a
+
+第4题
+原文：The game... earning 4. ________ (multiple) awards at international game ceremonies.
+
+翻译：这款游戏……在国际游戏颁奖典礼上赢得了多个奖项。
+
+分析：
+空后面的词是 awards（奖项），这是一个名词。名词前面通常需要谁来修饰它呢？需要一个形容词。
+括号里的 multiple 本身就是一个形容词，意思是“多个的、多样的”。
+规则：
+词类识别：有时候题目给的词不需要变形。我们要判断它在句子里作什么成分。这里修饰名词，直接用形容词原形即可。
+答案：multiple
+
+第5题
+原文：What surprised Western gamers 5. ________ (be) not just the excellent graphics...
+
+翻译：让西方玩家感到惊讶的不仅仅是优秀的画面……
+
+分析：
+这句话的主语比较特殊，是 What surprised Western gamers（让西方玩家感到惊讶的事/东西）。这是一个“主语从句”，你可以把它看作是一个单数的“它”。
+再看整篇文章的时态，第一句用了 became，说明文章主要讲过去的事情，所以这里要用过去时。
+既然主语看作“它”（单数），又是过去时，be 动词就要变成 was。
+规则：
+主谓一致与时态：be动词在过去时里有两种形式：was（单数）和 were（复数）。因为主语是一件事（单数），所以用 was。
+答案：was
+
+第6题
+原文：...but the deep cultural 6. ________ (root) of Chinese mythology.
+
+翻译：……而且是中国神话深厚的文化根基。
+
+分析：
+空前面是 cultural（文化的），这是一个形容词。形容词后面通常要接一个名词。
+括号里的 root 意思是“根”。我们要考虑单复数。文化的根基通常不止一个，而且这里表达的是一种深层的底蕴，常用复数形式。
+规则：
+名词复数：当一个名词表达抽象概念且包含多方面内容时，常加 s 变成复数。比如 roots（根基）。
+答案：roots
+
+第7题
+原文："This game serves 7. ________ a bridge between Eastern and Western cultures..."
+
+翻译：“这款游戏充当了东方和西方文化之间的一座桥梁……”
+
+分析：
+看关键词 serves。在这里它的意思是“充当”或“起作用”。
+英语里有个短语叫 serve as，意思就是“作为；充当”。
+规则：
+固定搭配：serve as（作为）。这是一个很常用的固定用法，记住它就行，不需要变词形。
+答案：as
+
+第8题
+原文：It proves that Chinese developers can create world-class games 8. ________ telling our own stories.
+
+翻译：它证明了中国开发者可以通过讲述我们自己的故事来创造世界级的游戏。
+
+分析：
+这句话的后半部分是在说“通过什么方式”创造游戏。
+表示“通过某种方式/手段”，英语里常用介词 by。而且 by 后面如果跟动作，动作要加上 -ing（也就是我们常说的动名词）。
+规则：
+介词 by 的用法：by + doing，意思是“通过做某事”。这里的 telling 已经在原文里了（注意：原文这里括号外写了 telling，说明第8题是填介词 by）。
+答案：by
+
+第9题
+原文：The success has inspired many Chinese game companies 9. ________ (invest) more in quality...
+
+翻译：这一成功激励了许多中国游戏公司在质量上投入更多……
+
+分析：
+看关键词 inspired（激励/鼓舞）。
+这里有一个结构：inspire sb. to do sth.（激励某人去做某事）。这和第2题的 allow 用法很像。
+空后面是 invest（投资），所以前面要加一个 to。
+规则：
+固定搭配：inspire sb. to do sth.。注意这里的 to 是不定式符号，后面必须接动词原形。
+答案：to invest
+
+第10题
+原文：As the game continues 10. ________ (attract) new players...
+
+翻译：随着这款游戏继续吸引新玩家……
+
+分析：
+看关键词 continues（继续）。
+在英语里，continue 后面既可以接 to do（继续去做某事，侧重于接下来要做），也可以接 doing（继续做某事，侧重于不停歇）。在考试中，如果不强调动作的停顿，这两个通常都可以，但 to attract 是最标准、最常用的搭配。
+规则：
+非谓语动词：continue to do sth. 或 continue doing sth.。这里我们填 to attract，表示“继续去吸引”。
+答案：to attract
+
+整体总结
+这篇语法填空其实主要考察了以下几个核心语法点，我们要把它们记在小本本上：
+词性转换：主要是动词变名词，比如 succeed -> success。
+固定搭配（非常重要）：比如 allow sb. to do，inspire sb. to do，serve as，by doing。
+冠词的使用：比如 a +名词。
+时态和主谓一致：特别是看到 What 引导的句子做主语时，谓语动词要用单数 was。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+
+`
     }
+    
 ];
 
 // ========== 状态管理 ==========
