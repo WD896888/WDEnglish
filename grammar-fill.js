@@ -1259,8 +1259,176 @@ As the game continues 10. ________ (attract) new players, it represents a new er
 此处留白，非为缺憾，乃邀君共书
 
 `
-    }
-    
+    },
+    {
+content: `The Yangtze River, 1. ________ (flow) through Hubei like a green ribbon, has witnessed remarkable changes in recent years. In 2023, a group of college students from Wuhan University 2. ________ (launch) the "Clear Water Project" to protect wetlands. They collected over 500 kg of waste along the riverbank, making the area 3. ________ (beautiful) than before.
+
+Since the project began, local authorities 4. ________ (take) strict measures. Factories near the river 5. ________ (require) to install advanced filtration systems. As a result, water quality 6. ________ (improve) by 40% according to last month’s report.
+
+What moves people most is that these students persist despite challenges. "Small actions create big impacts," said team leader Zhang Lei. "We hope more people will join us 7. ________ (build) a greener Hubei." Their efforts have inspired communities across the province. Many citizens now volunteer on weekends, believing that protecting the river is protecting 8. ________ (they).
+
+Experts emphasize that environmental education should start early. Schools in Huangshi 9. ________ (recent) added ecology courses to their curriculum. Children learn to identify native plants and understand why biodiversity matters. As the old saying goes: "A journey of a thousand miles begins with a single step." Every drop of effort counts toward 10. ________ brighter future for our homeland.`,
+        blanks: [
+            { index: 1, answer: "flowing" },
+            { index: 2, answer: "launched" },
+            { index: 3, answer: "more beautiful" },
+            { index: 4, answer: "have taken" },
+            { index: 5, answer: "have been required" },
+            { index: 6, answer: "has improved" },
+            { index: 7, answer: "to build" },
+            { index: 8, answer: "themselves" },
+            { index: 9, answer: "recently" },
+            { index: 10, answer: "a" }
+        ],
+        explanation: `题目解析：
+第一题
+原文： The Yangtze River, 1. ________ (flow) through Hubei like a green ribbon, has witnessed remarkable changes in recent years.
+
+翻译： 长江像一条绿色的丝带流经湖北，近年来见证了巨大的变化。
+
+分析：
+你看，这里的主语是“The Yangtze River”（长江）。中间这部分 ______ through Hubei... 是用两个逗号隔开的，它是用来补充说明长江的样子的。
+我们要找线索词：后面有一个主要动词 has witnessed（已经见证）。一个简单句不能有两个谓语动词打架，除非是连词连接。这里没有连词，说明横线处必须是“非谓语”。
+再想一下：是长江“流过”湖北，还是别人“让”长江流过？当然是长江自己流，是主动的，而且是正在进行的动作。
+规则：
+当动词不作谓语，且和主语是主动关系时，我们要用现在分词（也就是加 -ing 的形式）。你可以把它理解成一种伴随状态，一边流着，一边见证。
+答案： flowing
+
+第二题
+原文： In 2023, a group of college students from Wuhan University 2. ________ (launch) the "Clear Water Project" to protect wetlands.
+
+翻译： 2023年，来自武汉大学的一群大学生启动了“清水工程”以保护湿地。
+
+分析：
+这道题非常简单，一定要拿分哦！我们要找线索词：句首的 "In 2023"（在2023年）。
+这是一个明确的过去时间点。动作“启动”发生在2023年，这是过去发生且结束的事情。
+规则：
+只要看到明确的过去时间状语（如 yesterday, last year, In 2023），句子就要用一般过去时。也就是动词的过去式，通常加 -ed。
+答案： launched
+
+第三题
+原文： They collected over 500 kg of waste along the riverbank, making the area 3. ________ (beautiful) than before.
+
+翻译： 他们在河岸收集了超过500公斤的垃圾，使得这个区域比以前更美了。
+
+分析：
+我们要找线索词：句子后面的 "than"（比）。
+只要有“比”，就说明是在进行比较。
+规则：
+英语里，如果要表示“更……”，就要用形容词的比较级。
+单音节词（短的词）通常直接在后面加 -er；
+多音节词（长的词）前面加 more。
+beautiful 是个长单词，所以要在前面加 more。
+答案： more beautiful
+
+第四题
+原文： Since the project began, local authorities 4. ________ (take) strict measures.
+
+翻译： 自从项目开始以来，当地政府已经采取了严厉的措施。
+
+分析：
+我们要找线索词：句首的 "Since"（自从）。
+"Since" 后面跟了一个过去的时间点（began），意思是“动作从过去一直持续到现在，或者对现在有影响”。
+规则：
+这是最经典的现在完成时标志。结构是 have/has + 动词过去分词。
+注意主语是 "local authorities"（当局，复数），所以助动词要用 have，而不是 has。take 的过去分词是 taken。
+答案： have taken
+
+第五题
+原文： Factories near the river 5. ________ (require) to install advanced filtration systems.
+
+翻译： 河边的工厂被要求安装先进的过滤系统。
+
+分析：
+我们要找逻辑关系：是工厂“要求”别人，还是工厂“被要求”做某事？
+显然，工厂是被动接受命令的。再看线索词，这紧接在上一句“Since...”的时间背景下，动作一直影响到现在。
+规则：
+这里要用两个知识点结合：
+被动语态（Passive Voice）：意思是不是自己做的，是别人让自己做的。结构是 be + 过去分词。
+现在完成时：因为事情从过去持续到现在。
+合起来就是 have/has been + 过去分词。主语 Factories 是复数，所以用 have。
+答案： have been required
+
+第六题
+原文： As a result, water quality 6. ________ (improve) by 40% according to last month’s report.
+
+翻译： 结果，根据上个月的报告，水质改善了40%。
+
+分析：
+我们要看上下文逻辑。前面说了工厂被要求安装系统，所以这里肯定是结果。
+线索词：虽然句尾有 "last month's report"，但“水质改善”是从过去采取措施开始，一直到现在呈现出的一个结果。
+规则：
+这里也是考查现在完成时，表示过去的动作对现在造成的结果。
+结构：have/has + 过去分词。主语 "water quality" 是单数（水质），所以助动词要用 has。improve 的过去分词是 improved。
+答案： has improved
+
+第七题
+原文： "We hope more people will join us 7. ________ (build) a greener Hubei."
+
+翻译： “我们希望更多的人加入我们来建设一个更绿色的湖北。”
+
+分析：
+我们要找动作的目的。人们加入我们是为了做什么？为了建设。
+规则：
+这里考查不定式表目的。当我们想说“去做某事”或者“为了做某事”时，英语里最常用的符号就是 to + 动词原形。
+短语 "join sb. to do sth." 是非常固定的搭配。
+答案： to build
+
+第八题
+原文： Many citizens now volunteer on weekends, believing that protecting the river is protecting 8. ________ (they).
+
+翻译： 许多市民现在在周末做志愿者，他们相信保护河流就是保护他们自己。
+
+分析：
+我们要找线索词：句子前半部分的主语是 "Many citizens"（市民）。
+后面的意思是：保护河流 = 保护谁？当然是保护“他们自己”。
+规则：
+这里考查反身代词。当动作的对象和主语是同一个人（或同一群人）时，就要用反身代词。
+I -> myself
+You -> yourself
+They -> themselves
+答案： themselves
+
+第九题
+原文： Schools in Huangshi 9. ________ (recent) added ecology courses to their curriculum.
+
+翻译： 黄石的学校最近在课程中加入了生态学课程。
+
+分析：
+我们要看这个词在句子里的位置：它放在了动词 "added"（增加）的前面。
+线索词："added" 是一个动词。动词能不能被形容词修饰？不能。我们说“走得快”，不说“快走”（在动词前做状语时）。
+规则：
+形容词修饰名词，副词修饰动词。要变成副词，通常在形容词后面加 -ly。
+recent 是形容词（最近的），recently 就是副词（最近）。
+答案： recently
+
+第十题
+原文： Every drop of effort counts toward 10. ________ brighter future for our homeland.
+
+翻译： 每一滴努力都算数，都是为了我们祖国更光明的未来。
+
+分析：
+我们要看横线后面的词："brighter"（更明明的），后面跟着名词 "future"（未来）。
+这里缺一个限定词。
+规则：
+这里考查冠词的用法。"future" 是可数名词单数。在英语中，单数可数名词不能“裸奔”，前面通常要有冠词。
+因为 brighter 的发音是以辅音音素 /b/ 开头的，所以要用不定冠词 a。
+答案： a
+
+🌟 整体总结
+好啦，我们已经把所有题目都解决完了！是不是觉得没那么难了？这篇文章其实主要考了这几个核心语法点：
+非谓语动词：做事情的人是主语本身，用 -ing（如第1题）。
+时态：
+看到过去的时间，用一般过去时（如第2题）。
+看到 "Since" 或强调对现在的影响，用现在完成时（如第4、6题）。
+被动语态：主语是动作的承受者，用 be done（如第5题）。
+比较级：看到 than，记得变成“更……”（如第3题）。
+词性转换：动词前面要用副词，记得加 -ly（如第9题）。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
+    },
 ];
 
 // ========== 状态管理 ==========
