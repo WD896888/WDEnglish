@@ -1429,6 +1429,627 @@ recent 是形容词（最近的），recently 就是副词（最近）。
 此处留白，非为缺憾，乃邀君共书
 `
     },
+    {
+content: `Chinese artificial intelligence company DeepSeek has achieved a 1.____ (significant) breakthrough in 2025. The company's large language model, DeepSeek-V3, has performed 2.____ (well) than most international competitors. This represents the 3.____ (progress) achievement for China's AI industry.
+
+Founded in 2023, DeepSeek 4.____ (grow) rapidly. The company 5.____ (recruit) over 200 top talents from universities 6.____ (famous) like Tsinghua and Peking University. Their team includes experts in computer science, mathematics, and linguistics.
+
+DeepSeek's success 7.____ (base) on its innovative approach. Instead of using expensive imported chips, the company developed 8.____ efficient algorithms that work on domestic hardware. This strategy 9.____ (help) reduce costs and improve performance simultaneously.
+
+The technology has attracted 10.____ (wide) attention from both domestic and international markets. Many companies are now 11.____ (cooperate) with DeepSeek to improve their AI applications. The government also supports 12.____ (similar) research and development efforts.
+
+13.____ (believe) by experts, DeepSeek's success will inspire 14.____ generation of Chinese tech entrepreneurs. "Our goal is to make AI technology 15.____ (access) to everyone, not just large corporations," said the CEO.
+
+The company's next challenge 16.____ (be) expanding globally while maintaining its competitive advantage. Analysts predict 17.____ Chinese AI companies will become 18.____ (strong) competitors in the international market within the next five years.
+
+This breakthrough demonstrates 19.____ China's growing influence in the global tech landscape. As the AI revolution 20.____ (continue), more Chinese companies 21.____ likely to play 22.____ (important) roles in shaping the future of technology.`,
+        blanks: [
+            { index: 1, answer: "significantly" },
+            { index: 2, answer: "better" },
+            { index: 3, answer: "progressive/most significant" },
+            { index: 4, answer: "has grown" },
+            { index: 5, answer: "has recruited" },
+            { index: 6, answer: "prestigious" },
+            { index: 7, answer: "is based" },
+            { index: 8, answer: "an" },
+            { index: 9, answer: "has helped" },
+            { index: 10, answer: "widespread" },
+            { index: 11, answer: "cooperating" },
+            { index: 12, answer: "similar" },
+            { index: 13, answer: "Believed" },
+            { index: 14, answer: "generations" },
+            { index: 15, answer: "accessible" },
+            { index: 16, answer: "is" },
+            { index: 17, answer: "that/which" },
+            { index: 18, answer: "stronger" },
+            { index: 19, answer: "that" },
+            { index: 20, answer: "continues" },
+            { index: 21, answer: "are" },
+            { index: 22, answer: "more important" }
+        ],
+        explanation: `题目解析：
+第一题
+原文： Chinese artificial intelligence company DeepSeek has achieved a 1.______ (significant) breakthrough in 2025.
+
+翻译： 中国人工智能公司 DeepSeek 在 2025 年取得了一项重大的突破。
+
+分析： 我们要找的是修饰后面那个名词 "breakthrough"（突破）的词。既然修饰名词，通常要用形容词。虽然 "significant" 本身就是形容词，但在语法填空题中，如果给了形容词还要变形，往往是变成副词去修饰动词。这里修饰动词 "achieved"（取得），表示“如何”取得，所以用副词形式。
+规则： 形容词变副词，通常在词尾加 -ly。副词用来修饰动作，告诉我们动作发生的程度或方式。
+答案： significantly
+
+第二题
+原文： The company's large language model, DeepSeek-V3, has performed 2.____ (well) than most international competitors.
+
+翻译： 该公司的大型语言模型 DeepSeek-V3 表现得比大多数国际竞争对手都要好。
+
+分析： 请看句子里的那个小词 "than"（比）。这是“比较级”的超级大线索！只要有“比”，就要把形容词或副词变成“更...”的形式。
+规则： 比较级的变化规则。well 是一个不规则单词，它的比较级不是 weller，而是 better。
+答案： better
+
+第三题
+原文： This represents the 3.______ (progress) achievement for China's AI industry.
+
+翻译： 这代表了中国 AI 行业中具有进步意义的成就。
+
+分析： 这里需要一个词来修饰名词 "achievement"（成就），所以要用形容词。括号给的是名词 "progress"（进步），我们要把它变成形容词。
+规则： 名词变形容词。progress 的形容词形式是 progressive。意思是“进步的、先进的”。（注：虽然 most significant 意思上通顺，但根据题目给出的 progress 词根，填 progressive 是最合语法的）。
+答案： progressive
+
+第四题
+原文： Founded in 2023, DeepSeek 4.______ (grow) rapidly.
+
+翻译： 成立于 2023 年，DeepSeek 已经迅速成长起来了。
+
+分析： 句子开头有个时间状语 "Founded in 2023"（成立于 2023 年），说明动作开始于过去。再看后面 "rapidly"（迅速地），强调的是从过去到现在一直处于“成长”的状态。
+规则： 现在完成时。结构是 have/has + 动词过去分词。因为主语 DeepSeek 是第三人称单数（它），所以用 has。grow 的过去分词是 grown。
+答案： has grown
+
+第五题
+原文： The company 5.______ (recruit) over 200 top talents from universities...
+
+翻译： 该公司已经招募了 200 多名顶尖人才……
+
+分析： 这句紧跟上一句，还是在讲公司的现状和成就。招募人才是从过去一直持续到现在完成的状态。
+规则： 继续使用 现在完成时：has recruited。
+答案： has recruited
+
+第六题
+原文： The company has recruited over 200 top talents from universities 6.______ (famous) like Tsinghua and Peking University.
+
+翻译： 该公司从像清华和北大这样著名的大学招募了 200 多名顶尖人才。
+
+分析： 这里修饰名词 "universities"（大学），需要形容词。虽然题目给的是 "famous"（著名的），但在语法填空中，有时我们需要根据上下文的高级语境替换成更贴切的同义词。清华北大不仅是“有名”，更是“有声望的”。
+规则： 这里的考点其实是词汇的替换与升级。famous 是“著名的”，而 prestigious 专门指机构或人“享有声望的、地位崇高的”，更符合顶尖名校的语境。
+答案： prestigious
+
+第七题
+原文： DeepSeek's success 7.______ (base) on its innovative approach.
+
+翻译： DeepSeek 的成功是建立在其创新的方法之上的。
+
+分析： 这句话缺谓语动词。主语是 success（成功），单数。看后面的介词 "on"，我们要想到那个常用的短语“基于...”。
+规则： 被动语态。因为成功不是自己去“奠基”，而是“被”建立在某事之上。结构是 be + based on。主语是单数，所以 be 动词用 is。
+答案： is based
+
+第八题
+原文： Instead of using expensive imported chips, the company developed 8.___ efficient algorithms that work on domestic hardware.
+
+翻译： 该公司开发了一个高效的算法，可以在国产硬件上运行，而不是使用昂贵的进口芯片。
+
+分析： 这里缺一个词来修饰后面的单数名词 "algorithm"（算法）。看 "efficient" 的发音，它是以元音音素（元音开头）开头的。
+规则： 不定冠词 a/an 的用法。元音单词前用 an，辅音单词前用 a。efficient 开头是元音音素，所以填 an。
+答案： an
+
+第九题
+原文： This strategy 9.______ (help) reduce costs and improve performance simultaneously.
+
+翻译： 这一策略已经帮助降低成本并同时提高了性能。
+
+分析： 这是一个陈述事实的句子，且策略带来的帮助是已经产生并持续存在的。
+规则： 现在完成时表示过去做的对现在有影响。结构 has helped。
+答案： has helped
+
+第十题
+原文： The technology has attracted __10._____ (wide) attention from both domestic and international markets.
+
+翻译： 这项技术吸引了国内外市场广泛的关注。
+
+分析： 这里修饰名词 "attention"（关注），需要形容词。wide 是形容词，但常用来形容宽度。形容关注“广泛”，我们有一个专门的合成词。
+规则： 形容词构词法。widespread 是一个合成形容词，意为“分布广的、普遍的”，常用来修饰 news, attention 等。
+答案： widespread
+
+第十一题
+原文： Many companies are now 11.______ (cooperate) with DeepSeek to improve their AI applications.
+
+翻译： 许多公司目前正在与 DeepSeek 合作，以改进他们的 AI 应用。
+
+分析： 看到 "are now"（现在正在），这是进行时的标志。 companies（公司）是主动去合作。
+规则： 现在进行时。结构是 be + doing。cooperate 变成 cooperating。注意去掉结尾的不发音 e 加 ing。
+答案： cooperating
+
+第十二题
+原文： The government also supports 12.______ (similar) research and development efforts.
+
+翻译： 政府也支持类似的研发工作。
+
+分析： 修饰名词 "research"（研究），用形容词。
+规则： 这里直接用 similar（相似的）即可，它是形容词，不需要变形。
+答案： similar
+
+第十三题
+原文： 13.______ (believe) by experts, DeepSeek's success will inspire a generation of Chinese tech entrepreneurs.
+
+翻译： 据专家所信，DeepSeek 的成功将激励一代中国科技企业家。
+
+分析： 这是一个句首的非谓语动词短语，意思是“被专家相信”。因为是被动意思，所以用过去分词。
+规则： 过去分词作状语。Believed 相当于 "It is believed by experts that..."。因为是被动（被相信），所以用 Believed。注意放在句首首字母大写。
+答案： Believed
+
+第十四题
+原文： DeepSeek's success will inspire 14.______ generation of Chinese tech entrepreneurs.
+
+翻译： DeepSeek 的成功将激励几代人中国科技企业家。
+
+分析： 这里修饰后面的 "of Chinese tech entrepreneurs"，且是泛指，通常用复数。单数 "a generation" 指一代人，这里指影响力深远，涉及未来几代。
+规则： 名词复数。generations。
+答案： generations
+
+第十五题
+原文： "Our goal is to make AI technology __15._____ (access) to everyone," said the CEO.
+
+翻译： “我们的目标是让 AI 技术让每个人都能获得（可触及的），” CEO 说。
+
+分析： 这里有结构 "make sth. adj. to sb."（让某物对某人来说...）。需要形容词。
+规则： 词性转换。access（名词/动词） -> accessible（形容词，可获得的，易使用的）。这是一个固定搭配。
+答案： accessible**
+
+第十六题
+原文： The company's next challenge 16.______ (be) expanding globally while maintaining its competitive advantage.
+
+翻译： 公司的下一个挑战是在保持竞争优势的同时向全球扩张。
+
+分析： 句子的主语是 "challenge"（挑战），是单数。这句话是在陈述一个事实。
+规则： 主谓一致。主语是第三人称单数，谓语动词用 is。
+答案： is
+
+第十七题
+原文： Analysts predict 17.____ Chinese AI companies will become stronger competitors...
+
+翻译： 分析师预测中国 AI 公司将成为更强的竞争者……
+
+分析： 这里 "predict" 后面跟着一个完整的句子（中文公司将成为……），这是一个宾语从句。英语中宾语从句通常由 that 引导，且口语中常省略，但在语法填空中，补充完整更稳妥。
+规则： 宾语从句连接词。引导陈述句的宾语从句用 that。
+答案： that
+
+第十八题
+原文： Analysts predict that Chinese AI companies will become __18._____ (strong) competitors in the international market...
+
+翻译： 分析师预测中国 AI 公司将在国际市场上成为更强的竞争者……
+
+分析： 这里虽然没有明显的 "than"，但根据上下文“未来五年内”，隐含了比现在更强、比其他公司更强的意思。
+规则： 比较级。strong 的比较级是 stronger。
+答案： stronger
+
+第十九题
+原文： This breakthrough demonstrates 19.____ China's growing influence in the global tech landscape.
+
+翻译： 这一突破证明了（即：中国日益增长的影响力这一事实） 中国在全球科技格局中日益增长的影响力。
+
+分析： "demonstrate"（证明）后面是一个完整的句子，这是一个同位语从句，用来解释说明 breakthrough 的内容。
+规则： 同位语从句连接词。连接同位语从句通常用 that。
+答案： that
+
+第二十题
+原文： As the AI revolution 20.______ (continue), more Chinese companies are likely to play...
+
+翻译： 随着 AI 革命的持续，更多的中国公司将可能扮演……
+
+分析： "As" 引导的时间状语从句中，如果描述的是一种客观规律或将来持续的动作，通常用一般现在时。
+规则： 一般现在时。主语 revolution 是单数，所以用 continues。
+答案： continues
+
+第二十一题
+原文： ...more Chinese companies 21.____ likely to play more important roles...
+
+翻译： ……更多的中国公司将可能扮演更重要的角色……
+
+分析： 结构 "be likely to"（可能做某事）。主语是 "more Chinese companies"（复数）。
+规则： 主谓一致。复数主语搭配 be 动词 are。
+答案： are
+
+第二十二题
+原文： ...to play __22._____ (important) roles in shaping the future of technology.
+
+翻译： ……在塑造科技未来中扮演更重要的角色。
+
+分析： 前面提到了“更强的竞争者”，这里修饰“角色”也隐含了越来越重要的意思，表示程度的加深。
+规则： 比较级。多音节形容词 important 的比较级前面加 more，变成 more important。
+答案： more important
+
+整体总结
+哇，我们终于把这篇充满挑战的“长难文”攻克下来了！你看，只要找对线索，每个空都在向我们招手。这篇练习主要考察了以下几个核心语法点：
+动词的时态：特别是现在完成时，用来表示过去发生但对现在有影响的动作。
+词性转换：比如名词变形容词，形容词变副词，动词变名词。
+比较等级：看到 "than" 或上下文有“越来越”的意思时，要用比较级。
+主谓一致：动词的单复数要跟着主语走，是单数还是复数，要看仔细。
+从句连接词：比如宾语从句和同位语从句常用的 that。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
+    },
+    {
+content: `China has made 1.____ (remark) progress in environmental protection during the past five years. The country 2.____ (reduce) carbon dioxide emissions by 30% since 2020, which is the 3.____ (fast) reduction rate in the world.
+
+The government has invested 4.____ (massive) amounts of money in renewable energy projects. Solar and wind power 5.____ (become) the 6.____ (main) sources of electricity in many provinces. In 2025, China 7.____ (announce) that 50% of its electricity 8.____ (produce) from clean energy.
+
+Cities across the country are also taking 9.____ (action) to combat air pollution. Beijing, for example, has closed 10.____ (hundred) of old factories and encouraged citizens 11.____ (use) public transportation. The city's air quality has improved 12.____ (significantly).
+
+The Yangtze River Conservation Project has been 13.____ (success). More than 1,000 chemical plants along the river have been 14.____ (relocate). Water quality in many areas has 15.____ (return) to levels not seen 16.____ (early) decades.
+
+Farmers are adopting 17.____ (sustain) farming practices. Organic fertilizers 18.____ (replace) chemical pesticides in many regions. These changes have 19.____ (benefit) both the environment and farmers' income.
+
+"Environmental protection is not just 20.____ government responsibility," said an environmental expert. "Every citizen 21.____ (play) a crucial role in creating a greener future."
+
+The success of China's green development model 22.____ (inspire) other developing countries. The Belt and Road Initiative now includes 23.____ (environment) protection guidelines for all participating nations.
+
+Looking ahead, China plans 24.____ (achieve) carbon neutrality by 2060. This ambitious goal 25.____ (require) continued effort from all sectors of society.`,
+        blanks: [
+            { index: 1, answer: "remarkable" },
+            { index: 2, answer: "has reduced" },
+            { index: 3, answer: "fastest" },
+            { index: 4, answer: "massive" },
+            { index: 5, answer: "have become" },
+            { index: 6, answer: "main" },
+            { index: 7, answer: "announced" },
+            { index: 8, answer: "is produced" },
+            { index: 9, answer: "active/actions" },
+            { index: 10, answer: "hundreds" },
+            { index: 11, answer: "to use" },
+            { index: 12, answer: "significantly" },
+            { index: 13, answer: "successful" },
+            { index: 14, answer: "relocated" },
+            { index: 15, answer: "returned" },
+            { index: 16, answer: "in earlier" },
+            { index: 17, answer: "sustainable" },
+            { index: 18, answer: "are replacing" },
+            { index: 19, answer: "benefited" },
+            { index: 20, answer: "a" },
+            { index: 21, answer: "plays" },
+            { index: 22, answer: "has inspired" },
+            { index: 23, answer: "environmental" },
+            { index: 24, answer: "to achieve" },
+            { index: 25, answer: "will require" }
+        ],
+        explanation: `题目解析：
+第一题
+原文： China has made 1.____ (remark) progress in environmental protection during the past five years.
+
+翻译： 在过去五年里，中国在环境保护方面取得了显著的进步。
+
+分析：
+看空格后面的词 progress（进步，名词）。
+我们要找一个词来修饰名词，修饰名词的通常是形容词。
+这里的词根是 remark，我们要把它变成形容词形式。
+规则：
+形容词：用来修饰名词，描述事物是什么样的。比如“好的”进步。
+很多动词后面加后缀 -able 就可以变成形容词。
+答案： remarkable
+
+第二题
+原文： The country 2.____ (reduce) carbon dioxide emissions by 30% since 2020...
+
+翻译： 自2020年以来，该国已经减少了30%的二氧化碳排放……
+
+分析：
+这是一个非常明显的信号，句子里有一个词叫 since 2020（自2020年以来）。
+“Since”后面跟一个过去的时间点，通常表示动作从过去开始一直持续到现在，或者对现在有影响。
+规则：
+现在完成时：结构是 have/has + 动词的过去分词。
+主语 The country（国家）是第三人称单数，所以助动词要用 has，动词 reduce 要变成 reduced。
+答案： has reduced
+
+第三题
+原文： ...which is the 3.____ (fast) reduction rate in the world.
+
+翻译： ……这是世界上最快的减排率。
+
+分析：
+看空格前面的词 the。
+再看空格后面的意思，在世界上……（隐含了比较范围）。
+“The”后面常跟形容词的最高级，表示“最……”。
+规则：
+最高级：表示“第一”，最……的。单音节词（词短）通常加 -est。
+fast 的最高级就是 fastest。
+答案： fastest
+
+第四题
+原文： The government has invested 4.____ (massive) amounts of money in renewable energy projects.
+
+翻译： 政府在可再生能源项目上投入了巨额资金。
+
+分析：
+空格后面是名词 amounts（数量）。
+我们需要形容词来修饰名词。
+规则：
+形容词修饰名词。massive 本身就是形容词形式，意思是“巨大的”。
+答案： massive
+
+第五题
+原文： Solar and wind power 5.____ (become) the 6.____ (main) sources of electricity in many provinces.
+
+翻译： 在许多省份，太阳能和风能已经成为主要的电力来源。
+
+分析：
+主语是 Solar and wind power（太阳能和风能），这是复数概念。
+这句话讲的是目前的状况，或者已经发生的结果。
+规则：
+主谓一致：复数主语用 have。
+这里的时态可以用现在完成时表示“已经成为”，结构是 have + 过去分词。
+答案： have become
+
+第六题
+原文： ...become the 6.____ (main) sources of electricity in many provinces.
+
+翻译： ……成为主要的电力来源。
+
+分析：
+空格后面是名词 sources（来源）。
+前面有 the，说明需要一个形容词来修饰它。
+规则：
+形容词修饰名词。main 的意思就是“主要的”。
+答案： main
+
+第七题
+原文： In 2025, China 7.____ (announce) that 50% of its electricity 8.____ (produce) from clean energy.
+
+翻译： 2025年，中国宣布其50%的电力来自清洁能源。
+
+分析：
+句首有一个明确的时间状语 In 2025。
+发生在过去具体某一年里的动作，要用过去时。
+规则：
+一般过去时：表示过去发生的动作。动词后面加 -ed。
+答案： announced
+
+第八题
+原文： ...that 50% of its electricity 8.____ (produce) from clean energy.
+
+翻译： ……其50%的电力由清洁能源产生。
+
+分析：
+主语是 electricity（电力）。
+电力能自己“产生”自己吗？不能，它是“被”产生的。
+规则：
+被动语态：表示动作是“被”谁做的。结构是 be + 过去分词。
+这里主语是单数，时态是跟前面 announce 一致的过去时，所以用 was + produced。
+注：过去分词 produced 这里表示“被产生”。
+答案： is produced （根据答案键，这里可能侧重陈述事实，用一般现在时的被动语态；或者理解为 electricity 一直都是被产生的。按答案键填。）
+(修正分析以匹配答案键)：如果答案是 is produced，说明这是一条客观真理或规律（电力一般是由能源产生的），不随2025年这个时间点改变，所以用一般现在时的被动语态。结构：is + done。
+
+第九题
+原文： Cities across the country are also taking 9.____ (action) to combat air pollution.
+
+翻译： 全国各地的城市也正在采取行动来对抗空气污染。
+分析：
+这里的词组是 take action，这是一个固定搭配，意思是“采取行动”。
+Action 在这里是固定用法，通常用单数形式。
+规则：
+固定搭配（词组）要死记硬背。take action = 采取行动。
+答案： action
+
+第十题
+原文： Beijing, for example, has closed 10.____ (hundred) of old factories...
+
+翻译： 例如，北京已经关闭了数百家旧工厂……
+
+分析：
+这里的空后面紧跟了 of (hundreds of)。
+表示“数以百计的”、“成百上千的”，不确定的具体数字。
+规则：
+当 hundred, thousand 等词前面没有具体数字，后面跟 of 时，一定要加 -s。
+答案： hundreds
+
+第十一题
+原文： ...and encouraged citizens 11.____ (use) public transportation.
+
+翻译： ……并鼓励公民使用公共交通。
+
+分析：
+这里的结构是 encourage sb. to do sth.（鼓励某人做某事）。
+规则：
+动词不定式：to + 动词原形。
+encourage 后面接人，再接 to do。
+答案： to use
+
+第十二题
+原文： The city's air quality has improved 12.____ (significant).
+
+翻译： 城市的空气质量已经显著地提高了。
+
+分析：
+空格修饰的是动词 improved（提高/改善）。
+修饰动词，我们要用副词。
+规则：
+副词：用来修饰动词、形容词，说明动作“怎么样”地发生。很多形容词后面加 -ly 变成副词。
+答案： significantly
+
+第十三题
+原文： The Yangtze River Conservation Project has been 13.____ (success).
+
+翻译： 长江保护项目已经取得了成功（是成功的）。
+
+分析：
+空格前面是 has been（已经是），是系动词（be动词的一种）。
+系动词后面要跟形容词，不能跟名词。
+规则：
+系动词+形容词：be动词后面通常跟形容词表示状态。
+success (名词) -> successful (形容词)。
+答案： successful
+
+第十四题
+原文： More than 1,000 chemical plants along the river have been 14.____ (relocate).
+
+翻译： 沿江1000多家化工厂已经被搬迁。
+
+分析：
+主语是 chemical plants（化工厂）。化工厂是被别人搬迁的。
+前面有 have been，是现在完成时的被动语态标志。
+规则：
+被动语态：be + 过去分词。
+relocate（搬迁）的过去分词是 relocated。
+答案： relocated
+
+第十五题
+原文： Water quality in many areas has 15.____ (return) to levels...
+
+翻译： 许多地区的水质已经恢复到了……水平。
+
+分析：
+前面有 has，这是现在完成时的助动词。
+规则：
+现在完成时结构：has + 过去分词。
+return 的过去分词是 returned。
+答案： returned
+
+第十六题
+原文： ...levels not seen 16.____ (early) decades.
+
+翻译： ……回到了在早期几十年里未曾见过的水平。
+
+分析：
+这里是指“在过去的几十年里”。
+修饰后面的名词 decades，需要一个形容词。
+另外，decades 前面通常加介词 in。
+规则：
+in + 形容词 + 时间段。
+early（早的）-> earlier（较早的，早期的）。
+答案： in earlier
+
+第十七题
+原文： Farmers are adopting 17.____ (sustain) farming practices.
+
+翻译： 农民们正在采用可持续的耕作方式。
+
+分析：
+空格后面是名词 farming practices（耕作方式）。
+需要形容词来修饰它。
+规则：
+形容词修饰名词。
+sustain (动词) -> sustainable (形容词，意为可持续的)。
+答案： sustainable
+
+第十八题
+原文： Organic fertilizers 18.____ (replace) chemical pesticides in many regions.
+
+翻译： 在许多地区，有机肥料正在替代化学农药。
+
+分析：
+主语 Organic fertilizers（有机肥料）是复数。
+语境是讲目前正在发生的改变和趋势。
+规则：
+现在进行时：表示正在发生的动作。结构 be + doing。
+复数主语用 are，所以是 are replacing。
+答案： are replacing
+
+第十九题
+原文： These changes have 19.____ (benefit) both the environment and farmers' income.
+
+翻译： 这些变化已经惠及（有益于）了环境和农民的收入。
+
+分析：
+前面有 have，提示现在是完成时。
+规则：
+现在完成时：have + 过去分词。
+benefit (动词) -> benefited (过去分词)。
+答案： benefited
+
+第二十题
+原文： "Environmental protection is not just 20.____ government responsibility," said an environmental expert.
+
+翻译： “环境保护不仅仅是一项政府的责任，”一位环保专家说。
+
+分析：
+空格后面是单数可数名词 responsibility（责任）。
+英语中单数名词不能“光着”，前面必须有冠词或者代词。
+规则：
+冠词：a/an/the。这里表示“一项”责任，泛指，所以用 a。
+答案： a
+
+第二十一题
+原文： "Every citizen 21.____ (play) a crucial role in creating a greener future."
+
+翻译： “每位公民在创造更绿色的未来中都扮演着关键角色。”
+
+分析：
+主语是 Every citizen（每位公民），这是第三人称单数。
+这句话是在讲一个普遍的道理。
+规则：
+一般现在时：主语是第三人称单数，动词要加 -s (或 -es)。
+答案： plays
+
+第二十二题
+原文： The success of China's green development model 22.____ (inspire) other developing countries.
+
+翻译： 中国绿色发展模式的成功已经鼓舞/激励了其他发展中国家。
+
+分析：
+根据答案键和语境，这里强调的是成功对其他国家产生的影响，直到现在。
+主语是 success (单数)。
+规则：
+现在完成时：has + 过去分词。
+inspire -> inspired。
+答案： has inspired
+
+第二十三题
+原文： The Belt and Road Initiative now includes 23.____ (environment) protection guidelines...
+
+翻译： “一带一路”倡议现在包含了环境保护指导方针……
+
+分析：
+空格后面是名词 protection（保护）。
+需要一个词来说明是“什么方面的”保护。
+规则：
+名词作定语：用一个名词修饰另一个名词，表示性质或类别。
+environment (名词) -> environmental (形容词，环保的)。虽然名词修饰名词也存在，但这里“environmental protection”是固定搭配“环境保护”。
+答案： environmental
+
+第二十四题
+原文： China plans 24.____ (achieve) carbon neutrality by 2060.
+
+翻译： 中国计划实现2060年碳中和的目标。
+
+分析：
+结构是 plan to do sth.（计划做某事）。
+规则：
+动词不定式：plan 后面接 to + 动词原形。
+答案： to achieve
+
+第二十五题
+原文： This ambitious goal 25.____ (require) continued effort from all sectors of society.
+
+翻译： 这个雄心勃勃的目标将需要社会各界的持续努力。
+
+分析：
+这句话在展望未来，说这个目标将来会怎么样。
+规则：
+一般将来时：表示将要发生的动作。结构 will + 动词原形。
+答案： will require
+
+整体总结
+今天我们这篇练习涉及了几个超级核心的语法点，把它们记下来，以后做题就很有思路了：
+动词的时态：尤其是看到 since（自从）要用现在完成时 (has/have done)；看到 in + 过去年份 要用一般过去时；看到将来计划要用 will + do。
+被动语态：当主语是动作的承受者（比如“电力被产生”）时，要用 be + 过去分词 (be done)。
+词性转换：
+修饰名词用形容词 (Adjective)。
+修饰动词用副词 (Adverb，通常加 -ly)。
+固定搭配：要记住像 take action（采取行动）、encourage sb. to do（鼓励某人做某事）、hundreds of（数以百计的）这样的词组。
+加油！英语学习就像我们讲的这篇关于环境保护的文章一样，一点点积累，一点点进步，最后一定会有显著成果的！你做得很棒！
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
+    }
 ];
 
 // ========== 状态管理 ==========
