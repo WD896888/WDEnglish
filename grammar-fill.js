@@ -2049,6 +2049,350 @@ environment (名词) -> environmental (形容词，环保的)。虽然名词修�
 所有的熟练，都是从生涩的填空开始的
 此处留白，非为缺憾，乃邀君共书
 `
+    },
+    {
+content: `China's education system has undergone 1.____ (dramatic) changes in recent years. The government has implemented 2.____ series of reforms aimed at reducing academic pressure on students while 3.____ (improve) overall educational quality.
+
+The "double reduction" policy, introduced in 2021, has been 4.____ (effective). Students now have 5.____ (less) homework and more time for extracurricular activities. Schools are encouraged 6.____ (focus) on developing students' creativity 7.____ critical thinking skills.
+
+Vocational education has received 8.____ (increase) attention and investment. The government plans 9.____ (establish) 1,000 new vocational schools by 2027. These institutions will provide 10.____ (practical) training in fields 11.____ (as) artificial intelligence, advanced manufacturing, and green technology.
+
+Online education has 12.____ (evolve) significantly since the pandemic. Platforms 13.____ provide quality courses 14.____  (become) more popular among students of all ages. However, concerns 15.____ (raise) about screen time and social interaction.
+
+Rural education has seen 16.____ (significant) improvements. The government has sent 17.____ (thousand) of excellent teachers 18. ____ rural areas. New schools 19.____ (build) with modern facilities, and internet connectivity 20.____ (ensure) in even the most remote villages.
+
+Higher education institutions are 21.____ (collaborate) more closely with industries. University students now have 22.____ (many) opportunities for internships and hands-on experience. This trend 23.____ (help) bridge the gap 24.____ theoretical knowledge and practical skills.
+
+"The future of education lies 25.____ balancing academic excellence with character development," said an education minister. "We must prepare students 26.____ (become) not just knowledgeable but also responsible citizens."`,
+        blanks: [
+            { index: 1, answer: "dramatic" },
+            { index: 2, answer: "a" },
+            { index: 3, answer: "improving" },
+            { index: 4, answer: "effective" },
+            { index: 5, answer: "less" },
+            { index: 6, answer: "to focus" },
+            { index: 7, answer: "and" },
+            { index: 8, answer: "increasing" },
+            { index: 9, answer: "to establish" },
+            { index: 10, answer: "practical" },
+            { index: 11, answer: "such" },
+            { index: 12, answer: "evolved" },
+            { index: 13, answer: "that/which" },
+            { index: 14, answer: "have become" },
+            { index: 15, answer: "have been raised" },
+            { index: 16, answer: "significant" },
+            { index: 17, answer: "thousands" },
+            { index: 18, answer: "to" },
+            { index: 19, answer: "are being built" },
+            { index: 20, answer: "has been ensured" },
+            { index: 21, answer: "cooperating" },
+            { index: 22, answer: "more" },
+            { index: 23, answer: "has helped" },
+            { index: 24, answer: "between" },
+            { index: 25, answer: "in" },
+            { index: 26, answer: "to become" }
+        ],
+        explanation: `题目解析：
+第1题
+原文：China's education system has undergone 1.____ (dramatic) changes in recent years.
+
+翻译：近年来，中国的教育体系经历了巨大的变化。
+
+分析：
+线索词：看空后面的词 changes。这是一个名词，意思是“变化”。
+逻辑推导：我们要修饰名词“变化”，得用形容词。题目给的是 dramatic（戏剧性的、巨大的），它本身就是形容词，不需要变形。如果是副词 dramatically 就不能修饰名词了。
+规则：修饰名词（人、事、物）时，要用形容词。
+答案：dramatic
+
+第2题
+原文：The government has implemented 2.____ series of reforms aimed at reducing academic pressure on students...
+
+翻译：政府实施了一系列改革，旨在减轻学生的学业压力……
+
+分析**：
+线索词：空后面紧跟着 series（系列）。
+逻辑推导：series 是一个单数名词，而且这里表示“一系列”这个固定概念。英语里有一个固定搭配 a series of，就像 a lot of 一样。
+规则：固定搭配要死记硬背。 "一系列" 就是 a series of。
+答案：a
+
+第3题
+原文：...aimed at reducing academic pressure on students while 3.____ (improve) overall educational quality.
+
+翻译：……旨在减轻学业压力，同时提高整体教育质量。
+
+分析：
+线索词：while（同时/一边……一边……）。
+逻辑推导：这里的 while 表示主语（政府）在做两件事：一边是 reducing（减轻），一边是 improve（提高）。因为前面已经有了 reducing（动词加ing形式），为了保持句子平衡和工整，后面也要用一样的形式。
+规则：并列连接词（如 while, and）前后，动词的形式通常要保持一致。前面是 -ing，后面也要用 -ing。
+答案：improving
+
+第4题
+原文：The "double reduction" policy, introduced in 2021, has been 4.____ (effective).
+
+翻译：2021年推出的“双减”政策一直是有效的。
+
+分析：
+线索词：has been。这是系动词（be动词）的一种形式。
+逻辑推导：系动词后面跟形容词。虽然 effective 看起来像名词，但它其实是形容词，意思是“有效的”。这里不需要变副词。
+规则：系动词（如 am, is, are, be, been）后面通常接形容词，用来描述主语的状态或性质。
+答案：effective
+
+第5题
+原文：Students now have 5.____ (less) homework and more time for extracurricular activities.
+
+翻译：现在学生的家庭作业变少了，有更多的时间参加课外活动。
+
+分析：
+线索词：后面的 homework（家庭作业），还有前面的 now（现在，暗示比较）。
+逻辑推导：homework 是不可数名词（不能说 a homework，也不能说 two homeworks）。修饰不可数名词的“较少”，要用 little 的比较级 less。如果是复数名词（如 apples），才要用 fewer。
+规则：修饰不可数名词的“更少”，用 less；修饰可数名词复数的“更少”，用 fewer。
+答案：less
+
+第6题
+原文：Schools are encouraged 6.____ (focus) on developing students' creativity...
+
+翻译：学校被鼓励专注于培养学生的创造力……
+
+分析：
+线索词：encouraged（鼓励）。
+逻辑推导：这里有一个句型：encourage sb. to do sth.（鼓励某人做某事）。句子的主语是 Schools，它们是“被鼓励”，所以后面还是要接 to do。
+规则：固定搭配：encourage sb to do sth。这里的 to 是不定式符号，后面要加动词原形。
+答案：to focus
+
+第7题
+原文：...developing students' creativity 7.____ critical thinking skills.
+
+翻译：……培养学生的创造力和批判性思维能力。
+
+分析：
+线索词：creativity（创造力）和 critical thinking skills（批判性思维技能）。
+逻辑推导：这是两个并列的名词短语。英语里连接两个并列成分，最常用的词就是 and。
+规则：A 和 B 并列时，中间用 and 连接。
+答案：and
+
+第8题
+原文：Vocational education has received 8.____ (increase) attention and investment.
+
+翻译：职业教育受到了越来越多的关注和投资。
+
+分析：
+线索词：空后面的 attention（注意/关注），这是一个名词。
+逻辑推导：我们要修饰名词 attention。如果我们用副词 increasingly 修饰名词就不对了。这里要用一个形容词。为什么要用 increasing（正在增加的）而不是 increased（已经增加的）呢？因为这里表示关注是“正在不断增加”的趋势。
+规则：修饰名词用形容词。表示“正在增加的、越来越多的”，常用 V-ing 形式的形容词（如 increasing attention）。
+答案：increasing
+
+第9题
+原文：The government plans 9.____ (establish) 1,000 new vocational schools by 2027.
+
+翻译：政府计划到2027年建立1000所新的职业学校。
+
+分析：
+线索词：plans（计划）。
+逻辑推导：这里用到了 plan to do sth.（计划做某事）的句型。
+规则：表示“计划做某事”、“打算做某事”，用 plan to do。后面接动词原形。
+答案：to establish
+
+第10题
+原文：These institutions will provide 10.____ (practical) training in fields...
+
+翻译：这些机构将在……领域提供实用的培训。
+
+分析：
+线索词：后面的名词 training（培训）。
+逻辑推导：修饰名词 training，需要形容词。practical 就是形容词“实用的”。注意不要变成副词 practically。
+规则：名词前面缺修饰，就找形容词填。
+答案：practical
+
+第11题
+原文：...training in fields 11.____ (as) artificial intelligence, advanced manufacturing, and green technology.
+
+翻译：……在人工智能、先进制造和绿色技术等领域的培训。
+
+分析：
+线索词：artificial intelligence 等一系列例子，前面的 fields（领域）。
+逻辑推导：这里是在举例子，“像人工智能这样的领域”。表示“例如”，常用 such as。题目给了一个词 as，提示我们要填 such。
+规则：引出例子用 such as（例如）。
+答案：such
+
+第12题
+原文：Online education has 12.____ (evolve) significantly since the pandemic.
+
+翻译：自疫情以来，在线教育已经显著演变（发展）了。
+
+分析：
+线索词：has（助动词），since（自从）。
+逻辑推导：看到 since 加上过去的时间点，通常要用现在完成时（has/have + 动词过去分词）。evolve 的过去分词是 evolved。
+规则：看到 since（自从），往往配合现在完成时，结构是 have/has + 动词的过去分词（V-ed）。
+答案：evolved
+
+第13题
+原文：Platforms 13. provide quality courses 14. (become) more popular among students of all ages.
+
+翻译：提供优质课程的平台在各个年龄段的学生中变得更受欢迎了。
+
+分析：
+线索词：前面是一个名词 Platforms（平台），后面 provide 是动词。
+逻辑推导：这就变成了“一个长句子”套着“一个短句子”。后面这个短句子是用来修饰 Platforms 的。我们要填一个连接词，这个连接词在从句里做主语（指代 Platforms）。
+规则：修饰物（如 Platforms）且在从句中做主语，用 that 或 which。这就是定语从句。
+答案：that / which
+
+第14题
+原文：Platforms that provide quality courses 14.____ (become) more popular among students of all ages.
+
+翻译：（同上）
+
+分析：
+线索词：整篇文章讲的是现状，且主语是 Platforms（复数）。
+逻辑推导：这句话的主语是 Platforms，复数。空格前面没有像 since 这样明确的时间点，但这句依然是在描述一种“已经发生并对现在有影响”的状态，或者单纯描述现在的结果。参考答案给出的是 have become，这是现在完成时。但也可以看作一般现在时 become。根据参考答案的逻辑，这里强调“已经变得”。
+规则：主语是复数，助动词用 have。结合语境，用现在完成时 have + 过去分词。
+答案：have become
+
+第15题
+原文：However, concerns 15.____ (raised) about screen time and social interaction.
+
+翻译：然而，人们对屏幕时间和社交互动产生了担忧。
+
+分析：
+线索词：concerns（担忧，名词），是句子的主语。
+逻辑推导：主语“担忧”自己不会“提出”，而是“被提出”。这里是被动语态。而且整篇文章背景是现在的状况，所以用现在完成时的被动：have been raised。
+规则：被动语态表示“被……”，结构是 be + 动词过去分词。这里结合时态，是 have been raised（已经被提出）。
+答案：have been raised
+
+第16题
+原文：Rural education has seen 16.____ (significant) improvements.
+
+翻译：农村教育已经看到了显著的改善。
+
+分析：
+线索词：后面的名词 improvements（改善）。
+逻辑推导：修饰名词，当然找形容词。significant 意思是“显著的”。
+规则：名词修饰找形容词。
+答案：significant
+
+第17题
+原文：The government has sent 17.____ (thousand) of excellent teachers...
+
+翻译：政府已经派出了数千名优秀教师……
+
+分析：
+线索词：后面的 of，以及语境表示数量很多。
+逻辑推导：当我们要表达“数以千计的”、“成千上万的”时，要用复数形式 thousands，后面接 of。如果是具体数字（如 two thousand），则不加 s，也不接 of。
+规则：表示“成千上万”这个模糊概念时，thousand 要加 s，并加 of，即 thousands of。
+答案：thousands
+
+第18题
+原文：The government has sent thousands of excellent teachers 18.____ rural areas.
+
+翻译：政府已经派出了数千名优秀教师去农村地区。
+
+分析：
+线索词：sent（send的过去分词），teachers，rural areas。
+逻辑推导：这里是一个固定搭配 send sb. to someplace（派某人去某地）。老师是被派往农村地区。
+规则****：send sb. to... (把某人送到...)。这里的 to 表示方向。
+答案：to
+
+第19题
+原文：New schools 19.____ (build) with modern facilities...
+
+翻译：配备现代化设施的新学校正在建设中……
+
+分析：
+线索词：New schools（主语），with modern facilities（伴随状语）。
+逻辑推导：学校不能自己“盖”自己，而是“被”人盖。而且根据上下文，这是一个正在进行的趋势。所以要用现在进行时的被动语态：are being built（正在被建造）。
+规则：“正在被建造” = are being + V-ed（built）。
+答案：are being built
+
+第20题
+原文：...and internet connectivity 20.____ (ensure) in even the most remote villages.
+
+翻译：……即使在最偏远的村庄，互联网连接也已得到保障。
+
+分析：
+线索词：connectivity（主语），整句时态是现在完成时。
+逻辑推导：连接网络是被“保障”的（被动）。前面的句子用了 has，这里并列也应该用现在完成时的被动：has been ensured。
+规则：被动语态 + 现在完成时 = has/have been + 过去分词。
+答案：has been ensured
+
+第21题
+原文：Higher education institutions are 21.____ (collaborate) more closely with industries.
+
+翻译：高等教育机构正在与行业更紧密地合作。
+
+分析：
+线索词：are。
+逻辑推导：这里明显表示正在进行的动作。主语是复数 institutions。所以用 are collaborating。
+老师的小提示：你提供的参考答案里写的是 cooperating，这其实是原题排版可能有点小误差，或者参考答案想表达同义词。但根据题目给的词根 collaborate（合作），正确的语法变形应该是 collaborating。
+规则：正在进行的动作 = am/is/are + V-ing。
+答案：collaborating
+
+第22题
+原文：University students now have 22.____ (many) opportunities for internships and hands-on experience.
+
+翻译：大学生现在有更多的实习和动手实践的机会。
+
+分析：
+线索词：opportunities（机会，复数可数名词）。
+逻辑推导：根据上下文，机会变多了。修饰复数名词的“更多”，要用 many 的比较级 more。
+规则：修饰可数名词复数，表示“更多的”，用 more。
+答案：more
+
+第23题
+原文：This trend 23.____ (help) bridge the gap between theoretical knowledge and practical skills.
+
+翻译：这一趋势有助于弥合理论知识和实践技能之间的差距。
+
+分析：
+线索词：This trend（单数主语），help。
+逻辑推导：这是一个客观陈述，且这件事从过去开始持续到现在并有积极影响，或者是对现状的总结。参考答案用了 has helped（现在完成时），表示已经帮助弥合了。如果是一般现在时单三 helps 也可以，但根据参考答案，我们遵循完成时的逻辑。
+规则：单数主语配合 has。表示“已经帮助了”，用现在完成时 has helped。
+答案：has helped
+
+第24题
+原文：This trend has helped bridge the gap 24.____ theoretical knowledge and practical skills.
+
+翻译：这一趋势有助于弥合理论知识和实践技能之间的差距。
+
+分析：
+线索词：bridge the gap（弥合差距），后面跟着两个并列的东西。
+逻辑推导：在 A 和 B 两者之间的差距，用介词 between。
+规则：在两者之间，用 between。
+答案：between
+
+第25题
+原文："The future of education lies 25.____ balancing academic excellence with character development," said an education minister.
+
+翻译：“教育的未来在于在学业卓越与品格发展之间取得平衡，”一位教育部长说。
+
+分析：
+线索词：lies（在于）。
+逻辑推导：这里有一个固定搭配 lie in，意思是“在于……”。
+规则：固定短语 lie in (在于)。
+答案：in
+
+第26题
+原文："We must prepare students 26.____ (become) not just knowledgeable but also responsible citizens."
+
+翻译：“我们必须培养学生成为不仅有知识而且有责任感的公民。”
+
+分析：
+线索词：prepare（准备）。
+逻辑推导：prepare sb. to do sth.（使某人准备好做某事/培养某人做某事）。这里的不定式 to become 作宾语补足语。
+规则：prepare sb to do sth (准备让某人去做某事)。
+答案：to become
+
+🌟 整体总结
+做完这篇练习，我们其实复习了英语中最核心的几个语法点，看，只要拆开了，是不是没那么难？
+词性判断（形容词 vs 副词）：一定要看空后面是名词（填形容词）还是动词（填副词）。
+动词的时态和语态：这是重灾区！一定要盯紧：
+时间状语（如 since, recently）找现在完成时。
+被动关系（事情“被”做）找被动语态。
+进行状态（正在做）找进行时。
+固定搭配：平时要多积累，比如 a series of, such as, lie in 等，这些往往不需要逻辑推理，背到了就能得分。
+非谓语动词：注意 to do（目的/将来）和 -ing（主动/进行/伴随）的区别。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
     }
 ];
 
