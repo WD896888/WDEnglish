@@ -2393,6 +2393,418 @@ Higher education institutions are 21.____ (collaborate) more closely with indust
 所有的熟练，都是从生涩的填空开始的
 此处留白，非为缺憾，乃邀君共书
 `
+    },
+    {
+content: `China's rural revitalization strategy has achieved 1.____ (remark) success over the past five years. The government's efforts 2.____ (transform) thousands of villages into thriving communities with 3.____ (good) infrastructure and opportunities.
+
+Digital technology 4.____ (play) an increasingly important role in rural development. Many farmers now use smartphones 5.____ (monitor) crop conditions and 6.____ (access) market information. E-commerce platforms have 7.____ (help) sell local products 8.____ customers nationwide.
+
+Traditional culture 9.____ (preserve) and promoted through rural tourism. Villages 10.____ (have) unique historical sites have become popular destinations. Visitors can experience 11.____ (tradition) crafts, local cuisine, and 12.____ (beautiful) natural landscapes.
+
+The "talent return" program has encouraged 13.____ (many) young people 14.____ (come) back to their hometowns. These entrepreneurs have brought 15.____ (innovate) business ideas 16.____ created new job opportunities for local residents.
+
+Education and healthcare services 17.____ (improve) significantly in rural areas. New schools 18.____ (equip) with modern technology, and hospitals 19.____ (receive) better medical equipment. These improvements have 20.____ (make) life more comfortable for rural residents.
+
+Environmental protection remains 21.____ priority in rural development. Sustainable farming practices 22.____ (adopt) to protect soil quality 23.____ water resources. Many villages have 24.____ (transition) to organic agriculture.
+
+"The key 25.____ rural revitalization is creating opportunities 26.____ young people can build successful careers while staying 27.____ (close) to their families," explained a rural development expert.
+
+Looking ahead, China aims 28.____ (achieve) comprehensive rural modernization by 2035. This ambitious goal requires 29.____ (continue) cooperation between government, businesses, and local communities.`,
+        blanks: [
+            { index: 1, answer: "remarkable" },
+            { index: 2, answer: "have transformed" },
+            { index: 3, answer: "better" },
+            { index: 4, answer: "has played" },
+            { index: 5, answer: "to monitor" },
+            { index: 6, answer: "to access" },
+            { index: 7, answer: "helped" },
+            { index: 8, answer: "to" },
+            { index: 9, answer: "is being preserved" },
+            { index: 10, answer: "that/which" },
+            { index: 11, answer: "traditional" },
+            { index: 12, answer: "beautiful" },
+            { index: 13, answer: "more" },
+            { index: 14, answer: "to come" },
+            { index: 15, answer: "innovative" },
+            { index: 16, answer: "and" },
+            { index: 17, answer: "have improved" },
+            { index: 18, answer: "are equipped" },
+            { index: 19, answer: "have received" },
+            { index: 20, answer: "made" },
+            { index: 21, answer: "a" },
+            { index: 22, answer: "have been adopted" },
+            { index: 23, answer: "and" },
+            { index: 24, answer: "transitioned" },
+            { index: 25, answer: "to" },
+            { index: 26, answer: "where" },
+            { index: 27, answer: "close" },
+            { index: 28, answer: "to achieve" },
+            { index: 29, answer: "continued" }
+        ],
+        explanation: `题目解析：
+第1题
+原文： China's rural revitalization strategy has achieved 1.____ (remark) success over the past five years.
+
+翻译： 在过去五年里，中国的乡村振兴战略取得了非凡的成功。
+
+分析：
+这里有个词叫 success（成功），它是个名词。名词前面通常是谁住着？是形容词！就像我们说“大苹果”，“大”就是形容词。
+题目给的词根是 remark。我们要把它变成形容词来修饰 success。
+规则：
+词性转换。名词前填形容词。remark 变成形容词是 remarkable。
+答案： remarkable
+
+第2题
+原文： The government's efforts 2.____ (transform) thousands of villages into thriving communities...
+
+翻译： 政府的努力将数千个村庄已经转变成了充满活力的社区……
+
+分析：
+我们要睁大眼睛找线索词！句子最后有个 over the past five years（在过去五年里）。这可是个超级重要的信号，它通常意味着事情发生在过去，但一直持续到现在，或者对现在有影响。
+这就叫“现在完成时”。它的结构是 have / has + 动词过去分词。
+主语是 efforts（努力），是复数，所以助动词要用 have。动词 transform 的过去分词是 transformed。
+规则：
+时间状语 over the past... 是现在完成时的标志。复数主语配合 have。
+答案： have transformed
+
+第3题
+原文： ...with 3.____ (good) infrastructure and opportunities.
+
+翻译： ……拥有更好的基础设施和机会。
+
+分析：
+这里修饰的是 infrastructure（基础设施），是名词，所以需要一个形容词。
+题目给的是 good（好）。但是，你要看上下文，前面在讲“乡村振兴”，是不是意味着比以前“更好”了？这就是比较级。
+规则：
+比较级：表示“更……”。good 的比较级是不规则变化，要背下来，是 better。
+答案： better
+
+第4题
+原文： Digital technology 4.____ (play) an increasingly important role in rural development.
+
+翻译： 数字技术在农村发展中扮演了越来越重要的角色。
+
+分析：
+主语是 Digital technology（数字技术），是单数第三人称（它/他/她）。
+这篇文章整体都在讲目前的成就，强调对现在的影响，所以用现在完成时比较合适。
+结构是 has + 过去分词。play 的过去分词是 played。
+规则：
+主语是单数，配合 has。
+答案： has played
+
+第5题
+原文： Many farmers now use smartphones 5.____ (monitor) crop conditions...
+
+翻译： 许多农民现在使用智能手机去监测作物状况……
+
+分析：
+农民用手机是为了干什么？为了“监测”。
+这里表示目的。“为了做某事”，英语里常用 to + 动词原形。
+规则：
+不定式表目的：use sth. to do sth.（用某物做某事）。
+答案： to monitor
+
+第6题
+原文： ...and 6.____ (access) market information.
+
+翻译： ……并获取市场信息。
+
+分析：
+看第5题的分析，这里是并列结构。农民用手机是为了做两件事：一是监测，二是获取。两个空的结构应该一模一样。
+规则：
+并列结构，填 to + 动词原形。
+答案： to access
+
+第7题
+原文： E-commerce platforms have 7.____ (help) sell local products...
+
+翻译： 电商平台已经帮助销售当地产品……
+
+分析：
+你看，句子里有 have 了！这就是“现在完成时”的助动词，它在等你填过去分词呢。
+主语是 platforms，助动词用了 have，所以这里直接填 help 的过去分词 helped。
+规则：
+现在完成时结构：have/has + 动词过去分词 (done)。
+答案： helped
+
+第8题
+原文： ...sell local products 8.____ customers nationwide.
+
+翻译： ……把当地产品卖给全国各地的顾客。
+
+分析：
+这里缺个介词。把东西卖给谁，英语用 sell... to...。
+规则：
+固定搭配：sell to（卖给）。
+答案： to
+
+第9题
+原文： Traditional culture 9.____ (preserve) and promoted through rural tourism.
+
+翻译： 传统文化通过乡村旅游正在被保护和推广……
+
+分析：
+主语是 Traditional culture（传统文化）。文化是自己保护自己吗？不是，是被人保护的。所以要用被动语态。
+再看后面的 promoted 是被动，前面的 preserve 肯定也要保持一致。而且这件事正在进行中（通过乡村旅游）。
+结构是：be + being + 过去分词。主语是单数，所以 be 用 is。
+规则：
+现在进行时的被动语态：表示“正在被……”。结构是 is being done。
+注：被动语态就是主语是动作的承受者，比如“我被打了”。
+答案： is being preserved
+
+第10题
+原文： Villages 10.____ (have) unique historical sites have become popular destinations.
+
+翻译： 那些拥有独特历史遗迹的村庄已经成为了热门目的地。
+
+分析：
+这里有两个动词 have。一个句子里不能有两个谓语打架，所以其中一个必须降级变成从句。
+第一个 have 前面是 Villages，后面是 unique historical sites。这是说“村庄拥有遗迹”。
+这就是一个定语从句，用来修饰村庄。先行词是 Villages（物），在从句里做主语。
+规则：
+定语从句修饰物，用 that 或 which。
+答案： that (或者 which)
+
+第11题
+原文： Visitors can experience 11.____ (tradition) crafts, local cuisine...
+
+翻译： 游客可以体验传统的手工艺品、当地美食……
+
+分析：
+修饰 crafts（手工艺品），需要填形容词。
+tradition（传统）加后缀 -al 就变成形容词 traditional。
+规则：
+名词变形容词：tradition -> traditional。
+答案： traditional
+
+第12题
+原文： ...and 12.____ (beautiful) natural landscapes.
+
+翻译： ……以及美丽的自然景观。
+
+分析：
+同样的道理，修饰 landscapes（景观），需要填形容词。
+beauty（美丽）是名词，变成形容词是 beautiful。
+规则：
+名词变形容词：beauty -> beautiful。
+答案： beautiful
+
+第13题
+原文： The "talent return" program has encouraged 13. (many) young people 14. (come) back...
+
+翻译： “人才回归”计划已经鼓励了更多的年轻人回来……
+
+分析：
+many（很多）是用来修饰可数名词复数的。这里是不是要填“更多”呢？因为计划是为了增加人数。
+many 的比较级是 more。
+规则：
+比较级：many 的比较级是 more。
+答案： more
+
+第14题
+原文： ...encouraged 13. (many) young people 14. (come) back...
+
+翻译： ……鼓励了更多的年轻人回来……
+
+分析：
+搭配是 encourage sb. to do sth.（鼓励某人做某事）。
+这里缺的就是 to do 的部分。
+规则：
+固定搭配：encourage sb. to do sth.（鼓励某人做某事）。
+答案： to come
+
+第15题
+原文： These entrepreneurs have brought 15.____ (innovate) business ideas...
+
+翻译： 这些创业者带来了创新的商业理念……
+
+分析：
+修饰 business ideas（商业理念），需要形容词。
+innovation 是名词，去掉名词后缀，加形容词后缀 -ive 变成 innovative。
+规则：
+名词变形容词：innovate (动词) / innovation (名词) -> innovative (形容词)。
+答案： innovative
+
+第16题
+原文： ...ideas 16.____ created new job opportunities for local residents.
+
+翻译： ……理念，并且为当地居民创造了新的就业机会。
+
+分析：
+这里有两个动作：一个是“带来了理念”，一个是“创造了机会”。这两个动作是并列的，都是创业者做的。
+中间缺个连词来连接这两个动词。
+规则：
+并列连词：and 表示“和、并且”。
+答案： and
+
+第17题
+原文： Education and healthcare services 17.____ (improve) significantly in rural areas.
+
+翻译： 农村地区的教育和医疗服务已经得到了显著改善。
+
+分析：
+主语是 Education and healthcare services（教育和医疗服务），复数。
+看上下文，也是讲现在的成就，用现在完成时。复数配合 have。
+规则：
+现在完成时：复数主语用 have + done。
+答案： have improved
+
+第18题
+原文： New schools 18.____ (equip) with modern technology...
+
+翻译： 新学校被配备了现代技术……
+
+分析：
+学校是被别人配备设备的，所以用被动语态。而且这是一种现在的状态。
+结构是 be + 过去分词。主语 schools 是复数，所以 be 用 are。
+规则：
+一般现在时的被动语态：are + done。
+答案： are equipped
+
+第19题
+原文： ...and hospitals 19.____ (receive) better medical equipment.
+
+翻译： ……医院已经收到了更好的医疗设备。
+
+分析：
+主语 hospitals（医院，复数）。
+这是并列句，和前一句时态保持一致，强调结果，用现在完成时。
+规则：
+现在完成时：have + done。
+答案： have received
+
+第20题
+原文： These improvements have 20.____ (make) life more comfortable for rural residents.
+
+翻译： 这些改善已经使农村居民的生活更加舒适。
+
+分析：
+助动词 have 已经有了，只差过去分词。
+make 的过去分词是 made。
+规则：
+现在完成时：have + done。make 变 made。
+答案： made
+
+第21题
+原文： Environmental protection remains 21.____ priority in rural development.
+
+翻译： 环境保护仍然是农村发展中的一个优先事项。
+
+分析：
+priority（优先事项）是单数名词。前面不能光秃秃的，需要冠词。
+这里表示“一个……”，用不定冠词 a。
+规则：
+冠词用法：单数名词前用 a 表示“一个”。
+答案： a
+
+第22题
+原文： Sustainable farming practices 22.____ (adopt) to protect soil quality...
+
+翻译： 可持续的农业做法已经被采用来保护土壤质量……
+
+分析：
+做法是被采用的，被动语态。
+看上下文，也是讲现在的成果，所以是现在完成时的被动语态。
+主语 practices 是复数。
+结构：have been + 过去分词。
+规则：
+现在完成时的被动语态：have been done。
+答案： have been adopted
+
+第23题
+原文： ...to protect soil quality 23.____ water resources.
+
+翻译： ……来保护土壤质量和水资源。
+
+分析：
+这里有两个被保护的东西：soil quality（土壤质量）和 water resources（水资源）。它们是并列关系。
+规则：
+并列连词：and。
+答案： and
+
+第24题
+原文： Many villages have 24.____ (transition) to organic agriculture.
+
+翻译： 许多村庄已经转型到了有机农业。
+
+分析：
+助动词 have 在这，填过去分词。
+transition 的过去分词加 ed，是 transitioned。
+规则：
+现在完成时：have + done。
+答案： transitioned
+
+第25题
+原文： "The key 25.____ rural revitalization is creating opportunities..."
+
+翻译： “乡村振兴的关键是创造机会……
+
+分析：
+“……的关键”，英语怎么说？是 the key to...。
+这里的 to 是个介词，后面接名词或动名词。
+规则：
+固定搭配：the key to...（……的关键）。
+答案： to
+
+第26题
+原文： ...creating opportunities 26.____ young people can build successful careers while staying...
+
+翻译： ……创造年轻人可以在其中建立成功事业的机会，同时……
+
+分析：
+这里也是个从句，修饰 opportunities。
+你要填的词在从句里做状语，表示“在这些机会里/环境中”。
+当先行词表示地点、抽象概念（如机会、情况），且从句中主谓宾完整时，用 where。
+规则：
+定语从句关系副词：修饰地点或抽象概念，用 where。
+答案： where
+
+第27题
+原文： ...while staying 27.____ (close) to their families,"
+
+翻译： ……同时离他们的家人很近，”
+
+分析：
+staying 是系动词“保持”，后面跟形容词。
+close 既可以表示“关”，也可以表示“近的”（形容词）。
+这里是说“stay close to their families”（住得离家人近）。
+规则：
+形容词用法：stay close to（保持靠近……）。
+答案： close
+
+第28题
+原文： Looking ahead, China aims 28.____ (achieve) comprehensive rural modernization by 2035.
+
+翻译： 展望未来，中国致力于在2035年前实现全面农村现代化。
+
+分析：
+aim 这个词的用法是 aim to do sth.（目标是做某事，致力于做某事）。
+表示目的，用 to + 动词原形。
+规则：
+固定搭配：aim to do sth.（旨在做某事）。
+答案： to achieve
+
+第29题
+原文： This ambitious goal requires 29.____ (continue) cooperation between government, businesses, and local communities.
+
+翻译： 这个宏伟的目标需要政府、企业和当地社区之间的持续的合作。
+
+分析：
+修饰 cooperation（合作），需要形容词。
+continue 是动词（继续），它的形容词形式是 continued（持续的），或者 continuous。这里 continued 表示“不断的、持续的”。
+规则：
+名词前填形容词：动词加 -ed 变形容词。
+答案： continued
+
+整体总结
+时态： 尤其是现在完成时 (have/has done)，用来表示过去的动作对现在有影响，文中出现了很多次！
+语态： 被动语态 (be done)，东西是被保护的、被配备的，要记得用被动。
+词性转换： 名词前要填形容词（比如 remarkable, traditional），动词前要填 to 表目的（不定式）。
+固定搭配： 像 use... to..., encourage... to..., key to..., aim to... 这些短语要记牢。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
     }
 ];
 
