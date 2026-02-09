@@ -332,11 +332,20 @@ function bindTranslationEvents() {
     // 划词翻译事件 - 只在翻译填空卡片显示时响应
     // 使用已定义在 grammar-fill.js 中的全局函数
     if (typeof handleTextSelection === 'function') {
-        // 文本选择事件监听（使用防抖，但延迟很短）
-        const debouncedHandleTextSelection = debounce((e) => {
+        // 文本选择事件监听 - 直接调用，无延迟
+        const handleTextSelectionForTranslation = (e) => {
             // 只在翻译填空卡片显示时响应
             const translationCard = document.querySelector('.translation-card');
             if (!translationCard || translationCard.classList.contains('hidden')) return;
+            
+            // 如果点击的是气泡框或拖拽条，不处理（避免干扰拖拽）
+            const tooltip = document.getElementById('translationTooltip');
+            if (tooltip && tooltip.contains(e.target)) {
+                return;
+            }
+            if (e.target.classList && e.target.classList.contains('tooltip-drag-handle')) {
+                return;
+            }
             
             const selection = window.getSelection();
             let selectedText = '';
@@ -393,9 +402,9 @@ function bindTranslationEvents() {
                     showTranslationTooltip(rect, selectedText);
                 }
             }
-        }, 10); // 防抖延迟缩短到10ms，几乎是立即响应
+        };
         
-        document.addEventListener('click', debouncedHandleTextSelection);
+        document.addEventListener('click', handleTextSelectionForTranslation);
     }
     
     // mousedown 时立即隐藏气泡框和清除选择
@@ -407,6 +416,11 @@ function bindTranslationEvents() {
         
         // 如果点击在气泡框内，不关闭窗口也不清除选择
         if (tooltip && tooltip.contains(e.target)) {
+            return;
+        }
+        
+        // 如果点击的是拖拽条，不隐藏气泡框（让拖拽逻辑处理）
+        if (e.target.classList && e.target.classList.contains('tooltip-drag-handle')) {
             return;
         }
         

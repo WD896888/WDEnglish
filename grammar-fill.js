@@ -3254,9 +3254,8 @@ function bindGrammarEvents() {
         }
     });
 
-    // 文本选择事件监听（使用防抖）- 使用 click 事件避免与取消选择冲突
-    const debouncedHandleTextSelection = debounce(handleTextSelection, 10);
-    document.addEventListener('click', debouncedHandleTextSelection);
+    // 文本选择事件监听 - 直接调用，无延迟
+    document.addEventListener('click', handleTextSelection);
     
     // mousedown 时立即隐藏气泡框和清除选择
     document.addEventListener('mousedown', (e) => {
@@ -3264,6 +3263,11 @@ function bindGrammarEvents() {
         
         // 如果点击在气泡框内，不关闭窗口也不清除选择
         if (tooltip && tooltip.contains(e.target)) {
+            return;
+        }
+        
+        // 如果点击的是拖拽条，不隐藏气泡框（让拖拽逻辑处理）
+        if (e.target.classList && e.target.classList.contains('tooltip-drag-handle')) {
             return;
         }
         
@@ -3492,9 +3496,18 @@ let translationTimeout = null;
 /**
  * 处理文本选择事件
  */
-function handleTextSelection() {
+function handleTextSelection(e) {
     // 只在语法填空卡片显示时响应
     if (!grammarCard || grammarCard.classList.contains('hidden')) return;
+
+    // 如果点击的是气泡框或拖拽条，不处理（避免干扰拖拽）
+    const tooltip = document.getElementById('translationTooltip');
+    if (tooltip && tooltip.contains(e.target)) {
+        return;
+    }
+    if (e.target.classList && e.target.classList.contains('tooltip-drag-handle')) {
+        return;
+    }
 
     const selection = window.getSelection();
     
@@ -3579,7 +3592,7 @@ async function showTranslationTooltip(rect, text) {
     
     let translationHTML = '';
     
-    // 先获取翻译结果
+    // 等待翻译完成
     try {
         const translation = await translateText(text);
         
@@ -3595,49 +3608,17 @@ async function showTranslationTooltip(rect, text) {
         translationHTML = `<div class="tooltip-error">翻译失败: ${escapeHtml(error.message || '请稍后重试')}</div>`;
     }
     
-    // 获取到翻译结果后再显示气泡框
+    // 获取或创建气泡框
     let tooltip = document.getElementById('translationTooltip');
-    
-    // 如果气泡框不存在，创建它
     if (!tooltip) {
         tooltip = createTranslationTooltip();
         document.body.appendChild(tooltip);
     }
 
-    // 设置气泡框位置
-    const tooltipWidth = 200;
-    const tooltipHeight = 80;
-    const arrowSize = 10;
-    const offsetTop = 15;
-
-    // 计算水平位置（居中显示）
-    let left = rect.left + (rect.width / 2) - (tooltipWidth / 2);
-    
-    // 边界检查：防止超出左边界
-    if (left < 10) {
-        left = 10;
-    }
-    
-    // 边界检查：防止超出右边界
-    if (left + tooltipWidth > window.innerWidth - 10) {
-        left = window.innerWidth - tooltipWidth - 10;
-    }
-
-    // 计算垂直位置（显示在选中内容上方）
-    let top = rect.top - tooltipHeight - arrowSize - offsetTop;
-    
-    // 边界检查：如果上方空间不足，显示在下方
-    if (top < 10) {
-        top = rect.bottom + arrowSize + offsetTop;
-        tooltip.classList.add('tooltip-bottom');
-    } else {
-        tooltip.classList.remove('tooltip-bottom');
-    }
-
-    // 设置位置
-    tooltip.style.left = left + 'px';
-    tooltip.style.top = top + 'px';
-    tooltip.style.display = 'block';
+    // 清除之前拖拽留下的样式
+    tooltip.style.minWidth = '';
+    tooltip.style.transform = '';
+    tooltip.style.willChange = 'auto';
 
     // 查找或创建内容容器
     let contentContainer = tooltip.querySelector('.tooltip-content-container');
@@ -3653,13 +3634,64 @@ async function showTranslationTooltip(rect, text) {
         `<div class="tooltip-para">${escapeHtml(p)}</div>`
     ).join('');
     
-    // 直接显示原文和译文（不显示"翻译中..."）
+    // 显示原文和译文（翻译已完成）
     contentContainer.innerHTML = `
         <div class="tooltip-content">
             <div class="tooltip-original-section">${originalHTML}</div>
             <div class="tooltip-translation-section">${translationHTML}</div>
         </div>
     `;
+    
+    // 先显示气泡框以获取实际尺寸
+    tooltip.style.display = 'block';
+    tooltip.style.left = '0';
+    tooltip.style.top = '0';
+
+    // 等待DOM更新后获取实际尺寸
+    await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+
+    // 获取气泡框实际尺寸
+    const tooltipRect = tooltip.getBoundingClientRect();
+    const tooltipWidth = tooltipRect.width;
+    const tooltipHeight = tooltipRect.height;
+    
+    // 重新计算位置（使用实际尺寸）
+    const arrowSize = 10;
+    const offsetTop = 15;
+    const padding = 10;
+
+    // 计算水平位置（居中显示）
+    let left = rect.left + (rect.width / 2) - (tooltipWidth / 2);
+    
+    // 边界检查：防止超出左边界
+    if (left < padding) {
+        left = padding;
+    }
+    
+    // 边界检查：防止超出右边界
+    if (left + tooltipWidth > window.innerWidth - padding) {
+        left = window.innerWidth - tooltipWidth - padding;
+    }
+
+    // 计算垂直位置（显示在选中内容上方）
+    let top = rect.top - tooltipHeight - arrowSize - offsetTop;
+    
+    // 边界检查：如果上方空间不足，显示在下方
+    if (top < padding) {
+        top = rect.bottom + arrowSize + offsetTop;
+        // 再次检查下方是否超出屏幕
+        if (top + tooltipHeight > window.innerHeight - padding) {
+            // 如果下方也超出，放在屏幕底部
+            top = window.innerHeight - tooltipHeight - padding;
+        }
+        tooltip.classList.add('tooltip-bottom');
+    } else {
+        tooltip.classList.remove('tooltip-bottom');
+    }
+
+    // 设置位置
+    tooltip.style.left = left + 'px';
+    tooltip.style.top = top + 'px';
     
     // 重置翻译状态
     isTranslating = false;
@@ -3672,6 +3704,8 @@ function hideTranslationTooltip() {
     const tooltip = document.getElementById('translationTooltip');
     if (tooltip) {
         tooltip.style.display = 'none';
+        // 移除拖拽标记，下次显示时重新计算默认位置
+        tooltip.classList.remove('tooltip-dragged');
     }
     
     // 重置翻译状态
@@ -3732,6 +3766,8 @@ function setupTooltipDrag(tooltip, dragHandle) {
     let rafId = null;
     let pendingX = 0;
     let pendingY = 0;
+    let lastValidLeft = 0;  // 记录经过边界限制后的实际位置
+    let lastValidTop = 0;
     
     // 开始拖拽（立即触发）
     const startDrag = (e) => {
@@ -3745,6 +3781,10 @@ function setupTooltipDrag(tooltip, dragHandle) {
         const computedStyle = window.getComputedStyle(tooltip);
         initialLeft = parseInt(computedStyle.left) || tooltip.offsetLeft;
         initialTop = parseInt(computedStyle.top) || tooltip.offsetTop;
+        
+        // 初始化lastValid位置
+        lastValidLeft = initialLeft;
+        lastValidTop = initialTop;
         
         // 缓存尺寸，避免频繁重排
         const rect = tooltip.getBoundingClientRect();
@@ -3775,6 +3815,10 @@ function setupTooltipDrag(tooltip, dragHandle) {
         
         const newLeft = Math.max(10, Math.min(pendingX, maxLeft - 10));
         const newTop = Math.max(10, Math.min(pendingY, maxTop - 10));
+        
+        // 记录经过边界限制后的实际位置
+        lastValidLeft = newLeft;
+        lastValidTop = newTop;
         
         // 使用 transform 代替 left/top，性能更好
         tooltip.style.transform = `translate(${newLeft - initialLeft}px, ${newTop - initialTop}px)`;
@@ -3816,11 +3860,9 @@ function setupTooltipDrag(tooltip, dragHandle) {
             rafId = null;
         }
         
-        // 将 transform 应用到实际位置
-        const computedStyle = window.getComputedStyle(tooltip);
-        const matrix = new DOMMatrix(computedStyle.transform);
-        const currentLeft = initialLeft + matrix.m41;
-        const currentTop = initialTop + matrix.m42;
+        // 使用记录的经过边界限制后的实际位置
+        const currentLeft = lastValidLeft;
+        const currentTop = lastValidTop;
         
         // 恢复样式设置
         tooltip.style.willChange = 'auto';
