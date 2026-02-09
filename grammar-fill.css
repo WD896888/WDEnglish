@@ -190,9 +190,12 @@
     color: #721c24;
 }
 
-/* 答案列表样式 */
 .answers-list {
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 40px;
     padding: 10px 15px;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
@@ -200,18 +203,14 @@
     user-select: text;
 }
 
-.answers-list strong {
-    color: #4a6fa5;
-    font-size: 16px;
-}
-
 .answer-item {
-    display: inline-block;
-    width: 120px;
-    color: #5d8ab8;
+    flex: 0 0 calc(50% - 20px);
+    padding: 4px 8px;
+    color: #4a6fa5;
     font-weight: 600;
-    margin: 5px 0;
+    box-sizing: border-box;
     text-align: left;
+    white-space: nowrap;
     -webkit-user-select: text;
     user-select: text;
 }
@@ -402,15 +401,15 @@
 .translation-tooltip {
     position: fixed;
     z-index: 9999;
-    width: 200px;
-    min-height: 60px;
-    max-height: 150px;
-    overflow-y: auto;
+    width: auto;
+    min-width: 200px;
+    max-width: 460px;
+    height: auto;
     background: linear-gradient(135deg, #ffffff, #f8f9fa);
     border: 1px solid rgba(122, 168, 214, 0.3);
     border-radius: 12px;
     box-shadow: 0 8px 24px rgba(74, 111, 165, 0.2), 0 2px 8px rgba(74, 111, 165, 0.1);
-    padding: 12px;
+    padding: 24px 12px 12px 12px;
     font-family: 'Nunito', sans-serif;
     font-size: 14px;
     line-height: 1.5;
@@ -420,48 +419,92 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     animation: tooltipFadeIn 0.2s ease-out;
+    user-select: none;
 }
 
-/* 气泡框箭头 */
-.translation-tooltip::before {
-    content: '';
+/* 拖拽条 */
+.tooltip-drag-handle {
     position: absolute;
-    bottom: -10px;
+    top: 6px;
     left: 50%;
     transform: translateX(-50%);
-    border: 10px solid transparent;
-    border-top-color: rgba(255, 255, 255, 0.95);
-    filter: drop-shadow(0 2px 4px rgba(74, 111, 165, 0.1));
+    width: 40px;
+    height: 4px;
+    background: rgba(122, 168, 214, 0.4);
+    border-radius: 2px;
+    transition: background 0.2s ease;
 }
 
-/* 气泡框箭头（底部显示时） */
-.translation-tooltip.tooltip-bottom::before {
-    top: -10px;
-    bottom: auto;
-    border-top-color: transparent;
-    border-bottom-color: rgba(255, 255, 255, 0.95);
+.tooltip-drag-handle:hover {
+    background: rgba(122, 168, 214, 0.6);
+}
+
+.tooltip-drag-handle:active {
+    background: rgba(122, 168, 214, 0.8);
+}
+
+.tooltip-dragging,
+.tooltip-dragging * {
+    transition: none !important;
+    animation: none !important;
+}
+
+/* 已拖动的气泡框禁用淡入动画 */
+.translation-tooltip.tooltip-dragged {
+    animation: none !important;
+}
+
+/* 拖拽时启用 GPU 加速 */
+.translation-tooltip {
+    will-change: auto;
+    transform: translateZ(0);
+}
+
+.tooltip-dragging {
+    will-change: transform !important;
+}
+
+/* 内容容器 */
+.tooltip-content-container {
+    width: 100%;
 }
 
 /* 气泡框内容 */
 .tooltip-content {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 12px;
 }
 
-.tooltip-original {
+/* 原文区域 */
+.tooltip-original-section {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(122, 168, 214, 0.2);
+}
+
+.tooltip-original-section .tooltip-para {
     font-size: 13px;
     color: #7aa8d6;
     font-weight: 500;
     font-style: italic;
-    padding-bottom: 4px;
-    border-bottom: 1px solid rgba(122, 168, 214, 0.2);
+    line-height: 1.5;
 }
 
-.tooltip-translation {
+/* 译文区域 */
+.tooltip-translation-section {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.tooltip-translation-section .tooltip-para {
     font-size: 15px;
     color: #4a6fa5;
     font-weight: 600;
+    line-height: 1.5;
 }
 
 /* 加载状态 */
@@ -516,10 +559,29 @@
 /* 响应式适配 */
 @media (max-width: 768px) {
     .translation-tooltip {
-        width: 180px;
-        min-height: 50px;
-        padding: 10px;
+        min-width: 180px;
+        max-width: 400px;
+        padding: 22px 10px 10px 10px;
         font-size: 13px;
+    }
+
+    .tooltip-drag-handle {
+        width: 36px;
+        height: 3px;
+        top: 5px;
+    }
+
+    .tooltip-content {
+        gap: 10px;
+    }
+
+    .tooltip-original-section,
+    .tooltip-translation-section {
+        gap: 3px;
+    }
+
+    .tooltip-original-section {
+        padding-bottom: 8px;
     }
 
     .tooltip-original {
@@ -533,10 +595,29 @@
 
 @media (max-width: 480px) {
     .translation-tooltip {
-        width: 160px;
-        min-height: 45px;
-        padding: 8px;
+        min-width: 160px;
+        max-width: 340px;
+        padding: 20px 8px 8px 8px;
         font-size: 12px;
+    }
+
+    .tooltip-drag-handle {
+        width: 32px;
+        height: 3px;
+        top: 4px;
+    }
+
+    .tooltip-content {
+        gap: 8px;
+    }
+
+    .tooltip-original-section,
+    .tooltip-translation-section {
+        gap: 2px;
+    }
+
+    .tooltip-original-section {
+        padding-bottom: 6px;
     }
 
     .tooltip-original {
@@ -546,23 +627,4 @@
     .tooltip-translation {
         font-size: 13px;
     }
-}
-
-/* 滚动条样式 */
-.translation-tooltip::-webkit-scrollbar {
-    width: 4px;
-}
-
-.translation-tooltip::-webkit-scrollbar-track {
-    background: rgba(122, 168, 214, 0.1);
-    border-radius: 2px;
-}
-
-.translation-tooltip::-webkit-scrollbar-thumb {
-    background: rgba(122, 168, 214, 0.3);
-    border-radius: 2px;
-}
-
-.translation-tooltip::-webkit-scrollbar-thumb:hover {
-    background: rgba(122, 168, 214, 0.5);
 }

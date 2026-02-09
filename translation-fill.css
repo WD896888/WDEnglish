@@ -1,0 +1,422 @@
+/* ========== 翻译填空卡片样式 ========== */
+.translation-card {
+    position: relative;
+    overflow: visible;
+    pointer-events: auto;
+}
+
+/* 引言横线容器 */
+.translation-quote-line {
+    position: relative;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -15px 0 20px 0;
+}
+
+/* 引言横线 */
+.translation-quote-line::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgba(122, 168, 214, 0.4), transparent);
+    z-index: 1;
+}
+
+/* 翻译填空引言区域 */
+.translation-quote {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 20px;
+    background: linear-gradient(135deg, #e3edf7, #d4e6f9);
+    border-radius: 15px;
+}
+
+.translation-quote .quote-mark {
+    font-size: 20px;
+    color: rgba(122, 168, 214, 0.6);
+    font-family: 'Georgia', serif;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.translation-quote .quote-text {
+    font-size: 14px;
+    font-style: italic;
+    color: #5d8ab8;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+
+/* 题目内容容器 - 模仿语法填空风格 */
+.translation-content {
+    position: relative;
+    z-index: 10;
+    padding: 20px 0;
+    min-height: 200px;
+    -webkit-user-select: text;
+    user-select: text;
+    pointer-events: auto;
+}
+
+/* 段落样式 - 模仿语法填空 */
+.translation-paragraph {
+    margin-bottom: 24px;
+    line-height: 2;
+    font-size: 16px;
+    color: #4a6fa5;
+    pointer-events: auto;
+    position: relative;
+    z-index: 5;
+}
+
+/* 英文句子 */
+.translation-sentence {
+    display: inline;
+    margin-right: 8px;
+    -webkit-user-select: text;
+    user-select: text;
+    pointer-events: auto;
+    position: relative;
+    z-index: 5;
+}
+
+/* 中文翻译 - 放在英文下方 */
+.translation-chinese-text {
+    display: block;
+    color: #7aa8d6;
+    font-size: 14px;
+    margin-top: 4px;
+    line-height: 1.6;
+}
+
+/* 填空输入框 - 模仿语法填空输入框 */
+.translation-blank {
+    display: inline-block;
+    width: 100px;
+    min-width: 80px;
+    max-width: 200px;
+    height: 24px;
+    border: none;
+    border-bottom: 2px solid rgba(93, 138, 184, 0.5);
+    border-radius: 0;
+    background: transparent;
+    padding: 0 6px;
+    margin: 0 4px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #4a6fa5;
+    text-align: left;
+    pointer-events: auto;
+    -webkit-user-select: text;
+    user-select: text;
+    -webkit-touch-callout: text;
+    cursor: text;
+    box-sizing: border-box;
+    line-height: 20px;
+    vertical-align: middle;
+    transition: none;
+}
+
+.translation-blank::placeholder {
+    color: rgba(93, 138, 184, 0.4);
+    font-size: 13px;
+}
+
+.translation-blank:focus {
+    outline: none;
+    border-bottom-color: rgba(93, 138, 184, 0.8);
+}
+
+/* 提示词 */
+.translation-hint {
+    color: #7aa8d6;
+    font-size: 15px;
+    font-style: italic;
+    margin: 0 2px;
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+/* 正确状态 */
+.translation-blank.correct {
+    border-bottom-color: rgba(40, 167, 69, 0.6);
+    color: #155724;
+}
+
+/* 错误状态 */
+.translation-blank.incorrect {
+    border-bottom-color: rgba(220, 53, 69, 0.6);
+    color: #721c24;
+}
+
+/* 答案区域 */
+.answers-section {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
+    border: 1px solid rgba(122, 168, 214, 0.2);
+}
+
+.answers-section h3 {
+    color: #4a6fa5;
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(122, 168, 214, 0.3);
+}
+
+.answer-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    background: rgba(122, 168, 214, 0.1);
+    border-radius: 8px;
+}
+
+.answer-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 22px;
+    height: 22px;
+    background: #7aa8d6;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.answer-text {
+    color: #4a6fa5;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* 响应式适配 */
+@media (max-width: 768px) {
+    .translation-quote-line {
+        height: 26px;
+        margin: -13px 0 16px 0;
+    }
+
+    .translation-quote {
+        padding: 0 15px;
+        gap: 6px;
+    }
+
+    .translation-quote .quote-mark {
+        font-size: 18px;
+    }
+
+    .translation-quote .quote-text {
+        font-size: 12px;
+        letter-spacing: 0.3px;
+    }
+
+    .translation-content {
+        padding: 15px 0;
+    }
+
+    .translation-paragraph {
+        font-size: 15px;
+        line-height: 1.9;
+        margin-bottom: 20px;
+    }
+
+    .translation-chinese-text {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+
+    .translation-blank {
+        min-width: 70px;
+        max-width: 180px;
+        height: 22px;
+        font-size: 14px;
+        padding: 0 5px;
+    }
+
+    .translation-hint {
+        font-size: 14px;
+    }
+
+    .answers-section {
+        padding: 16px;
+    }
+
+    .answer-row {
+        padding: 6px 10px;
+    }
+
+    .answer-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .translation-quote-line {
+        height: 24px;
+        margin: -12px 0 14px 0;
+    }
+
+    .translation-quote {
+        padding: 0 12px;
+        gap: 4px;
+    }
+
+    .translation-quote .quote-mark {
+        font-size: 16px;
+    }
+
+    .translation-quote .quote-text {
+        font-size: 11px;
+        letter-spacing: 0.2px;
+        white-space: normal;
+        text-align: center;
+    }
+
+    .translation-content {
+        padding: 10px 0;
+    }
+
+    .translation-paragraph {
+        font-size: 14px;
+        line-height: 1.8;
+        margin-bottom: 16px;
+    }
+
+    .translation-chinese-text {
+        font-size: 12px;
+        margin-top: 2px;
+    }
+
+    .translation-blank {
+        min-width: 60px;
+        max-width: 160px;
+        height: 20px;
+        font-size: 13px;
+        padding: 0 4px;
+        margin: 0 3px;
+    }
+
+    .translation-hint {
+        font-size: 13px;
+    }
+
+    .answers-section {
+        padding: 14px;
+        margin-top: 16px;
+    }
+
+    .answers-section h3 {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+
+    .answer-row {
+        padding: 6px 8px;
+        margin-bottom: 8px;
+    }
+
+    .answer-num {
+        min-width: 20px;
+        height: 20px;
+        font-size: 11px;
+    }
+
+    .answer-text {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 360px) {
+    .translation-paragraph {
+        font-size: 13px;
+        line-height: 1.7;
+        margin-bottom: 14px;
+    }
+
+    .translation-chinese-text {
+        font-size: 11px;
+    }
+
+    .translation-blank {
+        min-width: 50px;
+        max-width: 140px;
+        height: 18px;
+        font-size: 12px;
+        padding: 0 3px;
+    }
+}
+
+/* 横屏模式优化 */
+@media (max-height: 600px) and (orientation: landscape) {
+    .translation-quote-line {
+        height: 24px;
+        margin: -12px 0 12px 0;
+    }
+
+    .translation-content {
+        padding: 10px 0;
+    }
+
+    .translation-paragraph {
+        margin-bottom: 12px;
+        line-height: 1.6;
+    }
+
+    .translation-chinese-text {
+        margin-top: 2px;
+    }
+
+    .translation-blank {
+        height: 20px;
+    }
+}
+
+/* 打印样式 */
+@media print {
+    .translation-paragraph {
+        margin-bottom: 16px;
+    }
+
+    .translation-blank {
+        border-bottom: 1px solid #999;
+        background: transparent;
+    }
+}
+
+/* 答案列表样式 - 与语法填空一致 */
+.answers-list {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 40px;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+}
+
+.answer-item {
+    flex: 0 0 calc(50% - 20px);
+    padding: 4px 8px;
+    color: #4a6fa5;
+    font-weight: 600;
+    box-sizing: border-box;
+}

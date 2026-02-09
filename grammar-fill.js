@@ -503,8 +503,8 @@ The revival of Hanfu proves that traditional culture can be modern and cool. It 
 所有的熟练，都是从生涩的填空开始的
 此处留白，非为缺憾，乃邀君共书
 `
-},
-{
+    },
+    {
     content: `Chinese AI company DeepSeek shocked the world in January 2026. It released 1. ____ new AI model called DeepSeek-V4, 2. ________ had performance as good as GPT-5 but cost much 3. ________ (little) to train. This achievement proved that China could lead 4. ______ the field of artificial intelligence.
 
 DeepSeek was founded in 2023 by Liang Wenfeng. The team worked in a very simple office building, 5. ________ they created something amazing. They used 6. ________ (innovative) training methods to save money while improving 7. ________ (accurate). Many foreign experts said this was 8. ________ (possible) because it broke the belief that only big tech companies with huge budgets could develop top AI models.
@@ -649,8 +649,8 @@ determine（动词，决心/决定） -> 去掉结尾的 e，加上 ation，变�
 所有的熟练，都是从生涩的填空开始的
 此处留白，非为缺憾，乃邀君共书
 `
-},
-{
+    },
+    {
     content: `On December 4, 2024, Spring Festival was 1. ________ (official) added to the UNESCO Intangible Cultural Heritage list. This is 2. ________ great recognition of Chinese culture and brings honor to millions of 3. ________ (family) celebrating this important festival.
 
 Spring Festival, also called Chinese New Year, has a history of over 3,000 years. It is a time 4. ______ family members get together, enjoy big meals, and wish each other good luck. The festival includes many traditions, 5. ________ (range) from pasting red couplets to giving red envelopes 6. ________ (contain) lucky money to children.
@@ -2420,7 +2420,7 @@ Looking ahead, China aims 28.____ (achieve) comprehensive rural modernization by
             { index: 7, answer: "helped" },
             { index: 8, answer: "to" },
             { index: 9, answer: "is being preserved" },
-            { index: 10, answer: "that/which" },
+            { index: 10, answer: "that / which" },
             { index: 11, answer: "traditional" },
             { index: 12, answer: "beautiful" },
             { index: 13, answer: "more" },
@@ -2805,6 +2805,131 @@ continue 是动词（继续），它的形容词形式是 continued（持续的�
 所有的熟练，都是从生涩的填空开始的
 此处留白，非为缺憾，乃邀君共书
 `
+    },
+    {
+content: `Chinese scientist Zhang Yongzhen won the 2026 Lasker Award for medical research on the 10th of January. This is one of the 1. ________ (high) honors in medical science worldwide. He is the third researcher from Asia to receive it.
+
+Zhang has studied viruses for 2. ________ 30 years. In 2003, he 3. ________ (lead) a team that identified a deadly virus. His work 4. ________ (save) countless lives since then.
+
+Zhang believes in sharing knowledge. He always uses clear methods 5. ________ simple tools in his research. During the COVID-19 pandemic, Zhang quickly shared data with scientists globally—an act of courage and openness.
+
+Zhang also 6. ________ (write) for the public. His book Virus and Humans, 7. ________ (publish) in 2022, explains complex science in everyday language. It encourages people 8. ________ (learn) more about health. Many readers find it inspiring.
+
+“The goal of science is to serve humanity. People’s 9. ________ (healthy) and safety are 10. ________ ultimate purpose of our work,” he said.`,
+        blanks: [
+            { index: 1, answer: "highest" },
+            { index: 2, answer: "for" },
+            { index: 3, answer: "led" },
+            { index: 4, answer: "has saved" },
+            { index: 5, answer: "and" },
+            { index: 6, answer: "writes / has written" },
+            { index: 7, answer: "published" },
+            { index: 8, answer: "to learn" },
+            { index: 9, answer: "health" },
+            { index: 10, answer: "the" }
+        ],
+        explanation: `题目解析：
+第1题
+原文： This is one of the 1. ________ (high) honors in medical science worldwide.
+翻译： 这是世界医学科学界最高荣誉之一。
+分析：
+注意看前面的词组 “one of”（……之一）。当你看到“one of + 名词（复数）”的时候，这个名词前面通常要加什么？加“最……”，也就是最高级。这里的 honors 是复数，所以 high 要变成它的最高级形式。
+规则：
+这是形容词最高级。简单说，就是在一堆东西里比，它是“第一名”的程度。对于大部分短单词，我们在后面加 -est 就可以了。
+答案： highest
+
+第2题
+原文： Zhang has studied viruses for 2. ________ 30 years.
+翻译： 张研究病毒已经30多年了。
+分析：
+这里有一个表示一段时间的词组 “30 years”（30年）。前面有一个动词是 has studied（已经研究了，动作从过去持续到现在）。当我们想说“某个动作持续了多长时间”，中间缺一个介词，应该用哪个呢？
+规则：
+这是一个固定搭配：for + 时间段。意思就是“长达……”。
+答案： for
+
+第3题
+原文： In 2003, he 3. ________ (lead) a team that identified a deadly virus.
+翻译： 2003年，他带领一个团队识别了一种致命病毒。
+分析：
+请注意句子开头的那个大大的时间状语 “In 2003”（在2003年）。这是一个过去的具体时间点，事情已经发生并结束了，不是现在正在做。
+规则：
+这是一般过去时。只要看到具体的过去时间（如 yesterday, last year, In 2003），动词就要变身成过去式。lead 这个词的变形比较特殊，不是直接加 ed，要记住哦。
+答案： led
+
+第4题
+原文： His work 4. ________ (save) countless lives since then.
+翻译： 从那时起，他的工作挽救了无数生命。
+分析：
+这里有一个非常关键的时间标记词：“since then”（从那时起）。这个词组就像一个红灯，专门提示我们要用一种特定的时态，表示“动作从过去开始，一直影响到现在”。
+规则：
+这是现在完成时。结构是 have/has + 动词的过去分词。主语 His work 是单数，所以用 has。Save 的过去分词是 saved。
+答案： has saved
+
+第5题
+原文： He always uses clear methods 5. ________ simple tools in his research.
+翻译： 在研究中，他总是使用清晰的方法和简单的工具。
+分析：
+看看空格前后，前面是 “clear methods”（清晰的方法），后面是 “simple tools”（简单的工具）。这是两个并列的名词短语，意思也是并列的。我们需要一个词把它们像胶水一样连起来。
+规则：
+这是并列连词。最常用的表示“和”、“以及”的词就是 and。
+答案： and
+
+第6题
+原文： Zhang also 6. ________ (write) for the public.
+翻译： 张也为大众写作。
+分析：
+这一题稍微有点灵活，我们看主语 Zhang（第三人称单数）。整篇文章大部分在讲他的一贯做法和成就。我们可以理解为“他经常写作”（一种习惯），或者结合上下文，他“已经写了”（一种完成状态）。
+规则：
+如果看作一种经常性的习惯，用一般现在时，主语是第三人称单数，动词要加 s，即 writes。如果看作从过去到现在已经做过的事，用现在完成时 has written 也是可以的。对于基础较弱的同学，优先考虑 writes（经常写）会更稳妥。
+答案： writes (或者 has written)
+
+第7题
+原文： His book Virus and Humans, 7. ________ (publish) in 2022, explains complex science in everyday language.
+翻译： 他的书《病毒与人类》于2022年出版，用通俗易懂的语言解释了复杂的科学。
+分析：
+请注意这个空的位置：它被夹在书名和后面的逗号之间，后面还跟着 “in 2022”。这说明这是在补充说明这本书的背景。书是被“出版”的，而且是在2022年这个过去的时间。
+规则：
+这里考察的是过去分词作后置定语。简单解释一下，“过去分词”通常表示“被动”或“完成”。这里书“被出版”，所以用 publish 的过去分词形式 published。你把它理解为一个简短的被动语态（which was published）的缩略版就好。
+答案： published
+
+第8题
+原文： It encourages people 8. ________ (learn) more about health.
+翻译： 它鼓励人们更多地了解健康。
+分析：
+看动词 encourages（鼓励），它的用法通常是“鼓励某人去做某事”。这里的 learn（学习）是 people 要去做的事情。
+规则：
+这是不定式。结构是 encourage sb. to do sth.，也就是“鼓励某人 去做 某事”。所以动词前面要加一个小尾巴 to。
+答案： to learn
+
+第9题
+原文： People’s 9. ________ (healthy) and safety are 10. ________ ultimate purpose of our work,” he said.
+翻译： “人们的健康和安全是我们工作的最终目的，”他说。
+分析：
+注意前面的 People’s（人们的），这是所有格，后面肯定要跟一个名词。再看后面的 and safety（和安全），safety 是名词，所以空里的词也必须是名词性质。题目给的 healthy 是形容词（健康的）。
+规则：
+这是词性转换，把形容词变成名词。形容词 healthy 变名词，把 y 改成 i，加 th，变成 health。
+答案： health
+
+第10题
+原文： …and safety are 10. ________ ultimate purpose of our work,” he said.
+翻译： ……人们的健康和安全是我们工作的最终目的。
+分析：
+这里缺一个词放在 ultimate purpose（最终目的）前面。Purpose 这里是特指“我们工作的那个”目的。而且你看前面的 ultimate，它的意思其实是“最后的、终极的”，隐含了一种“唯一性”或“极致”。
+规则：
+这是冠词的用法。在表示“独一无二的”或者最高级性质的名词前面，通常加定冠词 the。
+答案： the
+
+🌟 整体总结
+这篇练习虽然看起来长，但其实主要考察了以下几个核心语法点：
+
+形容词的最高级：看到 “one of” 就要想到用 “highest” 这种形式。
+时态：要能分清 “In 2003”（过去时 led）、“since then”（现在完成时 has saved）的区别。
+词性转换：形容词变名词，比如 healthy 变 health。
+固定搭配：for + 时间段，encourage sb. to do sth.。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
     }
 ];
 
@@ -3129,15 +3254,44 @@ function bindGrammarEvents() {
         }
     });
 
-    // 文本选择事件监听
-    document.addEventListener('mouseup', handleTextSelection);
-    document.addEventListener('touchend', handleTextSelection);
+    // 文本选择事件监听（使用防抖）- 使用 click 事件避免与取消选择冲突
+    const debouncedHandleTextSelection = debounce(handleTextSelection, 10);
+    document.addEventListener('click', debouncedHandleTextSelection);
     
-    // 点击其他地方隐藏气泡框
+    // mousedown 时立即隐藏气泡框和清除选择
     document.addEventListener('mousedown', (e) => {
         const tooltip = document.getElementById('translationTooltip');
-        if (tooltip && !tooltip.contains(e.target)) {
-            hideTranslationTooltip();
+        
+        // 如果点击在气泡框内，不关闭窗口也不清除选择
+        if (tooltip && tooltip.contains(e.target)) {
+            return;
+        }
+        
+        // 立即隐藏翻译窗口
+        hideTranslationTooltip();
+        
+        // 立即清除文本选择（无论点击哪里）
+        const selection = window.getSelection();
+        if (selection) {
+            selection.removeAllRanges();
+        }
+    });
+
+    // 阻止语法填空区域内的选中文本弹出迷你菜单（通过阻止mouseup默认行为）
+    document.addEventListener('mouseup', (e) => {
+        // 只在语法填空卡片显示时响应
+        if (!grammarCard || grammarCard.classList.contains('hidden')) return;
+
+        const grammarContentEl = document.getElementById('grammarContent');
+        if (!grammarContentEl) return;
+
+        // 检查点击位置是否在语法填空区域内
+        if (grammarContentEl.contains(e.target)) {
+            const selection = window.getSelection();
+            // 只有当有选中文本时才阻止默认行为，防止迷你菜单弹出
+            if (selection.toString().trim()) {
+                e.preventDefault();
+            }
         }
     });
 
@@ -3150,22 +3304,6 @@ function bindGrammarEvents() {
             return false;
         });
     }
-
-    // 屏蔽选中文本时的浏览器默认行为
-    document.addEventListener('mouseup', (e) => {
-        // 只在语法填空卡片显示时响应
-        if (!grammarCard || grammarCard.classList.contains('hidden')) return;
-
-        const grammarContentEl = document.getElementById('grammarContent');
-        if (!grammarContentEl) return;
-
-        // 如果选中的文本在语法填空区域内，阻止某些默认行为
-        const selection = window.getSelection();
-        if (selection.toString().trim() && grammarContentEl.contains(selection.anchorNode)) {
-            // 阻止选中文本后的某些浏览器默认行为
-            e.preventDefault();
-        }
-    }, true);
 }
 
 function prevGrammarQuestion() {
@@ -3188,7 +3326,6 @@ function checkGrammarAnswer() {
     const question = grammarQuestions[currentGrammarIndex];
     const blanks = question.blanks;
     let correctCount = 0;
-    let allFilled = true;
     
     // 检查每个填空
     blanks.forEach(blank => {
@@ -3196,8 +3333,8 @@ function checkGrammarAnswer() {
         const userAnswer = userAnswers[blank.index] || '';
         
         if (!userAnswer) {
-            allFilled = false;
-            input.classList.remove('correct', 'incorrect');
+            input.classList.add('incorrect');
+            input.classList.remove('correct');
             return;
         }
         
@@ -3216,35 +3353,37 @@ function checkGrammarAnswer() {
         }
     });
     
-    // 显示结果
-    if (!allFilled) {
-        grammarResult.textContent = '⚠️ 请填写所有空白处后再检查答案';
-        grammarResult.className = 'result incorrect';
-        return;
-    }
+        // 显示结果
     
-    if (correctCount === blanks.length) {
-        grammarResult.textContent = `✨ 恭喜！全部正确！`;
-        grammarResult.className = 'result correct';
-
+        if (correctCount === blanks.length) {
+    
+            grammarResult.textContent = `✨ 恭喜！全部正确！`;
+    
+            grammarResult.className = 'result correct';
+    
+        } else {
+    
+            grammarResult.textContent = `❌ 答对了 ${correctCount}/${blanks.length} 个空`;
+    
+            grammarResult.className = 'result incorrect';
+    
+        }
+    
+    
+    
         // 格式化答案列表
+    
         const answersHtml = formatAnswers(blanks);
+    
         // 格式化解析内容：保留换行和段落格式
+    
         const formattedExplanation = formatExplanation(question.explanation);
+    
         grammarExplanation.innerHTML = answersHtml + '<br>' + formattedExplanation;
+    
         grammarExplanation.classList.add('visible');
+    
         saveGrammarProgress();
-    } else {
-        grammarResult.textContent = `❌ 答对了 ${correctCount}/${blanks.length} 个空`;
-        grammarResult.className = 'result incorrect';
-
-        // 格式化答案列表
-        const answersHtml = formatAnswers(blanks);
-        // 格式化解析内容：保留换行和段落格式
-        const formattedExplanation = formatExplanation(question.explanation);
-        grammarExplanation.innerHTML = answersHtml + '<br>' + formattedExplanation;
-        grammarExplanation.classList.add('visible');
-    }
 }
 
 // 格式化解析内容
@@ -3258,22 +3397,12 @@ function formatExplanation(explanation) {
 
 // 格式化答案列表
 function formatAnswers(blanks) {
-    let html = '<div class="answers-list"><strong>参考答案：</strong><br>';
-    
+    let html = '<div class="answers-list">';
+
     blanks.forEach((blank, index) => {
-        // 每两个答案换行
-        if (index > 0 && index % 2 === 0) {
-            html += '<br>';
-        }
-        
         html += `<span class="answer-item">${blank.index}. ${blank.answer}</span>`;
-        
-        // 每两个答案之间添加间距
-        if (index % 2 === 0 && index < blanks.length - 1) {
-            html += '<span class="answer-spacer"></span>';
-        }
     });
-    
+
     html += '</div>';
     return html;
 }
@@ -3339,6 +3468,28 @@ document.addEventListener('DOMContentLoaded', initGrammarFill);
 // ========== 翻译气泡框功能 ==========
 
 /**
+ * 防抖函数
+ * @param {Function} func - 要防抖的函数
+ * @param {number} wait - 等待时间（毫秒）
+ * @returns {Function} 防抖后的函数
+ */
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+
+// 翻译状态跟踪
+let isTranslating = false;
+let translationTimeout = null;
+
+/**
  * 处理文本选择事件
  */
 function handleTextSelection() {
@@ -3346,7 +3497,14 @@ function handleTextSelection() {
     if (!grammarCard || grammarCard.classList.contains('hidden')) return;
 
     const selection = window.getSelection();
-    const selectedText = selection.toString().trim();
+    
+    // 安全获取选中文本
+    let selectedText = '';
+    try {
+        selectedText = selection.toString().trim();
+    } catch (e) {
+        return;
+    }
 
     // 如果没有选中文本，隐藏气泡框
     if (!selectedText) {
@@ -3354,15 +3512,39 @@ function handleTextSelection() {
         return;
     }
 
-    // 如果选中的文本太短或太长，不显示气泡框
-    if (selectedText.length < 1 || selectedText.length > 100) {
+    // 如果选中的文本太短，不显示气泡框
+    if (selectedText.length < 1) {
+        hideTranslationTooltip();
         return;
     }
 
+    // 使用完整选中文本进行翻译
+    let textToTranslate = selectedText;
+
     // 检查选中的文本是否在语法填空内容区域内
-    const range = selection.getRangeAt(0);
+    let range;
+    try {
+        if (selection.rangeCount === 0) return;
+        range = selection.getRangeAt(0);
+    } catch (e) {
+        return;
+    }
+    
     const grammarContentEl = document.getElementById('grammarContent');
-    if (!grammarContentEl || !grammarContentEl.contains(range.commonAncestorContainer)) {
+    if (!grammarContentEl || !range.commonAncestorContainer) {
+        hideTranslationTooltip();
+        return;
+    }
+    
+    // 检查鼠标按下后是否还有有效选择（mousedown 可能已经清除）
+    // 如果 mousedown 时清除了选择，这里的选择应该是空的
+    if (!selectedText) {
+        hideTranslationTooltip();
+        return;
+    }
+    
+    // 检查选区是否在语法填空区域内
+    if (!grammarContentEl.contains(range.commonAncestorContainer)) {
         hideTranslationTooltip();
         return;
     }
@@ -3370,8 +3552,15 @@ function handleTextSelection() {
     // 获取选中文本的位置
     const rect = range.getBoundingClientRect();
     
-    // 显示气泡框并调用翻译API
-    showTranslationTooltip(rect, selectedText);
+    // 如果选区没有有效尺寸，不显示
+    if (rect.width === 0 && rect.height === 0) {
+        return;
+    }
+    
+    // 立即显示翻译气泡，无延迟
+    if (!isTranslating) {
+        showTranslationTooltip(rect, textToTranslate);
+    }
 }
 
 /**
@@ -3380,6 +3569,33 @@ function handleTextSelection() {
  * @param {string} text - 选中的文本
  */
 async function showTranslationTooltip(rect, text) {
+    // 如果正在翻译中，直接返回，避免重复请求
+    if (isTranslating) {
+        return;
+    }
+    
+    // 设置翻译状态
+    isTranslating = true;
+    
+    let translationHTML = '';
+    
+    // 先获取翻译结果
+    try {
+        const translation = await translateText(text);
+        
+        // 按段落分割译文
+        const translatedParagraphs = translation.split('\n').filter(p => p.trim());
+        
+        // 生成译文区域
+        translationHTML = translatedParagraphs.map(p => 
+            `<div class="tooltip-para">${escapeHtml(p)}</div>`
+        ).join('');
+    } catch (error) {
+        console.error('翻译失败:', error);
+        translationHTML = `<div class="tooltip-error">翻译失败: ${escapeHtml(error.message || '请稍后重试')}</div>`;
+    }
+    
+    // 获取到翻译结果后再显示气泡框
     let tooltip = document.getElementById('translationTooltip');
     
     // 如果气泡框不存在，创建它
@@ -3423,20 +3639,30 @@ async function showTranslationTooltip(rect, text) {
     tooltip.style.top = top + 'px';
     tooltip.style.display = 'block';
 
-    // 显示加载状态
-    tooltip.innerHTML = '<div class="tooltip-loading">翻译中...</div>';
-
-    // 调用百度翻译API
-    try {
-        const translation = await translateText(text);
-        tooltip.innerHTML = `<div class="tooltip-content">
-            <div class="tooltip-original">${escapeHtml(text)}</div>
-            <div class="tooltip-translation">${escapeHtml(translation)}</div>
-        </div>`;
-    } catch (error) {
-        console.error('翻译失败:', error);
-        tooltip.innerHTML = `<div class="tooltip-error">翻译失败</div>`;
+    // 查找或创建内容容器
+    let contentContainer = tooltip.querySelector('.tooltip-content-container');
+    if (!contentContainer) {
+        contentContainer = document.createElement('div');
+        contentContainer.className = 'tooltip-content-container';
+        tooltip.appendChild(contentContainer);
     }
+
+    // 生成原文区域
+    const originalParagraphs = text.split('\n').filter(p => p.trim());
+    const originalHTML = originalParagraphs.map(p => 
+        `<div class="tooltip-para">${escapeHtml(p)}</div>`
+    ).join('');
+    
+    // 直接显示原文和译文（不显示"翻译中..."）
+    contentContainer.innerHTML = `
+        <div class="tooltip-content">
+            <div class="tooltip-original-section">${originalHTML}</div>
+            <div class="tooltip-translation-section">${translationHTML}</div>
+        </div>
+    `;
+    
+    // 重置翻译状态
+    isTranslating = false;
 }
 
 /**
@@ -3446,6 +3672,23 @@ function hideTranslationTooltip() {
     const tooltip = document.getElementById('translationTooltip');
     if (tooltip) {
         tooltip.style.display = 'none';
+    }
+    
+    // 重置翻译状态
+    isTranslating = false;
+    
+    // 清除定时器
+    if (translationTimeout) {
+        clearTimeout(translationTimeout);
+        translationTimeout = null;
+    }
+    
+    // 清除内容容器的内容（保留拖拽条）
+    if (tooltip) {
+        const contentContainer = tooltip.querySelector('.tooltip-content-container');
+        if (contentContainer) {
+            contentContainer.innerHTML = '';
+        }
     }
 }
 
@@ -3457,7 +3700,152 @@ function createTranslationTooltip() {
     const tooltip = document.createElement('div');
     tooltip.id = 'translationTooltip';
     tooltip.className = 'translation-tooltip';
+    
+    // 创建拖拽条
+    const dragHandle = document.createElement('div');
+    dragHandle.className = 'tooltip-drag-handle';
+    dragHandle.title = '长按拖动移动位置';
+    tooltip.appendChild(dragHandle);
+    
+    // 创建内容容器
+    const contentContainer = document.createElement('div');
+    contentContainer.className = 'tooltip-content-container';
+    tooltip.appendChild(contentContainer);
+    
+    // 添加拖拽功能
+    setupTooltipDrag(tooltip, dragHandle);
+    
     return tooltip;
+}
+
+/**
+ * 设置翻译气泡框的拖拽功能
+ * @param {HTMLElement} tooltip - 气泡框元素
+ * @param {HTMLElement} dragHandle - 拖拽条元素
+ */
+function setupTooltipDrag(tooltip, dragHandle) {
+    let isDragging = false;
+    let startX, startY;
+    let initialLeft, initialTop;
+    let tooltipWidth = 0;
+    let tooltipHeight = 0;
+    let rafId = null;
+    let pendingX = 0;
+    let pendingY = 0;
+    
+    // 开始拖拽（立即触发）
+    const startDrag = (e) => {
+        const clientX = e.clientX || (e.touches && e.touches[0].clientX);
+        const clientY = e.clientY || (e.touches && e.touches[0].clientY);
+        
+        startX = clientX;
+        startY = clientY;
+        
+        // 获取当前位置
+        const computedStyle = window.getComputedStyle(tooltip);
+        initialLeft = parseInt(computedStyle.left) || tooltip.offsetLeft;
+        initialTop = parseInt(computedStyle.top) || tooltip.offsetTop;
+        
+        // 缓存尺寸，避免频繁重排
+        const rect = tooltip.getBoundingClientRect();
+        tooltipWidth = rect.width;
+        tooltipHeight = rect.height;
+        
+        // 使用 min-width 固定宽度，防止靠近边界时文字重排
+        tooltip.style.minWidth = tooltipWidth + 'px';
+        
+        // 启用 GPU 加速
+        tooltip.style.willChange = 'transform';
+        
+        isDragging = true;
+        tooltip.classList.add('tooltip-dragging');
+        
+        // 阻止默认行为和冒泡
+        e.preventDefault();
+        e.stopPropagation();
+    };
+    
+    // 使用 requestAnimationFrame 更新位置
+    const updatePosition = () => {
+        if (!isDragging) return;
+        
+        // 边界检查
+        const maxLeft = window.innerWidth - tooltipWidth;
+        const maxTop = window.innerHeight - tooltipHeight;
+        
+        const newLeft = Math.max(10, Math.min(pendingX, maxLeft - 10));
+        const newTop = Math.max(10, Math.min(pendingY, maxTop - 10));
+        
+        // 使用 transform 代替 left/top，性能更好
+        tooltip.style.transform = `translate(${newLeft - initialLeft}px, ${newTop - initialTop}px)`;
+    };
+    
+    // 移动拖拽
+    const doDrag = (e) => {
+        if (!isDragging) return;
+        
+        e.preventDefault();
+        e.stopPropagation();
+        
+        const clientX = e.clientX || (e.touches && e.touches[0].clientX);
+        const clientY = e.clientY || (e.touches && e.touches[0].clientY);
+        
+        pendingX = initialLeft + (clientX - startX);
+        pendingY = initialTop + (clientY - startY);
+        
+        // 使用 requestAnimationFrame 批量更新
+        if (!rafId) {
+            rafId = requestAnimationFrame(() => {
+                updatePosition();
+                rafId = null;
+            });
+        }
+    };
+    
+    // 结束拖拽
+    const endDrag = (e) => {
+        if (!isDragging) return;
+        
+        isDragging = false;
+        tooltip.classList.remove('tooltip-dragging');
+        tooltip.classList.add('tooltip-dragged');
+        
+        // 取消未完成的动画帧
+        if (rafId) {
+            cancelAnimationFrame(rafId);
+            rafId = null;
+        }
+        
+        // 将 transform 应用到实际位置
+        const computedStyle = window.getComputedStyle(tooltip);
+        const matrix = new DOMMatrix(computedStyle.transform);
+        const currentLeft = initialLeft + matrix.m41;
+        const currentTop = initialTop + matrix.m42;
+        
+        // 恢复样式设置
+        tooltip.style.willChange = 'auto';
+        tooltip.style.transform = '';
+        tooltip.style.left = currentLeft + 'px';
+        tooltip.style.top = currentTop + 'px';
+        tooltip.style.minWidth = '';
+        
+        // 阻止事件冒泡
+        e.preventDefault();
+        e.stopPropagation();
+    };
+    
+    // 鼠标事件
+    dragHandle.addEventListener('mousedown', startDrag, { passive: false });
+    document.addEventListener('mousemove', doDrag, { passive: false });
+    document.addEventListener('mouseup', endDrag);
+    
+    // 触摸事件（移动端支持）
+    dragHandle.addEventListener('touchstart', startDrag, { passive: false });
+    document.addEventListener('touchmove', doDrag, { passive: false });
+    document.addEventListener('touchend', endDrag);
+    
+    // 防止拖拽条触发选中文本
+    dragHandle.addEventListener('selectstart', (e) => e.preventDefault());
 }
 
 /**

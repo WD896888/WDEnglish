@@ -183,7 +183,7 @@ class QwenAIService {
     constructor(apiKey = 'sk-976963ce13304c64ab1b3a2770b89db2') {
         this.apiKey = apiKey;
         this.baseUrl = 'https://dashscope.aliyuncs.com/compatible-mode/v1';
-        this.model = 'qwen-flash';
+        this.model = 'deepseek-v3.2';
         this.defaultMessages = [
             {
                 role: 'system',

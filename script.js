@@ -167,8 +167,9 @@ const totalQuestionsEl = document.getElementById('totalQuestions');
 // ========== 菜单切换功能 ==========
 function initMenuSwitch() {
     const menuItems = document.querySelectorAll('.menu-item');
-    const sentenceCard = document.querySelector('.exercise-card:not(.grammar-card)');
+    const sentenceCard = document.querySelector('.exercise-card:not(.grammar-card):not(.translation-card)');
     const grammarCard = document.querySelector('.grammar-card');
+    const translationCard = document.querySelector('.translation-card');
 
     menuItems.forEach((item, index) => {
         item.addEventListener('click', () => {
@@ -182,23 +183,38 @@ function initMenuSwitch() {
             item.classList.add('active');
 
             // 切换卡片显示
-            switchCard(index, sentenceCard, grammarCard);
+            switchCard(index, sentenceCard, grammarCard, translationCard);
         });
     });
 }
 
 // 切换卡片显示
-function switchCard(menuIndex, sentenceCard, grammarCard) {
-    // 0: 连词成句, 1: 语法填空
+function switchCard(menuIndex, sentenceCard, grammarCard, translationCard) {
+    // 0: 连词成句, 1: 语法填空, 2: 翻译填空
     const subtitle = document.getElementById('subtitle');
+    
     if (menuIndex === 0) {
+        // 连词成句
         if (sentenceCard) sentenceCard.classList.remove('hidden');
         if (grammarCard) grammarCard.classList.add('hidden');
+        if (translationCard) translationCard.classList.add('hidden');
         if (subtitle) subtitle.textContent = '拾起散落的语言碎片，拼凑属于自己的表达';
     } else if (menuIndex === 1) {
+        // 语法填空
         if (sentenceCard) sentenceCard.classList.add('hidden');
         if (grammarCard) grammarCard.classList.remove('hidden');
+        if (translationCard) translationCard.classList.add('hidden');
         if (subtitle) subtitle.textContent = '不是所有空白都代表缺失，有些，是词语间未说完的余韵';
+    } else if (menuIndex === 2) {
+        // 翻译填空
+        if (sentenceCard) sentenceCard.classList.add('hidden');
+        if (grammarCard) grammarCard.classList.add('hidden');
+        if (translationCard) translationCard.classList.remove('hidden');
+        if (subtitle) subtitle.textContent = '填补语言间的桥接处，让意义在彼岸完整';
+        // 初始化翻译填空
+        if (typeof initTranslationFill === 'function') {
+            initTranslationFill();
+        }
     }
 }
 
@@ -1976,19 +1992,12 @@ function formatAIResponse(text) {
         // 处理行内代码
         formatted = formatted.replace(/`([^`]+?)`/g, '<code class="inline-code">$1</code>');
 
-        // 处理段落
-        formatted = formatted.replace(/\n\n+/g, '</p><p class="ai-paragraph">');
+        // 处理换行
         formatted = formatted.replace(/\n/g, '<br>');
 
-        if (!formatted.startsWith('<p')) {
-            formatted = '<p class="ai-paragraph">' + formatted;
-        }
-        if (!formatted.endsWith('</p>')) {
-            formatted = formatted + '</p>';
-        }
-        
-        // 清理空段落
-        formatted = formatted.replace(/<p class="ai-paragraph">\s*<\/p>/g, '');
+        // 处理段落：按双换行分割，过滤空段落，每个段落包装在<p>标签中
+        const paragraphs = formatted.split(/<br><br>+/).filter(p => p.trim() !== '');
+        formatted = paragraphs.map(p => `<p class="ai-paragraph">${p}</p>`).join('');
 
         return formatted;
     } catch (error) {
@@ -2154,7 +2163,7 @@ const AI_MODEL_STORAGE_KEY = 'wdenglish_ai_model';
 const AI_SYSTEM_PROMPT_STORAGE_KEY = 'wdenglish_ai_system_prompt';
 
 const DEFAULT_AI_NAME = 'AI英语助手';
-const DEFAULT_AI_MODEL = 'qwen-flash';
+const DEFAULT_AI_MODEL = 'deepseek-v3.2';
 const DEFAULT_SYSTEM_PROMPT = '你是一个专业的英语学习助手，擅长解答英语语法、词汇、翻译等问题，帮助学生提高英语水平。';
 
 // 当前正在编辑的头像类型（'user' 或 'ai'）

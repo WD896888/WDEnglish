@@ -6,6 +6,7 @@
     <title>英语练习题</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="grammar-fill.css">
+    <link rel="stylesheet" href="translation-fill.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -35,14 +36,18 @@
                 <span class="menu-icon">📝</span>
                 语法填空
             </button>
-            <button class="menu-item disabled">
+            <button class="menu-item">
                 <span class="menu-icon">🌐</span>
-                英文翻译
-                <span class="pending">更多功能敬请期待</span>
+                翻译填空
             </button>
+             <button class="menu-item disabled">
+                <span class="menu-icon">🧩</span>
+                阅读填空
+                <span class="pending">更多功能敬请期待</span>
+            </button>           
             <button class="menu-item disabled">
                 <span class="menu-icon">📖</span>
-                英语短文
+                阅读理解
                 <span class="pending">更多功能敬请期待</span>
             </button>
             <button class="menu-item disabled">
@@ -118,6 +123,39 @@
 
             <div id="grammarResult" class="result"></div>
             <div id="grammarExplanation" class="explanation"></div>
+        </div>
+
+        <div class="exercise-card translation-card hidden">
+            <div class="card-header">
+                <h2>翻译填空</h2>
+                <div class="progress-indicator">
+                    <span id="translationQuestionNumber">1</span>
+                    <span class="divider">/</span>
+                    <span id="translationTotalQuestions">1</span>
+                </div>
+            </div>
+
+            <div id="translationContent" class="translation-content">
+                <!-- 动态渲染题目内容 -->
+            </div>
+
+            <div class="actions">
+                <button id="translationPrevBtn" class="btn btn-prev">
+                    <span class="btn-icon">←</span>
+                    上一组
+                </button>
+                <button id="translationCheckBtn" class="btn btn-check">
+                    <span class="btn-icon">✓</span>
+                    检查答案
+                </button>
+                <button id="translationNextBtn" class="btn btn-next">
+                    下一组
+                    <span class="btn-icon">→</span>
+                </button>
+            </div>
+
+            <div id="translationResult" class="result"></div>
+            <div id="translationExplanation" class="explanation"></div>
         </div>
 
         <div class="ai-chat-card">
@@ -211,12 +249,11 @@
                         <div class="advanced-item">
                             <label class="advanced-label">模型：</label>
                             <select id="modelSelect" class="advanced-select">
-                                <option value="qwen-flash">qwen-flash</option>
-                                <option value="qwen-turbo">qwen-turbo</option>
-                                <option value="qwen-plus">qwen-plus</option>
-                                <option value="qwen-max">qwen-max</option>
-                                <option value="qwen-long-latest">qwen-long-latest</option>
-                                <option value="qwen3-coder-plus">qwen3-coder-plus</option>
+                                <option value="Kimi-K2.5">Kimi-K2.5</option>
+                                <option value="qwen3-max">Qwen3-MAX</option>
+                                <option value="glm-4.7">GLM-4.7</option>
+                                <option value="MiniMax-M2.1">MiniMax-M2.1</option>
+                                <option value="deepseek-v3.2">DeepSeek-V3.2</option>
                             </select>
                         </div>
                         <div class="advanced-item">
@@ -239,5 +276,6 @@
     <script src="ai-service.js"></script>
     <script src="script.js"></script>
     <script src="grammar-fill.js"></script>
+    <script src="translation-fill.js"></script>
 </body>
 </html>

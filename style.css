@@ -747,12 +747,12 @@ body {
 }
 
 .explanation {
-    margin-top: 20px;
-    padding: 25px 30px;
+    margin-top: 15px;
+    padding: 20px 25px;
     border-radius: 20px;
     font-weight: 600;
     font-size: 1.05em;
-    line-height: 1.8;
+    line-height: 2;
     min-height: 30px;
     transition: all 0.3s ease;
     box-shadow: inset 4px 4px 8px #ccd9e6, inset -4px -4px 8px #ffffff;
@@ -772,10 +772,12 @@ body {
 }
 
 .explanation.visible::before {
-    content: '💡';
+    content: '💡 参考答案：';
     display: inline-block;
     margin-right: 10px;
-    font-size: 1.2em;
+    margin-bottom: 8px;
+    font-size: 1em;
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -1645,6 +1647,8 @@ body {
 .message-text strong {
     font-weight: 700;
     color: #3d5a80;
+    -webkit-user-select: text;
+    user-select: text;
 }
 
 .ai-message .message-text strong {
@@ -1659,6 +1663,8 @@ body {
 .message-text em {
     font-style: italic;
     color: #5d8ab8;
+    -webkit-user-select: text;
+    user-select: text;
 }
 
 .user-message .message-text em {
@@ -1674,6 +1680,8 @@ body {
     background: linear-gradient(135deg, #e8f0f8, #d4e6f9);
     color: #4a6fa5;
     box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.05);
+    -webkit-user-select: text;
+    user-select: text;
 }
 
 .user-message .message-text .inline-code {
