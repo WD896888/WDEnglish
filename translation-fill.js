@@ -132,7 +132,141 @@ so…that… 结构。So（如此）修饰形容词，that（以至于）引出�
 连接词的威力：chance 后面通常接 to do，so…that 用来连接"如此…以至于"。`
     },
     // 第二组
+        {
+        group: 2,
+        questions: [
+    {
+        chinese: "每个人都有必要遵守交通规则。",
+        english: "It is necessary for everyone （ ） the traffic rules.",
+        hint: "obey",
+        answer: "to obey"
+    },
+    {
+        chinese: "老师告诉我们地球绕着太阳转。",
+        english: "The teacher told us that the earth （ ） around the sun.",
+        hint: "go",
+        answer: "goes"
+    },
+    {
+        chinese: "虽然你很忙，但我还是要我自己做。",
+        english: "（ ） you are busy, I will do it myself.",
+        hint: "though",
+        answer: "Though"
+    },
+    {
+        chinese: "我们期待着再次见到你。",
+        english: "We are looking forward to （ ） you again.",
+        hint: "see",
+        answer: "seeing"
+    },
+    {
+        chinese: "这本书很有趣。我已经读过两遍了。",
+        english: "The book is very interesting. I （ ） it twice.",
+        hint: "read",
+        answer: "have read"
+    },
+    {
+        chinese: "离开房间时请记得关灯。",
+        english: "Please remember （ ） the lights when you leave the room.",
+        hint: "turn",
+        answer: "to turn"
+    }
+],
+explanation:`
+题目解析：
 
+第1题
+原文： It is necessary for everyone _____ the traffic rules.
+
+翻译： 每个人都有必要遵守交通规则。
+
+分析：
+线索词： 我们要盯住句首的 “It is necessary”（这是……必要的）。这是一个非常固定的句型。
+逻辑推导： 这里的“它”只是个形式主语，真正的主语是后面要做的事情。我们要表达“对于每个人来说，去做什么什么是有必要的”。在英语里，当我们要说“去做某事”时，通常要在动词前面加个小尾巴。
+规则：
+这里用到的是“不定式”。
+大白话解释： “不定式”就是动词最原始的样子前面加上 to。就像我们要去某个地方，前面得有个路标“to”指引方向。当你看到“It is + 形容词 + for sb.”这样的结构，后面那个动作通常都要加“to”。
+答案： to obey
+
+第2题
+原文： The teacher told us that the earth _____ around the sun.
+
+翻译： 老师告诉我们地球绕着太阳转。
+
+分析：
+线索词： 这里有两个关键点。一是前面的 “told”（告诉），这是过去式；二是后面的 “the earth”（地球）和 “around the sun”（绕着太阳）。
+逻辑推导： 很多同学一看前面的“told”是过去时，后面就想跟着填过去式。但是！你想想，地球绕着太阳转，这是客观事实，不管昨天、今天还是明天，它都在这么转，不随时间改变。
+规则：
+客观真理用一般现在时。
+大白话解释： 只要你说的是科学真理、或者永远不变的习惯，不管前面说了什么“过去”的话，后面都要用一般现在时。而且主语“the earth”是第三人称单数（相当于“它”），动词后面要加“s”。
+答案： goes
+
+第3题
+原文： _____ you are busy, I will do it myself.
+
+翻译： 虽然你很忙，但我还是要我自己做。
+
+分析：
+线索词： 这句有两个分句。后半句说“我要自己做”，前半句说“你很忙”。这两句话意思是相反的，是一种转折关系。
+逻辑推导： 中文里的“虽然……但是……”，在英语里通常不需要两个词都用，只需要一个连词。题目给了我们“though”（虽然），我们把它放进去。
+规则：
+句首首字母大写。
+大白话解释： 这是一个很简单的规则，英语句子的第一个字母永远要大写，就像人穿衣服要整洁一样。
+答案： Though
+
+第4题
+原文： We are looking forward to _____ you again.
+
+翻译： 我们期待着再次见到你。
+
+分析：
+线索词： 这里的坑很深哦！一定要盯住 “to”。
+逻辑推导： 很多同学一看到“to”，马上就想到“to do”（去做某事）。但是，这里的“to”是前面“look forward to”这个短语的一部分，它在这里不是去指引方向，而是一个介词。
+规则：
+介词后面用动名词。
+大白话解释： 介词就像一个桥，桥后面如果接动作，不能直挺挺地站着，得变身。变身的方式就是后面加 -ing。
+专业术语解释： 动名词，就是把动词变成名词的样子（加ing），因为它要在介词后面充当名词的角色。
+答案： seeing
+
+第5题
+原文： The book is very interesting. I _____ it twice.
+
+翻译： 这本书很有趣。我已经读过两遍了。
+
+分析：
+线索词： 注意句尾的 “twice”（两次）。还有句子里的隐含意思“已经”。
+逻辑推导： “读”这个动作发生在过去，而且强调的是截止到目前的结果——读了两次。这就像是给这件事画了一个句号，强调对现在的影响。
+规则：
+现在完成时。
+大白话解释： 当你想表达“某事已经做过了”或者“某事做了多少次”，而且这事儿跟现在还有关系，我们就用 have/has + 动词的过去分词。主语是“我”，所以用 have。
+专业术语解释： 过去分词，就是动词表示“完成”或“被动”的一种特殊形式。这里的 read，它的过去分词写法和原形一样，但要注意拼写。
+答案： have read
+
+第6题
+原文： Please remember _____ the lights when you leave the room.
+
+翻译： 离开房间时请记得关灯。
+
+分析：
+线索词： “remember”（记得）和 “when you leave”（当你离开时）。
+逻辑推导： 这句话的逻辑是：你还没离开房间，灯还没关，我提醒你等会儿要做这件事。这是“记得要做某事”。
+规则：
+remember to do 与 remember doing 的区别。
+大白话解释：
+To do: 事情还没做，提醒自己去做。（记得去关灯）
+Doing: 事情已经做过了，回想起做过的事。（我记得我关过灯了）
+题目里灯显然还开着，所以要填“去关”的意思，也就是加 to。
+答案： to turn
+
+🌟 整体总结
+今天我们通过这6道题，其实掌握了几个超级核心的“武林秘籍”：
+
+固定搭配 It is… to do…：看到“做某事是…的”，记得给动作穿个“to”的马甲。
+客观真理不变时：不管前面多古早，地球绕着太阳转永远是“goes”。
+小心“to”的身份：如果是短语里的to（look forward to），后面动作要加-ing。
+事情做完没？：做完了、强调次数，用“have done”（现在完成时）。
+动作将来时？：记得要去做，用“to do”；记得做过，用“doing”。`
+    }
 ];
 
 // ========== 翻译填空状态管理 ==========
