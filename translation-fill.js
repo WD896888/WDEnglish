@@ -299,7 +299,7 @@ Doing: 事情已经做过了，回想起做过的事。（我记得我关过灯�
     },
     {
         chinese: "别再让孩子学习了，他太累了。",
-        english: "Don’t make the child ________ anymore. He is too tired.",
+        english: "Don’t make the child （ ） anymore. He is too tired.",
         hint: "study",
         answer: "study"
     }
