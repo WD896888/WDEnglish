@@ -1,6 +1,5 @@
 // ========== 翻译填空题库数据 ==========
 const translationQuestions = [
-    // 第一组
     {
         group: 1,
         questions: [
@@ -131,8 +130,7 @@ so…that… 结构。So（如此）修饰形容词，that（以至于）引出�
 从句的完整性：缺主语要补主语（比如 he），注意第三人称单数加 s。
 连接词的威力：chance 后面通常接 to do，so…that 用来连接"如此…以至于"。`
     },
-    // 第二组
-        {
+    {
         group: 2,
         questions: [
     {
@@ -266,7 +264,7 @@ Doing: 事情已经做过了，回想起做过的事。（我记得我关过灯�
 事情做完没？：做完了、强调次数，用“have done”（现在完成时）。
 动作将来时？：记得要去做，用“to do”；记得做过，用“doing”。`
     },
-        {
+    {
         group: 3,
         questions: [
     {
@@ -401,14 +399,171 @@ Don’t make the child ______ anymore. He is too tired.
 语态： 什么时候该用“被”（被动语态）。
 特殊句型： “越……越……”（The more… the more…）和“让某人做某事”（make sb. do）。
 虚拟语气： 怎么表达“假假”的感觉（as if）。`
+    },
+
+    {
+        group: 4,
+        questions: [
+    {
+        chinese: "如果明天下雨，我们就待在家里。",
+        english: "If it （ ） tomorrow, we will stay at home.",
+        hint: "rain",
+        answer: "rains"
+    },
+    {
+        chinese: "我不知道他是否会来参加聚会。",
+        english: "I don't know （ ） he will come to the party. ",
+        hint: "whether",
+        answer: "whether/if"
+    },
+    {
+        chinese: "这是我昨天买的那本书。",
+        english: "This is the book （ ） I bought yesterday.",
+        hint: "which",
+        answer: "which/that"
+    },
+    {
+        chinese: "如果你努力学习，你会通过考试的。",
+        english: "（ ） you study hard, you will pass the exam.",
+        hint: "if",
+        answer: "If"
+    },
+    {
+        chinese: "你能告诉我你的学校在哪里吗？",
+        english: "Can you tell me （ ） your school is? ",
+        hint: "where",
+        answer: "where"
+    },
+    {
+        chinese: "站在那里的那个人是我的老师。",
+        english: "The man （ ） is standing there is my teacher. ",
+        hint: "who",
+        answer: "who/that"
     }
+],
+explanation:`题目解析：
+
+第1题
+原文：
+If it ______ tomorrow, we will stay at home.
+
+翻译：
+如果明天下雨，我们就待在家里。
+
+分析：
+我们要特别注意那个“线索词”——tomorrow（明天）。明天说明这件事还没发生，是将来的事。但是，英语里有一个很有趣的习惯：在表示“如果……”（If 引导）的句子里，即使时间是明天，主句用了 will（将来时），前面的 If 那个小句子通常不使用 will，而是直接用一般现在时。
+而且，主语是 it（它），第三人称单数，所以动词要加一点小尾巴。
+
+规则：
+这叫“主将从现”原则。听着很专业对吧？其实意思就是：主句用将来时，If 引导的从句就用现在时。比如“如果明天下雨”，不能说“如果明天将下雨”，而要说“如果明天下雨”。因为“雨”是第三人称单数，所以 rain 要变成 rains。
+
+答案：
+rains
+
+第2题
+原文：
+I don’t know ______ he will come to the party.
+
+翻译：
+我不知道他是否会来参加聚会。
+
+分析：
+看句子的前半部分“I don’t know”（我不知道）。不知道什么呢？不知道的是后面这一整件事：“他会不会来”。
+中文里的“是否”，在英语里连接两个句子时，我们需要一个桥梁词。这时候，我们就要把心里的疑问转化为陈述。
+
+规则：
+这里考察的是宾语从句（简单说，就是用一个句子来充当“知道”的宾语）。当句子的意思是“是否”时，我们通常用 whether 或者 if。这两个词在这里可以通用，都是“是不是”的意思。
+
+答案：
+whether/if
+
+第3题
+原文：
+This is the book ______ I bought yesterday.
+
+翻译：
+这是我昨天买的那本书。
+
+分析：
+请看“线索词”——book（书）。前面的句子说“这是一本书”，后面的句子说“我昨天买了它”。
+你会发现，后面的句子其实是在补充说明这本书的来历。在英语里，当我们要用一个句子来修饰一个东西（比如 book）时，就需要一个词来代替这个东西放在从句的开头。I bought… 后面缺了宾语（买了什么？买了书），所以我们要找一个能指代“书”的词。
+
+规则：
+这叫定语从句（就是给名词贴标签、加修饰语的句子）。当先行词（被修饰的词）是物的时候，我们通常用 which 或者 that。
+
+答案：
+which/that
+
+第4题
+原文：
+______ you study hard, you will pass the exam.
+
+翻译：
+如果你努力学习，你会通过考试的。
+
+分析：
+看中文翻译的第一个字——“如果”。
+再看后面的句子，“you will pass”（你会通过），这是一个将来发生的事情。这和我们第1题的逻辑是一样的：需要一个表示“如果”的词来引导这个条件。
+
+规则：
+这是最基础的条件状语从句。表示“如果”就用 if。记住那个“主将从现”的老朋友，主句用了 will，前面只要安安静静用 If 就好了，动词 study 用原形。
+
+答案：
+if
+
+第5题
+原文：
+Can you tell me ______ your school is?
+
+翻译：
+你能告诉我你的学校在哪里吗？
+
+分析：
+看句子的尾巴部分：“your school is”（你的学校是……）。是不是觉得话没说完？学校在哪呢？
+这里缺的是一个地点。我们在问一个“在哪里”的问题，但是把它放在了“告诉我”这句话的后面。
+
+规则：
+这也是宾语从句。当你在这个从句里缺少的是“地点”信息时，千万不要填 what 或者 how，要填表示地点的词。问“在哪”，就用 where。
+
+答案：
+where
+
+第6题
+原文：
+The man ______ is standing there is my teacher.
+
+翻译：
+站在那里的那个人是我的老师。
+
+分析：
+找“线索词”——man（人）。
+后面的句子“is standing there”（正站在那里）是谁在做这个动作呢？是前面的那个“男人”。
+和第3题类似，这也是一个起修饰作用的句子，但这次修饰的不是一个东西，而是一个人。
+
+规则：
+同样是定语从句，但这次先行词是人。指代人，我们要用 who 或者 that。千万不能用 which 哦，which 是专门指物的。
+
+答案：
+who/that
+
+🌟 整体总结
+
+条件句： 看到 If（如果），记住“主将从现”这个口诀，主句用将来时，If 后面用现在时。
+定语从句： 就是给名词加个尾巴。如果是人，用 who/that；如果是物，用 which/that。
+宾语从句： 就是把问句变成“我说/我知道……”的一部分。缺“是否”用 whether/if，缺“地点”用 where。
+`
+    },
 
 ];
+
 
 // ========== 翻译填空状态管理 ==========
 let currentTranslationGroup = 0;
 let translationAnswers = {}; // 存储用户答案
 let translationChecked = false; // 当前组是否已检查
+
+// ========== 进度管理常量 ==========
+const TRANSLATION_PROGRESS_KEY = 'wdenglish_translation_progress';
 
 // ========== 初始化翻译填空 ==========
 function initTranslationFill() {
@@ -416,6 +571,13 @@ function initTranslationFill() {
     if (typeof hideTranslationTooltip === 'function') {
         hideTranslationTooltip();
     }
+    
+    // 恢复进度
+    const progressRestored = loadTranslationProgress();
+    if (progressRestored) {
+        console.log('翻译填空进度已恢复到第', currentTranslationGroup + 1, '组');
+    }
+    
     renderTranslationQuestion();
     bindTranslationEvents();
     updateTranslationProgress();
@@ -459,201 +621,49 @@ function updateTranslationProgress() {
 
 // ========== 绑定事件 ==========
 function bindTranslationEvents() {
-    // 检查答案按钮
+    // 检查答案按钮 - 只需要绑定一次，使用once选项避免重复绑定
     const checkBtn = document.getElementById('translationCheckBtn');
-    if (checkBtn) {
+    if (checkBtn && !checkBtn._eventBound) {
+        checkBtn._eventBound = true;
         checkBtn.addEventListener('click', () => checkTranslationAnswers(true));
     }
     
-    // 划词翻译事件 - 只在翻译填空卡片显示时响应
-    // 使用已定义在 grammar-fill.js 中的全局函数
-    if (typeof handleTextSelection === 'function') {
-        // 文本选择事件监听 - 直接调用，无延迟
-        const handleTextSelectionForTranslation = (e) => {
-            // 只在翻译填空卡片显示时响应
-            const translationCard = document.querySelector('.translation-card');
-            if (!translationCard || translationCard.classList.contains('hidden')) return;
-            
-            // 如果点击的是气泡框或拖拽条，不处理（避免干扰拖拽）
-            const tooltip = document.getElementById('translationTooltip');
-            if (tooltip && tooltip.contains(e.target)) {
-                return;
-            }
-            if (e.target.classList && e.target.classList.contains('tooltip-drag-handle')) {
-                return;
-            }
-            
-            const selection = window.getSelection();
-            let selectedText = '';
-            try {
-                selectedText = selection.toString().trim();
-            } catch (err) {
-                return;
-            }
-            
-            // 如果没有选中文本，隐藏气泡框
-            if (!selectedText || selectedText.length < 1) {
-                if (typeof hideTranslationTooltip === 'function') {
-                    hideTranslationTooltip();
-                }
-                return;
-            }
-            
-            // 检查选区是否在翻译填空区域内
-            let range;
-            try {
-                if (selection.rangeCount === 0) return;
-                range = selection.getRangeAt(0);
-            } catch (err) {
-                return;
-            }
-            
-            const translationContentEl = document.getElementById('translationContent');
-            if (!translationContentEl || !range.commonAncestorContainer) {
-                if (typeof hideTranslationTooltip === 'function') {
-                    hideTranslationTooltip();
-                }
-                return;
-            }
-            
-            // 检查选区是否在翻译填空区域内
-            if (!translationContentEl.contains(range.commonAncestorContainer)) {
-                if (typeof hideTranslationTooltip === 'function') {
-                    hideTranslationTooltip();
-                }
-                return;
-            }
-            
-            // 获取选中文本的位置
-            const rect = range.getBoundingClientRect();
-            
-            // 如果选区没有有效尺寸，不显示
-            if (rect.width === 0 && rect.height === 0) {
-                return;
-            }
-            
-            // 立即显示翻译（无延迟）
-            if (typeof showTranslationTooltip === 'function') {
-                if (typeof isTranslating !== 'undefined' && !isTranslating) {
-                    showTranslationTooltip(rect, selectedText);
-                }
-            }
-        };
-        
-        document.addEventListener('click', handleTextSelectionForTranslation);
-    }
-    
-    // mousedown 时立即隐藏气泡框和清除选择
-    document.addEventListener('mousedown', (e) => {
-        const translationCard = document.querySelector('.translation-card');
-        if (!translationCard || translationCard.classList.contains('hidden')) return;
-        
-        const tooltip = document.getElementById('translationTooltip');
-        
-        // 如果点击在气泡框内，不关闭窗口也不清除选择
-        if (tooltip && tooltip.contains(e.target)) {
-            return;
-        }
-        
-        // 如果点击的是拖拽条，不隐藏气泡框（让拖拽逻辑处理）
-        if (e.target.classList && e.target.classList.contains('tooltip-drag-handle')) {
-            return;
-        }
-        
-        // 立即隐藏翻译窗口
-        if (typeof hideTranslationTooltip === 'function') {
-            hideTranslationTooltip();
-        }
-        
-        // 立即清除文本选择
-        const selection = window.getSelection();
-        if (selection) {
-            selection.removeAllRanges();
-        }
-    });
-    
-    // 阻止翻译填空区域内的选中文本弹出迷你菜单
-    document.addEventListener('mouseup', (e) => {
-        const translationCard = document.querySelector('.translation-card');
-        if (!translationCard || translationCard.classList.contains('hidden')) return;
-        
-        const translationContentEl = document.getElementById('translationContent');
-        if (!translationContentEl) return;
-        
-        // 检查点击位置是否在翻译填空区域内
-        if (translationContentEl.contains(e.target)) {
-            const selection = window.getSelection();
-            if (selection.toString().trim()) {
-                e.preventDefault();
-            }
-        }
-    });
-    
-    // 屏蔽翻译填空区域的右键菜单
-    const translationContentEl = document.getElementById('translationContent');
-    if (translationContentEl) {
-        translationContentEl.addEventListener('contextmenu', (e) => {
-            e.preventDefault();
-            e.stopPropagation();
-            return false;
-        });
-    }
-
-    // 上一题按钮
-    const prevBtn = document.getElementById('translationPrevBtn');
-    if (prevBtn) {
-        prevBtn.addEventListener('click', () => {
-            if (currentTranslationGroup > 0) {
-                // 清空当前组的答案
-                clearCurrentGroupAnswers();
-                currentTranslationGroup--;
-                renderTranslationQuestion();
-                updateTranslationProgress();
-                clearTranslationResult();
-            }
-        });
-    }
-
-    // 下一题按钮
-    const nextBtn = document.getElementById('translationNextBtn');
-    if (nextBtn) {
-        nextBtn.addEventListener('click', () => {
-            if (currentTranslationGroup < translationQuestions.length - 1) {
-                // 清空当前组的答案
-                clearCurrentGroupAnswers();
-                currentTranslationGroup++;
-                renderTranslationQuestion();
-                updateTranslationProgress();
-                clearTranslationResult();
-            }
-        });
-    }
-
-    // 输入框事件委托
+    // 输入框事件委托 - 每次渲染后需要重新绑定
     const container = document.getElementById('translationContent');
     if (container) {
-        container.addEventListener('input', (e) => {
-            if (e.target.classList.contains('translation-blank')) {
-                const index = e.target.dataset.index;
-                translationAnswers[`${currentTranslationGroup}-${index}`] = e.target.value;
-                
-                // 如果已经检查过，清除样式
-                if (translationChecked) {
-                    e.target.classList.remove('correct', 'incorrect');
-                }
-            }
-        });
+        // 移除旧的事件监听器（如果存在）
+        container.removeEventListener('input', handleTranslationInput);
+        container.removeEventListener('keydown', handleTranslationKeydown);
+        
+        // 添加新的事件监听器
+        container.addEventListener('input', handleTranslationInput);
+        container.addEventListener('keydown', handleTranslationKeydown);
+    }
+}
 
-        // 回车键跳到下一题
-        container.addEventListener('keydown', (e) => {
-            if (e.target.classList.contains('translation-blank') && e.key === 'Enter') {
-                const inputs = container.querySelectorAll('.translation-blank');
-                const currentIndex = Array.from(inputs).indexOf(e.target);
-                if (currentIndex < inputs.length - 1) {
-                    inputs[currentIndex + 1].focus();
-                }
-            }
-        });
+// 输入框输入事件处理
+function handleTranslationInput(e) {
+    if (e.target.classList.contains('translation-blank')) {
+        const index = e.target.dataset.index;
+        translationAnswers[`${currentTranslationGroup}-${index}`] = e.target.value;
+        
+        // 如果已经检查过，清除样式
+        if (translationChecked) {
+            e.target.classList.remove('correct', 'incorrect');
+        }
+    }
+}
+
+// 输入框键盘事件处理
+function handleTranslationKeydown(e) {
+    if (e.target.classList.contains('translation-blank') && e.key === 'Enter') {
+        const container = document.getElementById('translationContent');
+        if (!container) return;
+        const inputs = container.querySelectorAll('.translation-blank');
+        const currentIndex = Array.from(inputs).indexOf(e.target);
+        if (currentIndex < inputs.length - 1) {
+            inputs[currentIndex + 1].focus();
+        }
     }
 }
 
@@ -666,9 +676,10 @@ function checkTranslationAnswers(showFeedback = true) {
 
     inputs.forEach((input, index) => {
         const userAnswer = input.value.trim().toLowerCase();
-        const correctAnswer = group.questions[index].answer.toLowerCase();
+        // 支持多答案：用 / 分隔，用户填入任意一个都算正确
+        const correctAnswers = group.questions[index].answer.split('/').map(ans => ans.trim().toLowerCase());
         
-        if (userAnswer === correctAnswer) {
+        if (correctAnswers.includes(userAnswer)) {
             correct++;
             input.classList.add('correct');
             input.classList.remove('incorrect');
@@ -824,7 +835,175 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // ===== 上一题/下一题按钮事件绑定（只绑定一次）=====
+    const prevBtn = document.getElementById('translationPrevBtn');
+    if (prevBtn) {
+        prevBtn.addEventListener('click', () => {
+            if (currentTranslationGroup > 0) {
+                clearCurrentGroupAnswers();
+                currentTranslationGroup--;
+                renderTranslationQuestion();
+                updateTranslationProgress();
+                clearTranslationResult();
+                saveTranslationProgress();
+            }
+        });
+    }
+
+    const nextBtn = document.getElementById('translationNextBtn');
+    if (nextBtn) {
+        nextBtn.addEventListener('click', () => {
+            if (currentTranslationGroup < translationQuestions.length - 1) {
+                clearCurrentGroupAnswers();
+                currentTranslationGroup++;
+                renderTranslationQuestion();
+                updateTranslationProgress();
+                clearTranslationResult();
+                saveTranslationProgress();
+            }
+        });
+    }
+
+    // ===== 划词翻译事件绑定（只绑定一次）=====
+    if (typeof handleTextSelection === 'function') {
+        document.addEventListener('click', handleTextSelectionForTranslation);
+    }
+
+    // mousedown 时立即隐藏气泡框和清除选择
+    document.addEventListener('mousedown', handleTranslationMouseDown);
+
+    // 阻止翻译填空区域内的选中文本弹出迷你菜单
+    document.addEventListener('mouseup', handleTranslationMouseUp);
+
+    // 屏蔽翻译填空区域的右键菜单
+    const translationContentEl = document.getElementById('translationContent');
+    if (translationContentEl) {
+        translationContentEl.addEventListener('contextmenu', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            return false;
+        });
+    }
 });
+
+// 划词翻译文本选择事件处理
+function handleTextSelectionForTranslation(e) {
+    // 只在翻译填空卡片显示时响应
+    const translationCard = document.querySelector('.translation-card');
+    if (!translationCard || translationCard.classList.contains('hidden')) return;
+
+    // 如果点击的是气泡框或拖拽条，不处理（避免干扰拖拽）
+    const tooltip = document.getElementById('translationTooltip');
+    if (tooltip && tooltip.contains(e.target)) {
+        return;
+    }
+    if (e.target.classList && e.target.classList.contains('tooltip-drag-handle')) {
+        return;
+    }
+
+    const selection = window.getSelection();
+    let selectedText = '';
+    try {
+        selectedText = selection.toString().trim();
+    } catch (err) {
+        return;
+    }
+
+    // 如果没有选中文本，隐藏气泡框
+    if (!selectedText || selectedText.length < 1) {
+        if (typeof hideTranslationTooltip === 'function') {
+            hideTranslationTooltip();
+        }
+        return;
+    }
+
+    // 检查选区是否在翻译填空区域内
+    let range;
+    try {
+        if (selection.rangeCount === 0) return;
+        range = selection.getRangeAt(0);
+    } catch (err) {
+        return;
+    }
+
+    const translationContentEl = document.getElementById('translationContent');
+    if (!translationContentEl || !range.commonAncestorContainer) {
+        if (typeof hideTranslationTooltip === 'function') {
+            hideTranslationTooltip();
+        }
+        return;
+    }
+
+    // 检查选区是否在翻译填空区域内
+    if (!translationContentEl.contains(range.commonAncestorContainer)) {
+        if (typeof hideTranslationTooltip === 'function') {
+            hideTranslationTooltip();
+        }
+        return;
+    }
+
+    // 获取选中文本的位置
+    const rect = range.getBoundingClientRect();
+
+    // 如果选区没有有效尺寸，不显示
+    if (rect.width === 0 && rect.height === 0) {
+        return;
+    }
+
+    // 立即显示翻译（无延迟）
+    if (typeof showTranslationTooltip === 'function') {
+        if (typeof isTranslating !== 'undefined' && !isTranslating) {
+            showTranslationTooltip(rect, selectedText);
+        }
+    }
+}
+
+// mousedown 事件处理
+function handleTranslationMouseDown(e) {
+    const translationCard = document.querySelector('.translation-card');
+    if (!translationCard || translationCard.classList.contains('hidden')) return;
+
+    const tooltip = document.getElementById('translationTooltip');
+
+    // 如果点击在气泡框内，不关闭窗口也不清除选择
+    if (tooltip && tooltip.contains(e.target)) {
+        return;
+    }
+
+    // 如果点击的是拖拽条，不隐藏气泡框（让拖拽逻辑处理）
+    if (e.target.classList && e.target.classList.contains('tooltip-drag-handle')) {
+        return;
+    }
+
+    // 立即隐藏翻译窗口
+    if (typeof hideTranslationTooltip === 'function') {
+        hideTranslationTooltip();
+    }
+
+    // 立即清除文本选择
+    const selection = window.getSelection();
+    if (selection) {
+        selection.removeAllRanges();
+    }
+}
+
+// mouseup 事件处理
+function handleTranslationMouseUp(e) {
+    const translationCard = document.querySelector('.translation-card');
+    if (!translationCard || translationCard.classList.contains('hidden')) return;
+
+    const translationContentEl = document.getElementById('translationContent');
+    if (!translationContentEl) return;
+
+    // 检查点击位置是否在翻译填空区域内
+    if (translationContentEl.contains(e.target)) {
+        const selection = window.getSelection();
+        if (selection.toString().trim()) {
+            e.preventDefault();
+        }
+    }
+}
 
 // ========== 辅助函数 ==========
 /**
@@ -843,4 +1022,42 @@ function debounce(func, wait) {
         clearTimeout(timeout);
         timeout = setTimeout(later, wait);
     };
+}
+
+// ========== 进度管理 ==========
+/**
+ * 保存翻译填空进度到本地存储
+ */
+function saveTranslationProgress() {
+    try {
+        const progressData = {
+            currentTranslationGroup: currentTranslationGroup,
+            timestamp: Date.now()
+        };
+        localStorage.setItem(TRANSLATION_PROGRESS_KEY, JSON.stringify(progressData));
+    } catch (error) {
+        console.error('保存翻译填空进度失败:', error);
+    }
+}
+
+/**
+ * 从本地存储加载翻译填空进度
+ * @returns {boolean} 是否成功加载进度
+ */
+function loadTranslationProgress() {
+    try {
+        const savedProgress = localStorage.getItem(TRANSLATION_PROGRESS_KEY);
+        if (savedProgress) {
+            const progressData = JSON.parse(savedProgress);
+            if (progressData.currentTranslationGroup !== undefined &&
+                progressData.currentTranslationGroup >= 0 &&
+                progressData.currentTranslationGroup < translationQuestions.length) {
+                currentTranslationGroup = progressData.currentTranslationGroup;
+                return true;
+            }
+        }
+    } catch (error) {
+        console.error('恢复翻译填空进度失败:', error);
+    }
+    return false;
 }
