@@ -172,8 +172,7 @@ so…that… 结构。So（如此）修饰形容词，that（以至于）引出�
         answer: "to turn"
     }
 ],
-explanation:`
-题目解析：
+explanation:`题目解析：
 
 第1题
 原文： It is necessary for everyone _____ the traffic rules.
@@ -266,7 +265,144 @@ Doing: 事情已经做过了，回想起做过的事。（我记得我关过灯�
 小心“to”的身份：如果是短语里的to（look forward to），后面动作要加-ing。
 事情做完没？：做完了、强调次数，用“have done”（现在完成时）。
 动作将来时？：记得要去做，用“to do”；记得做过，用“doing”。`
+    },
+        {
+        group: 3,
+        questions: [
+    {
+        chinese: "昨天我花了两个小时才完成作业。",
+        english: "It （ ） me two hours to finish my homework yesterday.",
+        hint: "take",
+        answer: "took"
+    },
+    {
+        chinese: "他英语说得很流利，就像他是个美国人一样。",
+        english: "He speaks English so fluently as if he （ ） an American.",
+        hint: "be",
+        answer: "were"
+    },
+    {
+        chinese: "这座新桥将在下个月由工人们建造。",
+        english: "The new bridge （ ） by the workers next month.",
+        hint: "build",
+        answer: "will be built"
+    },
+    {
+        chinese: "你读的书越多，获得的知识就越多。",
+        english: "The more books you read, （ ） knowledge you will gain.",
+        hint: "much",
+        answer: "the more"
+    },
+    {
+        chinese: "街道是湿的，昨晚肯定下雨了。",
+        english: "TThe street is wet. It （ ） last night. ",
+        hint: "rain",
+        answer: "must have rained"
+    },
+    {
+        chinese: "别再让孩子学习了，他太累了。",
+        english: "Don’t make the child ________ anymore. He is too tired.",
+        hint: "study",
+        answer: "study"
     }
+],
+explanation:`题目解析：
+
+第1题
+It ______ me two hours to finish my homework yesterday.
+
+翻译：昨天我花了两个小时才完成作业。
+
+分析：
+首先，我们要找句子里藏着的时间“线索”。你看到句尾那个词了吗？“yesterday”（昨天）。这就告诉我们，这件事是过去发生的。
+再看句型：“It takes sb. some time to do sth.” 是一个很常用的固定搭配，意思是“做某事花了某人多少时间”。
+既然是“昨天”花的，那这个 take 就不能是现在的样子，得穿上“过去”的马甲。
+规则：
+这里用到的是一般过去时。
+解释： “一般过去时”就是专门用来形容“过去发生的、已经结束了”的动作。动词 take 的过去式长相是不规则的，它变成了 took。
+答案：took
+
+第2题
+He speaks English so fluently as if he ______ an American.
+
+翻译：他英语说得很流利，就像他是个美国人一样。
+
+分析：
+我们要重点关注那个词组 “as if”（好像/仿佛）。
+现实情况是：他其实不是美国人，对吧？但他英语太好了，让人产生了一种错觉。
+当我们在“假装”或者“想象”一种和事实不一样的情况时，英语里会用一种特殊的时态，叫“虚拟语气”。虽然前面 speaks 是现在时，但后面为了表示“假假的感觉”，我们要把时间往回推一步。
+规则：
+这里涉及到虚拟语气中的“时态退一步”原则。
+解释： “虚拟语气”就是“假设的语气”。当我们在假设现在的某种不真实情况时，动词要用过去式。be 动词的过去式，在不管是“我、你、他”的情况下，通常都统一写成 were（显得更正式、更像假设）。
+答案：were
+
+第3题
+The new bridge ______ by the workers next month.
+
+翻译：这座新桥将在下个月由工人们建造。
+
+分析：
+先找时间线索：“next month”（下个月），说明动作在将来。
+再看主语：“The new bridge”（新桥）。你想，桥能自己建造自己吗？肯定不行，它是“被”工人们建造的。这就是一种被动的关系。
+既然是“将来”+“被动”，我们就得用“将来”的骨架和“被动”的皮肉组合起来。
+规则：
+这里用到的是一般将来时的被动语态。
+解释： “被动语态”就是主语是动作的承受者，不是发出者。
+公式： will + be + 动词的过去分词。build 这个词的过去分词是 built。
+答案：will be built
+
+第4题
+The more books you read, ______ knowledge you will gain.
+
+翻译：你读的书越多，获得的知识就越多。
+
+分析：
+这是一个非常经典的句型。你看句子前半部分已经有了 “The more…” （越多……）。
+英语里有个习惯，前面有个“越……”，后面就要跟一个“就越……”，就像中文的对联一样，要上下呼应。
+前面已经说了“书越多”，后面自然就是“知识越多”。
+规则：
+这里用到的是“The more…, the more…” 比较级句型。
+解释： 这个句型表示“越……，就越……”。前面的 The more books 已经是个引子，后面必须把 the more 补充完整，意思才通顺。
+答案：the more
+
+第5题
+The street is wet. It ______ last night.
+
+翻译：街道是湿的，昨晚肯定下雨了。
+
+分析：
+第一句说“街道是湿的”，这是一个证据。第二句是根据这个证据在猜昨晚发生了什么。
+时间是“last night”（昨晚），说明动作已经过去了。
+但是，我不确定有没有下雨，但我根据湿街道非常有把握（肯定），所以要用一种表示“对过去的肯定推测”的说法。
+规则：
+这里用到的是情态动词表示对过去的推测。
+解释： 当我们非常确定过去某事发生了，就用 “must have done”。
+拆解： must 是“必须/一定”，have done 表示“已经做过”。合起来就是“一定已经做过了”。rain 的过去分词是 rained。
+答案：must have rained
+
+第6题
+Don’t make the child ______ anymore. He is too tired.
+
+翻译：别再让孩子学习了，他太累了。
+
+分析：
+这里的关键词是句首的那个动词 “make”（让、使得）。
+在英语里，有一些比较霸道的动词（比如 make, let, have），当它们后面接人的时候，会让那个动作变得很“光秃秃”。
+正常的“学习”是 to study，但在 make 后面，就要把那个 to 给扔掉，直接用动词原形。
+规则：
+这里用到的是使役动词的用法。
+解释： “使役动词”就是“让某人做某事”的词。当 make 后面接人（the child）再接动作时，必须用“make sb. do sth.”的结构，也就是要把动词前面的“to”这个小尾巴去掉。
+答案：study
+
+整体总结
+今天这几个题目，其实涵盖了英语语法的几个核心支柱：
+
+时态： 怎么区分过去（took）、将来（will be built）和对过去的猜测（must have rained）。
+语态： 什么时候该用“被”（被动语态）。
+特殊句型： “越……越……”（The more… the more…）和“让某人做某事”（make sb. do）。
+虚拟语气： 怎么表达“假假”的感觉（as if）。`
+    }
+
 ];
 
 // ========== 翻译填空状态管理 ==========
