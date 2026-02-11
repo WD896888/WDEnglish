@@ -554,6 +554,333 @@ who/that
 `
     },
 
+    {
+        group: 5,
+        questions: [
+    {
+        chinese: "我在读书的时候她在做饭。",
+        english: "I was reading （ ） she was cooking.",
+        hint: "while",
+        answer: "while"
+    },
+    {
+        chinese: "虽然他很年轻，但他懂得很多。",
+        english: "（ ） he is young, he knows a lot.",
+        hint: "although",
+        answer: "Although/Though"
+    },
+    {
+        chinese: "我想知道他们是否完成了工作。",
+        english: "I wonder （ ） they have finished the work. ",
+        hint: "if",
+        answer: "whether/if"
+    },
+    {
+        chinese: "我迟到的原因是交通堵塞。",
+        english: "The reason （ ） I was late is the traffic jam. ",
+        hint: "why",
+        answer: "why"
+    },
+    {
+        chinese: "我有很多作业要做。",
+        english: "I have a lot of homework （ ）. ",
+        hint: "do",
+        answer: "to do"
+    },
+    {
+        chinese: "她喜欢在空闲时间听音乐。",
+        english: "She enjoys （ ） music in her free time.  ",
+        hint: "listen",
+        answer: "listening to"
+    }
+],
+explanation:`题目解析：
+
+第1题
+原文： I was reading ________ she was cooking. （while）
+翻译： 我在读书的时候她在做饭。
+
+分析：
+我们要填的这个词，是连接两个动作的“桥梁”。
+句子里有两个动作：“was reading”（正在读书）和“was cooking”（正在做饭）。
+这两个动作是同时发生的。你想表达“当……的时候”，这时候就需要一个词把这两件事连起来。
+
+规则：
+我们要填连词。
+
+While 的意思就是“当……时候”或“与此同时”，特别强调两个动作都在进行中。
+虽然题目括号里给了 while，但你要知道，看到前面是 was reading，后面是 was cooking，中间填 while 是最自然的搭配。
+答案： while
+
+第2题
+原文： ________ he is young, he knows a lot. （although）
+翻译： 虽然他很年轻，但他懂得很多。
+
+分析：
+这里有个很明显的“转折”关系。
+你看前半句说“he is young”（他年轻），后半句说“he knows a lot”（他懂得多）。
+按常理，年纪小可能懂得少，但他却懂得多。这就是意思上的“拐弯”，也就是让步关系。
+
+规则：
+
+Although 的意思是“虽然”、“尽管”。
+特别注意： 我们中国人说“虽然……但是……”，但在英语里，用了 Although（虽然），就绝对不能再加 but（但是）。因为英语里不喜欢重复，有了“虽然”这个头，就不用“但是”那个尾了。
+答案： Although
+
+第3题
+原文： I wonder ________ they have finished the work. （if）
+翻译： 我想知道他们是否完成了工作。
+
+分析：
+我们要看主句的动词：“wonder”（想知道）。
+我想知道什么呢？我知道他们完成了工作吗？不，我不确定，我只是在猜测或者询问一种可能性。
+中文里的“是否”，就是问“是还是不是”。
+
+规则：
+
+当句子表达“是否”这个意思的时候，我们通常用 if 或者 whether。
+题目括号给了 if，它就像一个开关，引出一个不确定的情况。在这里，if 就等于 whether（是否）。
+答案： whether/if （这里填 if 或者 whether 都是对的，但题目给了 if 提示，优先填 if）
+
+第4题
+原文： The reason ________ I was late is the traffic jam. （why）
+翻译： 我迟到的原因是交通堵塞。
+
+分析：
+先把句子分成三部分：
+
+The reason （原因）
+________ I was late （我迟到了）
+is the traffic jam （是交通堵塞）
+空后面的部分“我迟到了”，是在修饰前面的“原因”。它告诉你，这是一个“什么样的原因”？是“导致我迟到”的那个原因。
+
+规则：
+这里涉及到了定语从句。
+
+简单解释“定语从句”： 就像形容词修饰名词一样，这是一个长的形容词（一整句话）来修饰前面的名词。
+当先行词（被修饰的词）是 reason（原因） 时，后面跟着的那个词通常用 why。Why 相当于 for which（为了这个原因）。
+答案： why
+
+第5题
+原文： I have a lot of homework ________. （do）
+翻译： 我有很多作业要做。
+
+分析：
+我们要看名词“homework”（作业）和空后面的词“do”（做）的关系。
+作业是用来做什么的？是用来做的。
+这就表示作业和“做”之间有一种“将来”或者“目的”的关系——作业还没做完，等着我去做呢。
+
+规则：
+这里要用到不定式。
+
+简单解释“不定式”： 就是 to + 动词原形 的形式（比如 to do）。
+当我们要表达“有某事要……”或者“有某事可以做”的时候（have something to do），一定要在动词前面加 to。这表示事情还没发生，或者是计划要做的。
+答案： to do
+
+第6题
+原文： She enjoys ________ music in her free time. （listen）
+翻译： 她喜欢在空闲时间听音乐。
+
+分析：
+这里的线索词是动词 enjoys（喜欢）。
+“喜欢”是一个态度，当你喜欢做某事时，你享受的是那个过程，而不是仅仅为了完成某个任务。
+
+规则：
+
+英语里有一个固定的搭配：enjoy doing something（喜欢做某事）。
+这就涉及到了动名词。
+简单解释“动名词”： 就是把动词加上 -ing，让它变成名词性质。因为 enjoy 后面不能直接放动词原形，只能放“名词性质”的东西，所以要把 listen 变成 listening。
+还有一个坑： “听音乐”固定说法是 listen to music，千万别把 to 丢掉哦！
+答案： listening to
+
+整体总结
+今天我们这几个题目，其实涵盖了英语里最核心的几个“连接”方式，我们要记住这些重点：
+
+连词的逻辑： 比如用 while 表示同时进行，用 although 表示“虽然”的转折。
+宾语从句的引导词： 比如用 if/whether 来引出“是否”这样的不确定内容。
+定语从句的关系词： 看到 reason（原因），后面修饰它通常用 why。
+非谓语动词（这是难点，也是重点）：
+表示“将来、目的”或“待做”时，用 to do（不定式）。
+enjoy 后面必须要接 doing（动名词）。
+`
+    },
+    {
+group: 6,
+questions: [
+{
+chinese: "坐在窗边的那个男孩是我弟弟。",
+english: "The boy ______ by the window is my brother.",
+hint: "sit",
+answer: "sitting"
+},
+{
+chinese: "他决定出国深造。",
+english: "He decided ______ abroad for further study.",
+hint: "go",
+answer: "to go"
+},
+{
+chinese: "从山顶看，这座城市很美。",
+english: "______ from the top, the city looks beautiful.",
+hint: "see",
+answer: "Seen"
+},
+{
+chinese: "我期待很快见到你。",
+english: "I'm looking forward to ______ you soon.",
+hint: "meet",
+answer: "meeting"
+},
+{
+chinese: "会议上讨论的问题非常重要。",
+english: "The problem ______ at the meeting is very important.",
+hint: "discuss",
+answer: "discussed"
+},
+{
+chinese: "每天练习英语很重要。",
+english: "It's important ______ English every day.",
+hint: "practice",
+answer: "to practice"
+}
+],
+explanation:`题目解析：
+
+第1题
+原文：
+The boy ______ by the window is my brother. (sit)
+
+翻译：
+坐在窗边的那个男孩是我弟弟。
+
+分析：
+来，我们先看句子里最重要的动词。找到了吗？是 is（是）。
+英语里有一个很重要的原则：一个简单句，只能有一个谓语动词（也就是最主要的那个动作动词）。
+既然 is 已经是老大了，那后面的 sit 就不能再以“原形”出现了，它得降级，变成一种修饰的身份。
+我们要修饰谁？是 The boy（男孩）。
+男孩和“坐”是什么关系？是男孩自己坐在那里，对吧？男孩是动作的发出者，是主动在坐。
+当动词作修饰语，且是主动动作时，我们要用 现在分词（就是动词后面加 -ing）。
+
+规则：
+现在分词：通常表示“主动”或者“正在进行”。在这个句子里，因为男孩是自己坐（主动），且句子已经有了谓语 is，所以 sit 要变成 sitting 形式来修饰男孩。
+
+答案：
+sitting
+
+第2题
+原文：
+He decided ______ abroad for further study. (go)
+
+翻译：
+他决定出国深造。
+
+分析：
+这句话的主语是 He，谓语动词是 decided（决定）。
+关键看 decided 后面接什么。这就好比交朋友，有的动词喜欢跟“to do”，有的喜欢跟“doing”。
+decide（决定）这个词，是个很有原则的词，它后面要是接动作，必须接“去做某事”的计划，也就是不定式。
+你看，他“决定”了，是不是意味着他要去“做”这件事？这是一种指向未来的打算。
+
+规则：
+不定式：就是 to + 动词原形。这里考察的是固定搭配 decide to do sth.（决定做某事）。这是一种“非谓语动词”的形式，表示目的或计划。
+
+答案：
+to go
+
+第3题
+原文：
+______ from the top, the city looks beautiful. (see)
+
+翻译：
+从山顶看，这座城市很美。
+
+分析：
+这道题稍微有点绕，我们慢点讲。
+句子的主语是谁？是 the city（这座城市）。
+后半句说“这座城市很美”。
+那前半句“从山顶看”，是谁在看？是人看，对吧？但是句子里没有人啊，只有城市。
+这就意味着：城市是“被”人从山顶看的。
+既然是“被看”，这就是被动关系。
+当动词作状语修饰整个句子，且表示被动时，我们要用 过去分词。
+
+规则：
+过去分词：通常表示“被动”或者“完成”。这里 see 的过去分词是 seen。你可以理解为“被看”，虽然中文翻译成“从…看”，但逻辑上是“被从山顶看的时候，城市很美”。
+
+答案：
+Seen
+
+第4题
+原文：
+I’m looking forward to ______ you soon. (meet)
+
+翻译：
+我期待很快见到你。
+
+分析：
+这道题是一个经典的“伪装题”。
+很多同学一看到 to，就觉得后面肯定接动词原形。但是！请看 looking forward to 这个短语。
+这里的 to，不是动词不定式的那个 to，它是一个介词，你可以把它理解成“朝着、向着”。
+介词后面如果要跟动词，动词必须变身，变成“动名词”形式（也就是加 -ing），因为介词后面不能住原形动词，只能住名词性质的词。
+
+规则：
+动名词：动词加了 -ing，变得像个名词一样。这里考察的是固定搭配 look forward to doing sth.（期待做某事）。记住，这里的 to 是介词，不是不定式符号。
+
+答案：
+meeting
+
+第5题
+原文：
+The problem ______ at the meeting is very important. (discuss)
+
+翻译：
+会议上讨论的问题非常重要。
+
+分析：
+这题和第1题有点像。我们先找句子的谓语动词，是 is（是）。
+那前面的 discuss（讨论）就只能做修饰成分，修饰 The problem（问题）。
+现在请问：问题是自己讨论吗？不是的，问题是“被”人们在会议上讨论的。
+既然是“被讨论”，那就是被动关系。
+还记得刚才第3题讲的吗？被动关系修饰名词，要用 过去分词。
+
+规则：
+过去分词作定语：当修饰的东西是动作的承受者（被动）时，用过去分词。discuss 的过去分词是 discussed。这里修饰“问题”，意思是“被讨论的那个问题”。
+
+答案：
+discussed
+
+第6题
+原文：
+It’s important ______ English every day. (practice)
+
+翻译：
+每天练习英语很重要。
+
+分析：
+这是一个非常经典的句型：It is + 形容词 + to do sth.
+这里的 It 是个形式主语，也就是个替身，它占了主语的位置，真正的主语在后面。
+真正的主语是什么呢？是“每天练习英语”这件事。
+要把“练习英语”这件事当作主语放在后面，英语习惯用 to practice（不定式）来表示。
+
+规则：
+不定式作真正主语：句型 It is + adj. (形容词) + to do sth. 意思是“做某事是…的”。这里的 to practice 才是真正的主语。这是固定用法，以后看到 It's important/ necessary/ hard... 后面跟动词，基本都用 to do。
+
+答案：
+to practice
+
+整体总结
+做得怎么样？是不是觉得其实只要找到线索，逻辑还是很通顺的？我们来总结一下这篇短文涉及的几个核心语法点：
+
+非谓语动词的概念：当一个句子里已经有了谓语动词（如 is, decided），剩下的动词通常不能再用原形，必须“降级”变形。
+主动与被动的判断：
+如果是主动（如男孩坐、期待做），通常用 doing（现在分词/动名词）。
+如果是被动（如城市被看、问题被讨论），通常用 done（过去分词）。
+固定搭配：
+decide to do（决定去做）。
+look forward to doing（这里的 to 是介词，后面要加 -ing）。
+It is + adj. + to do（做某事是…的）。
+`
+},
+    
+
 ];
 
 
