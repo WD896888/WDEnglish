@@ -709,37 +709,37 @@ group: 6,
 questions: [
 {
 chinese: "坐在窗边的那个男孩是我弟弟。",
-english: "The boy ______ by the window is my brother.",
+english: "The boy （ ） by the window is my brother.",
 hint: "sit",
 answer: "sitting"
 },
 {
 chinese: "他决定出国深造。",
-english: "He decided ______ abroad for further study.",
+english: "He decided （ ） abroad for further study.",
 hint: "go",
 answer: "to go"
 },
 {
 chinese: "从山顶看，这座城市很美。",
-english: "______ from the top, the city looks beautiful.",
+english: "（ ） from the top, the city looks beautiful.",
 hint: "see",
 answer: "Seen"
 },
 {
 chinese: "我期待很快见到你。",
-english: "I'm looking forward to ______ you soon.",
+english: "I'm looking forward to （ ） you soon.",
 hint: "meet",
 answer: "meeting"
 },
 {
 chinese: "会议上讨论的问题非常重要。",
-english: "The problem ______ at the meeting is very important.",
+english: "The problem （ ） at the meeting is very important.",
 hint: "discuss",
 answer: "discussed"
 },
 {
 chinese: "每天练习英语很重要。",
-english: "It's important ______ English every day.",
+english: "It's important （ ） English every day.",
 hint: "practice",
 answer: "to practice"
 }
