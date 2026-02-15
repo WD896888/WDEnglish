@@ -8137,6 +8137,2301 @@ Jack 是第三人称单数（他一个人）。
 主谓一致（就远原则）： 看到 together with, with 等，谓语动词只看前面的主语，不管后面的。
 `
 },
+{
+group: 53,
+questions: [
+{
+chinese: "如果明天下大雨，音乐会将会推迟。",
+english: "The concert will be postponed （ ） it rains heavily tomorrow.",
+hint: "rain",
+answer: "if"
+},
+{
+chinese: "如果我是你，我会立刻向她道歉。",
+english: "If I （ ） you, I would apologize to her immediately.",
+hint: "be",
+answer: "were"
+},
+{
+chinese: "如果天气更好一点，我们就去野餐了。",
+english: "（ ） the weather were finer, we would have a picnic.",
+hint: "if",
+answer: "If"
+},
+{
+chinese: "如果你多吃蔬菜，你会感觉更好。",
+english: "You would feel better if you （ ） more vegetables.",
+hint: "eat",
+answer: "ate"
+},
+{
+chinese: "我要是知道交通状况，就会准时到达了。",
+english: "Had I （ ） about the traffic, I would have arrived on time.",
+hint: "know",
+answer: "known"
+},
+{
+chinese: "经过仔细考虑后，我们决定接受这个提议。",
+english: "（ ） careful consideration, we decided to accept the offer.",
+hint: "after",
+answer: "After"
+}
+],
+explanation:`题目解析：
+
+第一题
+原文：
+The concert will be postponed _____ it rains heavily tomorrow. (rain)
+
+翻译：
+如果明天下大雨，音乐会将会推迟。
+
+分析：
+我们要把这句话切成两半看。前半句是“音乐会将会推迟”，后半句是“明天下大雨”。
+
+线索词： “tomorrow”（明天）和 “will be”（将会）。这说明这是在谈论将来可能发生的事。
+逻辑推导： 这里的 “rain” 是提示词，但你看，句子后面已经有了 rains 这个动作，我们缺的是一个“连接词”。想想看，明天下雨了，音乐会才会推迟。这是一种假设，中文里我们说“如果”。
+规则：
+这里考的是条件状语从句。简单说，就是用“如果”来连接两个句子。在英语里，“如果”就是 if。
+
+注意：在含有 if 的句子中，如果主句用了将来时，从句要用一般现在时。也就是所谓的“主将从现”。所以这里不需要填 will，直接填连接词就行。
+答案：
+if
+
+第二题
+原文：
+If I _____ you, I would apologize to her immediately. (be)
+
+翻译：
+如果我是你，我会立刻向她道歉。
+
+分析：
+
+线索词： “would”（会）。这个词很关键，它通常暗示这是在“做梦”或者“想象”。
+逻辑推导： 我能变成你吗？肯定不能。所以这是在想象一个不可能发生的情况。这种“不可能实现的假设”，语法上叫虚拟语气。
+提示词： be 是动词原形。主语是 I（我）。
+规则：
+这是虚拟语气的一种情况：与现在事实相反。
+
+简单记：只要是在说“如果我是……”（其实我不可能是），不管主语是谁，be动词统统变成 were。这是一个特殊规定，就像数学公式一样记住它就好。
+答案：
+were
+
+第三题
+原文：
+_____ the weather were finer, we would have a picnic. (if)
+
+翻译：
+如果天气更好一点，我们就去野餐了。
+
+分析：
+
+线索词： “were finer”（更好一点）和 “would”（会）。
+逻辑推导： 这里的 were 用得很奇怪对不对？前面刚讲过，were 用在这里说明这又是一个“想象”，实际上天气可能并不好。既然是在想象，我们就需要一个词来引导这个假设。
+提示词： 题目直接给了我们答案提示。
+规则：
+这依然是虚拟语气。虽然句子开头缺了一个词，但看到 were 和 would，我们就知道这是在说“如果……就好了”。题目非常贴心地把提示词写在括号里了，我们直接把它放到句首，首字母大写即可。
+
+答案：
+If
+
+第四题
+原文：
+You would feel better if you _____ more vegetables. (eat)
+
+翻译：
+如果你多吃蔬菜，你会感觉更好。
+
+分析：
+
+线索词： “would feel”（会感觉）。又是 would，说明这还是在“想象”或者“建议”。
+逻辑推导： 事实上你可能不爱吃蔬菜。所以这也是一种假设。
+提示词： eat（吃）。我们需要把 eat 变个样子。
+规则：
+还是虚拟语气（与现在事实相反）。规则很简单：
+
+当我们在想象现在的某种情况时，动词要“后退一步”。
+eat 是现在时，后退一步就变成了过去式 ate。
+记不住规则？你就想：“我在做梦，所以用过去式”。
+答案：
+ate
+
+第五题
+原文：
+Had I _____ about the traffic, I would have arrived on time. (know)
+
+翻译：
+我要是知道交通状况，就会准时到达了。
+
+分析：
+
+线索词： “Had” 在句首，而且后面跟着 “would have arrived”（本该到达）。这明显是在后悔过去的事情（事实上没准时到达，当时也不知道交通状况）。
+逻辑推导： 这是一个倒装句，相当于省略了 If，把 Had 提前了。原本的句子是 “If I had known…”。
+提示词： know（知道）。
+规则：
+这是虚拟语气（与过去事实相反）。
+
+结构是：If + had + 动词的过去分词。
+“过去分词”是什么？就是英语里用来表示“做完”或者“被”的那一种形式，比如 eat 变成 eaten。know 的过去分词是特殊的，要变形成 known。
+答案：
+known
+
+第六题
+原文：
+_____ careful consideration, we decided to accept the offer. (after)
+
+翻译：
+经过仔细考虑后，我们决定接受这个提议。
+
+分析：
+
+线索词： “consideration”（考虑）是个名词，“decided”（决定）是动词。
+逻辑推导： 这句话说得很实在，不是想象，就是发生了的事。先“考虑”，后“决定”。
+提示词： after（在…之后）。
+规则：
+这里考查的是介词用法。
+
+我们要把“经过仔细考虑”放在句子开头做时间状语。after 可以作介词，后面接名词。
+题目给了提示词 after，我们要做的就是把它填进去，放在句首要记得大写首字母。
+答案：
+After
+
+整体总结
+这位同学，你看，其实这几个题目主要就在考两个大点，我们再来复习一下：
+
+虚拟语气（这是今天的重头戏）：
+如果是现在做白日梦（如果我是你…），be动词统统用 were，动词用过去式（如 ate）。
+如果是过去后悔（如果当时知道…），动词形式要用 had + 过去分词（如 had known）。
+看到 would，多半就是它了！
+条件状语从句：
+普通的“如果”（真的可能发生），用 if，注意“主将从现”原则。
+介词：
+表示时间的先后关系，用 after，放在句首要大写。
+`
+},
+{
+group: 54,
+questions: [
+{
+chinese: "他通过努力工作和永不放弃而成功。",
+english: "He succeeded by （ ） hard and never giving up.",
+hint: "work",
+answer: "working"
+},
+{
+chinese: "我期待着很快再次见到你。",
+english: "I am looking forward to （ ） you again soon.",
+hint: "see",
+answer: "seeing"
+},
+{
+chinese: "她没有选择出国，而是选择在家乡工作。",
+english: "Instead of （ ） abroad, she chose to work in her hometown.",
+hint: "go",
+answer: "going"
+},
+{
+chinese: "通过每天练习英语，他的发音进步很大。",
+english: "Through （ ） English every day, his pronunciation improved greatly.",
+hint: "practice",
+answer: "practicing"
+},
+{
+chinese: "老师告诉我们认真做作业。",
+english: "The teacher told us （ ） our homework carefully.",
+hint: "do",
+answer: "to do"
+},
+{
+chinese: "对于学生来说，努力实现他们的目标是很重要的。",
+english: "It is important for students （ ） hard to achieve their goals.",
+hint: "work",
+answer: "to work"
+}
+],
+explanation:`题目解析：
+
+第一题
+原文： He succeeded by ______ hard and never giving up. (work)
+
+翻译： 他通过努力工作和永不放弃而成功。
+
+分析：
+我们先来找找句子里的“小向导”。你看这里有一个单词 "by"，它的意思是“通过……方式”。在这个句子后面，还有个词叫 "giving"（give的变形），中间有个 "and"（和），说明横线这里和后面的 "giving" 是并列关系，它们应该是长得像的“双胞胎”。
+
+规则：
+这里有一个非常实用的规则：“介词后面，动词要变脸”。
+什么是介词？像 , , , , 这些小词，通常都是介词。动词如果在它们后面，就不能光溜溜地站着，必须戴上“-ing”这个面具，变成“动名词”（也就是动词名词化了）。这就好比你进屋要脱鞋换拖鞋一样，进介词的屋，就要变 -ing。byinatoffor
+
+答案： working
+
+第二题
+原文： I am looking forward to ______ you again soon. (see)
+
+翻译： 我期待着很快再次见到你。
+
+分析：
+这道题有个“伪装者”。很多同学一看到 ，就想当然地觉得后面要跟动词原形。但是！请你死死盯住前面这四个词："look forward to"。这是一个固定搭配，意思是“期待”。这里的 不是要去哪里，它其实是一个“假扮的介词”。既然它是介词，根据我们上一题的规则，后面的动词是不是得变身呀？toto
+
+规则：
+固定搭配陷阱：（期待做某事）。这里的 是介词，所以后面的动词必须加 。你要把这个搭配像背顺口溜一样背下来。look forward to doing sth.to-ing
+
+答案： seeing
+
+第三题
+原文： Instead of ______ abroad, she chose to work in her hometown. (go)
+
+翻译： 她没有选择出国，而是选择在家乡工作。
+
+分析：
+又是一个送分题！请看横线前面的词，是不是又是 "of"？ 是一个短语，意思是“代替，而不是”。 是一个非常标准的介词。既然看到了介词，我们的动词 就要立刻变身。Instead ofofgo
+
+规则：
+还是那句老话：介词后跟动词-ing。（而不是做某事）。这就像是看到了红灯要停车一样，看到了 ，就要想到 。Instead of doing sth.of-ing
+
+答案： going
+
+第四题
+原文： Through ______ English every day, his pronunciation improved greatly. (practice)
+
+翻译： 通过每天练习英语，他的发音进步很大。
+
+分析：
+这句话开头有个词 "Through"，意思是“通过”。它也是一个介词哦。所以我们又遇到了同样的情况：动词 （练习）躲在介词 后面，它必须变身。practiceThrough
+
+规则：
+这里要注意一个小细节： 这个词变脸的时候，要把结尾的 脱掉，再穿上 的衣服，变成 。这就叫“以不发音的 e 结尾的词，去 e 加 ing”。你就当它嫌衣服太厚，换了一件薄的。practicee-ingpracticing
+
+答案： practicing
+
+第五题
+原文： The teacher told us ______ our homework carefully. (do)
+
+翻译： 老师告诉我们认真做作业。
+
+分析：
+这道题画风变了。我们找找线索：主语是“老师”，动词是“告诉”，后面是“我们”。老师告诉我们干嘛呢？是不是要告诉我们要做的事情？这里没有介词，而是 "tell sb."（告诉某人）这个结构。
+
+规则：
+这里考查的是不定式（就是 ）。
+所谓不定式，你可以把它理解为一个“将来要做的动作”或者“目的”。老师告诉我们要做作业，这事儿还没做呢，是一种要求和命令。
+公式是：tell sb. to do sth.（告诉某人做某事）。
+这里的 是个小招牌，后面直接跟动词原形就行，不用变身成 。to + 动词原形to-ing
+
+答案： to do
+
+第六题
+原文： It is important for students ______ hard to achieve their goals. (work)
+
+翻译： 对于学生来说，努力实现他们的目标是很重要的。
+
+分析：
+这句话看着长，其实是个套话。开头是 "It is important..."（……是很重要的）。这里的 是个形式主语，就像个占座的朋友，真正的主角在后面等着呢。It
+
+规则：
+这又是一个经典句型：It is + 形容词 + for sb. + to do sth.
+意思是：“做某事对某人来说是……的”。在这个句型里，to 后面永远跟动词原形。你可以把它当成一个数学公式背下来，看到 It is important for...，后面肯定就是 to do。
+
+答案： to work
+
+整体总结
+你看，其实一点都不难对不对？我们今天主要就学了两个核心点：
+
+介词后面爱 -ing：只要看到 by, of, through 这种介词，或者 look forward to 这种固定短语，后面的动词通常都要加 -ing。
+特定句型要用 to do：
+tell sb. to do sth.（告诉某人做某事）。
+It is + 形容词 + for sb. + to do sth.（做某事对某人来说是……的）。
+`
+},
+{
+group: 55,
+questions: [
+{
+chinese: "她是第一个发现这个秘密的人。",
+english: "She was the first person （ ） the secret.",
+hint: "discover",
+answer: "to discover"
+},
+{
+chinese: "今天有很多工作要做。",
+english: "I have a lot of work （ ） today.",
+hint: "do",
+answer: "to do"
+},
+{
+chinese: "让他做他喜欢做的事情。",
+english: "Let him （ ） whatever he likes.",
+hint: "do",
+answer: "do"
+},
+{
+chinese: "电影是如此感人，以至于所有人都哭了。",
+english: "The movie was （ ） moving that everyone cried.",
+hint: "so",
+answer: "so"
+},
+{
+chinese: "他跑得如此快，以至于没人能追上他。",
+english: "He ran （ ） fast that no one could catch up with him.",
+hint: "so",
+answer: "so"
+},
+{
+chinese: "天气是如此美好，以至于我们想要出去。",
+english: "It is （ ） a beautiful day that we want to go outside.",
+hint: "such",
+answer: "such"
+}
+],
+explanation:`题目解析：
+
+第一题
+原文：
+She was the first person ______ the secret. (discover)
+
+翻译：
+她是第一个发现这个秘密的人。
+
+分析：
+我们来找找线索。
+
+看关键词 “the first”（第一）。句子意思是“她是第一个做某事的人”。
+在英语里，如果你想说“第一个做某事的人”或者“最后一个做某事的人”，这个“做某事”的动作还没发生，是将来的打算，或者是特定的顺序。
+这里不能用 discovering（正在发现），也不能用 discovered（已经发现，那是被动或者过去式，这里她是主语，是她去发现，不是被秘密发现）。
+英语有一个特别的习惯：序数词（比如 first, second, last）后面跟动作，通常要用不定式，也就是“to + 动词原形”。
+规则：
+当我们要表达“做某事的第几个人”时，结构是：the first/second/last + person + to + do。这里的“to do”叫作动词不定式，你可以把它简单理解为“为了去做某事”或者“将要去做的动作”。
+
+答案：
+to discover
+
+第二题
+原文：
+I have a lot of work ______ today. (do)
+
+翻译：
+今天有很多工作要做。
+
+分析：
+我们来找找线索。
+
+主语是“我”，我有“a lot of work”（很多工作）。
+这个工作和“做”是什么关系呢？工作是被人做的。但是我有很多工作，意味着我需要去处理这些工作。
+这里的线索是 “work”（工作）和后面的提示词 “do”。当名词后面跟着一个动作，说明这个动作是用来修饰这个名词的（比如“要做的工作”）。
+因为工作还没做完，是“要去做的”，所以用不定式形式。如果不填，句子就不完整，不知道工作拿来干嘛。
+规则：
+当名词后面跟一个动作，表示“将要做的动作”或者“用途”时，我们要用动词不定式。简单记就是：Something to do（某事要做）。比如“books to read”（要读的书）、“homework to do”（要做的作业）。
+
+答案：
+to do
+
+第三题
+原文：
+Let him ______ whatever he likes. (do)
+
+翻译：
+让他做他喜欢做的事情。
+
+分析：
+我们来找找线索。
+
+这句话的开头有一个很重要的词 “Let”（让）。
+“Let” 是一个特殊的动词，后面跟着人，再跟着动作。
+很多动词后面都要加 “to”，但是 “Let” 是个霸道的词，它不喜欢中间有个 “to” 挡着。它要求直接接动词原形。
+类似的霸道老板还有 make（使、让）和 have（让），这叫“使役动词”。
+规则：
+这是一个非常固定的搭配：Let sb. do sth.（让某人做某事）。
+这里的语法点叫使役动词，意思就是“让某人去做某事”的时候，中间不能加 to，直接用动词原形。千万不要写成 “Let him to do” 哦。
+
+答案：
+do
+
+第四题
+原文：
+The movie was ______ moving that everyone cried. (so)
+
+翻译：
+电影是如此感人，以至于所有人都哭了。
+
+分析：
+我们来找找线索。
+
+看空后面紧跟着的词：“moving”。这是一个形容词（感人的）。
+再看句子的后半部分：“that everyone cried”（以至于大家都哭了），这是在说结果。
+句型结构是：“形容词 + that + 结果”。
+这就是经典的“如此……以至于……”句型。当空后面直接跟的是形容词或者副词时，我们要用 so 来修饰它。
+规则：
+这里考查的是 so … that … 句型。
+用法：so + 形容词/副词 + that + 句子。
+意思是：“如此……以至于……”。
+因为 moving 是形容词，所以用 so。
+
+答案：
+so
+
+第五题
+原文：
+He ran ______ fast that no one could catch up with him. (so)
+
+翻译：
+他跑得如此快，以至于没人能追上他。
+
+分析：
+我们来找找线索。
+
+这题和上一题很像，也是“如此……以至于……”的句型。
+看空后面的词：“fast”。这是一个副词（快地），修饰跑这个动作。
+和上一题一样，当空后面紧跟着的是副词或者形容词时，我们要用 so 来加强语气。
+规则：
+继续巩固 so … that … 句型。
+规则同上：so + 形容词/副词 + that。
+fast 是副词，修饰 ran，所以填 so。
+
+答案：
+so
+
+第六题
+原文：
+It is ______ a beautiful day that we want to go outside. (such)
+
+翻译：
+天气是如此美好，以至于我们想要出去。
+
+分析：
+我们来找找线索。
+
+这题也是“如此……以至于……”，但是你要看清楚空后面是什么。
+空后面是 “a beautiful day”。你看，这里有一个名词 “day”！
+上一题是 “fast”（只有形容词/副词），这一题是 “a beautiful day”（有名词短语）。
+当我们要强调的是一个名词短语（包含名词）时，就不能用 so 了，必须用 such。
+对比一下：so 修饰形容词/副词；such 修饰名词短语。
+规则：
+这里考查的是 such … that … 句型。
+用法：such + (a/an) + 形容词 + 名词 + that。
+意思是：“如此……以至于……”。
+因为空后面紧跟的是名词短语 “a beautiful day”，所以填 such。
+小窍门： 看到“so”找形容词/副词；看到“such”找名词。这题有名 Ellis，所以是 such。
+
+答案：
+such
+
+整体总结
+同学，你看，其实我们今天就讲了这几个核心点，是不是并不难理解？
+
+动词不定式作后置定语：
+用在序数词后面：the first person to do sth.
+用在名词后面表示“要做的事”：work to do.
+使役动词 Let 的用法：
+Let sb. do sth.（让某人做某事），动词要用原形，不能加 to。
+结果状语从句：
+so + 形容词/副词 + that：so fast, so moving.
+such + (a/an) + 形容词 + 名词 + that：such a beautiful day.
+`
+},
+{
+group: 56,
+questions: [
+{
+chinese: "这个问题太难了，几乎没有学生能解答。",
+english: "The problem is （ ） difficult that few students can solve it.",
+hint: "too",
+answer: "too"
+},
+{
+chinese: "她说话声音如此轻，以至于我们几乎听不见。",
+english: "She spoke （ ） quietly that we could hardly hear her.",
+hint: "so",
+answer: "so"
+},
+{
+chinese: "我想知道今晚她是否会来参加聚会。",
+english: "I wonder （ ） she will come to the party tonight.",
+hint: "whether",
+answer: "whether"
+},
+{
+chinese: "他迟到的原因是他错过了公共汽车。",
+english: "The reason （ ） he was late is that he missed the bus.",
+hint: "why",
+answer: "why"
+},
+{
+chinese: "你能告诉我最近的医院在哪里吗？",
+english: "Could you tell me （ ） the nearest hospital is?",
+hint: "where",
+answer: "where"
+},
+{
+chinese: "这是我读过的最好的书。",
+english: "This is the best book （ ） I have ever read.",
+hint: "that",
+answer: "that"
+}
+],
+explanation:`题目解析：
+
+第1题
+原文： The problem is ______ difficult that few students can solve it.（too）
+翻译： 这个问题太难了，几乎没有学生能解答。
+分析：
+
+这道题有个非常明显的“线索词”——后面的 that。
+通常我们看到“形容词 + that”的结构，第一反应应该是“so... that...”（如此……以至于……）这个固定搭配。
+但是！题目后面的括号里给的提示词是 too。这就涉及到一个常见的“坑”。
+我们来看看后半句的意思：“few students can solve it”（几乎没有学生能解出来），这是一个否定的结果。
+虽然标准语法中，too 通常和 to 搭配，但在一些题目或口语中，会出现用 too 修饰形容词，后跟 that 从句表示结果的情况。既然题目强行给了提示词 too，我们就填 too。
+特别提示（老师的小灶）： 如果这道题没有给提示词，填 so 才是更标准的语法。既然题目给了 too，我们就选 too，意思是“太……以至于……”。
+规则：
+
+so... that...：意思是“如此……以至于……”，中间加形容词。比如：He is so kind that we all like him.（他如此善良，以至于我们都喜欢他。）
+too... to...：意思是“太……而不能……”，后面跟动词原形。这是 too 的最常见的用法。
+本题属于特殊语境下的填空，我们以题目给出的提示词为准。
+答案： too
+
+第2题
+原文： She spoke ______ quietly that we could hardly hear her.（so）
+翻译： 她说话声音如此轻，以至于我们几乎听不见。
+分析：
+
+快看，句子中间又出现了我们的老朋友 that！
+再看 that 前面的词：quietly（安静地/轻声地），这是一个副词（修饰说话的动作）。
+句子想要表达“声音那么轻，以至于我们听不见”。
+这就完美符合 so... that... 的句型结构。
+规则：
+
+so + 形容词/副词 + that从句：表示“如此……以至于……”。
+这里的 so 用来修饰后面的形容词或副词，强调程度很深。
+答案： so
+
+第3题
+原文： I wonder ______ she will come to the party tonight.（whether）
+翻译： 我想知道今晚她是否会来参加聚会。
+分析：
+
+这里的线索词是主句的动词 wonder（想知道）。
+“想知道”意味着心里有疑问，不知道是“来”还是“不来”，这是一个不确定的选择。
+后面紧跟的是“she will come...”，这是一个完整的句子。
+我们需要一个词来连接“想知道”和“她来不来”这件事，并且表示“是否”的意思。
+规则：
+
+宾语从句：就是把一个句子当宾语放在另一个句子后面。
+当主句表达“想知道”、“不确定”这类意思时，后面常跟由 whether 或 if 引导的宾语从句，意思是“是否”。
+比如：I don't know whether he is at home.（我不知道他是否在家。）
+答案： whether
+
+第4题
+原文： The reason ______ he was late is that he missed the bus.（why）
+翻译： 他迟到的原因是他错过了公共汽车。
+分析：
+
+句子开头有两个非常重要的线索词：The reason（原因）。
+后面的“he was late”（他迟到了）是在具体解释这个原因的内容。
+当我们需要解释“......的原因”时，前面有 The reason，后面跟解释内容的句子，中间要用 why 来引导。
+规则：
+
+定语从句：这里就是用一个句子来修饰前面的名词。
+固定搭配：The reason why... 意思是“......的原因”。
+这就好比说“那个迟到的理由”，用 why 把“他迟到”这件事挂靠在“理由”下面。
+答案： why
+
+第5题
+原文： Could you tell me ______ the nearest hospital is?（where）
+翻译： 你能告诉我最近的医院在哪里吗？
+分析：
+
+这道题我们要看后半部分。句子里有一个动词 is（是），但是缺了“地点”。
+你能说“The hospital is”吗？不行，医院在哪儿呢？缺地点。
+再看提示词是 where（哪里）。
+结合起来，就是问“医院在哪里”，然后把这个问句放在“Could you tell me”后面做宾语。
+规则：
+
+这是宾语从句的疑问句式。
+当我们把一个疑问句（Where is the hospital?）放在另一个句子（Could you tell me...）后面时，这个疑问句就变成了陈述语序（主语在前，动词在后），即“where the hospital is”。
+简单记：告诉某人某事在哪里，用 where。
+答案： where
+
+第6题
+原文： This is the best book ______ I have ever read.（that）
+翻译： 这是我读过的最好的书。
+分析：
+
+这道题有个超级明显的线索词：the best（最好的）。
+这是形容词的最高级形式！
+当先行词（就是前面的名词 book）被最高级修饰时，后面的引导词通常要用 that，而不用 which。
+规则：
+
+定语从句的特殊规则：当先行词前面有最高级（如 the best, the most beautiful）或者不定代词（如 all, everything, nothing）时，关系代词习惯上用 that。
+这里的 that 代指前面的 book，在从句里做 read 的宾语（read that = read the book）。
+答案： that
+
+整体总结
+好啦，我们这就讲完了，是不是感觉没那么难？我们来复盘一下今天学到的几个核心语法点：
+
+结果状语从句：掌握 so... that...（如此……以至于……），记住 so 后面跟形容词或副词。
+too 的用法：通常 too... to...（太……而不能……），注意它和 so... that... 在表达结果时的区别。
+宾语从句：
+表示“是否”用 whether。
+表示“地点”用 where，注意语序要是“陈述语序”（主语+谓语）。
+定语从句：
+修饰 reason 用 why。
+先行词有最高级修饰时，用 that。
+`
+},
+{
+group: 57,
+questions: [
+{
+chinese: "我们今天所做的一切将会影响我们的未来。",
+english: "（ ） we do today will affect our future.",
+hint: "what",
+answer: "What"
+},
+{
+chinese: "只有通过尝试，你才能实现你的梦想。",
+english: "Only by （ ） can you achieve your dreams.",
+hint: "try",
+answer: "trying"
+},
+{
+chinese: "直到他完成工作，他才回家。",
+english: "Not until （ ） he finished his work did he go home.",
+hint: "he",
+answer: "did"
+},
+{
+chinese: "我刚坐下，电话就响了。",
+english: "Hardly had I （ ） when the phone rang.",
+hint: "sit down",
+answer: "sat down"
+},
+{
+chinese: "无论有多困难，我们都不应该放弃。",
+english: "No matter （ ） difficult it is, we should never give up.",
+hint: "how",
+answer: "how"
+},
+{
+chinese: "要不是因为你的帮助，我就失败了。",
+english: "Were it （ ） for your help, I would have failed.",
+hint: "not",
+answer: "not"
+}
+],
+explanation:`题目解析：
+
+第一题
+原文： ______ we do today will affect our future.（what）
+
+翻译： 我们今天所做的一切将会影响我们的未来。
+
+分析：
+咱们先看句子后面，有个动词 will affect（将会影响），这是句子的谓语。那么前面这一大串 _____ we do today 是什么呢？它其实是整个句子的“主语”，也就是“谁”或者“什么东西”影响了未来。
+再看里面，we do（我们做），缺不缺个对象？做“什么”呢？对吧。
+所以，这个空既要引导前面的这个句子做主语，又要充当 do 的对象（宾语）。
+
+规则：
+这里用到了主语从句。别怕这个术语，意思就是“用一个句子来当主语”。
+What 在这里相当于 The thing that（……的东西）。
+简单的理解就是：这地方既缺意思（做的“什么”），又要领头带着这句话做主语，所以用 What。
+
+答案： What
+
+第二题
+原文： Only by ______ can you achieve your dreams.（try）
+
+翻译： 只有通过尝试，你才能实现你的梦想。
+
+分析：
+首先看个非常关键的线索词：by。by 是个介词，就像一个小关卡，它后面必须要接名词或者代词。
+再看提示词 try 是个动词（尝试）。动词想过 by 这个关卡，必须“变身”。
+怎么变？变成名词性质的形式。动词加 ing 就可以变成名词（动名词）。
+另外，句子开头的 Only by... 是个很重要的信号，它导致了后面的主语 you 和助动词 can 换了位置（变成了 can you），这叫倒装，不过这道题的重点是 by 后面填什么。
+
+规则：
+介词后面跟名词。如果给的是动词，通常要变成 -ing 形式（动名词）。
+你可以把这想象成：介词是个挑剔的老板，它只接受名词这一种员工。动词想进来工作，必须穿上 -ing 的马甲。
+
+答案： trying
+
+第三题
+原文： Not until ______ he finished his work did he go home.（he）
+
+翻译： 直到他完成工作，他才回家。
+
+分析：
+这道题有个明显的线索词：Not until（直到……才……）。
+我们看句子结构，后半句 did he go home 里面，助动词 did 跑到了主语 he 前面，这说明句子已经倒装了（也就是顺序反过来了）。
+根据规则，“Not until + 从句”放在句首时，后面的主句要倒装，但 Not until 后面紧跟的那个小句子（从句）是不倒装的，该怎么说就怎么说。
+提示词是 he，动词是 finished（已经完成，过去式）。我们需要一个主语。谁完成了工作？当然是 he。
+（注：题目下方给出的答案 did 可能是原题答案有误，或者是针对另一种题目形式的答案。根据你提供的句子结构和提示词 he，这里应该填主语 he，整个句子结构才通顺：Not until he finished… did he go…）
+
+规则：
+这就好比排队，领导（Not until）来了，只有后面的队伍（主句）需要调整顺序（倒装），领导身边跟着的人（从句）保持原样（正常语序）。所以这里填 he 即可。
+
+答案： he
+
+第四题
+原文： Hardly had I ______ when the phone rang.（sit down）
+
+翻译： 我刚坐下，电话就响了。
+
+分析：
+看到句首的 Hardly 了吗？这是个超级线索词。它的固定搭档是 when。结构是：Hardly ... when ...（一……就……/刚……就……）。
+再看时态线索：Hardly 后面跟着 had。这是过去完成时的标志。
+当 Hardly 放在句首时，句子要倒装，所以 had 跑到了 I 前面。
+现在我们需要把 sit down 变成跟 had 搭配的形式。had 后面要接动词的过去分词。
+
+规则：
+过去分词是动词的一种形式，通常用来表示“完成”。
+规则动词一般在后面加 ed，但 sit 是个不听话的不规则动词。
+sit（坐，原形） -> sat（过去式） -> sat（过去分词）。
+所以 had sat down 才是正确的搭配。
+
+答案： sat down
+
+第五题
+原文： No matter ______ difficult it is, we should never give up.（how）
+
+翻译： 无论有多困难，我们都不应该放弃。
+
+分析：
+前面的线索词是 No matter，意思是“无论……”。它后面通常要跟一个疑问词。
+看空后面紧跟的是什么？是 difficult（困难的），这是一个形容词。
+我们要找一个能修饰形容词的词，表示程度“多么”。
+如果是 No matter what，后面通常接名词；如果是 No matter where，后面接地点。只有 how 可以修饰形容词，表示“多么，到什么程度”。
+
+规则：
+No matter how + 形容词/副词 = However + 形容词/副词。
+意思就是“无论多么……”。
+记个小口诀：修饰形容词找 How（多么），修饰名词找 What（什么）。
+
+答案： how
+
+第六题
+原文： Were it ______ for your help, I would have failed.（not）
+
+翻译： 要不是因为你的帮助，我就失败了。
+
+分析：
+这道题稍微有点难，是个隐形线索题。
+看句首的 Were，它是 are 的过去式。正常句子谁会说“Were it…”？肯定是“It were…”。
+为什么 Were 跑到前面去了？这是虚拟语气的一种省略倒装。
+原句其实是：If it were not for your help...（如果当时不是因为你的帮助……）。
+当 If 省略时，were 就要提到句首。
+空格前面是 Were it，后面是 for your help。还原回去就是 If it were ____ for your help。
+根据翻译“要不是因为……”，这里明显缺一个否定词。
+
+规则：
+虚拟语气就是假设一种不太可能或者没发生的情况。
+这里的固定搭配是：If it were not for...（要不是因为……）。
+省略 if 后，把 were 提前，变成了 Were it not for...。所以填 not。
+
+答案： not
+
+整体总结
+同学，你看，其实我们刚才一共复习了这几个核心点，是不是没那么难？
+
+主语从句：用 What 引导一个句子做主语，What 在句子里充当成分。
+介词用法：介词后面动词要变 -ing。
+倒装句：
+Only by + 词组 放句首，后面主句要倒装。
+Not until 放句首，主句倒装，从句不倒装。
+Hardly 放句首，用过去完成时 had done，且倒装。
+状语从句：No matter how 修饰形容词，表示“无论多……”。
+虚拟语气倒装：If it were not for... 省略 if 变成 Were it not for...。
+`
+},
+{
+group: 58,
+questions: [
+{
+chinese: "他简短的介绍让与会每个人都感到惊讶。",
+english: "His （ ） surprised everyone at the meeting.",
+hint: "present",
+answer: "presentation"
+},
+{
+chinese: "山脉的美丽让我们惊叹不已。",
+english: "The （ ） of the mountains took our breath away.",
+hint: "beautiful",
+answer: "beauty"
+},
+{
+chinese: "她在处理危机时表现出了极大的智慧。",
+english: "She showed great （ ） in dealing with the crisis.",
+hint: "wise",
+answer: "wisdom"
+},
+{
+chinese: "对于每个人来说，拥有健康的生活方式都很重要。",
+english: "It is （ ） for everyone to have a healthy lifestyle.",
+hint: "importance",
+answer: "important"
+},
+{
+chinese: "孩子们对即将到来的旅行感到非常兴奋。",
+english: "The children were （ ） excited about the upcoming trip.",
+hint: "extreme",
+answer: "extremely"
+},
+{
+chinese: "请确保离开前关上门。",
+english: "Please make sure （ ） the door before you leave.",
+hint: "close",
+answer: "to close"
+}
+],
+explanation:`题目解析：
+
+第一题
+原文：
+His ______ surprised everyone at the meeting. (present)
+
+翻译：
+他简短的介绍让与会每个人都感到惊讶。
+
+分析：
+同学，你先看这个句子的开头，有一个很重要的线索词 “His”（他的）。
+在英语里，“他的”后面一定要跟一个“东西”或者“人”，也就是名词。
+你再看括号里的词是 present，它通常作形容词表示“出席的”或者“现在的”，也可以作名词表示“礼物”。但是根据中文翻译“介绍”，这里显然不是送礼物的意思。
+我们要把它变成一个表示动作或概念的名词。把 present 变成名词，就像给它加个尾巴，变成了 presentation，意思就是“展示”或“介绍”。
+
+规则：
+这就是名词后缀的用法。
+
+动词或形容词后面加上 -tion 或者 -ation，往往就变成了名词。
+比如你知道的 invent（发明）变成名词就是 invention。
+记住：“他的/我的/你的” 后面一定要跟名词。
+答案：
+presentation
+
+第二题
+原文：
+The ______ of the mountains took our breath away. (beautiful)
+
+翻译：
+山脉的美丽让我们惊叹不已。
+
+分析：
+这一题有一个非常明显的信号塔，就是横线前面的单词 “The”。
+在英语里，The 叫做定冠词，它就像一顶帽子，帽子下面通常得有个“头”，这个“头”就是名词。
+括号里的 beautiful 是形容词，意思是“美丽的”。形容词是用来打扮名词的，它自己不能做头。所以我们要把它变成名词。
+beautiful 去掉后缀 ful，加上 y，就变成了名词 beauty，意思就是“美丽”。
+
+规则：
+这是形容词变名词的规则。
+
+很多以 -ful 结尾的形容词，变成名词时，往往把 ful 去掉，改成 y。
+比如 thankful（感激的）变成名词是 thanks（虽然不常用，但规律类似），最经典的就是 beauty。
+记住：“The” 后面一般都跟名词。
+答案：
+beauty
+
+第三题
+原文：
+She showed great ______ in dealing with the crisis. (wise)
+
+翻译：
+她在处理危机时表现出了极大的智慧。
+
+分析：
+来，咱们找找这句话里的“路标”。
+横线前面有一个词 “great”（巨大的/极大的），这是一个形容词。
+在英语的逻辑里，形容词就像是用来描述“东西”的标签。既然有个标签，那后面肯定得贴在某个“东西”上，这个“东西”就是名词。
+括号里的 wise 是形容词，意思是“明智的”。我们需要把它变成一个表示“智慧”的名词。
+只要在 wise 后面加上 -dom，它就变成了名词 wisdom。
+
+规则：
+这是形容词变名词的另一种情况。
+
+有些形容词后面加 -dom 变成名词，表示一种状态或领域。
+举个例子：free（自由的）变成名词是 freedom（自由）。
+简单口诀：形容词修饰名词（比如：大红苹果，红是形容词，苹果是名词）。
+答案：
+wisdom
+
+第四题
+原文：
+It is ______ for everyone to have a healthy lifestyle. (importance)
+
+翻译：
+对于每个人来说，拥有健康的生活方式都很重要。
+
+分析：
+这道题的句子结构非常经典，请看前面四个字：“It is”。
+在这个句型里，It 是形式主语（先不管这个术语，你就当它是个占位的），is 是系动词。is 后面通常跟形容词，用来说明事物“怎么样的”。
+括号里给的 importance 是名词，意思是“重要性”。我们要把它变回形容词。
+把名词后缀 ance 去掉，变成 ant，就是形容词 important，意思是“重要的”。
+
+规则：
+这是名词变形容词的规则。
+
+很多名词后面是 -ance，变成形容词就是 -ant。
+比如：distant（遥远的），significant（重要的）。
+记住一个万能句型：It is + 形容词 + to do something（做某事是怎么样的）。
+答案：
+important
+
+第五题
+原文：
+The children were ______ excited about the upcoming trip. (extreme)
+
+翻译：
+孩子们对即将到来的旅行感到非常兴奋。
+
+分析：
+同学，你看横线后面紧跟着一个词 “excited”（兴奋的）。
+excited 是一个形容词（它用来描述孩子们的心情）。那横线里的词是用来干嘛的呢？它是用来修饰 excited 的程度的。
+修饰形容词的词，我们叫它副词。
+括号里的 extreme 是形容词，意思是“极端的”。我们要把它变成副词，通常只要在后面加个 -ly。
+extreme 变成 extremely，意思就是“极其、非常”。
+
+规则：
+这是形容词变副词的最常见规则。
+
+大多数情况下，形容词后面加了 -ly，就变成了副词。
+比如：quick（快的）-> quickly（快地）；happy（快乐的）-> happily（快乐地）。
+怎么判断填副词？看它后面是不是跟着一个形容词，或者它是不是在修饰整个动作。
+答案：
+extremely
+
+第六题
+原文：
+Please make sure ______ the door before you leave. (close)
+
+翻译：
+请确保离开前关上门。
+
+分析：
+这道题考查的是一个固定的搭配。
+前面的 make sure 意思是“确信、确保”。后面我们要接一个动作“关门”。
+在英语里，make sure 后面如果要接动作，通常要用 to 加上动词原形，这叫不定式。
+括号里的 close 是动词原形。所以我们在前面加上 to，变成 to close。
+这就好比 make sure 是个领导，它要求后面的动作必须带上 to 这个身份证才能进来。
+
+规则：
+这是非谓语动词里的一个考点——动词不定式。
+
+专业术语“不定式”记不住没关系，你就记：很多动词后面接动作时，中间要加个 to。
+比如：want to do（想要做），decide to do（决定做），还有这里的 make sure to do（确保做）。
+答案：
+to close
+
+整体总结
+太棒了！我们一起攻克了这六道题。咱们来总结一下今天学到的几个核心法宝：
+
+名词的位置：看到 The（这/那）、His/My（他的/我的）、或者形容词（如 great），后面通常都要填名词。
+形容词的位置：看到 It is 或者 be 动词（is/am/are），后面通常填形容词。
+副词的位置：如果横线后面跟着一个形容词（比如 excited），横线处通常填副词来修饰它（常常以 -ly 结尾）。
+固定搭配：像 make sure to do 这种固定用法，就像数学公式一样，需要专门记忆。
+`
+},
+{
+group: 59,
+questions: [
+{
+chinese: "如果能尽快回复，我将不胜感激。",
+english: "I would appreciate it if you could reply （ ） possible.",
+hint: "as soon as",
+answer: "as soon as"
+},
+{
+chinese: "老师让我们课后提问。",
+english: "The teacher asked us （ ） our questions after class.",
+hint: "raise",
+answer: "to raise"
+},
+{
+chinese: "为无法改变的事情担心是没有用的。",
+english: "It is no use （ ） about things you cannot change.",
+hint: "worry",
+answer: "worrying"
+},
+{
+chinese: "她坚持自己完成工作。",
+english: "She insisted on （ ） the work by herself.",
+hint: "finish",
+answer: "finishing"
+},
+{
+chinese: "如果他学习更努力些，他就会通过考试。",
+english: "If he （ ） harder, he would pass the exam.",
+hint: "study",
+answer: "studied"
+},
+{
+chinese: "这本书值得读两遍。",
+english: "The book is worth （ ） twice.",
+hint: "read",
+answer: "reading"
+}
+],
+explanation:`题目解析：
+
+第一题
+原文： I would appreciate it if you could reply ______ possible. (as soon as)
+
+翻译： 如果能尽快回复，我将不胜感激。
+
+分析：
+我们要填的是修饰“reply（回复）”的时间状语。看看括号里给的提示词是 。再看句子后面紧跟着一个词 （可能的）。这时候你的脑海里要亮起一个小灯泡：这是一个非常固定的搭配！就像我们中文说“越快越好”一样，英语里有个固定的“四人组”好朋友，就是 ，意思是“尽可能快地”。句子里的 是“感激”的意思，它后面通常接 引导的从句，但这道题主要考的是这个时间短语。as soon aspossibleas soon as possibleappreciateif
+
+规则：
+固定搭配 。意思是“尽早”、“尽快”。你可以把它当成一个成语死记硬背下来，只要看到 后面跟着 ，或者需要表达“尽快”的意思，就选它。as soon as possibleas soon aspossible
+
+答案： as soon as
+
+第二题
+原文： The teacher asked us ______ our questions after class. (raise)
+
+翻译： 老师让我们课后提问。
+
+分析：
+先找句子里的“大老板”——谓语动词 （要求/让）。是谁让？老师让。让谁？（我们）。让我们干嘛？（提出我们的问题）。
+这里有一个非常关键的线索词 。在英语里，当我们要表达“让某人做某事”时，有一个固定的公式： + 人 + + 动词原形。题目给了动词 ，我们需要在这个动词前面加个“引路人” 。askedusraise our questionsaskedasktoraiseto
+
+规则：
+这里考的是“动词不定式”做宾语补足语。简单的说，就是 （叫某人做某事）。注意，这里的 千万不能丢，它就像动词的帽子，戴上它才表示“去做”这个动作的目的。ask sb. to do sth.to
+
+答案： to raise
+
+第三题
+原文： It is no use ______ about things you cannot change. (worry)
+
+翻译： 为无法改变的事情担心是没有用的。
+
+分析：
+句子的开头是一个非常重要的信号：It is no use。这句话字面意思是“它是没有用的”，但在英语里，这是一个专用句型，意思是“做某事是没用的”。
+既然是“做某事”，那肯定要跟动作。题目给了动词 worry（担心）。在这个句型里，动词必须穿上“ing”的衣服，变成名词的性质。
+
+规则：
+固定句型：It is no use doing sth.。意思是“做某事是徒劳的/没用的”。这里的 doing 就是动词加 ing。另外，worry 变成 worrying 时，要注意把 y 变成 i 再加 ing 哦，这是拼写小规则。
+
+答案： worrying
+
+第四题
+原文： She insisted on ______ the work by herself. (finish)
+
+翻译： 她坚持自己完成工作。
+
+分析：
+这一题的线索词在空前面：on。insisted on 是一个固定短语，意思是“坚持做某事”。
+在英语里，介词（比如 on, in, at, about）就像一个小气鬼，它后面如果跟动词，动词绝对不能保持原形，必须变身。变成什么？必须变成“ing”形式。这就是所谓的“介词后面跟动名词”。
+
+规则：
+介词后跟动名词（动词ing形式）。简单记：看到介词后面跟动词，毫不犹豫加 ing。finish 变成 。finishing
+
+答案： finishing
+
+第五题
+原文： If he ______ harder, he would pass the exam. (study)
+
+翻译： 如果他学习更努力些，他就会通过考试。
+
+分析：
+这道题有个大大的线索词 If（如果），说明这是个假设的情况。再看主句里的动词 would pass（将会通过），这是“过去将来时”的感觉。
+虽然他说的是“如果”，但他现在并没有努力，所以他也过不了考试。这在英语里叫“虚拟语气”（简单说就是“做白日梦”或“假假设”）。对于现在情况的假设，If 引导的这部分句子，动词要“退一步”，用过去式。study 的过去式是什么呢？把 y 变 i 加 。ed
+
+规则：
+虚拟语气：表示与现在事实相反的假设。规则是“后退一步法”，即 If 从句中用一般过去时（be动词通常用were，实义动词变过去式）。哪怕说的是现在的事，也要用过去的时态来表示“这只是假设，不是真的”。
+
+答案： studied
+
+第六题
+原文： The book is worth ______ twice. (read)
+
+翻译： 这本书值得读两遍。
+
+分析：
+这一题的线索词是空前面的形容词 worth，意思是“值得”。
+在英语里，worth 这个词有点特别，它后面如果跟动作，必须用 doing 的形式。虽然中文说“值得读”，听着像被动（书被读），但英语里 be worth doing 是主动形式表示被动意义。这是一个特例，必须死记硬背。
+
+规则：
+固定用法：be worth doing sth.（值得做某事）。注意这里动词要加 ing。read 变成 reading。
+
+答案： reading
+
+整体总结
+今天我们主要复习了以下几个核心点，只要记住了公式，以后看到类似的题就能直接套用：
+
+固定搭配：as soon as possible（尽快）。
+非谓语动词：
+ask sb. to do sth.（让某人做某事），记住要加 to。
+It is no use doing sth.（做某事没用），记住 doing。
+介词（如 on）后面跟动词要用 doing。
+be worth doing（值得做），主动形式表被动。
+虚拟语气：如果事情是假的（假设），If 后面的动词要变成过去式（退一步）。
+`
+},
+{
+group: 60,
+questions: [
+{
+chinese: "如果下雨，我们会推迟春游。",
+english: "We will put off the spring outing, if （ ）.",
+hint: "rain",
+answer: "it rains"
+},
+{
+chinese: "这场精彩的演讲给所有面试官留下了深刻的印象。",
+english: "This （ ） left a deep impression on all the interviewers.",
+hint: "speech",
+answer: "wonderful speech"
+},
+{
+chinese: "只有每天大声说英语，你才能提升口语水平。",
+english: "You can only improve your oral English by （ ） every day.",
+hint: "speak",
+answer: "speaking aloud"
+},
+{
+chinese: "请确保你已经在试卷上签了名字。",
+english: "Please （ ） that you have signed your name on the paper.",
+hint: "certain",
+answer: "make certain"
+},
+{
+chinese: "她不知道该如何应对这个尴尬的局面。",
+english: "She doesn't know （ ） this awkward situation.",
+hint: "deal",
+answer: "how to deal with"
+},
+{
+chinese: "这是一个能和这位知名教授面对面交流的宝贵机会。",
+english: "It's a precious chance （ ） the famous professor face to face.",
+hint: "meet",
+answer: "to meet"
+}
+],
+explanation:`题目解析：
+
+第1题
+原文： We will put off the spring outing, if ______. （rain）
+翻译： 如果下雨，我们会推迟春游。
+分析：
+
+线索词： 这里的线索词是句首的 “if”（如果） 和主句中的 “will”（将要）。
+逻辑推导： “if” 引导的是一个条件状语从句（就是表示“在某种条件下”）。在英语里有一个很重要的规矩：在时间状语和条件状语从句中，如果主句用了一般将来时（will + 动词），那么从句就要用一般现在时来表示将来。就像老板说“你如果做完工作，就可以下班”，前半句说的是以后的事，但英语习惯不说“如果你将做完”，而是说“如果你做完”。
+规则： 这就是著名的 “主将从现” 原则。意思是：主句用将来时，从句用现在时。另外，rain（下雨）是个动词，这里缺主语，英语里下雨通常用 “it” 来做主语，所以是 “it rains”。
+答案： it rains
+第2题
+原文： This ______ left a deep impression on all the interviewers. （speech）
+翻译： 这场精彩的演讲给所有面试官留下了深刻的印象。
+分析：
+
+线索词： 横线前面的 “This”（这） 和后面的 “left”（留下，过去式）。还有中文翻译里的 “精彩的”。
+逻辑推导： 我们看句子的结构，“left” 是句子的谓语动词，那么横线部分肯定是主语。提示词给的是 “speech”（演讲）。光填 “speech” 不够，因为中文里明确说了是“精彩的演讲”。“This” 后面通常接单数名词，我们需要把“精彩的”翻译出来，也就是 “wonderful”，修饰 “speech”。
+规则： 这里考查的是 词性转换 和 形容词修饰名词。形容词就是用来修饰名词、描述事物特点的词（比如“精彩的”、“红色的”）。当我们需要表达“什么样的东西”时，就要用“形容词+名词”的组合。
+答案： wonderful speech
+第3题
+原文： You can only improve your oral English by ______ every day. （speak）
+翻译： 只有每天大声说英语，你才能提升口语水平。
+分析：
+
+线索词： 横线前面的 “by”（通过）。还有中文翻译里的 “大声”。
+逻辑推导： “by” 是一个介词（ preposition），意思是“通过……方式”。在英语里，介词后面就像有一堵墙，动词想要跟在它后面，必须变身，不能直接跑过去。动词要变成什么样子呢？要变成“动名词”，也就是加 -ing。另外，中文里有“大声”这个词，英语对应的是 “aloud” 或 “loudly”，所以不能漏掉这个修饰动作的词。
+规则： 这里考查的是 介词后接动名词。简单来说，介词（如 by, in, at, on）后面如果跟动词，这个动词一定要加上 -ing，变成名词的性质。比如 “by doing”（通过做某事）。
+答案： speaking aloud
+第4题
+原文： Please ______ that you have signed your name on the paper. （certain）
+翻译： 请确保你已经在试卷上签了名字。
+分析：
+
+线索词： 句首的 “Please”（请） 和提示词 “certain”（确定的）。
+逻辑推导： “Please” 后面紧跟的一定是一个动词原形开头的祈使句，表示请求或命令。提示词给的是形容词 “certain”，但我们需要一个动词短语来表达“确保”的意思。在英语中，有一个固定的搭配 “make certain”，意思等同于 “make sure”，就是“确保、确信”的意思。
+规则： 这题考查的是 固定搭配。就像我们要把“吃饭”说成 “eat rice” 而不是 “eat water” 一样，有些词是固定要待在一起的。“Make certain” 就是一个固定的短语，记住它就行。
+答案： make certain
+第5题
+原文： She doesn’t know ______ this awkward situation. （deal）
+翻译： 她不知道该如何应对这个尴尬的局面。
+分析：
+
+线索词： 句中的 “know”（知道） 和中文翻译里的 “如何”。
+逻辑推导： 提示词 “deal” 是“处理、应对”的意思。我们要表达“如何应对”，就需要把“如何”翻译成英语，也就是 “how”。接着，“deal” 这个词如果要接宾语，后面通常要加介词 “with”（deal with = 处理）。所以结构就是“疑问词 + to + 动词原形”。
+规则： 这里考查的是 “疑问词 + 不定式” 结构。也就是把“怎么去做某事”压缩成一个短语，放在动词后面做宾语。结构是：特殊疑问词 + to + 动词原形。另外别忘了 “deal with” 这个搭档。
+答案： how to deal with
+第6题
+原文： It’s a precious chance ______ the famous professor face to face. （meet）
+翻译： 这是一个能和这位知名教授面对面交流的宝贵机会。
+分析：
+
+线索词： 前面的名词 “chance”（机会）。
+逻辑推导： 当我们说“做某事的机会”时，英语习惯用不定式来解释这个机会的内容。比如“读书的机会”就是 “chance to read”。这里提示词是 “meet”，我们要用不定式形式。
+规则： 这里考查的是 动词不定式作后置定语。听着很专业，其实很简单：就是用一个动词去修饰前面的名词。如果不定式你听着陌生，记住了：就是 “to + 动词原形”。这里 “to meet” 用来解释是什么样的 “chance”。
+答案： to meet
+整体总结
+你看，做完这六道题，其实我们就在反复练习这几个核心语法点：
+
+“主将从现”原则：在 if 引导的条件状语从句中，主句将来，从句现在。
+形容词修饰名词：想要描述一个东西怎么样，就把形容词放在名词前面。
+介词后接动名词：看到介词（by, at, in等）后面的动词，记得加 -ing。
+固定搭配：英语里有很多像好朋友一样的词组，比如 make certain, deal with，需要平时多积累。
+不定式：记住 “to + 动词原形” 结构，常用来表示目的或者修饰名词（如 chance to do）。
+`
+},
+{
+group: 61,
+questions: [
+{
+chinese: "这场演讲太鼓舞人心了，所有学生都长时间鼓掌。",
+english: "The speech was （ ） that all the students clapped for a long time.",
+hint: "inspire",
+answer: "so inspiring"
+},
+{
+chinese: "在老师的指导下，我的写作能力正在稳步提升。",
+english: "My writing ability is （ ） under the guidance of my teacher.",
+hint: "improve",
+answer: "steadily improving"
+},
+{
+chinese: "你完成一篇英语阅读要花多长时间？",
+english: "（ ） does it take you to finish an English reading passage?",
+hint: "long",
+answer: "How long"
+},
+{
+chinese: "你能告诉我他什么时候动身去毕业旅行吗？",
+english: "Could you tell me when （ ） for the graduation trip?",
+hint: "leave",
+answer: "he will leave"
+},
+{
+chinese: "老师警告我们考试不要作弊。",
+english: "The teacher warned us （ ） in the examination.",
+hint: "cheat",
+answer: "not to cheat"
+},
+{
+chinese: "我期待听到你的好消息。",
+english: "I'm looking forward to （ ） from your good news.",
+hint: "hear",
+answer: "hearing"
+}
+],
+explanation:`题目解析：
+
+第1题
+原文： The speech was ______ that all the students clapped for a long time. (inspire)
+
+翻译： 这场演讲太鼓舞人心了，所有学生都长时间鼓掌。
+
+分析：
+我们要找的第一个线索是句子里的小词 "that"。你看，前面说演讲怎么样，后面跟着 "that" 引导的结果（学生们长时间鼓掌）。这是一个非常经典的句型搭配。
+第二个线索是提示词 inspire（鼓舞），这是一个动词。演讲这个东西是“令人鼓舞”的，所以我们通常把它变成形容词形式，用来形容 speech。
+根据句型“如此……以至于……”，我们需要用 so 加上形容词。把 inspire 变成形容词 inspiring（令人鼓舞的），合起来就是 so inspiring。
+
+规则：
+这里用到了 "so... that..." 句型，意思是“如此……以至于……”。
+
+so 后面跟形容词，表示程度。
+inspire 是动词，变成 inspiring（-ing形式）作形容词，通常用来形容事物本身具有的特征（比如这场演讲很棒）。
+答案： so inspiring
+
+第2题
+原文： My writing ability is ______ under the guidance of my teacher. (improve)
+
+翻译： 在老师的指导下，我的写作能力正在稳步提升。
+
+分析：
+首先看提示词 improve（提升/改善），这是个动词。但是句子里已经有了 be动词 "is"。
+看中文翻译里的关键词：“正在”。这告诉我们要用“正在进行时”，表示动作正在发生。
+动词 improve 的进行时形式就是 improving。
+再仔细看中文翻译，里面有个词叫“稳步”提升。虽然提示词没给“稳步”这个词，但为了让句子意思完整，我们需要加一个副词 steadily 来修饰 improve。
+所以，把“正在”和“稳步”结合起来，就是 is steadily improving。
+
+规则：
+
+现在进行时：用来表示说话时正在发生的动作。结构是 be (is/am/are) + 动词ing。这里就是把 improve 变成了 improving。
+副词修饰动词：就像中文里“稳步地提升”，英语里也需要副词 steadily 放在动词前面来修饰它。
+答案： steadily improving
+
+第3题
+原文： ______ does it take you to finish an English reading passage? (long)
+
+翻译： 你完成一篇英语阅读要花多长时间？
+
+分析：
+这道题线索非常明显。首先，句子末尾有个问号，而且开头是个空，说明这是个特殊疑问句。
+看中文翻译：“多长时间”。
+看提示词：long（长）。
+英语里问“多长时间”，专门有一个固定搭档，就是 How long。这就像中文里的“多大”叫 How big，“多少”叫 How many 一样，是固定搭配，直接搬过来用就行。
+
+规则：
+"How long" 是一个特殊疑问词组，专门用来询问时间的长度。
+
+How 是“多么、如何”的意思。
+Long 是“长”的意思。
+合在一起就是“多长时间”。
+答案： How long
+
+第4题
+原文： Could you tell me when ______ for the graduation trip? (leave)
+
+翻译： 你能告诉我他什么时候动身去毕业旅行吗？
+
+分析：
+这道题稍微有点难度，是个“陷阱题”。
+线索一：句首有 "Could you tell me"（你能告诉我……），这说明后面是个宾语从句（就是一句话里套着另一句话）。
+线索二：看中文翻译，“他什么时候动身”。英语里必须把主语补上，翻译里说是“他”，所以我们要填 he。
+线索三：动身是将来的事，但在这个从句里，我们要用正常的说话顺序（陈述语序），也就是“主语 + 动词”。
+提示词 leave（离开/动身）是一般将来时，所以用 will leave。
+合起来就是：he will leave。
+
+规则：
+宾语从句的语序：在像“告诉我……”这样的句子里，后面的句子不能用提问的倒装顺序（比如 When will he leave? 是错的），而要用正常的陈述顺序（he will leave）。
+
+简单来说就是：先说“他”，再说“将离开”。
+答案： he will leave
+
+第5题
+原文： The teacher warned us ______ in the examination. (cheat)
+
+翻译： 老师警告我们考试不要作弊。
+
+分析：
+线索就在提示词 warn（警告）上。老师警告学生，这是一个固定用法：warn sb. to do sth.（警告某人做某事）。
+但是！请看中文翻译，有个很关键的词：“不要作弊”。
+英语里不定式（to do）的否定形式，要把 not 放在 to 的前面。
+所以结构就是：warn us not to cheat。
+
+规则：
+
+warn sb. to do sth.：警告某人做某事。
+不定式的否定：要在 to 前面加 not，变成 not to do。这就像你说“不要吃饭”是 not to eat，而不是 to not eat 哦。
+答案： not to cheat
+
+第6题
+原文： I'm looking forward to ______ from your good news. (hear)
+
+翻译： 我期待听到你的好消息。
+
+分析：
+这道题有一个非常经典的“伪装者”。
+句子里有 look forward to 这个短语，意思是“期待”。
+注意！这里的 to 是个“伪装者”，它在这里不是不定式符号（不是“去做某事”的意思），而是一个介词（就像 go to school 里的 to）。
+介词后面如果跟动词，必须把它变成“动名词”形式，也就是动词后面加 -ing。
+提示词 hear 变成 hearing，就是标准答案了。
+
+规则：
+look forward to doing sth.：期待做某事。
+
+这里的 to 是介词，介词后面就像是一个位置，动词要想坐在这个位置上，就得变身（加 ing）。
+比如：I look forward to seeing you.（期待见到你）。千万别填成 to see 哦！
+答案： hearing
+
+整体总结
+好啦，我们做完这六道题，其实主要复习了下面这四个核心“法宝”，你可以把它们记在小本本上：
+
+"so + 形容词 + that" 句型：表示“如此……以至于……”，用来修饰名词的特征。
+现在进行时：表示“正在做某事”，结构是 be + doing，别忘了副词修饰动词可以让意思更精准。
+宾语从句语序：在告诉、询问某人某事时，后面的句子要用正常的说话顺序（主语在前，动词在后），不要用提问的倒装顺序。
+介词后接动词 ing：特别是短语 look forward to，这里的 to 是介词，后面一定要跟 hearing, seeing 这种形式，千万小心别掉坑里！
+`
+},
+{
+group: 62,
+questions: [
+{
+chinese: "他考前有很多复习任务要完成。",
+english: "He has a lot of review tasks （ ） before the exam.",
+hint: "complete",
+answer: "to complete"
+},
+{
+chinese: "养成良好的学习习惯是通过考试的关键。",
+english: "（ ） a good learning habit is the key to passing the exam.",
+hint: "develop",
+answer: "Developing"
+},
+{
+chinese: "她没有打扰任何人，走进了教室。",
+english: "She entered the classroom without （ ） anyone.",
+hint: "disturb",
+answer: "disturbing"
+},
+{
+chinese: "新的宿舍楼将于下学期对学生开放。",
+english: "The new dormitory building （ ） to students next semester.",
+hint: "open",
+answer: "will be opened"
+},
+{
+chinese: "我已经在这个培训班学习了三个月。",
+english: "I （ ） in this training class for three months.",
+hint: "study",
+answer: "have studied"
+},
+{
+chinese: "我昨晚给她打电话的时候，她正在背英语单词。",
+english: "When I called her last night, she （ ） English words.",
+hint: "recite",
+answer: "was reciting"
+}
+],
+explanation:`题目解析：
+
+第1题
+原文：
+He has a lot of review tasks ______ before the exam.
+
+翻译：
+他考前有很多复习任务要完成。
+
+分析：
+来，我们先看句子里的“线索词”。
+你看，前面说的是 “review tasks”（复习任务），后面给出了提示词 “complete”（完成）。
+这里的逻辑是：任务是“被”完成的吗？还是说，这是指“要去完成”的任务？
+在这句话里，任务 还没做呢，是“考前”要做的。这就好比你的“待办事项清单”，英文里有个固定的说法：have something to do（有某事要做）。
+这里的 “tasks” 就是 “something”，“complete” 就是 “to do”。这表示一个“未来的、还没做”的动作。
+
+规则：
+这里用到了动词不定式。
+你可以把它简单理解为：当我们要表达“目的”、“将来”或者“要去做的动作”时，就在动词前面加个 “to”。比如 “to do”, “to eat”。
+在这个句型里，就是“have + 名词 + to do”，意思是“有…要做”。
+
+答案：
+to complete
+
+第2题
+原文：
+______ a good learning habit is the key to passing the exam.
+
+翻译：
+养成良好的学习习惯是通过考试的关键。
+
+分析：
+这道题有个很明显的线索：横线后面紧跟的是 “is”。
+你看，“is” 是个动词（是），那横线的位置肯定就是句子的“老大”——主语。
+就像中文说“吃饭是很重要的”，“吃饭”这个动作变成了主语。
+提示词是 “develop”（养成），我们需要把“养成”这个动作变成一个名词身份，放在句首当老大。
+
+规则：
+这里用到了动名词作主语。
+规则很简单：当动词想当句子的主语（老大）时，它就要变身，通常要在后面加上 “-ing”。
+比如：Swim（游泳）变成 Swimming is good（游泳是好的）。
+所以 develop 也要变。
+
+答案：
+Developing
+
+第3题
+原文：
+She entered the classroom without ______ anyone.
+
+翻译：
+她没有打扰任何人，走进了教室。
+
+分析：
+我们要盯住一个关键的小词：without。
+你看，横线前面站着 “without”，它的意思是“没有”、“不”。
+在英语里，“without” 是个介词（preposition），你可以把它想象成一个很霸道的老板。介词后面如果跟动作，这个动作必须穿上特定的衣服，也就是要变成“-ing”形式。
+提示词是 “disturb”（打扰），跟在 without 后面，必须变形。
+
+规则：
+这就是介词后接动名词的规则。
+通俗点说，介词 后面如果是个动作，一定要加 -ing。这是一个死规定，记住它，考试看到介词后面的动词，毫不犹豫加 -ing。
+
+答案：
+disturbing
+
+第4题
+原文：
+The new dormitory building ______ to students next semester.
+
+翻译：
+新的宿舍楼将于下学期对学生开放。
+
+分析：
+这道题我们要找两个线索。
+第一个线索是时间：“next semester”（下学期）。既然是下学期的事，说明还没发生，是将来，所以我们要用“将来时”，也就是要请出 “will” 这个词。
+第二个线索是主语：“The new dormitory building”（新宿舍楼）。
+宿舍楼能自己“开放”大门吗？不行，它是被工人、被学校打开的。它是被动的。
+所以，既要“将来”，又要“被动”。
+
+规则：
+这里考查的是一般将来时的被动语态。
+听起来很专业，其实逻辑很简单：
+
+将来时：我们会用 “will”。
+被动语态：就是“被怎么样”，结构是 “be + 动词过去分词”。
+"过去分词"你不懂没关系，你只要记住动词变成被动通常长这样：open 变成 opened。
+把它们合起来就是：will be opened（将会被开放）。
+答案：
+will be opened
+
+第5题
+原文：
+I ______ in this training class for three months.
+
+翻译：
+我已经在这个培训班学习了三个月。
+
+分析：
+这道题的线索词是 “for three months”（三个月了）。
+看到“for + 一段时间”，意思就是这件事从过去开始，一直持续到现在，像个长长的尾巴拖到现在。
+主语是 “I”（我），提示词是 “study”（学习）。
+“我”在这个班学习了三个月，而且现在还在学，或者刚结束。
+
+规则：
+这里考查的是现在完成时。
+它的结构是：have/has + 动词过去分词。
+因为主语是 “I”，所以用 “have”。
+动词 “study” 的过去分词形式，就是直接加 “d” 变成 “studied”。
+这表示动作从过去一直持续到现在。
+
+答案：
+have studied
+
+第6题
+原文：
+When I called her last night, she ______ English words.
+
+翻译：
+我昨晚给她打电话的时候，她正在背英语单词。
+
+分析：
+我们要看清楚时间背景。线索是 “last night”（昨晚）和 “called”（打过电话，过去式）。
+这事儿已经过去了，是昨晚发生的。
+重点来了：当我打电话的那一瞬间，她正在干嘛？她正在背单词。动作在我打电话那个时刻，正在发生，还没做完。
+这种“过去的某个时刻正在做某事”，我们就要用过去进行时。
+
+规则：
+这里考查的是过去进行时。
+结构是：was/were + 动词ing。
+因为时间是在过去，所以不用 is/am/are，而要用 was/were。
+主语是 “she”，所以用 “was”。
+后面的动词 “recite”（背诵）要加 “ing”。
+合起来就是：was reciting。
+
+答案：
+was reciting
+
+整体总结
+你看，我们一步一步走下来，是不是也没那么难？我们今天复习了几个非常重要的知识点：
+
+动词不定式：表达“要去做的”动作，结构是 to + 动词原形。
+动名词作主语：动词想当老大，就要穿马甲，结构是 动词ing。
+介词后接动名词：介词后面跟动作，必须加 ing。
+一般将来时的被动语态：将来会被怎么样，结构是 will be + 动词过去分词。
+现在完成时：动作持续了一段时间，结构是 have/has + 动词过去分词。
+过去进行时：过去某时刻正在做，结构是 was/were + 动词ing。
+`
+},
+{
+group: 63,
+questions: [
+{
+chinese: "这本经典的英文小说被很多中国读者读过。",
+english: "This classic English novel （ ） by many Chinese readers.",
+hint: "read",
+answer: "has been read /was read"
+},
+{
+chinese: "我的同桌总是帮我补习英语语法。",
+english: "My deskmate always （ ） me with my English grammar.",
+hint: "help",
+answer: "helps"
+},
+{
+chinese: "你能把电视音量调小吗？我正在写作业。",
+english: "Can you （ ） the TV? I'm doing my homework now.",
+hint: "down",
+answer: "turn down"
+},
+{
+chinese: "我们应该充分利用每一分钟备考。",
+english: "We should （ ） every minute to prepare for the exam.",
+hint: "use",
+answer: "make full use of"
+},
+{
+chinese: "她被认为是班里最努力的学生。",
+english: "She is （ ） as the most hard-working student in the class.",
+hint: "know",
+answer: "known"
+},
+{
+chinese: "考前制定学习计划对我们来说非常有必要。",
+english: "It is （ ） for us to make a study plan before the exam.",
+hint: "necessity",
+answer: "necessary"
+}
+],
+explanation:`题目解析：
+
+第一题
+原文：
+This classic English novel ______ by many Chinese readers.（read）
+
+翻译：
+这本经典的英文小说被很多中国读者读过。
+
+分析：
+我们要先当一个“侦探”。看这句的主语是“This classic English novel”（这本经典小说），它是被人读的，还是它去读别人？对啦，小说自己是不会读书的，它是“被读”的。
+这时候，我们发现句子里有一个超级重要的线索词 —— by（被）。看到“by + 人”，这就是一个闪亮的大信号灯，告诉我们这里要用“被动语态”，也就是“被怎么样”的意思。
+
+规则：
+这里涉及到“被动语态”。听起来很专业，其实就是表示“被做”。
+它的基本架子是：be动词 + 动词的过去分词。
+
+be动词：比如 is, are, was, were。
+过去分词：简单理解就是动词的一种变形，比如 read 的过去分词还是 read（拼写没变，但读音变了，读成 /red/）。
+因为小说是单数，所以可以用 is read 或者 was read。再深究一下，这本小说到现在大家还在读，影响力还在，所以我们常用现在完成时 has been read，或者一般过去时 was read 都是可以的。
+答案：
+has been read / was read
+
+第二题
+原文：
+My deskmate always ______ me with my English grammar.（help）
+
+翻译：
+我的同桌总是帮我补习英语语法。
+
+分析：
+这题的主语是“My deskmate”（我的同桌），是一个人，而且是单数，不是一群人。
+接着看线索词 always（总是）。这个词说明这是一个经常发生的动作，不是偶尔做一次，所以我们要用“一般现在时”。
+既然是一般现在时，主语又是“他/她”这种单数第三人称，动词就要发生一点点小变化。
+
+规则：
+这个规则叫“第三人称单数”。
+大白话就是：当主语是“他、她、它”或者单个人名、单个称谓时，如果你用的是一般现在时，动词后面通常要加个 s 或者 es。比如 help 变成了 helps。
+
+答案：
+helps
+
+第三题
+原文：
+Can you ______ the TV? I’m doing my homework now.（down）
+
+翻译：
+你能把电视音量调小吗？我正在写作业。
+
+分析：
+首先看句子开头是 Can you…，这是一个情态动词开头的问句，意思是“你能……吗？”。
+这里有个固定搭配的线索词 down（向下）。要把电视的声音“向下”弄，就是“调小”。
+而且，Can 后面跟动词，动词要用“原形”，不能加 s 也不能加 ing。
+
+规则：
+这里考查的是“动词短语”。
+动词 turn（转动）加上 down（向下），合起来就是“调低（音量）”的意思。
+记住一个口诀：情态动词 Can 后面，动词必须用原形。所以 turn 不能变样。
+
+答案：
+turn down
+
+第四题
+原文：
+We should ______ every minute to prepare for the exam.（use）
+
+翻译：
+我们应该充分利用每一分钟备考。
+
+分析：
+这题和上一题有点像。看主语 We（我们），后面紧跟着 should（应该）。Should 和 Can 一样，也是情态动词。
+提示词给的是 use（使用），但是中文翻译里说“充分利用”。这里有一个非常固定的短语，叫“make use of”，意思是“利用”。中间加个 full（满的），就是“充分利用”。
+
+规则：
+这里既考查了“情态动词后接动词原形”，又考查了固定搭配。
+虽然题目提示词只有 use，但为了凑成“利用”这个意思，我们要把前面的部分补全。
+should 后面跟动词原形，所以 make 用原形，use 用原形。
+
+答案：
+make full use of
+
+第五题
+原文：
+She is ______ as the most hard-working student in the class.（know）
+
+翻译：
+她被认为是班里最努力的学生。
+
+分析：
+看主语 She（她），再看线索词 as（作为）。
+这句话的意思是“她作为最努力的学生被大家知道/认识”。
+“被大家知道”，这又是一个“被动”的感觉，因为她是被别人认识的，不是她去认识别人。
+结构就是：be (is) + 动词过去分词。
+
+规则：
+这里有一个固定短语 be known as，意思是“被称为……”、“被认为是……”。
+know 这个词比较特殊：
+
+原形：know（知道）
+过去式/过去分词：known（被知道）
+这里考查的就是 know 的过去分词 known。
+答案：
+known
+
+第六题
+原文：
+It is ______ for us to make a study plan before the exam.（necessity）
+
+翻译：
+考前制定学习计划对我们来说非常有必要。
+
+分析：
+这是一个非常经典的句型：It is… for sb. to do sth.（做某事对某人来说……）。
+这里缺的是一个形容词，用来形容“制定计划”这件事怎么样。
+提示词给的是 necessity，这是一个名词，意思是“必要性”。我们需要把它变成形容词。
+
+规则：
+这里考查的是“词性转换”。
+necessity（名词，必要性） -> necessary（形容词，必要的）。
+只要记住这个句子结构：It is + 形容词 + for us to…，你就知道这里必须要填一个形容词。这就好比把“苹果”（名词）变成“苹果味的”（形容词）来修饰蛋糕一样。
+
+答案：
+necessary
+
+整体总结
+今天我们通过这六道题，复习了几个非常核心的语法点，老师帮你归纳一下：
+
+被动语态：主语是动作的承受者（比如“小说被读”），结构是 be + 过去分词。看到 by 往往就要想到被动。
+情态动词用法：Can, should, must 这些词后面，动词必须用原形，不能变身。
+主谓一致（三单）：一般现在时里，如果主语是他、她、它或者单个人/物，动词后面要加 s。
+固定搭配：比如 turn down（调小）、make use of（利用）、be known as（被认为是）。这些就像积木，要整块记下来。
+词性转换：句子结构决定了缺什么词，名词（necessity）往往要变成形容词才能放在 is 后面。
+`
+},
+{
+group: 64,
+questions: [
+{
+chinese: "考前制定学习计划对我们来说非常有必要。",
+english: "It is （ ） for us to make a study plan before the exam.",
+hint: "necessity",
+answer: "necessary"
+},
+{
+chinese: "他很快就完成了英语考试，第一个交了卷。",
+english: "He finished the English exam （ ） and handed in the paper first.",
+hint: "quick",
+answer: "quickly"
+},
+{
+chinese: "如果起大雾，我们会取消户外活动。",
+english: "We will cancel the outdoor activity, if （ ）.",
+hint: "fog",
+answer: "it fogs"
+},
+{
+chinese: "这个感人的故事打动了毕业典礼上的所有学生。",
+english: "This （ ） moved all the students at the graduation ceremony.",
+hint: "story",
+answer: "moving story"
+},
+{
+chinese: "只有改正你的错误，你才能取得进步。",
+english: "Only by （ ） your mistakes can you make progress.",
+hint: "correct",
+answer: "correcting"
+},
+{
+chinese: "你能保持安静吗？我正在接一个重要的电话。",
+english: "Could you please （ ） ? I'm answering an important phone call.",
+hint: "quiet",
+answer: "keep quiet"
+}
+],
+explanation:`题目解析：
+
+第一题
+原文：
+It is ______ for us to make a study plan before the exam. (necessity)
+
+翻译：
+考前制定学习计划对我们来说非常有必要。
+
+分析：
+咱们先看句子开头的两个词 "It is"。这是一个非常经典的搭配，叫“It is + 形容词 + for sb.”，意思是“对某人来说做某事是……的”。
+你看，这里有个 "is"，它就像一个等号，后面通常要接一个形容词来描述事情的性质。
+题目给的提示词是 "necessity"，这是一个名词（东西的名字），意思是“必要性”。但我们要填的是形容词（描述性质），把“必要性”变成“必要的”。就像把“ beauty（美，名词）”变成“ beautiful（美丽的，形容词）”一样。
+
+规则：
+
+名词变形容词：很多名词后面加后缀就能变形容词。necessity（必要性）去掉 y 变成 necess，再加 ary，就变成了 necessary（必要的）。
+句型：It is + 形容词 + for sb. to do sth.（做某事对某人来说是……的）。记住这个架子，以后看到 It is... for us... 就知道中间要填形容词。
+答案：
+necessary
+
+第二题
+原文：
+He finished the English exam ______ and handed in the paper first. (quick)
+
+翻译：
+他很快就完成了英语考试，第一个交了卷。
+
+分析：
+首先看横线前面是什么词？是 "finished"（完成），这是一个动作（动词）。
+我们要修饰一个动作，比如“快地完成”还是“慢地完成”，这时候我们需要一个副词。副词就像是动作的小跟班，专门形容动作是怎么做的。
+提示词 "quick" 是形容词（快的），我们要把它变成副词。形容词变副词，最简单的办法就是后面加个“小尾巴” -ly。
+
+规则：
+
+副词修饰动词：动词做得怎么样？要用副词。比如 run quickly（快跑），eat slowly（慢吃）。
+形容词变副词：大多数情况下，形容词后面直接加 -ly。quick（快的）→ quickly（快地）。
+答案：
+quickly
+
+第三题
+原文：
+We will cancel the outdoor activity, if ______. (fog)
+
+翻译：
+如果起大雾，我们会取消户外活动。
+
+分析：
+这道题稍微有点难度，我们慢慢看。
+句子前面说“我们将取消活动”，后面有个 "if"（如果）。"if" 引导的是个条件状语从句，意思是“如果……”。
+题目给的提示词 "fog" 是名词，意思是“雾”。
+我们要把“雾”变成动作。在英语里，很多表示自然现象的名词可以直接变成动词用。比如 water（水）→ to water（浇水）。
+这里我们需要表达“起雾”这个动作。主语是天气（省略了 it），所以动词要用单数第三人称形式（给动词加个 s）。
+所以，“it fogs” 或者省略主语直接用动词形式。根据题目给出的答案逻辑，这里考查的是 fog 这个词的动词用法。
+
+规则：
+
+词性转换：名词变动词。fog（雾）作为动词，意思就是“被雾笼罩”或“起雾”。
+主谓一致：因为主语是单数（天气/it），所以动词要加 s，变成 fogs。
+答案：
+it fogs
+(注：这道题在基础练习中常填 it is foggy，但根据你提供的答案 "it fogs"，我们要明白这里把 fog 当作动词使用了，表示“起雾”这个动作。)
+
+第四题
+原文：
+This ______ moved all the students at the graduation ceremony. (story)
+
+翻译：
+这个感人的故事打动了毕业典礼上的所有学生。
+
+分析：
+我们来把这个句子缩缩水，看主干："This ______ moved all the students."（这个______打动了所有学生）。
+"moved" 是谓语动词（打动了），那横线处缺的是什么？缺的是主语，也就是“谁”做了这件事。
+提示词是 "story"（故事）。但是光填 story 够吗？我们看翻译，翻译里有三个字：“感人的”。
+这就意味着，我们需要修饰一下 story，说它是个“感人的故事”。这就用到了动词 move（打动）的形容词形式。
+故事是“令人感动”的，所以用 move 的现在分词形式 moving（令人感动的）。
+所以答案是“感人的故事”。
+
+规则：
+
+现在分词作形容词：当一个东西能主动发出某种感觉，或者让人觉得怎么样时，用动词加 -ing 变形容词。比如：interest (使感兴趣) → interesting (有趣的)。move (打动) → moving (感人的)。
+语序：形容词放在名词前面修饰名词。
+答案：
+moving story
+
+第五题
+原文：
+Only by ______ your mistakes can you make progress. (correct)
+
+翻译：
+只有改正你的错误，你才能取得进步。
+
+分析：
+这道题有个非常明显的“线索词”—— "by"。
+"by" 是一个介词（通常表示“通过……”）。在英语里，介词后面就像有一堵墙，动词如果要跟在后面，必须变身，不能直接原形跑过去。
+怎么变身呢？变成“动名词”，也就是动词后面加 -ing。
+提示词 "correct" 是动词“改正”。跟在 by 后面，变成 correcting，表示“通过改正”这种方式。
+
+规则：
+
+介词后面接动名词：这是铁律！看到介词（如 by, in, on, at, for）后面的动词，记得加 -ing。
+含义：by doing sth. 表示“通过做某事”。
+答案：
+correcting
+
+第六题
+原文：
+Could you please ______ ? I'm answering an important phone call. (quiet)
+
+翻译：
+你能保持安静吗？我正在接一个重要的电话。
+
+分析：
+看句子开头 "Could you please..."（你能请你……吗？）。这是一个表示请求的句型，后面肯定要接一个动作。
+但是提示词 "quiet" 是个形容词，意思是“安静的”。形容词能不能当动作用？不能。
+所以我们需要找一个动词来搭配它。看中文翻译“保持安静”，我们需要动词“保持”（keep）。
+在英语里，"keep + 形容词" 是一个固定搭配，表示“保持某种状态”。比如 keep healthy（保持健康），keep quiet（保持安静）。
+
+规则：
+
+系表结构：这里的 keep 类似于“是”，后面接形容词。quiet 是形容词，所以我们要借用一个动词 keep 来把它串进句子里。
+固定搭配：keep quiet = 保持安静。这需要平时多积累短语哦。
+答案：
+keep quiet
+
+整体总结
+今天这几道题，其实主要考了这三个最核心的语法点，咱们一起回顾一下：
+
+词性变形（变身术）：
+名词变形容词：比如 necessity → necessary。口诀：东西变性质，后缀来帮忙。
+形容词变副词：比如 quick → quickly。口诀：修饰动作加 ly。
+动词变形容词：比如 move → moving（令人感动的）。口诀：主动用 -ing。
+介词用法（小钩子）：
+看到介词（如 by）后面的动词，记得把它变成“动名词”，这是英语的习惯。
+句子结构与搭配：
+It is + adj. + for sb.：这是一个万能句型，中间一定要填形容词。
+Keep + adj.：保持某种状态。
+`
+},
+{
+group: 65,
+questions: [
+{
+chinese: "这次志愿活动让我们有机会帮助更多有需要的人。",
+english: "The volunteer activity gives us a chance （ ） more people in need.",
+hint: "help",
+answer: "to help"
+},
+{
+chinese: "这场考试太难了，很多学生都没能按时完成。",
+english: "The exam was （ ） that many students couldn't finish it on time.",
+hint: "difficult",
+answer: "so difficult"
+},
+{
+chinese: "你家离考场有多远？",
+english: "（ ） is it from your home to the examination room?",
+hint: "far",
+answer: "How far"
+},
+{
+chinese: "我不知道该去哪里买考试的参考书。",
+english: "I don't know where （ ） the reference books for the exam.",
+hint: "buy",
+answer: "to buy"
+},
+{
+chinese: "请确保你提前 30 分钟到达考场。",
+english: "Please （ ） that you arrive at the examination room 30 minutes in advance.",
+hint: "sure",
+answer: "make sure"
+},
+{
+chinese: "学长教会了我如何在复习期间高效管理时间。",
+english: "My senior taught me how （ ） my time efficiently during the review period.",
+hint: "manage",
+answer: "to manage"
+}
+],
+explanation:`题目解析：
+
+第一题
+原文：
+The volunteer activity gives us a chance ______ more people in need. (help)
+
+翻译：
+这次志愿活动让我们有机会帮助更多有需要的人。
+
+分析：
+来，我们先看前面的关键词 chance（机会）。这就好比有人给了你一张“入场券”，后面通常要接你要“去做什么”。
+在英语里，有一个非常固定的搭配：give sb. a chance to do sth.（给某人一个做某事的机会）。这里的“线索词”就是 chance。只要看到“机会”，后面紧跟的动作通常都要带一个小尾巴 to。
+
+规则：
+这就是我们常说的“不定式”用法。你不用记复杂的术语，只需要记住：很多名词（比如 chance 机会，way 方法，time 时间）后面如果想接动作，都要用 to + 动词原形 的形式，表示“去做某事”。
+
+答案：
+to help
+
+第二题
+原文：
+The exam was ______ that many students couldn’t finish it on time. (difficult)
+
+翻译：
+这场考试太难了，很多学生都没能按时完成。
+
+分析：
+这道题有两个“线索词”。
+第一是横线后面的 that，它像一座桥，连接了前后两句话。
+第二是后半句的意思：“学生没能按时完成”。为什么完不成呢？肯定是因为考试“难”。
+这就构成了一个句型：so + 形容词 + that…（如此……以至于……）。因为难，所以完不成。
+
+规则：
+这里的 so 是“如此、这么”的意思，用来加强语气。
+so…that… 句型就像是一个因果链条：中间填形容词，后面 that 引导结果。比如：He is so tall that he can touch the ceiling.（他是如此之高，以至于能摸到天花板。）
+
+答案：
+so difficult
+
+第三题
+原文：
+______ is it from your home to the examination room? (far)
+
+翻译：
+你家离考场有多远？
+
+分析：
+这是一道问句题。看句子里的两个小词：from… to…（从……到……）。这通常是在问距离或路程。
+再看括号里的提示词是 far（远）。既然是在问“有多远”，英语里专门有一个词组来问距离，就是 How far。
+
+规则：
+英语里问“程度”或“数量”常用 How + 形容词/副词。
+
+问距离多远：用 How far。
+问时间多久：用 How long。
+问数量多少：用 How many/much。
+记住了这几个固定搭档，做题就快多了。
+答案：
+How far
+
+第四题
+原文：
+I don’t know where ______ the reference books for the exam. (buy)
+
+翻译：
+我不知道该去哪里买考试的参考书。
+
+分析：
+这道题有个很明显的线索词 where（哪里）。
+句子前面说“我不知道”，后面接着“哪里”和提示词“买”（buy）。
+当我们把“在哪里买”变成一个整体放在“知道”后面时，英语习惯说“where to buy”。这就像是把两个句子捏成了一个短语：“I don’t know where I should buy the books” = “I don’t know where to buy the books.”
+
+规则：
+这叫“疑问词 + 不定式”结构（wh- word + to do）。
+大白话讲就是：当你要表达“知道/决定/学习 怎么做、在哪做、做什么”时，就把疑问词后面直接跟 to + 动词原形 就行了。
+比如：I don’t know how to do it.（我不知道该怎么做。）
+
+答案：
+to buy
+
+第五题
+原文：
+Please ______ that you arrive at the examination room 30 minutes in advance. (sure)
+
+翻译：
+请确保你提前 30 分钟到达考场。
+
+分析：
+首先看句首有个 Please（请），这说明这是一个祈使句，也就是让人去做某事。
+再看提示词是 sure（确信、确信的）。sure 本身是形容词，不能直接当动词用。
+但是，有一个超级常见的固定搭配：make sure（确保、确信）。句意是“请确保你到达……”，正好符合这个搭配。
+
+规则：
+祈使句开头要用动词原形。
+sure 是形容词，意思是“确定的”。但我们要表达“去确定、去确保”这个动作时，必须加上动词 make，变成 make sure。这就好比“做”一个确定的事情。
+
+答案：
+make sure
+
+第六题
+原文：
+My senior taught me how ______ my time efficiently during the review period. (manage)
+
+翻译：
+学长教会了我如何在复习期间高效管理时间。
+
+分析：
+这道题和第 4 题非常像！
+看线索词 how（如何），后面接着提示词 manage（管理）。
+句意是“教会我如何管理时间”。跟第 4 题的道理一样，这里的结构是：teach sb. how to do sth.（教某人如何做某事）。
+
+规则：
+还是那个规则：“疑问词 + to do”。
+当动词 teach（教），tell（告诉），know（知道）等后面接“如何做”、“做什么”时，中间不用再加主语，直接用 how to + 动词原形 就可以了。
+
+答案：
+to manage
+
+整体总结
+好啦，这几道题讲完了，我们来看看今天学到的几个核心“法宝”，以后遇到类似的题，你可以直接拿来用：
+
+名词接动作用 to do：看到 chance（机会）、way（方法）等名词后面接动作，多半是用 to do（不定式）。
+so…that… 句型：看到 that 引导的结果，前面有形容词，多半是“如此……以至于……”。
+How far 问距离：看到 from…to… 问路程，就是 How far。
+疑问词 + to do：这是今天的重点！当句子表达“怎么做、去哪做、做什么”时，结构是“疑问词 + to + 动词原形”。
+固定搭配 make sure：看到 sure 想到 make sure，意思是“确保”。
+`
+},
+{
+group: 66,
+questions: [
+{
+chinese: "通过日常积累，我的英语综合能力正在稳步提升。",
+english: "My comprehensive English ability is （ ） through daily accumulation.",
+hint: "promote",
+answer: "steadily promoting"
+},
+{
+chinese: "我坚持每天早上起床后背诵 20 个英语单词。",
+english: "I insist on reciting 20 English words after getting up （ ）.",
+hint: "morning",
+answer: "every morning"
+},
+{
+chinese: "我记得去年在聚会上见过她。",
+english: "I remember （ ） her at the party last year.",
+hint: "meet",
+answer: "meeting"
+},
+{
+chinese: "没有努力工作，我们无法成功。",
+english: "Without （ ） , we cannot succeed.",
+hint: "hard work",
+answer: "working hard"
+},
+{
+chinese: "如果下暴雨，我们将推迟最终的模拟考试。",
+english: "We will postpone the final simulation test, if （ ）.",
+hint: "storm",
+answer: "it storms"
+},
+{
+chinese: "在针对性训练的帮助下，你的英语阅读速度正在稳步提升。",
+english: "Your English reading speed is （ ） with the help of the targeted training.",
+hint: "increase",
+answer: "steadily increasing"
+}
+],
+explanation:`题目解析：
+
+第一题
+原文：
+My comprehensive English ability is ______ through daily accumulation.（promote）
+
+翻译：
+通过日常积累，我的英语综合能力正在稳步提升。
+
+分析：
+我们先找找句子里的“线索词”。
+
+看到那个小词 is 了吗？它就像一个等号，说明这里需要一个动词的主部分。
+再看主语，是 My comprehensive English ability（我的英语综合能力）。
+这里的逻辑关系是：“能力”是被“提升”的呢，还是“能力”自己去“提升”别的？当然是“能力”被日常积累提升啦！所以这里需要用被动语态（就是表示“被……”的意思）。
+中文里有个词叫“正在”，说明这个动作正在进行中。
+规则：
+这里考察的是“现在进行时的被动语态”。
+
+被动语态：就是主语“被”动作作用。结构是 be + 动词的过去分词。
+现在进行时：表示动作“正在”发生。结构是 be + 动词ing形式。
+把它们合起来，就是 be + being + 动词过去分词。
+promote（提升）的过去分词是 promoted。
+答案：
+being promoted
+*(老师注：你提供的答案 “steadily promoting” 在语法上有点小问题，因为 ability 不能自己提升自己，它是被提升的。最标准的答案应该是 being promoted。如果填 promoting，通常表示主动，但这不符合逻辑哦。我们按最标准的语法来填。)*
+
+第二题
+原文：
+I insist on reciting 20 English words after getting up ______.（morning）
+
+翻译：
+我坚持每天早上起床后背诵 20 个英语单词。
+
+分析：
+这道题考察的是固定搭配和时间状语。
+
+看中文翻译：“每天早上”。
+提示词是 morning（早上）。
+英文里表示“每天早上”有个非常常用的短语，就是加上 every。
+规则：
+这道题考查的是时间状语的表达。
+
+morning 是“早上”。
+前面加上 every（每一个），变成 every morning，就是“每天早上”的意思，用来修饰前面的动作“起床后背单词”，表示频率。
+答案：
+every morning
+
+第三题
+原文：
+I remember ______ her at the party last year.（meet）
+
+翻译：
+我记得去年在聚会上见过她。
+
+分析：
+这道题有个关键的“线索词”：remember（记得）。
+
+后面有个时间状语 last year（去年），说明“见面”这个动作已经发生了，是过去的事情。
+remember 这个词很特别，后面可以加动词的 ing 形式，也可以加 to do。区别在哪里呢？
+remember to do：记得要去做某事（还没做）。
+remember doing：记得做过某事（已经做过了）。
+既然是“去年见过”，说明事情已经做过了。
+规则：
+这里考察的是非谓语动词作宾语。
+
+简单来说，就是 remember 这个词后面如果跟动词，要变身。
+因为句子意思是“记得做过某事”，所以要把 meet 变成 meeting。
+答案：
+meeting
+
+第四题
+原文：
+Without ______ , we cannot succeed.（hard work）
+
+翻译：
+没有努力工作，我们无法成功。
+
+分析：
+
+句子开头有个 Without（没有），这是一个介词（用来引出条件）。
+介词后面就像跟班一样，通常要跟名词或者“动名词”（动词的ing形式）。
+提示词是 hard work（努力工作），这本身是一个名词短语。但在英语习惯中，如果要强调“努力工作”这个动作过程，我们常用 work 的动名词形式 working。这里 hard 是修饰 work 的，所以要一起变。
+规则：
+这道题考察的是介词后接动名词。
+
+规则很简单：介词（如 without, by, in, on）后面的动词，必须变身成 ing 形式。
+所以 hard work 这里的 work 要变成 working。
+答案：
+working hard
+*(老师注：题目给的提示是 hard work，但根据语法“without + doing”，我们要把它调整为 working hard。不用太纠结词序，重点是 work 要变 ing。)*
+
+第五题
+原文：
+We will postpone the final simulation test, if ______.（storm）
+
+翻译：
+如果下暴雨，我们将推迟最终的模拟考试。
+
+分析：
+
+这是一个if引导的条件状语从句（就是“如果……”）。
+前半句是“我们将推迟……”，用的是将来时 will postpone。
+后半句是“如果……”。主语是谁呢？提示词是 storm（暴风雨）。天气状况在英语里通常用 it 来指代。
+中文说“下暴雨”，英文就是“暴风雨来袭”或者“是暴风雨天气”。
+根据主将从现的原则（主句用将来时，从句用一般现在时），这里描述天气，要用一般现在时。
+规则：
+这道题考察的是条件状语从句的时态和形式主语 it。
+
+主将从现：主句说将来要做什么，if后面就说现在怎么样。
+it 指代天气。storm 是名词“暴风雨”，这里把它当动词用，“下暴雨” = it storms。或者也可以填 “it is stormy”。
+既然提示词只有 storm，我们就把它变成动词形式。
+答案：
+it storms
+
+第六题
+原文：
+Your English reading speed is ______ with the help of the targeted training.（increase）
+
+翻译：
+在针对性训练的帮助下，你的英语阅读速度正在稳步提升。
+
+分析：
+
+又看到了熟悉的 is！这是一个线索。
+主语是 Your English reading speed（你的阅读速度）。
+动词提示是 increase（增加/提升）。
+思考一下：“速度”是自己提升，还是被提升？
+速度 可以自己变快，比如 “Speed is increasing”（速度正在增加）。这叫不及物动词用法。
+也可以说速度被提升。
+这里的语境是“正在稳步提升”。如果填 being increased（正在被提升）也是对的。但如果把 increase 看作不及物动词（自行增加），那么用现在进行时就可以了。
+中文里的“稳步”在提示词里没有对应单词，但如果你提供的答案里有 steadily，那是修饰动词的副词。如果只看提示词 increase，我们要变现在进行时。
+规则：
+这里考察现在进行时。
+
+结构：be (is) + 动词ing。
+increase 变成 increasing。
+表示速度正在一点点变快。
+答案：
+increasing
+*(老师注：你提供的答案是 steadily increasing，加了副词 steadily 表示“稳步地”。这在语法上完全通顺。如果题目没给 steady 这个词，填 increasing 也是正确的。)*
+
+整体总结
+今天我们通过这几道题，复习了几个非常核心的语法点，我们来盘点一下：
+
+被动语态：主语是动作的承受者（比如能力被提升），结构是 be + done（动词过去分词）。如果加上“正在”，就是 be + being + done。
+固定搭配：比如 every morning（每天早上），这些是英语里的习惯用语，多读几遍就记住了。
+非谓语动词：
+remember doing sth（记得做过某事）。
+介词后面动词要变 ing。
+主将从现：在 if 引导的句子中，主句说将来，if后面说现在。
+`
+}
 
 ];
 
