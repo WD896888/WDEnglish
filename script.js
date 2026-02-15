@@ -1245,7 +1245,7 @@ const sendBtn = document.getElementById('sendBtn');
 const newChatBtn = document.getElementById('newChatBtn');
 
 const aiService = new QwenAIService();
-aiService.setApiKey('sk-976963ce13304c64ab1b3a2770b89db2');
+aiService.setApiKey('sk-a5be507e9e5543b9ab3d83e7982f44a5');
 
 // 将aiService暴露到window对象，以便其他函数访问
 window.aiService = aiService;

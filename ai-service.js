@@ -180,7 +180,7 @@ class ZhipuAIService {
 }
 
 class QwenAIService {
-    constructor(apiKey = 'sk-976963ce13304c64ab1b3a2770b89db2') {
+    constructor(apiKey = 'sk-a5be507e9e5543b9ab3d83e7982f44a5') {
         this.apiKey = apiKey;
         this.baseUrl = 'https://dashscope.aliyuncs.com/compatible-mode/v1';
         this.model = 'deepseek-v3.2';
