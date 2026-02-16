@@ -10431,6 +10431,349 @@ remember doing sth（记得做过某事）。
 介词后面动词要变 ing。
 主将从现：在 if 引导的句子中，主句说将来，if后面说现在。
 `
+},
+{
+group: 67,
+questions: [
+{
+chinese: "下个月将建造这座新图书馆。",
+english: "The new library （ ） next month.",
+hint: "build",
+answer: "will be built"
+},
+{
+chinese: "谢谢你帮助我学习英语。",
+english: "Thank you for （ ） me with my English study.",
+hint: "help",
+answer: "helping"
+},
+{
+chinese: "他正确地回答了老师的问题。",
+english: "He answered the teacher's question （ ）.",
+hint: "correct",
+answer: "correctly"
+},
+{
+chinese: "你能告诉我在哪里买这张票吗？",
+english: "Could you tell me where （ ）?",
+hint: "buy",
+answer: "to buy"
+},
+{
+chinese: "这个箱子太重了，我搬不动。",
+english: "The box is （ ） heavy for me to carry.",
+hint: "too",
+answer: "too"
+},
+{
+chinese: "我去图书馆借了一些书。",
+english: "I went to the library （ ） some books.",
+hint: "borrow",
+answer: "to borrow"
+}
+],
+explanation:`题目解析：
+
+第1题
+原文：
+The new library ______ next month. (build)
+
+翻译：
+下个月将建造这座新图书馆。
+
+分析：
+来，我们先看两个关键线索。
+第一个线索是时间：“next month”（下个月）。既然是下个月的事，说明还没发生，是不是得用“将来时”？将来时通常用 will。
+第二个线索是主语：“The new library”（这座新图书馆）。图书馆能自己建自己吗？肯定不行，它是被人建的。
+所以，这里要用“被动语态”，表示“将被建造”。
+
+规则：
+这里涉及到两个概念：
+
+将来时：事情还没发生，我们要用 will + 动词原形。
+被动语态：主语是动作的承受者（不是主动做的），结构是 be + 过去分词。
+*“过去分词”通俗点说，就是动词的一种变形，通常在动词后面加 -ed（build 的过去分词是 built）。*
+把它们合起来：将来时的被动语态，结构就是 will be + 过去分词。
+答案：
+will be built
+
+第2题
+原文：
+Thank you for ______ me with my English study. (help)
+
+翻译：
+谢谢你帮助我学习英语。
+
+分析：
+这道题有一个非常明显的“路标词”，就是 for。
+你看，前面是 Thank you（谢谢你），后面是 for（因为）。在英语里，介词（比如 for, in, at, on）后面如果跟动词，那个动词必须“化妆”，变成名词的形式。
+
+规则：
+这叫介词后接动名词。
+
+动名词：就是动词后面加上 -ing，让它看起来像个名词。
+既然前面有 for，后面的 help 就必须变成 helping。记住一个小口诀：介词后面跟动词，ing 形式要记住。
+答案：
+helping
+
+第3题
+原文：
+He answered the teacher’s question ______. (correct)
+
+翻译：
+他正确地回答了老师的问题。
+
+分析：
+我们先看这句话，主语是 He，动词是 answered（回答），回答了什么？question（问题）。
+句子已经很完整了，那横线里的词是用来修饰“回答”这个动作的。他是“怎么”回答的？是“正确地”回答。
+中文里我们说“正确地”，有个“地”字，英语里也有对应的词。
+
+规则：
+这叫副词修饰动词。
+
+形容词（correct）：通常用来修饰东西，比如“正确的答案”。
+副词（correctly）：通常用来修饰动作，中文翻译里常带“地”。
+因为这里修饰的是“回答”（动词），所以我们要把形容词 correct 变成副词，通常做法是在后面加 -ly。
+答案：
+correctly
+
+第4题
+原文：
+Could you tell me where ______? (buy)
+
+翻译：
+你能告诉我在哪里买这张票吗？
+
+分析：
+这题有点像我们中文说话的语序倒置。
+线索词是 where（哪里）。
+正常的句子可能是“I buy the ticket there”（我在那里买票）。但这里是“Could you tell me…”后面接了一个问句的内容。
+在英语里，当“疑问词 where”放在句子中间时，后面紧跟的是“主语 + 动词”，而不是像普通疑问句那样倒装。但这里题目把主语省掉了，只保留了动词 buy。
+这种结构通常表示“去做某事”。
+
+规则：
+这叫“疑问词 + 不定式”结构。
+
+不定式：就是 to + 动词原形。
+这里的结构是 where to buy，意思是“在哪里买”。这是一个固定搭配，你可以把它当成一个短语来记：tell sb. where to do sth.（告诉某人在哪里做某事）。
+答案：
+to buy
+
+第5题
+原文：
+The box is ______ heavy for me to carry. (too)
+
+翻译：
+这个箱子太重了，我搬不动。
+
+分析：
+这道题其实提示词已经给了你答案，就是 too。但我们要搞懂为什么。
+看句子后面：for me to carry（让我去搬）。
+再看意思：箱子太重，所以我搬不动。
+英语里有一个非常经典的句型，专门用来表达“太…以至于不能…”。
+
+规则：
+这叫 too… to… 结构。
+
+too 的意思是“太”。
+to 后面跟动作。
+整个句型的意思就是：太…以至于（某人）不能做…。
+虽然题目没有明确给出“搬不动”这几个字，但 too… to… 这个结构本身就隐含了这个结果。如果填 very（非常），句子后面就不能接 for me to carry 这种结构了。
+答案：
+too
+
+第6题
+原文：
+I went to the library ______ some books. (borrow)
+
+翻译：
+我去图书馆借了一些书。
+
+分析：
+我们要找“去图书馆”的目的。
+我去图书馆干嘛？是为了“借书”。
+当我们要表达“去做某事”的目的时，英语里有一个最简单的办法。
+
+规则：
+这叫不定式表目的。
+简单来说，就是用 to + 动词原形 来表示“为了做…”。
+我去图书馆（动作），为了借书（目的）。所以 borrow 前面加 to，变成 to borrow。
+这和第4题的原理是一样的，都是用 to do 来补充说明。
+
+答案：
+to borrow
+
+整体总结
+你看，做完了是不是觉得清晰多了？这篇练习其实主要考查了以下几个核心点，我们再来复习一下：
+
+被动语态：主语不能自己动，要用 be + 动词变形。特别是将来时的被动语态 will be done。
+动名词：介词后面的动词要变身，加上 -ing。
+副词：动词后面的修饰词，通常加 -ly，翻译里有“地”。
+不定式：
+to do 可以表示目的（为了做）。
+疑问词 + to do 是一个常用的固定搭配。
+`
+},
+{
+group: 68,
+questions: [
+{
+chinese: "这位老师对所有学生都很友好。",
+english: "The teacher is very （ ） to all the students.",
+hint: "friend",
+answer: "friendly"
+},
+{
+chinese: "班里的每个人都非常喜欢英语。",
+english: "Everyone in the class （ ） English very much.",
+hint: "like",
+answer: "likes"
+},
+{
+chinese: "请注意你的发音。",
+english: "Please （ ） attention to your pronunciation.",
+hint: "pay",
+answer: "pay"
+},
+{
+chinese: "对我们来说学好英语是必要的。",
+english: "It is necessary for us （ ） English well.",
+hint: "learn",
+answer: "to learn"
+},
+{
+chinese: "她已经习惯了早起。",
+english: "She has been used to （ ） up early.",
+hint: "get",
+answer: "getting"
+},
+{
+chinese: "会议的决定让每个人都很惊讶。",
+english: "The （ ） of the meeting surprised everyone.",
+hint: "decide",
+answer: "decision"
+}
+],
+explanation:`题目解析：
+
+第1题
+原文：
+The teacher is very ______ to all the students. (friend)
+
+翻译：
+这位老师对所有学生都很友好。
+
+分析：
+我们要找这个句子的“骨架”。主语是“The teacher”（老师），后面紧跟着系动词“is”（是）。
+看这里有个很关键的词 “very”（非常）。同学们想一想，我们平时说“非常漂亮”、“非常好”，“非常”后面跟的都是表示性质、状态的词，也就是形容词。
+题目给的提示词“friend”是名词（朋友），我们不能说“老师很朋友”，这听起来多别扭呀。所以我们要把它变成形容词形式。
+
+规则：
+这是一个关于词性转换的规则。有些名词后面加上“-ly”会变成形容词。比如“friend”（朋友）变成“friendly”（友好的）。注意哦，虽然它长得很像副词（以ly结尾），但它其实是个形容词，意思是“友好的”。
+
+答案：
+friendly
+
+第2题
+原文：
+Everyone in the class ______ English very much. (like)
+
+翻译：
+班里的每个人都非常喜欢英语。
+
+分析：
+这句话的主语是 “Everyone”（每个人）。这是最重要的线索！
+“Everyone”虽然看起来是一群人，但在英语语法里，它被看作是“单数”，就像“他”、“她”或者“它”一样。
+既然是第三人称单数，后面的动词就要发生变化。再看句子内容，说的是大家的喜好，是一个普遍的事实，所以用一般现在时。
+
+规则：
+这里考查的是主谓一致和第三人称单数。简单的说，如果主语是“他、她、它”或者像“Everyone”这样代表单个人的词，后面的动词就要加“s”或者“es”。就像我们要给动词穿一件小衣服一样。
+
+答案：
+likes
+
+第3题
+原文：
+Please ______ attention to your pronunciation. (pay)
+
+翻译：
+请注意你的发音。
+
+分析：
+首先看句首，有一个非常明显的线索词 “Please”（请）。
+这就告诉我们，这是一个祈使句，也就是表示请求、命令或者建议的句子。
+祈使句有一个特点：它的主语其实是隐形的“你”（You），但通常不说出来。既然主语“你”躲起来了，那动词就要用原形，不能穿任何“小衣服”（比如不能加s，不能加ing）。
+
+规则：
+这是关于祈使句的规则。以动词原形开头的句子，通常用来表示请求或命令。只要看到“Please”开头，或者没有明显主语的情况，动词就用最开始的样子，也就是原形。
+
+答案：
+pay
+
+第4题
+原文：
+It is necessary for us ______ English well. (learn)
+
+翻译：
+对我们来说学好英语是必要的。
+
+分析：
+这句话有一个非常固定的句型结构，就像一个公式一样。看这里：“It is + 形容词 + for sb. …”。
+这里的“It”是个形式主语（就是个占位子的），真正的主语是后面要做的事情。
+提示词是“learn”（学习），我们需要把它放到后面去表示“去做某事”。
+
+规则：
+这是不定式做真正主语的用法。句型是：It is + adj (形容词) + for sb. + to do sth. 意思是“对某人来说做某事是……的”。所以，动词前面要加上“to”，变成“to learn”。记住这个公式，以后看到“It is… for…”就知道填“to + 动词原形”。
+
+答案：
+to learn
+
+第5题
+原文：
+She has been used to ______ up early. (get)
+
+翻译：
+她已经习惯了早起。
+
+分析：
+这道题有点像“找茬游戏”。请看句子里最重要的线索词组：“used to”。
+这里的“used to”后面紧跟了“up early”（早），说明这是关于习惯的表达。
+注意啦，这里的“to”是个“骗子”，它不是不定式的“to”，而是一个介词。介词是什么呢？简单说就是后面必须跟名词或者代词的词。
+如果后面跟的是动词，那这个动词就要变成名词的性质，也就是要加上“ing”。
+
+规则：
+这是固定搭配的用法。短语 “be used to doing” 意思是“习惯于做某事”。这里的“to”是介词，所以后面的动词“get”必须变成“getting”。千万别和“used to do”（过去常常做某事）搞混了哦，那个to后面才跟原形。这道题是“习惯于”，所以要双写t加ing。
+
+答案：
+getting
+
+第6题
+原文：
+The ______ of the meeting surprised everyone. (decide)
+
+翻译：
+会议的决定让每个人都很惊讶。
+
+分析：
+我们来找找这句话的“定海神针”。空格前面有个 “The”，后面紧跟着 “of”。
+在英语里，“The”通常像个帽子，戴在名词的头上。空格后面是“of the meeting”（会议的），说明空格处是这个会议产生的结果或内容。
+提示词“decide”是动词（决定）。既然这里需要的是名词，我们就得把动词变个身。
+
+规则：
+这是动词变名词的构词法。动词“decide”（决定）变成名词形式是“decision”（决定）。规则是：去掉结尾的“de”，加上“sion”。这种变化稍微有点特殊，需要我们特别记一下。
+
+答案：
+decision
+
+整体总结
+好啦，我们一起来回顾一下这篇练习涉及的几个核心语法点，你是不是觉得清晰多了？
+
+构词法（词性转换）：名词变形容词，动词变名词。要注意积累常见的后缀，比如-ly, -sion。
+主谓一致：主语是第三人称单数（如Everyone），动词要记得加“s”。
+祈使句：以动词原形开头，通常表示请求或命令。
+固定句型：It is + adj + for sb. + to do sth.（对某人来说做某事是…的）。
+介词用法：在短语 be used to（习惯于）中，to是介词，后面动词要加-ing。
+`
 }
 
 ];
