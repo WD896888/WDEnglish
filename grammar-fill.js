@@ -2930,7 +2930,270 @@ Zhang also 6. ________ (write) for the public. His book Virus and Humans, 7. ___
 所有的熟练，都是从生涩的填空开始的
 此处留白，非为缺憾，乃邀君共书
 `
-    }
+    },
+{
+    content: `China's space program has made great progress in recent years. On May 3, 2024, the Chang'e-6 probe was 1. ________ (success) launched. It is the first probe in human history 2. ________ (collect) samples from the far side of the moon. This mission, 3. ________ lasted 53 days, marked a new milestone.
+
+The far side of the moon is a quiet place. It is 4. ________ (difficult) to explore than the near side because we cannot communicate directly. To solve this problem, China sent a satellite 5. ________ (help) send signals. The probe landed 6. ________ (soft) in a crater and started to work. It used a drill 7. ________ (dig) into the ground.
+
+The 8. ________ (succeed) of Chang'e-6 shows the world China's strong technology. It also brings 9. ________ (we) closer to the truth of the universe. In the future, more countries will work together 10. ________ (build) an international lunar research station.`,
+    blanks: [
+        { index: 1, answer: "successfully" },
+        { index: 2, answer: "to collect" },
+        { index: 3, answer: "which" },
+        { index: 4, answer: "more difficult" },
+        { index: 5, answer: "to help" },
+        { index: 6, answer: "softly" },
+        { index: 7, answer: "to dig" },
+        { index: 8, answer: "success" },
+        { index: 9, answer: "us" },
+        { index: 10, answer: "to build" }
+    ],
+    explanation: `题目解析：
+第一句
+原文： On May 3, 2024, the Chang'e-6 probe was 1. ________ (success) launched.
+翻译： 2024年5月3日，嫦娥六号探测器被成功发射。
+分析：
+
+我们来看这个句子的结构，主语是“the Chang'e-6 probe”（嫦娥六号探测器），后面紧跟了一个“was... launched”。这里考察的是被动语态，意思是“被发射”。
+横线后面给出的词是 launched（发射），这是一个动作。横线前面有 be动词 was。
+我们要填的词是用来修饰“发射”这个动作的。想一想，发射得怎么样？是“成功”地发射。修饰动作，我们要用副词。
+线索词：launched（动词，表示动作）。
+规则： 形容词变副词的规则。Success 是名词（成功）；Successful 是形容词（成功的）；Successfully 是副词（成功地）。形容词通常加 -ly 变成副词。这里我们需要副词来修饰动词 launched。
+答案： successfully
+第二句
+原文： It is the first probe in human history 2. ________ (collect) samples from the far side of the moon.
+翻译： 它是人类历史上第一个从月球背面采集样本的探测器。
+分析：
+
+这句话里有一个非常关键的序数词线索：the first（第一个）。
+句型结构是：“the first + 名词 + ...”。这里的名词是 probe（探测器）。
+当我们要表达“第一个做某事的...”这个意思时，后面跟的动作要用一种特殊的形式。
+线索词：the first（第一）。
+规则： 当出现序数词（如 the first, the second, the last）或最高级修饰名词时，后面跟动词不定式作后置定语。通俗点说，就是用 to + 动词原形。记住这个搭配：the first... to do...（第一个做...的）。
+答案： to collect
+第三句
+原文： This mission, 3. ________ lasted 53 days, marked a new milestone.
+翻译： 这次任务持续了53天，标志着一个新的里程碑。
+分析：
+
+我们先看句子结构。主语是 This mission（这次任务），谓语动词是 marked（标志）。
+中间两个逗号之间的部分，通常是插入语，用来补充说明主语。
+横线后面有一个动词 lasted（持续），这说明横线处需要一个词来引导这个从句，并且指代前面的主语“这次任务”。
+线索词：两个逗号，以及后面的动词 lasted。
+规则： 这是一个非限制性定语从句。因为前面有逗号，而且指代物（mission），所以只能用 which 来引导。注意，that 不能引导非限制性定语从句（就是有逗号隔开的这种）。
+答案： which
+第四句
+原文： The far side of the moon is a quiet place. It is 4. ________ (difficult) to explore than the near side because we cannot communicate directly.
+翻译： 月球背面是一个安静的地方。它比正面更难探索，因为我们无法直接通信。
+分析：
+
+这道题非常简单，因为有一个超级明显的线索词就在后面：than（比）。
+只要看到 than，这就意味着在拿两个东西做比较。
+线索词：than。
+规则： 看到 than 就要用比较级。Difficult 是双音节词，变比较级要在前面加 more。不要忘记写 more 哦！
+答案： more difficult
+第五句
+原文： To solve this problem, China sent a satellite 5. ________ (help) send signals.
+翻译： 为了解决这个问题，中国发射了一颗卫星来帮助发送信号。
+分析：
+
+句子主语是 China，谓语是 sent（发射），宾语是 a satellite（卫星）。
+后面的动作是 help（帮助）。发射卫星的目的是什么？是为了帮助发送信号。
+这里表示目的（为了...）。
+线索词：句意中的“目的”关系。
+规则： 动词不定式（to + 动词原形）可以表示目的。翻译成“为了做某事”或“来做某事”。这里填 to help。
+答案： to help
+第六句
+原文： The probe landed 6. ________ (soft) in a crater and started to work.
+翻译： 探测器在环形山里软着陆，并开始工作。
+分析：
+
+这句话的主语是 The probe，谓语动词是 landed（着陆）。
+我们需要填的词是修饰“着陆”这个动作的。着陆得怎么样？是“柔和地/软软地”着陆。
+线索词：landed（动词）。
+规则： 修饰动词要用副词。Soft 是形容词（软的），变副词要加 -ly。这和第1题的考点是一样的哦。
+答案： softly
+第七句
+原文： It used a drill 7. ________ (dig) into the ground.
+翻译： 它使用钻头钻入地下。
+分析：
+
+这句话里有一个工具：a drill（钻头）。
+使用钻头干什么呢？是为了钻地。
+这里又出现了“使用工具做某事”，表示目的。
+线索词：used a drill（使用了钻头）。
+规则： 和第5题一样，这里考查动词不定式表目的。Use something to do something（使用某物做某事）。所以用 to dig。
+答案： to dig
+第八句
+原文： The 8. ________ (succeed) of Chang'e-6 shows the world China's strong technology.
+翻译： 嫦娥六号的成功向世界展示了中国强大的技术。
+分析：
+
+看横线前面的词：The。这是一个定冠词。
+看横线后面的词：of。
+在英语里，“The ... of ...”这种结构中间通常要放一个名词。
+线索词：The 和 of。
+规则： 词性转换。Succeed 是动词（成功）；Success 是名词（成功）。这里作主语，所以要填名词形式。
+答案： success
+第九句
+原文： It also brings 9. ________ (we) closer to the truth of the universe.
+翻译： 它也让我们离宇宙的真相更近了。
+分析：
+
+这句话的动词是 brings（带来）。
+“带来”这个动作是作用于谁的？作用于“我们”。
+动作的对象，也就是宾语，要用宾格形式。
+线索词：brings（动词）。
+规则： 代词辨析。We 是主格（作主语，比如 We are students）；Us 是宾格（作宾语，放在动词后面）。这里动词后面要用宾格。
+答案： us
+第十句
+原文： In the future, more countries will work together 10. ________ (build) an international lunar research station.
+翻译： 在未来，更多的国家将共同合作，建立一个月球国际科研站。
+分析：
+
+句子主语是 more countries，谓语是 work together（一起工作）。
+一起工作的目的是什么？是为了建立空间站。
+又是目的！没错，这篇短文考了好几次“目的”。
+线索词：句意表示目的。
+规则： 表示“为了做某事”，用动词不定式 to + 动词原形。
+答案： to build
+整体总结
+做得怎么样？是不是发现其实也没那么难？我们来总结一下这篇短文涉及的几个核心语法点：
+
+副词修饰动词：看到动词（如 launched, landed），要想一想是不是需要副词来修饰它（比如 successfully, softly）。通常形容词加 -ly 变副词。
+动词不定式表目的：这是本文的“主角”。看到“为了做某事”，或者“使用工具做某事”，还有“序数词后面”，都要想到用 to do。
+比较级：看到 than（比），毫不犹豫地用比较级。
+定语从句：看到逗号隔开，指代前面的事物，用 which。
+词性转换：注意名词和代词的变化。比如 The 后面跟名词，动词后面跟宾格代词。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
+},
+{
+    content: `China's space station, Tiangong, has become a symbol of national pride. It is one of the 1. ________ (great) achievements in Chinese history. The construction of the station 2. ________ (complete) in 2022. Since then, many astronauts 3. ________ (live) and worked there.
+
+The station is designed 4. ________ (support) scientific experiments. Scientists from different countries can apply 5. ________ projects. This shows China's openness to international cooperation. Inside the station, everything is 6. ________ (care) arranged to save space. Astronauts exercise daily to stay 7. ________ (health).
+
+Building the station was not easy. Engineers faced many 8. ________ (challenge). However, they never gave up. 9. ________ the help of advanced technology, they solved the problems. Now, Tiangong flies 10. ________ the earth, watching over us.`,
+    blanks: [
+        { index: 1, answer: "greatest" },
+        { index: 2, answer: "was completed" },
+        { index: 3, answer: "have lived" },
+        { index: 4, answer: "to support" },
+        { index: 5, answer: "for" },
+        { index: 6, answer: "carefully" },
+        { index: 7, answer: "healthy" },
+        { index: 8, answer: "challenges" },
+        { index: 9, answer: "With" },
+        { index: 10, answer: "above/over" }
+    ],
+    explanation: `题目解析：
+第1题
+原文： It is one of the 1. ________ (great) achievements in Chinese history.
+翻译： 它是中国历史上最伟大的成就之一。
+分析：
+我们要找线索词。看到前面的 one of 了吗？它的意思是“……之一”。在英语里，有一个几乎不变的套路：“one of the + 形容词最高级 + 名词复数”。这就好比我们在说“这群人里最厉害的那几个之一”，既然是“最”，肯定要用最高级形式。
+规则：
+形容词变最高级，通常是在词尾加 -est（如果是多音节词前面加most）。这里 great 是单音节词，所以直接加 est。
+答案： greatest
+
+第2题
+原文： The construction of the station 2. ________ (complete) in 2022.
+翻译： 空间站的建造于2022年完成。
+分析：
+首先看时间状语（表示时间的词）in 2022，这是过去的时间，所以事情发生在过去。
+再看主语 The construction（建造、工程），它是“被完成”的，工程自己不会动手去完成，而是被人完成。所以这里要用被动语态，也就是“be动词 + 动词的过去分词”。
+规则：
+被动语态就是表示“被做”。结合过去的时间，我们要用过去时的被动语态：was/were + done。主语是单数，所以用 was，complete 的过去分词是 completed。
+答案： was completed
+
+第3题
+原文： Since then, many astronauts 3. ________ (live) and worked there.
+翻译： 从那时起，许多宇航员在那里生活和工作。
+分析：
+这一题有一个非常关键的“信号灯”单词：句首的 Since then（从那时起）。只要看到 Since，我们的脑子里就要亮起红灯：这是现在完成时的标志！表示从过去某个时间点一直持续到现在。
+规则：
+现在完成时的结构是：have/has + 动词的过去分词。因为主语 many astronauts 是复数，所以用 have。live 的过去分词是 lived。
+答案： have lived
+
+第4题
+原文： The station is designed 4. ________ (support) scientific experiments.
+翻译： 空间站被设计用来支持科学实验。
+分析：
+看主句 The station is designed（空间站被设计）。被设计是为了干什么呢？是为了支持实验。这里表示一种“目的”。在英语里，表示目的（为了去做某事）最常用的结构就是 be designed to do something。
+规则：
+这里考查不定式。动词前面加个 to，就变成了“去做……”的意思，表示目的。所以用 to support。
+答案： to support
+
+第5题
+原文： Scientists from different countries can apply 5. ________ projects.
+翻译： 来自不同国家的科学家可以申请项目。
+分析：
+这题考查的是固定搭配，也就是“老熟人”搭配。动词是 apply（申请）。如果你背过这个词组，就知道 apply 后面通常接 for。
+规则：
+apply for 是一个固定短语，意思是“申请……”。比如申请工作 apply for a job。这里就是申请项目。这种搭配就像穿鞋要配袜子一样，记住了就行。
+答案： for
+
+第6题
+原文： Inside the station, everything is 6. ________ (care) arranged to save space.
+翻译： 在空间站内部，所有东西都被仔细地安排以节省空间。
+分析：
+我们要填的词是用来修饰后面的动作 arranged（安排）。句意是说东西被“仔细地”安排。care 是“关心、在意”，它的形容词形式是 careful（小心的、仔细的）。但这里我们需要修饰动作 arranged，修饰动作通常要用副词。
+规则：
+形容词变副词，通常是在词尾加 -ly。careful（形容词）变成 carefully（副词）。就像“quick（快的）”变成“quickly（快地）”一样。
+答案： carefully
+
+第7题
+原文： Astronauts exercise daily to stay 7. ________ (health).
+翻译： 宇航员每天锻炼以保持健康。
+分析：
+看动词 stay（保持）。保持什么呢？保持“健康”。health 是名词“健康”，但这里 stay 后面需要跟一个形容词来描述状态。就像我们说 stay calm（保持冷静），stay open（保持开放）一样。
+规则：
+动词 stay 后面接形容词。health 的形容词形式是去掉词尾的 y 变成 healthy。
+答案： healthy
+
+第8题
+原文： Engineers faced many 8. ________ (challenge).
+翻译： 工程师们面临许多挑战。
+分析：
+看空前面的关键词 many（许多）。many 后面跟的名词必须是复数形式，这是一个硬性规定。challenge 是“挑战”的意思。
+规则：
+名词变复数，大多数情况直接加 -s。
+答案： challenges
+
+第9题
+原文： 9. ________ the help of advanced technology, they solved the problems.
+翻译： 在先进技术的帮助下，他们解决了这些问题。
+分析：
+这里考查固定短语。看到后面的 the help of... 就要想到一个介词短语。在英语里，“在……的帮助下”有一个专门的说法。
+规则：
+with the help of... 是固定搭配，意为“在……的帮助下”。首字母要大写，因为它在句首。
+答案： With
+
+第10题
+原文： Now, Tiangong flies 10. ________ the earth, watching over us.
+翻译： 现在，天宫在地球上空飞翔，守护着我们。
+分析：
+空间站飞在哪里？当然是地球的“上方”。我们需要一个表示位置关系的介词。above 和 over 都有“在……上方”的意思，填进去句意都通顺。
+规则：
+介词填空主要看意思。above 表示位置高于某物，不一定垂直；over 也可以表示在上方。这两个词在这里都符合语境。
+答案： above 或 over
+
+整体总结
+太棒了！我们已经把所有题目都分析完了。你看，其实并不难，对不对？我们今天复习了几个非常重要的核心语法点：
+
+形容词最高级：看到 one of，就要想到“最……之一”。
+被动语态：主语“被”动作，结构是 be + done。
+现在完成时：看到 Since（自从），就要想到 have/has done。
+不定式表目的：做某事是为了……，用 to do。
+词性转换：形容词变副词通常加 -ly；动词 stay 后接形容词。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
+}
 ];
 
 // ========== 状态管理 ==========
