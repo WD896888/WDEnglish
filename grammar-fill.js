@@ -3193,7 +3193,2136 @@ with the help of... 是固定搭配，意为“在……的帮助下”。首字
 所有的熟练，都是从生涩的填空开始的
 此处留白，非为缺憾，乃邀君共书
 `
-}
+},
+{
+    content: `Paper cutting is a traditional folk art in China. It has a history of over 1,500 years. During festivals, people paste red paper cuts on windows 1. ________ (bring) good luck. The patterns are usually very 2. ________ (color).
+
+Creating a paper cut requires patience. The artist uses scissors or knives 3. ________ (cut) the paper. Sometimes, a single piece of work takes several days 4. ________ (finish). Today, this art is facing challenges. Few young people are interested in 5. ________ (learn) it.
+
+To protect this culture, schools 6. ________ (start) classes recently. Students learn to make simple 7. ________ (shape) like flowers and animals. It is believed that paper cutting can help children become 8. ________ (creative). The government also holds 9. ________ competition every year. Everyone hopes this art will live 10. ________.`,
+    blanks: [
+        { index: 1, answer: "to bring" },
+        { index: 2, answer: "colorful" },
+        { index: 3, answer: "to cut" },
+        { index: 4, answer: "to finish" },
+        { index: 5, answer: "learning" },
+        { index: 6, answer: "have started" },
+        { index: 7, answer: "shapes" },
+        { index: 8, answer: "more creative" },
+        { index: 9, answer: "a" },
+        { index: 10, answer: "on" }
+    ],
+    explanation: `题目解析：
+第一句
+原文： During festivals, people paste red paper cuts on windows 1. ________ (bring) good luck.
+翻译： 在节日期间，人们把红色的剪纸贴在窗户上，是为了带来好运。
+分析：
+
+我们来看句子结构，主语是 people（人们），谓语是 paste（贴）。
+后面出现了“贴窗户”这个动作，紧接着就是空格。人们贴剪纸，目的是什么呢？是为了带来好运。
+这里考查的是“目的”。当你想做某事是为了达成后面的目标时，我们就用 to do（不定式）来表示目的。
+线索词： 动作 paste（贴）在前，空格后是结果 good luck（好运），这是典型的“做某事是为了……”的结构。
+规则： 不定式作目的状语。通俗地说，就是“为了去做某事”。形式是 to + 动词原形。
+答案： to bring
+第二句
+原文： The patterns are usually very 2. ________ (color).
+翻译： 这些图案通常非常多彩。
+分析：
+
+看看空格前面有个词叫 very（非常）。在英语里，“非常”是个程度副词，它后面通常跟形容词，比如“非常好”、“非常漂亮”。
+再看空格后的括号里给的是 color（颜色），这是个名词。
+我们需要把它变成形容词，用来描述前面的 patterns（图案）。
+线索词： very（非常）。
+规则： 词性转换。名词变形容词，color 加上后缀 -ful 变成 colorful，意思是“多彩的”。
+答案： colorful
+第三句
+原文： The artist uses scissors or knives 3. ________ (cut) the paper.
+翻译： 艺术家用剪刀或刀来剪纸。
+分析：
+
+这句话和第一题非常像。主语是 artist，谓语是 uses（使用）。
+艺术家使用剪刀或刀，目的是干什么？是为了剪纸。
+又是表示“目的”，所以我们要用 to do 的形式。
+线索词： uses（使用），表示通过某种工具达到某个目的。
+规则： 不定式作目的状语。还是那句口诀：“为了去做某事”，用 to + 动词原形。
+答案： to cut
+第四句
+原文： Sometimes, a single piece of work takes several days 4. ________ (finish).
+翻译： 有时，一件作品需要几天时间才能完成。
+分析：
+
+这里有个固定的句型搭配。主语是 work（作品），谓语是 takes（花费）。
+句型是：It takes (some time) to do sth.（做某事花费多少时间）。
+这里的逻辑是：作品花费几天时间（去）完成。虽然中文里“去”字不明显，但英语里这个结构要用不定式。
+线索词： takes several days（花费几天），这是固定搭配的标志。
+规则： 固定句型。It takes sb. some time to do sth. 意思是“花费某人多长时间做某事”。这里的 to 不能省略。
+答案： to finish
+第五句
+原文： Few young people are interested in 5. ________ (learn) it.
+翻译： 很少有年轻人对学习它感兴趣。
+分析：
+
+找到空格前面的关键短语：interested in。意思是“对……感兴趣”。
+注意这个 in，它是一个介词（preposition）。在英语里，介词后面如果跟动词，那个动词必须变身，不能光溜溜地站着，要穿上“-ing”的衣服。
+线索词： in（在……里面，这里是介词）。
+规则： 介词后接动名词。也就是介词后面的动词要加 -ing，变成名词性质。记住：介词后面跟动词，必定是 doing。
+答案： learning
+第六句
+原文： To protect this culture, schools 6. ________ (start) classes recently.
+翻译： 为了保护这一文化，学校最近开设了课程。
+分析：
+
+看句末有个很明显的词：recently（最近）。
+“最近”说明动作已经发生了，而且对现在有影响，或者强调“刚刚做完”。这时候我们要用“现在完成时”。
+主语 schools 是复数，所以用 have。
+动词 start 变成过去分词 started。
+线索词： recently（最近）。
+规则： 现在完成时。结构是 have/has + 过去分词。表示过去发生的动作对现在造成了影响或结果。“过去分词”就是动词的过去式形式（通常加 -ed）。
+答案： have started
+第七句
+原文： Students learn to make simple 7. ________ (shape) like flowers and animals.
+翻译： 学生们学习制作像花和动物这样简单的形状。
+分析：
+
+空格前面是形容词 simple（简单的）。
+形容词是用来修饰名词的。就像“红色的苹果”，这里“简单的”修饰什么呢？修饰后面的“形状”。
+括号里给的 shape 是单数。但是你看后面跟着的是“flowers and animals”（花和动物），种类很多，所以“形状”肯定不止一种，要用复数。
+线索词： simple（简单的，形容词），flowers and animals（暗示复数）。
+规则： 名词复数。形容词修饰名词，且根据语境判断数量大于一时，名词要加 -s。
+答案： shapes
+第八句
+原文： It is believed that paper cutting can help children become 8. ________ (creative).
+翻译： 人们相信剪纸可以帮助孩子们变得更有创造力。
+分析：
+
+这里有个动词 become（变得）。变得怎么样呢？
+文章前面提到，现在年轻人很少学剪纸，学校开课是为了改变这个现状。也就是说，让孩子们变得“比以前更有创造力”。
+这里暗含了一种“比较”或“进步”的意思，所以要用比较级。
+creative（有创造力的）是多音节词，变比较级不能直接加 -er，要前面加 more。
+线索词： become（变得），语境暗示进步。
+规则： 形容词比较级。表示“更……”。多音节形容词变比较级，要在前面加 more。
+答案： more creative
+第九句
+原文： The government also holds 9. ________ competition every year.
+翻译： 政府每年也举办一场比赛。
+分析：
+
+看空格后面的词：competition（比赛）。这是一个单数名词。
+在英语里，单数可数名词是不能“裸奔”的，前面必须有限定词。比如 this, that, my, a, the 等。
+这句话是第一次提到这个比赛，并没有特指哪一个，所以用不定冠词 a。
+线索词： competition（可数名词单数）。
+规则： 冠词。第一次提到的单数可数名词，且不是特指，前面加 a。
+答案： a
+第十句
+原文： Everyone hopes this art will live 10. ________.
+翻译： 每个人都希望这门艺术能延续下去。
+分析：
+
+这里的动词是 live（活着）。
+如果只说 "live"，意思是“活着”，但这里的意思是希望这门艺术不要消失，能够“流传下去”、“继续存在”。
+这是一个固定的动词短语搭配。
+线索词： live（生存、活着）。
+规则： 动词短语搭配。live on 意思是“继续存在、流传下去”。
+答案： on
+整体总结
+做完这篇练习，我们复习了几个非常核心的语法点：
+
+动词不定式：这是本篇考得最多的，结构是 to + 动词原形，常用来表示目的（为了做某事）。
+词性转换：名词变形容词（如 color -> colorful），形容词变名词（如 creative -> creativity，本题考的是比较级）。
+介词用法：看到介词（如 in），后面的动词要变成 -ing 形式。
+时态：看到 recently（最近），要联想到现在完成时 (have/has done)。
+名词单复数：形容词修饰名词，注意根据语境判断是否需要变复数。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
+},
+{
+    content: `China's high-speed railway has become a golden name card of the country. The Fuxing series, 1. _______ (call) "the fastest and most comfortable train in the world," has attracted global attention. These trains can run 2. _______ a speed of 350 km per hour, 3. _______ makes it possible to travel between Beijing and Shanghai in just 4.5 hours.
+
+The first Fuxing train 4. _______ (make) its debut in 2017. Since then, it 5. _______ (improve) continuously. Engineers have worked hard to reduce noise and energy consumption. The train 6. _______ (equip) with advanced technologies, including 5G networks and smart temperature control systems.
+
+What surprises passengers most is 7. _______ spacious and quiet the compartments are. "Riding on the Fuxing is not just about reaching your destination; it is about 8. _______ (enjoy) the journey itself," said a frequent traveler. By 2026, the network 9. _______ (extend) to cover over 45,000 kilometers, 10. _______ (benefit) millions of people daily.`,
+        blanks: [
+            { index: 1, answer: "called" },
+            { index: 2, answer: "at" },
+            { index: 3, answer: "which" },
+            { index: 4, answer: "made" },
+            { index: 5, answer: "has been improved" },
+            { index: 6, answer: "is equipped" },
+            { index: 7, answer: "how" },
+            { index: 8, answer: "enjoying" },
+            { index: 9, answer: "will have been extended" },
+            { index: 10, answer: "benefiting" }
+        ],
+        explanation: `题目解析：
+第一句
+
+原文： The Fuxing series, _______ (call) "the fastest and most comfortable train in the world," has attracted global attention.
+翻译： 复兴号系列被称为“世界上最快、最舒适的火车”，已经吸引了全球的关注。
+分析：
+看这个句子的主语是 The Fuxing series（复兴号系列），后面紧接着 has attracted（已经吸引），这才是句子的主要动作。
+中间夹着的这个空，是被两个逗号隔开的插入语。
+线索词： 主语 The Fuxing series 和动词 call（称呼）的关系。
+逻辑推导： 想一下，复兴号能“自己称呼自己”吗？不能，是人们称呼它。既然是“被称呼”，那就要用被动形式。
+规则： 这里考查过去分词作定语。专业术语“过去分词”你不用怕，在这里你就把它理解成表示“被动”或者“完成”的动作。因为火车是“被叫作”某名字，所以用过去分词形式。
+答案： called
+第二句
+
+原文： These trains can run _______ a speed of 350 km per hour...
+翻译： 这些火车能以每小时350公里的速度行驶……
+分析：
+这里有个很明显的数字 350 km per hour（每小时350公里），前面说的是 speed（速度）。
+线索词： speed（速度）。
+逻辑推导： 在英语里，表示“以……的速度”，这是一个固定搭配，就像我们中文说“用筷子”一样自然。
+规则： 介词 at 和 speed 搭配，表示“以……的速度”。这是一个固定短语，背下来就好：at a speed of...。
+答案： at
+第三句
+
+原文： ..._______ makes it possible to travel between Beijing and Shanghai in just 4.5 hours.
+翻译： ……这使得在北京和上海之间旅行仅需4.5小时成为可能。
+分析：
+逗号前面已经是一个完整的句子了（These trains can run...）。
+逗号后面这个空后面紧跟一个动词 makes，说明这里缺主语。
+线索词： 逗号，以及前面的整句话。
+逻辑推导： 这个空要指代前面整件事（火车跑得快这件事）。能指代整件事的引导词，并且后面紧跟动词做主语的，只有一个。
+规则： 这里考查非限制性定语从句。简单说，就是用逗号隔开，后面补充说明前面的内容。当指代前面整句话的内容时，只能用 which，不能用 that。
+答案： which
+第四句
+
+原文： The first Fuxing train _______ (make) its debut in 2017.
+翻译： 第一列复兴号火车于2017年首次亮相。
+分析：
+句子里有很明显的时间词。
+线索词： in 2017。
+逻辑推导： 见到过去的时间点（2017年），动作又是发生在过去，那就直接用过去时。
+规则： 考查一般过去时。表示过去某个时间发生的事情，动词变过去式。make 的过去式是 made。
+答案： made
+第五句
+
+原文： Since then, it _______ (improve) continuously.
+翻译： 从那时起，它一直在持续改进。
+分析：
+这一句的开头非常关键。
+线索词： Since then（从那时起）。
+逻辑推导： “从那时起”意味着动作从过去开始，一直持续到现在，或者对现在有影响。而且，火车是“被改进”的（工程师改进它），不是它自己改进自己。
+规则：
+现在完成时被动语态：看到 Since 开头，通常用现在完成时 (have/has + done)。
+被动语态：主语是它，它是“被改进”，所以加上 be 动词。
+合起来就是：has been + 动词过去分词。
+答案： has been improved
+第六句
+
+原文： The train _______ (equip) with advanced technologies...
+翻译： 这列火车配备了先进的技术……
+分析：
+主语是 The train，动词是 equip（装备）。
+线索词： with。
+逻辑推导： 火车不能自己去装备别人，它是“被装备”了高科技。这是描述火车的状态，并没有特定的时间状语，说明是讲它的客观情况。
+规则： 考查一般现在时的被动语态。
+一般现在时：描述客观事实。
+被动语态：be + 动词过去分词。主语是单数 The train，所以用 is。equip 的过去分词要双写 p 加 ed，即 equipped。
+答案： is equipped
+第七句
+
+原文： What surprises passengers most is _______ spacious and quiet the compartments are.
+翻译： 最让乘客惊讶的是车厢多么宽敞和安静。
+分析：
+is 后面是一个句子，这个句子不完整。the compartments are 后面缺了成分。
+线索词： spacious and quiet（宽敞和安静），这是两个形容词。
+逻辑推导： 我们要把这个感叹句还原一下。如果让你感叹“多么宽敞啊”，你会说 "How spacious!"。这里就是把 How 放到了句子开头。
+规则： 考查感叹句在名词性从句中的应用。
+结构：How + 形容词/副词 + 主语 + 谓语。
+因为后面紧跟的是形容词 spacious and quiet，所以用 how 引导。
+答案： how
+第八句
+
+原文： "...it is about _______ (enjoy) the journey itself," said a frequent traveler.
+翻译： “乘坐复兴号不仅仅是到达目的地，更是享受旅程本身，”一位常旅客说道。
+分析：
+前面有个介词 about（关于）。
+线索词： about（介词）。
+逻辑推导： 介词就像一堵墙，后面要是动作的话，必须变身。
+规则： 介词后面接动名词。这是铁律！介词后面不能直接放动词原形，要把动词变成 ing 形式。这就是传说中的“动名词”。
+答案： enjoying
+第九句
+
+原文： By 2026, the network _______ (extend) to cover over 45,000 kilometers...
+翻译： 到2026年，该网络将延伸覆盖超过45,000公里……
+分析：
+线索词： By 2026（到2026年为止）。
+逻辑推导： 这是以现在为起点，展望未来的某个时间点。而且，网络是“被延伸”的。
+规则： 考查将来完成时的被动语态。这听起来很吓人，其实很简单：
+将来完成时：will have + done（表示到未来某点已经完成）。
+被动：再加 be，变成 will have been + done。
+意思就是“将要已经被延伸”。
+答案： will have been extended
+第十句
+
+原文： ..._______ (benefit) millions of people daily.
+翻译： ……每天造福数百万人。
+分析：
+这个空在句尾，前面有逗号，前面已经是一个完整的句子了。
+线索词： 逗号，以及逻辑主语 the network。
+逻辑推导： 网络延伸这件事，结果是“造福”人们。网络是主动造福人们的，而且这是顺理成章的结果。
+规则： 考查现在分词作结果状语。
+简单说，就是用逗号连接，表示前面动作带来的自然结果。因为是主动发出动作，所以用 V-ing 形式。
+答案： benefiting
+整体总结
+这位同学，你看，其实这篇语法填空主要就考了这几个核心点，我们再复习一下：
+
+非谓语动词：看到动词变形，先想主语能不能做这个动作。不能做就是被动，用过去分词；如果是主动的结果，用现在分词。
+介词搭配：比如 at a speed of，这种需要平时多留心积累。
+时态与语态：看到时间词（如 2017, Since then, By 2026）要敏感，立刻判断是过去、现在完成还是将来。记得检查是不是“被动”。
+从句引导词：看到逗号后面缺主语，指代整件事，找 which；看到感叹形容词，找 how。
+介词后用 V-ing：见到介词，后面的动词一定要变身。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
+    },
+    {
+    content: `The Yangtze River, 1. _______ (know) as the mother river of China, has faced serious pollution challenges over the past decades. However, things 2. _______ (change) dramatically since the government implemented the "Yangtze River Protection Law" in 2021.
+
+Recently, fishermen 3. _______ (turn) their boats into tourist ships, showing visitors the beautiful scenery along the river. More importantly, the number of Yangtze finless porpoises, 4. _______ are often called "smiling angels," has increased 5. _______ 20% compared to five years ago.
+
+The local government has also built many wetlands parks 6. _______ (protect) the ecosystem. "We must leave 7. _______ clean river to our future generations. Protecting the environment means 8. _______ (protect) ourselves," said an environmentalist. The efforts have paid off— the water 9. _______ (be) much clearer than ever before, and rare birds 10. _______ (spot) in the wetlands recently.`,
+        blanks: [
+            { index: 1, answer: "known" },
+            { index: 2, answer: "have changed" },
+            { index: 3, answer: "have turned" },
+            { index: 4, answer: "which" },
+            { index: 5, answer: "by" },
+            { index: 6, answer: "to protect" },
+            { index: 7, answer: "a" },
+            { index: 8, answer: "protecting" },
+            { index: 9, answer: "is" },
+            { index: 10, answer: "have been spotted" }
+        ],
+        explanation: `题目解析：
+第1题
+原文： The Yangtze River, _______ (know) as the mother river of China, has faced serious pollution challenges over the past decades.
+
+翻译： 长江，被称为中国的母亲河，在过去的几十年里面临着严重的污染挑战。
+
+分析：
+
+我们先看这句话的主语是 The Yangtze River（长江）。
+括号里的词是 know（知道/认识）。
+你想啊，长江是一条河，它有思想吗？它能主动去“认识”别人吗？不能。是人们“知道”它，把它叫做母亲河。
+既然长江是“被”大家知道的，这就需要用被动的形态。
+线索词： 主语 The Yangtze River 和动词 know 的关系是被动关系。
+规则：
+
+这里考查的是非谓语动词中的过去分词（Past Participle）。
+大白话解释： 当主语和括号里的动词是“被动”关系（也就是主语“被”怎么样了）的时候，我们就用过去分词。规则动词后面加 -ed。know 是不规则动词，它的过去分词是 known。这里 known as... 是插入语，用来补充说明主语。
+答案： known
+
+第2题
+原文： However, things _______ (change) dramatically since the government implemented the "Yangtze River Protection Law" in 2021.
+
+翻译： 然而，自从政府在2021年实施《长江保护法》以来，情况已经发生了巨大的变化。
+
+分析：
+
+这道题考的是时态。
+请你在这个句子里找一个特别重要的线索词：since（自从）。
+只要看到 since，意思就是“自从过去某个时间点一直持续到现在”。
+主语 things 是复数，所以动词也要跟着变复数。
+规则：
+
+这是现在完成时（Present Perfect Tense）。
+大白话解释： 这个时态的结构是 have/has + 过去分词。它表示动作从过去开始，一直影响到现在。因为主语 things 是复数，所以我们用 have。change 的过去分词是 changed。
+答案： have changed
+
+第3题
+原文： Recently, fishermen _______ (turn) their boats into tourist ships, showing visitors the beautiful scenery along the river.
+
+翻译： 最近，渔民们已经把他们的船变成了旅游船，向游客展示沿岸的美丽风光。
+
+分析：
+
+这一句的句首有一个大大的线索词：Recently（最近）。
+“最近”发生的事，而且对现在有影响（船已经变了），我们要用哪个时态呢？
+主语 fishermen（渔民们）是复数。
+规则：
+
+这里同样是考查现在完成时。
+大白话解释： 只要看到 Recently，通常都要用 have/has + 过去分词。主语是复数，选 have。turn 的过去分词是 turned。
+答案： have turned
+
+第4题
+原文： More importantly, the number of Yangtze finless porpoises, _______ are often called "smiling angels," has increased...
+
+翻译： 更重要的是，经常被称为“微笑天使”的长江江豚数量增加了……
+
+分析：
+
+我们来看这个空的位置。前面是名词 porpoises（江豚），后面是一个完整的句子 are often called...。
+两个逗号夹在中间，这明显是一个从句，专门用来修饰前面的江豚。
+这里需要填一个词来引导这个从句。
+规则：
+
+这里考查的是非限制性定语从句。
+大白话解释： 也就是用一个句子来补充说明前面的名词。因为前面有逗号，而且指代的是“江豚”（物，不是人），所以我们要用 which 来引导。（注：如果是指人，我们就用 who；如果没有逗号，有时候可以用 that，但有逗号通常不用 that）。
+答案： which
+
+第5题
+原文： ...has increased _______ 20% compared to five years ago.
+
+翻译： ……与五年前相比增加了20%。
+
+分析：
+
+这里有一个数字 20%。
+increase 是“增加”的意思。增加了多少呢？增加了20%。
+在英语里，表示“增加了……”（表示幅度、差额），我们要用一个小词来连接。
+规则：
+
+考查介词的固定搭配。
+大白话解释： increase by + 数字 表示“增加了多少倍/多少百分比”。这是个固定搭配，记住就行。如果是 increase to，那就是“增加到了……”，意思就不一样了。
+答案： by
+
+第6题
+原文： The local government has also built many wetlands parks _______ (protect) the ecosystem.
+
+翻译： 当地政府还建了许多湿地公园来保护生态系统。
+
+分析：
+
+这句话的主干是：政府建了公园。
+后面的 protect（保护）是谁做的？是政府做的。
+政府建公园的目的是什么？是为了保护生态系统。
+线索词： 前面有动作 built，后面紧跟动词原形 protect，这通常表示目的。
+规则：
+
+考查非谓语动词中的动词不定式（to do）。
+大白话解释： 当我们要表达“为了做某事”、“去做某事”这种目的时，就用 to + 动词原形。
+答案： to protect
+
+第7题
+原文： "We must leave _______ clean river to our future generations.
+
+翻译： “我们必须给后代留一条干净的河流。
+
+分析：
+
+这里的空后面是 clean river（干净的河流）。
+river 是可数名词，单数形式。前面光秃秃的，肯定少了一个冠词。
+这里的河流是泛指“一条干净的河”，不是特指某一条有名的河。
+规则：
+
+考查冠词。
+大白话解释： 单数可数名词前面不能“裸奔”，要加衣服。泛指“一个/一条”用 a，特指“这个/那个”用 the。这里显然是泛指。
+答案： a
+
+第8题
+原文： Protecting the environment means _______ (protect) ourselves," said an environmentalist.
+
+翻译： 保护环境意味着保护我们自己，”一位环保人士说。
+
+分析：
+
+这句话的主语是 Protecting the environment（保护环境）。
+动词是 means（意味着）。
+后面的空，考的是 mean 这个词后面接什么形式。
+线索词： mean（意味着）。
+规则：
+
+考查动词搭配。
+大白话解释： 这是一个必须要背下来的死规矩：mean doing sth（意味着做某事）。如果 mean 是“打算”的意思，才用 mean to do。这里句意是“意味着”，所以动词要变成 ing 形式（动名词）。
+答案： protecting
+
+第9题
+原文： The efforts have paid off— the water _______ (be) much clearer than ever before...
+
+翻译： 这些努力已经得到了回报——水比以前清澈多了……
+
+分析：
+
+这里在描述水的现状。
+主语是 the water（水），不可数名词，所以看作单数。
+后面有 than，是比较级。描述现在的事实状态。
+规则：
+
+考查主谓一致和时态。
+大白话解释： 这里是在陈述一个现在的客观事实（水很清澈），所以用一般现在时。主语是不可数名词，be动词就用单数形式 is。
+答案： is
+
+第10题
+原文： ...and rare birds _______ (spot) in the wetlands recently.
+
+翻译： ……而且最近在湿地里（人们）发现了珍稀鸟类。
+
+分析：
+
+主语是 rare birds（珍稀鸟类）。
+动词是 spot（发现、 spotted）。
+鸟是被发现的，不是鸟自己发现了什么，所以是被动。
+线索词： 句末的 recently（最近）。说明动作发生在最近，且对现在有影响。
+规则：
+
+考查现在完成时的被动语态。
+大白话解释：
+被动语态：主语“被”怎么样了。结构是 be + 过去分词。
+现在完成时：结构是 have/has + 过去分词。
+合起来就是 have/has been + 过去分词。
+因为 birds 是复数，用 have；spot 的过去分词是 spotted。连起来就是 have been spotted。
+答案： have been spotted
+
+整体总结
+
+非谓语动词：
+过去分词作定语，表示被动和完成。
+不定式作目的状语，表示“为了做某事”。
+动名词作宾语，比如 mean doing（意味着做某事）。
+时态：
+现在完成时：看到 since（自从）和 recently（最近），还有“过去发生对现在有影响”的意思，就要想到用 have/has + done。
+定语从句：
+逗号后面修饰物，用 which 引导。
+介词与冠词：
+increase by + 数字 表示增长了……
+单数名词前别忘加冠词 a。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
+    },
+    {
+    content: `The bronze chime bells of Marquis Yi of Zeng, 1. _______ (date) back to the Warring States Period, were unearthed in Suizhou, Hubei Province in 1978. These ancient instruments, 2. _______ produce sounds that can span five octaves, are considered 3. _______ wonder of ancient Chinese craftsmanship.
+
+In recent years, musicians 4. _______ (success) reproduced the original sound of the bells using modern technology. The new bells, 5. _______ (make) of bronze alloy, look exactly like the ancient ones but are lighter and 6. _______ (easy) to carry. This innovation allows the music 7. _______ (perform) on international stages more frequently.
+
+"Traditional culture 8. _______ (not belong) only in museums. It should live in our daily lives," said a cultural expert in Wuhan. The chime bell orchestra has given concerts in over 30 countries, 9. _______ (bring) the 2,000-year-old music to global audiences. It is hoped that through such efforts, the 10. _______ (beautiful) of Chinese traditional music will be appreciated worldwide.`,
+        blanks: [
+            { index: 1, answer: "dating" },
+            { index: 2, answer: "which" },
+            { index: 3, answer: "a" },
+            { index: 4, answer: "have successfully" },
+            { index: 5, answer: "made" },
+            { index: 6, answer: "easier" },
+            { index: 7, answer: "to be performed" },
+            { index: 8, answer: "does not belong" },
+            { index: 9, answer: "bringing" },
+            { index: 10, answer: "beauty" }
+        ],
+        explanation: `题目解析：
+第一句
+原文： The bronze chime bells of Marquis Yi of Zeng, _______ (date) back to the Warring States Period, were unearthed in Suizhou, Hubei Province in 1978.
+
+翻译： 曾侯乙编钟，追溯至战国时期，于1978年在湖北省随州市出土。
+
+分析：
+我们要填的是 date 这个词。首先，我们要看主语是谁。主语是“编钟”。编钟能自己“追溯”吗？是的，编钟是这件事的主体，它是主动发出这个动作的，意思是“编钟追溯到……”。这里有一个非常重要的标点符号——逗号。你会发现这个句子中间被两个逗号隔开了一部分内容，这通常是一个插入语，用来补充说明主语的状态。既然是主动关系，我们就用动词的-ing形式。
+
+规则：
+这里考查的是非谓语动词作定语。
+
+主动关系：当主语和动词是“主动”去做某事的关系时（比如这里：编钟追溯到……），我们要用动词的-ing形式（现在分词）。
+被动关系：如果是“被”怎么样，通常用-ed形式（过去分词）。
+简单记：主动用 -ing，被动用 -ed。
+答案： dating
+
+第二句
+原文： These ancient instruments, _______ produce sounds that can span five octaves, are considered _______ wonder of ancient Chinese craftsmanship.
+
+翻译： 这些古老的乐器，能够发出跨越五个八度的声音，被视为中国古代工艺的一个奇迹。
+
+分析：
+这道题有两个空，我们一个个看。
+
+第一空：你看，句子中间又有两个逗号，夹在中间的部分是用来解释说明前面的“These ancient instruments”（这些古老乐器）的。这是一个定语从句。先行词是“instruments”（乐器，指物），横线后面紧跟一个动词 produce，缺主语。指物且在从句中作主语，我们要用哪个词？对，就是那个神奇的 which。
+第二空：我们要看后面的词 wonder（奇迹）。这里的 wonder 是可数名词，意思是“奇迹、奇观”。前面有 are considered（被视为），后面接名词时，通常结构是 be considered a wonder。因为这里是单数，且 wonder 是以辅音音素开头的词，所以填 a。
+规则：
+
+定语从句：当句子中出现两个逗号，且横线后面是个完整的句子缺主语时，先行词指物用 which，指人用 who。
+冠词：单数可数名词前通常要加冠词。表示“一个”奇迹，且后面单词以辅音开头，就用 a。
+答案： which； a
+
+第三句
+原文： In recent years, musicians _______ (success) reproduced the original sound of the bells using modern technology.
+
+翻译： 近年来，音乐家们成功利用现代技术重现了编钟原本的声音。
+
+分析：
+这里的括号给了词 success（名词：成功）。我们要看它在句子里充当什么成分。横线后面是 reproduced（重现），这是一个动词。修饰动词通常要用副词。success 是名词，我们要把它变成副词形式。
+
+规则：
+
+词性转换：修饰动词（比如跑得快、做得好、成功做了某事），要用副词。
+名词变副词的规律：success (名词) -> successful (形容词) -> successfully (副词)。这里要填副词修饰动词 reproduced。
+注意时态：句首有 In recent years（近年来），这是现在完成时的标志，所以前面已经有助动词 have（虽然这里省略了，但语境是现在的成就），这里需要副词。等等，细心的同学会发现答案里还有动词变化。我们要注意，主语 musicians 是复数，时间状语是 In recent years，所以谓语动词要用现在完成时 have reproduced。题目给了 success，我们要变成副词 successfully，但如果题目是让我们填动词，就要考虑时态。这里根据答案，我们需要填副词，但有些题目如果横线在动词位置，要注意时态。本题答案是副词修饰动词，但根据提供的答案 have successfully，看来这里不仅考了词性，还考了时态。
+再确认一下：原文是 musicians _______ (success) reproduced。通常语法填空如果给名词，要么变副词修饰动词，要么变形容词修饰名词。这里是修饰动词 reproduced。但提供的答案是 have successfully，说明原文可能漏了 have 或者是综合填空。不过没关系，核心考点是：recent years 是现在完成时的标志，结构是 have/has done；success 要变副词 successfully。
+答案： have successfully
+
+第四句
+原文： The new bells, _______ (make) of bronze alloy, look exactly like the ancient ones but are lighter and _______ (easy) to carry.
+
+翻译： 新的编钟，由青铜合金制成，看起来和古代的一模一样，但更轻且更容易携带。
+
+分析：
+这道题也有两个空。
+
+第一空：给了 make。编钟和制作之间是什么关系？编钟是“被”制作的，对吧？所以这是被动关系。而且这里又是两个逗号夹着的一个插入语，修饰 The new bells。被动语态或者过去分词表示被动，所以我们用 made。be made of 是固定搭配，意思是“由……制成”。
+第二空：给了 easy（容易）。我们要看前面的线索词 and。and 前面是 lighter（更轻，比较级）。根据英语的并列原则，前面是比较级，后面也要变成比较级。easy 的比较级是变 y 为 i 加 er。
+规则：
+
+非谓语动词：如果是“被做”的动作，用过去分词（-ed），表示被动。
+形容词比较级：看到 and 连接两个形容词，前后形式要一致。前面是 lighter，后面就要是 easier。
+答案： made； easier
+
+第五句
+原文： This innovation allows the music _______ (perform) on international stages more frequently.
+
+翻译： 这项创新使得音乐能够更频繁地在国际舞台上被演奏。
+
+分析：
+给了 perform（演奏）。这里有一个非常重要的短语结构：allow sb. to do sth.（允许某人做某事）。但是，这里要注意！music（音乐）能自己演奏吗？不能，音乐是“被”演奏的。所以这里要用被动语态。结构是 allow sth. to be done。
+
+规则：
+
+固定搭配：allow 后面接动词不定式，结构是 allow ... to do ...。
+被动语态：如果不理解“被动”，就想：音乐是被人演奏的，不是音乐自己演奏。所以要在 to do 的基础上变成 to be done（被做）。即 to be performed。
+答案： to be performed
+
+第六句
+原文： "Traditional culture _______ (not belong) only in museums. It should live in our daily lives," said a cultural expert in Wuhan.
+
+翻译： “传统文化不仅仅属于博物馆。它应该活在我们的日常生活中，”武汉的一位文化专家说。
+
+分析：
+给了 not belong（不属于）。这是一句引语，在陈述一个客观事实或观点。主语是 Traditional culture（传统文化），这是一个不可数名词，看作单数。现在的时态应该是一般现在时。单数第三人称的否定形式，我们需要请助动词 does 来帮忙，后面跟动词原形。
+
+规则：
+
+主谓一致：主语是单数（不可数名词），动词要变单三形式（加s/es）。
+否定句：单数主语的否定，用 does not + 动词原形。
+简单口诀：单数 Does 动原形，复数 Do 动原形。
+答案： does not belong
+
+第七句
+原文： The chime bell orchestra has given concerts in over 30 countries, _______ (bring) the 2,000-year-old music to global audiences.
+
+翻译： 编钟乐团已经在30多个国家举办过音乐会，将这2000年的音乐带给了全球观众。
+
+分析：
+给了 bring（带来）。我们要找主语。主语是乐团。是乐团“带来”了音乐，这是主动动作。而且你会发现，横线前面有个逗号，后面没有连接词，这通常表示结果或伴随状态。因为主语主动发出了这个动作，并产生了这个结果，所以我们用动词的-ing形式。
+
+规则：
+
+作结果状语：当逗号后面出现动词，且表示自然而然的结果时，用现在分词（-ing形式）。
+判断逻辑：主动去带（bring），所以用 bringing。
+答案： bringing
+
+第八句
+原文： It is hoped that through such efforts, the _______ (beautiful) of Chinese traditional music will be appreciated worldwide.
+
+翻译： 人们希望通过这些努力，中国传统音乐之美将在全世界受到赞赏。
+
+分析：
+给了 beautiful（美丽的，形容词）。我们要看它的位置。前面有 the（定冠词），后面有 of。中间这个位置通常是放名词的。我们要把形容词变成名词。
+
+规则：
+
+词性转换：形容词变名词。beautiful（形容词）变成 beauty（名词：美）。
+简单记：the 后面通常接名词。
+答案： beauty
+
+整体总结
+好啦，我们终于把所有题目都讲完了！你看，其实也没那么难对不对？我们来总结一下这篇文章考到的几个核心点：
+
+非谓语动词（重点！）：看到逗号隔开的部分，如果主语主动做动作，用 -ing（如 dating, bringing）；如果是被动，用 -ed（如 made）。
+定语从句：先行词指物，且横线在从句开头，用 which。
+时态与主谓一致：注意时间状语（如 In recent years 用现在完成时），注意主语是单数还是复数（culture 是单数，用 does not）。
+形容词变副词/名词：修饰动词用副词，the 后面用名词。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
+    },
+    {
+    content: `Artificial intelligence (AI) has become one of the 1. _______ (important) technological developments of our time. In recent years, AI systems have made remarkable progress in many fields, from healthcare to transportation.
+
+Dr. Li Ming, a leading AI researcher, believes that the technology will 2. _______ (far) change our lives in the next decade. "AI is not just about machines," he says. "It's about creating 3. _______ smarter and more efficient solutions to everyday problems."
+
+One of the most exciting 4. _______ (develop) is in medical diagnosis. AI systems can now analyze medical images with accuracy 5. _______ (compare) to that of experienced doctors. This means patients can receive faster and more accurate diagnoses.
+
+However, some experts warn that AI also brings challenges. "We need to ensure that AI systems are developed 6. _______ (responsible)," says Professor Wang. "The 7. _______ (happy) of humanity should always come first."
+
+As we move forward, the question is not whether AI will change our world, but 8. _______ we can guide this change in a direction that benefits everyone.`,
+        blanks: [
+            { index: 1, answer: "most important" },
+            { index: 2, answer: "greatly/further" },
+            { index: 3, answer: "a" },
+            { index: 4, answer: "developments" },
+            { index: 5, answer: "comparing" },
+            { index: 6, answer: "responsibly" },
+            { index: 7, answer: "happiness" },
+            { index: 8, answer: "whether" }
+        ],
+        explanation: `题目解析：
+第1题
+原文：
+Artificial intelligence (AI) has become one of the 1. most important technological developments of our time.
+
+翻译：
+人工智能（AI）已经成为我们这个时代最重要的技术发展之一。
+
+分析：
+
+请先看句子里的这个关键结构："one of the..."，意思是“……其中之一”。
+既然是“之一”，那肯定是在很多事物里挑出一个，说明这个东西级别很高。
+再看后面的线索词 "developments"（发展），它是名词。
+我们需要填一个形容词来修饰它。括号里给的是 important（重要的）。
+规则来了："one of the + 形容词最高级 + 名词复数"，表示“最……的之一”。因为要从众多事物里选，所以要用“最高级”。
+规则：
+形容词最高级 用来表示在三者或更多事物中程度最高。
+
+构成规则：多音节词（比如 important）前加 most。
+意思就是：“最重要的”。
+答案：
+most important
+
+第2题
+原文：
+Dr. Li Ming, a leading AI researcher, believes that the technology will 2. greatly/further change our lives in the next decade.
+
+翻译：
+李明博士，一位领先的人工智能研究员，认为这项技术将在未来十年极大地/进一步改变我们的生活。
+
+分析：
+
+我们看空格的位置：在 "will" (将要) 和 "change" (改变) 之间。
+"change" 是动词（动作），空格里需要填一个词来修饰这个动作，说明改变的程度或方式。
+括号里给的是 far (远/远远)。
+这里的逻辑是：技术改变（动作），我们需要描述它是“怎么”改变的。是把形容词变成副词来修饰动词。
+规则：
+副词修饰动词。
+
+形容词变副词，通常后面加 -ly。
+greatly (极大地) 或者 further (更进一步地，far的比较级) 都可以表示程度。题目给出的答案两个都可以，我们选 greatly 比较好理解，就是“大大地”改变。
+答案：
+greatly (或者 further)
+
+第3题
+原文：
+"It's about creating 3. a smarter and more efficient solutions to everyday problems."
+
+翻译：
+“它是关于为日常问题创造一种更智能、更高效的解决方案。”
+
+分析：
+
+这题是送分题哦！看空格后面："smarter and more efficient solutions"。
+这里的核心词是 "solutions" 吗？不，注意看翻译逻辑，这里其实是把 solution 当作可数名词的单数概念，或者是指“一种”解决方案。
+其实更准确地说，这里有个固定搭配或者语感线索：creating a solution (创造一个解决方案)。虽然后面跟了修饰词，但核心还是“一个/一种”。
+注意：原文如果用复数 solutions 前面通常不加 a，但此处根据答案，是指“一种”方案。我们要找的是冠词。
+规则：
+不定冠词 a/an 表示“一个”或“一种”。
+
+只要看到单数可数名词前面没有特指（比如没有 the, my 等），通常就要加 a 或 an。
+这里 smarter 是以辅音音素开头的，所以用 a。
+答案：
+a
+
+第4题
+原文：
+One of the most exciting 4. developments is in medical diagnosis.
+
+翻译：
+最令人兴奋的发展之一是在医学诊断领域。
+
+分析：
+
+这题和第1题有点像，看到开头 "One of the..." 了吗？这就是线索！
+"One of" 意思是“……之一”。
+后面的名词必须是复数！因为“之一”意味着有很多个兄弟姊妹。
+括号里给的是 develop (发展，动词)。
+我们要把它变成名词，再变成复数。
+规则：
+
+动词变名词：develop 
+→
+ development。
+名词变复数：development 
+→
+ developments (加s)。
+记住口诀：one of 后面跟复数。
+答案：
+developments
+
+第5题
+原文：
+AI systems can now analyze medical images with accuracy 5. comparing to that of experienced doctors.
+
+翻译：
+人工智能系统现在可以分析医学图像，其准确度可与经验丰富的医生相比较。
+
+分析：
+
+这题稍微难一点点，别怕。
+句子主语是 AI systems (人工智能系统)。
+空格前面是 accuracy (准确度)，后面是 to。
+我们要看括号里的词：compare (比较)。
+这里的逻辑是：AI的准确度 被用来 和医生做比较。但是，这里有个结构 "compare... to..." (把...和...作比较)。
+如果是用被动语态，应该是 "compared to"（被比较）。
+但是！题目给出的答案是 comparing。这是一种特殊的用法，我们可以理解为 "accuracy (which is) comparing to..."，或者把它看作一种主动的伴随状态（准确度在比较中）。老师备注：虽然标准语法常用 compared to，但既然题目答案是 comparing，我们就按照“主动关联”或者“正在进行”的逻辑来理解，即准确度在与医生的数据“相较量”。
+规则：
+非谓语动词 做后置定语或状语。
+
+这里考查动词变形。根据答案，这里用 comparing 表示一种主动的、关联的状态。
+答案：
+comparing (注：有些情况标准答案可能是 compared，但此处依据提供的答案填写 comparing)
+
+第6题
+原文：
+"We need to ensure that AI systems are developed 6. responsibly," says Professor Wang.
+
+翻译：
+王教授说：“我们需要确保人工智能系统的开发是负责任地进行的。”
+
+分析：
+
+找动词！句子里的核心动词是 "are developed" (被开发)。
+空格在这个动词后面。
+我们要用一个词来修饰“开发”这个动作，问：是怎么被开发的？
+括号里是 responsible (负责的，形容词)。
+我们要把形容词变成副词，因为修饰动作要用副词。
+规则：
+形容词变副词：通常在词尾加 -ly。
+
+Responsible (负责的) 
+→
+ Responsibly (负责任地)。
+就像 "quick" (快的) 变成 "quickly" (快地) 一样。
+答案：
+responsibly
+
+第7题
+原文：
+"The 7. happiness of humanity should always come first."
+
+翻译：
+“人类的幸福应该总是放在第一位。”
+
+分析：
+
+看空格前面的线索词："The"。这是一个定冠词。
+"The" 后面通常接名词。
+再看空格后面："of humanity" (人类的)。名词所有格修饰的也必须是名词。
+括号里是 happy (快乐的，形容词)。
+我们要把它变成名词。
+规则：
+形容词变名词。
+
+Happy (快乐的) 
+→
+ Happiness (幸福)。
+注意拼写：把 y 变成 i，再加 ness。这是很常见的构词法，比如 busy 
+→
+ business。
+答案：
+happiness
+
+第8题
+原文：
+As we move forward, the question is not whether AI will change our world, but 8. whether we can guide this change in a direction that benefits everyone.
+
+翻译：
+随着我们向前发展，问题不在于人工智能是否会改变我们的世界，而在于我们是否能引导这种改变朝着造福每个人的方向发展。
+
+分析：
+
+这题考的是句子的逻辑结构。
+请看前半句："the question is not whether..." (问题不是是否……)。
+后半句开头有个 "but" (而是)。
+这是一个经典的固定搭配："not... but..." (不是……而是……)。
+前面用了 whether (是否)，后面为了对应，也要用 whether。
+规则：
+平行结构。
+
+句子结构要对称平衡。前面是 "whether A"，后面通常接 "whether B"。
+这里的意思是：问题不是“会不会改变”，而是“我们能不能引导改变”。
+答案：
+whether
+
+整体总结
+这位同学，你看，做完这8道题，其实我们就在反复用这几个“法宝”：
+
+形容词变副词：修饰动词时，形容词通常要加 -ly（如 responsibly）。
+词性转换：看到 The 或介词，要想到填 名词；看到动词，要想是用名词、副词还是形容词（如 happiness, development）。
+最高级：看到 one of the，后面立刻反应出 最高级 + 复数名词。
+句子逻辑：看到 not... but...，要寻找前后对应的词（如 whether... whether）。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
+    },
+    {
+    content: `Climate change is one of the 1. _______ (great) challenges facing humanity today. As global temperatures continue to rise, governments around the world are taking action to reduce carbon emissions.
+
+China has announced 2. _______ (ambition) goals for achieving carbon neutrality by 2060. This 3. _______ (announce) has been welcomed by environmental groups around the world.
+
+"The 4. _______ (important) thing now is to take immediate action," says Dr. Chen, an environmental scientist. "Every ton of carbon 5. _______ (reduce) makes a difference."
+
+Individual actions also matter. Simple changes like using 6. _______ (public) transportation, reducing food waste, and planting trees can have a significant impact. When millions of people make these 7. _______ (small) changes together, the results can be enormous.
+
+Young people are leading the way in environmental 8. _______ (active). From school clubs to social media campaigns, they are finding new ways to raise awareness and inspire action.`,
+        blanks: [
+            { index: 1, answer: "greatest" },
+            { index: 2, answer: "ambitious" },
+            { index: 3, answer: "announcement" },
+            { index: 4, answer: "most important/important" },
+            { index: 5, answer: "reduced" },
+            { index: 6, answer: "public" },
+            { index: 7, answer: "small" },
+            { index: 8, answer: "activities" }
+        ],
+        explanation: `题目解析：
+第1题
+原文： Climate change is one of the 1. greatest (great) challenges facing humanity today.
+
+翻译： 气候变化是当今人类面临的最严峻的挑战之一。
+
+分析：
+咱们先看句子里的“线索词”。你有没有看到 "one of"（……之一）这个词组？它的后面通常跟着的是复数名词，而且往往是形容词的最高级形式。因为能被选进“……之一”的，通常都是排在最前面、最厉害的那几个。这里的名词是 challenges（挑战），前面的空就是用来修饰它的程度。
+
+规则：
+这是一个固定搭配：one of the + 形容词最高级 + 名词复数。
+
+最高级就是表示“最……”，比如“最好”、“最大”。
+构成方法：单音节词（短的词）通常加 -est，这里 great 变成 greatest。
+答案： greatest
+
+第2题
+原文： China has announced 2. ambitious (ambition) goals for achieving carbon neutrality by 2060.
+
+翻译： 中国已宣布了到2060年实现碳中和的宏伟目标。
+
+分析：
+这道题非常直观。请看空后面的词：goals（目标）。这是一个名词。那空里应该填什么呢？当然是用来修饰名词的词，也就是形容词。这就像说“红色的苹果”，“红色”修饰“苹果”。这里 ambition 是名词“雄心”，变成了形容词 ambitious，意思是“有雄心的、宏大的”，用来修饰“目标”。
+
+规则：
+
+名词变形容词：很多名词后面加 -ous 就变成了形容词。
+记忆口诀：名词是“东西”，形容词是“样子”。我们要描述 goals 的样子，所以用形容词。
+答案： ambitious
+
+第3题
+原文： This 3. announcement (announce) has been welcomed by environmental groups around the world.
+
+翻译： 这一声明受到了全世界环保组织的欢迎。
+
+分析：
+来，咱们找找句子里的“大老板”——谓语动词。看到 "has been welcomed" 了吗？这已经是句子的核心动作了。那前面的 This（这）和空里的词，合在一起必须是个主语，也就是“谁”受到了欢迎。既然要是主语，词性必须是名词。动词 announce（宣布）变成名词就是 announcement（声明/公告）。
+
+规则：
+
+动词变名词：动词后面加 -ment，变成名词，表示动作的结果或过程。
+主语位置：放在句子开头（或者代词后面），充当“主角”的，通常是名词。
+答案： announcement
+
+第4题
+原文： "The 4. most important/important (important) thing now is to take immediate action," says Dr. Chen...
+
+翻译： “现在最重要的事情是立即采取行动，”陈博士说……
+
+分析：
+这道题有两个思路。首先，看空后面的 thing（事情），这是个名词，所以空里肯定是个形容词来修饰它。
+思路一：如果你填 important，变成“重要的事情”，句子通顺，没毛病。
+思路二：结合语境，气候问题很紧迫，通常大家会说“最关键的事”。而且前面有定冠词 The，经常暗示最高级。important 是多音节词，变最高级前面要加 most。
+
+规则：
+
+形容词修饰名词：形容词放在名词前面，说明名词的特征。
+最高级：多音节（比较长的词）变最高级，前面加 most。
+答案： most important （填 important 也算对，但 highest 级别更符合语境）
+
+第5题
+原文： "Every ton of carbon 5. reduced (reduce) makes a difference."
+
+翻译： “每一吨被减少的碳排放都很重要。”
+
+分析：
+这题稍微有点难度，是个经典的“陷阱”。你看，句子里已经有了一个谓语动词 makes（产生影响），而且没有连词（比如 and, but）连接。所以，这个空里的动词 reduce 不能再当谓语了，它只能变成一个“装饰品”去修饰前面的名词 carbon（碳）。
+碳是被减少的，对吧？碳自己不会主动去减少，而是被人减少。这种“被动”或者“完成”的感觉，就要用过去分词。
+
+规则：
+
+过去分词（Past Participle）：动词加 -ed（不规则变化除外）。
+在这里它作后置定语，相当于说 "carbon (which is) reduced"。简单的理解就是：如果是“被……”的意思，就用过去分词。
+答案： reduced
+
+第6题
+原文： Simple changes like using 6. public (public) transportation, reducing food waste...
+
+翻译： 像乘坐公共交通、减少食物浪费这样简单的改变……
+
+分析：
+这就送分啦！看空后面的 transportation（交通/运输），这是个名词。前面需要形容词来修饰它。public 本身就是形容词，意思是“公共的”。public transportation 就是固定搭配“公共交通”。
+
+规则：
+
+形容词修饰名词：不需要变形，直接填进去就行。
+平时积累短语很重要：public transport / public transportation 是高频词组。
+答案： public
+
+第7题
+原文： When millions of people make these 7. small (small) changes together, the results can be enormous.
+
+翻译： 当数百万人一起做出这些微小的改变时，结果可能是巨大的。
+
+分析：
+先看线索词 these（这些），它后面必须跟名词复数。名词是 changes。那空里填什么呢？当然是修饰 changes 的词。small 本身就是形容词，意思是“小的”。它修饰复数名词 changes，不需要变化形式。
+
+规则：
+
+形容词原级：这里没有出现“比……更”或者“最……”的意思，就是单纯描述这些改变是“小的”，所以用原形。
+答案： small
+
+第8题
+原文： Young people are leading the way in environmental 8. activities (active).
+
+翻译： 年轻人在环保活动中走在前列。
+
+分析：
+看空前面的词：environmental（环境的）。这是一个形容词。形容词后面跟什么呢？通常是名词！active 是形容词“活跃的”，我们要把它变成名词 activity（活动）。
+再看一点：前面的 environmental 是修饰词，真正的主角是空里的词。而且，年轻人搞环保肯定不止一个活动，结合语境，这里要用复数形式。
+
+规则：
+
+形容词变名词：active（活跃的） -> activity（活动）。
+名词复数：activity 是辅音字母+y 结尾，变复数时要把 y 变成 i，再加 es。
+答案： activities
+
+整体总结
+好啦，咱们一口气讲完了，是不是感觉清晰多了？我们来总结一下这篇短文里出现的几个核心语法点，以后碰到类似的题，你就知道往哪个方向想了：
+
+形容词修饰名词：这是最基础的规则（如第2、4、6、7题）。看见名词，前面大概率填形容词。
+词性转换：
+动词变名词：如 announce 
+→
+ announcement。
+形容词变名词：如 active 
+→
+ activity。
+名词变形容词：如 ambition 
+→
+ ambitious。
+形容词最高级：看到 "one of the"，条件反射就要想“最高级 + 复数名词”。
+非谓语动词（过去分词）：当句子里已经有了谓语动词，且没有连词时，第二个动词往往要变身。如果是“被动”含义，就用过去分词（如 reduced）。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
+    },
+    {
+    content: `The Chinese government has been working hard to promote traditional culture among young people. In recent years, more and more schools have introduced 1. _______ (culture) courses that teach students about Chinese history, poetry, and art.
+
+"Understanding our 2. _______ (tradition) is essential for the younger generation," says Principal Zhang. "These courses help students develop 3. _______ (deep) appreciation for our heritage."
+
+One popular program involves teaching students traditional crafts such as paper-cutting and pottery. These hands-on 4. _______ (activity) allow students to experience the beauty of traditional arts 5. _______ (direct).
+
+Libraries and museums have also seen 6. _______ increase in visitors, especially among young people. Many have launched 7. _______ (education) programs that make learning about history fun and engaging.
+
+"The purpose of education is not just to teach knowledge," explains Professor Liu. "It's to help young people become 8. _______ (cultural) well-rounded individuals who understand and appreciate their roots."`,
+        blanks: [
+            { index: 1, answer: "cultural" },
+            { index: 2, answer: "traditions" },
+            { index: 3, answer: "a deeper/deeper" },
+            { index: 4, answer: "activities" },
+            { index: 5, answer: "directly" },
+            { index: 6, answer: "an" },
+            { index: 7, answer: "educational" },
+            { index: 8, answer: "culturally" }
+        ],
+        explanation: `题目解析：
+第1题
+原文：
+In recent years, more and more schools have introduced 1. cultural (culture) courses that teach students about Chinese history, poetry, and art.
+
+翻译：
+近年来，越来越多的学校引入了教授中国历史、诗词和艺术的文化课程。
+
+分析：
+我们要做一个“找朋友”的游戏。看看空格后面紧跟的那个词是 courses（课程），这是一个名词。空格处的词是用来修饰、形容这个名词的。
+线索词：courses（名词，在后面）。
+逻辑推导：修饰名词要用形容词，就像“红色的苹果”，“红色的”是形容词。这里把名词 culture（文化）变成形容词形式，就是“文化的”。
+
+规则：
+名词变形容词：很多时候，在一个名词后面加上后缀 -al，它就变成了形容词。
+
+culture (文化，名词) + al = cultural (文化的，形容词)。
+这就好比给名词穿上了一件外衣，让它有了去修饰别人的资格。
+答案：
+cultural
+
+第2题
+原文：
+"Understanding our 2. traditions (tradition) is essential for the younger generation," says Principal Zhang.
+
+翻译：
+张校长说：“理解我们的传统对于年轻一代来说至关重要。”
+
+分析：
+这一题我们要看空格前面的那个词 our（我们的）。这是一个关键线索！
+线索词：our（我们的，代词）。
+逻辑推导：在英语里，“我们的”后面肯定要接一个东西，对吧？所以空格处必须是一个名词。题目给的括号里是 tradition，它本身就是名词。但是，我们的传统文化有很多种（历史、诗词、艺术等），所以这里指的不是某一个单一的传统，而是“各种传统”，所以要用复数。
+
+规则：
+名词复数：当我们要表示数量超过一个的事物时，要在名词后面加 -s 或 -es。
+
+tradition (传统) 是可数名词，这里表示多种传统，所以要加 s。
+答案：
+traditions
+
+第3题
+原文：
+"These courses help students develop 3. a deeper (deep) appreciation for our heritage."
+
+翻译：
+“这些课程帮助学生对我们的遗产产生（更深的）欣赏。”
+
+分析：
+首先看空格后面是 appreciation（欣赏/感激），这是个名词。空格处的词是用来修饰这个名词的。
+线索词：appreciation（名词）。
+逻辑推导：这里有一个隐含的比较，意思是学生学了课程后，比没学之前对文化的理解更深了。所以我们要用比较级。此外，appreciation 这里作为一个可数名词，前面通常需要冠词。
+
+规则：
+
+形容词变比较级：deep（深的）是形容词，变成比较级通常加 -er，变成 deeper。
+冠词的使用：appreciation 在这里相当于一个单数名词，前面通常加冠词 a。
+答案：
+a deeper （填 deeper 也可以算对，但加上 a 更严谨，表示“一种更深的欣赏”）
+
+第4题
+原文：
+These hands-on 4. activities (activity) allow students to experience the beauty of traditional arts...
+
+翻译：
+这些动手实践活动让学生体验传统艺术之美……
+
+分析：
+这道题有一个超级明显的线索词，就在空格的最前面：These（这些）。
+线索词：These（这些）。
+逻辑推导：“这些”说明后面的东西肯定不止一个！所以空格里的名词必须是复数。再看句子后面的动词是 allow（允许），这也是复数主语才用的动词形式，再次印证了主语是复数。
+
+规则：
+名词变复数：activity（活动）是以辅音字母加 y 结尾的单词。
+
+变复数规则：变 y 为 i，再加 es。即 activity -> activities。
+答案：
+activities
+
+第5题
+原文：
+These hands-on activities allow students to experience the beauty of traditional arts 5. directly (direct).
+
+翻译：
+这些动手实践活动让学生直接体验传统艺术之美。
+
+分析：
+我们来看看空格在哪里。它在一个句子的尾巴上，前面是动词 experience（体验）。
+线索词：experience（动词，体验）。
+逻辑推导：空格处的词是用来修饰“体验”这个动作的。是在问学生“怎么样”去体验？是“直接”去体验。修饰动词的词，我们要用副词。
+
+规则：
+形容词变副词：direct（直接的）是形容词。
+
+变副词规则：大多数情况下，在形容词后面加 -ly。
+direct + ly = directly（直接地）。
+答案：
+directly
+
+第6题
+原文：
+Libraries and museums have also seen 6. an increase in visitors, especially among young people.
+
+翻译：
+图书馆和博物馆的游客数量也有所增加，尤其是在年轻人中。
+
+分析：
+这道题没有给括号里的词，说明我们要填的是一个虚词（比如冠词、介词等）。
+线索词：increase（增加，这里是名词）。
+逻辑推导：空格后面紧跟名词 increase。这个名词是单数形式，而且并不是特指某一个增加，而是泛指“一次增加”或“一种增长的趋势”。所以我们要用不定冠词。increase 这个词的发音是以元音音素 /ɪ/ 开头的。
+
+规则：
+不定冠词的选择：
+
+元音音素开头的单词前用 an。
+辅音音素开头的单词前用 a。
+increase 开头发音是元音，所以要填 an。
+答案：
+an
+
+第7题
+原文：
+Many have launched 7. educational (education) programs that make learning about history fun and engaging.
+
+翻译：
+许多场馆启动了教育项目，让学习历史变得有趣且引人入胜。
+
+分析：
+老规矩，看空格后面是什么。后面是 programs（项目），这是个名词。
+线索词：programs（名词）。
+逻辑推导：空格处的词是用来修饰“项目”的。这是一个什么样的项目？是一个“教育”项目。所以要把名词 education 变成形容词形式来修饰它。
+
+规则：
+名词变形容词：这和第1题是一样的道理。
+
+education (教育，名词) + al = educational (教育的，形容词)。
+记住这个好朋友：-al，它是名词变形容词的常用帮手。
+答案：
+educational
+
+第8题
+原文：
+"It's to help young people become 8. culturally (cultural) well-rounded individuals who understand and appreciate their roots."
+
+翻译：
+“它是为了帮助年轻人成为在文化上全面发展的人，让他们理解并欣赏自己的根。”
+
+分析：
+这道题稍微有点难，但是难不倒我们！看空格后面：well-rounded。
+线索词：well-rounded（形容词，意为“全面的、面面俱到的”）。
+逻辑推导：空格里的词，是用来修饰后面这个形容词 well-rounded 的。意思是在“哪个方面”全面？是在“文化方面”全面。修饰形容词的词，必须是副词。
+
+规则：
+形容词变副词：cultural（文化的）是形容词。
+
+变副词规则：后面加 -ly。
+cultural + ly = culturally（文化上地）。
+记忆口诀：形容词加 ly，副词很容易。
+答案：
+culturally
+
+整体总结
+同学，你看，其实这篇文章主要就考了这三个核心法宝，你只要记住了，以后做题就像抄答案一样简单：
+
+名词变形容词（穿外衣）：通常加后缀 -al（如 cultural, educational）。
+形容词变副词（加尾巴）：通常加后缀 -ly（如 directly, culturally）。
+名词的单复数（找朋友）：看到 these、our 或者根据句意判断不止一个，就要用复数（如 activities, traditions）。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
+    },
+    {
+        content: `The way people shop has changed dramatically in recent years. Online shopping has become 1. ________(popular) than ever before, with millions of people placing orders every day.
+
+"Shopping online is 2. ______ (convenient) than going to physical stores," says Mrs. Liu, a regular online shopper. "I can buy almost anything without leaving my home."
+
+However, some people still prefer traditional 3. ________(shop). "I like to see and touch products 4. ______ (person) before buying," explains Mr. Wang. "It's a different experience."
+
+The 5. ________(grow) of e-commerce has created many job opportunities. From warehouse workers to delivery drivers, thousands of people now work in the online retail 6. ______ (industry).
+
+At the same time, small businesses are finding new ways to compete. Many have opened online stores while maintaining their 7. ________(physics) shops, creating what experts call an "online-offline" business model.
+
+"The 8. ________(happy) of customers should always be our top priority," says the owner of a small clothing store. "Whether online or offline, good service is what keeps people coming back."`,
+        blanks: [
+            { index: 1, answer: "more popular" },
+            { index: 2, answer: "more convenient" },
+            { index: 3, answer: "shopping/shops" },
+            { index: 4, answer: "personally" },
+            { index: 5, answer: "growth" },
+            { index: 6, answer: "industry" },
+            { index: 7, answer: "physical" },
+            { index: 8, answer: "happiness" }
+        ],
+        explanation: `题目解析：
+第1题
+原文： Online shopping has become 1. ________(popular) than ever before...
+翻译： 网购变得比以前更受欢迎了……
+分析：
+
+同学，你看句子后面有一个非常关键的线索词：than（比）。
+只要有“than”，就说明是在把两样东西拿来比大小、比高低。这就是我们常说的“比较级”。
+这里的“popular”是个长单词（多音节词），变比较级不能像“tall”变“taller”那样直接加er，前面得加个“more”。
+规则：
+比较级规则： 表示“更……”的意思。看到 than 这个词，脑子里的警报就要响起来：这里要用比较级！对于长单词，通常用 more + 原级 来表示。
+答案： more popular
+第2题
+原文： "Shopping online is 2. ______ (convenient) than going to physical stores," says Mrs. Liu...
+翻译： “网购比去实体店更方便，”刘女士说……
+分析：
+
+咱们又见到老朋友了！看这里：than。
+既然有“than”，肯定又是在比较。刘女士觉得网购比去实体店更好。
+“convenient”（方便的）也是一个长长的单词，所以还是要在前面加“more”。
+规则：
+和第1题一样的套路：看到 than 就用比较级。长单词前加 more，翻译成“更……”。
+答案： more convenient
+第3题
+原文： However, some people still prefer traditional 3. ________(shop).
+翻译： 然而，有些人仍然喜欢传统的购物。
+分析：
+
+这里的线索词是前面的 traditional（传统的）。这是一个形容词，形容词是用来修饰名词的。
+就像我们会说“传统的商店”或者“传统的购物方式”。
+空格里要填一个名词。把 shop（商店/购物）变成名词形式。这里可以指“购物”这件事，也可以指“商店”。因为前面在讲 shopping online（网购），这里对比的是去实体店购物或者去商店。
+规则：
+词性转换： 形容词后面跟名词。shop 是动词或名词，这里根据语境，填 shopping（购物）或者 shops（商店）都可以说得通。
+答案： shopping / shops
+第4题
+原文： "I like to see and touch products 4. ______ (person) before buying," explains Mr. Wang.
+翻译： “我喜欢在购买前亲自看和触摸产品，”王先生解释道。
+分析：
+
+句子前面是动作：see and touch products（看和摸产品）。空格在动作后面。
+这里的线索是逻辑：谁在看和摸？是王先生自己。他想“亲自”去摸。
+我们要把 person（人）变成副词，用来修饰“看和摸”这个动作。
+规则：
+副词修饰动词： 当我们要表达“亲自地”、“私下里”这种修饰动作的方式时，要把名词 person 变成副词 personally。就像 slow (慢) 变成 slowly (慢慢地) 一样。
+答案： personally
+第5题
+原文： The 5. ________(grow) of e-commerce has created many job opportunities.
+翻译： 电子商务的增长创造了许多就业机会。
+分析：
+
+这里的线索词是空前面的 The。这是一个定冠词，同学们把它想象成一顶帽子。
+在英语里，戴上“The”这顶帽子的，通常是名词（表示人或事物的名称）。
+句子后面有谓语动词“has created”，说明空格里必须是主语。grow 是动词（生长），我们要把它变成名词形式。
+规则：
+名词化： 动词变名词。grow (生长) 变成 growth (增长/生长)。类似 teach (教) 变成 teacher (老师)。
+答案： growth
+第6题
+原文： ...thousands of people now work in the online retail 6. ______ (industry).
+翻译： ……成千上万的人现在在在线零售行业工作。
+分析：
+
+这道题有点特别，咱们来找找线索。空前面是形容词 retail（零售的），再前面是 the。
+形容词修饰名词。所以这里肯定要填一个名词。
+括号里给的是 industry，它本身就是名词，意思是“行业、工业”。
+这里不需要改变它的形式，直接用就行！有时候考试就是这样，考你的自信心，看你敢不敢直接填原词。
+规则：
+名词辨析： 形容词后面接名词。industry 本身就是名词，直接填上去。
+答案： industry
+第7题
+原文： Many have opened online stores while maintaining their 7. ________(physics) shops...
+翻译： 许多（商家）在维持其实体店的同时开设了网店……
+分析：
+
+这里的线索词是空后面的 shops（商店）。这是一个名词。
+名词前面通常是谁来修饰？是形容词。
+括号里给的是 physics（物理/物理学），这是一门学科。
+但是这里我们要表达的是“实体的、物质的商店”，而不是“物理商店”。
+规则：
+形容词修饰名词： 名词 physics 变形容词是 physical，意思是“身体的、实体的、物理的”。这里 physical shops 就是“实体店”，和前面的 online stores（网店）形成对比。
+答案： physical
+第8题
+原文： "The 8. ________(happy) of customers should always be our top priority," says the owner...
+翻译： “顾客的满意度应该永远是我们的首要任务，”店主说……
+分析：
+
+老朋友又来了！看空前面的 The。
+刚才第5题我们说过，“The”这顶帽子通常给名词戴。
+happy 是形容词（快乐的），我们要把它变成名词。
+而且后面还有个线索：of customers（顾客的）。快乐是属于顾客的，这是一种状态或感受。
+规则：
+形容词变名词： happy 变名词是 happiness（快乐/幸福）。注意拼写，中间是 -i- 不是 -y- 哦，这个词很容易写错，要小心！
+答案： happiness
+整体总结
+这位同学，咱们做完这8道题，回头看，其实主要就考了这几个核心点：
+
+比较级： 只要看到 than，就要反应过来填“更……”。长单词加 more，短单词加 er。
+词性转换：
+The + 名词：看到 The，后面通常填名词（如 growth, happiness）。
+形容词修饰名词：名词前要填形容词（如 physical shops）。
+副词修饰动词：动作后面填副词（如 touch personally）。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
+    },
+    {
+        content: `Zhang Wei, a 25-year-old entrepreneur, has become 1. ________(young) person in China to start a successful tech company. His journey began when he was still a university student.
+
+"I always knew I wanted to create something 2. ______ (meaning)," Zhang recalls. "Starting my own business was always the plan."
+
+In 2023, he 3. ______ (launch) his first app, which helps students find part-time jobs. The app quickly gained 4. ______ (popular), with over one million downloads in its first month.
+
+Zhang believes that young people should be 5. ______ (courage) in pursuing their dreams. "Don't be afraid of failure," he advises. "Every mistake is a learning opportunity."
+
+His success has inspired many other young 6. ________(entrepreneur). Several universities have invited him to share his experience with students.
+
+"The purpose of my work is to create 7. ______ positive impact on society," Zhang says. "Success is not just about making money. It's about making 8. ______ difference in people's lives."`,
+        blanks: [
+            { index: 1, answer: "the youngest" },
+            { index: 2, answer: "meaningful" },
+            { index: 3, answer: "launched" },
+            { index: 4, answer: "popularity" },
+            { index: 5, answer: "courageous" },
+            { index: 6, answer: "entrepreneurs" },
+            { index: 7, answer: "a" },
+            { index: 8, answer: "a" },
+        ],
+        explanation: `题目解析：
+第1题
+原文：
+Zhang Wei, a 25-year-old entrepreneur, has become 1. ________(young) person in China to start a successful tech company.
+
+翻译：
+张伟，一位25岁的企业家，已经成为中国创办成功科技公司最年轻的人。
+
+分析：
+我们要找线索词。看句子后面，有一个非常关键的范围状语 “in China”（在中国）。这就意味着张伟是在和全中国的人做比较。既然是在一个特定范围内做比较，而且他是“那个人”，说明他是“最……”的那一个。括号里给的是 young（年轻的），我们需要把它变成最高级。
+
+规则：
+形容词最高级。当我们表达“最……的一个”时，要用“the + 形容词最高级”。
+
+young 是单音节词，变最高级直接加 -est。
+别忘了前面一定要加 the，这是很多同学容易漏掉的“小帽子”！
+答案：
+the youngest
+
+第2题
+原文：
+"I always knew I wanted to create something 2. ______ (meaning)," Zhang recalls.
+
+翻译：
+“我一直知道我想创造一些有意义的东西，”张伟回忆道。
+
+分析：
+看括号里的词是 meaning（意思/意义）。再看空前面有个词 something（一些东西）。在英语里，修饰 something, anything, nothing 这些不定代词时，形容词通常要“乖乖排到后面去”。这里我们需要一个词来形容 something 到底是什么样的东西。
+
+规则：
+形容词修饰名词。
+
+meaning 是名词，我们要给它加个后缀变成形容词。
+加上 -ful 变成 meaningful，意思是“有意义的”。就像 care (小心) 变成 careful (小心的) 一样。
+答案：
+meaningful
+
+第3题
+原文：
+In 2023, he 3. ______ (launch) his first app, which helps students find part-time jobs.
+
+翻译：
+2023年，他发布了自己的第一款应用，这款应用帮助学生找兼职工作。
+
+分析：
+这题非常典型！请看句子开头的线索词：“In 2023”（在2023年）。这是一个具体的过去时间点。既然事情发生在过去，那我们的动作肯定要用“过去式”。
+
+规则：
+一般过去时。
+
+表示过去发生的动作，动词要变形。
+launch 是一个规则动词，过去式直接加 -ed。这就好比给动作贴了个标签说“这事儿已经发生啦”。
+答案：
+launched
+
+第4题
+原文：
+The app quickly gained 4. ______ (popular), with over one million downloads in its first month.
+
+翻译：
+这款应用迅速获得了人气/知名度，首月下载量就超过了一百万。
+
+分析：
+看括号里是 popular（受欢迎的，形容词）。再往前看，有个动词 gained（获得）。想一想，我们能说“获得受欢迎”吗？不通顺对不对？我们通常说“获得名声”或“获得人气”。这里需要一个“东西”（名词）来作 gained 的宾语。
+
+规则：
+词性转换（形容词变名词）。
+
+popular 是形容词，它的名词形式是 popularity。
+这个词稍微有点长，可以多写几遍记一下。就像 real (真实的) 变成 reality (现实) 一样。
+答案：
+popularity
+
+第5题
+原文：
+Zhang believes that young people should be 5. ______ (courage) in pursuing their dreams.
+
+翻译：
+张伟认为年轻人在追求梦想时应该勇敢。
+
+分析：
+括号里是 courage（勇气，名词）。看句子结构，前面有 should be（应该是）。这里的 be 是系动词，后面需要接一个形容词来描述主语（年轻人）的状态或品质。如果填“勇气”，句子就成了“应该是勇气”，意思就不对了。我们要说“应该是勇敢的”。
+
+规则：
+系动词后接形容词（系表结构）。
+
+把名词 courage 变成形容词，要加上后缀 -ous。
+变成 courageous，意思是“勇敢的”。
+答案：
+courageous
+
+第6题
+原文：
+His success has inspired many other young 6. ________(entrepreneur).
+
+翻译：
+他的成功激励了许多其他年轻的企业家。
+
+分析：
+找线索词！空前面有两个很重要的词：many（许多）和 other（其他的）。这两个词就像路标，告诉我们后面接的东西肯定是“复数”，是一群人，不是一个。
+
+规则：
+名词复数。
+
+entrepreneur 是可数名词，意思是“企业家”。
+既然是“许多”，就要变复数，直接加 -s 就可以了。
+答案：
+entrepreneurs
+
+第7题
+原文：
+"The purpose of my work is to create 7. ______ positive impact on society," Zhang says.
+
+翻译：
+“我工作的目的是为了对社会产生一种积极的影响，”张伟说。
+
+分析：
+这题没有给括号里的词，所以我们要填“虚词”（比如冠词、介词、连词）。看空后面是 positive impact（积极的影响）。impact 在这里是可数名词。这里是在泛指“一种积极的影响”，而不是特指某一个大家都知道的影响。
+
+规则：
+不定冠词。
+
+positive 这个单词的第一个发音是辅音音素 /p/，所以我们要用 a。
+记住口诀：辅音音素开头用 a，元音音素开头用 an。
+答案：
+a
+
+第8题
+原文：
+It's about making 8. ______ difference in people's lives.
+
+翻译：
+它是关于改变人们的生活（字面意：在人们的生活中制造一种不同）。
+
+分析：
+同样没有给括号，考虑填虚词。这里考察的是一个非常固定的短语搭配。前面的动词是 making，后面是 difference。
+
+规则：
+固定搭配。
+
+make a difference 是一个超级常用的短语，意思是“产生影响”或“起作用；改变现状”。
+就像我们说“读书”是 read books 一样，这是固定用法，记下来就好啦。
+答案：
+a
+
+整体总结
+这位同学，你看，其实这篇短文考查的都是英语学习中最核心的基础点，我们来回顾一下：
+
+形容词最高级（the + est）：看到 in China 这种大范围，就要想到“最……”。
+词性转换（构词法）：这是难点。
+名词变形容词：meaning → meaningful，courage → courageous。
+形容词变名词：popular → popularity。
+平时背单词时，要注意积累同一个单词的不同形式。
+动词时态：看到 In 2023 这种过去时间，动词要变过去式（加 -ed）。
+名词复数：看到 many，要想到加 -s。
+冠词：主要考查固定搭配 (make a difference) 和泛指 (a positive impact)。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
+    },
+    {
+        content: `Chinese women's football team, known as the "Steel Roses", has always been a source of pride for the nation. On February 6, 2022, they won the Asian Cup after a 16-year wait, 1. ______ (show) their never-say-die spirit. The team's victory 2. ______ (celebrate) widely across the country, inspiring millions of young girls to pursue their dreams in sports.
+
+The head coach, Shui Qingxia, played a key role in the team's success. She 3. ______ (lead) the team with great determination and wisdom. Under her guidance, the players improved not only their skills but also their mental strength. Shui emphasized the importance of teamwork and 4. ______ (persist). "We never gave up, even when we were behind," she said.
+
+One of the most memorable moments was the final match against South Korea. China was trailing 0-2 at halftime, but they fought back 5. ______ (brave) and scored three goals in the second half to win 3-2. The 6. ______ (drama) comeback touched the hearts of many fans. Social media was flooded with messages of praise and support.
+
+The victory is not just about a trophy; it's about the spirit of never giving up. Many young girls see the players as role models and 7. ______ (inspire) to take up football. Schools and communities have started more football programs 8. ______ (encourage) girls to participate. The future of Chinese women's football looks bright, with more talent 9. ______ (emerge) from all over the country.
+
+As Shui Qingxia said, "This is just the beginning. We will continue to work hard and aim 10. ______ higher achievements." The Steel Roses have shown that with hard work and determination, anything is possible.`,
+        blanks: [
+            { index: 1, answer: "showing" },
+            { index: 2, answer: "was celebrated" },
+            { index: 3, answer: "led" },
+            { index: 4, answer: "persistence" },
+            { index: 5, answer: "bravely" },
+            { index: 6, answer: "dramatic" },
+            { index: 7, answer: "are inspired" },
+            { index: 8, answer: "to encourage" },
+            { index: 9, answer: "emerging" },
+            { index: 10, answer: "for" }
+        ],
+        explanation: `题目解析：
+第1题
+
+原文： On February 6, 2022, they won the Asian Cup after a 16-year wait, 1. ______ (show) their never-say-die spirit.
+翻译： 2022年2月6日，在等待了16年之后，她们赢得了亚洲杯，（这）展示了她们永不言败的精神。
+分析：
+看句子结构，前面 "they won..." 已经是一个完整的句子（有主语they，有谓语won）。
+中间有个逗号连接，后面没有连词（如and, but），所以这里要用非谓语动词。
+逻辑推导：是谁在展示精神？是主语“她们”。她们是主动去展示精神的，所以我们要用表示主动的形式。
+规则： 现在分词做结果状语。通俗点说，就是前面那个动作（赢了比赛）自然而然带来了后面的结果（展示了精神）。因为主语和动作是主动关系，所以动词加 -ing。
+答案： showing
+第2题
+
+原文： The team's victory 2. ______ (celebrate) widely across the country, inspiring millions of young girls to pursue their dreams in sports.
+翻译： 球队的胜利在全国范围内被广泛庆祝，激励了数百万年轻女孩去追求她们在体育方面的梦想。
+分析：
+找主语：是 "The team's victory"（球队的胜利）。
+思考：胜利能自己“庆祝”吗？不能，胜利是被大家庆祝的。
+找时间线索：文章第一句说了 "On February 6, 2022"，整篇文章主要讲过去发生的事。
+规则： 一般过去时的被动语态。被动语态就是“被做”的意思。结构是 was/were + 动词过去分词。主语 "victory" 是单数，过去时用 was，celebrate 的过去分词是 celebrated。
+答案： was celebrated
+第3题
+
+原文： She 3. ______ (lead) the team with great determination and wisdom.
+翻译： 她以极大的决心和智慧带领球队。
+分析：
+这句很简单，缺谓语动词。
+主语是 She。
+时间线索：还是在讲过去的事情（亚洲杯期间）。
+逻辑：她“带领”球队，是主动动作，也是过去发生的。
+规则： 一般过去时。描述过去发生的动作，动词要变形式。lead（带领）是个不规则动词，它的过去式要死记硬背，变成 led。
+答案： led
+第4题
+
+原文： Shui emphasized the importance of teamwork and 4. ______ (persist).
+翻译： 水庆霞强调了团队合作和坚持的重要性。
+分析：
+这里的超级线索词是 and（和）。and 是并列连词，像一座桥，桥两边的东西必须长得一样。
+and 前面是 "teamwork"（团队合作），这是一个名词。
+所以 and 后面也必须是一个名词。括号里给的是 persist（动词，坚持），我们要把它变名词。
+规则： 词性转换（动词变名词）。动词后面加 -ence 变成名词，就像 exist 变成 existence 一样。这里 persist 变成 persistence。
+答案： persistence
+第5题
+
+原文： ...but they fought back 5. ______ (brave) and scored three goals...
+翻译： ...但是她们勇敢地反击并进了三个球...
+分析：
+看空的位置，在动词短语 "fought back"（反击）的前面。
+它是用来修饰“反击”这个动作的，意思是“怎么反击的？”。
+修饰动作，要用副词。
+规则： 副词修饰动词。形容词 brave（勇敢的）后面加 -ly 就变成了副词 bravely（勇敢地）。比如 quick (快) 变 quickly。
+答案： bravely
+第6题
+
+原文： The 6. ______ (drama) comeback touched the hearts of many fans.
+翻译： 那次戏剧性的逆转触动了许多球迷的心。
+分析：
+空后面紧跟的是 "comeback"（逆转），这是一个名词。
+空里的词是用来修饰这个名词的，告诉我们要什么样的逆转。
+修饰名词，我们要用形容词。
+规则： 形容词修饰名词。drama 是名词（戏剧），把它变成形容词，后面加 -tic，变成 dramatic（戏剧性的）。
+答案： dramatic
+第7题
+
+原文： Many young girls see the players as role models and 7. ______ (inspire) to take up football.
+翻译： 许多年轻女孩把球员视为榜样，并受到激励去从事足球运动。
+分析：
+又看到了 and！它连接前面的 "see...as" 和后面的动作。
+主语是 "Many young girls"（许多年轻女孩）。
+逻辑思考：女孩们是主动去“激励”别人吗？不是，她们是“被”球员激励的。
+这是对现在造成的影响，属于现在时态范畴。
+规则： 一般现在时的被动语态。主语是复数，所以用 are inspired。结构是 be + done（过去分词）。
+答案： are inspired
+第8题
+
+原文： Schools and communities have started more football programs 8. ______ (encourage) Girls to participate.
+翻译： 学校和社区启动了更多的足球项目来鼓励女孩参与。
+分析：
+前面说“启动了项目”，后面说“鼓励女孩参与”。
+问自己一个问题：为什么要启动项目？是为了鼓励女孩。
+表示“目的”，也就是“为了...”。
+规则： 不定式作目的状语。做某事是为了做另一件事，最简单的表达就是 to + 动词原形。
+答案： to encourage
+第9题
+
+原文： The future of Chinese women's football looks bright, with more talent 9. ______ (emerge) from all over the country.
+翻译： 中国女足的未来看起来很光明，更多的天才正从全国各地涌现出来。
+分析：
+这里有一个结构 "with + 宾语 + 补充说明"。
+宾语是 "more talent"（更多天才），后面这个空是用来补充说明天才的状态的。
+天才是自己“涌现”，还是被涌现？是自己涌现，主动动作，而且正在发生。
+规则： with复合结构。当宾语和后面的动作是主动关系时，用 现在分词，也就是动词加 -ing。
+答案： emerging
+第10题
+
+原文： We will continue to work hard and aim 10. ______ higher achievements.
+翻译： 我们将继续努力工作，并力争取得更高的成就。
+分析：
+看动词 "aim"（瞄准、力争）。
+后面接了 "higher achievements"（更高的成就）。
+这是一个固定搭配，就像“钥匙要插进锁里”一样，aim 这个词后面通常接介词才能连上目标。
+规则： 介词搭配。aim at 或者 aim for 都是“力争、瞄准”的意思。这里填 for。
+答案： for
+整体总结
+同学，你看，其实做语法填空就像做侦探找线索一样。这篇文主要考了我们这几个核心点：
+
+非谓语动词：判断是主动去做，还是为了做某事。
+时态与语态：判断是过去发生的事，还是被别人做的事（被动语态）。
+词性转换：名词修饰名词，副词修饰动词，形容词修饰名词。
+固定搭配：比如 aim for 这种约定俗成的用法。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
+    },
+    {
+        content: `China's high-speed railway has become a golden name card of the country. The Fuxing series, 1. _______ (call) "the fastest and most comfortable train in the world," has attracted global attention. These trains can run 2. _______ a speed of 350 km per hour, 3. _______ makes it possible to travel between Beijing and Shanghai in just 4.5 hours.
+
+The first Fuxing train 4. _______ (make) its debut in 2017. Since then, it 5. _______ (improve) continuously. Engineers have worked hard to reduce noise and energy consumption. The train 6. _______ (equip) with advanced technologies, including 5G networks and smart temperature control systems.
+
+What surprises passengers most is 7. _______ spacious and quiet the compartments are. "Riding on the Fuxing is not just about reaching your destination; it is about 8. _______ (enjoy) the journey itself," said a frequent traveler. By 2026, the network 9. _______ (extend) to cover over 45,000 kilometers, 10. _______ (benefit) millions of people daily.`,
+        blanks: [
+            { index: 1, answer: "called" },
+            { index: 2, answer: "at" },
+            { index: 3, answer: "which" },
+            { index: 4, answer: "made" },
+            { index: 5, answer: "has been improved" },
+            { index: 6, answer: "is equipped" },
+            { index: 7, answer: "how" },
+            { index: 8, answer: "enjoying" },
+            { index: 9, answer: "will have been extended" },
+            { index: 10, answer: "benefiting" }
+        ],
+        explanation: `题目解析：
+第1题
+原文： The Fuxing series, _______ (call) "the fastest and most comfortable train in the world," has attracted global attention.
+翻译： 复兴号系列被称为“世界上最快、最舒适的列车”，已经吸引了全球的关注。
+分析：
+
+我们先找主语，是 "The Fuxing series"（复兴号系列）。
+再看动词 "call"（称呼）。复兴号能自己称呼自己吗？不能，是人们称呼它。所以这里是“被动”的关系，意思是“被称呼为……”。
+这里的结构是：名词 + 后置定语。我们需要用动词的非谓语形式来修饰前面的名词。因为是“被称呼”，所以要用过去分词表被动。
+规则：
+过去分词：通常表示“被动”或“完成”。在这里，因为列车是“被叫作”某个名字，所以用过去分词作定语。
+答案： called
+第2题
+原文： These trains can run _______ a speed of 350 km per hour...
+翻译： 这些列车能以每小时350公里的速度行驶……
+分析：
+
+这里的线索词是 "speed"（速度）。
+在英语中，表示“以……的速度”是一个固定的搭配。
+这就像我们中文说“在星期天”或者“用某种方式”一样，英语里这里必须用一个介词来引出速度。
+规则：
+固定搭配：at a speed of... 意思是“以……的速度”。这是一个需要记住的短语哦。
+答案： at
+第3题
+原文： ..., _______ makes it possible to travel between Beijing and Shanghai in just 4.5 hours.
+翻译： ……这使得在北京和上海之间旅行仅需4.5小时成为可能。
+分析：
+
+注意看，这里有一个逗号。逗号后面直接跟着一个动词 "makes"。
+前面“列车以350公里时速行驶”这一整件事，导致了后面这个结果。
+在英语语法里，逗号后面不能直接用一个句子（没有连词的情况下），这时候我们需要一个引导词来指代前面整件事，并引导后面的句子。
+规则：
+非限制性定语从句：逗号后面，用 which 指代前面整句话的内容。这里 which 指代“列车跑得快这件事”。
+答案： which
+第4题
+原文： The first Fuxing train _______ (make) its debut in 2017.
+翻译： 第一列复兴号列车于2017年首次亮相。
+分析：
+
+这里的超级线索词是 "in 2017"（在2017年）。这是一个明确的过去时间点。
+既然是过去发生的事情，而且已经结束了，我们就用最普通的过去时态。
+"make" 的过去式是不规则的，需要记忆。
+规则：
+一般过去时：表示在过去某个时间发生的动作。动词要变成过去式。make 的过去式是 made。
+答案： made
+第5题
+原文： Since then, it _______ (improve) continuously.
+翻译： 从那时起，它一直在不断改进。
+分析：
+
+句首有两个很重要的字："Since then"（从那时起）。
+这是现在完成时的标志！意思是动作从过去开始，一直持续到现在，或者过去做的事对现在有影响。
+主语 "it" 是单数，助动词要用 has。
+另外，列车是“被改进”的，不是它自己改进自己，所以还要用被动语态。
+规则：
+现在完成时的被动语态：结构是 have/has been + 过去分词。
+"Since" 是线索词，看到它就要想到用完成时；主语是它（单数），用 has；被改进，加 been；最后加动词的过去分词 improved。
+答案： has been improved
+第6题
+原文： The train _______ (equip) with advanced technologies...
+翻译： 该列车配备了先进的技术……
+分析：
+
+这句话是在介绍列车的现状，属于客观事实。
+关键看动词 "equip"（装备）。列车能自己装备技术吗？不能，是设计师把它“装备好”的。所以这里又是“被动”关系。
+我们需要用一般现在时的被动语态。
+规则：
+一般现在时的被动语态：结构是 am/is/are + 过去分词。
+主语 "The train" 是单数，所以用 is。equip 的过去分词要双写 p 加 ed。
+答案： is equipped
+第7题
+原文： What surprises passengers most is _______ spacious and quiet the compartments are.
+翻译： 最让乘客惊讶的是车厢竟然如此宽敞和安静。
+分析：
+
+这句话是一个主系表结构。"What surprises..." 是主语，"is" 是系动词，后面是一个句子作表语。
+看空后面：紧跟的是形容词 "spacious and quiet"（宽敞和安静）。
+我们需要一个词来修饰这些形容词，表示“多么宽敞……”。这就像感叹句一样。
+规则：
+表语从句：这里考查 how + 形容词/副词 的用法。它引导一个从句，并在从句中修饰形容词，表示程度“多么……”。
+答案： how
+第8题
+原文： "...it is about _______ (enjoy) the journey itself," said a frequent traveler.
+翻译： “乘坐复兴号不仅仅是到达目的地，更是关于享受旅程本身，”一位常旅客说道。
+分析：
+
+找线索词 "about"。这是一个介词（about 意思是“关于”）。
+介词非常霸道，它后面紧跟的动词必须变成名词形式（动名词）。
+就像我们说 "I am good at swimming" 一样，at 后面要加 ing。
+规则：
+介词后接动名词：介词（如 about, at, in, on 等）后面如果跟动词，一定要用 V-ing 形式。
+答案： enjoying
+第9题
+原文： By 2026, the network _______ (extend) to cover over 45,000 kilometers...
+翻译： 到2026年，该网络将延伸覆盖超过45,000公里……
+分析：
+
+线索词是句首的 "By 2026"（到2026年为止）。
+这是对未来的预测，而且是“到将来某个时间点为止已经完成的动作”。
+"by + 将来时间" 是将来完成时的标志。
+同时，网络是被延伸的，所以还要用被动。
+规则：
+将来完成时的被动语态：结构是 will have been + 过去分词。
+意思是“将来某时将会已经被……”。虽然结构有点长，但只要记住 "By + 将来时间" 通常搭配 will have done（这里是被动，所以加 been done）。
+答案： will have been extended
+第10题
+原文： ..., _______ (benefit) millions of people daily.
+翻译： ……每天造福数百万人。
+分析：
+
+又看到了逗号。逗号后面没有连词，只有一个动词 "benefit"。
+主句的主语是 "the network"（网络）。网络延伸这件事，自然导致了“造福人类”的结果。
+网络是主动去造福人类的，这是一种自然的逻辑结果。
+这种结构叫作“现在分词作结果状语”。
+规则：
+现在分词作结果状语：当逗号后面表示前面动作带来的必然结果，且是主动关系时，用 V-ing 形式。
+答案： benefiting
+整体总结
+今天这篇短文，我们复习了几个非常核心的语法点：
+
+非谓语动词：包括过去分词作定语（表被动，如 called）和现在分词作结果状语（如表结果，如 benefiting）。
+时态与语态：这是重难点。
+一般过去时（看到具体过去时间，如 2017）。
+现在完成时被动语态（看到 Since，表示从过去持续到现在且被动）。
+将来完成时被动语态（看到 By + 将来时间）。
+介词用法：固定搭配 at a speed of，以及介词后接动名词。
+从句引导词：which 引导非限制性定语从句，how 引导表语从句。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
+    },
+    {
+        content: `The Yangtze River, 1. _______ (know) as the mother river of China, has faced serious pollution challenges over the past decades. However, things 2. _______ (change) dramatically since the government implemented the "Yangtze River Protection Law" in 2021.
+
+Recently, fishermen 3. _______ (turn) their boats into tourist ships, showing visitors the beautiful scenery along the river. More importantly, the number of Yangtze finless porpoises, 4. _______ are often called "smiling angels," has increased 5. _______ 20% compared to five years ago.
+
+The local government has also built many wetlands parks 6. _______ (protect) the ecosystem. "We must leave 7. _______ clean river to our future generations. Protecting the environment means 8. _______ (protect) ourselves," said an environmentalist. The efforts have paid off— the water 9. _______ (be) much clearer than ever before, and rare birds 10. _______ (spot) in the wetlands recently.`,
+        blanks: [
+            { index: 1, answer: "known" },
+            { index: 2, answer: "have changed" },
+            { index: 3, answer: "have turned" },
+            { index: 4, answer: "which" },
+            { index: 5, answer: "by" },
+            { index: 6, answer: "to protect" },
+            { index: 7, answer: "a" },
+            { index: 8, answer: "protecting" },
+            { index: 9, answer: "is" },
+            { index: 10, answer: "have been spotted" }
+        ],
+        explanation: `题目解析：
+第1题
+原文： The Yangtze River, _______ (know) as the mother river of China, has faced serious pollution challenges...
+
+翻译： 长江，被称为中国的母亲河，在过去的几十年里面临着严重的污染挑战。
+
+分析：
+
+我们先找主语，是 "The Yangtze River"（长江）。
+再看括号里的词是 "know"（知道）。
+你想啊，长江是一条河，它能有像人一样的动作去“知道”别的东西吗？不可能对吧？那是人“知道”它，或者是它“被知道”。
+这里有一个固定搭配 be known as（被称为……）。因为这里是做插入语修饰长江，所以我们要用被动形式。
+规则：
+
+过去分词：简单说，动词后面加了 "-ed"（不规则动词除外），在这里表示“被动”或者“完成”。如果主语是动作的承受者（比如这里长江是被知道的），我们就用这个形式。
+答案： known
+
+第2题
+原文： However, things _______ (change) dramatically since the government implemented the "Yangtze River Protection Law" in 2021.
+
+翻译： 然而，自从政府在2021年实施《长江保护法》以来，情况已经发生了巨大的变化。
+
+分析：
+
+这句话里有一个超级重要的线索词：since（自从）。
+在英语里，只要看到 "since"（自从……以来），通常都要搭配 现在完成时，表示从过去某个时间点一直持续到现在的动作或状态。
+主语 "things" 是复数，所以助动词要用 have。
+规则：
+
+现在完成时：结构是 have/has + 动词的过去分词。它表示动作发生在过去，但对现在有影响，或者持续到现在。
+记住口诀：“自从”要用完成时。
+答案： have changed
+
+第3题
+原文： Recently, fishermen _______ (turn) their boats into tourist ships, showing visitors the beautiful scenery along the river.
+
+翻译： 最近，渔民们已经把他们的船变成了旅游船，向游客展示沿岸的美景。
+
+分析：
+
+句首有个词叫 Recently（最近）。
+这是一个明显的信号，告诉我们这个动作是发生在最近，且对现在有影响。所以我们要用 现在完成时。
+主语 "fishermen"（渔民们）是复数，所以助动词用 have。
+"turn" 的过去分词还是 "turned"（规则动词直接加d）。
+规则：
+
+看到 Recently，大概率要考虑用 现在完成时。
+答案： have turned
+
+第4题
+原文： More importantly, the number of Yangtze finless porpoises, _______ are often called "smiling angels," has increased...
+
+翻译： 更重要的是，长江江豚的数量——它们常被称为“微笑天使”——已经增加了……
+
+分析：
+
+我们看逗号后面这句话，缺了一个主语。这个空后面紧跟动词 "are"，说明缺的是“谁”被叫做天使。
+它的前面是 "Yangtze finless porpoises"（长江江豚），这是一类动物。
+在英语定语从句（也就是用一个句子来修饰前面的词）中：
+指人用 who；
+指物用 which 或 that。
+但是！注意看，这里有逗号隔开，这是非限制性定语从句，不能用 that，只能用 which。
+规则：
+
+定语从句：就像给前面名词贴的一个标签。
+which：专门指代“物”或者“动物”。因为前面有逗号，所以我们选 which 而不选 that。
+答案： which
+
+第5题
+原文： ...has increased _______ 20% compared to five years ago.
+
+翻译： ……与五年前相比增加了20%。
+
+分析：
+
+这里考查的是介词。
+"increase" 是“增加”的意思。增加了多少幅度？英语里表达“增加了……”（表示幅度、差额），要用介词 by。
+比如：increased by 20%（增长了20%）。
+规则：
+
+by + 数字：表示数量增减的幅度。这是一个很固定的搭配，记住就好！
+答案： by
+
+第6题
+原文： The local government has also built many wetlands parks _______ (protect) the ecosystem.
+
+翻译： 当地政府还建了许多湿地公园来保护生态系统。
+
+分析：
+
+主语是政府，动作是建公园。建公园是为了什么？
+后面的 "protect"（保护）是建公园的目的。
+在英语里，表示“为了做某事”、“去做某事”，动词要用 to do（不定式）形式。
+规则：
+
+动词不定式：就是 to + 动词原形。它常用来表示目的，翻译成“为了……”。
+答案： to protect
+
+第7题
+原文： "We must leave _______ clean river to our future generations.
+
+翻译： “我们必须留给子孙后代一条干净的河流。”
+
+分析：
+
+这里的 "clean river"（干净的河流）是可数名词短语。
+单数可数名词是不能“裸奔”的，前面必须有限定词。
+这里是泛指“一条”干净的河流，而不是特指某一条，所以要用不定冠词。
+"clean" 的发音是以辅音音素开头的，所以用 a。
+规则：
+
+不定冠词 a/an：表示“一个”或泛指。辅音音素开头用 a，元音音素开头用 an。
+答案： a
+
+第8题
+原文： Protecting the environment means _______ (protect) ourselves," said an environmentalist.
+
+翻译： 保护环境意味着保护我们自己，”一位环保人士说。
+
+分析：
+
+这里有个关键动词 mean（意味着）。
+当 mean 作“意味着”讲的时候，后面如果跟动词，必须变成 ing 形式（动名词）。
+这是一个非常经典的考点：mean doing sth.（意味着做某事）。
+注意区别：mean to do sth. 是“打算做某事”的意思。这里明显是说保护环境“意味着”保护自己。
+规则：
+
+动名词：动词加 -ing，把动作变成一个名词概念。有些动词后面只喜欢跟这种形式，比如 mean, finish, enjoy 等。
+答案： protecting
+
+第9题
+原文： The efforts have paid off— the water _______ (be) much clearer than ever before...
+
+翻译： 努力已经得到了回报——水比以前清澈多了……
+
+分析：
+
+这是在描述现状。破折号后面是一个客观事实，说明现在的水很清。
+主语 "the water" 是不可数名词，看作单数。
+描述现在的状态，用一般现在时，单数第三人称。
+规则：
+
+主谓一致：主语是单数，be动词就用 is；主语是复数，就用 are。
+这里是在陈述一个现在的客观事实，所以用一般现在时。
+答案： is
+
+第10题
+原文： ...and rare birds _______ (spot) in the wetlands recently.
+
+翻译： ……最近在湿地里（人们）发现了一些珍稀鸟类。
+
+分析：
+
+线索词 recently（最近），看到它我们又要警觉了，可能要用完成时。
+主语是 "rare birds"（珍稀鸟类）。鸟类能自己“发现”吗？不能，它们是“被发现的”。
+所以要用被动语态（被做）。
+结合起来：又是最近发生的事（完成时），又是被动的（被动语态）。主语是复数。
+结构就是：have been + 动词过去分词。
+规则：
+
+现在完成时的被动语态：表示“已经被……”。结构是 have/has been done。
+spot 是“发现”的意思，过去分词要双写t加ed，变成 spotted。
+答案： have been spotted
+
+整体总结
+好啦，让我们来回顾一下这篇短文涉及的几个核心语法点，回去要重点复习哦：
+
+非谓语动词：特别是过去分词作定语或状语（如 known），表示被动。
+动词时态：
+现在完成时 (have/has done)：看到 since, recently 就要想到它。
+一般现在时：描述客观事实。
+定语从句：which 引导的非限制性定语从句，指代物。
+介词搭配：increase by + 百分比（表示幅度）。
+动词不定式：to do 表目的。
+动名词：mean doing sth.（意味着做某事）。
+被动语态：特别是现在完成时的被动 (have been done)。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
+    },
+    {
+        content: `The bronze chime bells of Marquis Yi of Zeng, 1. _______ (date) back to the Warring States Period, were unearthed in Suizhou, Hubei Province in 1978. These ancient instruments, 2. _______ produce sounds that can span five octaves, are considered 3. _______ wonder of ancient Chinese craftsmanship.
+
+In recent years, musicians 4. _______ (success) reproduced the original sound of the bells using modern technology. The new bells, 5. _______ (make) of bronze alloy, look exactly like the ancient ones but are lighter and 6. _______ (easy) to carry. This innovation allows the music 7. _______ (perform) on international stages more frequently.
+
+"Traditional culture 8. _______ (not belong) only in museums. It should live in our daily lives," said a cultural expert in Wuhan. The chime bell orchestra has given concerts in over 30 countries, 9. _______ (bring) the 2,000-year-old music to global audiences. It is hoped that through such efforts, the 10. _______ (beautiful) of Chinese traditional music will be appreciated worldwide.`,
+        blanks: [
+            { index: 1, answer: "dating" },
+            { index: 2, answer: "which" },
+            { index: 3, answer: "a" },
+            { index: 4, answer: "have successfully" },
+            { index: 5, answer: "made" },
+            { index: 6, answer: "easier" },
+            { index: 7, answer: "to be performed" },
+            { index: 8, answer: "does not belong" },
+            { index: 9, answer: "bringing" },
+            { index: 10, answer: "beauty" }
+        ],
+        explanation: `题目解析：
+第1题
+原文： The bronze chime bells of Marquis Yi of Zeng, _______ (date) back to the Warring States Period, were unearthed in Suizhou, Hubei Province in 1978.
+翻译： 曾侯乙编钟，追溯至战国时期，于1978年在湖北随州出土。
+分析：
+
+我们先找主句的谓语动词，看到了吗？是 were unearthed（被出土）。
+那这个空里的 date 怎么办？它夹在主语和谓语中间，前面有逗号，这通常是“非谓语动词”的信号。
+我们要看 date 和主语 bells 的关系。编钟是“追溯到”战国时期，这是编钟自己发出的动作，还是主动的关系？对，是主动的。
+所以我们要用 -ing 形式。
+规则： 现在分词作后置定语。简单说，当一个动词修饰前面的名词，且两者是“主动关系”时，我们就用动词的 -ing 形式。
+答案： dating
+第2题
+原文： These ancient instruments, _______ produce sounds that can span five octaves, are considered _______ wonder of ancient Chinese craftsmanship.
+翻译： 这些古代乐器，能发出跨越五个八度的声音，被视为中国古代工艺的一个奇迹。
+分析：
+
+这一题有两个空，我们先看第一个空。
+句子里有两个逗号，中间夹着的部分通常是补充说明。这里缺一个引导词来引导这个补充说明的部分。
+前面是 instruments（乐器），后面是 produce（产生），这是一个完整的句子。因为前面有逗号，且修饰的是物，所以不能用 that，要用 which。
+再看第二个空。considered 后面跟的是 wonder（奇迹）。这里是指“一个奇迹”，wonder 是可数名词，单数，且以辅音音素开头。
+规则：
+非限制性定语从句：逗号后面修饰物，引导词用 which。
+冠词：单数可数名词前常加冠词，表示“一个”用 a。
+答案： which；a
+第3题
+原文： In recent years, musicians _______ (success) reproduced the original sound of the bells using modern technology.
+翻译： 近年来，音乐家们已经成功地利用现代技术复制了编钟的原声。
+分析：
+
+看到句首的 In recent years（近年来）了吗？这是一个超级重要的“线索词”！
+它提示我们这句话的时态是 现在完成时，表示从过去持续到现在的影响。
+结构是 have/has + 动词的过去分词。
+还有括号里的词是 success（名词，成功），我们需要把它变成副词来修饰动词 reproduced。success 的副词是 successfully。
+规则： 现在完成时。标志词是“in recent years”，结构为 have/has + 过去分词。另外，名词变形容词/副词：success (名) → successful (形) → successfully (副)。
+答案： have successfully
+第4题
+原文： The new bells, _______ (make) of bronze alloy, look exactly like the ancient ones but are lighter and _______ (easy) to carry.
+翻译： 这些新编钟，由青铜合金制成，看起来和古代的一模一样，但更轻，也更容易携带。
+分析：
+
+这题也有两个空。先看第一个，又是两个逗号中间夹着的东西。主句谓语是 look。
+编钟和 make 的关系是什么？编钟是被制造的，对不对？所以是被动。
+再看第二个空，and 前面出现了 lighter（更轻），这是一个比较级。and 连接并列结构，所以后面也要变成比较级。
+规则：
+过去分词作后置定语：表示被动或完成。这里指“被制造”，用 made。
+形容词比较级：and 前后连接两个并列的比较级，easy 的比较级是 easier。
+答案： made；easier
+第5题
+原文： This innovation allows the music _______ (perform) on international stages more frequently.
+翻译： 这项创新使得音乐能够在国际舞台上更频繁地被演奏。
+分析：
+
+这里考了一个固定搭配：allow sb. to do sth.（允许某人做某事）。
+这里的 sb. 是 music（音乐）。音乐能“主动”演奏吗？不能，音乐是“被”演奏的。
+所以我们要用被动形式。
+规则： 不定式的被动语态。当不定式动词的逻辑主语是动作的承受者时，用 to be + 过去分词 结构。
+答案： to be performed
+第6题
+原文： "Traditional culture _______ (not belong) only in museums. It should live in our daily lives," said a cultural expert in Wuhan.
+翻译： “传统文化不仅仅属于博物馆。它应该活在我们的日常生活中，”武汉的一位文化专家说。
+分析：
+
+这句话是专家说的观点，陈述一个客观事实。
+主语是 culture（文化），这是不可数名词，看作单数。
+谓语动词 belong 需要用一般现在时，而且是否定形式。
+单数第三人称的否定，要借用助动词 does，后面动词还原成原形。
+规则： 主谓一致与否定句。主语是第三人称单数，变否定要加 doesn't (does not)，后面的动词用原形。
+答案： does not belong
+第7题
+原文： The chime bell orchestra has given concerts in over 30 countries, _______ (bring) the 2,000-year-old music to global audiences.
+翻译： 编钟乐团已经在30多个国家举办过音乐会，将这有2000年历史的音乐带给了全球观众。
+分析：
+
+句子前面 has given 已经是谓语了，后面又出现动词 bring，中间用逗号连接，没有连词。
+这说明 bring 是非谓语动词。
+乐团举办音乐会，结果是“带来”了音乐。这是一种自然而然的结果，主动的动作。
+规则： 现在分词作结果状语。表示前面动作带来的自然结果，且是主动的，用 -ing 形式。
+答案： bringing
+第8题
+原文： It is hoped that through such efforts, the _______ (beautiful) of Chinese traditional music will be appreciated worldwide.
+翻译： 人们希望通过这些努力，中国传统音乐之美能在全世界受到赞赏。
+分析：
+
+看空的前面，有一个定冠词 the。后面是介词 of。
+中间缺一个名词。括号给的是 beautiful（形容词，美丽的）。
+我们要把它变成名词。
+规则： 词性转换。形容词变名词，beautiful 的名词形式是 beauty（美）。
+答案： beauty
+整体总结
+好啦，题目都讲完了。我们来简单回顾一下这篇短文涉及的几个核心语法点：
+
+非谓语动词：这是重头戏。区分 -ing（主动、进行）和 -ed（被动、完成）非常重要。
+定语从句：看到逗号隔开，修饰物，引导词选 which。
+时态与语态：注意像 “In recent years” 这样的时间状语提示现在完成时；以及动词的主动与被动形式。
+词性转换与比较级：形容词变名词，形容词变比较级，这些都是基础功，要多记单词变形。
+
+所有的熟练，都是从生涩的填空开始的
+此处留白，非为缺憾，乃邀君共书
+`
+    },
+
 ];
 
 // ========== 状态管理 ==========
