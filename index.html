@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="grammar-fill.css">
     <link rel="stylesheet" href="translation-fill.css">
+    <link rel="stylesheet" href="reading-fill.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -40,10 +41,9 @@
                 <span class="menu-icon">🌐</span>
                 翻译填空
             </button>
-             <button class="menu-item disabled">
+            <button class="menu-item">
                 <span class="menu-icon">🧩</span>
                 阅读填空
-                <span class="pending">更多功能敬请期待</span>
             </button>           
             <button class="menu-item disabled">
                 <span class="menu-icon">📖</span>
@@ -156,6 +156,39 @@
 
             <div id="translationResult" class="result"></div>
             <div id="translationExplanation" class="explanation"></div>
+        </div>
+
+        <div class="exercise-card reading-card hidden">
+            <div class="card-header">
+                <h2>阅读填空</h2>
+                <div class="progress-indicator">
+                    <span id="readingQuestionNumber">1</span>
+                    <span class="divider">/</span>
+                    <span id="readingTotalQuestions">1</span>
+                </div>
+            </div>
+
+            <div id="readingContent" class="reading-content">
+                <!-- 动态渲染题目内容 -->
+            </div>
+
+            <div class="actions">
+                <button id="readingPrevBtn" class="btn btn-prev">
+                    <span class="btn-icon">←</span>
+                    上一题
+                </button>
+                <button id="readingCheckBtn" class="btn btn-check">
+                    <span class="btn-icon">✓</span>
+                    检查答案
+                </button>
+                <button id="readingNextBtn" class="btn btn-next">
+                    下一题
+                    <span class="btn-icon">→</span>
+                </button>
+            </div>
+
+            <div id="readingResult" class="result"></div>
+            <div id="readingExplanation" class="explanation"></div>
         </div>
 
         <div class="ai-chat-card">
@@ -274,8 +307,13 @@
     <script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.19.0/js/md5.min.js"></script>
     <script src="baidu-translate.js"></script>
     <script src="ai-service.js"></script>
+    <script src="TK1.js"></script>
+    <script src="TK2.js"></script>
+    <script src="TK3.js"></script>
+    <script src="TK4.js"></script>
     <script src="script.js"></script>
     <script src="grammar-fill.js"></script>
     <script src="translation-fill.js"></script>
+    <script src="reading-fill.js"></script>
 </body>
 </html>

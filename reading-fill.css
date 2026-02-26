@@ -1,0 +1,324 @@
+/* ========== 阅读填空卡片样式 ========== */
+.reading-card {
+    position: relative;
+    overflow: visible;
+    pointer-events: auto;
+}
+
+/* 笔记纹理装饰 */
+.reading-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: repeating-linear-gradient(
+        transparent,
+        transparent 27px,
+        rgba(173, 216, 230, 0.15) 28px
+    );
+    pointer-events: none;
+    z-index: 0;
+}
+
+.reading-content {
+    position: relative;
+    z-index: 10;
+    padding: 20px 0;
+    min-height: 200px;
+    -webkit-user-select: text;
+    user-select: text;
+    pointer-events: auto;
+}
+
+/* 文章标题 */
+.reading-article-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #5d8ab8;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgba(122, 168, 214, 0.3);
+}
+
+/* 文章段落 */
+.reading-paragraph {
+    margin-bottom: 20px;
+    line-height: 2;
+    font-size: 16px;
+    color: #4a6fa5;
+}
+
+/* 摘要填空区标题 */
+.reading-summary-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #5d8ab8;
+    margin: 24px 0 16px 0;
+    padding-left: 12px;
+    border-left: 4px solid rgba(122, 168, 214, 0.5);
+}
+
+/* 问题条目 */
+.reading-question-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 12px;
+    line-height: 2;
+    font-size: 16px;
+    color: #4a6fa5;
+}
+
+/* 问题标签 */
+.reading-question-label {
+    flex-shrink: 0;
+    min-width: 50px;
+    font-weight: 600;
+    color: #5d8ab8;
+    margin-right: 8px;
+}
+
+/* 问题文本容器 */
+.reading-question-text {
+    flex: 1;
+    line-height: 2;
+}
+
+/* 阅读填空输入框 */
+.reading-blank {
+    display: inline-block;
+    width: 80px;
+    min-width: 80px;
+    max-width: 200px;
+    height: 24px;
+    border: none;
+    border-bottom: 2px solid rgba(93, 138, 184, 0.5);
+    border-radius: 0;
+    background: transparent;
+    padding: 0 6px;
+    margin: 0 4px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #4a6fa5;
+    text-align: left;
+    pointer-events: auto;
+    -webkit-user-select: text;
+    user-select: text;
+    cursor: text;
+    box-sizing: border-box;
+    line-height: 20px;
+    vertical-align: middle;
+    transition: none;
+}
+
+.reading-blank:focus {
+    outline: none;
+    border-bottom-color: rgba(93, 138, 184, 0.6);
+}
+
+/* 正确状态 */
+.reading-blank.correct {
+    border-bottom-color: rgba(40, 167, 69, 0.6);
+    color: #155724;
+}
+
+/* 错误状态 */
+.reading-blank.incorrect {
+    border-bottom-color: rgba(220, 53, 69, 0.6);
+    color: #721c24;
+}
+
+/* 答案列表 */
+.reading-answers-list {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 40px;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+.reading-answer-item {
+    flex: 0 0 calc(50% - 20px);
+    padding: 4px 8px;
+    color: #4a6fa5;
+    font-weight: 600;
+    box-sizing: border-box;
+    text-align: left;
+    white-space: nowrap;
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+/* 响应式适配 */
+@media (max-width: 768px) {
+    .reading-content {
+        padding: 15px 0;
+    }
+
+    .reading-article-title {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .reading-paragraph {
+        font-size: 15px;
+        line-height: 1.9;
+        margin-bottom: 16px;
+    }
+
+    .reading-summary-title {
+        font-size: 16px;
+        margin: 20px 0 14px 0;
+        padding-left: 10px;
+        border-left-width: 3px;
+    }
+
+    .reading-question-item {
+        font-size: 15px;
+        line-height: 1.9;
+        margin-bottom: 10px;
+    }
+
+    .reading-question-label {
+        min-width: 45px;
+        margin-right: 6px;
+    }
+
+    .reading-blank {
+        min-width: 70px !important;
+        max-width: 180px !important;
+        min-height: 22px !important;
+        font-size: 14px !important;
+        padding: 3px 5px 1px 5px !important;
+        margin: 0 4px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .reading-content {
+        padding: 10px 0;
+    }
+
+    .reading-article-title {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .reading-paragraph {
+        font-size: 14px;
+        line-height: 1.8;
+        margin-bottom: 12px;
+    }
+
+    .reading-summary-title {
+        font-size: 15px;
+        margin: 16px 0 12px 0;
+        padding-left: 8px;
+        border-left-width: 3px;
+    }
+
+    .reading-question-item {
+        font-size: 14px;
+        line-height: 1.8;
+        margin-bottom: 8px;
+    }
+
+    .reading-question-label {
+        min-width: 40px;
+        font-size: 13px;
+        margin-right: 4px;
+    }
+
+    .reading-blank {
+        min-width: 60px !important;
+        max-width: 160px !important;
+        min-height: 20px !important;
+        font-size: 13px !important;
+        padding: 2px 4px 1px 4px !important;
+        margin: 0 3px !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .reading-article-title {
+        font-size: 14px;
+    }
+
+    .reading-paragraph {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .reading-summary-title {
+        font-size: 14px;
+        padding-left: 6px;
+        border-left-width: 2px;
+    }
+
+    .reading-question-item {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .reading-question-label {
+        min-width: 35px;
+        font-size: 12px;
+    }
+
+    .reading-blank {
+        min-width: 50px !important;
+        max-width: 140px !important;
+        min-height: 18px !important;
+        font-size: 12px !important;
+        padding: 2px 3px 1px 3px !important;
+        margin: 0 2px !important;
+    }
+}
+
+/* 横屏模式优化 */
+@media (max-height: 600px) and (orientation: landscape) {
+    .reading-content {
+        padding: 10px 0;
+    }
+
+    .reading-article-title {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .reading-paragraph {
+        margin-bottom: 8px;
+        line-height: 1.6;
+    }
+
+    .reading-summary-title {
+        font-size: 15px;
+        margin: 14px 0 10px 0;
+        padding-left: 10px;
+    }
+
+    .reading-question-item {
+        margin-bottom: 6px;
+        line-height: 1.6;
+    }
+}
+
+/* 打印样式 */
+@media print {
+    .reading-card::before {
+        display: none;
+    }
+
+    .reading-blank {
+        border-bottom: 1px solid #000;
+        background: transparent;
+        color: #000;
+    }
+}

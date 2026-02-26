@@ -38,7 +38,14 @@ textarea,
 .grammar-text,
 .grammar-sentence,
 .grammar-paragraph,
-.grammar-content {
+.grammar-content,
+.reading-paragraph,
+.reading-content,
+.reading-summary-title,
+.reading-question-item,
+.reading-question-label,
+.reading-question-text,
+.reading-text {
     -webkit-touch-callout: text;
     -webkit-user-select: text;
     user-select: text;
