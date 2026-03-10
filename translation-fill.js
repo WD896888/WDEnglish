@@ -399,11 +399,11 @@ function handleTextSelectionForTranslation(e) {
         return;
     }
 
-    // 获取选中文本的位置
-    const rect = range.getBoundingClientRect();
+    // 获取选中文本的位置（支持跨行选择）
+    const rect = getSelectionBoundingRect(range);
 
     // 如果选区没有有效尺寸，不显示
-    if (rect.width === 0 && rect.height === 0) {
+    if (!rect) {
         return;
     }
 
@@ -413,6 +413,49 @@ function handleTextSelectionForTranslation(e) {
             showTranslationTooltip(rect, selectedText);
         }
     }
+}
+
+/**
+ * 获取选区的边界矩形（支持跨行选择）
+ * @param {Range} range - 选区对象
+ * @returns {Object|null} 边界矩形对象或 null
+ */
+function getSelectionBoundingRect(range) {
+    const rects = range.getClientRects();
+    
+    if (rects.length === 0) {
+        const boundingRect = range.getBoundingClientRect();
+        if (boundingRect.width > 0 || boundingRect.height > 0) {
+            return boundingRect;
+        }
+        return null;
+    }
+    
+    let minX = Infinity, minY = Infinity;
+    let maxX = -Infinity, maxY = -Infinity;
+    
+    for (let i = 0; i < rects.length; i++) {
+        const r = rects[i];
+        if (r.width === 0 && r.height === 0) continue;
+        
+        minX = Math.min(minX, r.left);
+        minY = Math.min(minY, r.top);
+        maxX = Math.max(maxX, r.right);
+        maxY = Math.max(maxY, r.bottom);
+    }
+    
+    if (minX === Infinity) {
+        return null;
+    }
+    
+    return {
+        left: minX,
+        top: minY,
+        right: maxX,
+        bottom: maxY,
+        width: maxX - minX,
+        height: maxY - minY
+    };
 }
 
 // mousedown 事件处理

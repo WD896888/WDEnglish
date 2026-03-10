@@ -28,6 +28,41 @@ let autoTranslateTimer = null;
 let cachedQuestionIndices = new Set(); // 记录已缓存的题目索引
 const MAX_CACHED_QUESTIONS = 5; // 最多缓存5道题
 
+// ========== 页面入场动画 ==========
+// 触发页面入场动画（刷新页面或从其他页面返回时调用）
+function triggerPageEnterAnimation() {
+    const body = document.body;
+    
+    // 先添加准备状态，让元素不可见
+    body.classList.add('page-preparing');
+    body.classList.remove('page-entering');
+    
+    // 触发重绘
+    void body.offsetWidth;
+    
+    // 移除准备状态，添加动画状态
+    body.classList.remove('page-preparing');
+    body.classList.add('page-entering');
+    
+    // 动画结束后移除动画类（最长动画是0.6s + 0.6s延迟 = 1.2s）
+    setTimeout(() => {
+        body.classList.remove('page-entering');
+    }, 1300);
+}
+
+// 页面加载完成后，等待入场动画结束再移除动画类
+function initPageEnterAnimation() {
+    const body = document.body;
+    
+    // 如果页面初始就有 page-entering 类，等待动画结束后移除
+    if (body.classList.contains('page-entering')) {
+        // 最长动画是0.6s + 0.6s延迟 = 1.2s
+        setTimeout(() => {
+            body.classList.remove('page-entering');
+        }, 1300);
+    }
+}
+
 // DOM元素
 const wordsContainer = document.getElementById('wordsContainer');
 const checkBtn = document.getElementById('checkBtn');
@@ -41,10 +76,11 @@ const totalQuestionsEl = document.getElementById('totalQuestions');
 // ========== 菜单切换功能 ==========
 function initMenuSwitch() {
     const menuItems = document.querySelectorAll('.menu-item');
-    const sentenceCard = document.querySelector('.exercise-card:not(.grammar-card):not(.translation-card):not(.reading-card)');
+    const sentenceCard = document.querySelector('.exercise-card:not(.grammar-card):not(.translation-card):not(.reading-card):not(.rc-card)');
     const grammarCard = document.querySelector('.grammar-card');
     const translationCard = document.querySelector('.translation-card');
     const readingCard = document.querySelector('.reading-card');
+    const rcCard = document.querySelector('.rc-card');
 
     menuItems.forEach((item, index) => {
         item.addEventListener('click', () => {
@@ -58,14 +94,18 @@ function initMenuSwitch() {
             item.classList.add('active');
 
             // 切换卡片显示
-            switchCard(index, sentenceCard, grammarCard, translationCard, readingCard);
+            switchCard(index, sentenceCard, grammarCard, translationCard, readingCard, rcCard);
         });
     });
 }
 
 // 切换卡片显示
-function switchCard(menuIndex, sentenceCard, grammarCard, translationCard, readingCard) {
-    // 0: 连词成句, 1: 语法填空, 2: 翻译填空, 3: 阅读填空
+function switchCard(menuIndex, sentenceCard, grammarCard, translationCard, readingCard, rcCard) {
+    // 切换菜单时不应该触发入场动画，确保移除动画相关类
+    document.body.classList.remove('page-entering');
+    document.body.classList.remove('page-preparing');
+    
+    // 0: 连词成句, 1: 语法填空, 2: 翻译填空, 3: 阅读填空, 4: 阅读理解
     const subtitle = document.getElementById('subtitle');
     
     // 先隐藏所有卡片
@@ -73,6 +113,7 @@ function switchCard(menuIndex, sentenceCard, grammarCard, translationCard, readi
     if (grammarCard) grammarCard.classList.add('hidden');
     if (translationCard) translationCard.classList.add('hidden');
     if (readingCard) readingCard.classList.add('hidden');
+    if (rcCard) rcCard.classList.add('hidden');
     
     if (menuIndex === 0) {
         // 连词成句
@@ -94,6 +135,10 @@ function switchCard(menuIndex, sentenceCard, grammarCard, translationCard, readi
         // 阅读填空
         if (readingCard) readingCard.classList.remove('hidden');
         if (subtitle) subtitle.textContent = '在文字的森林中穿行，拾取意义的碎片';
+    } else if (menuIndex === 4) {
+        // 阅读理解
+        if (rcCard) rcCard.classList.remove('hidden');
+        if (subtitle) subtitle.textContent = '读懂文字背后的深意，感悟故事里的真情';
     }
 }
 
@@ -126,6 +171,9 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         return false;
     });
+
+    // 初始化页面入场动画（等待动画结束后移除动画类）
+    initPageEnterAnimation();
 });
 
 // 加载题目
@@ -2575,3 +2623,164 @@ function resetAdvancedSettings() {
 
 // 在页面加载完成后初始化头像功能
 window.addEventListener('DOMContentLoaded', initAvatarFeature);
+
+// ========== 折叠侧边栏功能 ==========
+function initSidebar() {
+    const sidebarToggle = document.getElementById('sidebarToggle');
+    const sidebar = document.getElementById('sidebar');
+    const sidebarOverlay = document.getElementById('sidebarOverlay');
+    const sidebarClose = document.getElementById('sidebarClose');
+
+    if (!sidebarToggle || !sidebar || !sidebarOverlay) return;
+
+    // 计算滚动条宽度
+    function getScrollbarWidth() {
+        return window.innerWidth - document.documentElement.clientWidth;
+    }
+
+    // 打开侧边栏
+    function openSidebar() {
+        // 计算并补偿滚动条宽度，防止内容布局移动
+        const scrollbarWidth = getScrollbarWidth();
+        if (scrollbarWidth > 0) {
+            document.body.style.paddingRight = scrollbarWidth + 'px';
+        }
+        sidebar.classList.add('active');
+        sidebarOverlay.classList.add('active');
+        sidebarToggle.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    // 关闭侧边栏
+    function closeSidebar() {
+        // 给关闭按钮添加凹陷状态
+        sidebarClose.classList.add('pressed');
+        
+        sidebar.classList.remove('active');
+        sidebarOverlay.classList.remove('active');
+        document.body.style.overflow = '';
+        document.body.style.paddingRight = '';
+        
+        // 等侧边栏折叠动画结束后再显示按钮并移除凹陷状态
+        setTimeout(() => {
+            sidebarToggle.classList.remove('active');
+            sidebarClose.classList.remove('pressed');
+        }, 350);
+    }
+
+    // 切换侧边栏
+    function toggleSidebar() {
+        if (sidebar.classList.contains('active')) {
+            closeSidebar();
+        } else {
+            openSidebar();
+        }
+    }
+
+    // 事件绑定
+    sidebarToggle.addEventListener('click', toggleSidebar);
+    sidebarClose.addEventListener('click', closeSidebar);
+    sidebarOverlay.addEventListener('click', closeSidebar);
+
+    // ESC键关闭
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && sidebar.classList.contains('active')) {
+            closeSidebar();
+        }
+    });
+}
+
+// 初始化侧边栏
+window.addEventListener('DOMContentLoaded', initSidebar);
+
+// ========== 全屏页面覆盖层功能 ==========
+function initPageOverlay() {
+    const btnZhuanShengBen = document.getElementById('btnZhuanShengBen');
+    const pageOverlay = document.getElementById('pageOverlay');
+    const pageOverlayClose = document.getElementById('pageOverlayClose');
+    const pageOverlayIframe = document.getElementById('pageOverlayIframe');
+    const sidebar = document.getElementById('sidebar');
+    const sidebarOverlay = document.getElementById('sidebarOverlay');
+    const sidebarToggle = document.getElementById('sidebarToggle');
+
+    if (!pageOverlay || !btnZhuanShengBen) return;
+
+    // 计算滚动条宽度
+    function getScrollbarWidth() {
+        return window.innerWidth - document.documentElement.clientWidth;
+    }
+
+    // 打开页面覆盖层
+    function openPageOverlay(url, title) {
+        if (pageOverlayIframe && url) {
+            pageOverlayIframe.src = url;
+        }
+        if (title) {
+            const titleText = document.getElementById('pageOverlayTitleText');
+            if (titleText) titleText.textContent = title;
+        }
+        pageOverlay.classList.add('active');
+        
+        // 计算并补偿滚动条宽度
+        const scrollbarWidth = getScrollbarWidth();
+        if (scrollbarWidth > 0) {
+            document.body.style.paddingRight = scrollbarWidth + 'px';
+        }
+        document.body.style.overflow = 'hidden';
+        
+        // 关闭侧边栏
+        if (sidebar && sidebar.classList.contains('active')) {
+            sidebar.classList.remove('active');
+        }
+        if (sidebarOverlay && sidebarOverlay.classList.contains('active')) {
+            sidebarOverlay.classList.remove('active');
+        }
+        if (sidebarToggle) {
+            sidebarToggle.classList.remove('active');
+        }
+    }
+
+    // 关闭页面覆盖层
+    function closePageOverlay() {
+        // 先设置准备状态，让主界面元素不可见
+        document.body.classList.add('page-preparing');
+        document.body.classList.remove('page-entering');
+        
+        // 关闭覆盖层
+        pageOverlay.classList.remove('active');
+        document.body.style.overflow = '';
+        document.body.style.paddingRight = '';
+        
+        // 清空iframe以释放资源
+        if (pageOverlayIframe) {
+            setTimeout(() => {
+                pageOverlayIframe.src = '';
+            }, 300);
+        }
+        
+        // 立即触发页面入场动画
+        requestAnimationFrame(() => {
+            triggerPageEnterAnimation();
+        });
+    }
+
+    // 点击专升本报录比按钮
+    btnZhuanShengBen.addEventListener('click', () => {
+        openPageOverlay('专升本报录比.html', '专升本报录比');
+    });
+
+    // 点击关闭按钮
+    if (pageOverlayClose) {
+        pageOverlayClose.addEventListener('click', closePageOverlay);
+    }
+
+    // ESC键关闭
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && pageOverlay.classList.contains('active')) {
+            closePageOverlay();
+        }
+    });
+}
+
+// 初始化页面覆盖层
+window.addEventListener('DOMContentLoaded', initPageOverlay);

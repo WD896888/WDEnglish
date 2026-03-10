@@ -7851,6 +7851,3182 @@ However, modernization has brought challenges. Fewer young Mongolians are learni
 原文定位：做题的秘诀就是“找相同”，先在题目里圈出关键词（大写字母、数字、特别的名词），再回文章里找一模一样或长得很像的句子。
 `
 },
+{
+    title: "Wudang Martial Arts",
+    article: `Wudang martial arts, which began in the Wudang Mountains of Hubei, are more than a system of fighting. They combine movement, breathing, and ideas about harmony in daily life. Many forms are soft and slow, teaching students to stay calm and keep balance in body and mind.
 
+In the past, learners followed masters for years and copied each movement again and again. They often practiced in the early morning and learned not only skills but also respect and patience.
+
+Today, the tradition faces challenges. Modern life is fast, and fewer young people are willing to spend so much time on long training. To keep the art alive, local schools have opened martial arts clubs, and museums now use online videos to introduce Wudang culture to visitors around the world.`,
+    questions: [
+        {
+            label: "What",
+            text: "Wudang martial arts are more than a system of 1. ______.",
+            blanks: [{ index: 1, answer: "fighting" }]
+        },
+        {
+            label: "Feature",
+            text: "They teach students to keep 2. ______ in body and mind.",
+            blanks: [{ index: 2, answer: "balance" }]
+        },
+        {
+            label: "Traditional learning",
+            text: "Learners followed masters and 3. ______ each movement.",
+            blanks: [{ index: 3, answer: "copied" }]
+        },
+        {
+            label: "Challenge",
+            text: "4. ______ young people are willing to spend years on training.",
+            blanks: [{ index: 4, answer: "fewer" }]
+        },
+        {
+            label: "Action taken",
+            text: "Local schools open clubs, and museums use online 5. ______.",
+            blanks: [{ index: 5, answer: "videos" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： What: Wudang martial arts are more than a system of ______.
+
+翻译： 内容：武当武术不仅仅是一个______体系。
+
+阅读原文： Wudang martial arts, which began in the Wudang Mountains of Hubei, are more than a system of fighting.
+
+翻译： 武当武术起源于湖北武当山，它不仅仅是一个搏击体系。
+
+分析：
+咱们先看题目里的关键短语 “more than a system of…”（不仅仅是一个……体系）。这就像是我们要找的“路标”。现在，请你把目光移到文章的第一段第一句，是不是看到了一模一样的 “more than a system of”？
+原文里后面紧跟的词就是我们要找的答案。这就像是“连连看”游戏，题目和原文重合了，答案就在后面等着你呢。
+
+规则：
+这里考查的是原词重现。意思就是，题目几乎照抄了原文的句子，我们不需要做任何复杂的变形，直接把那个词抄下来就行。“Fighting” 在这里是名词，意思是“搏击、打斗”。
+
+答案： fighting
+
+第2题
+题目： Feature: They teach students to keep ______ in body and mind.
+
+翻译： 特点：它们教导学生在身心上保持______。
+
+阅读原文： Many forms are soft and slow, teaching students to stay calm and keep balance in body and mind.
+
+翻译： 许多形式柔和缓慢，教导学生保持冷静，并在身心上保持平衡。
+
+分析：
+这一题稍微变了一点点花样，但也没难到哪里去。题目里有一个很明显的词组 “keep… in body and mind”（在身心上保持……）。
+我们回到第一段最后一句，找到了 “keep balance in body and mind”。题目中的 “Feature”（特点）其实就是对文章中描述武当武术特性的总结。你要填的那个词，就在 “keep” 后面乖乖躺着呢。
+
+规则：
+这里考查的是固定搭配和名词。“Keep balance” 是一个常用短语，意思是“保持平衡”。“Balance” 是一个名词，表示一种状态。记住，看到 “keep” 后面通常接名词或者形容词，这里明显是接了一个名词。
+
+答案： balance
+
+第3题
+题目： Traditional learning: Learners followed masters and ______ each movement.
+
+翻译： 传统学习方式：学习者跟随师傅，并______每一个动作。
+
+阅读原文： In the past, learners followed masters for years and copied each movement again and again.
+
+翻译： 过去，学习者跟随师傅多年，并一遍又一遍地模仿每一个动作。
+
+分析：
+注意看题目里的 “and”（和），这是一个超级重要的线索词！它表示前后是“并列关系”，就像两兄弟手拉手。
+题目里已经有了 “followed”（跟随），这是动词的过去式。那么 “and” 后面的那个空，肯定也得是一个动词，而且形式要跟 “followed” 保持一致。
+我们在第二段第一句找到了原句，原文是 “followed… and copied…”。既然前面用了过去式 “followed”，后面这个动作也得变成过去式。
+
+规则：
+这里考查的是并列结构和动词时态。
+
+并列结构：由 “and” 连接的两个词，词性要一样，形式也要一样。前面是动词，后面也是动词。
+过去式：文章讲的是 “In the past”（在过去）的事情，所以动词要用过去式。“Copy”（模仿）的过去式要双写字母 y 变 i 加 ed，变成 copied。
+答案： copied
+
+第4题
+题目： Challenge: ______ young people are willing to spend years on training.
+
+翻译： 挑战：______年轻人愿意花数年时间训练。
+
+阅读原文： Modern life is fast, and fewer young people are willing to spend so much time on long training.
+
+翻译： 现代生活节奏快，愿意花这么多时间进行长期训练的年轻人更少了。
+
+分析：
+题目里的 “Challenge”（挑战）告诉我们这里要说的是不好的消息。看关键词 “young people” 和 “willing to spend”。
+回到第三段第一句，我们发现原文说 “fewer young people are willing to…”。这里的 “fewer” 是什么意思呢？它是“更少”的意思。因为这是一个 “Challenge”（挑战/困难），所以肯定是说愿意学的人变少了。
+
+规则：
+这里考查的是形容词比较等级。
+
+Fewer 是 few（很少）的比较级，意思是“更少的”，用来修饰可数名词（比如 young people）。
+这需要结合上下文理解：因为现代生活节奏快，所以愿意花时间学武术的年轻人“更少”了。
+答案： fewer
+
+第5题
+题目： Action taken: Local schools open clubs, and museums use online ______.
+
+翻译： 采取的行动：当地学校开设俱乐部，博物馆使用在线______。
+
+阅读原文： To keep the art alive, local schools have opened martial arts clubs, and museums now use online videos to introduce Wudang culture to visitors around the world.
+
+翻译： 为了让这门艺术存活下去，当地学校开设了武术俱乐部，博物馆现在利用在线视频向世界各地的游客介绍武当文化。
+
+分析：
+最后一题啦！题目里的句子结构和文章最后一句非常像。题目说 “museums use online…”，原文说 “museums now use online videos”。
+这里 “online” 是形容词，修饰后面的名词。原文里 “online” 后面紧跟的就是 “videos”。这又是一个简单的“填空”游戏，直接把这个词搬下来就好。
+
+规则：
+这里考查的是名词作宾语。
+
+“Use” 是一个动词（使用），动词后面要跟一个名词作为动作的对象（宾语）。
+“Videos” 是名词，意思是“视频”。注意，因为博物馆展示的视频通常有很多个，所以这里用了复数形式，加了 s。
+答案： videos
+
+整体总结
+好啦，我们讲完了！你看，其实并没有想象中那么难，对不对？这篇文章主要复习了这几个核心点：
+
+查找细节：大部分答案都能在文章里找到原句，关键是要学会像侦探一样找“线索词”（比如 and, keep, in body and mind）。
+名词的单复数：比如第5题的 videos，如果不加 s，虽然意思对，但语法上就不严谨啦。
+动词的时态：比如第3题，因为讲的是过去的故事，所以要用过去式 copied。
+并列关系：看到 and，就要想到前后要“长得像”，词性和时态要一致。
+`
+},
+{
+    title: "Saving the Yangtze Finless Porpoise",
+    article: `The Yangtze finless porpoise is the only freshwater porpoise in China. It once lived widely in the Yangtze River, but its numbers fell quickly because of pollution, busy shipping, and illegal fishing. When the river becomes noisy and dirty, porpoises find it harder to live and hunt for food.
+
+Protecting these animals is not easy. They are shy and spend only a short time above water, so scientists cannot watch them all day. Instead, researchers now use sound recorders and drones to follow their movements and study their living habits.
+
+In recent years, protected areas have grown, and long fishing bans have given the porpoises a safer home. Thanks to these efforts, some groups have started to recover.`,
+    questions: [
+        {
+            label: "Identity",
+            text: "It is China’s only 1. ______ porpoise.",
+            blanks: [{ index: 1, answer: "freshwater" }]
+        },
+        {
+            label: "Problems",
+            text: "Pollution and illegal fishing make it harder for porpoises to find 2. ______.",
+            blanks: [{ index: 2, answer: "food" }]
+        },
+        {
+            label: "Difficulty",
+            text: "Scientists cannot watch them easily because they stay above water for only a short 3. ______.",
+            blanks: [{ index: 3, answer: "time" }]
+        },
+        {
+            label: "Methods",
+            text: "Researchers use sound recorders and 4. ______ to study their movements.",
+            blanks: [{ index: 4, answer: "drones" }]
+        },
+        {
+            label: "Hope",
+            text: "Fishing 5. ______ have given the animals a safer home.",
+            blanks: [{ index: 5, answer: "bans" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： It is China’s only 1. ______ porpoise.
+翻译： 它是中国唯一的一种______江豚。
+
+阅读原文： The Yangtze finless porpoise is the only freshwater porpoise in China.
+翻译： 长江江豚是中国唯一的一种淡水江豚。
+
+分析：
+我们先看题目里的关键词 China’s only（中国唯一的）和 porpoise（江豚）。带着这两个词去文章里找，你会发现第一句话里就有几乎一模一样的结构。文章里说的是 “the only freshwater porpoise in China”。题目把语序稍微调整了一下，但意思完全没变。那个空缺的词，就是用来修饰江豚种类的。
+
+规则：
+这里考的是形容词修饰名词。形容词就是用来形容东西样子的词，比如“红色的”、“快乐的”。这里 freshwater 是一个形容词，意思是“淡水的”，它后面紧紧跟着名词 porpoise（江豚），告诉我们这是生活在淡水里的江豚。
+
+答案： freshwater
+
+第2题
+题目： Pollution and illegal fishing make it harder for porpoises to find 2. .
+翻译： 污染和非法捕鱼使得江豚更难找到。
+
+阅读原文： When the river becomes noisy and dirty, porpoises find it harder to live and hunt for food.
+翻译： 当河流变得嘈杂和肮脏时，江豚发现生活和捕猎食物变得更难了。
+
+分析：
+题目里的线索词是 harder（更难）和 find（找到）。我们在第一段最后一句找到了这句话。文章里说江豚 “hunt for food”（捕猎食物），题目里把 “hunt” 换成了意思相近的 “find”。既然是“找”，那找的是什么呢？顺着逻辑往下看，文章里明确写着是找 food。
+
+规则：
+这里考查的是同义替换。就是文章里用了一个词，题目里换了一个意思相近的词，但表达的意思是一样的。比如这里的“hunt for”（捕猎）和题目里的“find”（寻找）是对应的，后面跟的宾语 food（食物）自然也就是答案啦。
+
+答案： food
+
+第3题
+题目： Scientists cannot watch them easily because they stay above water for only a short 3. .
+翻译： 科学家们无法轻易观察它们，因为它们在水面上停留的时间只有很短的。
+
+阅读原文： They are shy and spend only a short time above water…
+翻译： 它们很害羞，而且只在水面之上度过很短的时间……
+
+分析：
+这题非常简单！你看题目里的 a short（一个短的），后面紧跟着空格，再后面是 above water（在水面上）。这简直就是把文章第二段的 “spend only a short time above water” 这个原话搬过来了！文章里写的是 “a short time”，所以答案直接填进去就行。
+
+规则：
+这里考查的是固定搭配。time 是“时间”的意思，a short time 就是指“很短的一段时间”，这是一个非常常用的短语，把它记下来哦！
+
+答案： time
+
+第4题
+题目： Researchers use sound recorders and 4. ______ to study their movements.
+翻译： 研究人员使用录音设备和______来研究它们的动向。
+
+阅读原文： …researchers now use sound recorders and drones to follow their movements…
+翻译： ……研究人员现在使用录音设备和无人机来追踪它们的动向……
+
+分析：
+注意看题目里的 and（和）。这个词非常关键，它表示并列关系，就是“我和你”、“左和右”的关系，前后通常是同类的东西。文章里说用 “sound recorders and drones”（录音设备和无人机），题目里已经有了 sound recorders，那剩下的空肯定就是 drones 啦。
+
+规则：
+and 是连词，连接的两个词通常词性要一样。前面 sound recorders 是名词（设备），后面 drones 也是名词（设备）。Drone 这个词可能有点生疏，它的意思是“无人机”。
+
+答案： drones
+
+第5题
+题目： Fishing 5. ______ have given the animals a safer home.
+翻译： 捕鱼______给了这些动物一个更安全的家园。
+
+阅读原文： …and long fishing bans have given the porpoises a safer home.
+翻译： ……长期的禁渔令给了江豚一个更安全的家园。
+
+分析：
+我们在最后一段找找 safer home（更安全的家）。文章里说的是 “fishing bans”。题目把这两个词拆开了，中间空了一格。根据句意，是什么东西给了动物安全的家呢？是“禁渔令”。文章里用的是 bans。
+
+规则：
+这里要注意名词复数。文章里用的是 bans，加了 s，表示很多道禁令。题目里的动词 have 也是复数形式（如果是单数会用 has），所以我们要填 bans，千万别忘了那个小尾巴 s 哦！
+
+答案： bans
+
+整体总结
+好啦，题目都讲完了，我们来看看今天学到了哪几个核心语法点：
+
+形容词修饰名词：形容词通常放在名词前面，用来修饰它，比如 freshwater porpoise（淡水江豚）。
+并列关系：看到 and，就要意识到它前后连接的单词词性要一样，意思通常是并列的。
+名词复数：在填名词的时候，一定要检查一下需不需要加 s 或 es，这往往是容易丢分的地方。
+同义替换：阅读理解中，题目经常把文章里的词换成意思相近的词，不要被它吓倒，找对位置就能发现线索。
+`
+},
+{
+    title: "The Power of Active Listening",
+    article: `Many people think communication means speaking clearly, but listening is just as important. In daily conversations, people often prepare their own reply while the other person is still talking. As a result, they miss important information.
+
+Active listening can solve this problem. It means looking at the speaker, not interrupting, and asking follow-up questions. Studies show that people feel more respected when others truly listen to them. This can reduce stress and make it easier to solve problems at school, at work, and at home.
+
+A useful method is “listen, repeat, check”. First, listen carefully. Then repeat the speaker’s main idea in your own words. Finally, check whether you understood it correctly. Although the method sounds simple, it needs practice.`,
+    questions: [
+        {
+            label: "Problem",
+            text: "People often miss information because they prepare their own 1. ______ too early.",
+            blanks: [{ index: 1, answer: "reply" }]
+        },
+        {
+            label: "Meaning",
+            text: "Active listening includes looking at the speaker and not 2. ______.",
+            blanks: [{ index: 2, answer: "interrupting" }]
+        },
+        {
+            label: "Benefit",
+            text: "It makes people feel more 3. ______ and reduces stress.",
+            blanks: [{ index: 3, answer: "respected" }]
+        },
+        {
+            label: "Method",
+            text: "After listening, you should 4. ______ the speaker’s main idea in your own words.",
+            blanks: [{ index: 4, answer: "repeat" }]
+        },
+        {
+            label: "Key point",
+            text: "This simple method still needs 5. ______.",
+            blanks: [{ index: 5, answer: "practice" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： Problem: People often miss information because they prepare their own 1. ______ too early.
+
+翻译： 问题：人们经常错过信息，因为他们太早准备自己的______。
+
+阅读原文： In daily conversations, people often prepare their own reply while the other person is still talking.
+
+翻译： 在日常对话中，人们经常在对方还在说话时就准备自己的回答。
+
+分析：
+
+我们先看题目里的关键词 prepare their own（准备他们自己的），这就像是一个定位器。
+我们拿着这个定位器去文章里找，很快就在第一段第二行发现了几乎一模一样的结构：prepare their own reply。
+题目说“太早准备”，原文说“当别人还在说话时准备”，意思是完全对应的。
+所以，空格里缺的就是那个名词。
+规则：
+
+这里考察的是名词。名词就是表示“什么东西”或“什么人”的词。
+这里的 reply 是名词，意思是“回答、回复”。因为空格前面有形容词性物主代词 their（他们的）和 own（自己的），后面必须接一个名词，就像“我的书”、“你的笔”一样。
+答案： reply
+
+第二题
+题目： Meaning: Active listening includes looking at the speaker and not 2. ______.
+
+翻译： 含义：积极倾听包括看着说话者，并且不______。
+
+阅读原文： It means looking at the speaker, not interrupting, and asking follow-up questions.
+
+翻译： 它意味着看着说话者，不打断，并追问后续问题。
+
+分析：
+
+题目里的 looking at the speaker（看着说话者）是一个非常明显的路标。
+我们在第二段第二句找到了这句话。题目里有一个 and，表示并列关系，前后结构应该一样。
+你看，题目里是：looking… and not ______。
+原文里是：looking… not interrupting。
+题目把中间的“不打断”挖空了，我们要把它填回去。
+规则：
+
+这里考察的是 V-ing形式（动名词）。
+为什么要加 ing 呢？因为前面的动词是 means（意味着），后面跟动作的时候，通常要用 ing 形式（比如：Swimming is fun. 游泳很有趣）。
+同时，为了和前面的 looking 保持队形整齐（并列结构），后面的词也必须变成 ing 形式。Interrupt 是动词原形“打断”，加上 ing 就变成了名词性质。
+答案： interrupting
+
+第三题
+题目： Benefit: It makes people feel more 3. ______ and reduces stress.
+
+翻译： 好处：它让人们感到更______并减少压力。
+
+阅读原文： Studies show that people feel more respected when others truly listen to them.
+
+翻译： 研究表明，当他人真正倾听时，人们会感到更受尊重。
+
+分析：
+
+我们在题目里看到 feel more（感到更……），这是个超级线索！
+去文章里找 feel more，在第二段第三句找到了：feel more respected。
+题目说“减少压力”，原文后面紧接着也说了“reduce stress”，这就确认了我们找对了地方。
+规则：
+
+这里考察的是形容词（或者叫过去分词作形容词）。
+Respect 是动词“尊重”，但是加上 ed 变成 respected 后，就可以用来形容人的感受。
+就像我们说 “I feel happy”（happy是形容词），这里说 “feel respected”（respected 在这里也充当形容词，表示“感到被尊重的”）。
+答案： respected
+
+第四题
+题目： Method: After listening, you should 4. ______ the speaker’s main idea in your own words.
+
+翻译： 方法：听完之后，你应该用自己的话______说话者的主要观点。
+
+阅读原文： Then repeat the speaker’s main idea in your own words.
+
+翻译： 然后复述说话者的主要观点，用你自己的话。
+
+分析：
+
+题目里的关键短语是 in your own words（用你自己的话）和 main idea（主要观点）。
+带着这两个线索，我们在第三段找到了原句。
+原文是祈使句，以动词原形开头。题目里加了 should（应该），后面也要跟动词原形。
+原文里的动词是 repeat，直接拿过来用就可以。
+规则：
+
+这里考察的是动词原形。
+Should 是一个情态动词，就像老板下命令，它后面跟着的动词必须保持“原汁原味”，不能加 s，不能加 ed，也不能加 ing。所以直接填 repeat。
+答案： repeat
+
+第五题
+题目： Key point: This simple method still needs 5. ______.
+
+翻译： 关键点：这个简单的方法仍然需要______。
+
+阅读原文： Although the method sounds simple, it needs practice.
+
+翻译： 虽然这方法听起来简单，但它需要练习。
+
+分析：
+
+题目里的 needs（需要）是核心词。
+原文最后一句说：it needs practice。
+题目把 practice 挖掉了，我们填回去就行。
+注意，题目里的 still（仍然）对应原文 Although 引导的让步状语从句的语境，意思是虽然简单，但还是需要练习的。
+规则：
+
+这里考察的是名词。
+Need 是动词，动词后面要接一个动作的对象（宾语），这里要用名词形式。
+Practice 是名词，意思是“练习”。（注意：在美式英语中practice既作名词也作动词，在英式英语中practise常作动词，但这里原文给出的是practice，我们填原词即可）。
+答案： practice
+
+整体总结
+这位同学，你看，这道题其实并不难，对不对？我们来总结一下今天遇到的几个核心语法点：
+
+词性判断：我们需要判断空格里缺的是名词（表示事物）、动词（表示动作）还是形容词（表示特征）。
+比如：their own (名词)，feel (形容词)。
+并列结构：看到 and 要敏感，它前后的单词形式通常是一样的。
+比如：looking and not interrupting。
+情态动词用法：看到 should，后面的动词就要用原形，千万不能变形。
+原文定位：做这种题的秘诀就是“找相同”，在文章里找到和题目长得像的句子，答案就在附近。
+`
+},
+{
+    title: "Why Sleep Matters",
+    article: `Sleep is not wasted time. During sleep, the brain organizes memories and repairs the body. Students who get enough sleep usually have better attention in class, a better mood, and stronger learning ability.
+
+However, many teenagers go to bed late because of homework, games, and phones. Too little sleep can make them forgetful, impatient, and stressed. It also weakens the body and makes it harder to stay healthy.
+
+Experts suggest several simple changes. Students should turn off screens one hour before bed, keep their rooms quiet and dark, and go to bed at a regular time. Some schools have even changed class schedules to help students get more rest.`,
+    questions: [
+        {
+            label: "Function",
+            text: "During sleep, the brain organizes 1. ______ and repairs the body.",
+            blanks: [{ index: 1, answer: "memories" }]
+        },
+        {
+            label: "Benefits",
+            text: "Enough sleep improves attention, mood, and learning 2. ______.",
+            blanks: [{ index: 2, answer: "ability" }]
+        },
+        {
+            label: "Problem",
+            text: "Homework, games, and 3. ______ often keep teenagers up late.",
+            blanks: [{ index: 3, answer: "phones" }]
+        },
+        {
+            label: "Advice",
+            text: "Students should turn off 4. ______ one hour before bed.",
+            blanks: [{ index: 4, answer: "screens" }]
+        },
+        {
+            label: "School action",
+            text: "Some schools have changed class 5. ______.",
+            blanks: [{ index: 5, answer: "schedules" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： Function: During sleep, the brain organizes 1. ______ and repairs the body.
+
+翻译： 功能：在睡眠期间，大脑组织______并修复身体。
+
+阅读原文： During sleep, the brain organizes memories and repairs the body.
+
+翻译： 在睡眠期间，大脑组织记忆并修复身体。
+
+分析：
+咱们先看题目里的这句话，你会发现它和原文简直一模一样！题目里的关键词是 “organizes”（组织） 和 “repairs”（修复）。我们要找的是“organizes”后面紧跟的那个宾语。
+回到原文第一段第二句，眼睛盯着 “organizes” 这个词，它后面紧跟的单词是什么？对，就是我们要找的宝藏！
+
+规则：
+这里考查的是名词作宾语。简单来说，“organizes”是一个动作（动词），动作后面要跟一个“被作用的对象”，这个对象就是名词。就像“吃苹果”，“吃”是动作，“苹果”就是名词宾语。
+
+答案： memories
+
+第2题
+题目： Benefits: Enough sleep improves attention, mood, and learning 2. ______.
+
+翻译： 益处：充足的睡眠改善注意力、情绪和学习______。
+
+阅读原文： Students who get enough sleep usually have better attention in class, a better mood, and stronger learning ability.
+
+翻译： 睡眠充足的学生通常在课堂上有更好的注意力、更好的情绪以及更强的学习能力。
+
+分析：
+题目里的线索词是 “attention”（注意力） 和 “mood”（情绪），中间用逗号隔开，最后还有一个 “and”。
+在英语里，“and” 是一个非常重要的连接词，它表示“和、并且”，通常连接几个并列的东西。
+原文中说：有更好的 attention，更好的 mood，还有更强的 learning… 什么？顺着往下读，就能找到最后一个并列的词。
+
+规则：
+这里考查的是并列结构。大白话讲就是：这一排站着好几个人，他们地位平等，格式要一样。前面是“attention”和“mood”，后面自然就是“ability”了。注意，原文是“learning ability”，题目已经写好了“learning”，我们只需要填后面的词。
+
+答案： ability
+
+第3题
+题目： Problem: Homework, games, and 3. ______ often keep teenagers up late.
+
+翻译： 问题：作业、游戏和______经常让青少年熬夜。
+
+阅读原文： However, many teenagers go to bed late because of homework, games, and phones.
+
+翻译： 然而，许多青少年因为作业、游戏和手机而晚睡。
+
+分析：
+这题也是“寻宝游戏”。题目里的关键词是 “Homework”（作业） 和 “games”（游戏）。
+我们要去原文里找这两个词同时出现的地方。找到了吗？在第二段第一句。
+原文里写着：“because of homework, games, and… (什么?)”。对，就是那个和作业、游戏并列的第三个坏习惯。
+
+规则：
+这里同样考查并列关系。看到 “and” 就要敏感，它在告诉你：“嘿，我后面还有个东西跟前面的属于同一类哦！”前面是导致熬夜的原因，后面那个肯定也是原因之一。
+
+答案： phones
+
+第4题
+题目： Advice: Students should turn off 4. ______ one hour before bed.
+
+翻译： 建议：学生应该在睡前一小时关掉______。
+
+阅读原文： Students should turn off screens one hour before bed…
+
+翻译： 学生应该在睡前一小时关掉屏幕……
+
+分析：
+这题的关键动作是 “turn off”（关掉），时间状语是 “one hour before bed”（睡前一小时）。
+我们拿着这两个线索去原文第三段找。哇，原文里有一模一样的句子！
+原文说 “Students should turn off…” 后面紧跟的那个词，就是我们要填的。
+
+规则：
+这里考查动词短语搭配。“turn off” 是“关掉”的意思，关掉什么呢？关掉的一定是某种物品或设备。这个词就在原文里原封不动地放着，细心一点就能找到。
+
+答案： screens
+
+第5题
+题目： School action: Some schools have changed class 5. ______.
+
+翻译： 学校行动：一些学校已经改变了课程______。
+
+阅读原文： Some schools have even changed class schedules to help students get more rest.
+
+翻译： 一些学校甚至改变了课程表来帮助学生获得更多休息。
+
+分析：
+题目里的线索非常明显：“Some schools”（一些学校）、“changed”（改变）、“class”（课程/班级）。
+我们定位到原文的最后一句。原文说学校 “changed class…”，后面那个词就是答案。
+有些同学可能不认识这个词，没关系，直接照抄下来就行，把它当作一个新单词记一下。
+
+规则：
+这里考查的是名词词组。“class schedules” 是一个固定搭配，意思是“课程表”。就像我们说“苹果树”，“苹果”修饰“树”，这里“class”修饰“schedules”。题目里已经有了“class”，我们把后面的核心词补上就好。
+
+答案： schedules
+
+整体总结
+做完这五道题，我们来盘点一下这篇短文涉及的几个核心语法点，其实并不难，对吧？
+
+名词： 表示人、事物或抽象概念的词（如 memories, phones, schedules）。在句子中经常作主语或宾语。
+并列结构： 这可是今天的“重头戏”。看到 “A, B, and C” 这种结构，就要知道 A、B、C 是同一类东西。这可是做阅读理解的“黄金线索”。
+动词短语： 动词加上后面的宾语，表达一个完整的动作（如 turn off screens）。
+`
+},
+{
+    title: "Learning English with Apps",
+    article: `Language-learning apps have changed the way many people study English. They offer short lessons, instant feedback, and flexible study time. For busy students, this makes daily practice easier.
+
+Still, apps are not magic. They work best when learners use them regularly instead of only once in a while. Apps are especially helpful for building vocabulary and improving pronunciation, but they cannot fully replace real conversations.
+
+In a real conversation, students must think quickly and respond naturally. This is where teachers and classmates are important. They can explain mistakes, answer questions, and give support. The best learning often combines technology with human support.`,
+    questions: [
+        {
+            label: "Advantages",
+            text: "Apps offer instant 1. ______ and flexible study time.",
+            blanks: [{ index: 1, answer: "feedback" }]
+        },
+        {
+            label: "Condition",
+            text: "They work best when students use them 2. ______.",
+            blanks: [{ index: 2, answer: "regularly" }]
+        },
+        {
+            label: "Usefulness",
+            text: "Apps help build vocabulary and improve 3. ______.",
+            blanks: [{ index: 3, answer: "pronunciation" }]
+        },
+        {
+            label: "Limit",
+            text: "They cannot fully replace real 4. ______.",
+            blanks: [{ index: 4, answer: "conversations" }]
+        },
+        {
+            label: "Best way",
+            text: "Technology should be combined with human 5. ______.",
+            blanks: [{ index: 5, answer: "support" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： Apps offer instant 1. ______ and flexible study time.
+翻译： 应用程序提供即时的______和灵活的学习时间。
+
+阅读原文： They offer short lessons, instant feedback, and flexible study time.
+翻译： 它们提供简短的课程、即时的反馈和灵活的学习时间。
+
+分析：
+咱们先看题目里的关键词 instant（即时的）和 flexible study time（灵活的学习时间），中间用 and 连接。这就像是连连看，题目里有的词，原文里是不是也有？
+你看，原文里写着“instant feedback, and flexible study time”，那个空缺的位置，正好就在 instant 和 and 之间。原文里这个位置是 feedback。
+
+规则：
+这里考的是名词。名词就是表示事物名称的词，比如“苹果”、“书”。
+在这个句子里，instant 是形容词（用来修饰后面的词），形容词后面通常跟名词。原文里的 feedback 就是个名词，意思是“反馈”。
+
+答案： feedback
+
+第二题
+题目： They work best when students use them 2. ______.
+翻译： 当学生______使用它们时，效果最好。
+
+阅读原文： They work best when learners use them regularly instead of only once in a while.
+翻译： 当学习者有规律地使用它们，而不是偶尔使用一次时，效果最好。
+
+分析：
+这道题我们需要找“线索词”。题目里的 work best（效果最好）和 use them（使用它们）是关键。
+回到原文，你能找到“work best”吗？找到了！后面紧跟着“when learners use them…”。原文里 use them 后面紧跟着的词是 regularly。
+原文还说“instead of only once in a while”（而不是偶尔一次），这也在提示我们，不能偶尔用，要“经常、有规律地”用，所以填 regularly 是最合适的。
+
+规则：
+这里考的是副词。
+通俗点说，副词就是用来修饰动作的。句子里的“use”是一个动作（动词），我们要填一个词来形容是“怎么”用的。regularly 的意思是“有规律地、经常地”，用来修饰“use”这个动作刚刚好。
+
+答案： regularly
+
+第三题
+题目： Apps help build vocabulary and improve 3. .
+翻译： 应用程序帮助建立词汇量并提高。
+
+阅读原文： Apps are especially helpful for building vocabulary and improving pronunciation…
+翻译： 应用程序对于建立词汇量和提高发音特别有帮助……
+
+分析：
+快看题目里的 and，这可是个超级线索！and 就像一座桥，连接前后两边。题目里 and 前面是“build vocabulary”（建立词汇量），那 and 后面肯定也要填一个类似的东西。
+咱们去原文找找“building vocabulary”，原文紧接着就是 improving pronunciation。题目里已经有了 improve（提高），所以我们要填的就是后面的词。
+
+规则：
+这里考的是并列结构。
+这就像排队买东西，and 前面站着谁，后面就也要站同一种“人”。前面是“vocabulary”（名词，词汇量），后面也要跟一个名词。pronunciation 是名词，意思是“发音”。
+
+答案： pronunciation
+
+第四题
+题目： They cannot fully replace real 4. .
+翻译： 它们不能完全取代真正的。
+
+阅读原文： …but they cannot fully replace real conversations.
+翻译： ……但是它们不能完全取代真正的对话。
+
+分析：
+这道题很简单，咱们用“扫视法”。题目里有几个很显眼的词：cannot fully replace（不能完全取代）和 real（真正的）。
+拿着这两个词去原文里找，你会发现原文里有一模一样的句子！原文写的是“replace real conversations”。那个空缺的位置，就是 conversations。
+
+规则：
+这里考的是名词复数。
+你看，答案 conversations 后面有个 s。为什么要加 s 呢？因为“对话”这种事，通常不止一次两次，是很多的交流。题目里没有特别指定是“这一个对话”，所以我们要用复数形式，表示泛指的“对话”。
+
+答案： conversations
+
+第五题
+题目： Technology should be combined with human 5. ______.
+翻译： 技术应该与人类的______相结合。
+
+阅读原文： The best learning often combines technology with human support.
+翻译： 最好的学习通常将技术与人类的支持结合起来。
+
+分析：
+看题目，最显眼的就是 combined with（与……结合）这个词组。虽然 combine 这个词长得很像，但意思是一样的。
+原文里说“combines technology with human…”，后面跟着的是 support。
+题目里的意思也是：光有技术不行，还得有人来帮忙。这个帮忙，就是 support。
+
+规则：
+这里考的是固定搭配和名词。
+combine… with… 是个常用短语，意思是“把……和……结合起来”。
+human 在这里是形容词性质（人类的），后面一定要跟一个名词。support 意思是“支持”，它既可以是动词也可以是名词，在这里作名词用。
+
+答案： support
+
+整体总结
+好啦，题目都讲完了。咱们来总结一下这篇短文里几个最核心的语法点，以后遇到类似的题你就不怕啦：
+
+名词的单复数：填空时要注意，如果是可数名词，且表示很多个（比如很多次对话），记得加上 s。
+副词修饰动词：当空格在动作（动词）后面，用来形容“怎么做”的时候，我们通常要填副词（经常以 -ly 结尾）。
+并列连词 and：看到 and 就要警惕，它前后连接的词，词性通常是一样的。前面是名词，后面往往也是名词。
+`
+},
+{
+    title: "Community Gardens in Cities",
+    article: `In some cities, empty pieces of land are being turned into community gardens. Residents work together to grow vegetables, flowers, and herbs. These gardens do more than make neighborhoods look better. They also provide fresh food and bring people closer together.
+
+For children, community gardens are outdoor classrooms. They learn where food comes from and how plants grow. Working in a garden also teaches patience and responsibility.
+
+Keeping a garden healthy takes time. Plants need water, and different jobs must be shared fairly. To solve these problems, some communities collect rainwater and make work schedules for volunteers. In this way, small gardens can create big changes.`,
+    questions: [
+        {
+            label: "Use",
+            text: "Residents grow vegetables, flowers, and 1. ______ in community gardens.",
+            blanks: [{ index: 1, answer: "herbs" }]
+        },
+        {
+            label: "Value",
+            text: "The gardens provide fresh food and bring 2. ______ closer together.",
+            blanks: [{ index: 2, answer: "people" }]
+        },
+        {
+            label: "For children",
+            text: "They learn how plants 3. ______ and where food comes from.",
+            blanks: [{ index: 3, answer: "grow" }]
+        },
+        {
+            label: "Solution",
+            text: "Some communities collect 4. ______ for the plants.",
+            blanks: [{ index: 4, answer: "rainwater" }]
+        },
+        {
+            label: "Organization",
+            text: "Volunteers follow work 5. ______.",
+            blanks: [{ index: 5, answer: "schedules" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： Residents grow vegetables, flowers, and 1. ______ in community gardens.
+
+翻译： 居民们在社区花园里种植蔬菜、花卉和______。
+
+阅读原文： Residents work together to grow vegetables, flowers, and herbs.
+
+翻译： 居民们一起工作，种植蔬菜、花卉和草本植物。
+
+分析：
+
+这道题就像在玩“连连看”。你先看题目里的关键词 vegetables（蔬菜）和 flowers（花），中间有个 and。
+带着这两个词回到原文第一段找，很快就能发现这句话。
+原文里写的是 “vegetables, flowers, and herbs”，题目把 herbs 挖掉了，我们要把它填回去。
+规则：
+
+这里有个很重要的词叫 and，它在英语里表示“和”、“并且”。在英语里，and 通常用来连接几个并列的东西。比如这里：蔬菜、花儿，还有一个什么呢？就是我们要填的词。
+答案： herbs
+
+第2题
+题目： The gardens provide fresh food and bring 2. ______ closer together.
+
+翻译： 这些花园提供新鲜食物，并把______拉得更近。
+
+阅读原文： They also provide fresh food and bring people closer together.
+
+翻译： 它们也提供新鲜食物，并让人们走得更近。
+
+分析：
+
+我们看题目里的线索词：provide fresh food（提供新鲜食物）。
+去原文第一段最后一句找，你会发现原文说 “bring people closer together”。
+题目里空缺的位置，就是原文里 people 的位置。
+规则：
+
+这里的 bring… closer together 是一个常用搭配，意思是“把……拉近距离”。这里指让“人”与人之间的关系更亲密。
+答案： people
+
+第3题
+题目： For children: They learn how plants 3. ______ and where food comes from.
+
+翻译： 对于孩子们来说：他们学习植物如何______以及食物来自哪里。
+
+阅读原文： They learn where food comes from and how plants grow.
+
+翻译： 他们学习食物来自哪里以及植物如何生长。
+
+分析：
+
+这道题稍微有点调皮，原文和题目的顺序换了一下！
+原文是先说“食物来自哪里”，再说“植物如何生长”。
+题目里是先问“植物如何……”，你要敏锐地发现 how plants（植物如何）这两个关键词。
+对应原文，后面跟的动词就是 grow。
+规则：
+
+how 意思是“如何”，后面通常跟一个动作。这里 grow 是个动词，意思是“生长”。植物怎么啦？植物生长。
+答案： grow
+
+第4题
+题目： Solution: Some communities collect 4. ______ for the plants.
+
+翻译： 解决方案：一些社区为植物收集______。
+
+阅读原文： To solve these problems, some communities collect rainwater and make work schedules for volunteers.
+
+翻译： 为了解决这些问题，一些社区收集雨水并为志愿者制定工作日程表。
+
+分析：
+
+我们抓住题目里的动词 collect（收集），这是个很显眼的动作。
+去原文第三段找，看到 “collect rainwater”，意思就是收集雨水。
+题目问收集什么，答案就是雨水。
+规则：
+
+collect 是动词“收集”，后面跟的就是收集的东西（宾语）。这里 rainwater 是个合成词，由 rain（雨）和 water（水）组成，合起来就是“雨水”。
+答案： rainwater
+
+第5题
+题目： Organization: Volunteers follow work 5. ______.
+
+翻译： 组织管理：志愿者们遵循工作______。
+
+阅读原文： …make work schedules for volunteers.
+
+翻译： ……为志愿者制定工作日程表。
+
+分析：
+
+题目里的 Volunteers（志愿者）和 work（工作）是重要线索。
+在原文第三段，我们看到有 “make work schedules for volunteers”。
+虽然原文用的是 make（制定），题目用的是 follow（遵循），但只要是关于志愿者的工作安排，指的肯定是同一个东西，那就是 schedules。
+规则：
+
+schedule 这个词稍微有点难，意思是“日程表”或“时间表”。比如你每天几点上学、几点吃饭的计划，就叫 schedule。这里指志愿者们什么时候干活的计划表。
+答案： schedules
+
+整体总结
+今天这篇短文，我们主要复习了这几个核心点：
+
+寻读技巧：学会像侦探一样，用题目里的关键词（如动词、专有名词）去原文里找对应的句子。
+并列关系：看到 and 就要反应过来，它前后连接的词语通常是“一家人”，形式和性质是一样的。
+合成词：像 rainwater（雨水）这样由两个简单单词拼起来的词，猜意思也很好猜，雨+水=雨水。
+`
+},
+{
+    title: "Chinese Tea Culture",
+    article: `Traditional tea processing techniques and their associated social practices in China were added to UNESCO's representative list of intangible cultural heritage. For Chinese people, tea is not just a healthy drink; it is an important part of their daily life and social communication.
+
+Historically, tea was first used as medicine. Later, it became a popular drink across the country. The skills of making tea have been passed down through families and masters for generations. Tea makers use their hands to feel the temperature and moisture of the leaves, showing great respect for nature.
+
+Today, the tradition is facing new opportunities. While older generations prefer traditional tea houses, many young people are enjoying "new Chinese-style tea" mixed with milk or fruit. To keep the tea culture alive among the youth, many universities have set up special tea art courses. Also, tea cultural festivals are held to help foreigners understand the beauty of Chinese tea.
+
+As an old saying goes, "A cup of tea connects the world," showing that tea is a bridge of friendship.`,
+    questions: [
+        {
+            label: "Status",
+            text: "It was added to UNESCO's list of intangible cultural 1. ______.",
+            blanks: [{ index: 1, answer: "heritage" }]
+        },
+        {
+            label: "History",
+            text: "Historically, tea was first used as 2. ______ before becoming a popular drink.",
+            blanks: [{ index: 2, answer: "medicine" }]
+        },
+        {
+            label: "Passing-down",
+            text: "The skills are passed down through families and masters for 3. ______.",
+            blanks: [{ index: 3, answer: "generations" }]
+        },
+        {
+            label: "Trend",
+            text: "Young people prefer new Chinese-style tea mixed with milk or 4. ______.",
+            blanks: [{ index: 4, answer: "fruit" }]
+        },
+        {
+            label: "Action Taken",
+            text: "Universities have set up special tea art courses to keep the tea culture 5. ______ among the youth.",
+            blanks: [{ index: 5, answer: "alive" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第 1 题
+题目： Status: It was added to UNESCO’s list of intangible cultural 1. ______.
+
+翻译： 地位：它被列入了联合国教科文组织的非物质文化遗产______。
+
+阅读原文： Traditional tea processing techniques and their associated social practices in China were added to UNESCO’s representative list of intangible cultural heritage.
+
+翻译： 中国传统制茶技艺及其相关社会实践被列入联合国教科文组织非物质文化遗产代表作名录。
+
+分析：
+咱们来看看题目里的线索词。题目里有 “UNESCO’s list of”（联合国教科文组织的……名录）和 “intangible cultural”（非物质文化的）。这就像是个路标，咱们回原文找，很快就在第一句发现了这两个词连在一起出现。
+原文说的是 “…intangible cultural heritage”。题目这里空缺的词，就是原文里紧跟着的那个词。这就好比拼图，最后一块就在原文摆着呢。
+
+规则：
+这里考查的是固定搭配（也就是两个词经常像好朋友一样手拉手出现）。Intangible cultural heritage 是一个专有名词，意思是“非物质文化遗产”。虽然“heritage”这个单词稍微长一点，但在关于联合国教科文组织（UNESCO）的文章里，它可是“常客”，咱们得把它记住。
+
+答案： heritage
+
+第 2 题
+题目： History: Historically, tea was first used as 2. ______ before becoming a popular drink.
+
+翻译： 历史：在历史上，茶在成为一种流行饮料之前，最初是被用作______的。
+
+阅读原文： Historically, tea was first used as medicine.
+
+翻译： 在历史上，茶最初是被用作药的。
+
+分析：
+题目里的线索词非常明显：“Historically”（在历史上）和 “first used as”（最初被用作……）。这简直就是原文的“双胞胎”句子！
+原文说：“tea was first used as medicine”。题目问的是“used as”后面是什么，咱们直接把那个词搬过来就行。
+
+规则：
+这里考查的是细节查找。题目里的句子结构几乎和原文一模一样，只是少了一个词。这里的 “medicine” 是名词，意思是“药、药物”。注意哦，这里是指“药”这个用途，是个泛指的概念。
+
+答案： medicine
+
+第 3 题
+题目： Passing-down: The skills are passed down through families and masters for 3. ______.
+
+翻译： 传承：制茶技艺通过家庭和师傅传承了______。
+
+阅读原文： The skills of making tea have been passed down through families and masters for generations.
+
+翻译： 制茶技艺通过家庭和师傅传承了数代。
+
+分析：
+首先看题目里的 “Passing-down”（传承），这对应原文第二段的内容。接着找线索词 “passed down”（传承）和 “through families and masters”（通过家庭和师傅）。
+原文里这句话说：“…passed down through families and masters for generations”。这里的结构是 “for + 时间段”，表示动作持续了多久。原文用了 “generations”（几代人、数代），题目里正好缺这个表示时间跨度的词。
+
+规则：
+这里考查的是语境选词。Generation 的意思是“一代人”，复数形式 generations 就是“好几代人”、“世世代代”。文章想表达这种技艺传了很久，不是传给一个人，而是传了好几辈人。
+
+答案： generations
+
+第 4 题
+题目： Trend: Young people prefer new Chinese-style tea mixed with milk or 4. ______.
+
+翻译： 趋势：年轻人更喜欢混合了牛奶或______的新中式茶饮。
+
+阅读原文： …many young people are enjoying “new Chinese-style tea” mixed with milk or fruit.
+
+翻译： ……许多年轻人正在享用混合了牛奶或水果的“新中式茶饮”。
+
+分析：
+题目里的 “Trend”（趋势）提示我们要看文章后半部分。线索词是 “new Chinese-style tea”（新中式茶饮）和 “milk”（牛奶）。
+原文里说：“…mixed with milk or fruit”。题目里的 “or”（或者）是一个非常关键的线索词，它表示并列关系，说明空里要填的词和“milk”是同一类事物，而且是原文里提到过的。
+
+规则：
+这里考查的是并列结构。当句子出现 “A or B” 的时候，A和B通常是同类词。原文里“milk”后面跟着“fruit”，题目只是把它们原封不动地抄下来了。Fruit 意思是“水果”。
+
+答案： fruit
+
+第 5 题
+题目： Action Taken: Universities have set up special tea art courses to keep the tea culture 5. ______ among the youth.
+
+翻译： 采取的行动：大学开设了专门的茶艺课程，为了让茶文化在年轻人中保持______。
+
+阅读原文： To keep the tea culture alive among the youth, many universities have set up special tea art courses.
+
+翻译： 为了让茶文化在年轻人中保持活力，许多大学开设了专门的茶艺课程。
+
+分析：
+这道题稍微有点难度，题目的语序变了一下。线索词是 “Universities”（大学）、“courses”（课程）和 “keep the tea culture”（让茶文化……）。
+原文说：“To keep the tea culture alive among the youth”。题目里这句话变成了 “…to keep the tea culture ______ among the youth”。你看，只要找到了原文那个句子，就能发现空缺的是 alive。
+
+规则：
+这里考查的是一个常用搭配：keep + 名词 + 形容词。
+
+Keep 是“保持”的意思。
+后面要跟一个形容词（用来描述状态的那个词），表示让这个东西保持某种样子。
+Alive 是形容词，意思是“活着的、有生气的、充满活力的”。这里不是说茶文化“活着（没死）”，而是说让它“流行下去、有生命力”。
+答案： alive
+
+整体总结
+好啦，咱们做完啦！咱们来总结一下这篇文章里的几个核心知识点：
+
+固定搭配： 比如 intangible cultural heritage（非物质文化遗产）。这种专有名词就像人的名字，是固定的，不能随意改动。
+原词重现： 做阅读填空时，很多答案就在原文里等着你呢。只要你耐心地找线索词（比如大写的UNESCO、特殊的词组），答案往往就在附近。
+并列关系： 看到 or（或者）或者 and（和），就要知道前后连着的词性质是一样的。前面是名词，后面也得是名词。
+Keep + 名词 + 形容词： 这是一个很重要的语法点，意思是“让某物保持某种状态”。比如：Keep the door open（让门开着），Keep the room clean（让房间保持干净）。
+`
+},
+{
+    title: "Dealing with Screen Time",
+    article: `In today's digital age, most of us spend hours looking at screens every day. While smartphones and computers make life easier, too much screen time can negatively affect our physical and mental health.
+
+What are the negative effects?
+Studies show that looking at screens before bed can cause serious sleep problems. The blue light from phones tricks our brains into thinking it is still daytime. Besides, spending too much time on social media often leads to anxiety, because people tend to compare their normal lives with the perfect images posted by others.
+
+How to solve the problem?
+Experts suggest practicing a "digital detox". The first step is to turn off your phone one hour before going to sleep. Instead of scrolling through messages, you can read a physical book. The second step is to spend more time outdoors without bringing digital devices. A recent study found that a 30-minute walk in nature can greatly reduce stress levels.
+
+In short, technology is a useful tool, but we must control it rather than let it control us.`,
+    questions: [
+        {
+            label: "Problem 1",
+            text: "The blue light from screens before bed can cause serious 1. ______ problems.",
+            blanks: [{ index: 1, answer: "sleep" }]
+        },
+        {
+            label: "Problem 2",
+            text: "Too much time on social media leads to 2. ______ because of comparisons.",
+            blanks: [{ index: 2, answer: "anxiety" }]
+        },
+        {
+            label: "Solution 1",
+            text: "You should turn off your phone one hour before going to sleep and read a 3. ______ book instead.",
+            blanks: [{ index: 3, answer: "physical" }]
+        },
+        {
+            label: "Solution 2",
+            text: "Spending a 30-minute walk in 4. ______ can greatly reduce stress levels.",
+            blanks: [{ index: 4, answer: "nature" }]
+        },
+        {
+            label: "Conclusion",
+            text: "Technology is a useful tool, but we must 5. ______ it properly.",
+            blanks: [{ index: 5, answer: "control" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： Problem 1: The blue light from screens before bed can cause serious 1. ______ problems.
+
+翻译： 问题1：睡前屏幕发出的蓝光会导致严重的______问题。
+
+阅读原文： Studies show that looking at screens before bed can cause serious sleep problems.
+
+翻译： 研究表明，睡前看屏幕会导致严重的睡眠问题。
+
+分析：
+
+我们先看题目，发现有个非常显眼的词 “serious”（严重的），后面紧跟着空格，再后面是 “problems”（问题）。所以我们要找的结构是：严重的 + 某种 + 问题。
+快速浏览文章，在第二段第一句，我们看到了一模一样的结构：“serious sleep problems”。
+题目把中间的词挖掉了，原文里那个词就是 “sleep”。
+规则：
+
+这里考察的是名词作定语。听起来很专业？其实很简单！就是一个名词修饰另一个名词。
+就像中文里“苹果树”，“苹果”是名词，“树”也是名词，合起来“苹果树”就是一种树。这里 “sleep problems” 就是“睡眠问题”，“sleep” 用来说明是什么样的问题。
+答案： sleep
+
+第2题
+题目： Problem 2: Too much time on social media leads to 2. ______ because of comparisons.
+
+翻译： 问题2：在社交媒体上花太多时间会导致______，因为（人们会进行）比较。
+
+阅读原文： Besides, spending too much time on social media often leads to anxiety, because people tend to compare their normal lives with the perfect images posted by others.
+
+翻译： 此外，在社交媒体上花费太多时间往往会导致焦虑，因为人们倾向于将自己的正常生活与他人发布的完美形象进行比较。
+
+分析：
+
+我们要盯着题目里的关键词去找。题目里的 “leads to”（导致）是一个大信号。
+原文里也有一模一样的 “leads to”。原文说：“leads to anxiety”（导致焦虑）。
+题目后半部分说 “because of comparisons”（因为比较），这正好对应原文里 “because… compare…” 那一部分。逻辑完全对上了，所以空格里应该填 “anxiety”。
+规则：
+
+这里考察的是上下文因果关系的理解。
+“Lead to” 是一个非常常用的短语，意思是“导致”，前面是原因，后面是结果。只要看到它，就要反应过来：哦，后面要接一个结果（在这里就是焦虑）。
+答案： anxiety
+
+第3题
+题目： Solution 1: You should turn off your phone one hour before going to sleep and read a 3. ______ book instead.
+
+翻译： 解决方案1：你应该在睡前一小时关掉手机，改为读一本______书。
+
+阅读原文： Instead of scrolling through messages, you can read a physical book.
+
+翻译： 与其在手机上刷消息，你可以读一本纸质书（实体书）。
+
+分析：
+
+题目里的线索是 “read a”（读一本），后面紧跟着空格和 “book”。我们要找的是：读一本 + 什么样的 + 书。
+回到文章，找到 “How to solve the problem?” 这一段。原文里写着 “read a physical book”。
+题目是想让你放下手机去读书，原文里的 “physical book”（实体书/纸质书）正好对应这种非电子产品的书。
+规则：
+
+这里考察的是形容词修饰名词。
+形容词就是用来描述东西样子的词，比如“红色的”、“漂亮的”。这里 “physical” 是形容词，意思是“物理的”或者“实体的”，用来修饰 “book”。
+答案： physical
+
+第4题
+题目： Solution 2: Spending a 30-minute walk in 4. ______ can greatly reduce stress levels.
+
+翻译： 解决方案2：在______里散步30分钟能大大降低压力水平。
+
+阅读原文： A recent study found that a 30-minute walk in nature can greatly reduce stress levels.
+
+翻译： 最近的一项研究发现，在大自然中散步30分钟可以大大降低压力水平。
+
+分析：
+
+这道题超级简单！我们把题目和原文对比一下就知道了。
+题目里有数字 “30-minute”（30分钟的），还有 “walk”（散步），还有 “reduce stress levels”（降低压力水平）。这些在原文里全都有！
+原文说 “walk in nature”，题目说 “walk in ______”。那个空显然就是 “nature” 啦。
+规则：
+
+这里考察的是介词短语。
+“In nature” 意思是“在大自然中”。“In” 是一个介词（表示在……里面），后面跟地点名词。这就像 “in the room”（在房间里）一样简单。
+答案： nature
+
+第5题
+题目： Conclusion: Technology is a useful tool, but we must 5. ______ it properly.
+
+翻译： 结论：科技是一个有用的工具，但我们必须适当地______它。
+
+阅读原文： In short, technology is a useful tool, but we must control it rather than let it control us.
+
+翻译： 简而言之，科技是一个有用的工具，但我们必须控制它，而不是让它控制我们。
+
+分析：
+
+题目在最后一段，我们看文章结尾。原文说：“technology is a useful tool, but we must…”
+这还没完，后面接着说 “control it”（控制它）。
+题目里的 “properly”（适当地）是原文里没有的，但它不影响我们要填的那个动作。原文说“必须控制它”，题目让我们填这个动作，所以答案就是 “control”。
+规则：
+
+这里考察的是情态动词后接动词原形。
+看到了 “must”（必须）吗？它是一个情态动词，是个“霸道总裁”，它要求后面的动词必须保持“原形”，不能变身（比如不能加s，不能加ing）。所以这里直接填 “control” 就可以了。
+答案： control
+
+整体总结
+同学，你看，其实并没有那么难，对不对？我们只需要耐心地比对，就能找到答案。这篇文章我们复习了这几个核心点：
+
+名词修饰名词：比如 *sleep problems*（睡眠问题）。
+短语搭配：比如 *lead to*（导致），这能帮我们快速锁定因果关系。
+形容词修饰名词：比如 *physical book*（实体书），形容词通常放在名词前面“打扮”它。
+介词用法：比如 *in nature*（在大自然中）。
+情态动词：*must* 后面一定要跟动词原形。
+`
+},
+{
+    title: "Chinese Tea Culture",
+    article: `Tea has been a part of Chinese culture for thousands of years. According to legend, Emperor Shennong discovered tea around 2737 BC when leaves from a wild tree blew into his pot of boiling water. Since then, tea has become much more than just a drink — it is a symbol of harmony, respect, and peace in Chinese society.
+
+There are six main types of Chinese tea: green, black, white, yellow, oolong, and dark tea. Each type goes through a different production process, giving it a unique flavor and color. Green tea, the most popular type, is known for its fresh taste and health benefits. Studies have shown that drinking green tea regularly can help reduce the risk of heart disease and improve brain function.
+
+The traditional Chinese tea ceremony, known as "Gongfu Cha," is a careful and artistic way of preparing tea. Every step, from warming the teapot to pouring the tea, is performed with great attention.
+
+However, in modern times, many young people prefer coffee or milk tea over traditional tea. To keep this ancient tradition alive, some tea masters have started offering online classes and creating new tea flavors to attract younger generations.`,
+    questions: [
+        {
+            label: "History",
+            text: "Emperor Shennong discovered tea when leaves blew into his pot of 1. ______ water.",
+            blanks: [{ index: 1, answer: "boiling" }]
+        },
+        {
+            label: "Significance",
+            text: "Tea is a symbol of harmony, respect, and 2. ______ in Chinese society.",
+            blanks: [{ index: 2, answer: "peace" }]
+        },
+        {
+            label: "Types",
+            text: "There are 3. ______ main types of Chinese tea.",
+            blanks: [{ index: 3, answer: "six" }]
+        },
+        {
+            label: "Health",
+            text: "Drinking green tea regularly can help reduce the risk of heart 4. ______.",
+            blanks: [{ index: 4, answer: "disease" }]
+        },
+        {
+            label: "Challenge",
+            text: "Many young people prefer coffee or milk tea over 5. ______ tea.",
+            blanks: [{ index: 5, answer: "traditional" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： Emperor Shennong discovered tea when leaves blew into his pot of ______ water.
+
+翻译： 神农皇帝发现茶，是因为树叶吹进了他那壶______水里。
+
+阅读原文： According to legend, Emperor Shennong discovered tea around 2737 BC when leaves from a wild tree blew into his pot of boiling water.
+
+翻译： 相传，神农皇帝在大约公元前2737年发现了茶，当时一棵野树上的树叶吹进了他装着沸腾水的壶里。
+
+分析：
+
+我们先看题目，这里要填一个形容词，用来形容水是什么样的。
+回到原文，根据线索词 “Emperor Shennong”（神农皇帝）和 “blew into his pot”（吹进他的壶里）定位到第一段。
+你看，原文里写着 “…pot of boiling water”。题目和原文这里几乎一模一样，是不是很好找？
+规则：
+
+这里考查的是形容词修饰名词。简单来说，就是“什么样的东西”。
+Boiling 的意思是“沸腾的”。这里不需要变魔术，原文怎么写，我们就怎么抄下来。
+答案： boiling
+
+第二题
+题目： Tea is a symbol of harmony, respect, and ______ in Chinese society.
+
+翻译： 在中国社会，茶是和谐、尊重和______的象征。
+
+阅读原文： Since then, tea has become much more than just a drink — it is a symbol of harmony, respect, and peace in Chinese society.
+
+翻译： 从那时起，茶不仅仅是一种饮料——它是中国社会和谐、尊重和和平的象征。
+
+分析：
+
+题目里的线索词是 “symbol of harmony, respect”（和谐、尊重的象征）。
+我们在第一段最后一句找到了一模一样的结构。
+题目里用了 “and”（和）这个词，说明这是三个并列的词语。原文里跟着 “harmony, respect” 后面的那个词，就是我们要填的答案。
+规则：
+
+这个叫并列结构。意思就是几个兄弟姐妹排排坐，地位一样。这里前面是 harmony（和谐）、respect（尊重），后面自然就是 peace（和平）啦。记住，“and” 是个非常重要的信号灯，它告诉你后面还有东西哦。
+答案： peace
+
+第三题
+题目： There are ______ main types of Chinese tea.
+
+翻译： 中国茶主要有______种。
+
+阅读原文： There are six main types of Chinese tea: green, black, white, yellow, oolong, and dark tea.
+
+翻译： 中国茶主要有六种：绿茶、红茶、白茶、黄茶、乌龙茶和黑茶。
+
+分析：
+
+这道题非常明显，看题目开头 “There are” 和 “main types”（主要种类）。
+去文章里找，第二段第一句就写着：“There are six main types…”。
+原文后面还用冒号列举了这六种茶，正好印证了数量。
+规则：
+
+这里考查的是细节捕捉。数字通常非常显眼，做题时看到数字要特别敏感。原文写的是英文单词 “six”，我们也要写英文单词，不能写阿拉伯数字 “6” 哦。
+答案： six
+
+第四题
+题目： Drinking green tea regularly can help reduce the risk of heart ______.
+
+翻译： 经常喝绿茶有助于降低心脏______的风险。
+
+阅读原文： Studies have shown that drinking green tea regularly can help reduce the risk of heart disease and improve brain function.
+
+翻译： 研究表明，经常喝绿茶有助于降低心脏病风险并改善大脑功能。
+
+分析：
+
+我们用线索词 “reduce the risk”（降低风险）来定位。这在第二段的最后一句。
+题目说 “heart…”（心脏…），原文紧接着就是 “heart disease”。这又是一个原文原词的填空。
+规则：
+
+这里涉及一个短语 “risk of…”（…的风险）。在这个短语里，of 后面通常接名词。
+Disease 是名词，意思是“疾病”。“Heart disease” 就是“心脏病”。这是一个固定搭配，也是常见的医学常识词汇，建议记下来。
+答案： disease
+
+第五题
+题目： Many young people prefer coffee or milk tea over ______ tea.
+
+翻译： 许多年轻人比起______茶更喜欢咖啡或奶茶。
+
+阅读原文： However, in modern times, many young people prefer coffee or milk tea over traditional tea.
+
+翻译： 然而，在现代，许多年轻人比起传统茶更喜欢咖啡或奶茶。
+
+分析：
+
+最后这道题，我们看线索词 “young people”（年轻人）和 “prefer”（更喜欢）。
+文章最后一段第一句就在讲这个。原文说：“…prefer coffee or milk tea over traditional tea.”
+题目把咖啡和奶茶跟什么茶做对比呢？原文告诉我们要填 “traditional”。
+规则：
+
+这里的考点是 “prefer A over B”，意思是“比起B更喜欢A”。
+Traditional 是形容词，意思是“传统的”。它是用来修饰后面的名词 “tea” 的。别忘了，英语里很多词都是这样搭配着用的，看到一个就要想起另一个。
+答案： traditional
+
+整体总结
+好啦，我们把这五道题都做完了。你看，其实并没有那么难，对不对？我们来总结一下这篇短文涉及的几个核心点：
+
+定位原文：做阅读填空，最重要的就是找线索词（比如人名、地名、数字、特殊的动词），然后像查字典一样回文章里找原话。
+并列关系：看到 “and” 就要警觉，它往往暗示着前后词语是并列的，意思和词性通常是一样的。
+形容词修饰名词：比如 “boiling water”（沸腾的水）、“traditional tea”（传统的茶），形容词总是像个小跟班一样守在名词前面。
+固定搭配：像 “heart disease”（心脏病）这种常见的词组，平时多读几遍，考试时就能脱口而出。
+`
+},
+{
+    title: "Artificial Intelligence",
+    article: `Artificial Intelligence (AI) is changing the way we live and work. From voice assistants like Siri to self-driving cars, AI technology is becoming a part of our daily lives. AI can process huge amounts of data much faster than humans, making it useful in fields such as healthcare, education, and transportation.
+
+In healthcare, AI is being used to help doctors diagnose diseases more accurately. By analyzing medical images and patient records, AI systems can detect early signs of cancer and other illnesses that might be missed by human eyes. In education, AI-powered tools can create personalized learning plans for students, helping them study at their own pace.
+
+However, the rapid development of AI also raises concerns. One major worry is that AI could replace human workers in many jobs, leading to unemployment. Another concern is privacy, as AI systems often collect and analyze personal data.
+
+Despite these challenges, most experts believe that AI will bring more benefits than problems. The key is to develop AI responsibly, with clear rules and guidelines to protect people's rights. As one scientist noted, \"AI is a powerful tool, but like any tool, its value depends on how we use it.\"`,
+    questions: [
+        {
+            label: "Applications",
+            text: "AI is useful in fields such as healthcare, education, and 1. ______.",
+            blanks: [{ index: 1, answer: "transportation" }]
+        },
+        {
+            label: "Healthcare",
+            text: "AI helps doctors diagnose diseases more 2. ______.",
+            blanks: [{ index: 2, answer: "accurately" }]
+        },
+        {
+            label: "Education",
+            text: "AI-powered tools create personalized 3. ______ plans for students.",
+            blanks: [{ index: 3, answer: "learning" }]
+        },
+        {
+            label: "Concerns",
+            text: "AI could replace human workers, leading to 4. ______.",
+            blanks: [{ index: 4, answer: "unemployment" }]
+        },
+        {
+            label: "Key point",
+            text: "The key is to develop AI 5. ______, with clear rules and guidelines.",
+            blanks: [{ index: 5, answer: "responsibly" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： Applications: AI is useful in fields such as healthcare, education, and 1. ______.
+
+翻译： 应用：AI在医疗、教育和______等领域非常有用。
+
+阅读原文： AI can process huge amounts of data much faster than humans, making it useful in fields such as healthcare, education, and transportation.
+
+翻译： AI处理海量数据的速度比人类快得多，这使其在医疗、教育和交通运输等领域非常有用。
+
+分析：
+我们要在文章里找到和题目长得像的“双胞胎”句子。题目里有 healthcare（医疗）和 education（教育），文章第一段最后一行也有这两个词。
+你看，题目里写着 “healthcare, education, and…”，这里的 and 是一个非常重要的线索词。它告诉我们，前面列举了两个东西，后面肯定还有第三个东西。
+文章里紧接着的单词就是 transportation，把它抄下来就好啦！
+
+规则：
+这里考查的是并列关系。简单说，就是用 and 连接的一串词语，它们地位平等，长得也差不多（都是名词）。只要看到 A, B and C 的结构，就知道C就是我们要找的答案。
+
+答案： transportation
+
+第2题
+题目： Healthcare: AI helps doctors diagnose diseases more 2. ______.
+
+翻译： 医疗：AI帮助医生更______地诊断疾病。
+
+阅读原文： In healthcare, AI is being used to help doctors diagnose diseases more accurately.
+
+翻译： 在医疗领域，AI正被用于帮助医生更准确地诊断疾病。
+
+分析：
+题目里的关键词是 Healthcare、doctors 和 diagnose diseases（诊断疾病）。我们要带着这些关键词去文章第二段“寻宝”。
+在第二段第一句，我们发现了长得几乎一样的句子。题目说 “diagnose diseases more…”（更…地诊断疾病），文章里写的是 “diagnose diseases more accurately”。
+这里的 more 也是一个提示，它表示“更…”，后面通常要接一个形容词或副词。
+
+规则：
+这里考查的是词性转换。
+原文里的 accurate 是形容词，意思是“准确的”。
+但是在这里，它变成了 accurately。为什么要加 -ly 呢？因为它是用来修饰动作 diagnose（诊断）的。修饰动作的词，通常都要戴上一顶“ly”的帽子，我们叫它副词。
+简单记：修饰动词做动作，记得加 ly。
+
+答案： accurately
+
+第3题
+题目： Education: AI-powered tools create personalized 3. ______ plans for students.
+
+翻译： 教育：AI工具为学生创造个性化的______计划。
+
+阅读原文： In education, AI-powered tools can create personalized learning plans for students…
+
+翻译： 在教育领域，AI工具可以为学生创造个性化的学习计划…
+
+分析：
+这题很简单！题目里有一个非常明显的短语 personalized … plans（个性化的…计划）。
+我们在文章第二段第二句能找到一模一样的结构。
+文章说 “personalized learning plans”，中间那个词 learning 就是我们要找的拼图。
+
+规则：
+这里考查的是名词修饰名词。
+Learning 是“学习”的意思，在这里它像形容词一样，用来修饰后面的 plans（计划），告诉我们要这是一个“学习计划”。直接照抄即可。
+
+答案： learning
+
+第4题
+题目： Concerns: AI could replace human workers, leading to 4. ______.
+
+翻译： 担忧：AI可能会取代人类工人，导致______。
+
+阅读原文： One major worry is that AI could replace human workers in many jobs, leading to unemployment.
+
+翻译： 一个主要的担忧是，AI可能会在许多工作中取代人类工人，从而导致失业。
+
+分析：
+题目里的 Concerns（担忧）是大标题，帮我们定位到文章第三段。
+接着找句子：题目说 “AI could replace human workers”（AI取代工人），文章里也有这句话。
+题目里的 leading to 意思是“导致”，文章里也写着 “leading to…”。紧跟在后面的那个长长的单词，就是答案！
+
+规则：
+这里考查的是词汇理解。
+Unemployment 这个词看起来很长，我们拆开看：un-（不）+ employ（雇佣）+ -ment（名词后缀）= 失业。
+如果你不认识这个词也没关系，只要找准句子位置，把这个词填进去，这道题主要考的是眼力和耐心。
+
+答案： unemployment
+
+第5题
+题目： Key point: The key is to develop AI 5. ______, with clear rules and guidelines.
+
+翻译： 关键点：关键是要______地开发AI，并制定明确的规则和指导方针。
+
+阅读原文： The key is to develop AI responsibly, with clear rules and guidelines to protect people’s rights.
+
+翻译： 关键是要负责任地开发AI，并制定明确的规则和指导方针以保护人们的权利。
+
+分析：
+最后一题啦！我们看题目里的 Key point（关键点），这能帮我们定位到最后一段。
+题目说 “The key is to develop AI…”，文章里也有这句话。
+题目里 “develop AI” 后面是空的，文章里 “develop AI” 后面紧跟的是 responsibly。
+这也解释了我们要用一种什么样的态度去开发AI。
+
+规则：
+这道题和第2题有点像，考查副词修饰动词。
+Responsible 是形容词，意思是“负责的”。
+在这里，我们要修饰 develop（开发）这个动作，所以要变成 responsibly，意思是“负责任地”。
+记住规律：看到修饰动作的，通常要把形容词变成副词（加-ly）。
+
+答案： responsibly
+
+整体总结
+这位同学，你看，其实这篇阅读填空并没有想象中那么可怕，对吧？我们来总结一下今天遇到的几个关键点：
+
+找关键词定位：做题时先看题目里的特殊词（如 healthcare, key point），去文章里找相同的词，这就是“定位”。
+并列关系：看到 and，就要知道前后是兄弟关系，前面有A和B，后面肯定有C。
+词性变化（形容词变副词）：这是最容易丢分的地方。如果空格是修饰一个动作（动词）的，记得把形容词变成副词，通常加 -ly（比如 accurate → accurately, responsible → responsibly）。
+`
+},
+{
+    title: "Plastic Pollution",
+    article: `Plastic pollution has become one of the biggest environmental problems in the world. Every year, about 8 million tons of plastic waste ends up in the ocean, harming sea animals and polluting the water. Many sea creatures, such as turtles and whales, mistake plastic bags for food and eat them, which can cause serious injury or even death.
+
+The problem is made worse by the fact that plastic takes hundreds of years to break down naturally. Meanwhile, the world produces about 380 million tons of plastic every year, and only about 9% of it is recycled.
+
+Governments around the world are taking action to reduce plastic pollution. Many countries have banned single-use plastic bags and straws. Some cities have introduced deposit systems, where people pay a small amount when they buy a drink in a plastic bottle and get the money back when they return the bottle for recycling.
+
+Individuals can also make a difference. Simple changes like carrying a reusable water bottle, using cloth shopping bags, and refusing plastic straws can significantly reduce the amount of plastic waste we produce.`,
+    questions: [
+        {
+            label: "Problem",
+            text: "About 8 million tons of plastic waste ends up in the 1. ______ every year.",
+            blanks: [{ index: 1, answer: "ocean" }]
+        },
+        {
+            label: "Harm",
+            text: "Sea creatures mistake plastic bags for 2. ______ and eat them.",
+            blanks: [{ index: 2, answer: "food" }]
+        },
+        {
+            label: "Fact",
+            text: "Only about 9% of plastic is 3. ______.",
+            blanks: [{ index: 3, answer: "recycled" }]
+        },
+        {
+            label: "Government action",
+            text: "Many countries have 4. ______ single-use plastic bags and straws.",
+            blanks: [{ index: 4, answer: "banned" }]
+        },
+        {
+            label: "Individual action",
+            text: "Simple 5. ______ like carrying a reusable water bottle can reduce plastic waste.",
+            blanks: [{ index: 5, answer: "changes" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： About 8 million tons of plastic waste ends up in the 1. ______ every year.
+
+翻译： 每年约有800万吨塑料垃圾最终进入______。
+
+阅读原文： Every year, about 8 million tons of plastic waste ends up in the ocean, harming sea animals and polluting the water.
+
+翻译： 每年，大约800万吨塑料垃圾最终进入海洋，危害海洋动物并污染水源。
+
+分析：
+
+找线索： 我们先看题目里的关键信息，比如数字 “8 million tons”（800万吨）和时间状语 “every year”（每年）。
+定位原文： 带着这些词去文章里找，你会发现文章第一段第二句开头就是一模一样的这两个短语！
+推导： 题目说垃圾最终进入哪里？原文紧接着写着 “ends up in the ocean”（最终进入海洋）。这里的结构完全一样，所以我们要填的就是 ocean。
+规则：
+这里考察的是名词。名词就是表示人、事物或地点的词（比如这里的“海洋”）。因为原文里是单数形式，我们也直接照搬，不要加"s"哦。
+
+答案： ocean
+
+第2题
+题目： Sea creatures mistake plastic bags for 2. ______ and eat them.
+
+翻译： 海洋生物把塑料袋误当成______并且吃掉它们。
+
+阅读原文： Many sea creatures, such as turtles and whales, mistake plastic bags for food and eat them, which can cause serious injury or even death.
+
+翻译： 许多海洋生物，如海龟和鲸鱼，把塑料袋误当成食物并吃掉它们，这可能导致严重的伤害甚至死亡。
+
+分析：
+
+找线索： 题目里有一个非常显眼的短语搭配 “mistake… for…”（把……误当成……）。
+定位原文： 在第一段倒数第二句，我们找到了完全一样的结构：“mistake plastic bags for food”。
+推导： 题目问把塑料袋当成了什么？原文清晰地写着 “for food”（当成食物），所以答案就在这里。
+规则：
+这里考察的是固定搭配和名词。“Mistake A for B” 是一个固定用法，意思是“把A错认为是B”。记住这个搭配，以后看到就知道是什么意思啦。
+
+答案： food
+
+第3题
+题目： Only about 9% of plastic is 3. ______.
+
+翻译： 只有大约9%的塑料被______。
+
+阅读原文： Meanwhile, the world produces about 380 million tons of plastic every year, and only about 9% of it is recycled.
+
+翻译： 与此同时，全世界每年生产约3.8亿吨塑料，但其中只有大约9%被回收利用。
+
+分析：
+
+找线索： 这一题最明显的线索是数字 “9%”。
+定位原文： 在第二段最后一句，我们看到了 “only about 9% of it”。这里的 “it” 指的就是前面的 “plastic”（塑料），和题目完全对应。
+推导： 题目说这9%的塑料怎么样了？原文后面跟着的是 “is recycled”。题目已经有了 “is”，我们只需要把后面的词填上去。
+规则：
+这里考察的是被动语态和动词的分词形式。
+
+被动语态就是表示“被怎么样”的意思，结构通常是 “be + 动词的过去分词”。这里 “is” 是“be”，那后面自然要跟表示“被回收”的词。
+过去分词你可以简单理解为动词的一种变形，通常用来表示完成或者被动。Recycle（回收）的过去分词就是 recycled。
+答案： recycled
+
+第4题
+题目： Many countries have 4. ______ single-use plastic bags and straws.
+
+翻译： 许多国家已经______一次性塑料袋和吸管。
+
+阅读原文： Many countries have banned single-use plastic bags and straws.
+
+翻译： 许多国家已经禁止使用一次性塑料袋和吸管。
+
+分析：
+
+找线索： 题目中的主语是 “Many countries”（许多国家），后面提到了 “single-use plastic bags and straws”（一次性塑料袋和吸管）。
+定位原文： 带着这些词，我们在第三段第二句找到了几乎一模一样的句子。
+推导： 题目缺少的是动词，问国家对塑料袋做了什么？原文里写着 “have banned”。题目已经有了助动词 “have”，我们填上 “banned” 就可以了。
+规则：
+这里考察的是动词的过去分词和时态。
+
+题目里的 “have” 提示我们这是现在完成时（表示已经完成的动作）。现在的规则是：“have + 过去分词”。
+Ban 是“禁止”的意思，它的过去分词要双写字母 “n”，变成 banned。拼写的时候一定要小心，记得双写 “n” 哦！
+答案： banned
+
+第5题
+题目： Simple 5. ______ like carrying a reusable water bottle can reduce plastic waste.
+
+翻译： 像携带可重复使用的水瓶这样简单的______可以减少塑料垃圾。
+
+阅读原文： Simple changes like carrying a reusable water bottle, using cloth shopping bags, and refusing plastic straws can significantly reduce the amount of plastic waste we produce.
+
+翻译： 像携带可重复使用的水瓶、使用布购物袋和拒绝塑料吸管这样简单的改变，可以显著减少我们产生的塑料垃圾量。
+
+分析：
+
+找线索： 题目里有形容词 “Simple”（简单的），还有介词 “like”（像），后面跟着例子 “carrying a reusable water bottle”（携带可重复使用的水瓶）。
+定位原文： 到最后一段，我们看到句子开头就是 “Simple changes”。
+推导： 题目问“简单的什么”能减少垃圾？原文说是“简单的改变”（Simple changes）。这个改变后面举的例子和题目一模一样。
+规则：
+这里考察的是名词的单复数。
+
+原文里用的是复数 “changes”，因为后面列举了好几个例子（用瓶子、用布袋、拒绝吸管）。
+做题时，如果原文是复数，通常我们也要填复数，除非题目语境明显只指代一个。这里原文就是复数，所以我们直接填 changes，记得要加 “s” 变成复数形式。
+答案： changes
+
+整体总结
+今天这篇练习，我们主要复习了这几个核心点：
+
+细节查找能力：学会利用数字（如9%）、专有名词（如plastic bags）作为“路标”快速定位原文。
+被动语态：结构是 “be + 过去分词”，表示“被……”，比如 *is recycled*。
+现在完成时：结构是 “have/has + 过去分词”，表示已经发生的事，比如 *have banned*。
+名词单复数：从原文摘抄单词时，要注意前后文是否涉及多个事物，记得保留 -s。
+`
+},
+{
+    title: "Sleep and Health",
+    article: `Sleep is one of the most important things our body needs, yet many people do not get enough of it. According to the World Health Organization, adults should sleep at least seven hours per night. However, studies show that about one-third of adults regularly sleep less than the recommended amount.
+
+Lack of sleep can lead to serious health problems. When we don't get enough rest, our immune system becomes weaker, making us more likely to get sick. Poor sleep is also linked to weight gain, as tired people tend to eat more unhealthy food and exercise less.
+
+On the other hand, good sleep has many benefits. It helps the brain process and store new information, which is why students who sleep well before exams tend to perform better. Sleep also allows the body to repair damaged cells and build muscle, which is important for physical health.
+
+To improve sleep quality, experts recommend several simple habits. First, try to go to bed and wake up at the same time every day. Second, avoid using electronic devices at least one hour before bedtime, as the blue light from screens can make it harder to fall asleep. Finally, keep your bedroom cool, dark, and quiet.`,
+    questions: [
+        {
+            label: "Problem",
+            text: "About one-third of adults regularly sleep less than the 1. ______ amount.",
+            blanks: [{ index: 1, answer: "recommended" }]
+        },
+        {
+            label: "Health risks",
+            text: "Lack of sleep makes our immune system 2. ______.",
+            blanks: [{ index: 2, answer: "weaker" }]
+        },
+        {
+            label: "Brain benefit",
+            text: "Good sleep helps the brain process and 3. ______ new information.",
+            blanks: [{ index: 3, answer: "store" }]
+        },
+        {
+            label: "Physical benefit",
+            text: "Sleep allows the body to repair damaged cells and build 4. ______.",
+            blanks: [{ index: 4, answer: "muscle" }]
+        },
+        {
+            label: "Advice",
+            text: "Avoid using electronic 5. ______ at least one hour before bedtime.",
+            blanks: [{ index: 5, answer: "devices" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： Problem: About one-third of adults regularly sleep less than the ______ amount.
+
+翻译： 问题：大约三分之一的成年人经常睡眠少于______量。
+
+阅读原文： However, studies show that about one-third of adults regularly sleep less than the recommended amount.
+
+翻译： 然而，研究表明大约三分之一的成年人经常睡眠少于推荐的量。
+
+分析：
+
+这道题简直是“送分题”！你看，题目里的句子和原文里的句子是不是长得特别像？
+我们要找的词在 “the” 和 “amount” 中间。
+线索词是 amount（数量）。在原文里，你会发现同样的结构：the ______ amount。
+原文里用的是 recommended，意思是“被推荐的”。
+规则：
+这里用到了过去分词作形容词。你不用管这么复杂的名字，只需要记住：recommended 在这里是用来修饰 amount 的，表示这个数量是“专家建议的”、“被推荐的”。
+
+答案： recommended
+
+第2题
+题目： Health risks: Lack of sleep makes our immune system ______.
+
+翻译： 健康风险：睡眠缺乏会让我们的免疫系统变得______。
+
+阅读原文： When we don’t get enough rest, our immune system becomes weaker, making us more likely to get sick.
+
+翻译： 当我们没有得到足够的休息时，我们的免疫系统会变得更弱，使我们更容易生病。
+
+分析：
+
+我们先在原文里找到 “immune system”（免疫系统）这个词。
+题目里说 “makes our immune system…”（让我们的免疫系统……），原文里说 “our immune system becomes…”（我们的免疫系统变得……）。
+线索词是 becomes（变得）。变得怎么样了呢？原文后面紧跟着就是 weaker（更弱）。
+规则：
+这里有一个语法点：make + 宾语 + 形容词。意思是“让某物变得怎么样”。
+
+Weaker 是形容词，意思是“更弱的”。它的原形是 weak（弱的）。因为文章是在把睡得好和睡得不好做比较，所以用了比较级，后面加了 -er。
+答案： weaker
+
+第3题
+题目： Brain benefit: Good sleep helps the brain process and ______ new information.
+
+翻译： 大脑益处：良好的睡眠帮助大脑处理并______新信息。
+
+阅读原文： It helps the brain process and store new information, which is why students who sleep well before exams tend to perform better.
+
+翻译： 它帮助大脑处理并储存新信息，这就是为什么考前睡得好的学生往往表现更好。
+
+分析：
+
+这道题有一个超级重要的线索词：and（和/并且）。
+你看，题目里是 “process and ______”。and 就像一座桥梁，连接两边一样的东西。
+前面是 process（处理，是一个动词动作），那么 and 后面肯定也是一个动词，而且形式要一样。
+回到原文一看，原文写的是 “process and store”。是不是完全对应？
+规则：
+这就是并列结构。简单说就是：and 前面是走路，后面肯定也是走路，不能变成跑步。前后词性必须保持一致。前面是动词原形，后面也得是动词原形。Store 在这里做动词，意思是“储存”。
+
+答案： store
+
+第4题
+题目： Physical benefit: Sleep allows the body to repair damaged cells and build ______.
+
+翻译： 身体益处：睡眠让身体能够修复受损细胞并建立______。
+
+阅读原文： Sleep also allows the body to repair damaged cells and build muscle, which is important for physical health.
+
+翻译： 睡眠也允许身体修复受损细胞并建立肌肉，这对身体健康很重要。
+
+分析：
+
+又是我们熟悉的线索词：and！
+题目里说 “repair damaged cells and build ______”。这里的结构是 “repair A and build B”（修复A并且建立B）。
+原文里也是一模一样的结构：“repair damaged cells and build muscle”。
+所以我们要填的东西，就是身体要“建立”的东西。
+规则：
+还是并列结构哦！Build 是动词“建立/建造”，后面接的肯定是名词，表示建出来的东西。Muscle 是名词，意思是“肌肉”。
+
+答案： muscle
+
+第5题
+题目： Advice: Avoid using electronic ______ at least one hour before bedtime.
+
+翻译： 建议：避免在睡前至少一小时使用电子______。
+
+阅读原文： Second, avoid using electronic devices at least one hour before bedtime, as the blue light from screens can make it harder to fall asleep.
+
+翻译： 第二，避免在睡前至少一小时使用电子设备，因为屏幕发出的蓝光会让人更难入睡。
+
+分析：
+
+这道题依然是“找孪生兄弟”的游戏。题目里的句子和原文简直一模一样。
+线索词是 electronic（电子的）和 using（使用）。
+我们在使用什么东西？原文里清清楚楚地写着 “using electronic devices”。
+规则：
+Electronic 是形容词，修饰后面的名词。Devices 是名词，意思是“设备/装置”。这里不需要复杂的语法分析，只要你能在原文里找到这就话，照抄下来就行！
+
+答案： devices
+
+整体总结
+好啦，我们来看一下今天用到的几个核心知识点：
+
+原文定位（找线索）：做这种填空题，最大的秘诀就是回原文找原话。题目通常是把原文的句子稍微变了个说法，或者直接引用。
+并列结构：看到 and 就要警惕！它连接的前后两部分，词性通常是一样的。如果前面是动词，后面通常也是动词。
+形容词修饰名词：比如第1题的 “recommended amount”（被推荐的量），第5题的 “electronic devices”（电子设备）。形容词就像戴在名词头上的帽子，用来描述名词。
+`
+},
+{
+    title: "Chinese Paper Cutting",
+    article: `Chinese paper cutting, known as "jianzhi," is one of the oldest forms of folk art in China. With a history of over 1,500 years, this art form involves cutting patterns and designs out of paper using scissors or knives. Paper cutting is especially popular during festivals like Chinese New Year, when people stick red paper cuts on windows and doors for good luck.
+
+The designs in paper cutting often carry deep symbolic meanings. Common images include fish, which represent wealth, and the Chinese character "fu," meaning happiness. Flowers, birds, and animals are also popular subjects, each carrying wishes for health, love, or prosperity.
+
+Traditionally, paper cutting was mainly practiced by women in rural areas. Mothers would teach their daughters the skill at a young age, passing it down through generations. The art was considered an important measure of a young woman's talent.
+
+In 2009, Chinese paper cutting was added to UNESCO's list of Intangible Cultural Heritage, recognizing its cultural value. Today, efforts are being made to keep this tradition alive. Art schools offer paper cutting courses, and exhibitions are held regularly in museums across the country.`,
+    questions: [
+        {
+            label: "History",
+            text: "Chinese paper cutting has a history of over 1,500 1. ______.",
+            blanks: [{ index: 1, answer: "years" }]
+        },
+        {
+            label: "Usage",
+            text: "People stick red paper cuts on windows and doors for good 2. ______.",
+            blanks: [{ index: 2, answer: "luck" }]
+        },
+        {
+            label: "Symbolic meaning",
+            text: "Fish represent 3. ______, and \"fu\" means happiness.",
+            blanks: [{ index: 3, answer: "wealth" }]
+        },
+        {
+            label: "Tradition",
+            text: "Mothers would teach their 4. ______ the skill, passing it down through generations.",
+            blanks: [{ index: 4, answer: "daughters" }]
+        },
+        {
+            label: "Protection",
+            text: "In 2009, it was added to UNESCO's list of Intangible Cultural 5. ______.",
+            blanks: [{ index: 5, answer: "Heritage" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： Chinese paper cutting has a history of over 1,500 1. ______.
+
+翻译： 中国剪纸有着超过1500______的历史。
+
+阅读原文： With a history of over 1,500 years, this art form involves cutting patterns…
+
+翻译： 这种艺术形式有着超过1500年的历史，它涉及用剪刀或刀剪出图案……
+
+分析：
+这是一道非常典型的“找原词”题目。
+
+首先看题目里的关键数字 “1,500”，这是个大数字，很容易在文章里找到。
+在文章第一段第二行，我们看到了一模一样的结构：“over 1,500 years”。
+题目把文章里的词抠掉了，我们只需要把它填回去就行。
+规则：
+这里考的是名词复数。名词就是表示人或事物名称的词（比如 apple, book）。因为前面有数字 1,500（一千五百），超过了“1”，所以后面的单位“年（year）”要加 s，变成 years。
+
+答案： years
+
+第2题
+题目： People stick red paper cuts on windows and doors for good 2. ______.
+
+翻译： 人们把红色剪纸贴在门窗上是为了求______。
+
+阅读原文： …when people stick red paper cuts on windows and doors for good luck.
+
+翻译： ……当人们把红色剪纸贴在门窗上以求好运时。
+
+分析：
+这道题我们要顺着线索去“抓捕”答案。
+
+看题目里的动作：stick red paper cuts（贴红色剪纸）。
+去文章第一段最后一句找，你会发现这句话和题目几乎一模一样。
+题目里说 for good…（为了好……），文章里紧跟在 good 后面的那个词就是答案。
+规则：
+这里考的是名词搭配。Good luck 是一个固定搭配，意思是“好运”。Luck 在这里是不可数名词，所以不需要加 s。
+
+答案： luck
+
+第3题
+题目： Fish represent 3. ______, and “fu” means happiness.
+
+翻译： 鱼代表______，“福”意味着幸福。
+
+阅读原文： Common images include fish, which represent wealth, and the Chinese character “fu,” meaning happiness.
+
+翻译： 常见的图案包括象征财富的鱼，以及意味着幸福的汉字“福”。
+
+分析：
+这道题稍微需要一点点推理，但也很简单。
+
+看题目里的关键词 Fish（鱼）和 represent（代表）。
+去文章第二段找，看到了“fish, which represent…”。
+文章说鱼代表 wealth（财富）。
+题目后面接着说 and “fu” means happiness（“福”意味着幸福），这和文章结构完全对应，所以空格里填的就是财富。
+规则：
+这里考的是词义对应。文章里的 represent 和题目里的 represent 是同一个词，意思都是“代表”。我们要学会“顺藤摸瓜”，找到前后的对应关系。
+
+答案： wealth
+
+第4题
+题目： Mothers would teach their 4. ______ the skill, passing it down through generations.
+
+翻译： 母亲们会教她们的______这门手艺，代代相传。
+
+阅读原文： Mothers would teach their daughters the skill at a young age…
+
+翻译： 母亲们会在女儿年纪尚小时教她们这门手艺……
+
+分析：
+这道题考的是细节捕捉。
+
+看题目的主语：Mothers（母亲们）。
+看动作：teach（教）。
+去文章第三段第二句找：Mothers would teach their… 后面紧跟的词就是答案。
+文章说是教给 daughters（女儿们）。
+规则：
+这里要注意复数名词。文章里用的是 daughters（女儿们），因为母亲可能不止一个女儿，或者是泛指所有母亲和女儿的关系。题目里也有 their（她们的），暗示后面接的是一群人，所以我们要填复数形式，不能只填 daughter。
+
+答案： daughters
+
+第5题
+题目： In 2009, it was added to UNESCO’s list of Intangible Cultural 5. ______.
+
+翻译： 2009年，它被列入联合国教科文组织的非物质文化______名录。
+
+阅读原文： In 2009, Chinese paper cutting was added to UNESCO’s list of Intangible Cultural Heritage…
+
+翻译： 2009年，中国剪纸被列入联合国教科文组织的非物质文化遗产名录……
+
+分析：
+这道题看起来单词很长，其实很容易找。
+
+看题目里的专有名词：UNESCO（联合国教科文组织）和年份 2009。
+在文章最后一段第一句能找到完全一样的信息。
+题目里是 Intangible Cultural…（非物质文化……），文章里紧跟其后的是 Heritage。
+这是一个专有名词词组，不能随意改动拼写。
+规则：
+这里考的是专有名词。Intangible Cultural Heritage 是一个固定术语，意思是“非物质文化遗产”。虽然单词 Heritage 比较长，但因为它在大写字母开头的专有名词短语里，所以我们要原封不动地抄下来。注意首字母 H 在原文中大写了，但在题目空格中间，通常首字母不需要大写，不过根据提供的答案是 Heritage（首字母大写），这属于专有名词的一部分，我们按标准答案填写即可。
+
+答案： Heritage
+
+整体总结
+今天这篇填空题做得非常棒！我们来回顾一下涉及的几个核心点：
+
+名词单复数：比如第1题的 years 和第4题的 daughters，当数字大于1，或者有“their”暗示群体时，记得给名词加上小尾巴 s。
+固定搭配：比如第2题的 good luck（好运），这是英语中很常见的说法，记下来以后就能直接用。
+原词定位：做这类阅读填空，最核心的技巧就是“找原句”。先看题目里的特殊词（数字、大写字母、动词），然后在文章里圈出这句话，答案通常就在旁边。
+`
+},
+{
+    title: "Bike Sharing",
+    article: `Bike sharing has become a popular way of transportation in many cities around the world. The concept is simple: people can rent a bicycle from a station, ride it to their destination, and return it to another station.
+
+Bike sharing offers many advantages. First, it is an environmentally friendly way to travel, as bicycles produce no pollution. Second, riding a bike is good exercise that helps people stay healthy. Third, bike sharing can reduce traffic congestion in busy cities.
+
+However, bike sharing also faces some problems. In some cities, shared bikes have been parked carelessly on sidewalks, blocking pedestrians and creating a mess. Some users have also damaged or stolen bikes.
+
+In addition, safety remains a concern, as not all riders wear helmets or follow traffic rules.
+
+To address these issues, many cities have introduced regulations requiring bike-sharing companies to limit the number of bikes and ensure proper parking. Companies have also improved their technology, using GPS tracking to monitor bikes.`,
+    questions: [
+        {
+            label: "How it works",
+            text: "People can rent a bicycle, ride it to their 1. ______, and return it to another station.",
+            blanks: [{ index: 1, answer: "destination" }]
+        },
+        {
+            label: "Advantage",
+            text: "Bicycles produce no 2. ______.",
+            blanks: [{ index: 2, answer: "pollution" }]
+        },
+        {
+            label: "Problem",
+            text: "Shared bikes have been parked 3. ______ on sidewalks.",
+            blanks: [{ index: 3, answer: "carelessly" }]
+        },
+        {
+            label: "Safety",
+            text: "Not all riders wear 4. ______ or follow traffic rules.",
+            blanks: [{ index: 4, answer: "helmets" }]
+        },
+        {
+            label: "Solution",
+            text: "Cities have introduced 5. ______ to limit bike numbers and ensure proper parking.",
+            blanks: [{ index: 5, answer: "regulations" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： People can rent a bicycle, ride it to their ______, and return it to another station.
+
+翻译： 人们可以租一辆自行车，骑到他们的______，然后还到另一个站点。
+
+阅读原文： people can rent a bicycle from a station, ride it to their destination, and return it to another station.
+
+翻译： 人们可以从一个站点租一辆自行车，骑到他们的目的地，然后还到另一个站点。
+
+分析：
+咱们先看题目里的句子，前面说 “ride it to their…”（骑它去他们的……），这里的 “their”（他们的）是一个非常关键的线索词，说明后面要填一个名词，表示“他们的……东西”。
+接着，我们在原文第一段找到了几乎一模一样的句子。你看，原文写的是 “ride it to their destination”。题目和原文就像是双胞胎，结构完全一样，只是挖了一个空。既然原文说是去“destination”，那我们照搬下来就好啦。
+
+规则：
+这里考察的是名词。名词就是表示人、事物或地点的词。比如“苹果”、“老师”、“目的地”都是名词。“Their” 是“他们的”，后面通常要跟一个名词，表示“他们的某样东西”。
+
+答案： destination
+
+第2题
+题目： Bicycles produce no ______.
+
+翻译： 自行车不产生______。
+
+阅读原文： First, it is an environmentally friendly way to travel, as bicycles produce no pollution.
+
+翻译： 首先，这是一种环保的出行方式，因为自行车不产生任何污染。
+
+分析：
+题目里有个很显眼的词 “no”（没有），它后面通常跟着一个名词。还有一个动词 “produce”（产生）。
+咱们去原文第二段找找，一眼就看到了 “bicycles produce no pollution” 这几个词。题目和原文简直是一模一样！既然原文说自行车不产生“pollution”，那这里肯定就是它了。
+
+规则：
+这里同样考察名词作宾语。动词 “produce”（产生）后面要跟一个动作的对象，也就是“产生什么”。“No” 表示否定，意思是“没有污染”。
+
+答案： pollution
+
+第3题
+题目： Shared bikes have been parked ______ on sidewalks.
+
+翻译： 共享单车被______停在人行道上。
+
+阅读原文： In some cities, shared bikes have been parked carelessly on sidewalks, blocking pedestrians and creating a mess.
+
+翻译： 在一些城市，共享单车被随意停在人行道上，阻挡了行人，造成了一团糟。
+
+分析：
+你看题目这句话，主语是 “Shared bikes”（共享单车），后面是 “have been parked”（被停放）。
+关键线索来了：空格是在动词 “parked”（停放）的后面。动词后面放什么词来修饰动作呢？比如“开心地跑”、“慢慢地走”。这里需要形容是怎么停车的。
+回到原文，我们看到 “parked carelessly”。“Carelessly” 就是用来修饰 “parked” 的，告诉我们车停得“粗心地、随意地”，结果造成了混乱。
+
+规则：
+这里考察的是副词修饰动词。副词就像是动词的“小跟班”，用来告诉别人这个动作是怎么做的。
+
+“Park” 是动词（停车）。
+“Carelessly” 是副词（粗心地、随意地）。
+合起来就是“随意地停放”。如果只填 “careless”（形容词，表示粗心的）就错了，因为形容词通常用来修饰人或事物的样子，不能修饰动作。
+答案： carelessly
+
+第4题
+题目： Not all riders wear ______ or follow traffic rules.
+
+翻译： 并非所有骑行者都戴______或遵守交通规则。
+
+阅读原文： In addition, safety remains a concern, as not all riders wear helmets or follow traffic rules.
+
+翻译： 此外，安全仍然是一个令人担忧的问题，因为并非所有骑行者都戴头盔或遵守交通规则。
+
+分析：
+这道题有个超级明显的线索词 “or”（或者/和），它连接前后两个部分。前面是 “wear ______”，后面是 “follow traffic rules”（遵守交通规则）。
+结构是：动词 wear（戴）+ 空格，or + 动词 follow（遵守）+ 名词词组。
+既然 “follow” 后面跟的是 “traffic rules”（名词），那么 “wear” 后面也应该是一个名词（戴什么东西）。
+定位到原文，很容易找到 “wear helmets”，意思是“戴头盔”。
+
+规则：
+这里考察名词搭配和并列关系。
+
+动词 “wear” 是“穿/戴”的意思，后面要跟衣物或装备。
+“Or” 是一个并列连词，它要求前后的词性要一致，结构要平衡。后面是“规则”（名词），前面也得是“头盔”（名词）。
+答案： helmets
+
+第5题
+题目： Cities have introduced ______ to limit bike numbers and ensure proper parking.
+
+翻译： 城市已经引入______来限制单车数量并确保正确停放。
+
+阅读原文： To address these issues, many cities have introduced regulations requiring bike-sharing companies to limit the number of bikes and ensure proper parking.
+
+翻译： 为了解决这些问题，许多城市已经出台了规定，要求共享单车公司限制单车数量并确保正确停放。
+
+分析：
+题目中的 “have introduced”（已经引入/出台）是关键动词动作。后面紧跟着空格，再后面是 “to limit…”（为了限制……），这表示目的。
+意思是：城市出台了什么东西，目的是为了限制数量？
+去原文最后一段找，“cities have introduced regulations”。这里的 “regulations” 就是出台的那个东西。
+
+规则：
+这里考察名词作宾语。动词 “introduced”（引入/出台）后面需要接一个名词，表示“出台了什么”。
+“Regulations” 是名词，意思是“规章、制度”。虽然这个词有点长，但在原文里可以直接找到哦，不需要你自己拼写，只要眼熟就行！
+
+答案： regulations
+
+整体总结
+今天这篇阅读填空，我们主要复习了这几个核心点：
+
+名词的使用：名词通常作主语或宾语。比如 “their” 后面，或者动词 “wear”、“produce”、“introduced” 后面，都要用名词。
+副词修饰动词：如果一个空在动词后面，用来形容动作是怎么做的（比如“随意地停”），那我们通常要用副词（词尾常有 -ly）。
+找同义句：做阅读填空最实用的方法，就是先看懂题目里的关键词，然后像“连连看”一样，去原文里找一模一样或者长得像的句子，答案通常就在附近！
+`
+},
+{
+    title: "Volunteering",
+    article: `Volunteering is the act of giving your time and energy to help others without expecting anything in return. Around the world, millions of people volunteer in hospitals, schools, animal shelters, and community centers.
+
+Studies have found that volunteering is not only good for the community but also beneficial for the volunteers themselves. People who volunteer regularly report feeling happier and more connected to others. Volunteering also provides opportunities to learn new skills and gain work experience, which can be especially helpful for young people looking for jobs.
+
+However, finding the right volunteer opportunity can sometimes be challenging. Many organizations require a time commitment that busy people may not be able to meet. To solve this problem, some websites now match volunteers with short-term projects that fit their schedules and interests.
+
+Experts suggest starting small — even just a few hours a month can make a real impact. As one volunteer put it, "You don't have to change the world. Just help one person at a time."`,
+    questions: [
+        {
+            label: "What",
+            text: "Volunteering means helping others without expecting anything in 1. ______.",
+            blanks: [{ index: 1, answer: "return" }]
+        },
+        {
+            label: "Feeling",
+            text: "Volunteers report feeling 2. ______ and more connected to others.",
+            blanks: [{ index: 2, answer: "happier" }]
+        },
+        {
+            label: "Skill building",
+            text: "Volunteering helps gain work 3. ______.",
+            blanks: [{ index: 3, answer: "experience" }]
+        },
+        {
+            label: "Challenge",
+            text: "Many organizations require a time 4. ______ that busy people cannot meet.",
+            blanks: [{ index: 4, answer: "commitment" }]
+        },
+        {
+            label: "Advice",
+            text: "Experts suggest starting 5. ______.",
+            blanks: [{ index: 5, answer: "small" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： Volunteering means helping others without expecting anything in 1. ______.
+
+翻译： 志愿服务意味着帮助他人，而不期待任何回报。
+
+阅读原文： Volunteering is the act of giving your time and energy to help others without expecting anything in return.
+
+翻译： 志愿服务是奉献你的时间和精力去帮助他人，而不期待任何回报的行为。
+
+分析：
+这一题非常简单，是典型的“送分题”。
+
+请看题目中的关键词：without expecting anything in…（不期待任何……在……里）。
+我们回到原文第一段，一眼就能看到几乎一模一样的句子：without expecting anything in return。
+这里的线索词是 in。在英语中，in return 是一个非常固定的搭配，中间一般不会插进别的词。就像我们中文说“回报”，这两个字通常也是连在一起说的。
+规则：
+这里考查的是固定短语。in return 是一个固定搭配，意思是“作为回报”。你可以把它想象成一个专有名词套餐，点了“in”，后面就得配“return”。
+
+答案： return
+
+第2题
+题目： Volunteers report feeling 2. ______ and more connected to others.
+
+翻译： 志愿者们报告说，他们感觉更快乐，与他人联系更紧密。
+
+阅读原文： People who volunteer regularly report feeling happier and more connected to others.
+
+翻译： 定期做志愿者的人报告说，他们感觉更快乐，与他人联系更紧密。
+
+分析：
+这一题考察的是你的“火眼金睛”。
+
+先看题目，发现横线后面有一个很重要的词：and（和/而且）。
+and 是一个连接词，就像一座桥，它连接的前后两部分通常长得很像。你看后面是 more connected（更紧密联系了的），前面应该也是一个表示感觉的、并且形式差不多的词。
+我们看原文，找到了 report feeling happier and more connected。
+这里 happier 和 more connected 并列，都跟在 feeling（感觉）后面。
+规则：
+这里运用了并列关系。当看到 and 时，它前后的词性（比如都是形容词）和形式（比如都是比较级）通常要保持一致。more connected 是比较级（表示“更……”），所以横线上也要填一个比较级形容词。happier 是 happy（快乐）的比较级。
+
+答案： happier
+
+第3题
+题目： Volunteering helps gain work 3. ______.
+
+翻译： 志愿服务有助于获得工作经验。
+
+阅读原文： Volunteering also provides opportunities to learn new skills and gain work experience…
+
+翻译： 志愿服务也提供了学习新技能和获得工作经验的机会……
+
+分析：
+这一题还是在考眼力，但也稍微考了一点逻辑。
+
+题目里有 gain work…（获得工作……）。
+我们去原文第二段找，能看到 gain work experience。
+这里的线索词是 work（工作）和 gain（获得）。在工作中，你能获得什么呢？通常是“经验”。
+规则：
+这里考查的是名词短语。work experience 意思是“工作经验”。Experience 在这里是名词，表示“经验”。注意，它是不可数名词，所以不要加“s”哦。
+
+答案： experience
+
+第4题
+题目： Many organizations require a time 4. ______ that busy people cannot meet.
+
+翻译： 许多组织需要一种忙碌的人无法满足的时间投入。
+
+阅读原文： Many organizations require a time commitment that busy people may not be able to meet.
+
+翻译： 许多组织需要一种忙碌的人可能无法满足的时间投入。
+
+分析：
+这道题稍微难一点点，因为有个词可能不认识。
+
+先看题目，定位到原文第三段。
+题目说 require a time…，原文写的是 require a time commitment。
+这里的线索词是 time（时间）。很多同学可能不认识 commitment，没关系，我们先把它当做“代号X”。
+句子后面说忙碌的人无法 meet（满足）这个 time X。在英语里，meet a commitment 是固定搭配，意思是“履行承诺”或“满足投入的要求”。
+规则：
+这里考查的是词语搭配。Time commitment 意思是“时间投入”或“时间承诺”。如果你不认识 commitment 这个词，做题时就要紧紧抓住前面的 time 和后面的 that 从句，去原文里找一模一样的结构，然后把这个生词“抄”下来。
+
+答案： commitment
+
+第5题
+题目： Experts suggest starting 5. ______.
+
+翻译： 专家建议从小事做起。
+
+阅读原文： Experts suggest starting small — even just a few hours a month can make a real impact.
+
+翻译： 专家建议从小事做起——哪怕一个月只需几个小时也能产生真正的影响。
+
+分析：
+最后一题，我们看看专家的建议。
+
+题目很短：Experts suggest starting…
+去原文最后一段找，马上就能看到 Experts suggest starting small。
+线索词是 starting（开始）。Start small 是一个很地道的说法，意思是“从小处着手”或“积少成多”。
+规则：
+这里考查的是形容词修饰动名词。通常我们说“开始某事”，这里的 small 是形容“开始”这个动作的规模。你可以理解为：把“开始”这件事做得 small（小一点）。记住这个短语：start small（从小事做起）。
+
+答案： small
+
+整体总结
+同学，你看，其实并没有那么难，对不对？我们来总结一下这篇文章涉及的几个核心点：
+
+固定搭配：比如 in return（作为回报）和 time commitment（时间投入）。这需要我们平时多积累，像背顺口溜一样把它们背下来。
+并列关系：看到 and 就要警觉，它前后的词往往长得很像（比如都是比较级），这能帮我们快速锁定答案。
+名词短语：比如 work experience（工作经验），两个名词连在一起，表达一个完整的意思。
+原文定位：这是最重要的技巧！一定要在文章里找到和题目长得最像的那句话，答案通常就在那里等着你。
+`
+},
+{
+    title: "The Importance of Breakfast",
+    article: `Breakfast is often called the most important meal of the day, and for good reason. After a long night of sleep, our body needs fuel to start the day. A healthy breakfast provides the energy and nutrients our brain and body need to function properly.
+
+Research has shown that people who eat breakfast regularly perform better at school and work. A study of 1,000 students found that those who ate a nutritious breakfast scored 20% higher on tests than those who skipped it. Breakfast eaters also tend to have better concentration and memory.
+
+Despite these benefits, many people skip breakfast due to busy schedules or a desire to lose weight. However, skipping breakfast can actually lead to weight gain. When we miss our morning meal, we tend to feel hungrier later and eat larger portions at lunch and dinner.
+
+Nutrition experts recommend a balanced breakfast that includes protein, whole grains, and fruits. Good examples include eggs with whole wheat toast or yogurt with nuts.
+
+Making time for breakfast doesn't have to be difficult. Even preparing food the night before can help ensure a healthy start to the day.`,
+    questions: [
+        {
+            label: "Why",
+            text: "A healthy breakfast provides the energy and 1. ______ our body needs.",
+            blanks: [{ index: 1, answer: "nutrients" }]
+        },
+        {
+            label: "Research",
+            text: "Students who ate breakfast scored 20% 2. ______ on tests.",
+            blanks: [{ index: 2, answer: "higher" }]
+        },
+        {
+            label: "Misconception",
+            text: "Skipping breakfast can actually lead to weight 3. ______.",
+            blanks: [{ index: 3, answer: "gain" }]
+        },
+        {
+            label: "Recommendation",
+            text: "Experts recommend a 4. ______ breakfast including protein, whole grains, and fruits.",
+            blanks: [{ index: 4, answer: "balanced" }]
+        },
+        {
+            label: "Tip",
+            text: "Preparing food the night 5. ______ can help ensure a healthy start.",
+            blanks: [{ index: 5, answer: "before" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： Why: A healthy breakfast provides the energy and 1. ______ our body needs.
+
+翻译： 原因：一份健康的早餐提供了我们身体所需的能量和______。
+
+阅读原文： A healthy breakfast provides the energy and nutrients our brain and body need to function properly.
+
+翻译： 一份健康的早餐提供了我们的大脑和身体正常运作所需的能量和营养素。
+
+分析：
+
+这道题的线索词是 and（和）。
+你看，题目里有一个结构是 “the energy and…”（能量和……），这里有一个 and，说明空格里的词和 “energy”（能量）是并列关系，就像“我和你”一样，它们是好朋友，地位平等。
+我们回到原文第一段，找到 “energy and” 这几个字，你会发现后面紧跟着一个词 nutrients。原文说“能量和营养素”，题目里有了能量，缺的自然就是“营养素”啦。
+规则：
+
+这里考查的是名词并列。
+简单来说，当看到 and 这个词时，它前后的词性通常是一样的。前面是名词，后面也要填名词。Nutrients 意思是“营养素”，是个名词，所以填进去非常合适。
+答案： nutrients
+
+第2题
+题目： Research: Students who ate breakfast scored 20% 2. ______ on tests.
+
+翻译： 研究：吃早餐的学生在考试中得分______20%。
+
+阅读原文： A study of 1,000 students found that those who ate a nutritious breakfast scored 20% higher on tests than those who skipped it.
+
+翻译： 一项针对1000名学生的研究发现，那些吃营养早餐的学生比那些不吃早餐的学生在考试中的得分要高出20%。
+
+分析：
+
+这道题的线索词是 scored（得分）和数字 20%。
+题目说“得分……20%”，我们在原文第二段找到这句话。原文里写的是 “scored 20% higher”。
+这里的逻辑很简单：吃早餐更好，还是不吃早餐更好？肯定是吃早餐更好呀！所以分数应该是“更高”。
+规则：
+
+这里考查的是形容词比较级。
+“比较级”听起来很专业，其实就是表示“更……”的意思。通常在形容词后面加 -er，或者前面加 more。比如 tall（高）变成 taller（更高）。这里 higher 就是 high（高）的比较级，表示分数“更高”。
+答案： higher
+
+第3题
+题目： Misconception: Skipping breakfast can actually lead to weight 3. ______.
+
+翻译： 误区：不吃早餐实际上会导致体重______。
+
+阅读原文： However, skipping breakfast can actually lead to weight gain.
+
+翻译： 然而，不吃早餐实际上会导致体重增加。
+
+分析：
+
+这道题的线索词是 lead to（导致）和 weight（体重）。
+题目结构和原文几乎一模一样：“lead to weight…”。
+原文在 weight 后面跟的是 gain。意思是“体重增加”。题目把这个词挖走了，我们把它填回去就好。
+这句话的逻辑是：很多人以为不吃早饭能减肥，但文章说，不吃早饭反而会让你变胖（体重增加）。
+规则：
+
+这里考查的是固定搭配。
+Weight gain 是一个常用的名词短语，意思是“体重增加”。虽然 gain 平时常用作动词（获得），但在这里它作名词使用。
+答案： gain
+
+第4题
+题目： Recommendation: Experts recommend a 4. ______ breakfast including protein, whole grains, and fruits.
+
+翻译： 建议：专家推荐一份______早餐，包括蛋白质、全谷物和水果。
+
+阅读原文： Nutrition experts recommend a balanced breakfast that includes protein, whole grains, and fruits.
+
+翻译： 营养专家推荐一份均衡的早餐，包括蛋白质、全谷物和水果。
+
+分析：
+
+这道题的线索词是 breakfast（早餐）以及后面的包括蛋白质、水果等。
+题目问专家推荐什么样的早餐？回到原文第四段，专家推荐的是 “a balanced breakfast”。
+这里空格在 breakfast 前面，需要一个词来形容早餐。
+规则：
+
+这里考查的是形容词修饰名词。
+名词就是表示事物的词（比如早餐），形容词就是用来描写事物的词（比如好吃的、均衡的）。我们要用形容词来修饰名词。
+Balanced 是一个形容词，意思是“均衡的”。放在这里形容早餐非常合适。
+答案： balanced
+
+第5题
+题目： Tip: Preparing food the night 5. ______ can help ensure a healthy start.
+
+翻译： 小贴士：在______准备食物有助于确保一个健康的开始。
+
+阅读原文： Even preparing food the night before can help ensure a healthy start to the day.
+
+翻译： 即使在前一天晚上准备食物也有助于确保这一天有一个健康的开始。
+
+分析：
+
+这道题的线索词是 the night（晚上）。
+题目说 “the night…”，原文说 “the night before”。
+这是一个时间表达。我们常说“前一天晚上”，英语里就是 “the night before”。
+规则：
+
+这里考查的是时间状语。
+Before 是一个很常见的词，意思是“在……之前”。在这里，它用来修饰 “the night”，特指“前一天晚上”。这是一个固定的用法，记住它就好啦！
+答案： before
+
+整体总结
+今天这篇练习，我们复习了几个非常核心的语法点，你看，其实并不难对吧？
+
+并列关系： 看到 and，就要想到前后词性要一致，前面是名词，后面通常也是名词。
+形容词比较级： 用来表示“更……”，通常词尾会有变化（比如 high 变成 higher）。
+形容词修饰名词： 用来修饰名词的词，通常放在名词前面（比如 balanced breakfast）。
+固定搭配： 比如 weight gain（体重增加）和 the night before（前一天晚上），这些需要平时多读多记。
+`
+},
+{
+    title: "Chinese Tea Culture",
+    article: `Chinese tea culture has a history of more than 4,000 years and is considered an important part of traditional Chinese culture. Tea was originally used as medicine, but later became a daily drink and a symbol of social interaction.
+
+There are six major types of tea in China: green tea, black tea, white tea, oolong tea, yellow tea, and dark tea. Each type has its own unique flavor and health benefits. Unlike Western tea culture which often adds milk and sugar, Chinese people prefer to enjoy the natural taste of tea.
+
+The tea ceremony, known as cha dao, is not just about drinking tea but about showing respect, peace, and harmony. In ancient times, scholars would gather in teahouses to discuss philosophy and write poems. Today, many young people are returning to this tradition to reduce stress and find inner peace.
+
+To protect this cultural heritage, the government has listed several tea-making techniques as national intangible cultural heritage. Universities have also begun offering courses on tea culture to pass it down to the next generation.`,
+    questions: [
+        {
+            label: "History",
+            text: "Chinese tea culture has a history of over 4,000 years and is regarded as a vital part of 1. ______ Chinese culture.",
+            blanks: [{ index: 1, answer: "traditional" }]
+        },
+        {
+            label: "Origin",
+            text: "Originally, tea was used as 2. ______ before becoming a popular drink.",
+            blanks: [{ index: 2, answer: "medicine" }]
+        },
+        {
+            label: "Taste",
+            text: "Unlike Westerners, Chinese people enjoy tea in its 3. ______ state without adding milk or sugar.",
+            blanks: [{ index: 3, answer: "natural" }]
+        },
+        {
+            label: "Ceremony",
+            text: "The tea ceremony represents values of respect, peace, and 4. ______.",
+            blanks: [{ index: 4, answer: "harmony" }]
+        },
+        {
+            label: "Protection",
+            text: "To preserve the tradition, some tea-making skills have been listed as national 5. ______ cultural heritage.",
+            blanks: [{ index: 5, answer: "intangible" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第 1 题
+题目： Chinese tea culture has a history of over 4,000 years and is regarded as a vital part of 1. ______ Chinese culture.
+
+翻译： 中国茶文化有着四千多年的历史，被视为 1. ______ 中国文化的重要组成部分。
+
+阅读原文： Chinese tea culture has a history of more than 4,000 years and is considered an important part of traditional Chinese culture.
+
+翻译： 中国茶文化有着四千多年的历史，被认为是中国传统文化的重要组成部分。
+
+分析：
+
+咱们先看题目里的关键词 “part of”（…的一部分）和 “Chinese culture”（中国文化）。
+再看原文，是不是也有 “part of” 和 “Chinese culture”？
+原文说的是 “traditional Chinese culture”。
+题目把 “considered”（认为）换成了 “regarded as”（被视为），意思是一样的。原文里修饰“中国文化”的那个词，就是我们要找的答案！
+规则：
+
+这里考查的是形容词修饰名词。形容词就是用来修饰名词的“装饰品”。
+“Traditional” 是形容词，意思是“传统的”，它放在名词短语 “Chinese culture” 前面，告诉我们这是哪种类型的文化。
+答案： traditional
+
+第 2 题
+题目： Originally, tea was used as 2. ______ before becoming a popular drink.
+
+翻译： 起初，茶在被作为一种流行饮料之前，是被当作 2. ______ 使用的。
+
+阅读原文： Tea was originally used as medicine, but later became a daily drink…
+
+翻译： 茶最初是被当作药使用的，但后来变成了一种日常饮料……
+
+分析：
+
+题目里的线索词是 “Originally”（起初）和 “used as”（被当作…使用）。
+我们在原文第一段后半部分找到了一模一样的结构：“Tea was originally used as medicine”。
+题目问的是“被当作什么使用”，原文直接告诉了我们是 “medicine”。
+规则：
+
+这里考查的是名词作宾语。名词就是表示人、事物或概念的词，比如“桌子”、“苹果”、“药”。
+介词 “as”（作为）后面要跟一个名词，表示茶的身份。
+答案： medicine
+
+第 3 题
+题目： Unlike Westerners, Chinese people enjoy tea in its 3. ______ state without adding milk or sugar.
+
+翻译： 不像西方人，中国人喜欢茶的 3. ______ 状态，不加牛奶或糖。
+
+阅读原文： Unlike Western tea culture which often adds milk and sugar, Chinese people prefer to enjoy the natural taste of tea.
+
+翻译： 不像经常加牛奶和糖的西方茶文化，中国人更喜欢享受茶的天然味道。
+
+分析：
+
+这题稍微难一点点，玩了个“变身”游戏。
+题目说“不加牛奶或糖”，原文说“享受…的味道”。
+题目里的 “state”（状态）对应原文语境中的描述。
+原文说西方人加东西，而中国人享受 “natural taste”（天然的味道）。
+既然题目问的是在什么“状态”下喝茶，原文提到了 “natural”（天然的），填进去读一下：“在它的天然状态下”，非常通顺！
+规则：
+
+这又是形容词修饰名词的情况。
+“Natural” 是形容词，意思是“自然的、天然的”，修饰后面的名词 “state”（状态）。
+答案： natural
+
+第 4 题
+题目： The tea ceremony represents values of respect, peace, and 4. ______.
+
+翻译： 茶道代表了尊重、和平以及 4. ______ 的价值观。
+
+阅读原文： The tea ceremony, known as cha dao, is not just about drinking tea but about showing respect, peace, and harmony.
+
+翻译： 茶道不仅仅是关于喝茶，更是关于展示尊重、和平与和谐。
+
+分析：
+
+题目里有 “respect”（尊重）和 “peace”（和平），中间用逗号隔开，后面还有个 “and”（和）。
+这就像我们去超市买东西，清单上列了：苹果、香蕉，和 ______。
+原文里也有 “respect, peace, and…”，紧跟在后面的那个词就是答案啦！
+规则：
+
+这里考查的是并列关系。当句子中出现 “A, B, and C” 这种结构时，说明 A、B、C 是同一类词。
+这里 “respect” 和 “peace” 都是名词，所以空格里也必须填一个名词。“Harmony” 是名词，意思是“和谐”。
+答案： harmony
+
+第 5 题
+题目： To preserve the tradition, some tea-making skills have been listed as national 5. ______ cultural heritage.
+
+翻译： 为了保护这一传统，一些制茶技艺已被列为国家 5. ______ 文化遗产。
+
+阅读原文： To protect this cultural heritage, the government has listed several tea-making techniques as national intangible cultural heritage.
+
+翻译： 为了保护这一文化遗产，政府已将几种制茶技艺列为国家级非物质文化遗产。
+
+分析：
+
+题目里的 “national”（国家的）和 “cultural heritage”（文化遗产）是重要线索。
+原文里也有 “national” 和 “cultural heritage”。
+原文中间夹在那个位置的词是 “intangible”。
+虽然这个词看起来比较长、比较难，但我们把它当作一个整体代号填进去就可以了。
+规则：
+
+又是形容词修饰名词哦！
+“Intangible” 是形容词，意思是“无形的、非物质的”。“Intangible cultural heritage” 就是专有名词“非物质文化遗产”。
+答案： intangible
+
+整体总结
+太棒了！我们已经完成了所有的题目。让我们来回顾一下这篇短文里的几个核心语法点：
+
+形容词修饰名词：这是今天出现最多的规则。记住，形容词像“贴纸”，总是贴在名词前面，用来描述它长什么样、是什么性质（比如：traditional culture, natural state）。
+名词的使用：表示事物名称的词（如 medicine, harmony），常常作宾语或主语。
+并列关系：看到 “and” 就要想起“平起平坐”，前后单词的类型要一样（比如都是名词）。
+`
+},
+{
+    title: "Keep an Eye on Crested Ibis",
+    article: `The crested ibis was once thought to be extinct in the wild. In 1981, only seven birds were found in Shaanxi Province. Thanks to decades of protection efforts, their number has now increased to over 7,000.
+
+The biggest threat to the crested ibis was habitat loss and pesticide use. Local farmers have changed their farming habits to create a friendly environment for the birds. Artificial breeding programs have also played a key role in increasing the population.
+
+What makes the crested ibis special is its symbolic meaning. In Chinese culture, it represents hope and rebirth. The success of its protection has become a model for global wildlife conservation.`,
+    questions: [
+        {
+            label: "The crested ibis",
+            text: "The crested ibis was once believed to be 1. ______ in the wild.",
+            blanks: [{ index: 1, answer: "extinct" }]
+        },
+        {
+            label: "The main threat",
+            text: "The main threat to them was 2. ______ loss and pesticide use.",
+            blanks: [{ index: 2, answer: "habitat" }]
+        },
+        {
+            label: "Farmers",
+            text: "Farmers have changed their 3. ______ habits to help the birds.",
+            blanks: [{ index: 3, answer: "farming" }]
+        },
+        {
+            label: "The number",
+            text: "The number of crested ibises has increased to more than 4. ______ today.",
+            blanks: [{ index: 4, answer: "7000" }]
+        },
+        {
+            label: "The crested ibis",
+            text: "The crested ibis has become a successful 5. ______ for wildlife protection worldwide.",
+            blanks: [{ index: 5, answer: "model" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第 1 题
+题目： The crested ibis was once believed to be ______ in the wild.
+
+翻译： 朱鹮曾经被认为在野外已经______。
+
+阅读原文： The crested ibis was once thought to be extinct in the wild.
+
+翻译： 朱鹮曾经被认为在野外已经灭绝。
+
+分析：
+
+这道题简直就是“送分题”！我们把题目和原文对比一下。
+你看，题目前半句是 “The crested ibis was once…”，原文也是一模一样的开头。
+题目里写的是 “believed to be”（被认为），原文写的是 “thought to be”。在英语里，believe 和 think 在这里意思非常接近，都是“认为”的意思。
+既然句子结构几乎一样，那原文里 “thought to be” 后面跟着的那个词，就是我们要找的答案！
+规则：
+这里用到了同义词替换。题目把原文的 *thought*（想/认为）换成了 *believed*（相信/认为），但意思没变。这就好比原文说“我觉得苹果好吃”，题目问“他觉得苹果______”，答案肯定是“好吃”。
+
+答案： extinct
+
+第 2 题
+题目： The main threat to them was ______ loss and pesticide use.
+
+翻译： 对它们的主要威胁是______丧失和杀虫剂的使用。
+
+阅读原文： The biggest threat to the crested ibis was habitat loss and pesticide use.
+
+翻译： 对朱鹮最大的威胁是栖息地丧失和杀虫剂的使用。
+
+分析：
+
+我们来玩找茬游戏。题目里的 “The main threat”（主要威胁）对应原文里的 “The biggest threat”（最大威胁）。“Main” 和 “biggest” 在这里意思差不多。
+题目后面紧接着是 “loss and pesticide use”，原文里紧跟在 threat 后面的是 “______ loss and pesticide use”。
+原文里这个空的位置，放的是 habitat 这个词。
+这也是直接从原文里“搬运”过来的单词，只要细心比对就能找到。
+规则：
+这题考查名词。名词用来表示人或事物的名称。在这里，*habitat*（栖息地）是导致威胁的一个原因，它和 *pesticide use*（杀虫剂使用）并列，一起构成了威胁的内容。
+
+答案： habitat
+
+第 3 题
+题目： Farmers have changed their ______ habits to help the birds.
+
+翻译： 农民们已经改变了他们的______习惯来帮助这些鸟。
+
+阅读原文： Local farmers have changed their farming habits to create a friendly environment for the birds.
+
+翻译： 当地农民已经改变了他们的耕作习惯，以此为鸟类创造一个友好的环境。
+
+分析：
+
+题目里的主语是 “Farmers”（农民），原文里也有 “Local farmers”（当地农民）。
+题目说 “changed their… habits”（改变了他们的……习惯），原文说 “changed their farming habits”。
+很明显，题目挖空的位置，原文放的是 farming 这个词。因为农民的职业是耕作，所以他们的习惯自然就是“耕作习惯”。
+规则：
+这里考查词性搭配。*Habits* 是名词（习惯），前面通常需要一个词来修饰它，说明是什么习惯。*Farming* 是动名词（就是把动词加 -ing 当名词用），在这里作定语修饰 *habits*，意思是“耕作的”。
+
+答案： farming
+
+第 4 题
+题目： The number of crested ibises has increased to more than ______ today.
+
+翻译： 如今朱鹮的数量已经增加到了超过______。
+
+阅读原文： Thanks to decades of protection efforts, their number has now increased to over 7,000.
+
+翻译： 多亏了几十年的保护努力，它们的数量现在已经增加到了7000多只。
+
+分析：
+
+题目里的关键词是 “increased to”（增加到了）和 “today”（如今）。
+原文里我们能找到 “now”（现在），这跟 “today” 是对应的时间点。
+原文说 “increased to over 7,000”。题目里写的是 “more than ______”。重点来了！在英语里，over 和 more than 是一对好兄弟，意思完全一样，都是“超过、多于”的意思。
+既然原文是 “over 7,000”，题目是 “more than…”，那答案显而易见就是这个数字啦。
+规则：
+这题考查短语同义转换。*Over* 和 *more than* 经常互换使用。看到 *more than* 就要反应过来，原文可能在找 *over* 这个词。同时注意，数字 “7000” 在填空时直接写数字即可，不需要翻译成英文单词，写 “7000” 是最保险的。
+
+答案： 7000
+
+第 5 题
+题目： The crested ibis has become a successful ______ for wildlife protection worldwide.
+
+翻译： 朱鹮已经成为全世界野生动物保护的一个成功的______。
+
+阅读原文： The success of its protection has become a model for global wildlife conservation.
+
+翻译： 其保护的成功已成为全球野生动物保护的典范。
+
+分析：
+
+题目里的 “successful”（成功的）对应原文开头的 “success”（成功，名词）。
+题目里的 “wildlife protection worldwide”（全世界野生动物保护），对应原文里的 “global wildlife conservation”。*Worldwide* 和 *global* 都是“全球的”意思。
+题目说 “become a successful ______”，原文说 “become a model”。原文里的 *model* 放在了 *become* 后面，而且前面有冠词 *a*，正好符合题目里空缺的位置。
+所以，答案就是 model。
+规则：
+这里考查名词辨析。*Model* 这个词大家比较熟悉的意思是“模特”或“模型”，但在这里，它的意思是“典范、模范”。这说明背单词时，不能只记第一个意思，要多看例句理解语境。
+
+答案： model
+
+整体总结
+好啦，题目都讲完了。咱们来总结一下这篇短文里涉及到的几个核心语法点，其实非常基础：
+
+同义词替换：这是做阅读理解最核心的能力。比如文中的 *thought* vs *believed*，*over* vs *more than*，*biggest* vs *main*。以后看到题目里的词跟原文不一样，别慌，它们很可能是“双胞胎”，意思是一样的。
+名词的单复数与修饰：像 *habitat loss*（栖息地丧失）和 *farming habits*（耕作习惯），我们要学会判断什么词能放在名词前面修饰它。
+数字的表达：英语里表示“超过”，既可以用 *over*，也可以用 *more than*，这两个表达方式一定要记牢，考试经常考。
+`
+},
+{
+    title: "The Power of Growth Mindset",
+    article: `Many students believe that their abilities are fixed. However, research shows that having a growth mindset — the belief that abilities can be developed through hard work — can greatly improve academic performance.
+
+In a famous study, students who were taught to have a growth mindset showed significant improvement in math scores. They were more willing to take on challenges and viewed failures as learning opportunities rather than threats.
+
+Parents and teachers play a crucial role. Instead of saying "You are so smart," they should say "You worked really hard." This small change in language can have a powerful effect on children's motivation.`,
+    questions: [
+        {
+            label: "Definition",
+            text: "A growth mindset is the belief that abilities can be 1. ______ through effort.",
+            blanks: [{ index: 1, answer: "developed" }]
+        },
+        {
+            label: "View",
+            text: "Students with a growth mindset see failures as 2. ______ opportunities.",
+            blanks: [{ index: 2, answer: "learning" }]
+        },
+        {
+            label: "Subject",
+            text: "Those taught growth mindset showed better performance in 3. ______ .",
+            blanks: [{ index: 3, answer: "math" }]
+        },
+        {
+            label: "Praise",
+            text: "Parents should praise children's 4. ______ rather than their intelligence.",
+            blanks: [{ index: 4, answer: "effort" }]
+        },
+        {
+            label: "Effect",
+            text: "A small change in language can produce a 5. ______ effect on motivation.",
+            blanks: [{ index: 5, answer: "powerful" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： A growth mindset is the belief that abilities can be ______ through effort.
+
+翻译： 成长型思维是一种信念，即能力可以通过努力得到______。
+
+阅读原文： …the belief that abilities can be developed through hard work…
+
+翻译： ……即能力可以通过努力工作得到发展……
+
+分析：
+
+我们在阅读原文的第一段找到了这句话。你看，题目里的句子和原文简直是一模一样！
+句子里的 can be（能够被）是个很重要的信号。既然是“能够被……”，那后面肯定要接一个动词的动作。
+原文里写的是 developed，原文怎么写，咱们就怎么填，这叫“原词重现”。
+规则：
+这里涉及到了被动语态。别被术语吓到，通俗地说，就是“能力”这个东西自己不会“发展”，它是“被”人们发展的。
+
+被动语态的结构通常是：be动词 + 动词的过去分词。
+这里的 developed 就是动词 develop（发展）的过去分词形式（通常在动词后面加ed）。
+答案： developed
+
+第二题
+题目： Students with a growth mindset see failures as ______ opportunities.
+
+翻译： 拥有成长型思维的学生将失败视为______机会。
+
+阅读原文： They were more willing to take on challenges and viewed failures as learning opportunities rather than threats.
+
+翻译： 他们更愿意接受挑战，并且将失败视为学习机会，而不是威胁。
+
+分析：
+
+这道题的线索词是 failures（失败）和 opportunities（机会）。
+我们在原文第二段找到了 viewed failures as… opportunities。注意，原文用的动词是 viewed（视为），题目里换成了 see（看/视为），意思是一样的。
+原文里 failures 和 opportunities 中间有个词 learning，直接把它拿过来填上就行啦。
+规则：
+这里 learning 是动词 learn（学习）加上了 ing 形式，放在名词 opportunities 前面当作形容词用，修饰“机会”。就像我们说“游泳课”，英语是 swimming class 一样。
+
+答案： learning
+
+第三题
+题目： Those taught growth mindset showed better performance in ______ .
+
+翻译： 那些被教授成长型思维的人在______方面表现更好。
+
+阅读原文： …students who were taught to have a growth mindset showed significant improvement in math scores.
+
+翻译： ……被教授拥有成长型思维的学生在数学成绩上显示了显著的提高。
+
+分析：
+
+我们要找“表现更好”相关的内容。原文里说 showed significant improvement（显示了显著提高），这和题目的意思是对应的。
+关键线索是介词 in（在……方面）。原文说 in math scores（在数学成绩里），题目把 scores（成绩）这个省掉了，留下了核心词。
+规则：
+这里填的是一个名词 math（数学）。介词后面通常跟名词，表示具体的科目或领域。
+
+答案： math
+
+第四题
+题目： Parents should praise children’s ______ rather than their intelligence.
+
+翻译： 父母应该赞扬孩子的______，而不是他们的智力。
+
+阅读原文： Instead of saying “You are so smart,” they should say “You worked really hard.”
+
+翻译： 与其说“你真聪明”，他们应该说“你工作真的很努力”。
+
+分析：
+
+这道题稍微难一点点，需要动脑筋转换一下。
+题目说不要赞扬 intelligence（智力/聪明），原文说不要说 “You are so smart”（你真聪明），这两个是对应的。
+那应该赞扬什么呢？原文说应该说 “You worked really hard”（你工作真的很努力）。
+填 “hard” 行吗？不行，题目空格后面没有词，而且我们要填的是“努力”这个概念。原文里的 hard work 或者 effort 都可以表示努力。再看备选答案，正好有 effort。
+规则：
+这里考察的是名词。我们要填一个东西，一种品质。原文说的是“努力工作”，我们需要把它提炼成抽象名词 effort（努力）。
+
+答案： effort
+
+第五题
+题目： A small change in language can produce a ______ effect on motivation.
+
+翻译： 语言上的一个小改变可以对动力产生______影响。
+
+阅读原文： This small change in language can have a powerful effect on children’s motivation.
+
+翻译： 语言上的这个小改变可以对孩子们的动机产生强大的影响。
+
+分析：
+
+这又是一个“连连看”的题目。题目里的 change in language（语言的改变）和 effect on motivation（对动力的影响）是关键线索。
+原文里完全一样的位置上，写的是 powerful。
+题目把原文的动词 have（有）换成了 produce（产生），但空格前面的 a 和后面的 effect 都没变。
+规则：
+这里考察的是形容词修饰名词。Effect 是名词（影响），前面要用形容词来修饰它，说明是什么样的影响。Powerful（强大的）就是形容词。
+
+答案： powerful
+
+整体总结
+今天这篇阅读填空，我们主要复习了这几个核心点：
+
+被动语态：看到 be + 动词ed，就要知道这是表示“被……”，比如 can be developed（能被发展）。
+词性转换：
+动词变名词：work hard (努力工作) 变成 effort (努力)。
+动词变形容词：learn (学习) 变成 learning (学习用的)。
+同义替换：原文说 have an effect，题目说 produce an effect，虽然动词变了，但结构一样，找答案的方法也不变。
+`
+},
+{
+    title: "China's High-Speed Rail Miracle",
+    article: `China has built the world's largest high-speed rail network in just over 15 years. The total length has reached more than 45,000 kilometers, connecting almost all major cities.
+
+High-speed rail has changed people's concept of distance. What used to take 12 hours by train now takes only 3 hours. This has greatly promoted economic development and regional integration.
+
+More importantly, China has mastered the complete set of high-speed rail technology and is now exporting it to many countries along the Belt and Road Initiative.`,
+    questions: [
+        {
+            label: "Network",
+            text: "China has built the 1. ______ high-speed rail network in the world.",
+            blanks: [{ index: 1, answer: "largest" }]
+        },
+        {
+            label: "Length",
+            text: "The total length has reached over 2. ______ kilometers.",
+            blanks: [{ index: 2, answer: "45000" }]
+        },
+        {
+            label: "Concept",
+            text: "High-speed rail has changed people's understanding of 3. ______ .",
+            blanks: [{ index: 3, answer: "distance" }]
+        },
+        {
+            label: "Development",
+            text: "It has promoted economic development and 4. ______ integration.",
+            blanks: [{ index: 4, answer: "regional" }]
+        },
+        {
+            label: "Export",
+            text: "China is now 5. ______ its high-speed rail technology to other countries.",
+            blanks: [{ index: 5, answer: "exporting" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： China has built the ______ high-speed rail network in the world.
+
+翻译： 中国建成了世界上______的高速铁路网。
+
+阅读原文： China has built the world's largest high-speed rail network in just over 15 years.
+
+翻译： 在仅仅15年多的时间里，中国建成了世界上最大的高速铁路网。
+
+分析：
+
+这道题我们要找的是形容“high-speed rail network”（高铁网络）的词。
+你看题目里有 "in the world"（在世界上），这是一个重要的线索词，说明是在做全球范围的比较。
+回到原文第一句，我们找到了同样的结构，原文说 "the world's largest"，意思就是“世界上最大的”。
+题目把“world's”（世界的）提到了前面变成“in the world”，空格处就需要填那个表示“最大”的形容词。
+规则：
+
+这里考查的是形容词最高级。
+简单来说，当我们想说某样东西在某个范围里是“最……”的时候，就要用最高级。比如“最大”、“最好”。这里“large”（大）的最高级就是 largest。
+答案： largest
+
+第2题
+题目： The total length has reached over ______ kilometers.
+
+翻译： 总长度已经超过了______千米。
+
+阅读原文： The total length has reached more than 45,000 kilometers...
+
+翻译： 总长度已经达到了4.5万多公里……
+
+分析：
+
+题目里的 "The total length"（总长度）和 "kilometers"（千米）是非常明显的线索词。
+我们去原文找带有数字和“kilometers”的地方。很快就在第一段第二句找到了。
+原文说的是 "more than 45,000"。
+题目里用了一个意思相近的词 "over"，它的意思也是“超过”。所以数字部分直接填进去就好啦。
+规则：
+
+这道题考查的是同义词替换和细节查找。
+"more than" 和 "over" 在表示数量时，意思几乎一样，都是“超过”。题目帮我们换了个说法，但数字是不变的。
+答案： 45000
+
+第3题
+题目： High-speed rail has changed people's understanding of ______.
+
+翻译： 高铁改变了人们对______的理解。
+
+阅读原文： High-speed rail has changed people's concept of distance.
+
+翻译： 高铁改变了人们的距离观念。
+
+分析：
+
+题目里的 "changed people's"（改变了人们的）是一个关键的线索词。
+我们在第二段第一句找到了一模一样的开头。
+原文是 "concept of distance"，题目把 "concept"（概念）换成了 "understanding"（理解），这两个词在这里意思差不多。
+介词 "of" 后面缺少的名词，就是原文里的 "distance"（距离）。
+规则：
+
+这道题考查的是名词。
+也就是考查你能不能看懂“of”后面接的是核心名词。这里不需要变形式，直接照抄原文的名词即可。
+答案： distance
+
+第4题
+题目： It has promoted economic development and ______ integration.
+
+翻译： 它促进了经济发展和______一体化。
+
+阅读原文： This has greatly promoted economic development and regional integration.
+
+翻译： 这极大地促进了经济发展和区域一体化。
+
+分析：
+
+这道题有一个超级重要的线索词——连词 "and"（和）。
+你要记住一个口诀："and前后长得很像"。
+题目里 "and" 前面是 "economic development"（经济发展），这是一个“形容词+名词”的结构。
+那么 "and" 后面也应该是“形容词+名词”。原文里写的是 "regional integration"（区域一体化）。
+题目已经给了名词 "integration"，所以我们要把修饰它的形容词 "regional" 填进去。
+规则：
+
+这里考查的是平行结构（也叫并列结构）。
+意思就是用 "and" 连接的两个部分，词性要一样，地位要平等。前面是形容词，后面也得是形容词。
+答案： regional
+
+第5题
+题目： China is now ______ its high-speed rail technology to other countries.
+
+翻译： 中国现在正将高铁技术______到其他国家。
+
+阅读原文： ...and is now exporting it to many countries...
+
+翻译： ……并且现在正将其（高铁技术）出口到许多国家……
+
+分析：
+
+题目里的 "is now"（现在正在）和 "to other countries"（到其他国家）是关键线索。
+这提示我们事情正在发生。我们在原文最后一句找到了 "is now exporting"。
+题目把 "many countries" 换成了 "other countries"，但是动作 "exporting"（出口）没变。
+因为前面有 "is"，所以空格里必须填一个动词的 ing 形式。
+规则：
+
+这道题考查的是现在进行时。
+现在进行时就是表示“正在做某事”。它的结构是：be动词 + 动词ing。
+所以我们不能填 "export"，必须填 "exporting"。
+答案： exporting
+
+整体总结
+好啦，咱们讲完了，你看是不是也没那么难？我们来回顾一下这篇短文涉及的几个核心语法点：
+
+形容词最高级：用来表示“最……”，通常能看到 "in the world" 这种范围标志，记得加 -est。
+同义词替换：做题时不要死脑筋，"more than" 和 "over"，"concept" 和 "understanding" 意思是通用的，要学会变通。
+平行结构：看到 "and" 就要警觉，它前后的词性和形式通常是一样的。
+现在进行时：看到 "is" 加上时间状语 "now"，动词通常要变成 -ing 形式，表示正在发生。
+`
+},
+{
+    title: "Smartphones for the Elderly",
+    article: `Smartphones are no longer just for young people. Today, more and more elderly Chinese are learning to use mobile apps to make life easier. Wang Lin, 68, starts her day by checking the weather app. Then she orders fresh vegetables online. "In the past, I had to walk to the far market," she says. "Now everything comes to my door."
+
+However, learning new technology is not easy for the elderly. Many feel anxious about making mistakes. Community centers have started "Silver Hair Digital Classes" to help them. Young volunteers teach seniors how to use video calls to talk with grandchildren, how to pay bills safely, and how to avoid online tricks.
+
+The government also works hard to make apps more elderly-friendly. Bigger fonts, simpler menus, and voice control features are being added. As Wang Lin says, "Technology should warm people, not leave them behind."`,
+    questions: [
+        {
+            label: "Convenience",
+            text: "Smartphones help elderly people make life 1. ______.",
+            blanks: [{ index: 1, answer: "easier" }]
+        },
+        {
+            label: "Online Shopping",
+            text: "Wang Lin orders vegetables 2. ______ instead of walking to the market.",
+            blanks: [{ index: 2, answer: "online" }]
+        },
+        {
+            label: "Feeling",
+            text: "Many elderly feel 3. ______ about using technology.",
+            blanks: [{ index: 3, answer: "anxious" }]
+        },
+        {
+            label: "Teaching",
+            text: "Young volunteers teach seniors how to make video 4. ______ with family.",
+            blanks: [{ index: 4, answer: "calls" }]
+        },
+        {
+            label: "Design",
+            text: "The government makes apps more elderly-friendly by adding bigger 5. ______.",
+            blanks: [{ index: 5, answer: "fonts" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： Smartphones help elderly people make life ______.
+
+翻译： 智能手机帮助老年人让生活变得更______。
+
+阅读原文： Today, more and more elderly Chinese are learning to use mobile apps to make life easier.
+
+翻译： 如今，越来越多的中国老年人正在学习使用手机应用程序，为了让生活变得更简单。
+
+分析：
+
+我们先看题目里的关键词 “make life”（让生活……）。这就像是我们的“路标”。
+带着这个路标，我们去文章里找。你看，文章第二句里也有 “make life”，是不是长得一模一样？
+题目空格前面是 “make life”，原文后面跟着的是 “easier”。
+这里的逻辑很简单：题目问“让生活变得怎么样”，原文直接回答了“变得更简单”。
+规则：
+
+这里考察的是形容词的使用。形容词就是用来描写东西是什么样子的词（比如：好的、坏的、简单的）。
+这里 “easier” 是 “easy”（容易）的比较级。因为文中说用了手机APP，生活比以前变“容易”了，所以加了后缀 -er，变成 easier。
+答案： easier
+
+第二题
+题目： Wang Lin orders vegetables ______ instead of walking to the market.
+
+翻译： 王林______订购蔬菜，而不是走路去市场。
+
+阅读原文： Then she orders fresh vegetables online.
+
+翻译： 然后她在网上订购新鲜蔬菜。
+
+分析：
+
+这道题的主角是 “Wang Lin”（王林），我们要找她在文章里做了什么。
+题目里有 “orders vegetables”（订购蔬菜），我们在文章中间部分找到了这句话。
+原文说的是 “orders fresh vegetables online”。题目问的是“她是怎么样订购蔬菜的？”原文直接告诉了我们方式：online（在网上）。
+规则：
+
+这里考察的是副词/地点状语。虽然名字很专业，但你只需要知道：online（在线/在网上）说明了动作发生的地点或方式。
+题目里的 “instead of walking…”（而不是走路去……）也提示我们，前面肯定是一种不用走路的方式，那就是“网上”订购啦。
+答案： online
+
+第三题
+题目： Many elderly feel ______ about using technology.
+
+翻译： 许多老年人对使用科技感到______。
+
+阅读原文： Many feel anxious about making mistakes.
+
+翻译： 许多人对犯错感到焦虑。
+
+分析：
+
+先找线索词！题目里的 “Many elderly”（许多老人）和 “feel”（感觉）是关键。
+我们在文章中间看到 “Many feel…”，这里 “Many” 指代的就是前面的许多老人。
+题目问“他们感觉怎么样？”原文紧接着 feel 后面的词就是 “anxious”。
+虽然原文后面跟着的是 “about making mistakes”（关于犯错），但题目把它概括成了 “about using technology”（关于使用科技），这并不影响我们要填的那个表示心情的词。
+规则：
+
+这里考察的是 “feel + 形容词” 的结构。
+feel 是“感觉”，后面一定要跟一个形容心情或状态的词。比如 feel happy（开心），feel sad（难过）。这里 anxious 的意思是“焦虑的、担心的”。
+答案： anxious
+
+第四题
+题目： Young volunteers teach seniors how to make video ______ with family.
+
+翻译： 年轻的志愿者教老人如何与家人进行视频______。
+
+阅读原文： Young volunteers teach seniors how to use video calls to talk with grandchildren…
+
+翻译： 年轻的志愿者教老人如何使用视频通话与孙辈交谈……
+
+分析：
+
+这道题的主语是 “Young volunteers”（年轻志愿者）。
+题目里有个很特别的词组 “video ______”（视频……）。
+我们在文章里找，发现有一个词组叫 “video calls”。
+题目把原文的 “use video calls”（使用视频通话）稍微变了一下，变成了 “make video ______”。
+这里 “calls” 就是“通话”的意思。
+规则：
+
+这里考察的是固定搭配和名词复数。
+“make a call” 或者 “make calls” 是固定用法，意思是“打电话/通话”。就像中文说“打电话”，英语就是 “make a call”，这是习惯用法，记下来就好。
+因为通常指很多次通话，或者通称，这里用了复数形式 calls。
+答案： calls
+
+第五题
+题目： The government makes apps more elderly-friendly by adding bigger ______.
+
+翻译： 政府通过增加更大的______来让应用程序对老年人更友好。
+
+阅读原文： Bigger fonts, simpler menus, and voice control features are being added.
+
+翻译： 更大的字体、更简单的菜单和语音控制功能正在被添加。
+
+分析：
+
+题目里的线索词是 “adding bigger”（增加更大的……）。
+我们在文章最后一句看到了一模一样的结构：“Bigger fonts”。
+题目问“增加了什么？”，原文说“增加了更大的 fonts”。
+结合常识，为了让老人看清楚，肯定是把字变大了，所以是“字体”。
+规则：
+
+这里考察的是名词（表示事物的词）。
+Font 的意思是“字体”。因为文中列举了好几样东西，而且前面没有冠词，说明这里是指这一类东西，所以要用复数形式 fonts。
+答案： fonts
+
+整体总结
+好啦，这道题讲完了。我们来总结一下今天学到的几个核心点，只要记住这几点，以后做填空就不慌：
+
+找双胞胎：做题时，先在题目里圈出关键词（人名、动词、特殊词组），然后去文章里找长得像的句子，答案通常就在旁边。
+看搭配：比如 “make life easier”（让生活更简单）、“make calls”（打电话），这些是固定说法，多读几遍就有语感了。
+注意词性：
+跟在 “feel” 后面的，通常是形容心情的形容词（如 anxious）。
+表示动作方式或地点的，常是像 online 这样的词。
+表示东西的，是名词，要注意是不是需要变复数（如 calls, fonts）。
+`
+},
+{
+    title: "Chinese Calligraphy",
+    article: `Chinese calligraphy is more than just writing; it is a treasured art form with over 3,000 years of history. Unlike simple handwriting, calligraphy focuses on the beauty of each stroke. Practitioners use a soft brush, ink, and rice paper to create characters that express emotion and energy. The art requires patience, as one must sit straight, breathe calmly, and focus the mind completely.
+
+In recent years, calligraphy has become popular among young people. Many schools have added it to their courses. Students find that practicing calligraphy helps them reduce stress and improve concentration. It also connects them with traditional culture.
+
+To preserve this heritage, museums now hold workshops where visitors can try writing with brushes. As the saying goes, "Writing mirrors the person." Through calligraphy, people not only learn to write beautifully but also cultivate their character.`,
+    questions: [
+        {
+            label: "History",
+            text: "Chinese calligraphy is an art form with a long 1. ______.",
+            blanks: [{ index: 1, answer: "history" }]
+        },
+        {
+            label: "Materials",
+            text: "Practitioners use a soft brush, ink, and 2. ______ paper.",
+            blanks: [{ index: 2, answer: "rice" }]
+        },
+        {
+            label: "Requirement",
+            text: "The art requires 3. ______ and complete focus.",
+            blanks: [{ index: 3, answer: "patience" }]
+        },
+        {
+            label: "Benefit",
+            text: "Practicing calligraphy helps students reduce 4. ______.",
+            blanks: [{ index: 4, answer: "stress" }]
+        },
+        {
+            label: "Preservation",
+            text: "Museums hold 5. ______ where visitors can try writing.",
+            blanks: [{ index: 5, answer: "workshops" }]
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： Chinese calligraphy is an art form with a long ______.
+翻译： 中国书法是一种有着悠久______的艺术形式。
+
+阅读原文： Chinese calligraphy is more than just writing; it is a treasured art form with over 3,000 years of history.
+翻译： 中国书法不仅仅是书写；它是一种珍贵的艺术形式，拥有3000多年的历史。
+
+分析：
+
+这道题是在考我们找“亲戚”句子。你看题目里的 Chinese calligraphy（中国书法）和 art form（艺术形式），是不是和原文第一句长得一模一样？
+原文说有 over 3,000 years（3000多年），题目里换了个词叫 long（长的）。那什么东西是长的，而且有3000多年呢？当然是“历史”啦！
+线索词是 history，直接填进去就行。
+规则：
+
+这里考察的是名词。名词就是表示“东西”或“概念”的词，比如“苹果”、“历史”。
+题目里的 a long... 意思是“一个长的……”，后面肯定要跟一个东西。原文里的 history 正好对应这个位置。
+答案： history
+
+第二题
+题目： Practitioners use a soft brush, ink, and ______ paper.
+翻译： 练习者使用软笔、墨水和______纸。
+
+阅读原文： Practitioners use a soft brush, ink, and rice paper to create characters that express emotion and energy.
+翻译： 练习者使用软笔、墨水和宣纸来创作表达情感和力量的汉字。
+
+分析：
+
+我们来玩个“连连看”游戏。题目里的 Practitioners use a soft brush, ink 和原文是不是完全一样？
+原文在 ink 后面跟着的是 and，后面紧跟着 rice paper。题目里空格后面已经给了 paper，所以空格里缺的就是那个修饰纸的词。
+这里的线索是 and，它表示并列关系，就像糖葫芦一样把东西串起来。
+规则：
+
+这里考察的是固定搭配 rice paper（宣纸）。
+Rice 本来是“大米”的意思，但在这里不是吃的米纸，而是专指中国书法用的“宣纸”。记住这个固定搭配就好啦！
+答案： rice
+
+第三题
+题目： The art requires ______ and complete focus.
+翻译： 这门艺术需要______和全神贯注。
+
+阅读原文： The art requires patience, as one must sit straight, breathe calmly, and focus the mind completely.
+翻译： 这门艺术需要耐心，因为人必须坐直，呼吸平稳，并完全集中注意力。
+
+分析：
+
+题目里的 The art requires（这门艺术需要）和原文开头一模一样。
+题目里有个很重要的线索词 and（和）。原文里说需要 patience（耐心），后面接着说 focus... completely（完全集中注意力）。
+题目把 completely focus 换了个说法叫 complete focus，意思没变。那 and 前面缺的那个词，肯定就是原文里的 patience 啦。
+规则：
+
+这里的 patience 是个名词，意思是“耐心”。
+语法点小贴士：and 是个连接词，它连接的前后两个词，词性通常是一样的。后面是 focus（名词），前面也应该是个名词。
+答案： patience
+
+第四题
+题目： Practicing calligraphy helps students reduce .
+翻译： 练习书法帮助学生减少。
+
+阅读原文： Students find that practicing calligraphy helps them reduce stress and improve concentration.
+翻译： 学生们发现练习书法有助于他们减轻压力并提高注意力。
+
+分析：
+
+先找“双胞胎”句子。题目里的 Practicing calligraphy helps 在原文里能找到。
+题目里有个动词 reduce（减少），原文里也有 reduce。减少的是什么呢？原文紧跟在后面的是 stress。
+题目里的句子结构和原文几乎是一模一样的，只是把 them（他们）换成了 students（学生）。
+规则：
+
+这里的 stress 也是名词，意思是“压力”。
+动词 reduce 后面要跟一个名词，告诉我们减少的对象是什么。
+答案： stress
+
+第五题
+题目： Museums hold ______ where visitors can try writing.
+翻译： 博物馆举办______，在那儿游客可以尝试书写。
+
+阅读原文： To preserve this heritage, museums now hold workshops where visitors can try writing with brushes.
+翻译： 为了保护这一遗产，博物馆现在举办研讨会/工作坊，在那儿游客可以尝试用毛笔书写。
+
+分析：
+
+这道题稍微难一点点，但也难不倒你。题目里的 Museums hold（博物馆举办）在原文里能找到。
+题目里有个尾巴：where visitors can try writing（在那儿游客可以尝试书写）。原文里也有个一模一样的尾巴！
+那原文里 hold（举办）的是什么东西呢？是 workshops。
+规则：
+
+Workshops 是 workshop 的复数形式，意思是“研讨会”或“工作坊”。在这里指博物馆里让大家体验书法的活动。
+注意：原文用的是复数 workshops，因为博物馆通常不只举办一场活动，所以答案也要用复数形式哦。
+答案： workshops
+
+整体总结
+好啦，所有的题目我们都讲完了。让我们来回顾一下这篇短文里的几个核心语法点：
+
+名词：这篇填空主要就是在考名词。名词就是人、事、物的名字。比如 history（历史）、patience（耐心）、stress（压力）。
+并列关系：看到 and 就要警惕，它告诉我们前后两个词是一伙的，地位平等，长得也像。
+固定搭配：像 rice paper（宣纸）这种约定俗成的说法，见得多了自然就记住了。
+`
+},
 
 ];

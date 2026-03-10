@@ -8,9 +8,36 @@
     <link rel="stylesheet" href="grammar-fill.css">
     <link rel="stylesheet" href="translation-fill.css">
     <link rel="stylesheet" href="reading-fill.css">
+    <link rel="stylesheet" href="reading-comprehension.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="page-entering">
+    <!-- 折叠侧边栏 -->
+    <div class="sidebar-toggle" id="sidebarToggle">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-title">
+                <span class="sidebar-title-icon">📚</span>
+                <span>功能菜单</span>
+            </div>
+            <button class="sidebar-close" id="sidebarClose">×</button>
+        </div>
+        <div class="sidebar-content">
+            <div class="sidebar-menu">
+                <button class="sidebar-menu-item" id="btnZhuanShengBen">
+                    <span class="sidebar-menu-icon">📊</span>
+                    <span class="sidebar-menu-text">专升本报录比</span>
+                </button>
+            </div>
+        </div>
+    </aside>
+
     <div class="background-decoration">
         <div class="bubble bubble-1"></div>
         <div class="bubble bubble-2"></div>
@@ -45,10 +72,9 @@
                 <span class="menu-icon">🧩</span>
                 阅读填空
             </button>           
-            <button class="menu-item disabled">
+            <button class="menu-item">
                 <span class="menu-icon">📖</span>
                 阅读理解
-                <span class="pending">更多功能敬请期待</span>
             </button>
             <button class="menu-item disabled">
                 <span class="menu-icon">✍️</span>
@@ -191,6 +217,44 @@
             <div id="readingExplanation" class="explanation"></div>
         </div>
 
+        <div class="exercise-card rc-card hidden">
+            <div class="card-header">
+                <h2>阅读理解</h2>
+                <div class="card-header-actions">
+                    <button id="rcSettingsBtn" class="rc-settings-btn" title="AI判题设置">
+                        <span class="settings-icon">⚙️</span>
+                    </button>
+                    <div class="progress-indicator">
+                        <span id="rcQuestionNumber">1</span>
+                        <span class="divider">/</span>
+                        <span id="rcTotalQuestions">1</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="rcContent" class="rc-content">
+                <!-- 动态渲染题目内容 -->
+            </div>
+
+            <div class="actions">
+                <button id="rcPrevBtn" class="btn btn-prev">
+                    <span class="btn-icon">←</span>
+                    上一题
+                </button>
+                <button id="rcCheckBtn" class="btn btn-check">
+                    <span class="btn-icon">✓</span>
+                    检查答案
+                </button>
+                <button id="rcNextBtn" class="btn btn-next">
+                    下一题
+                    <span class="btn-icon">→</span>
+                </button>
+            </div>
+
+            <div id="rcResult" class="result"></div>
+            <div id="rcExplanation" class="explanation"></div>
+        </div>
+
         <div class="ai-chat-card">
             <div class="card-header">
                 <h2>AI英语助手 <span class="ai-status-indicator"><span class="status-dot"></span><span class="status-text">在线</span></span></h2>
@@ -227,6 +291,69 @@
                     </button>
                 </div>
                 <div class="input-hint">按 Enter 发送消息</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- AI判题配置模态窗口 -->
+    <div id="rcSettingsModal" class="rc-settings-modal">
+        <div class="rc-settings-modal-overlay"></div>
+        <div class="rc-settings-modal-content">
+            <div class="rc-settings-modal-header">
+                <h3>AI判题设置</h3>
+                <button class="rc-settings-modal-close" id="closeRcSettingsModal">&times;</button>
+            </div>
+            <div class="rc-settings-modal-body">
+                <div class="rc-settings-section">
+                    <h4 class="rc-settings-section-title">选择判题AI模型</h4>
+                    <p class="rc-settings-section-desc">可同时选择多个AI模型进行判题，系统将取各AI评分的平均值</p>
+                    <div class="rc-model-checkboxes">
+                        <label class="rc-model-checkbox">
+                            <input type="checkbox" name="rcModel" value="GLM">
+                            <span class="checkbox-custom"></span>
+                            <span class="model-name">GLM</span>
+                        </label>
+                        <label class="rc-model-checkbox">
+                            <input type="checkbox" name="rcModel" value="Kimi">
+                            <span class="checkbox-custom"></span>
+                            <span class="model-name">Kimi</span>
+                        </label>
+                        <label class="rc-model-checkbox">
+                            <input type="checkbox" name="rcModel" value="Qwen">
+                            <span class="checkbox-custom"></span>
+                            <span class="model-name">Qwen</span>
+                        </label>
+                        <label class="rc-model-checkbox">
+                            <input type="checkbox" name="rcModel" value="MiniMax">
+                            <span class="checkbox-custom"></span>
+                            <span class="model-name">MiniMax</span>
+                        </label>
+                        <label class="rc-model-checkbox">
+                            <input type="checkbox" name="rcModel" value="DeepSeek">
+                            <span class="checkbox-custom"></span>
+                            <span class="model-name">DeepSeek</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="rc-settings-section">
+                    <h4 class="rc-settings-section-title">系统提示词</h4>
+                    <p class="rc-settings-section-desc">自定义AI判题的系统提示词，影响评分标准</p>
+                    <textarea id="rcSystemPrompt" class="rc-system-prompt-textarea" rows="6" placeholder="输入自定义系统提示词..."></textarea>
+                </div>
+                <div class="rc-settings-section">
+                    <h4 class="rc-settings-section-title">调试模式</h4>
+                    <p class="rc-settings-section-desc">开启后可在判题结果中查看各AI的详细评分</p>
+                    <label class="rc-debug-toggle">
+                        <input type="checkbox" id="rcDebugMode">
+                        <span class="toggle-slider"></span>
+                        <span class="toggle-label">显示各AI评分详情</span>
+                    </label>
+                </div>
+            </div>
+            <div class="rc-settings-modal-footer">
+                <button class="rc-settings-btn rc-settings-btn-cancel" id="cancelRcSettingsBtn">取消</button>
+                <button class="rc-settings-btn rc-settings-btn-reset" id="resetRcSettingsBtn">重置</button>
+                <button class="rc-settings-btn rc-settings-btn-confirm" id="confirmRcSettingsBtn">保存</button>
             </div>
         </div>
     </div>
@@ -304,6 +431,20 @@
         </div>
     </div>
     
+    <!-- 全屏页面覆盖层 -->
+    <div class="page-overlay" id="pageOverlay">
+        <div class="page-overlay-header">
+            <button class="page-overlay-back" id="pageOverlayClose">
+                <span class="back-arrow">←</span>
+                <span class="back-text">返回</span>
+            </button>
+            <div class="page-overlay-title">
+                <span id="pageOverlayTitleText">专升本报录比</span>
+            </div>
+        </div>
+        <iframe class="page-overlay-iframe" id="pageOverlayIframe" src=""></iframe>
+    </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.19.0/js/md5.min.js"></script>
     <script src="baidu-translate.js"></script>
     <script src="ai-service.js"></script>
@@ -311,9 +452,11 @@
     <script src="TK2.js"></script>
     <script src="TK3.js"></script>
     <script src="TK4.js"></script>
+    <script src="TK5.js"></script>
     <script src="script.js"></script>
     <script src="grammar-fill.js"></script>
     <script src="translation-fill.js"></script>
     <script src="reading-fill.js"></script>
+    <script src="reading-comprehension.js"></script>
 </body>
 </html>

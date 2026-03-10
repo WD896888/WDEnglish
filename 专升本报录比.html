@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>招生数据对比分析</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; }
+
+        html {
+            overflow-x: hidden;
+            overflow-y: auto;
+            /* 隐藏滚动条 */
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        html::-webkit-scrollbar {
+            display: none;
+        }
+
+        body {
+            /* 隐藏滚动条 */
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        body {
+            font-family: 'Nunito', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #e3edf7 0%, #d4e6f9 50%, #e8f0f8 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+            position: relative;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+
+        /* ========== 页面入场动画 ========== */
+        /* 页面准备状态 - 元素在动画前不可见 */
+        .page-preparing .card {
+            opacity: 0;
+        }
+
+        /* 页面入场状态 */
+        .page-entering .card {
+            animation: scaleIn 0.6s ease-out 0.2s both;
+        }
+
+        .page-entering .legend-item {
+            animation: fadeInUp 0.5s ease-out both;
+        }
+
+        .page-entering .legend-item:nth-child(1) {
+            animation-delay: 0.4s;
+        }
+
+        .page-entering .legend-item:nth-child(2) {
+            animation-delay: 0.5s;
+        }
+
+        @keyframes scaleIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* 浮动气泡 */
+        .bubble {
+            position: fixed;
+            border-radius: 50%;
+            pointer-events: none;
+            background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.7), rgba(173, 216, 230, 0.25));
+            /* GPU加速优化 */
+            will-change: transform, opacity;
+            transform: translateZ(0);
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+        }
+        .bubble-1 { width: 120px; height: 120px; top: 10%; left: 5%; animation: float1 8s ease-in-out infinite; }
+        .bubble-2 { width: 80px; height: 80px; top: 60%; right: 8%; animation: float2 10s ease-in-out infinite; }
+        .bubble-3 { width: 60px; height: 60px; bottom: 15%; left: 15%; animation: float3 12s ease-in-out infinite; }
+        .bubble-4 { width: 100px; height: 100px; top: 30%; right: 20%; animation: float4 9s ease-in-out infinite; }
+
+        @keyframes float1 {
+            0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.6; }
+            25% { transform: translate(20px, -30px) scale(1.05); opacity: 0.8; }
+            50% { transform: translate(-15px, -10px) scale(0.95); opacity: 0.7; }
+            75% { transform: translate(10px, -40px) scale(1.02); opacity: 0.5; }
+        }
+        @keyframes float2 {
+            0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.5; }
+            33% { transform: translate(-20px, -25px) scale(1.1); opacity: 0.7; }
+            66% { transform: translate(25px, -15px) scale(0.9); opacity: 0.6; }
+        }
+        @keyframes float3 {
+            0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.4; }
+            50% { transform: translate(15px, -35px) scale(1.08); opacity: 0.6; }
+        }
+        @keyframes float4 {
+            0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.55; }
+            25% { transform: translate(-10px, -20px) scale(1.03); opacity: 0.75; }
+            50% { transform: translate(15px, -35px) scale(0.97); opacity: 0.65; }
+            75% { transform: translate(-5px, -15px) scale(1.05); opacity: 0.5; }
+        }
+
+        .container { width: 100%; max-width: 1000px; margin: 20px 0; }
+
+        .card {
+            background: linear-gradient(135deg, #e3edf7, #d4e6f9);
+            border-radius: 30px;
+            padding: 2.5rem;
+            box-shadow: 12px 12px 24px #b8bec8, -12px -12px 24px #ffffff;
+            /* GPU加速优化 */
+            will-change: transform;
+            transform: translateZ(0);
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+        }
+
+        .title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            color: #4a6fa5;
+            letter-spacing: 0.05em;
+        }
+
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 8px 16px;
+            border-radius: 15px;
+            background: linear-gradient(135deg, #ffffff, #e8f0f8);
+            box-shadow: inset 2px 2px 4px #d4e6f9, inset -2px -2px 4px #ffffff;
+        }
+        .legend-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 3px;
+        }
+        .legend-dot.plan { background: linear-gradient(135deg, #ffffff, #9bdfff); }
+        .legend-dot.actual { background: linear-gradient(135deg, #ff8899, #ffffff); }
+        .legend-text { color: #4a6fa5; font-size: 0.875rem; }
+
+        .chart-area { 
+            position: relative; 
+            width: 100%; 
+            height: 550px; 
+            /* GPU加速优化 */
+            will-change: transform;
+            transform: translateZ(0);
+        }
+        canvas { width: 100% !important; height: 100% !important; }
+
+        .tooltip {
+            position: absolute;
+            background: linear-gradient(135deg, #ffffff, #e8f0f8);
+            border-radius: 20px;
+            padding: 15px 20px;
+            pointer-events: none;
+            opacity: 0;
+            transform: translateY(5px);
+            z-index: 100;
+            box-shadow: 8px 8px 16px #b8bec8, -8px -8px 16px #ffffff;
+            font-size: 13px;
+            min-width: 160px;
+        }
+        .tooltip.active {
+            opacity: 1;
+            transform: translateY(0);
+            transition: opacity 0.2s ease, transform 0.2s ease;
+        }
+        .tooltip-title { font-weight: 700; margin-bottom: 4px; color: #4a6fa5; }
+        .tooltip-subtitle { color: #7aa8d6; font-size: 12px; margin-bottom: 8px; }
+        .tooltip-row { display: flex; justify-content: space-between; gap: 20px; font-size: 12px; color: #4a6fa5; }
+        .tooltip-value { font-weight: 700; }
+    </style>
+</head>
+<body class="page-entering">
+    <div class="bubble bubble-1"></div>
+    <div class="bubble bubble-2"></div>
+    <div class="bubble bubble-3"></div>
+    <div class="bubble bubble-4"></div>
+
+    <div class="container">
+        <div class="card">
+            <h1 class="title">湖北省2026专升本各院校报录比分析</h1>
+
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-dot plan"></div>
+                    <span class="legend-text">招生计划</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-dot actual"></div>
+                    <span class="legend-text">实际报名</span>
+                </div>
+            </div>
+
+            <div class="chart-area">
+                <canvas id="chartCanvas"></canvas>
+                <div id="tooltip" class="tooltip">
+                    <div class="tooltip-title"></div>
+                    <div class="tooltip-subtitle"></div>
+                    <div class="tooltip-row">
+                        <span>招生计划:</span>
+                        <span class="tooltip-value" id="tooltip-plan"></span>
+                    </div>
+                    <div class="tooltip-row">
+                        <span>报名人数:</span>
+                        <span class="tooltip-value" id="tooltip-actual"></span>
+                    </div>
+                    <div class="tooltip-row">
+                        <span>录取率:</span>
+                        <span class="tooltip-value" id="tooltip-rate"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ============================================================
+        // 【数据填写区域】
+        // plan: 招生计划人数
+        // actual1: 第一阶段实际报名人数
+        // actual2: 第二阶段新增人数
+        // actual3: 第三阶段新增人数
+        // ============================================================
+        const rawData = [
+            { school: '湖北师范大学', major: '计算机科学与技术', plan: 128, actual1: 293, actual2: 0, actual3: 0 },
+            { school: '湖北理工学院', major: '计算机科学与技术', plan: 40, actual1: 85, actual2: 0, actual3: 0 },
+            { school: '湖北理工学院', major: '网络工程', plan: 35, actual1: 47, actual2: 0, actual3: 0 },
+            { school: '湖北工程学院', major: '软件工程', plan: 50, actual1: 127, actual2: 0, actual3: 0 },
+            { school: '汉江师范学院', major: '软件工程', plan: 40, actual1: 19, actual2: 0, actual3: 0 },
+            { school: '武汉商学院', major: '软件工程', plan: 30, actual1: 47, actual2: 0, actual3: 0 },
+            { school: '武汉商学院', major: '物联网工程', plan: 30, actual1: 33, actual2: 0, actual3: 0 },
+            { school: '黄冈师范学院', major: '网络工程', plan: 90, actual1: 47, actual2: 0, actual3: 0 }
+        ];
+        // ============================================================
+
+        // 处理数据
+        const chartData = rawData.map(item => {
+            const totalActual = item.actual1 + item.actual2 + item.actual3;
+            return { ...item, totalActual, rate: ((item.plan / totalActual) * 100).toFixed(1) };
+        }).sort((a, b) => parseFloat(a.rate) - parseFloat(b.rate)); // 按录取率从低到高排序
+
+        // 常量配置
+        const PADDING = { top: 40, right: 20, bottom: 100, left: 50 };
+        const COLORS = {
+            text: '#4a6fa5',
+            textLight: '#7aa8d6',
+            textHover: '#4a6fa5',
+            textFade: 'rgba(74, 111, 165, 0.6)',
+            gridLine: 'rgba(74, 111, 165, 0.1)',
+            plan: ['#ffffff', '#9bdfff'],
+            actual: ['#ff8899', '#ffffff'],
+            separator: 'rgba(255, 255, 255, 0.5)'
+        };
+
+        // DOM元素
+        const canvas = document.getElementById('chartCanvas');
+        const ctx = canvas.getContext('2d');
+        const tooltip = document.getElementById('tooltip');
+        const tooltipEls = {
+            title: tooltip.querySelector('.tooltip-title'),
+            subtitle: tooltip.querySelector('.tooltip-subtitle'),
+            plan: document.getElementById('tooltip-plan'),
+            actual: document.getElementById('tooltip-actual'),
+            rate: document.getElementById('tooltip-rate')
+        };
+
+        // 状态
+        let animProgress = 0;
+        let hoverIdx = -1;
+        let positions = [];
+        let canvasSize = { w: 0, h: 0 };
+
+        // 初始化Canvas
+        function initCanvas() {
+            const dpr = window.devicePixelRatio || 1;
+            const rect = canvas.parentElement.getBoundingClientRect();
+            canvas.width = rect.width * dpr;
+            canvas.height = rect.height * dpr;
+            ctx.scale(dpr, dpr);
+            canvasSize = { w: rect.width, h: rect.height };
+            return canvasSize;
+        }
+
+        // 绘制圆角柱子
+        function drawRoundedBar(x, y, w, h, gradient) {
+            if (h < 1) return;
+            const r = Math.min(6, w / 2);
+            ctx.beginPath();
+            ctx.moveTo(x + r, y);
+            ctx.lineTo(x + w - r, y);
+            ctx.quadraticCurveTo(x + w, y, x + w, y + r);
+            ctx.lineTo(x + w, y + h);
+            ctx.lineTo(x, y + h);
+            ctx.lineTo(x, y + r);
+            ctx.quadraticCurveTo(x, y, x + r, y);
+            ctx.closePath();
+            ctx.fillStyle = gradient;
+            ctx.fill();
+        }
+
+        // 主绘图函数
+        function drawChart() {
+            const { w, h } = initCanvas();
+            ctx.clearRect(0, 0, w, h);
+
+            const chartW = w - PADDING.left - PADDING.right;
+            const chartH = h - PADDING.top - PADDING.bottom;
+            const maxVal = Math.max(...chartData.map(d => Math.max(d.plan, d.totalActual))) * 1.15;
+            const groupW = chartW / chartData.length;
+            const barW = Math.min(35, groupW * 0.25);
+            const gap = 8;
+
+            positions = [];
+
+            // Y轴参考线
+            ctx.strokeStyle = COLORS.gridLine;
+            ctx.lineWidth = 1;
+            for (let i = 0; i <= 5; i++) {
+                const y = PADDING.top + (chartH / 5) * i;
+                ctx.beginPath();
+                ctx.moveTo(PADDING.left, y);
+                ctx.lineTo(w - PADDING.right, y);
+                ctx.stroke();
+                ctx.fillStyle = COLORS.textLight;
+                ctx.font = '12px "Nunito", sans-serif';
+                ctx.textAlign = 'right';
+                ctx.fillText(Math.round(maxVal - (maxVal / 5) * i), PADDING.left - 10, y + 4);
+            }
+
+            // 绘制柱子
+            chartData.forEach((item, i) => {
+                const centerX = PADDING.left + groupW * i + groupW / 2;
+                const xPlan = centerX - barW - gap / 2;
+                const xActual = centerX + gap / 2;
+                const isHover = hoverIdx === i;
+
+                // 计算高度
+                const hPlan = (item.plan / maxVal) * chartH * animProgress;
+                const hActual1 = (item.actual1 / maxVal) * chartH * animProgress;
+                const hActual2 = (item.actual2 / maxVal) * chartH * animProgress;
+                const hActual3 = (item.actual3 / maxVal) * chartH * animProgress;
+                const hActualTotal = hActual1 + hActual2 + hActual3;
+
+                const yPlan = PADDING.top + chartH - hPlan;
+                const yActual1 = PADDING.top + chartH - hActual1;
+                const yActual2 = yActual1 - hActual2;
+                const yActual3 = yActual2 - hActual3;
+
+                // 招生计划柱
+                if (hPlan > 0) {
+                    const grad = ctx.createLinearGradient(xPlan, yPlan, xPlan, yPlan + hPlan);
+                    grad.addColorStop(0, COLORS.plan[0]);
+                    grad.addColorStop(1, COLORS.plan[1]);
+                    if (isHover) {
+                        ctx.shadowColor = '#7ab8d8';
+                        ctx.shadowBlur = 15;
+                        ctx.shadowOffsetY = 5;
+                    }
+                    drawRoundedBar(xPlan, yPlan, barW, hPlan, grad);
+                    ctx.shadowBlur = ctx.shadowOffsetY = 0;
+                }
+
+                // 实际报名柱
+                if (hActualTotal > 0) {
+                    const grad = ctx.createLinearGradient(xActual, yActual3, xActual, yActual3 + hActualTotal);
+                    grad.addColorStop(0, COLORS.actual[0]);
+                    grad.addColorStop(1, COLORS.actual[1]);
+                    if (isHover) {
+                        ctx.shadowColor = '#cc6677';
+                        ctx.shadowBlur = 15;
+                        ctx.shadowOffsetY = 5;
+                    }
+                    drawRoundedBar(xActual, yActual3, barW, hActualTotal, grad);
+                    ctx.shadowBlur = ctx.shadowOffsetY = 0;
+
+                    // 分隔线
+                    ctx.strokeStyle = COLORS.separator;
+                    ctx.lineWidth = 1;
+                    if (hActual1 > 0 && (hActual2 > 0 || hActual3 > 0)) {
+                        ctx.beginPath();
+                        ctx.moveTo(xActual + 4, yActual1);
+                        ctx.lineTo(xActual + barW - 4, yActual1);
+                        ctx.stroke();
+                    }
+                    if (hActual2 > 0 && hActual3 > 0) {
+                        ctx.beginPath();
+                        ctx.moveTo(xActual + 4, yActual2);
+                        ctx.lineTo(xActual + barW - 4, yActual2);
+                        ctx.stroke();
+                    }
+                }
+
+                // 柱顶数字
+                ctx.textAlign = 'center';
+                ctx.font = '700 13px "Nunito", sans-serif';
+                if (hPlan > 0) {
+                    ctx.fillStyle = isHover ? '#9bdfff' : COLORS.plan[1];
+                    ctx.fillText(item.plan, xPlan + barW / 2, yPlan - 8);
+                }
+                if (hActualTotal > 0) {
+                    ctx.fillStyle = isHover ? '#ff6677' : COLORS.actual[0];
+                    ctx.fillText(item.totalActual, xActual + barW / 2, yActual3 - 8);
+                }
+
+                // 存储位置
+                positions.push({
+                    x: xPlan, w: barW * 2 + gap,
+                    y: Math.min(yPlan, yActual3),
+                    h: Math.max(hPlan, hActualTotal),
+                    data: item
+                });
+
+                // 底部文字
+                const textY = PADDING.top + chartH + 25;
+                ctx.textAlign = 'center';
+                ctx.font = '600 12px "Nunito", "PingFang SC", sans-serif';
+                ctx.fillStyle = isHover ? COLORS.textHover : COLORS.text;
+                ctx.fillText(item.school, centerX, textY);
+                ctx.fillStyle = isHover ? COLORS.textLight : COLORS.textFade;
+                ctx.fillText(item.major, centerX, textY + 18);
+                ctx.font = '700 16px "Nunito", sans-serif';
+                ctx.fillStyle = isHover ? COLORS.textHover : COLORS.text;
+                ctx.fillText(item.rate + '%', centerX, textY + 45);
+            });
+        }
+
+        // 更新浮窗内容
+        function updateTooltipContent(item) {
+            tooltipEls.title.textContent = item.school;
+            tooltipEls.subtitle.textContent = item.major;
+            tooltipEls.plan.textContent = item.plan + '人';
+            tooltipEls.actual.textContent = item.totalActual + '人';
+            tooltipEls.rate.textContent = item.rate + '%';
+        }
+
+        // 动画
+        function animate() {
+            const start = performance.now();
+            const duration = 800;
+            function step(t) {
+                animProgress = Math.min(1, (t - start) / duration);
+                animProgress = 1 - Math.pow(1 - animProgress, 3); // easeOutCubic
+                drawChart();
+                if (animProgress < 1) requestAnimationFrame(step);
+            }
+            requestAnimationFrame(step);
+        }
+
+        // 事件处理
+        canvas.addEventListener('mousemove', e => {
+            const rect = canvas.getBoundingClientRect();
+            const mx = e.clientX - rect.left;
+            const my = e.clientY - rect.top;
+
+            // 查找hover的柱子
+            let newIdx = -1;
+            for (let i = 0; i < positions.length; i++) {
+                const pos = positions[i];
+                if (mx >= pos.x && mx <= pos.x + pos.w && my >= pos.y && my <= pos.y + pos.h + 100) {
+                    newIdx = i;
+                    break;
+                }
+            }
+
+            // 更新浮窗
+            if (newIdx !== -1) {
+                let left = e.clientX - rect.left + 15;
+                let top = e.clientY - rect.top - 10;
+                if (left + 160 > rect.width) left = e.clientX - rect.left - 170;
+                tooltip.style.left = left + 'px';
+                tooltip.style.top = top + 'px';
+                if (newIdx !== hoverIdx) updateTooltipContent(positions[newIdx].data);
+                tooltip.classList.add('active');
+            } else {
+                tooltip.classList.remove('active');
+            }
+
+            // 仅状态改变时重绘
+            if (newIdx !== hoverIdx) {
+                hoverIdx = newIdx;
+                drawChart();
+            }
+        });
+
+        canvas.addEventListener('mouseleave', () => {
+            hoverIdx = -1;
+            tooltip.classList.remove('active');
+            drawChart();
+        });
+
+        window.addEventListener('resize', drawChart);
+        animate();
+
+        // 页面入场动画结束后移除动画类
+        setTimeout(() => {
+            document.body.classList.remove('page-entering');
+            document.body.classList.remove('page-preparing');
+        }, 1200);
+    </script>
+</body>
+</html>
