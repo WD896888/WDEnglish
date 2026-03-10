@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="translation-fill.css">
     <link rel="stylesheet" href="reading-fill.css">
     <link rel="stylesheet" href="reading-comprehension.css">
+    <link rel="stylesheet" href="zhuan-sheng-ben.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="page-entering">
@@ -442,7 +443,51 @@
                 <span id="pageOverlayTitleText">专升本报录比</span>
             </div>
         </div>
-        <iframe class="page-overlay-iframe" id="pageOverlayIframe" src=""></iframe>
+        <div class="zsb-page-content">
+            <div class="zsb-bubbles">
+                <div class="zsb-bubble zsb-bubble-1"></div>
+                <div class="zsb-bubble zsb-bubble-2"></div>
+                <div class="zsb-bubble zsb-bubble-3"></div>
+                <div class="zsb-bubble zsb-bubble-4"></div>
+            </div>
+
+            <div class="zsb-container">
+                <div class="zsb-card">
+                    <h1 class="zsb-title">湖北省2026专升本各院校报录比分析</h1>
+
+                    <div class="zsb-legend">
+                        <div class="zsb-legend-item">
+                            <div class="zsb-legend-dot plan"></div>
+                            <span class="zsb-legend-text">招生计划</span>
+                        </div>
+                        <div class="zsb-legend-item">
+                            <div class="zsb-legend-dot actual"></div>
+                            <span class="zsb-legend-text">实际报名</span>
+                        </div>
+                    </div>
+
+                    <div class="zsb-chart-area">
+                        <canvas id="zsbChartCanvas" class="zsb-chart-canvas"></canvas>
+                        <div id="zsbTooltip" class="zsb-tooltip">
+                            <div class="zsb-tooltip-title"></div>
+                            <div class="zsb-tooltip-subtitle"></div>
+                            <div class="zsb-tooltip-row">
+                                <span>招生计划:</span>
+                                <span class="zsb-tooltip-value" id="zsbTooltipPlan"></span>
+                            </div>
+                            <div class="zsb-tooltip-row">
+                                <span>报名人数:</span>
+                                <span class="zsb-tooltip-value" id="zsbTooltipActual"></span>
+                            </div>
+                            <div class="zsb-tooltip-row">
+                                <span>录取率:</span>
+                                <span class="zsb-tooltip-value" id="zsbTooltipRate"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.19.0/js/md5.min.js"></script>
@@ -458,5 +503,6 @@
     <script src="translation-fill.js"></script>
     <script src="reading-fill.js"></script>
     <script src="reading-comprehension.js"></script>
+    <script src="zhuan-sheng-ben.js"></script>
 </body>
 </html>

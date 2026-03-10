@@ -2698,7 +2698,6 @@ function initPageOverlay() {
     const btnZhuanShengBen = document.getElementById('btnZhuanShengBen');
     const pageOverlay = document.getElementById('pageOverlay');
     const pageOverlayClose = document.getElementById('pageOverlayClose');
-    const pageOverlayIframe = document.getElementById('pageOverlayIframe');
     const sidebar = document.getElementById('sidebar');
     const sidebarOverlay = document.getElementById('sidebarOverlay');
     const sidebarToggle = document.getElementById('sidebarToggle');
@@ -2711,14 +2710,7 @@ function initPageOverlay() {
     }
 
     // 打开页面覆盖层
-    function openPageOverlay(url, title) {
-        if (pageOverlayIframe && url) {
-            pageOverlayIframe.src = url;
-        }
-        if (title) {
-            const titleText = document.getElementById('pageOverlayTitleText');
-            if (titleText) titleText.textContent = title;
-        }
+    function openPageOverlay() {
         pageOverlay.classList.add('active');
         
         // 计算并补偿滚动条宽度
@@ -2738,6 +2730,14 @@ function initPageOverlay() {
         if (sidebarToggle) {
             sidebarToggle.classList.remove('active');
         }
+
+        // 初始化专升本报录比图表
+        if (window.ZhuanShengBenChart) {
+            // 延迟一帧确保 CSS 动画开始后再初始化图表
+            requestAnimationFrame(() => {
+                window.ZhuanShengBenChart.init('zsbChartCanvas', 'zsbTooltip');
+            });
+        }
     }
 
     // 关闭页面覆盖层
@@ -2751,11 +2751,9 @@ function initPageOverlay() {
         document.body.style.overflow = '';
         document.body.style.paddingRight = '';
         
-        // 清空iframe以释放资源
-        if (pageOverlayIframe) {
-            setTimeout(() => {
-                pageOverlayIframe.src = '';
-            }, 300);
+        // 销毁图表实例以释放资源
+        if (window.ZhuanShengBenChart) {
+            window.ZhuanShengBenChart.destroy();
         }
         
         // 立即触发页面入场动画
@@ -2765,9 +2763,7 @@ function initPageOverlay() {
     }
 
     // 点击专升本报录比按钮
-    btnZhuanShengBen.addEventListener('click', () => {
-        openPageOverlay('专升本报录比.html', '专升本报录比');
-    });
+    btnZhuanShengBen.addEventListener('click', openPageOverlay);
 
     // 点击关闭按钮
     if (pageOverlayClose) {

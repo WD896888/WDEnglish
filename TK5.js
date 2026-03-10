@@ -3,7 +3,8 @@
 const readingComprehensionQuestions = [
     {
         article: `
-            
-            阿巴阿巴...`
+        
+        阿巴阿巴...`
+
     }
 ];
