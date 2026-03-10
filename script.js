@@ -138,7 +138,7 @@ function switchCard(menuIndex, sentenceCard, grammarCard, translationCard, readi
     } else if (menuIndex === 4) {
         // 阅读理解
         if (rcCard) rcCard.classList.remove('hidden');
-        if (subtitle) subtitle.textContent = '读懂文字背后的深意，感悟故事里的真情';
+        if (subtitle) subtitle.textContent = '在段落的回响里寻找线索，让隐藏的答案慢慢浮出水面。';
     }
 }
 
