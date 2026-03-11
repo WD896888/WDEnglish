@@ -14,14 +14,14 @@
     // actual3: 第三阶段新增人数
     // ============================================================
     const rawData = [
-        { school: '湖北师范大学', major: '计算机科学与技术', plan: 128, actual1: 293, actual2: 0, actual3: 0 },
-        { school: '湖北理工学院', major: '计算机科学与技术', plan: 40, actual1: 85, actual2: 0, actual3: 0 },
-        { school: '湖北理工学院', major: '网络工程', plan: 35, actual1: 47, actual2: 0, actual3: 0 },
-        { school: '湖北工程学院', major: '软件工程', plan: 50, actual1: 127, actual2: 0, actual3: 0 },
-        { school: '汉江师范学院', major: '软件工程', plan: 40, actual1: 19, actual2: 0, actual3: 0 },
-        { school: '武汉商学院', major: '软件工程', plan: 30, actual1: 47, actual2: 0, actual3: 0 },
-        { school: '武汉商学院', major: '物联网工程', plan: 30, actual1: 33, actual2: 0, actual3: 0 },
-        { school: '黄冈师范学院', major: '网络工程', plan: 90, actual1: 47, actual2: 0, actual3: 0 }
+        { school: '湖北师范大学', major: '计算机科学与技术', plan: 128, actual1: 293, actual2: 680, actual3: 0 },
+        { school: '湖北理工学院', major: '计算机科学与技术', plan: 40, actual1: 85, actual2: 239, actual3: 0 },
+        { school: '湖北理工学院', major: '网络工程', plan: 35, actual1: 47, actual2: 116, actual3: 0 },
+        { school: '湖北工程学院', major: '软件工程', plan: 50, actual1: 127, actual2: 236, actual3: 0 },
+        { school: '汉江师范学院', major: '软件工程', plan: 40, actual1: 19, actual2: 105, actual3: 0 },
+        { school: '武汉商学院', major: '软件工程', plan: 30, actual1: 47, actual2: 157, actual3: 0 },
+        { school: '武汉商学院', major: '物联网工程', plan: 30, actual1: 33, actual2: 108, actual3: 0 },
+        { school: '黄冈师范学院', major: '网络工程', plan: 90, actual1: 47, actual2: 142, actual3: 0 }
     ];
     // ============================================================
 
