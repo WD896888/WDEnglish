@@ -308,7 +308,9 @@
     justify-content: center;
     align-items: center;
     z-index: 9999;
-    background: rgba(160, 185, 210, 0.4);
+    background: rgba(74, 111, 165, 0.3);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
 }
 
 .rc-grading-indicator svg {
@@ -349,6 +351,7 @@
     display: block;
     animation: rc-animate 4s ease-in-out infinite;
     animation-delay: calc(0.2s * var(--i));
+    animation-fill-mode: backwards;
 }
 
 .rc-grading-indicator .loader span:before {
@@ -362,6 +365,10 @@
     background: linear-gradient(135deg, #ffffff, #b0d4f1);
     box-shadow: 4px 4px 8px rgba(165, 195, 225, 0.5),
                 -4px -4px 8px rgba(255, 255, 255, 0.9);
+    /* 确保初始状态为完美圆形 */
+    transform-origin: center center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .rc-grading-indicator .pool {

@@ -12,22 +12,23 @@
     // actual1: 第一阶段实际报名人数
     // actual2: 第二阶段新增人数
     // actual3: 第三阶段新增人数
+    // actual4: 第四阶段新增人数
     // ============================================================
     const rawData = [
-        { school: '湖北师范大学', major: '计算机科学与技术', plan: 128, actual1: 293, actual2: 387, actual3: 147 },
-        { school: '湖北理工学院', major: '计算机科学与技术', plan: 40, actual1: 85, actual2: 154, actual3: 55 },
-        { school: '湖北理工学院', major: '网络工程', plan: 35, actual1: 47, actual2: 69, actual3: 23 },
-        { school: '湖北工程学院', major: '软件工程', plan: 50, actual1: 127, actual2: 109, actual3: 96 },
-        { school: '汉江师范学院', major: '软件工程', plan: 40, actual1: 19, actual2: 86, actual3: 60 },
-        { school: '武汉商学院', major: '软件工程', plan: 30, actual1: 47, actual2: 110, actual3: 19 },
-        { school: '武汉商学院', major: '物联网工程', plan: 30, actual1: 33, actual2: 75, actual3: 45 },
-        { school: '黄冈师范学院', major: '网络工程', plan: 90, actual1: 47, actual2: 95, actual3: 50 }
+        { school: '湖北师范大学', major: '计算机科学与技术', plan: 128, actual1: 293, actual2: 387, actual3: 147, actual4: 0 },
+        { school: '湖北理工学院', major: '计算机科学与技术', plan: 40, actual1: 85, actual2: 154, actual3: 55, actual4: 0 },
+        { school: '湖北理工学院', major: '网络工程', plan: 35, actual1: 47, actual2: 69, actual3: 23, actual4: 0 },
+        { school: '湖北工程学院', major: '软件工程', plan: 50, actual1: 127, actual2: 109, actual3: 96, actual4: 0 },
+        { school: '汉江师范学院', major: '软件工程', plan: 40, actual1: 19, actual2: 86, actual3: 60, actual4: 0 },
+        { school: '武汉商学院', major: '软件工程', plan: 30, actual1: 47, actual2: 110, actual3: 19, actual4: 0 },
+        { school: '武汉商学院', major: '物联网工程', plan: 30, actual1: 33, actual2: 75, actual3: 45, actual4: 0 },
+        { school: '黄冈师范学院', major: '网络工程', plan: 90, actual1: 47, actual2: 95, actual3: 50, actual4: 0 }
     ];
     // ============================================================
 
     // 处理数据
     const chartData = rawData.map(item => {
-        const totalActual = item.actual1 + item.actual2 + item.actual3;
+        const totalActual = item.actual1 + item.actual2 + item.actual3 + item.actual4;
         return { ...item, totalActual, rate: ((item.plan / totalActual) * 100).toFixed(1) };
     }).sort((a, b) => parseFloat(a.rate) - parseFloat(b.rate)); // 按录取率从低到高排序
 
@@ -129,12 +130,14 @@
             const hActual1 = (item.actual1 / maxVal) * chartH * animProgress;
             const hActual2 = (item.actual2 / maxVal) * chartH * animProgress;
             const hActual3 = (item.actual3 / maxVal) * chartH * animProgress;
-            const hActualTotal = hActual1 + hActual2 + hActual3;
+            const hActual4 = (item.actual4 / maxVal) * chartH * animProgress;
+            const hActualTotal = hActual1 + hActual2 + hActual3 + hActual4;
 
             const yPlan = PADDING.top + chartH - hPlan;
             const yActual1 = PADDING.top + chartH - hActual1;
             const yActual2 = yActual1 - hActual2;
             const yActual3 = yActual2 - hActual3;
+            const yActual4 = yActual3 - hActual4;
 
             // 招生计划柱
             if (hPlan > 0) {
@@ -152,7 +155,7 @@
 
             // 实际报名柱
             if (hActualTotal > 0) {
-                const grad = ctx.createLinearGradient(xActual, yActual3, xActual, yActual3 + hActualTotal);
+                const grad = ctx.createLinearGradient(xActual, yActual4, xActual, yActual4 + hActualTotal);
                 grad.addColorStop(0, COLORS.actual[0]);
                 grad.addColorStop(1, COLORS.actual[1]);
                 if (isHover) {
@@ -160,22 +163,28 @@
                     ctx.shadowBlur = 15;
                     ctx.shadowOffsetY = 5;
                 }
-                drawRoundedBar(xActual, yActual3, barW, hActualTotal, grad);
+                drawRoundedBar(xActual, yActual4, barW, hActualTotal, grad);
                 ctx.shadowBlur = ctx.shadowOffsetY = 0;
 
                 // 分隔线
                 ctx.strokeStyle = COLORS.separator;
                 ctx.lineWidth = 1;
-                if (hActual1 > 0 && (hActual2 > 0 || hActual3 > 0)) {
+                if (hActual1 > 0 && (hActual2 > 0 || hActual3 > 0 || hActual4 > 0)) {
                     ctx.beginPath();
                     ctx.moveTo(xActual + 4, yActual1);
                     ctx.lineTo(xActual + barW - 4, yActual1);
                     ctx.stroke();
                 }
-                if (hActual2 > 0 && hActual3 > 0) {
+                if (hActual2 > 0 && (hActual3 > 0 || hActual4 > 0)) {
                     ctx.beginPath();
                     ctx.moveTo(xActual + 4, yActual2);
                     ctx.lineTo(xActual + barW - 4, yActual2);
+                    ctx.stroke();
+                }
+                if (hActual3 > 0 && hActual4 > 0) {
+                    ctx.beginPath();
+                    ctx.moveTo(xActual + 4, yActual3);
+                    ctx.lineTo(xActual + barW - 4, yActual3);
                     ctx.stroke();
                 }
             }
@@ -189,13 +198,13 @@
             }
             if (hActualTotal > 0) {
                 ctx.fillStyle = isHover ? '#ff6677' : COLORS.actual[0];
-                ctx.fillText(item.totalActual, xActual + barW / 2, yActual3 - 8);
+                ctx.fillText(item.totalActual, xActual + barW / 2, yActual4 - 8);
             }
 
             // 存储位置
             positions.push({
                 x: xPlan, w: barW * 2 + gap,
-                y: Math.min(yPlan, yActual3),
+                y: Math.min(yPlan, yActual4),
                 h: Math.max(hPlan, hActualTotal),
                 data: item
             });
