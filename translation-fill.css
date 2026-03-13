@@ -1,9 +1,5 @@
 /* ========== 翻译填空卡片样式 ========== */
-.translation-card {
-    position: relative;
-    overflow: visible;
-    pointer-events: auto;
-}
+/* 继承现有卡片基础样式 */
 
 /* 引言横线容器 */
 .translation-quote-line {
@@ -66,7 +62,6 @@
     min-height: 200px;
     -webkit-user-select: text;
     user-select: text;
-    pointer-events: auto;
 }
 
 /* 段落样式 - 模仿语法填空 */
@@ -75,7 +70,6 @@
     line-height: 2;
     font-size: 16px;
     color: #4a6fa5;
-    pointer-events: auto;
     position: relative;
     z-index: 5;
 }
@@ -86,7 +80,6 @@
     margin-right: 8px;
     -webkit-user-select: text;
     user-select: text;
-    pointer-events: auto;
     position: relative;
     z-index: 5;
 }
@@ -118,7 +111,6 @@
     font-weight: 500;
     color: #4a6fa5;
     text-align: left;
-    pointer-events: auto;
     -webkit-user-select: text;
     user-select: text;
     -webkit-touch-callout: text;

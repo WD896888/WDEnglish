@@ -1,26 +1,5 @@
 /* ========== 阅读理解卡片样式 ========== */
-.rc-card {
-    position: relative;
-    overflow: visible;
-    pointer-events: auto;
-}
-
-/* 笔记纹理装饰 */
-.rc-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: repeating-linear-gradient(
-        transparent,
-        transparent 27px,
-        rgba(173, 216, 230, 0.15) 28px
-    );
-    pointer-events: none;
-    z-index: 0;
-}
+/* 继承现有卡片基础样式 */
 
 .rc-content {
     position: relative;
@@ -29,7 +8,6 @@
     min-height: 200px;
     -webkit-user-select: text;
     user-select: text;
-    pointer-events: auto;
 }
 
 /* 文章段落 */
@@ -208,10 +186,6 @@
 
 /* 打印样式 */
 @media print {
-    .rc-card::before {
-        display: none;
-    }
-
     .rc-answer-input {
         border-bottom: 1px solid #000;
         background: transparent;

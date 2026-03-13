@@ -14,14 +14,8 @@
     display: none !important;
 }
 
-/* ========== 语法填空卡片样式 (轻度笔记风) ========== */
-.grammar-card {
-    /* 继承现有卡片基础样式 */
-    /* 添加笔记纹理装饰 */
-    position: relative;
-    overflow: visible;
-    pointer-events: auto;
-}
+/* ========== 语法填空卡片样式 ========== */
+/* 继承现有卡片基础样式 */
 
 /* 语法填空引言横线容器 */
 .grammar-quote-line {
@@ -75,22 +69,6 @@
     white-space: nowrap;
 }
 
-.grammar-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: repeating-linear-gradient(
-        transparent,
-        transparent 27px,
-        rgba(173, 216, 230, 0.15) 28px
-    );
-    pointer-events: none;
-    z-index: 0;
-}
-
 .grammar-content {
     position: relative;
     z-index: 10;
@@ -98,7 +76,6 @@
     min-height: 200px;
     -webkit-user-select: text;
     user-select: text;
-    pointer-events: auto;
 }
 
 .grammar-paragraph {
@@ -106,7 +83,6 @@
     line-height: 2;
     font-size: 16px;
     color: #4a6fa5;
-    pointer-events: auto;
     position: relative;
     z-index: 5;
 }
@@ -116,7 +92,6 @@
     margin-right: 8px;
     -webkit-user-select: text;
     user-select: text;
-    pointer-events: auto;
     position: relative;
     z-index: 5;
 }
@@ -153,7 +128,6 @@
     font-weight: 500;
     color: #4a6fa5;
     text-align: left;
-    pointer-events: auto;
     -webkit-user-select: text;
     user-select: text;
     -webkit-touch-callout: text;
@@ -382,14 +356,8 @@
     }
 }
 
-/* 动画效果已移除 */
-
 /* 打印样式 */
 @media print {
-    .grammar-card::before {
-        display: none;
-    }
-    
     .grammar-blank {
         border-bottom: 1px solid #000;
         background: transparent;

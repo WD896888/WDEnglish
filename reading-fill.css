@@ -1,26 +1,5 @@
 /* ========== 阅读填空卡片样式 ========== */
-.reading-card {
-    position: relative;
-    overflow: visible;
-    pointer-events: auto;
-}
-
-/* 笔记纹理装饰 */
-.reading-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: repeating-linear-gradient(
-        transparent,
-        transparent 27px,
-        rgba(173, 216, 230, 0.15) 28px
-    );
-    pointer-events: none;
-    z-index: 0;
-}
+/* 继承现有卡片基础样式 */
 
 .reading-content {
     position: relative;
@@ -29,7 +8,6 @@
     min-height: 200px;
     -webkit-user-select: text;
     user-select: text;
-    pointer-events: auto;
 }
 
 /* 文章标题 */
@@ -103,7 +81,6 @@
     font-weight: 500;
     color: #4a6fa5;
     text-align: left;
-    pointer-events: auto;
     -webkit-user-select: text;
     user-select: text;
     cursor: text;
@@ -312,10 +289,6 @@
 
 /* 打印样式 */
 @media print {
-    .reading-card::before {
-        display: none;
-    }
-
     .reading-blank {
         border-bottom: 1px solid #000;
         background: transparent;
