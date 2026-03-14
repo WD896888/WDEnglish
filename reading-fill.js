@@ -401,7 +401,10 @@ function formatReadingAnswers(blanks) {
     let html = '<div class="reading-answers-list">';
     
     blanks.forEach((blank) => {
-        html += `<span class="reading-answer-item">${blank.index}. ${blank.answer}</span>`;
+        // 判断是否为长答案（超过20个字符视为长答案，需要独占一行）
+        const isLongAnswer = blank.answer.length > 20;
+        const longClass = isLongAnswer ? ' long-answer' : '';
+        html += `<span class="reading-answer-item${longClass}">${blank.index}. ${blank.answer}</span>`;
     });
     
     html += '</div>';

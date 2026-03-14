@@ -185,8 +185,10 @@ function renderRCQuestion() {
             if (context) {
                 context.font = getComputedStyle(e.target).font;
                 const textWidth = context.measureText(value).width;
-                // 保持默认宽度480px，只有超过时才扩展，最大600px
-                const newWidth = Math.max(480, Math.min(600, textWidth + 30));
+                // 获取父容器宽度，最大延伸到容器的85%
+                const containerWidth = e.target.parentElement.offsetWidth * 0.85;
+                // 保持默认宽度480px，只有超过时才扩展
+                const newWidth = Math.max(480, Math.min(containerWidth, textWidth + 30));
                 e.target.style.width = newWidth + 'px';
             }
         });
@@ -1009,7 +1011,10 @@ function formatRCAnswers(answersList) {
     let html = '<div class="reading-answers-list">';
     
     answersList.forEach((item) => {
-        html += `<span class="reading-answer-item">${item.index}. ${item.answer}</span>`;
+        // 判断是否为长答案（超过20个字符视为长答案，需要独占一行）
+        const isLongAnswer = item.answer.length > 20;
+        const longClass = isLongAnswer ? ' long-answer' : '';
+        html += `<span class="reading-answer-item${longClass}">${item.index}. ${item.answer}</span>`;
     });
     
     html += '</div>';

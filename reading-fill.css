@@ -113,24 +113,47 @@
     margin-bottom: 15px;
     display: flex;
     flex-wrap: wrap;
-    gap: 8px 40px;
+    gap: 8px 16px;
     padding: 10px 15px;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
     -webkit-user-select: text;
     user-select: text;
+    align-items: flex-start;
+}
+
+/* 用于强制换行的伪元素 */
+.reading-answers-list::after {
+    content: '';
+    width: 0;
+    flex-basis: 100%;
+    order: 9999;
 }
 
 .reading-answer-item {
-    flex: 0 0 calc(50% - 20px);
+    flex: 1 1 calc(50% - 8px);
+    min-width: calc(50% - 8px);
+    max-width: calc(50% - 8px);
     padding: 4px 8px;
     color: #4a6fa5;
     font-weight: 600;
     box-sizing: border-box;
     text-align: left;
-    white-space: nowrap;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
     -webkit-user-select: text;
     user-select: text;
+}
+
+/* 长答案：允许文字换行并扩展到整行 */
+.reading-answer-item.long-answer {
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    flex-basis: 100%;
+    max-width: 100%;
+    width: 100%;
 }
 
 /* 响应式适配 */
