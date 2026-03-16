@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="reading-fill.css">
     <link rel="stylesheet" href="reading-comprehension.css">
     <link rel="stylesheet" href="zhuan-sheng-ben.css">
+    <link rel="stylesheet" href="essay.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="page-entering">
@@ -77,10 +78,9 @@
                 <span class="menu-icon">📖</span>
                 阅读理解
             </button>
-            <button class="menu-item disabled">
+            <button class="menu-item">
                 <span class="menu-icon">✍️</span>
                 英语作文
-                <span class="pending">更多功能敬请期待</span>
             </button>
         </div>
         
@@ -254,6 +254,41 @@
 
             <div id="rcResult" class="result"></div>
             <div id="rcExplanation" class="explanation"></div>
+        </div>
+
+        <div class="exercise-card essay-card hidden">
+            <div class="card-header">
+                <h2>英语作文</h2>
+                <div class="card-header-actions">
+                    <div class="progress-indicator">
+                        <span id="essayQuestionNumber">1</span>
+                        <span class="divider">/</span>
+                        <span id="essayTotalQuestions">1</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="essayContent" class="essay-content">
+                <!-- 动态渲染题目内容 -->
+            </div>
+
+            <div class="actions">
+                <button id="essayPrevBtn" class="btn btn-prev">
+                    <span class="btn-icon">←</span>
+                    上一题
+                </button>
+                <button id="essayCheckBtn" class="btn btn-check">
+                    <span class="btn-icon">✓</span>
+                    检查答案
+                </button>
+                <button id="essayNextBtn" class="btn btn-next">
+                    下一题
+                    <span class="btn-icon">→</span>
+                </button>
+            </div>
+
+            <div id="essayResult" class="result"></div>
+            <div id="essayExplanation" class="explanation"></div>
         </div>
 
         <div class="ai-chat-card">
@@ -498,11 +533,13 @@
     <script src="TK3.js"></script>
     <script src="TK4.js"></script>
     <script src="TK5.js"></script>
+    <script src="TK6.js"></script>
     <script src="script.js"></script>
     <script src="grammar-fill.js"></script>
     <script src="translation-fill.js"></script>
     <script src="reading-fill.js"></script>
     <script src="reading-comprehension.js"></script>
     <script src="zhuan-sheng-ben.js"></script>
+    <script src="essay.js"></script>
 </body>
 </html>

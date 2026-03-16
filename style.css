@@ -266,12 +266,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 8px;
     min-width: 120px;
+    min-height: 110px;
 }
 
 .menu-icon {
     font-size: 1.5em;
-    margin-bottom: 5px;
 }
 
 .menu-item:hover:not(.disabled) {
@@ -875,7 +877,6 @@ body {
 
     .menu-icon {
         font-size: 1.3em;
-        margin-bottom: 3px;
     }
 
     .pending {
@@ -1068,7 +1069,6 @@ body {
 
     .menu-icon {
         font-size: 1.1em;
-        margin-bottom: 2px;
     }
 
     .exercise-card {
@@ -1277,7 +1277,6 @@ body {
 
     .menu-icon {
         font-size: 1.1em;
-        margin-bottom: 2px;
     }
 
     .exercise-card {

@@ -76,11 +76,12 @@ const totalQuestionsEl = document.getElementById('totalQuestions');
 // ========== 菜单切换功能 ==========
 function initMenuSwitch() {
     const menuItems = document.querySelectorAll('.menu-item');
-    const sentenceCard = document.querySelector('.exercise-card:not(.grammar-card):not(.translation-card):not(.reading-card):not(.rc-card)');
+    const sentenceCard = document.querySelector('.exercise-card:not(.grammar-card):not(.translation-card):not(.reading-card):not(.rc-card):not(.essay-card)');
     const grammarCard = document.querySelector('.grammar-card');
     const translationCard = document.querySelector('.translation-card');
     const readingCard = document.querySelector('.reading-card');
     const rcCard = document.querySelector('.rc-card');
+    const essayCard = document.querySelector('.essay-card');
 
     menuItems.forEach((item, index) => {
         item.addEventListener('click', () => {
@@ -94,18 +95,18 @@ function initMenuSwitch() {
             item.classList.add('active');
 
             // 切换卡片显示
-            switchCard(index, sentenceCard, grammarCard, translationCard, readingCard, rcCard);
+            switchCard(index, sentenceCard, grammarCard, translationCard, readingCard, rcCard, essayCard);
         });
     });
 }
 
 // 切换卡片显示
-function switchCard(menuIndex, sentenceCard, grammarCard, translationCard, readingCard, rcCard) {
+function switchCard(menuIndex, sentenceCard, grammarCard, translationCard, readingCard, rcCard, essayCard) {
     // 切换菜单时不应该触发入场动画，确保移除动画相关类
     document.body.classList.remove('page-entering');
     document.body.classList.remove('page-preparing');
     
-    // 0: 连词成句, 1: 语法填空, 2: 翻译填空, 3: 阅读填空, 4: 阅读理解
+    // 0: 连词成句, 1: 语法填空, 2: 翻译填空, 3: 阅读填空, 4: 阅读理解, 5: 英语作文
     const subtitle = document.getElementById('subtitle');
     
     // 先隐藏所有卡片
@@ -114,6 +115,7 @@ function switchCard(menuIndex, sentenceCard, grammarCard, translationCard, readi
     if (translationCard) translationCard.classList.add('hidden');
     if (readingCard) readingCard.classList.add('hidden');
     if (rcCard) rcCard.classList.add('hidden');
+    if (essayCard) essayCard.classList.add('hidden');
     
     if (menuIndex === 0) {
         // 连词成句
@@ -139,6 +141,10 @@ function switchCard(menuIndex, sentenceCard, grammarCard, translationCard, readi
         // 阅读理解
         if (rcCard) rcCard.classList.remove('hidden');
         if (subtitle) subtitle.textContent = '在段落的回响里寻找线索，让隐藏的答案慢慢浮出水面。';
+    } else if (menuIndex === 5) {
+        // 英语作文
+        if (essayCard) essayCard.classList.remove('hidden');
+        if (subtitle) subtitle.textContent = '在纸上的空白里，用词汇编织思想的翅膀';
     }
 }
 

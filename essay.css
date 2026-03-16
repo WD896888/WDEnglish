@@ -1,0 +1,454 @@
+/* ========== 英语作文卡片样式 ========== */
+/* 继承现有卡片基础样式 */
+
+.essay-content {
+    position: relative;
+    z-index: 10;
+    padding: 20px 0;
+    min-height: 200px;
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+/* 题目文字 */
+.essay-question-text {
+    margin-bottom: 24px;
+    line-height: 2;
+    font-size: 16px;
+    color: #4a6fa5;
+    white-space: pre-wrap;
+}
+
+/* 答案输入区域容器 */
+.essay-answer-container {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* 答案输入框标签 */
+.essay-answer-label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #5d8ab8;
+}
+
+/* 词数显示 */
+.essay-word-count {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.essay-word-count-label {
+    color: #7aa8d6;
+}
+
+.essay-word-count-value {
+    font-weight: 600;
+    color: #5d8ab8;
+    margin-left: 4px;
+}
+
+/* 多行文本输入框 */
+.essay-textarea {
+    width: 100%;
+    min-height: 300px;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    background-image: repeating-linear-gradient(
+        transparent,
+        transparent calc(2.5em - 1.6px),
+        rgba(93, 138, 184, 0.5) calc(2.5em - 2px),
+        rgba(93, 138, 184, 0.5) 2.5em
+    );
+    background-size: 100% 2.5em;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    line-height: 2.5;
+    color: #4a6fa5;
+    resize: none;
+    overflow: hidden;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.essay-textarea:focus {
+    outline: none;
+    border-bottom-color: rgba(93, 138, 184, 0.6);
+}
+
+.essay-textarea::placeholder {
+    color: #a5c8e8;
+}
+
+/* 参考范文区域 */
+.essay-sample-answer {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+}
+
+.essay-sample-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #5d8ab8;
+    margin-bottom: 12px;
+}
+
+.essay-sample-content {
+    line-height: 2;
+    font-size: 15px;
+    color: #4a6fa5;
+    white-space: pre-wrap;
+}
+
+/* 响应式适配 */
+@media (max-width: 768px) {
+    .essay-content {
+        padding: 15px 0;
+    }
+
+    .essay-question-text {
+        font-size: 15px;
+        line-height: 1.9;
+        margin-bottom: 20px;
+    }
+
+    .essay-textarea {
+        font-size: 14px;
+        min-height: 180px;
+        padding: 0;
+    }
+
+    .essay-sample-answer {
+        padding: 8px 12px;
+    }
+
+    .essay-sample-content {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .essay-content {
+        padding: 10px 0;
+    }
+
+    .essay-question-text {
+        font-size: 14px;
+        line-height: 1.8;
+        margin-bottom: 16px;
+    }
+
+    .essay-answer-label {
+        font-size: 14px;
+    }
+
+    .essay-word-count {
+        font-size: 13px;
+    }
+
+    .essay-textarea {
+        font-size: 13px;
+        min-height: 150px;
+        padding: 0;
+    }
+
+    .essay-sample-answer {
+        padding: 6px 10px;
+    }
+
+    .essay-sample-title {
+        font-size: 14px;
+    }
+
+    .essay-sample-content {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 360px) {
+    .essay-question-text {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .essay-textarea {
+        font-size: 12px;
+        min-height: 120px;
+    }
+
+    .essay-sample-content {
+        font-size: 12px;
+    }
+}
+
+/* 横屏模式优化 */
+@media (max-height: 600px) and (orientation: landscape) {
+    .essay-content {
+        padding: 10px 0;
+    }
+
+    .essay-question-text {
+        margin-bottom: 12px;
+        line-height: 1.6;
+    }
+
+    .essay-textarea {
+        min-height: 100px;
+    }
+}
+
+/* 打印样式 */
+@media print {
+    .essay-textarea {
+        border: 1px solid #000;
+        background: transparent;
+        color: #000;
+    }
+}
+
+/* ========== AI评分加载指示器 ========== */
+.essay-grading-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+}
+
+.essay-grading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgba(93, 138, 184, 0.2);
+    border-top-color: #5d8ab8;
+    border-radius: 50%;
+    animation: essay-spin 1s linear infinite;
+}
+
+@keyframes essay-spin {
+    to { transform: rotate(360deg); }
+}
+
+.essay-grading-text {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #5d8ab8;
+}
+
+.essay-grading-models {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #7aa8d6;
+}
+
+/* ========== AI评分详情 ========== */
+.essay-ai-scores {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+}
+
+.essay-ai-scores-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #5d8ab8;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.essay-ai-scores-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.essay-ai-score-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    min-width: 80px;
+}
+
+.essay-ai-model-name {
+    font-size: 12px;
+    color: #7aa8d6;
+    margin-bottom: 6px;
+}
+
+.essay-ai-model-score {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.essay-ai-model-score.score-high {
+    color: #4CAF50;
+}
+
+.essay-ai-model-score.score-medium {
+    color: #FF9800;
+}
+
+.essay-ai-model-score.score-low {
+    color: #f44336;
+}
+
+.essay-ai-final-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 15px;
+    background: rgba(93, 138, 184, 0.15);
+    border-radius: 8px;
+    color: #5d8ab8;
+    margin-top: 12px;
+}
+
+.essay-final-label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.essay-final-value {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.essay-ai-warning {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: rgba(255, 152, 0, 0.15);
+    border-radius: 8px;
+    font-size: 13px;
+    color: #e68a00;
+    text-align: center;
+}
+
+.essay-ai-comment {
+    margin-top: 12px;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #4a6fa5;
+}
+
+.essay-ai-comment strong {
+    color: #5d8ab8;
+}
+
+/* ========== AI评分响应式适配 ========== */
+@media (max-width: 768px) {
+    .essay-ai-score-item {
+        min-width: 70px;
+        padding: 8px 10px;
+    }
+
+    .essay-ai-model-score {
+        font-size: 16px;
+    }
+
+    .essay-final-value {
+        font-size: 20px;
+    }
+
+    .essay-grading-indicator {
+        padding: 15px 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .essay-ai-scores {
+        padding: 8px 12px;
+    }
+
+    .essay-ai-scores-grid {
+        gap: 8px;
+    }
+
+    .essay-ai-score-item {
+        min-width: 60px;
+        padding: 6px 8px;
+    }
+
+    .essay-ai-model-name {
+        font-size: 11px;
+    }
+
+    .essay-ai-model-score {
+        font-size: 14px;
+    }
+
+    .essay-ai-final-score {
+        flex-direction: column;
+        gap: 4px;
+        padding: 8px 12px;
+    }
+
+    .essay-final-label {
+        font-size: 12px;
+    }
+
+    .essay-final-value {
+        font-size: 18px;
+    }
+
+    .essay-ai-comment {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    .essay-grading-spinner {
+        width: 32px;
+        height: 32px;
+    }
+
+    .essay-grading-text {
+        font-size: 14px;
+    }
+
+    .essay-grading-models {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 360px) {
+    .essay-ai-score-item {
+        min-width: 55px;
+        padding: 5px 6px;
+    }
+
+    .essay-ai-model-name {
+        font-size: 10px;
+    }
+
+    .essay-ai-model-score {
+        font-size: 13px;
+    }
+
+    .essay-final-value {
+        font-size: 16px;
+    }
+}
