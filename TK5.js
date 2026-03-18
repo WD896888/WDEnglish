@@ -2431,5 +2431,520 @@ make friends：交朋友。
 现在完成时：在 “I’ve made a few friends” 中出现，用来强调过去的动作对现在的影响（现在有朋友了，不孤单了）。
 `
 },
+{
+    article: `It was a rainy Saturday afternoon. Tom went to the city library to return the books he borrowed last week. The library was quiet, with only the sound of rain hitting the windows. As Tom was walking between the shelves, he noticed a blue wallet lying on the floor.
+
+He picked it up and looked around, but no one was there. He opened the wallet to find the owner’s name. Inside, there was a student card and some money. The name on the card was “Li Ming.” Tom knew how important a student card was for a student.
+
+Tom went to the front desk and gave the wallet to the librarian, Ms. Wang. She checked the records and found Li Ming’s phone number. Ten minutes later, a worried boy rushed into the library. It was Li Ming. When he saw his wallet, he was relieved and grateful. He thanked Tom repeatedly. Tom smiled and said, “I am just glad I could help.” That day, Tom walked home in the rain, but his heart was warm.`,
+    questions: [
+        {
+            text: "Why did Tom go to the library?",
+            answer: "To return the books he borrowed last week."
+        },
+        {
+            text: "What did Tom find while walking between the shelves?",
+            answer: "A blue wallet."
+        },
+        {
+            text: "How did Tom find the owner of the wallet?",
+            answer: "He gave the wallet to the librarian, Ms. Wang."
+        },
+        {
+            text: "How did Li Ming feel when he saw his wallet?",
+            answer: "Relieved and grateful."
+        },
+        {
+            text: "Translate the underlined sentence “He thanked Tom repeatedly.” into Chinese.",
+            reference: "他再三感谢汤姆。"
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： Why did Tom go to the library?
+翻译： 汤姆为什么去图书馆？
+
+阅读原文： Tom went to the city library to return the books he borrowed last week.
+翻译： 汤姆去市图书馆归还他上周借的书。
+
+分析：
+
+我们要看清题目问的是“为什么”，也就是在找原因或者目的。
+请看句子里有一个非常重要的词 "to"。在这里，"to" 后面接动作（return），表示目的，意思是“为了去做某事”。
+所以，"to return the books"（去还书）就是他去图书馆的目的。
+规则：
+
+不定式表目的：简单说，就是用 "to + 动词原形" 来表示“为了做……”。比如：I went to the shop to buy bread.（我去商店为了买面包。）
+答案： To return the books he borrowed last week.
+
+第二题
+题目： What did Tom find while walking between the shelves?
+翻译： 汤姆在书架间走动时发现了什么？
+
+阅读原文： As Tom was walking between the shelves, he noticed a blue wallet lying on the floor.
+翻译： 当汤姆在书架间走动时，他注意到地上躺着一个蓝色的钱包。
+
+分析：
+
+题目问的是“发现了什么”，我们需要在句子里找“发现”或者是“看到”的东西。
+句子里的 "noticed" 就是“注意到、发现”的意思。紧接在它后面的就是发现的对象。
+"a blue wallet"（一个蓝色钱包）就是他看到的东西。至于后面的 "lying on the floor" 是补充说明钱包是“躺在地上的”，核心词是钱包。
+规则：
+
+宾语：就是一个动作的对象。比如“我吃苹果”，“苹果”就是宾语。在这里，“注意到”是动作，“钱包”就是宾语，也就是答案。
+答案： A blue wallet.
+
+第三题
+题目： How did Tom find the owner of the wallet?
+翻译： 汤姆是如何找到钱包主人的？
+
+阅读原文： Tom went to the front desk and gave the wallet to the librarian, Ms. Wang. She checked the records and found Li Ming’s phone number.
+翻译： 汤姆走到前台，把钱包给了图书管理员王女士。她查阅了记录，找到了李明的电话号码。
+
+分析：
+
+题目问的是“如何找到”，也就是问方式方法。
+虽然最后找到电话的是王女士，但这是汤姆把钱包交给她之后发生的。
+汤姆的关键动作是 "gave the wallet to the librarian"（把钱包给了图书管理员）。
+正是因为交给了管理员，通过管理员的记录才找到了失主。所以答案是汤姆把钱包交给了管理员。
+规则：
+
+一般过去时：句子里的动词用了过去式，比如 "went" (go的过去式)，"gave" (give的过去式)。这表示事情已经发生了，讲故事的时候常用这种时态。
+答案： He gave the wallet to the librarian, Ms. Wang.
+
+第四题
+题目： How did Li Ming feel when he saw his wallet?
+翻译： 当李明看到他的钱包时，他感觉如何？
+
+阅读原文： When he saw his wallet, he was relieved and grateful.
+翻译： 当他看到他的钱包时，他感到如释重负和感激。
+
+分析：
+
+题目问的是“感觉如何”，我们要找描写心情的形容词。
+句子结构是 "he was..."（他是……的状态），后面紧跟的两个词就是形容心情的。
+"relieved" 意思是“宽慰的、放心的”（丢了东西找回来，心里石头落地了）。
+"grateful" 意思是“感激的”（感谢别人帮了他）。
+规则：
+
+形容词做表语：放在系动词（比如 be动词 is/am/was）后面，用来形容主语的状态或心情。比如：I am happy. (happy 就是形容词)。
+答案： Relieved and grateful.
+
+第五题
+题目： Translate the underlined sentence “He thanked Tom repeatedly.” into Chinese.
+翻译： 将划线句子“He thanked Tom repeatedly.”翻译成中文。
+
+阅读原文： He thanked Tom repeatedly.
+翻译： 他再三感谢汤姆。
+
+分析：
+
+这是一个很简单的“主谓宾”结构。
+He（他）是主语。
+thanked（感谢）是动词，动作。注意这里用了过去式，因为故事发生在过去。
+Tom（汤姆）是接受感谢的人。
+最关键的是 "repeatedly" 这个词。它的词根是 "repeat"（重复），加上 "-ly" 变成了副词，意思是“重复地、再三地、反复地”。
+规则：
+
+副词修饰动词：副词常常用来告诉我们要“怎么做”一个动作。这里 repeatedly 修饰 thanked，说明感谢这个动作做了很多次，翻译成“再三感谢”或“反复感谢”最地道。
+答案： 他再三感谢汤姆。
+
+整体总结
+太棒了！你看，只要静下心来，这五个问题其实并不难，对不对？通过这篇短文，我们复习了几个很重要的核心语法点：
+
+不定式：to + 动词，常用来表示做某事的目的。
+一般过去时：讲述过去发生的故事，动词要变成过去式（如 go -> went, thank -> thanked）。
+形容词描述心情：放在 be 动词后面，形容人的感受（如 relieved, grateful）。
+副词：修饰动作，说明动作发生的状态或频率（如 repeatedly）。
+`
+},
+{
+    article: `Dear Sarah,
+
+I hope this email finds you well. I have some exciting news to share with you! You know how I’ve always wanted to learn how to bake? Well, I finally signed up for a baking course last month.
+
+It has been a wonderful experience so far. Our teacher, Mr. Brown, is very patient. He teaches us how to make different kinds of bread and cakes. At first, I found it difficult to knead the dough, but now I am getting better at it. Last week, I made a chocolate cake for my family, and they loved it!
+
+To celebrate the end of the course, we are going to hold a bakery party next Saturday afternoon at the community center. I really want you to come and taste the cake I made. It starts at 2:00 pm.
+
+Please let me know if you can make it. I am looking forward to seeing you!
+
+Best regards,
+Emily`,
+    questions: [
+        {
+            text: "What news does Emily want to share with Sarah?",
+            answer: "She signed up for a baking course last month."
+        },
+        {
+            text: "What does Mr. Brown teach in the course?",
+            answer: "How to make different kinds of bread and cakes."
+        },
+        {
+            text: "Why did Emily find baking difficult at first?",
+            answer: "Because she found it difficult to knead the dough."
+        },
+        {
+            text: "When will the bakery party be held?",
+            answer: "Next Saturday afternoon at 2:00 pm."
+        },
+        {
+            text: "Translate the underlined sentence “I am looking forward to seeing you!” into Chinese.",
+            reference: "我期待着见到你！"
+        }
+    ],
+    explanation: `题目解析：
+
+第 1 题
+题目： What news does Emily want to share with Sarah?
+
+翻译： Emily 想和 Sarah 分享什么新闻？
+
+阅读原文： “I have some exciting news to share with you! You know how I’ve always wanted to learn how to bake? Well, I finally signed up for a baking course last month.”
+
+翻译： “我有一些令人兴奋的消息要和你分享！你知道我一直想学烘焙吗？嗯，我上个月终于报名了一个烘焙课程。”
+
+分析：
+
+这是一道细节理解题。我们要去文章里找“线索词”。
+题目问的是“news”（新闻），我们一眼就看到原文第一段有一句 “I have some exciting news…”（我有一些令人兴奋的新闻）。
+接着往下读，后面那句话 “I finally signed up for a baking course last month”（我上个月终于报名了一个烘焙课程）就是在具体解释这个新闻是什么。
+所以，把这句话稍微简化一下，就是答案了。
+规则：
+
+这里运用了一般过去时。因为作者说的是“last month”（上个月），事情已经发生了。简单的说，就是过去做过的事，动词就要变个样子。比如 “sign”（报名）变成了 “signed”。
+答案： She signed up for a baking course last month.
+
+第 2 题
+题目： What does Mr. Brown teach in the course?
+
+翻译： Brown 先生在课程里教什么？
+
+阅读原文： “Our teacher, Mr. Brown, is very patient. He teaches us how to make different kinds of bread and cakes.”
+
+翻译： “我们的老师，Brown 先生，非常有耐心。他教我们如何制作不同种类的面包和蛋糕。”
+
+分析：
+
+这是一道细节查找题。
+题目里的关键词是 “Mr. Brown” 和 “teach”（教）。
+我们回到原文，很快就在第二段找到了 “Our teacher, Mr. Brown…”。
+紧接着下一句 “He teaches us…”（他教我们…），后面跟着的内容就是他教的东西。
+提取关键信息：“how to make different kinds of bread and cakes”。
+规则：
+
+这里有个常用结构叫 “疑问词 + to do”。比如这里的 “how to make”（如何制作）。这就像把一个问题变成一个短语放在句子里面，意思很完整。
+答案： How to make different kinds of bread and cakes.
+
+第 3 题
+题目： Why did Emily find baking difficult at first?
+
+翻译： 为什么 Emily 起初觉得烘焙很难？
+
+阅读原文： “At first, I found it difficult to knead the dough, but now I am getting better at it.”
+
+翻译： “起初，我发现揉面团很难，但现在我越来越擅长了。”
+
+分析：
+
+题目问的是“原因”，关键词是 “difficult”（困难的）和 “at first”（起初）。
+我们在原文中定位到 “At first” 和 “difficult”。
+原文说 “found it difficult to…”（发现…很难），这里的 “it” 指代的就是后面的动作。
+那个难的动作是什么呢？是 “to knead the dough”（揉面团）。
+题目问“为什么”，回答时我们通常用 “Because”（因为）开头，再把原文的内容填进去。
+规则：
+
+这里有个重点句型：find it + 形容词 + to do something。意思是“发现做某事是…样的”。这里的 “it” 是个形式上的替身，真正的内容是后面的 “to knead the dough”。
+答案： Because she found it difficult to knead the dough.
+
+第 4 题
+题目： When will the bakery party be held?
+
+翻译： 烘焙派对将在什么时候举行？
+
+阅读原文： “To celebrate the end of the course, we are going to hold a bakery party next Saturday afternoon at the community center. It starts at 2:00 pm.”
+
+翻译： “为了庆祝课程结束，我们打算下周六下午在社区中心举办一个烘焙派对。它会在下午 2 点开始。”
+
+分析：
+
+题目问的是“时间”，关键词是 “When” 和 “party”。
+我们像雷达一样扫描文章，寻找表示时间的词。
+在第三段找到了 “next Saturday afternoon”（下周六下午）。
+下一句还有一个具体的时间点：“2:00 pm”。
+做题时要把这两个时间信息都捕捉到，合起来就是完整答案。
+规则：
+
+这里用了 “be going to” 结构，表示“打算做某事”，是将来时的一种。就是还没发生，计划接下来要发生的动作。
+答案： Next Saturday afternoon at 2:00 pm.
+
+第 5 题
+题目： Translate the underlined sentence “I am looking forward to seeing you!” into Chinese.
+
+翻译： 将划线句子“I am looking forward to seeing you!”翻译成中文。
+
+阅读原文： “I am looking forward to seeing you!”
+
+翻译： 我期待着见到你！
+
+分析：
+
+这是一道翻译题。我们需要看懂句子的核心短语。
+最关键的部分是中间的 “look forward to”。
+这个短语的意思是“期待、盼望”。
+特别注意这里的 “to”，它后面跟的是 “seeing”（see 的 ing 形式），而不是原形动词 “see”。这是一个很容易踩的坑哦！
+规则：
+
+look forward to doing something（期待做某事）。这里的 “to” 就像一个小介词，后面如果是动词，必须要变成“-ing”形式（动名词）。这是一个非常固定的搭配，记下来就能拿分！
+答案： 我期待着见到你！
+
+整体总结
+哇，同学你坚持下来了，真棒！我们来总结一下这篇短文涉及的几个核心语法点，只要掌握了这几个，你就又进步了一大截：
+
+一般过去时：表示过去发生的动作，动词通常要加 -ed（如 signed）。
+“find it + adj + to do” 句型：意为“发现做某事是…的”，it 做形式宾语。
+“be going to” 结构：表示将来计划或打算做某事。
+“look forward to doing” 短语：期待做某事，注意 to 后面要加 -ing。
+`
+},
+{
+    article: `Last Saturday, Mr. Green decided to clean his garden. It had been messy for a long time. He wanted to plant some new flowers for his wife's birthday. The weather was warm, and the sun was high in the sky.
+
+While he was working, he felt very tired. He sat down on a chair to drink some water. Just then, he saw his neighbor, a young boy named Tom, walking by. Tom noticed Mr. Green's struggle. Without saying a word, Tom went home and came back with a shovel.
+
+"I can help you, sir," Tom said politely. Mr. Green was surprised but happy. They worked together for two hours. The garden looked beautiful and clean. Mr. Green thanked Tom and gave him a box of cookies. Tom smiled and said, "Helping others makes me happy."
+
+Mr. Green realized that a clean garden is nice, but a kind neighbor is better. He decided to invite Tom's family for dinner next week.`,
+    questions: [
+        {
+            text: "What did Mr. Green decide to do last Saturday?",
+            answer: "To clean his garden."
+        },
+        {
+            text: "Why did Mr. Green want to plant new flowers?",
+            answer: "For his wife's birthday."
+        },
+        {
+            text: "Who came to help Mr. Green?",
+            answer: "A young boy named Tom."
+        },
+        {
+            text: "What did Mr. Green give to Tom as a thank you?",
+            answer: "A box of cookies."
+        },
+        {
+            text: "Translate the sentence: \"Helping others makes me happy.\" into Chinese.",
+            reference: "帮助别人让我快乐。"
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： What did Mr. Green decide to do last Saturday?
+翻译： 上周六，格林先生决定做什么？
+
+阅读原文： Last Saturday, Mr. Green decided to clean his garden.
+翻译： 上周六，格林先生决定打扫他的花园。
+
+分析：
+我们要用“寻宝”的方法。题目里有个非常关键的时间词 Last Saturday（上周六），这就是我们的“藏宝图”。我们拿着这个词去文章里找，第一句话就出现了这个时间！题目问“决定做什么”，我们往看后面，马上就能看到 decided to（决定去）后面的内容，答案直接就写在后面啦。
+
+规则：
+这里有个固定搭配：decide to do something，意思是“决定做某事”。
+
+decide 是“决定”的意思。
+to 后面接动作。所以答案就是 to 后面的动作。
+答案： To clean his garden.
+
+第二题
+题目： Why did Mr. Green want to plant new flowers?
+翻译： 为什么格林先生想要种新花？
+
+阅读原文： He wanted to plant some new flowers for his wife’s birthday.
+翻译： 他想为了妻子的生日种一些新花。
+
+分析：
+题目问的是“为什么”，我们在阅读时要特别注意表示原因或者目的的词。在原文中找到“plant some new flowers”这句话后，往后看，有一个小小的单词 for。在这里，它表示目的，意思是“为了……”。你看，答案是不是就在 for 后面乖乖等着呢？
+
+规则：
+for + 名词：经常用来表示目的或原因。比如 “for lunch”（为了午餐/作为午餐），这里就是 “for his wife’s birthday”（为了他妻子的生日）。
+
+答案： For his wife’s birthday.
+
+第三题
+题目： Who came to help Mr. Green?
+翻译： 谁来帮助格林先生？
+
+阅读原文： Just then, he saw his neighbor, a young boy named Tom, walking by.
+翻译： 就在那时，他看到他的邻居，一个叫汤姆的年轻男孩，路过。
+
+分析：
+题目问的是“谁”，说明我们要找的是一个人。我们在文章中间部分找找看，有没有出现人名？突然看到一个名字 Tom（汤姆）。原文说 Tom 是个 young boy（年轻男孩），而且后来他说了 “I can help you”（我能帮你）。所以，这个热心的好帮手就是 Tom。
+
+规则：
+当题目问 Who 时，答案一定是一个人或者称呼。我们在阅读时要像雷达一样，专门搜索那些大写字母开头的人名（比如 Tom, Mr. Green）。
+
+答案： A young boy named Tom.
+
+第四题
+题目： What did Mr. Green give to Tom as a thank you?
+翻译： 作为感谢，格林先生给了汤姆什么？
+
+阅读原文： Mr. Green thanked Tom and gave him a box of cookies.
+翻译： 格林先生感谢了汤姆，并给了他一盒饼干。
+
+分析：
+这道题的关键词是 give（给）。我们在故事的后半段找，看看格林先生给了什么东西。原文里有句话 “gave him…”，这个 gave 就是 give 的过去式（表示过去发生的动作）。他给了什么呢？后面紧跟着 a box of cookies。
+
+规则：
+这里有个很实用的结构：give sb. sth.（给某人某物）。
+
+原文 “gave him a box of cookies” 就是“给了他一盒饼干”。
+记住：give 后面接两个人或物，第一个是给“谁”，第二个是给“什么东西”。
+答案： A box of cookies.
+
+第五题
+题目： Translate the sentence: “Helping others makes me happy.” into Chinese.
+翻译： 将句子“Helping others makes me happy”翻译成中文。
+
+阅读原文： Helping others makes me happy.
+翻译： 帮助别人让我快乐。
+
+分析：
+我们来把这个句子像切蛋糕一样切开看：
+
+前面部分 Helping others：Help 是“帮助”，加了 -ing 变成了一个名词性质的东西，others 是“别人/其他人”。合起来就是“帮助别人”这件事。
+中间部分 makes：意思是“让/使”。
+后面部分 me happy：me 是“我”，happy 是“快乐”。
+连起来逻辑就是：“帮助别人”这件事，“让”我“快乐”。
+规则：
+这里涉及一个语法点：动名词作主语。
+
+简单说，就是把动词后面加上 -ing，让它变身成“这件事”来做句子的主语。
+比如：Swimming is good.（游泳是好的。）这里的 Swimming 就是动名词。
+本句里 Helping others 作主语，动词用了 makes（单数第三人称，因为“帮助别人”这件事是一件事）。
+答案： 帮助别人让我快乐。
+
+整体总结
+核心语法点回顾：
+
+一般过去时：文章里大量出现了 decided, wanted, was, saw, went 等词，因为故事发生在上星期六，都是过去的事，所以动词都要变脸（通常加 -ed）。
+不定式：decide to do sth.（决定做某事），want to do sth.（想要做某事）。看到 to，后面通常接动作原形。
+动名词：Helping others makes me happy. 动词加 -ing 放在句子开头，表示“做某事这件事”。
+`
+},
+{
+    article: `Dear Peter,
+
+Long time no see. I hope everything is going well with you. I am writing to tell you some big news. I have finally found a new job in Wuhan, so I will move there next month.
+
+The job is in a large company, and I will work as a manager. It is a bit far from my current home, so I have to rent a new apartment near the office. The city is very busy, but I like the energy there. I heard the food is delicious, especially the hot dry noodles.
+
+I am a bit nervous about the new start, but I am also excited. I will have more money to support my family, which is the most important thing for me.
+
+Please come to visit me when you are free. I will show you around the new city. Let's have a big meal together.
+
+Best wishes,
+Li Hua`,
+    questions: [
+        {
+            text: "Where will the writer move next month?",
+            answer: "Wuhan."
+        },
+        {
+            text: "What is the writer's new job?",
+            answer: "A manager."
+        },
+        {
+            text: "Why does the writer have to rent a new apartment?",
+            answer: "Because it is a bit far from his current home."
+        },
+        {
+            text: "What does the writer think is the most important thing?",
+            answer: "To support his family."
+        },
+        {
+            text: "Translate the sentence: \"I will show you around the new city.\" into Chinese.",
+            reference: "我会带你参观这座新城市。"
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： Where will the writer move next month?
+翻译： 作者下个月要搬到哪里去？
+阅读原文： I have finally found a new job in Wuhan, so I will move there next month.
+翻译： 我终于在武汉找到了一份新工作，所以我下个月要搬去那里。
+分析：
+咱们来看这句话。题目问的是“哪里”，这就提示我们要在文章里找一个地名。
+
+找线索词：题目里的 “next month”（下个月）是关键，我们拿着这个词去文章里找，很快就在第一段最后一句看到了它。
+看逻辑关系：句子前半部分说 “found a new job in Wuhan”（在武汉找到新工作），后半部分用了一个连词 “so”（所以），表示结果。既然工作在武汉，那搬去哪里呢？肯定是武汉啦。这里的 “there” 就是指代前面的 “Wuhan”。
+规则： 这里用到了指代的规则。英语里为了避免重复，常用 “there”（那里）指代前面提到过的地点，用 “it” 或 “they” 指代物或人。
+答案： Wuhan（武汉）。
+第2题
+题目： What is the writer’s new job?
+翻译： 作者的新工作是什么？
+阅读原文： The job is in a large company, and I will work as a manager.
+翻译： 这份工作是在一家大公司，我将作为一名经理工作。
+分析：
+这道题问的是“职位”，也就是他是干什么的。
+
+找线索词：题目里的 “new job”（新工作）。我们在第二段第一句找到了它。
+看关键词组：句子后半部分有一个非常重要的搭配 “work as”，意思是“担任……职务”或“作为……工作”。“work as” 后面紧跟的词，就是职位名称。这里跟的是 “manager”（经理）。
+规则： 记住短语 “work as + 职位”，意思是“担任某职位”。以后看到 “as”，就要想到它是在说身份或角色。
+答案： A manager（一名经理）。
+第3题
+题目： Why does the writer have to rent a new apartment?
+翻译： 作者为什么要租一间新公寓？
+阅读原文： It is a bit far from my current home, so I have to rent a new apartment near the office.
+翻译： 它离我现在的家有点远，所以我不得不在办公室附近租一间新公寓。
+分析：
+这道题问“为什么”，我们就要找原因。
+
+找线索词：“rent a new apartment”（租新公寓）。
+看逻辑关系：看这句话中间的连词 “so”（所以）。在英语里，“结果”跟在 “so” 后面，而“原因”在 “so” 前面。
+原因：离现在的家有点远。
+结果：不得不租新公寓。
+所以答案就在 “so” 前面的那半句里。
+规则： 这里考察的是因果关系。“so” 是一个非常实用的词，它前面是原因，后面是结果。反过来，如果看到 “because”（因为），那就是前面是结果，后面是原因。
+答案： Because it is a bit far from his current home（因为离他现在的家有点远）。
+第4题
+题目： What does the writer think is the most important thing?
+翻译： 作者认为最重要的事情是什么？
+阅读原文： I will have more money to support my family, which is the most important thing for me.
+翻译： 我会有更多的钱来养家糊口，这对我来说是最重要的事情。
+分析：
+题目问的是“最重要的事情”。
+
+找线索词：看到题目里的 “most important”（最重要），我们直接去文章里找这几个词。在第三段最后一句找到了。
+看句子结构：句子前半部分说“有更多钱养家”，后半部分紧接着说“这对我来说是最重要的”。这里的 “which” 指代的就是前面整件事。
+规则： 这里的 “support my family” 是一个动宾短语作目的。“support” 是“支持、供养”的意思，在这里翻译为“养家”。
+答案： To support his family（养家糊口）。
+第5题
+题目： Translate the sentence: “I will show you around the new city.” into Chinese.
+翻译： 将句子：“I will show you around the new city.” 翻译成中文。
+阅读原文： I will show you around the new city.
+分析：
+这是一个翻译题，我们把它拆成小块来看：
+
+“I will”：我将要。这里的 “will” 表示将来时，事情还没发生。
+“show you around”：这是一个固定搭配，非常实用！“show” 是“展示、给……看”，“around” 是“四处、周围”。合起来 “show sb. around” 就是“带某人参观/转转”。
+“the new city”：这座新城市。
+连起来就是：我将带你参观这座新城市。
+规则： 重点记忆短语 “show sb. around some place”（带某人参观某地）。以后你想说“我带你去学校转转”，就可以说 “I will show you around the school.”
+答案： 我会带你参观这座新城市。
+整体总结
+这位同学，你看，其实这篇阅读理解并没有那么可怕，对不对？我们主要用到了这几个核心知识点：
+
+一般将来时：文章里有很多 “will + 动词”（如 will move, will work），表示“将要发生”的事情。
+因果逻辑：我们抓住了 “so” 这个词，学会了怎么在文章里找原因和结果。
+固定搭配：
+work as：担任……职位。
+show sb. around：带某人参观。
+`
+},
+
 
 ];
