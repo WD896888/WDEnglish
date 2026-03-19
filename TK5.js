@@ -2945,6 +2945,562 @@ work as：担任……职位。
 show sb. around：带某人参观。
 `
 },
+{
+    article: `Last weekend, our community organized a “Green Neighborhood” cleanup event. My family and I volunteered to help. On Saturday morning, we gathered at the central park. There were people of all ages—children, parents, and even grandparents. The organizer handed out gloves, trash bags, and tools.
 
+Our task was to clean the riverbank. We worked in teams. My team picked up plastic bottles, old cans, and paper wrappers hidden in the bushes. It was tiring but satisfying to see the bags fill up. My little sister collected fallen leaves to make a beautiful nature collage.
+
+By noon, the riverbank looked much cleaner. We all felt proud of our work. The community leader thanked everyone and said, “Small actions can make a big difference.” We enjoyed free sandwiches and drinks together. This event taught me the importance of caring for our environment and working as a team.`,
+    questions: [
+        {
+            text: "When did the “Green Neighborhood” event take place?",
+            answer: "Last weekend."
+        },
+        {
+            text: "What was the writer’s task during the event?",
+            answer: "To clean the riverbank."
+        },
+        {
+            text: "Who thanked the volunteers at the end?",
+            answer: "The community leader."
+        },
+        {
+            text: "What did the writer’s little sister collect?",
+            answer: "Fallen leaves."
+        },
+        {
+            text: "Translate: “This event taught me the importance of caring for our environment and working as a team.”",
+            reference: "这次活动让我明白了爱护环境和团队合作的重要性。"
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： When did the “Green Neighborhood” event take place?
+
+翻译： “绿色邻里”活动是什么时候举行的？
+
+阅读原文： Last weekend, our community organized a “Green Neighborhood” cleanup event.
+
+翻译： 上个周末，我们社区组织了一场“绿色邻里”清扫活动。
+
+分析：
+
+这道题在问时间（When）。做阅读理解时，我们要学会“找茬”，也就是找关键词。
+题目里的关键词是 “Green Neighborhood” event（绿色邻里活动）。
+我们回到文章第一段，一眼就看到了这个词组。题目问“什么时候”，我们就往前看，发现前面赫然写着 Last weekend。
+这就好比你在找东西，题目问你“钥匙在哪”，你在文章里找到了钥匙，它旁边就放着时间标签。
+规则：
+
+特殊疑问词 When：看到 When 开头的问题，答案一定是一个表示时间的词（比如 yesterday, last week, in 2023 等）。
+一般过去时：句子里的动词 organized 加了 -ed，说明这是过去发生的事情，所以答案是“上周末”，而不是“这周末”。
+答案： Last weekend.
+
+第二题
+题目： What was the writer’s task during the event?
+
+翻译： 在活动期间，作者的任务是什么？
+
+阅读原文： Our task was to clean the riverbank.
+
+翻译： 我们的任务是清理河岸。
+
+分析：
+
+这道题在问什么东西/什么事情（What）。
+题目里的关键词是 task（任务）。这个词可能在文章里直接出现，也可能换个说法。
+我们在第二段第一句惊喜地发现了 task 这个原词！题目问“任务是什么”，我们就看 task 后面说了啥。
+后面紧跟着 was to clean the riverbank（是清理河岸）。这就是我们要找的答案，直接抄下来就行。
+规则：
+
+主系表结构：Our task（主语） was（系动词） to clean…（表语/说明内容）。这种结构就是用来定义“谁是什么”或者“什么是什么”的。
+不定式：这里的 to clean 表示目的或内容。如果不明白术语没关系，只要知道“任务是去做某事”通常用 to do 开头即可。
+答案： To clean the riverbank.
+
+第三题
+题目： Who thanked the volunteers at the end?
+
+翻译： 最后是谁感谢了志愿者们？
+
+阅读原文： The community leader thanked everyone and said…
+
+翻译： 社区负责人感谢了大家，并说道……
+
+分析：
+
+这道题在问人（Who）。
+题目里的关键词是 thanked（感谢）和 volunteers（志愿者，文中用 everyone 指代大家）。
+我们带着关键词去文章里扫视，在第三段找到了 thanked 这个词。
+既然问“谁感谢了大家”，那我们要看 thanked 前面是谁。前面是 The community leader（社区负责人）。
+逻辑很简单：谁做的动作，谁就是答案。
+规则：
+
+主语：动作的发出者。在这里，“负责人”发出了“感谢”这个动作。
+一般过去时：thank 变成了 thanked，因为事情已经发生过了。
+答案： The community leader.
+
+第四题
+题目： What did the writer’s little sister collect?
+
+翻译： 作者的小妹妹收集了什么？
+
+阅读原文： My little sister collected fallen leaves to make a beautiful nature collage.
+
+翻译： 我收集落叶用来制作一幅漂亮的自然拼贴画。
+
+分析：
+
+这道题又在问什么东西（What）。
+题目里的关键词非常明显：little sister（小妹妹）和 collect（收集）。
+我们在第二段的最后一句找到了 My little sister。
+接着往后看，出现了 collected（collect 的过去式），这就对上号了！
+collected 后面跟着的 fallen leaves（落叶）就是她收集的东西。
+规则：
+
+主谓宾结构：My little sister（主语/谁） collected（谓语/做了什么） fallen leaves（宾语/做了什么对象）。找答案时，盯着动词后面看，通常就是答案。
+fallen leaves：fallen 在这里是形容词性质，意思是“落下的”，修饰 leaves。
+答案： Fallen leaves.
+
+第五题
+题目： Translate: “This event taught me the importance of caring for our environment and working as a team.”
+
+翻译： 这次活动让我明白了爱护环境和团队合作的重要性。
+
+分析：
+
+这是一个长句子，我们把它拆成三段来看，就像切香肠一样。
+第一段：This event taught me（这次活动教会了我/让我明白了）。
+第二段：the importance of…（……的重要性）。这里的 importance 是“重要”的名词形式。
+第三段：caring for our environment and working as a team。这是 of 后面的内容，用来解释具体是什么的重要性。caring for 是“爱护、照顾”，working as a team 是“团队合作”。
+把它们串起来：这次活动 + 教会了我 + 爱护环境和团队合作的 + 重要性。
+规则：
+
+双宾语：taught 是“教”，后面跟了两个对象：me（间接宾语，人）和 the importance…（直接宾语，物）。简单的理解就是“教了我某件事”。
+介词 of：of 后面通常接名词性质的词组，这里 caring 和 working 都是动词加 -ing 变来的，表示这件事。
+答案： 这次活动让我明白了爱护环境和团队合作的重要性。
+
+整体总结
+老师真为你感到骄傲！你看，其实并没有那么难，对不对？我们今天复习了几个很重要的点：
+
+关键词定位法：做题时，先看题目里的特殊词（人名、地名、动词、大写字母），回文章找原词，答案通常就在旁边。
+一般过去时：整篇文章都在讲上周末发生的事，所以动词大多加了 -ed（organized, thanked, collected），表示“过去做过”。
+疑问词引导：看到 When 找时间，看到 Who 找人，看到 What 找事物或动作。
+`
+},
+{
+    article: `Tom used to hate mornings. He would always feel tired and rushed. But six months ago, he decided to change. He started waking up 30 minutes earlier to go for a short run in the park near his house.
+
+At first, it was very difficult. He could only run for 10 minutes before feeling out of breath. But he didn’t give up. Gradually, he could run longer and faster. Now, he runs for 20 minutes every weekday morning.
+
+This simple change has brought many benefits. Tom feels more energetic throughout the day. He can concentrate better in his classes. He also sleeps more soundly at night. Most importantly, running clears his mind and reduces stress. He now loves the peaceful morning time with fresh air and birdsong. It has become his favorite part of the day.`,
+    questions: [
+        {
+            text: "How long has Tom been running in the morning?",
+            answer: "For six months."
+        },
+        {
+            text: "How long can Tom run now every morning?",
+            answer: "For 20 minutes."
+        },
+        {
+            text: "What is the MOST important benefit of running for Tom?",
+            answer: "Running clears his mind and reduces stress."
+        },
+        {
+            text: "Where does Tom go for his run?",
+            answer: "In the park near his house."
+        },
+        {
+            text: "Translate: “This simple change has brought many benefits.”",
+            reference: "这个简单的改变带来了很多好处。"
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： How long has Tom been running in the morning?
+
+翻译： Tom 已经在早上跑步多久了？
+
+阅读原文： But six months ago, he decided to change.
+
+翻译： 但是六个月前，他决定做出改变。
+
+分析：
+
+这道题问的是时间长度（How long）。
+我们要在这个句子里找一个表示时间的词。看到 “six months ago” 了吗？这是线索词，意思是“六个月前”。
+文章说他在六个月前决定改变并开始跑步，一直持续到现在，所以答案就是六个月。
+规则：
+
+时间状语：像“six months ago”这样表示时间的词组，就是时间状语。它告诉我们动作发生的时间。
+For + 时间段：回答“How long”的问题，我们通常用“For...”开头，比如“For six months”（持续了六个月）。
+答案： For six months.
+
+第2题
+题目： How long can Tom run now every morning?
+
+翻译： 现在 Tom 每天早上能跑多久？
+
+阅读原文： Now, he runs for 20 minutes every weekday morning.
+
+翻译： 现在，他每个工作日的早上跑 20分钟。
+
+分析：
+
+题目里有个非常关键的线索词 “now”（现在），这提示我们要去文章里找描述他当前状态的句子。
+我们在第二段最后一句找到了 “Now”。
+题目问“跑多久”，我们在句子里找表示时间长度的数字，一眼就能看到 “20 minutes”。
+规则：
+
+细节查找：做阅读理解时，题目里的关键词（如 now）就是我们的路标，带着它去文章里找一样的词，答案通常就在附近。
+答案： For 20 minutes.
+
+第3题
+题目： What is the MOST important benefit of running for Tom?
+
+翻译： 对 Tom 来说，跑步最重要的好处是什么？
+
+阅读原文： Most importantly, running clears his mind and reduces stress.
+
+翻译： 最重要的是，跑步能清空他的思绪并减轻压力。
+
+分析：
+
+请注意题目里的大写字母 “MOST important”（最重要的）。这是超级线索！
+我们去文章里找它的“双胞胎”。在第三段，我们看到了 “Most importantly”，意思就是“最重要地”。
+这后面的内容肯定就是答案啦！后面的句子是“running clears his mind and reduces stress”。
+规则：
+
+关键词定位：题目中的大写单词、最高级（如 most important）通常是明显的定位点。只要找到它们，答案就显而易见了。
+答案： Running clears his mind and reduces stress.
+
+第4题
+题目： Where does Tom go for his run?
+
+翻译： Tom 去哪里跑步？
+
+阅读原文： He started waking up 30 minutes earlier to go for a short run in the park near his house.
+
+翻译： 他开始早起30分钟，去他家附近的公园跑一小会儿。
+
+分析：
+
+题目问的是地点（Where），所以我们要在文章里找表示地点的词。
+在第一段的最后，我们看到了 “in the park”（在公园里）。
+后面还有一个修饰词 “near his house”（在他家附近的），这个信息也很重要，能更准确地回答位置。
+规则：
+
+介词短语：英语里常用“in + 地点”来表示“在某地”。比如“in the park”就是“在公园里”。这是很常见的表示地点的方式。
+答案： In the park near his house.
+
+第5题
+题目： Translate: “This simple change has brought many benefits.”
+
+翻译： 这个简单的改变带来了很多好处。
+
+阅读原文： This simple change has brought many benefits.
+
+分析：
+
+This simple change：这是主语，意思是“这个简单的改变”。
+has brought：这是谓语动词。它是现在完成时，表示动作已经发生并且对现在有影响。
+many benefits：这是宾语，意思是“很多好处”。
+规则：
+
+现在完成时：结构是“have/has + 动词过去分词”。
+这里的 brought 是 bring（带来）的过去分词形式（这是一种特殊变形，叫不规则动词，需要记忆）。
+简单理解就是：某事“已经”做了，强调的是结果。这里强调“改变”已经“带来”了结果。
+答案： 这个简单的改变带来了很多好处。
+
+整体总结
+今天我们在这篇文章里学到了几个很实用的知识点，我来帮你梳理一下：
+
+一般过去时：文章开头用了“used to”、“decided”，表示过去发生的动作，现在已经结束了。
+一般现在时：文章后面用了“runs”、“feels”，表示现在经常发生的动作或状态。
+关键词定位法：做题时，先看题目里的特殊疑问词（How long, Where, What）和关键词（Now, Most important），然后回文章找对应的地方，这是做阅读理解最核心的技巧。
+介词短语的用法：比如“in the park”表示地点，“for six months”表示时间持续的长短。
+`
+},
+{
+    article: `Dear Li Hua,
+
+I have exciting news to share! Remember I was so nervous about the English speech contest last month? Well, I won the second prize!
+
+I want to thank you for your help. You practiced with me every day after school. You corrected my pronunciation and helped me organize my ideas. On the day of the contest, my hands were shaking. But when I started speaking, I remembered our practice sessions. I spoke clearly and confidently.
+
+When the host announced my name for the prize, I couldn’t believe it. My teacher and classmates cheered for me. This experience taught me that hard work really pays off. It also showed me how valuable a good friend is.
+
+Let’s celebrate this weekend! My treat.
+
+Yours,
+Wang Ming`,
+    questions: [
+        {
+            text: "What contest did Wang Ming take part in?",
+            answer: "The English speech contest."
+        },
+        {
+            text: "What prize did Wang Ming win?",
+            answer: "The second prize."
+        },
+        {
+            text: "How did Wang Ming feel on the contest day before speaking?",
+            answer: "His hands were shaking."
+        },
+        {
+            text: "What did this experience teach Wang Ming about hard work?",
+            answer: "Hard work really pays off."
+        },
+        {
+            text: "Translate: “This experience taught me that hard work really pays off.”",
+            reference: "这次经历让我明白，努力真的会有回报。"
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： What contest did Wang Ming take part in?
+
+翻译： 王明参加了什么比赛？
+
+阅读原文： Remember I was so nervous about the English speech contest last month?
+
+翻译： 记得上个月我对英语演讲比赛感到很紧张吗？
+
+分析：
+
+这道题在问“什么事情”。我们要去文章里找一个表示“活动”或“比赛”的词。
+句子里有个 contest，这就是“比赛”的意思。
+前面还有 English speech（英语演讲），合起来就是“英语演讲比赛”。
+这里的线索词是 last month（上个月），说明这是过去发生的事情。
+规则：
+
+专有名词：像“English speech contest”这种特定的活动名称，首字母通常大写。我们在文章里找答案时，看到大写的词语要特别留心，往往就是关键信息。
+答案： The English speech contest.
+
+第二题
+题目： What prize did Wang Ming win?
+
+翻译： 王明赢得了什么奖项？
+
+阅读原文： Well, I won the second prize!
+
+翻译： 噢，我得了二等奖！
+
+分析：
+
+题目里的关键词是 win（赢）和 prize（奖）。
+我们在文章里“扫描”这两个词，很快就能发现原文里有 “won the second prize”。
+这里的 won 就是 win 的过去式，表示“赢了”。
+Second 是“第二”的意思，所以答案是“二等奖”。
+规则：
+
+过去式：因为这封信是写已经发生过的事情，所以动词会变样。比如 win 变成 won。你看到它们长得不一样，不要慌，它们其实是同一个家族的。
+答案： The second prize.
+
+第三题
+题目： How did Wang Ming feel on the contest day before speaking?
+
+翻译： 比赛那天，王明在开始演讲前感觉如何？
+
+阅读原文： On the day of the contest, my hands were shaking.
+
+翻译： 比赛那天，我的手在发抖。
+
+分析：
+
+题目问的是“感觉如何”。有时候文章不会直接写“我感到紧张”，而是写身体反应。
+我们找到比赛那天的情况，原文说 my hands were shaking（我的手在抖）。
+手抖通常是因为紧张、害怕。题目问怎么感觉，我们直接把描述身体反应的句子填进去就可以，或者回答“Nervous”（紧张）。根据提供的答案，我们要填描述事实的那句话。
+规则：
+
+进行时：were shaking 这种“be动词 + 动词ing”的形式，表示当时正在发生的动作。意思是“手正在抖”。这让我们画面感更强，好像看到他站在台上发抖的样子。
+答案： His hands were shaking.
+
+第四题
+题目： What did this experience teach Wang Ming about hard work?
+
+翻译： 这次经历让王明对“努力工作/付出”学到了什么道理？
+
+阅读原文： This experience taught me that hard work really pays off.
+
+翻译： 这次经历教会我，努力真的会有回报。
+
+分析：
+
+题目里的 teach（教会）是关键。我们去文章里找 teach 或者它的亲戚词。
+原文里有 taught，这就是 teach 的过去式。
+后面紧跟的那句话就是学到的道理：hard work really pays off。
+规则：
+
+宾语从句：这虽然是个听起来很高级的词，但其实就是“一个大句子里套着一个小句子”。前面是“这次经历教会我”，后面那个小句子就是教会的具体内容。做阅读理解时，找到“taught”后面跟着的话，通常就是答案所在。
+答案： Hard work really pays off.
+
+翻译练习
+题目： Translate: “This experience taught me that hard work really pays off.”
+
+翻译： 这次经历让我明白，努力真的会有回报。
+
+分析：
+
+This experience：这次经历。
+taught me：教会了我（taught是teach的过去式）。
+hard work：努力工作/努力学习。在这里我们通顺地翻译成“努力”。
+pays off：这是一个很棒的短语。字面意思是“付清”，但在生活中常用来比喻“得到回报”、“取得成功”。
+规则：
+
+短语搭配：英语里很多词合起来意思会变。比如 pay off 就不是“付钱离开”，而是“成功、有回报”。背单词时，这种词组要连在一起记哦。
+答案： 这次经历让我明白，努力真的会有回报。
+
+整体总结
+今天这篇短文，我们主要复习了以下几个核心点，你看，其实并不难对吧？
+
+一般过去时：文章里大量出现了过去式，比如 won (win的过去式)、taught (teach的过去式)、shaking (过去正在进行)。这告诉我们，作者是在回忆过去发生的事情。
+关键词定位：做阅读理解就像捉迷藏，题目里的词（如 contest, prize）就是线索，我们要拿着线索在文章里找一模一样或者长得像的词，答案通常就在旁边。
+常用短语：pay off (有回报)。这是一个非常地道且正能量的表达，把它记在小本本上，写作文时用上会很加分！
+`
+},
+{
+    article: `The summer holiday is coming. My family is planning a trip to the seaside. We will drive there, which takes about four hours. My dad has already booked a small house near the beach.
+
+I am looking forward to it the most. I love building sandcastles and collecting seashells. My mom wants to relax and read books by the sea. My dad plans to go fishing with a local guide. We will also try fresh seafood at the markets.
+
+Every evening, we will take a walk along the shore and watch the sunset. We might even have a barbecue on the beach. I hope the weather will be sunny and warm. This trip will be a great chance for our family to spend quality time together away from the city noise.`,
+    questions: [
+        {
+            text: "How will the family go to the seaside?",
+            answer: "They will drive there."
+        },
+        {
+            text: "What does the writer love to do at the beach?",
+            answer: "Building sandcastles and collecting seashells."
+        },
+        {
+            text: "What does the writer’s dad plan to do?",
+            answer: "Go fishing with a local guide."
+        },
+        {
+            text: "What do they plan to do every evening?",
+            answer: "Take a walk along the shore and watch the sunset."
+        },
+        {
+            text: "Translate: “This trip will be a great chance for our family to spend quality time together away from the city noise.”",
+            reference: "这次旅行将是我们全家远离城市喧嚣、共度美好时光的绝佳机会."
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： How will the family go to the seaside?
+
+翻译： 这家人将如何去海边？
+
+阅读原文： We will drive there, which takes about four hours.
+
+翻译： 我们会开车去那里，这大约需要花费四个小时。
+
+分析：
+
+这道题问的是“去海边的方式”。
+我们要在文章里找到“去海边”这个动作。文章第一段有一句 "We will drive there"（我们将开车去那里）。
+线索词是 How（如何），它在问方式。文章里的 drive（开车）就是方式。
+既然文章说 "We will drive there"，那我们回答的时候，把 We 换成 They（因为题目问的是这家人），直接用原话回答就可以。
+规则：
+
+这里用到了一般将来时 "will + 动词原形"，表示将来要发生的动作。比如 "will drive" 就是“将要开车”。
+答案： They will drive there.
+
+第二题
+题目： What does the writer love to do at the beach?
+
+翻译： 作者在海滩上喜欢做什么？
+
+阅读原文： I love building sandcastles and collecting seashells.
+
+翻译： 我喜欢堆沙堡和捡贝壳。
+
+分析：
+
+题目里的关键词是 love to do（喜欢做）。
+我们带着这个词去文章里找，在第二段一眼就看到了 "I love..." 这个句型。
+后面紧接着就是答案：building sandcastles（堆沙堡）和 collecting seashells（捡贝壳）。
+这是一道直接查找题，文章说什么，我们就答什么。
+规则：
+
+love doing sth：意思是“喜欢做某事”。这里面的动词通常要加 ing，比如 building（建造）和 collecting（收集）。
+答案： Building sandcastles and collecting seashells.
+
+第三题
+题目： What does the writer’s dad plan to do?
+
+翻译： 作者的爸爸计划做什么？
+
+阅读原文： My dad plans to go fishing with a local guide.
+
+翻译： 我爸爸计划和一位当地向导去钓鱼。
+
+分析：
+
+这道题要找“爸爸”的动作。我们要在文章里找人名或者 "Dad"。
+在第二段最后，我们找到了 "My dad..."。
+后面的 plans to（计划）就是线索，紧接着的 go fishing（去钓鱼）就是我们要找的动作。
+注意，文章里还有 "with a local guide"（和当地向导一起），这也是计划的一部分，答题时最好也写上，这样更完整。
+规则：
+
+plan to do sth：意思是“计划做某事”。这里的 to 后面跟动词原形，比如 go。
+答案： Go fishing with a local guide.
+
+第四题
+题目： What do they plan to do every evening?
+
+翻译： 他们计划每天晚上做什么？
+
+阅读原文： Every evening, we will take a walk along the shore and watch the sunset.
+
+翻译： 每天傍晚，我们会沿着海岸散步并观看日落。
+
+分析：
+
+这道题有个非常明显的时间线索词：every evening（每天晚上）。
+我们只要去文章里找这个词组在哪里就行啦。在第三段第一句，我们发现了 "Every evening"。
+后面的内容就是答案：take a walk（散步）和 watch the sunset（看日落）。
+顺便学个短语：along the shore 意思是“沿着海岸”。
+规则：
+
+这里有一个并列结构，用 and 连接了两个动作：take a walk 和 watch the sunset。答题时两个都要写，不要漏掉哦。
+答案： Take a walk along the shore and watch the sunset.
+
+第五题（翻译题）
+题目： Translate: “This trip will be a great chance for our family to spend quality time together away from the city noise.”
+
+翻译： 这次旅行将是我们全家远离城市喧嚣、共度美好时光的绝佳机会。
+
+阅读原文： This trip will be a great chance for our family to spend quality time together away from the city noise.
+
+分析：
+
+这句话虽然有点长，但结构很清楚。
+主语是 This trip（这次旅行）。
+谓语是 will be（将是）。
+宾语是 a great chance（一个绝佳的机会）。
+后面的长句子都是修饰这个“机会”的：是什么样的机会呢？是 for our family（给我们家人的）机会，目的是 to spend quality time together（一起度过高质量时光），地点状语是 away from the city noise（远离城市噪音）。
+规则：
+
+spend time：度过时光。
+quality time：这是一个很地道的表达，字面意思是“高质量的时光”，通常翻译为“美好时光”或“宝贵时光”，指专心陪伴家人的时间。
+答案： 这次旅行将是我们全家远离城市喧嚣、共度美好时光的绝佳机会。
+
+整体总结
+哇，你坚持下来了！真棒！我们来回顾一下这篇短文里最重要的几个“法宝”：
+
+一般将来时：文章里大量使用了 will + 动词原形（如 will drive, will take），用来表示还没发生、打算去做的事情。
+固定搭配：
+love doing sth：喜欢做某事。
+plan to do sth：计划做某事。
+take a walk：散步。
+寻找线索词：做阅读理解时，先看题目里的特殊疑问词（如 How, What）和时间地点词（如 every evening, dad），再回文章里找原词，这是最快的解题秘诀。
+`
+},
 
 ];
