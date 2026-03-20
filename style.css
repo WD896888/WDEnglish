@@ -64,33 +64,33 @@ textarea,
 }
 
 ::-webkit-scrollbar-track {
-    background: #f0f6fc;
+    background: #e3edf7;
     border-radius: 12px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, #e8f4fd, #d4e9f7);
+    background: linear-gradient(180deg, #c8dbed, #d0e2f0);
     border-radius: 12px;
     transition: background 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(180deg, #f0f8ff, #e8f4fd);
+    background: linear-gradient(180deg, #e8f2fa, #eaf4fc);
 }
 
 ::-webkit-scrollbar-thumb:active {
-    background: linear-gradient(180deg, #e0eff9, #d4e9f7);
+    background: linear-gradient(180deg, #b8cee5, #c5dcea);
 }
 
 ::-webkit-scrollbar-corner {
-    background: #f0f6fc;
+    background: #e3edf7;
     border-radius: 12px;
 }
 
 /* Firefox 浏览器 */
 * {
     scrollbar-width: auto;
-    scrollbar-color: #d4e9f7 #f0f6fc;
+    scrollbar-color: #d0e2f0 #e3edf7;
 }
 
 body {

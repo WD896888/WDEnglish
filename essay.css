@@ -87,23 +87,24 @@
     color: #a5c8e8;
 }
 
-/* 参考范文区域 */
-.essay-sample-answer {
+/* 参考范文区域 - 首页专用样式 */
+.essay-card .essay-sample-answer {
     margin-top: 10px;
     margin-bottom: 15px;
     padding: 10px 15px;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
+    border: none;
 }
 
-.essay-sample-title {
+.essay-card .essay-sample-title {
     font-size: 15px;
     font-weight: 600;
     color: #5d8ab8;
     margin-bottom: 12px;
 }
 
-.essay-sample-content {
+.essay-card .essay-sample-content {
     line-height: 2;
     font-size: 15px;
     color: #4a6fa5;

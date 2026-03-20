@@ -2786,3 +2786,36 @@ function initPageOverlay() {
 
 // 初始化页面覆盖层
 window.addEventListener('DOMContentLoaded', initPageOverlay);
+
+// ========== 模拟考试功能 ==========
+function initExamModule() {
+    const btnExam = document.getElementById('btnExam');
+    const sidebar = document.getElementById('sidebar');
+    const sidebarOverlay = document.getElementById('sidebarOverlay');
+    const sidebarToggle = document.getElementById('sidebarToggle');
+
+    if (!btnExam) return;
+
+    // 点击模拟考试按钮
+    btnExam.addEventListener('click', () => {
+        // 关闭侧边栏
+        if (sidebar && sidebar.classList.contains('active')) {
+            sidebar.classList.remove('active');
+        }
+        if (sidebarOverlay && sidebarOverlay.classList.contains('active')) {
+            sidebarOverlay.classList.remove('active');
+        }
+        if (sidebarToggle) {
+            sidebarToggle.classList.remove('active');
+        }
+        document.body.style.overflow = '';
+
+        // 打开模拟考试
+        if (window.ExamModule) {
+            window.ExamModule.openExam();
+        }
+    });
+}
+
+// 初始化模拟考试模块
+window.addEventListener('DOMContentLoaded', initExamModule);

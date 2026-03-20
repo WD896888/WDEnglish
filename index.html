@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="reading-comprehension.css">
     <link rel="stylesheet" href="zhuan-sheng-ben.css">
     <link rel="stylesheet" href="essay.css">
+    <link rel="stylesheet" href="exam.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="page-entering">
@@ -35,6 +36,10 @@
                 <button class="sidebar-menu-item" id="btnZhuanShengBen">
                     <span class="sidebar-menu-icon">📊</span>
                     <span class="sidebar-menu-text">专升本报录比</span>
+                </button>
+                <button class="sidebar-menu-item" id="btnExam">
+                    <span class="sidebar-menu-icon">📋</span>
+                    <span class="sidebar-menu-text">英语模拟考试</span>
                 </button>
             </div>
         </div>
@@ -525,6 +530,110 @@
         </div>
     </div>
     
+    <!-- 模拟考试覆盖层 -->
+    <div class="exam-overlay" id="examOverlay">
+        <!-- 浮动气泡装饰 -->
+        <div class="exam-bubbles">
+            <div class="exam-bubble bubble-1"></div>
+            <div class="exam-bubble bubble-2"></div>
+            <div class="exam-bubble bubble-3"></div>
+            <div class="exam-bubble bubble-4"></div>
+            <div class="exam-bubble bubble-5"></div>
+        </div>
+        <div class="exam-container">
+            <div class="exam-header">
+                <button class="exam-theme-toggle-btn" id="examThemeToggleBtn">
+                    <span class="theme-icon sun-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                    </span>
+                    <span class="theme-icon moon-icon" style="display: none;">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </span>
+                </button>
+                <button class="exam-close-btn" id="examCloseBtn">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+                <h1 class="exam-title">湖北省专升本英语模拟考试试卷</h1>
+                <!-- 复古时钟 - 绝对定位在右侧 -->
+                <div class="exam-clock">
+                    <div class="exam-clock-face">
+                        <div class="exam-clock-marks"></div>
+                        <div class="exam-clock-hand hour-hand" id="examClockHour"></div>
+                        <div class="exam-clock-hand minute-hand" id="examClockMinute"></div>
+                        <div class="exam-clock-center"></div>
+                        <div class="exam-clock-display">
+                            <span class="exam-clock-time" id="examClockTime">120:00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="exam-info">
+                    <span class="exam-timer" id="examTimer">
+                        <span class="exam-timer-label">考试时间：</span>
+                        <span class="exam-timer-value">120分钟</span>
+                    </span>
+                    <span>满分：100分</span>
+                </div>
+            </div>
+            <div class="exam-paper" id="examPaperContainer">
+                <div class="exam-column left" id="examLeftColumn">
+                    <!-- 左栏：语法填空、连词成句、阅读填空 -->
+                </div>
+                <div class="exam-column right" id="examRightColumn">
+                    <!-- 右栏：阅读理解、翻译填空、英语作文 -->
+                </div>
+            </div>
+            <div class="exam-footer">
+                <button class="exam-btn" id="examRegenerateBtn">重新生成试卷</button>
+                <button class="exam-btn primary" id="examSubmitBtn">提交试卷</button>
+            </div>
+            <div class="exam-result" id="examResultArea">
+                <div class="exam-score">
+                    <div class="exam-score-total" id="examScoreTotal">0</div>
+                    <div class="exam-score-label">总分</div>
+                    <div class="exam-score-details" id="examScoreDetails">
+                        <!-- 各部分得分 -->
+                    </div>
+                </div>
+                <div class="exam-explanation">
+                    <button class="exam-view-explanation-btn" id="examViewExplanationBtn">
+                        <span class="btn-icon">▼</span>
+                        <span class="btn-text">查看答案解析</span>
+                    </button>
+                    <div class="exam-explanation-body" id="examExplanationBody">
+                        <div class="exam-explanation-tabs" id="examExplanationTabs">
+                            <button class="exam-tab-btn active" data-tab="grammar">语法填空</button>
+                            <button class="exam-tab-btn" data-tab="sentence">连词成句</button>
+                            <button class="exam-tab-btn" data-tab="reading1">阅读填空1</button>
+                            <button class="exam-tab-btn" data-tab="reading2">阅读填空2</button>
+                            <button class="exam-tab-btn" data-tab="rc1">阅读理解1</button>
+                            <button class="exam-tab-btn" data-tab="rc2">阅读理解2</button>
+                            <button class="exam-tab-btn" data-tab="translation">翻译填空</button>
+                            <button class="exam-tab-btn" data-tab="essay">写作</button>
+                        </div>
+                        <div class="exam-explanation-content" id="examExplanationContent">
+                            <!-- 解析内容 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.19.0/js/md5.min.js"></script>
     <script src="baidu-translate.js"></script>
     <script src="ai-service.js"></script>
@@ -541,5 +650,6 @@
     <script src="reading-comprehension.js"></script>
     <script src="zhuan-sheng-ben.js"></script>
     <script src="essay.js"></script>
+    <script src="exam.js"></script>
 </body>
 </html>

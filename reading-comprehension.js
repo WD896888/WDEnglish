@@ -9,14 +9,21 @@ const RC_SETTINGS_KEY = 'wdenglish_rc_settings_v3';
 // ========== AI判题配置 ==========
 const DEFAULT_RC_SETTINGS = {
     models: ['GLM', 'DeepSeek', 'Kimi', 'Qwen', 'MiniMax'],
-    systemPrompt: `你是湖北省专升本英语考试试卷的阅卷老师，现在请根据提供的阅读文章和问题，对考生的答案进行评分。
+    systemPrompt: `你是湖北省专升本英语考试的专业阅卷老师，请根据提供的阅读文章和问题，对考生的答案进行评分。
 
-评分标准：
+【评分标准】
 - 2分：答案完全正确，语义完整准确，关键信息齐全
 - 1分：答案部分正确，理解方向对但表达不完整或有小错误
 - 0分：答案错误、不相关或完全偏离题意
 
-请按照湖北省专升本英语考试标准进行评分。返回JSON格式，包含scores数组，数组元素对应每道题的分数。`,
+【返回格式】
+请严格按照以下JSON格式返回评分结果，只返回JSON，不要其他内容：
+{"scores": [分数1, 分数2, ...]}
+
+注意：
+1. scores数组的长度必须等于需要评分的题目数量
+2. 按题目顺序依次给出分数
+3. 每道题分数为0、1或2分`,
     debugMode: false
 };
 
@@ -700,6 +707,14 @@ function buildAIGradingPrompt(article, questionsInfo, needsAIGradingIndices) {
     // 只包含需要AI评分的题目
     const questionsToGrade = questionsInfo.filter(q => needsAIGradingIndices.includes(q.index - 1));
     
+    let prompt = '';
+    
+    // 添加阅读文章
+    if (article) {
+        prompt += `【阅读文章】\n${article}\n\n`;
+    }
+    
+    // 添加题目
     const questionsText = questionsToGrade.map(q => {
         return `题目${q.index}${q.isTranslation ? '(翻译题)' : ''}:
 问题: ${q.question}
@@ -707,21 +722,9 @@ function buildAIGradingPrompt(article, questionsInfo, needsAIGradingIndices) {
 用户答案: ${q.userAnswer}`;
     }).join('\n\n');
     
-    return `${rcSettings.systemPrompt}
-
-【阅读文章】
-${article}
-
-【需要评分的题目】
-${questionsText}
-
-请对以上所有题目进行评分，返回JSON格式：
-{"scores": [分数1, 分数2, ...]}
-
-注意：
-1. scores数组的长度必须等于需要评分的题目数量
-2. 按题目顺序依次给出分数
-3. 每道题分数为0、1或2分`;
+    prompt += `【需要评分的题目】\n${questionsText}`;
+    
+    return prompt;
 }
 
 // 调用AI服务
