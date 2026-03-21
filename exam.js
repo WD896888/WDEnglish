@@ -764,7 +764,7 @@ window.ExamModule = (function() {
             });
         });
         
-        // 连词成句输入框自动伸缩
+        // 连词成句输入框自动伸缩（只有超过默认长度500px才延伸）
         document.querySelectorAll('.exam-sentence-input').forEach(input => {
             input.addEventListener('input', function(e) {
                 const value = e.target.value;
@@ -780,7 +780,8 @@ window.ExamModule = (function() {
                 if (context) {
                     context.font = getComputedStyle(e.target).font;
                     const textWidth = context.measureText(value).width;
-                    const newWidth = Math.max(200, Math.min(600, textWidth + 30));
+                    // 最小宽度500px（与默认宽度一致），只有超过才延伸
+                    const newWidth = Math.max(500, Math.min(600, textWidth + 30));
                     e.target.style.width = newWidth + 'px';
                 }
             });

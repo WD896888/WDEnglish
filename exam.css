@@ -757,8 +757,9 @@
 /* 连词成句输入框 - 横线样式 */
 .exam-sentence-input {
     display: block;
-    width: 100%;
-    max-width: 500px;
+    width: 500px;
+    min-width: 500px;
+    max-width: 600px;
     height: 24px;
     border: none;
     border-bottom: var(--exam-input-border-width) solid var(--exam-input-border);
