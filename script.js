@@ -338,9 +338,6 @@ function handleCardClick(e) {
     const originalText = frontElement.textContent.trim();
     const isCurrentlyFlipped = card.classList.contains('flipped');
     
-    // 播放轻微的翻转音效（可选）
-    playSound('flip');
-    
     // 如果卡片当前是正面（未翻转），点击后要翻转到背面
     if (!isCurrentlyFlipped) {
         // 先检查是否已经翻译过
@@ -633,9 +630,6 @@ function handleDragStart(e) {
     e.dataTransfer.setData('text/html', cardElement.innerHTML);
     cardElement.classList.add('dragging');
     
-    // 播放音效（可选）
-    playSound('drag');
-    
     // 隐藏浏览器默认的拖动虚影，使用自定义实体克隆元素
     const emptyImg = new Image();
     emptyImg.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
@@ -753,9 +747,6 @@ function handleDragEnter() {
         
         // 更新上一次交换的目标元素
         lastSwapTarget = cardElement;
-        
-        // 播放交换音效
-        playSound('drop');
     }
 }
 
@@ -802,7 +793,6 @@ function checkAnswer() {
         resultDiv.classList.add('correct');
         explanationDiv.textContent = '';
         explanationDiv.className = 'explanation';
-        playSound('correct');
         celebrateSuccess();
         
         // 答案正确时保存进度
@@ -826,8 +816,6 @@ function checkAnswer() {
             explanationDiv.textContent = '';
             explanationDiv.className = 'explanation';
         }
-        
-        playSound('wrong');
     }
 }
 
@@ -849,7 +837,6 @@ function prevQuestion() {
     
     loadQuestion();
     saveProgress();
-    playSound('prev');
 }
 
 // 下一题
@@ -861,7 +848,6 @@ function nextQuestion() {
     
     loadQuestion();
     saveProgress();
-    playSound('next');
 }
 
 // 清理旧的缓存索引
@@ -881,13 +867,6 @@ function cleanupOldCache() {
     }
     
     console.log('清理后的缓存题目:', Array.from(cachedQuestionIndices).map(i => i + 1));
-}
-
-// 简单音效函数（可选）
-function playSound(type) {
-    // 这里可以添加音效，目前只是占位符
-    // 实际使用时可以使用 Web Audio API 或 HTML5 Audio
-    console.log(`Playing ${type} sound`);
 }
 
 // 成功庆祝动画
@@ -1027,8 +1006,6 @@ function handleTouchMove(e) {
         touchDragClone.style.opacity = '0.9';
         touchDragSrcElement.style.opacity = '0.3';
         touchDragSrcElement.classList.add('dragging');
-        
-        playSound('drag');
     }
     
     // 如果拖拽已启动，阻止默认行为
@@ -1130,9 +1107,6 @@ function highlightElementUnderTouch(x, y) {
                 
                 // 更新上一次交换的目标元素
                 touchLastSwapTarget = targetElement;
-                
-                // 播放交换音效
-                playSound('drop');
             }
         }
     } else {
