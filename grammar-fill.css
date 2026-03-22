@@ -373,6 +373,7 @@
     min-width: 200px;
     max-width: 460px;
     height: auto;
+    max-height: 750px;
     background: linear-gradient(135deg, #ffffff, #f8f9fa);
     border: 1px solid rgba(122, 168, 214, 0.3);
     border-radius: 12px;
@@ -447,6 +448,17 @@
 /* 内容容器 */
 .tooltip-content-container {
     width: 100%;
+    max-height: 700px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* 隐藏滚动条但保持滚动功能 */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+/* 隐藏 webkit 内核浏览器的滚动条 */
+.tooltip-content-container::-webkit-scrollbar {
+    display: none;
 }
 
 /* 气泡框内容 */

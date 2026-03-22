@@ -98,8 +98,8 @@ function renderEssayQuestion() {
     
     console.log('渲染作文题目:', question);
     
-    // 更新题号
-    essayQuestionNumber.textContent = currentEssayIndex + 1;
+    // 更新题号（使用输入框）
+    updateEssayQuestionNumberDisplay();
     
     // 清空内容
     essayContent.innerHTML = '';
@@ -174,6 +174,9 @@ function renderEssayQuestion() {
 
 // ========== 事件处理 ==========
 function bindEssayEvents() {
+    // 初始化题号跳转功能
+    initEssayQuestionJump();
+    
     essayPrevBtn.addEventListener('click', prevEssayQuestion);
     essayNextBtn.addEventListener('click', nextEssayQuestion);
     essayCheckBtn.addEventListener('click', checkEssayAnswer);
@@ -191,19 +194,15 @@ function bindEssayEvents() {
 }
 
 function prevEssayQuestion() {
-    if (currentEssayIndex > 0) {
-        currentEssayIndex--;
-        renderEssayQuestion();
-        saveEssayProgress();
-    }
+    currentEssayIndex = (currentEssayIndex - 1 + essayQuestions.length) % essayQuestions.length;
+    renderEssayQuestion();
+    saveEssayProgress();
 }
 
 function nextEssayQuestion() {
-    if (currentEssayIndex < essayQuestions.length - 1) {
-        currentEssayIndex++;
-        renderEssayQuestion();
-        saveEssayProgress();
-    }
+    currentEssayIndex = (currentEssayIndex + 1) % essayQuestions.length;
+    renderEssayQuestion();
+    saveEssayProgress();
 }
 
 // ========== 答案检查 ==========
@@ -418,19 +417,94 @@ function buildEssayScoreDetailHTML(results, finalScore, hasMajority, failedCount
 }
 
 function updateEssayButtonStates() {
-    essayPrevBtn.disabled = currentEssayIndex === 0;
-    essayNextBtn.disabled = currentEssayIndex === essayQuestions.length - 1;
-    
-    if (essayPrevBtn.disabled) {
-        essayPrevBtn.classList.add('disabled');
+    // 循环导航模式下，按钮始终可用
+    essayPrevBtn.disabled = false;
+    essayNextBtn.disabled = false;
+    essayPrevBtn.classList.remove('disabled');
+    essayNextBtn.classList.remove('disabled');
+}
+
+// 动态调整输入框宽度
+function adjustEssayInputWidth(input) {
+    const value = input.value || '0';
+    const digitCount = value.toString().length;
+    const width = Math.max(1, digitCount * 0.6 + 0.2);
+    input.style.width = width + 'em';
+}
+
+// 更新题号显示（使用可编辑输入框）
+function updateEssayQuestionNumberDisplay() {
+    const input = document.getElementById('essayQuestionNumberInput');
+    if (input) {
+        input.value = currentEssayIndex + 1;
+        adjustEssayInputWidth(input);
     } else {
-        essayPrevBtn.classList.remove('disabled');
+        essayQuestionNumber.textContent = currentEssayIndex + 1;
     }
+}
+
+// ========== 题号点击跳转功能 ==========
+function initEssayQuestionJump() {
+    // 检查是否已经初始化过
+    const existingInput = document.getElementById('essayQuestionNumberInput');
+    if (existingInput) return;
     
-    if (essayNextBtn.disabled) {
-        essayNextBtn.classList.add('disabled');
-    } else {
-        essayNextBtn.classList.remove('disabled');
+    // 检查元素是否存在
+    if (!essayQuestionNumber || !essayQuestionNumber.parentNode) return;
+    
+    // 创建可编辑的题号输入框
+    const input = document.createElement('input');
+    input.type = 'number';
+    input.id = 'essayQuestionNumberInput';
+    input.className = 'question-number-input';
+    input.value = currentEssayIndex + 1;
+    input.min = 1;
+    input.max = essayQuestions.length;
+    
+    // 替换原来的题号 span
+    essayQuestionNumber.replaceWith(input);
+    
+    // 初始调整宽度
+    adjustEssayInputWidth(input);
+    
+    // 输入框事件处理
+    input.addEventListener('keydown', (e) => {
+        // 阻止所有键盘事件冒泡，防止触发其他快捷键
+        e.stopPropagation();
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            handleJump();
+            input.blur();
+        }
+    });
+    
+    input.addEventListener('blur', () => {
+        handleJump();
+    });
+    
+    // 阻止输入框点击事件冒泡
+    input.addEventListener('click', (e) => {
+        e.stopPropagation();
+        input.select();
+    });
+    
+    // 输入时动态调整宽度
+    input.addEventListener('input', () => {
+        adjustEssayInputWidth(input);
+    });
+    
+    // 跳转处理函数
+    function handleJump() {
+        const targetNum = parseInt(input.value);
+        if (targetNum >= 1 && targetNum <= essayQuestions.length && targetNum !== currentEssayIndex + 1) {
+            currentEssayIndex = targetNum - 1;
+            renderEssayQuestion();
+            saveEssayProgress();
+        } else {
+            // 恢复正确的题号
+            input.value = currentEssayIndex + 1;
+            adjustEssayInputWidth(input);
+        }
     }
 }
 

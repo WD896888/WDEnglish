@@ -49,8 +49,8 @@ function renderGrammarQuestion() {
 
     console.log('渲染题目:', question);
 
-    // 更新题号
-    grammarQuestionNumber.textContent = currentGrammarIndex + 1;
+    // 更新题号（使用输入框）
+    updateGrammarQuestionNumberDisplay();
 
     // 清空内容
     grammarContent.innerHTML = '';
@@ -308,6 +308,9 @@ function bindGrammarEvents() {
     grammarNextBtn.addEventListener('click', nextGrammarQuestion);
     grammarCheckBtn.addEventListener('click', checkGrammarAnswer);
     
+    // 初始化题号点击跳转功能
+    initGrammarQuestionJump();
+    
     // 键盘快捷键
     document.addEventListener('keydown', (e) => {
         // 只在语法填空卡片显示时响应
@@ -376,19 +379,15 @@ function bindGrammarEvents() {
 }
 
 function prevGrammarQuestion() {
-    if (currentGrammarIndex > 0) {
-        currentGrammarIndex--;
-        renderGrammarQuestion();
-        saveGrammarProgress();
-    }
+    currentGrammarIndex = (currentGrammarIndex - 1 + grammarQuestions.length) % grammarQuestions.length;
+    renderGrammarQuestion();
+    saveGrammarProgress();
 }
 
 function nextGrammarQuestion() {
-    if (currentGrammarIndex < grammarQuestions.length - 1) {
-        currentGrammarIndex++;
-        renderGrammarQuestion();
-        saveGrammarProgress();
-    }
+    currentGrammarIndex = (currentGrammarIndex + 1) % grammarQuestions.length;
+    renderGrammarQuestion();
+    saveGrammarProgress();
 }
 
 function checkGrammarAnswer() {
@@ -477,19 +476,94 @@ function formatAnswers(blanks) {
 }
 
 function updateButtonStates() {
-    grammarPrevBtn.disabled = currentGrammarIndex === 0;
-    grammarNextBtn.disabled = currentGrammarIndex === grammarQuestions.length - 1;
-    
-    if (grammarPrevBtn.disabled) {
-        grammarPrevBtn.classList.add('disabled');
+    // 循环导航模式下，按钮始终可用
+    grammarPrevBtn.disabled = false;
+    grammarNextBtn.disabled = false;
+    grammarPrevBtn.classList.remove('disabled');
+    grammarNextBtn.classList.remove('disabled');
+}
+
+// 动态调整输入框宽度
+function adjustGrammarInputWidth(input) {
+    const value = input.value || '0';
+    const digitCount = value.toString().length;
+    const width = Math.max(1, digitCount * 0.6 + 0.2);
+    input.style.width = width + 'em';
+}
+
+// 更新题号显示（使用可编辑输入框）
+function updateGrammarQuestionNumberDisplay() {
+    const input = document.getElementById('grammarQuestionNumberInput');
+    if (input) {
+        input.value = currentGrammarIndex + 1;
+        adjustGrammarInputWidth(input);
     } else {
-        grammarPrevBtn.classList.remove('disabled');
+        grammarQuestionNumber.textContent = currentGrammarIndex + 1;
     }
+}
+
+// ========== 题号点击跳转功能 ==========
+function initGrammarQuestionJump() {
+    // 检查是否已经初始化过
+    const existingInput = document.getElementById('grammarQuestionNumberInput');
+    if (existingInput) return; // 已经初始化过了，不需要再次初始化
     
-    if (grammarNextBtn.disabled) {
-        grammarNextBtn.classList.add('disabled');
-    } else {
-        grammarNextBtn.classList.remove('disabled');
+    // 检查 grammarQuestionNumber 元素是否存在
+    if (!grammarQuestionNumber || !grammarQuestionNumber.parentNode) return;
+    
+    // 创建可编辑的题号输入框
+    const input = document.createElement('input');
+    input.type = 'number';
+    input.id = 'grammarQuestionNumberInput';
+    input.className = 'question-number-input';
+    input.value = currentGrammarIndex + 1;
+    input.min = 1;
+    input.max = grammarQuestions.length;
+    
+    // 替换原来的题号 span
+    grammarQuestionNumber.replaceWith(input);
+    
+    // 初始调整宽度
+    adjustGrammarInputWidth(input);
+    
+    // 输入框事件处理
+    input.addEventListener('keydown', (e) => {
+        // 阻止所有键盘事件冒泡，防止触发其他快捷键
+        e.stopPropagation();
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            handleJump();
+            input.blur();
+        }
+    });
+    
+    input.addEventListener('blur', () => {
+        handleJump();
+    });
+    
+    // 阻止输入框点击事件冒泡
+    input.addEventListener('click', (e) => {
+        e.stopPropagation();
+        input.select();
+    });
+    
+    // 输入时动态调整宽度
+    input.addEventListener('input', () => {
+        adjustGrammarInputWidth(input);
+    });
+    
+    // 跳转处理函数
+    function handleJump() {
+        const targetNum = parseInt(input.value);
+        if (targetNum >= 1 && targetNum <= grammarQuestions.length && targetNum !== currentGrammarIndex + 1) {
+            currentGrammarIndex = targetNum - 1;
+            renderGrammarQuestion();
+            saveGrammarProgress();
+        } else {
+            // 恢复正确的题号
+            input.value = currentGrammarIndex + 1;
+            adjustGrammarInputWidth(input);
+        }
     }
 }
 
@@ -738,6 +812,25 @@ async function showTranslationTooltip(rect, text) {
         contentContainer = document.createElement('div');
         contentContainer.className = 'tooltip-content-container';
         tooltip.appendChild(contentContainer);
+        
+        // 阻止在气泡内滚动时影响外部页面（只在边界时阻止）
+        contentContainer.addEventListener('wheel', (e) => {
+            const { scrollTop, scrollHeight, clientHeight } = contentContainer;
+            const isAtTop = scrollTop <= 0;
+            const isAtBottom = scrollTop + clientHeight >= scrollHeight - 1;
+            
+            // 只有在边界时才阻止事件传播到外部页面
+            if ((e.deltaY < 0 && isAtTop) || (e.deltaY > 0 && isAtBottom)) {
+                e.preventDefault();
+                e.stopPropagation();
+            } else {
+                // 正常滚动时也要阻止冒泡，但不要阻止默认行为
+                e.stopPropagation();
+            }
+        }, { passive: false });
+        
+        // 初始设置cursor为grab
+        contentContainer.style.cursor = 'grab';
     }
 
     // 生成原文区域
@@ -766,6 +859,9 @@ async function showTranslationTooltip(rect, text) {
     const tooltipRect = tooltip.getBoundingClientRect();
     const tooltipWidth = tooltipRect.width;
     const tooltipHeight = tooltipRect.height;
+    
+    // 在气泡位置设置完成后，滚动到底部让用户看到译文（用户无感知）
+    contentContainer.scrollTop = contentContainer.scrollHeight;
     
     // 重新计算位置（使用实际尺寸）
     const arrowSize = 10;
@@ -850,13 +946,70 @@ function createTranslationTooltip() {
     // 创建拖拽条
     const dragHandle = document.createElement('div');
     dragHandle.className = 'tooltip-drag-handle';
-    dragHandle.title = '长按拖动移动位置';
     tooltip.appendChild(dragHandle);
     
     // 创建内容容器
     const contentContainer = document.createElement('div');
     contentContainer.className = 'tooltip-content-container';
     tooltip.appendChild(contentContainer);
+    
+    // 阻止在气泡内滚动时影响外部页面（只在边界时阻止）
+    contentContainer.addEventListener('wheel', (e) => {
+        const { scrollTop, scrollHeight, clientHeight } = contentContainer;
+        const isAtTop = scrollTop <= 0;
+        const isAtBottom = scrollTop + clientHeight >= scrollHeight - 1;
+        
+        // 只有在边界时才阻止事件传播到外部页面
+        if ((e.deltaY < 0 && isAtTop) || (e.deltaY > 0 && isAtBottom)) {
+            e.preventDefault();
+            e.stopPropagation();
+        } else {
+            // 正常滚动时也要阻止冒泡，但不要阻止默认行为
+            e.stopPropagation();
+        }
+    }, { passive: false });
+    
+    // 鼠标悬浮时激活滚动，移出时恢复
+    tooltip.addEventListener('mouseenter', () => {
+        tooltip.style.pointerEvents = 'auto';
+    });
+    
+    tooltip.addEventListener('mouseleave', () => {
+        tooltip.style.pointerEvents = 'auto';
+    });
+    
+    // 添加手动拖动滑动功能（类似手机触控滑动）
+    let isDraggingScroll = false;
+    let startY = 0;
+    let scrollTop = 0;
+    
+    contentContainer.addEventListener('mousedown', (e) => {
+        // 只响应左键
+        if (e.button !== 0) return;
+        
+        isDraggingScroll = true;
+        startY = e.clientY;
+        scrollTop = contentContainer.scrollTop;
+        contentContainer.style.cursor = 'grabbing';
+        e.preventDefault();
+    });
+    
+    document.addEventListener('mousemove', (e) => {
+        if (!isDraggingScroll) return;
+        
+        const deltaY = e.clientY - startY;
+        contentContainer.scrollTop = scrollTop - deltaY;
+    });
+    
+    document.addEventListener('mouseup', () => {
+        if (isDraggingScroll) {
+            isDraggingScroll = false;
+            contentContainer.style.cursor = 'grab';
+        }
+    });
+    
+    // 初始设置cursor为grab
+    contentContainer.style.cursor = 'grab';
     
     // 添加拖拽功能
     setupTooltipDrag(tooltip, dragHandle);

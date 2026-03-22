@@ -2083,6 +2083,52 @@ window.ExamModule = (function() {
             contentContainer = document.createElement('div');
             contentContainer.className = 'exam-tooltip-content-container';
             examTooltip.appendChild(contentContainer);
+            
+            // 阻止在气泡内滚动时影响外部页面
+            contentContainer.addEventListener('wheel', (e) => {
+                e.stopPropagation();
+                
+                const { scrollTop, scrollHeight, clientHeight } = contentContainer;
+                const atTop = scrollTop <= 0;
+                const atBottom = scrollTop + clientHeight >= scrollHeight - 1;
+                
+                // 滚动到边界时阻止默认行为
+                if ((e.deltaY < 0 && atTop) || (e.deltaY > 0 && atBottom)) {
+                    e.preventDefault();
+                }
+            }, { passive: false });
+            
+            // 初始设置cursor为grab
+            contentContainer.style.cursor = 'grab';
+            
+            // 添加手动拖动滑动功能
+            let isDraggingScroll = false;
+            let startY = 0;
+            let scrollTop = 0;
+            
+            contentContainer.addEventListener('mousedown', (e) => {
+                if (e.button !== 0) return;
+                
+                isDraggingScroll = true;
+                startY = e.clientY;
+                scrollTop = contentContainer.scrollTop;
+                contentContainer.style.cursor = 'grabbing';
+                e.preventDefault();
+            });
+            
+            document.addEventListener('mousemove', (e) => {
+                if (!isDraggingScroll) return;
+                
+                const deltaY = e.clientY - startY;
+                contentContainer.scrollTop = scrollTop - deltaY;
+            });
+            
+            document.addEventListener('mouseup', () => {
+                if (isDraggingScroll) {
+                    isDraggingScroll = false;
+                    contentContainer.style.cursor = 'grab';
+                }
+            });
         }
 
         // 生成原文区域
@@ -2099,23 +2145,51 @@ window.ExamModule = (function() {
             </div>
         `;
         
-        // 显示气泡框
+        // 显示气泡框以获取实际尺寸
         examTooltip.style.display = 'block';
         examTooltip.style.left = '0';
         examTooltip.style.top = '0';
 
-        // 计算位置
-        const tooltipRect = examTooltip.getBoundingClientRect();
-        let left = rect.left + rect.width / 2 - tooltipRect.width / 2;
-        let top = rect.bottom + 10;
+        // 等待DOM更新后获取实际尺寸
+        await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
 
-        // 边界检查
-        if (left < 10) left = 10;
-        if (left + tooltipRect.width > window.innerWidth - 10) {
-            left = window.innerWidth - tooltipRect.width - 10;
+        // 获取气泡框实际尺寸
+        const tooltipRect = examTooltip.getBoundingClientRect();
+        const tooltipWidth = tooltipRect.width;
+        const tooltipHeight = tooltipRect.height;
+        
+        // 在气泡位置设置完成后，滚动到底部让用户看到译文（用户无感知）
+        contentContainer.scrollTop = contentContainer.scrollHeight;
+        
+        // 计算位置（使用实际尺寸）
+        const arrowSize = 10;
+        const offsetTop = 15;
+        const padding = 10;
+
+        // 计算水平位置（居中显示）
+        let left = rect.left + rect.width / 2 - tooltipWidth / 2;
+        
+        // 边界检查：防止超出左边界
+        if (left < padding) {
+            left = padding;
         }
-        if (top + tooltipRect.height > window.innerHeight - 10) {
-            top = rect.top - tooltipRect.height - 10;
+        
+        // 边界检查：防止超出右边界
+        if (left + tooltipWidth > window.innerWidth - padding) {
+            left = window.innerWidth - tooltipWidth - padding;
+        }
+
+        // 计算垂直位置（显示在选中内容上方）
+        let top = rect.top - tooltipHeight - arrowSize - offsetTop;
+        
+        // 边界检查：如果上方空间不足，显示在下方
+        if (top < padding) {
+            top = rect.bottom + arrowSize + offsetTop;
+            // 再次检查下方是否超出屏幕
+            if (top + tooltipHeight > window.innerHeight - padding) {
+                // 如果下方也超出，放在屏幕底部
+                top = window.innerHeight - tooltipHeight - padding;
+            }
         }
 
         examTooltip.style.left = left + 'px';
@@ -2154,13 +2228,65 @@ window.ExamModule = (function() {
         // 创建拖拽条
         const dragHandle = document.createElement('div');
         dragHandle.className = 'exam-tooltip-drag-handle';
-        dragHandle.title = '长按拖动移动位置';
         tooltip.appendChild(dragHandle);
         
         // 创建内容容器
         const contentContainer = document.createElement('div');
         contentContainer.className = 'exam-tooltip-content-container';
         tooltip.appendChild(contentContainer);
+        
+        // 阻止在气泡内滚动时影响外部页面
+        contentContainer.addEventListener('wheel', (e) => {
+            e.stopPropagation();
+            
+            const { scrollTop, scrollHeight, clientHeight } = contentContainer;
+            const atTop = scrollTop <= 0;
+            const atBottom = scrollTop + clientHeight >= scrollHeight - 1;
+            
+            // 滚动到边界时阻止默认行为
+            if ((e.deltaY < 0 && atTop) || (e.deltaY > 0 && atBottom)) {
+                e.preventDefault();
+            }
+        }, { passive: false });
+        
+        // 同时在tooltip上也添加wheel事件作为后备
+        tooltip.addEventListener('wheel', (e) => {
+            e.stopPropagation();
+            e.preventDefault();
+        }, { passive: false });
+        
+        // 初始设置cursor为grab
+        contentContainer.style.cursor = 'grab';
+        
+        // 添加手动拖动滑动功能（类似手机触控滑动）
+        let isDraggingScroll = false;
+        let startY = 0;
+        let scrollTop = 0;
+        
+        contentContainer.addEventListener('mousedown', (e) => {
+            // 只响应左键
+            if (e.button !== 0) return;
+            
+            isDraggingScroll = true;
+            startY = e.clientY;
+            scrollTop = contentContainer.scrollTop;
+            contentContainer.style.cursor = 'grabbing';
+            e.preventDefault();
+        });
+        
+        document.addEventListener('mousemove', (e) => {
+            if (!isDraggingScroll) return;
+            
+            const deltaY = e.clientY - startY;
+            contentContainer.scrollTop = scrollTop - deltaY;
+        });
+        
+        document.addEventListener('mouseup', () => {
+            if (isDraggingScroll) {
+                isDraggingScroll = false;
+                contentContainer.style.cursor = 'grab';
+            }
+        });
         
         // 添加拖拽功能
         setupExamTooltipDrag(tooltip, dragHandle);

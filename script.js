@@ -163,6 +163,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     loadQuestion();
+    
+    // 初始化题号点击跳转功能
+    initQuestionJump();
 
     // 绑定事件
     checkBtn.addEventListener('click', checkAnswer);
@@ -201,8 +204,8 @@ function loadQuestion() {
     explanationDiv.textContent = '';
     explanationDiv.className = 'explanation';
     
-    // 更新当前题目编号
-    questionNumberEl.textContent = currentQuestionIndex + 1;
+    // 更新当前题目编号（使用输入框）
+    updateQuestionNumberDisplay();
     
     // 清除之前的自动翻译定时器
     if (autoTranslateTimer) {
@@ -214,6 +217,91 @@ function loadQuestion() {
     autoTranslateTimer = setTimeout(() => {
         autoTranslateAllWords();
     }, 1000);
+}
+
+// 更新题号显示（使用可编辑输入框）
+function updateQuestionNumberDisplay() {
+    const input = document.getElementById('questionNumberInput');
+    if (input) {
+        input.value = currentQuestionIndex + 1;
+        adjustInputWidth(input);
+    } else {
+        questionNumberEl.textContent = currentQuestionIndex + 1;
+    }
+}
+
+// 动态调整输入框宽度
+function adjustInputWidth(input) {
+    const value = input.value || '0';
+    const digitCount = value.toString().length;
+    // 每个数字大约占 0.55em，加上一点裕量，最小 1em
+    const width = Math.max(1, digitCount * 0.6 + 0.2);
+    input.style.width = width + 'em';
+}
+
+// ========== 题号点击跳转功能 ==========
+function initQuestionJump() {
+    // 检查是否已经初始化过
+    const existingInput = document.getElementById('questionNumberInput');
+    if (existingInput) return;
+    
+    // 检查元素是否存在
+    if (!questionNumberEl || !questionNumberEl.parentNode) return;
+    
+    // 创建可编辑的题号输入框
+    const input = document.createElement('input');
+    input.type = 'number';
+    input.id = 'questionNumberInput';
+    input.className = 'question-number-input';
+    input.value = currentQuestionIndex + 1;
+    input.min = 1;
+    input.max = questions.length;
+    
+    // 替换原来的题号 span
+    questionNumberEl.replaceWith(input);
+    
+    // 初始调整宽度
+    adjustInputWidth(input);
+    
+    // 输入框事件处理
+    input.addEventListener('keydown', (e) => {
+        // 阻止所有键盘事件冒泡，防止触发其他快捷键
+        e.stopPropagation();
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            handleJump();
+            input.blur();
+        }
+    });
+    
+    input.addEventListener('blur', () => {
+        handleJump();
+    });
+    
+    // 阻止输入框点击事件冒泡
+    input.addEventListener('click', (e) => {
+        e.stopPropagation();
+        input.select();
+    });
+    
+    // 输入时动态调整宽度
+    input.addEventListener('input', () => {
+        adjustInputWidth(input);
+    });
+    
+    // 跳转处理函数
+    function handleJump() {
+        const targetNum = parseInt(input.value);
+        if (targetNum >= 1 && targetNum <= questions.length && targetNum !== currentQuestionIndex + 1) {
+            currentQuestionIndex = targetNum - 1;
+            loadQuestion();
+            saveProgress();
+        } else {
+            // 恢复正确的题号
+            input.value = currentQuestionIndex + 1;
+            adjustInputWidth(input);
+        }
+    }
 }
 
 // 渲染单词到容器中

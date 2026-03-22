@@ -43,6 +43,32 @@
     --exam-input-border-width: 1px;
     --exam-line-bg: rgba(80, 80, 80, 0.4);
     --exam-bubble-opacity: 0;
+    
+    /* 文本选中样式变量 */
+    --exam-selection-bg: rgba(100, 100, 100, 0.25);
+    --exam-selection-text: #000;
+}
+
+/* ========== 考试界面文本选中样式 - 默认主题（传统试卷风格） ========== */
+/* 覆盖全局选中样式，使用柔和的灰色调，符合传统纸张质感 */
+.exam-overlay ::selection {
+    background: var(--exam-selection-bg);
+    color: var(--exam-selection-text);
+    text-shadow: 
+        1px 0 1px rgba(100, 100, 100, 0.15),
+        -1px 0 1px rgba(100, 100, 100, 0.15),
+        0 1px 1px rgba(100, 100, 100, 0.15),
+        0 -1px 1px rgba(100, 100, 100, 0.15);
+}
+
+.exam-overlay ::-moz-selection {
+    background: var(--exam-selection-bg);
+    color: var(--exam-selection-text);
+    text-shadow: 
+        1px 0 1px rgba(100, 100, 100, 0.15),
+        -1px 0 1px rgba(100, 100, 100, 0.15),
+        0 1px 1px rgba(100, 100, 100, 0.15),
+        0 -1px 1px rgba(100, 100, 100, 0.15);
 }
 
 /* 新拟态主题 - 首页风格（平面样式） */
@@ -87,6 +113,10 @@
     --exam-input-border-width: 2px;
     --exam-line-bg: rgba(93, 138, 184, 0.5);
     --exam-bubble-opacity: 1;
+    
+    /* 新拟态主题选中样式 - 蓝色系 */
+    --exam-selection-bg: rgba(93, 138, 184, 0.35);
+    --exam-selection-text: #4a6fa5;
 }
 
 /* ========== 浮动气泡装饰 ========== */
@@ -1378,6 +1408,17 @@
 /* 内容容器 */
 .exam-tooltip-content-container {
     width: 100%;
+    max-height: 700px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* 隐藏滚动条但保持滚动功能 */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+/* 隐藏 webkit 内核浏览器的滚动条 */
+.exam-tooltip-content-container::-webkit-scrollbar {
+    display: none;
 }
 
 /* 气泡框内容 */

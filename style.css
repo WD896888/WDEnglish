@@ -23,6 +23,28 @@
     user-select: none;
 }
 
+/* ========== 全局文本选中样式 ========== */
+/* 使用主题色作为选中背景，配合 text-shadow 模拟圆角柔和效果 */
+::selection {
+    background: rgba(122, 168, 214, 0.35);
+    color: #4a6fa5;
+    text-shadow: 
+        1px 0 2px rgba(122, 168, 214, 0.2),
+        -1px 0 2px rgba(122, 168, 214, 0.2),
+        0 1px 2px rgba(122, 168, 214, 0.2),
+        0 -1px 2px rgba(122, 168, 214, 0.2);
+}
+
+::-moz-selection {
+    background: rgba(122, 168, 214, 0.35);
+    color: #4a6fa5;
+    text-shadow: 
+        1px 0 2px rgba(122, 168, 214, 0.2),
+        -1px 0 2px rgba(122, 168, 214, 0.2),
+        0 1px 2px rgba(122, 168, 214, 0.2),
+        0 -1px 2px rgba(122, 168, 214, 0.2);
+}
+
 /* 允许选中的例外区域 */
 .result,
 .explanation,
@@ -100,8 +122,6 @@ body {
     line-height: 1.6;
     min-height: 100vh;
     overflow-x: hidden;
-    /* 始终为滚动条预留空间，防止滚动条消失时内容布局发生变化 */
-    scrollbar-gutter: stable;
 }
 
 .background-decoration {
@@ -370,11 +390,61 @@ body {
     font-weight: 700;
     color: #5d8ab8;
     font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    gap: 2px;
 }
 
 .progress-indicator .divider {
     margin: 0 5px;
     color: #a0b4c9;
+}
+
+/* 题号直接可编辑输入框样式 */
+.progress-indicator .question-number-input {
+    width: auto;
+    min-width: 0.8em;
+    padding: 0 2px;
+    margin: 0;
+    border: none;
+    border-radius: 4px;
+    background: transparent;
+    color: #5d8ab8;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    text-align: left;
+    outline: none;
+    transition: background 0.2s ease;
+    -moz-appearance: textfield;
+    line-height: 1.2;
+    vertical-align: baseline;
+}
+
+.progress-indicator .question-number-input::-webkit-outer-spin-button,
+.progress-indicator .question-number-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.progress-indicator .question-number-input:focus {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.progress-indicator .question-number-input:hover:not(:focus) {
+    background: rgba(255, 255, 255, 0.4);
+    cursor: text;
+}
+
+/* 题号输入框选中文字的主题色背景 */
+.progress-indicator .question-number-input::selection {
+    background: rgba(122, 168, 214, 0.4);
+    color: #4a6fa5;
+}
+
+.progress-indicator .question-number-input::-moz-selection {
+    background: rgba(122, 168, 214, 0.4);
+    color: #4a6fa5;
 }
 
 .instructions {

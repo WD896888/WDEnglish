@@ -22,6 +22,9 @@ function initTranslationFill() {
     renderTranslationQuestion();
     bindTranslationEvents();
     updateTranslationProgress();
+    
+    // 初始化题号点击跳转功能
+    initTranslationQuestionJump();
 }
 
 // ========== 渲染翻译填空题目 ==========
@@ -53,11 +56,90 @@ function renderTranslationQuestion() {
 
 // ========== 更新进度显示 ==========
 function updateTranslationProgress() {
-    const currentEl = document.getElementById('translationQuestionNumber');
+    const currentEl = document.getElementById('translationQuestionNumberInput');
     const totalEl = document.getElementById('translationTotalQuestions');
     
-    if (currentEl) currentEl.textContent = currentTranslationGroup + 1;
+    if (currentEl) {
+        currentEl.value = currentTranslationGroup + 1;
+        adjustTranslationInputWidth(currentEl);
+    }
     if (totalEl) totalEl.textContent = translationQuestions.length;
+}
+
+// 动态调整输入框宽度
+function adjustTranslationInputWidth(input) {
+    const value = input.value || '0';
+    const digitCount = value.toString().length;
+    const width = Math.max(1, digitCount * 0.6 + 0.2);
+    input.style.width = width + 'em';
+}
+
+// ========== 题号点击跳转功能 ==========
+function initTranslationQuestionJump() {
+    // 检查是否已经初始化过
+    const existingInput = document.getElementById('translationQuestionNumberInput');
+    if (existingInput) return;
+    
+    const currentEl = document.getElementById('translationQuestionNumber');
+    if (!currentEl || !currentEl.parentNode) return;
+    
+    // 创建可编辑的题号输入框
+    const input = document.createElement('input');
+    input.type = 'number';
+    input.id = 'translationQuestionNumberInput';
+    input.className = 'question-number-input';
+    input.value = currentTranslationGroup + 1;
+    input.min = 1;
+    input.max = translationQuestions.length;
+    
+    // 替换原来的题号 span
+    currentEl.replaceWith(input);
+    
+    // 初始调整宽度
+    adjustTranslationInputWidth(input);
+    
+    // 输入框事件处理
+    input.addEventListener('keydown', (e) => {
+        // 阻止所有键盘事件冒泡，防止触发其他快捷键
+        e.stopPropagation();
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            handleJump();
+            input.blur();
+        }
+    });
+    
+    input.addEventListener('blur', () => {
+        handleJump();
+    });
+    
+    // 阻止输入框点击事件冒泡
+    input.addEventListener('click', (e) => {
+        e.stopPropagation();
+        input.select();
+    });
+    
+    // 输入时动态调整宽度
+    input.addEventListener('input', () => {
+        adjustTranslationInputWidth(input);
+    });
+    
+    // 跳转处理函数
+    function handleJump() {
+        const targetNum = parseInt(input.value);
+        if (targetNum >= 1 && targetNum <= translationQuestions.length && targetNum !== currentTranslationGroup + 1) {
+            clearCurrentGroupAnswers();
+            currentTranslationGroup = targetNum - 1;
+            renderTranslationQuestion();
+            updateTranslationProgress();
+            clearTranslationResult();
+            saveTranslationProgress();
+        } else {
+            // 恢复正确的题号
+            input.value = currentTranslationGroup + 1;
+            adjustTranslationInputWidth(input);
+        }
+    }
 }
 
 // ========== 绑定事件 ==========
@@ -296,28 +378,24 @@ document.addEventListener('DOMContentLoaded', () => {
     const prevBtn = document.getElementById('translationPrevBtn');
     if (prevBtn) {
         prevBtn.addEventListener('click', () => {
-            if (currentTranslationGroup > 0) {
-                clearCurrentGroupAnswers();
-                currentTranslationGroup--;
-                renderTranslationQuestion();
-                updateTranslationProgress();
-                clearTranslationResult();
-                saveTranslationProgress();
-            }
+            clearCurrentGroupAnswers();
+            currentTranslationGroup = (currentTranslationGroup - 1 + translationQuestions.length) % translationQuestions.length;
+            renderTranslationQuestion();
+            updateTranslationProgress();
+            clearTranslationResult();
+            saveTranslationProgress();
         });
     }
 
     const nextBtn = document.getElementById('translationNextBtn');
     if (nextBtn) {
         nextBtn.addEventListener('click', () => {
-            if (currentTranslationGroup < translationQuestions.length - 1) {
-                clearCurrentGroupAnswers();
-                currentTranslationGroup++;
-                renderTranslationQuestion();
-                updateTranslationProgress();
-                clearTranslationResult();
-                saveTranslationProgress();
-            }
+            clearCurrentGroupAnswers();
+            currentTranslationGroup = (currentTranslationGroup + 1) % translationQuestions.length;
+            renderTranslationQuestion();
+            updateTranslationProgress();
+            clearTranslationResult();
+            saveTranslationProgress();
         });
     }
 

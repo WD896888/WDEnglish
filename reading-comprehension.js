@@ -117,8 +117,8 @@ function renderRCQuestion() {
     
     console.log('渲染阅读理解题目:', question);
     
-    // 更新题号
-    rcQuestionNumber.textContent = currentRCIndex + 1;
+    // 更新题号（使用输入框）
+    updateRCQuestionNumberDisplay();
     
     // 清空内容
     rcContent.innerHTML = '';
@@ -230,6 +230,9 @@ function renderRCQuestion() {
 
 // ========== 事件处理 ==========
 function bindRCEvents() {
+    // 初始化题号跳转功能
+    initRCQuestionJump();
+    
     rcPrevBtn.addEventListener('click', prevRCQuestion);
     rcNextBtn.addEventListener('click', nextRCQuestion);
     rcCheckBtn.addEventListener('click', checkRCAnswer);
@@ -987,19 +990,15 @@ function hideGradingIndicator() {
 }
 
 function prevRCQuestion() {
-    if (currentRCIndex > 0) {
-        currentRCIndex--;
-        renderRCQuestion();
-        saveRCProgress();
-    }
+    currentRCIndex = (currentRCIndex - 1 + readingComprehensionQuestions.length) % readingComprehensionQuestions.length;
+    renderRCQuestion();
+    saveRCProgress();
 }
 
 function nextRCQuestion() {
-    if (currentRCIndex < readingComprehensionQuestions.length - 1) {
-        currentRCIndex++;
-        renderRCQuestion();
-        saveRCProgress();
-    }
+    currentRCIndex = (currentRCIndex + 1) % readingComprehensionQuestions.length;
+    renderRCQuestion();
+    saveRCProgress();
 }
 
 // 格式化解析内容
@@ -1025,19 +1024,94 @@ function formatRCAnswers(answersList) {
 }
 
 function updateRCButtonStates() {
-    rcPrevBtn.disabled = currentRCIndex === 0;
-    rcNextBtn.disabled = currentRCIndex === readingComprehensionQuestions.length - 1;
-    
-    if (rcPrevBtn.disabled) {
-        rcPrevBtn.classList.add('disabled');
+    // 循环导航模式下，按钮始终可用
+    rcPrevBtn.disabled = false;
+    rcNextBtn.disabled = false;
+    rcPrevBtn.classList.remove('disabled');
+    rcNextBtn.classList.remove('disabled');
+}
+
+// 动态调整输入框宽度
+function adjustRCInputWidth(input) {
+    const value = input.value || '0';
+    const digitCount = value.toString().length;
+    const width = Math.max(1, digitCount * 0.6 + 0.2);
+    input.style.width = width + 'em';
+}
+
+// 更新题号显示（使用可编辑输入框）
+function updateRCQuestionNumberDisplay() {
+    const input = document.getElementById('rcQuestionNumberInput');
+    if (input) {
+        input.value = currentRCIndex + 1;
+        adjustRCInputWidth(input);
     } else {
-        rcPrevBtn.classList.remove('disabled');
+        rcQuestionNumber.textContent = currentRCIndex + 1;
     }
+}
+
+// ========== 题号点击跳转功能 ==========
+function initRCQuestionJump() {
+    // 检查是否已经初始化过
+    const existingInput = document.getElementById('rcQuestionNumberInput');
+    if (existingInput) return;
     
-    if (rcNextBtn.disabled) {
-        rcNextBtn.classList.add('disabled');
-    } else {
-        rcNextBtn.classList.remove('disabled');
+    // 检查元素是否存在
+    if (!rcQuestionNumber || !rcQuestionNumber.parentNode) return;
+    
+    // 创建可编辑的题号输入框
+    const input = document.createElement('input');
+    input.type = 'number';
+    input.id = 'rcQuestionNumberInput';
+    input.className = 'question-number-input';
+    input.value = currentRCIndex + 1;
+    input.min = 1;
+    input.max = readingComprehensionQuestions.length;
+    
+    // 替换原来的题号 span
+    rcQuestionNumber.replaceWith(input);
+    
+    // 初始调整宽度
+    adjustRCInputWidth(input);
+    
+    // 输入框事件处理
+    input.addEventListener('keydown', (e) => {
+        // 阻止所有键盘事件冒泡，防止触发其他快捷键
+        e.stopPropagation();
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            handleJump();
+            input.blur();
+        }
+    });
+    
+    input.addEventListener('blur', () => {
+        handleJump();
+    });
+    
+    // 阻止输入框点击事件冒泡
+    input.addEventListener('click', (e) => {
+        e.stopPropagation();
+        input.select();
+    });
+    
+    // 输入时动态调整宽度
+    input.addEventListener('input', () => {
+        adjustRCInputWidth(input);
+    });
+    
+    // 跳转处理函数
+    function handleJump() {
+        const targetNum = parseInt(input.value);
+        if (targetNum >= 1 && targetNum <= readingComprehensionQuestions.length && targetNum !== currentRCIndex + 1) {
+            currentRCIndex = targetNum - 1;
+            renderRCQuestion();
+            saveRCProgress();
+        } else {
+            // 恢复正确的题号
+            input.value = currentRCIndex + 1;
+            adjustRCInputWidth(input);
+        }
     }
 }
 

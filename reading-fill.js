@@ -57,8 +57,8 @@ function renderReadingQuestion() {
     
     console.log('渲染阅读填空题目:', question);
     
-    // 更新题号
-    readingQuestionNumber.textContent = currentReadingIndex + 1;
+    // 更新题号（使用输入框）
+    updateReadingQuestionNumberDisplay();
     
     // 清空内容
     readingContent.innerHTML = '';
@@ -229,6 +229,9 @@ function bindReadingEvents() {
     readingNextBtn.addEventListener('click', nextReadingQuestion);
     readingCheckBtn.addEventListener('click', checkReadingAnswer);
     
+    // 初始化题号点击跳转功能
+    initReadingQuestionJump();
+    
     // 键盘快捷键
     document.addEventListener('keydown', (e) => {
         // 只在阅读填空卡片显示时响应
@@ -313,19 +316,15 @@ function bindReadingEvents() {
 }
 
 function prevReadingQuestion() {
-    if (currentReadingIndex > 0) {
-        currentReadingIndex--;
-        renderReadingQuestion();
-        saveReadingProgress();
-    }
+    currentReadingIndex = (currentReadingIndex - 1 + readingQuestions.length) % readingQuestions.length;
+    renderReadingQuestion();
+    saveReadingProgress();
 }
 
 function nextReadingQuestion() {
-    if (currentReadingIndex < readingQuestions.length - 1) {
-        currentReadingIndex++;
-        renderReadingQuestion();
-        saveReadingProgress();
-    }
+    currentReadingIndex = (currentReadingIndex + 1) % readingQuestions.length;
+    renderReadingQuestion();
+    saveReadingProgress();
 }
 
 function checkReadingAnswer() {
@@ -412,19 +411,94 @@ function formatReadingAnswers(blanks) {
 }
 
 function updateReadingButtonStates() {
-    readingPrevBtn.disabled = currentReadingIndex === 0;
-    readingNextBtn.disabled = currentReadingIndex === readingQuestions.length - 1;
-    
-    if (readingPrevBtn.disabled) {
-        readingPrevBtn.classList.add('disabled');
+    // 循环导航模式下，按钮始终可用
+    readingPrevBtn.disabled = false;
+    readingNextBtn.disabled = false;
+    readingPrevBtn.classList.remove('disabled');
+    readingNextBtn.classList.remove('disabled');
+}
+
+// 动态调整输入框宽度
+function adjustReadingInputWidth(input) {
+    const value = input.value || '0';
+    const digitCount = value.toString().length;
+    const width = Math.max(1, digitCount * 0.6 + 0.2);
+    input.style.width = width + 'em';
+}
+
+// 更新题号显示（使用可编辑输入框）
+function updateReadingQuestionNumberDisplay() {
+    const input = document.getElementById('readingQuestionNumberInput');
+    if (input) {
+        input.value = currentReadingIndex + 1;
+        adjustReadingInputWidth(input);
     } else {
-        readingPrevBtn.classList.remove('disabled');
+        readingQuestionNumber.textContent = currentReadingIndex + 1;
     }
+}
+
+// ========== 题号点击跳转功能 ==========
+function initReadingQuestionJump() {
+    // 检查是否已经初始化过
+    const existingInput = document.getElementById('readingQuestionNumberInput');
+    if (existingInput) return;
     
-    if (readingNextBtn.disabled) {
-        readingNextBtn.classList.add('disabled');
-    } else {
-        readingNextBtn.classList.remove('disabled');
+    // 检查元素是否存在
+    if (!readingQuestionNumber || !readingQuestionNumber.parentNode) return;
+    
+    // 创建可编辑的题号输入框
+    const input = document.createElement('input');
+    input.type = 'number';
+    input.id = 'readingQuestionNumberInput';
+    input.className = 'question-number-input';
+    input.value = currentReadingIndex + 1;
+    input.min = 1;
+    input.max = readingQuestions.length;
+    
+    // 替换原来的题号 span
+    readingQuestionNumber.replaceWith(input);
+    
+    // 初始调整宽度
+    adjustReadingInputWidth(input);
+    
+    // 输入框事件处理
+    input.addEventListener('keydown', (e) => {
+        // 阻止所有键盘事件冒泡，防止触发其他快捷键
+        e.stopPropagation();
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            handleJump();
+            input.blur();
+        }
+    });
+    
+    input.addEventListener('blur', () => {
+        handleJump();
+    });
+    
+    // 阻止输入框点击事件冒泡
+    input.addEventListener('click', (e) => {
+        e.stopPropagation();
+        input.select();
+    });
+    
+    // 输入时动态调整宽度
+    input.addEventListener('input', () => {
+        adjustReadingInputWidth(input);
+    });
+    
+    // 跳转处理函数
+    function handleJump() {
+        const targetNum = parseInt(input.value);
+        if (targetNum >= 1 && targetNum <= readingQuestions.length && targetNum !== currentReadingIndex + 1) {
+            currentReadingIndex = targetNum - 1;
+            renderReadingQuestion();
+            saveReadingProgress();
+        } else {
+            // 恢复正确的题号
+            input.value = currentReadingIndex + 1;
+            adjustReadingInputWidth(input);
+        }
     }
 }
 
