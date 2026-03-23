@@ -4633,6 +4633,815 @@ Thank you very much.
 祈使句：以动词原形开头，表示请求或命令（如 Please prepare...），常用于给别人提建议或要求。
 书信格式：开头称呼后用逗号，正文分段写，结尾客套话。
 `},
+{
+content: `你是李华，你的英国笔友Tom发邮件说他对中国传统文化很感兴趣，计划下个月来中国旅游，请你给他写一封邮件。
+内容包括：
+1. 表示欢迎；
+2. 推荐一个旅游地点（如北京、西安等）；
+3. 给出具体的旅行建议（如学习几句中文、参观博物馆等）。
+`,
+sampleAnswer: `Welcome to China
+Dear Tom,
+I am writing to welcome you to China.
+There are a few things I want to tell you. To start with, I recommend Beijing to you. Also, it is a good place for traditional culture. Finally, you can learn some Chinese and visit museums.
+Thank you for your time and attention. I am looking forward to hearing from you soon. Wish you all the best.
+Yours,
+Li Hua
+`,
+explanation: `作文解析：
+
+第一部分：称呼
+模板原文：
+Dear [称呼],
+
+作文原文：
+Dear Tom,
+
+翻译：
+亲爱的Tom，
+
+分析：
+题目里说你的笔友叫Tom，所以这里直接填名字。
+规则：
+在英语信件开头，我们要用 Dear 加上名字，表示亲切。这就像我们中文写信说“亲爱的某某”或者“某某你好”一样。人名的首字母一定要大写，比如这里的 Tom。
+
+第二部分：写信目的
+模板原文：
+I am writing to [动词短语：表达目的].
+
+作文原文：
+I am writing to welcome you to China.
+
+翻译：
+我写信是为了欢迎你来中国。
+
+分析：
+题目要求的第一个要点是“表示欢迎”。模板里已经有了 “I am writing to”（我写信是为了…），所以我们只需要填一个表示“欢迎”的动作。
+规则：
+这里用到了 不定式（to + 动词原形）。你可以把它理解为“为了去做某事”。
+
+welcome 是“欢迎”的意思。
+welcome you to China 就是“欢迎你来中国”。
+记住：to 后面必须跟动词原形，就像这里的 welcome，不能加“s”也不要变样子。
+第三部分：细节一（推荐地点）
+模板原文：
+To start with, [细节一：主旨句].
+
+作文原文：
+To start with, I recommend Beijing to you.
+
+翻译：
+首先，我向你推荐北京。
+
+分析：
+题目要求“推荐一个旅游地点”。我们选了北京（Beijing）作为例子。
+规则：
+
+To start with 是个连接词，意思是“首先”，用来开始我们的第一条建议。
+recommend 是“推荐”的意思。这是一个动词。
+这里的句型是：recommend sth. to sb.（把某物推荐给某人）。所以写成 recommend Beijing to you。这就像中文逻辑：推荐（动词）+ 北京（东西）+ 给你（对象），是不是很简单？
+第四部分：细节二（推荐理由）
+模板原文：
+Also, [细节二：拓展句].
+
+作文原文：
+Also, it is a good place for traditional culture.
+
+翻译：
+而且，这是一个体验传统文化的好地方。
+
+分析：
+为什么要推荐北京呢？因为题目里Tom对“传统文化”感兴趣。所以我们补充说明北京有传统文化。
+规则：
+
+Also 意思是“而且、此外”，用来补充第二点。
+it 是代词，指代上一句提到的“北京”。
+traditional culture 意思是“传统文化”。
+这里用了句型：It is a … place for …（它是一个适合…的…地方）。介词 for 在这里表示“对于、适合”。
+第五部分：细节三（旅行建议）
+模板原文：
+Finally, [细节三：补充句].
+
+作文原文：
+Finally, you can learn some Chinese and visit museums.
+
+翻译：
+最后，你可以学点中文并且参观博物馆。
+
+分析：
+题目要求“给出具体的旅行建议”。我们写了两个简单的建议：学中文、参观博物馆。
+规则：
+
+Finally 意思是“最后”，引出结尾的建议。
+can 是情态动词，表示“可以、能够”。重点来了：can 后面的动词必须用原形！
+所以我们用了 learn（学习）和 visit（参观）的原形。
+and 是一个连接词，意思是“和、并且”。因为它连接了两个动作（学中文 和 参观博物馆），所以这两个动词长得要一样，都用原形。
+第六部分：落款
+模板原文：
+[Yours/Best regards,]
+[名称]
+
+作文原文：
+Yours,
+Li Hua
+
+翻译：
+你的，
+李华
+
+分析：
+写信人的名字叫李华。
+规则：
+
+Yours 是写信结尾常用的客套话，表示“你的朋友/你的真诚的”。
+Li Hua 是名字。注意格式：Yours 后面通常加逗号，名字 Li Hua 要写在下一行。
+整体总结
+看吧，其实没那么难！这篇作文主要复习了这几个核心点：
+
+不定式（to do）：用在 I am writing to... 后面，表示目的。to 后面加动词原形。
+动词搭配：recommend sth. to sb.（推荐某物给某人），记住了这个搭配，写句子就像填词一样简单。
+情态动词（can）：表示建议时用了 can，切记 can 后面跟动词原形。
+并列连词（and）：连接两个动作时，前后动词形式要一致，比如 learn and visit 都是原形。
+`},
+{
+content: `你是校学生会主席李华，学校将举办一次"英语演讲比赛"，请根据以下信息写一则通知。
+内容包括：
+1. 比赛时间：下周五下午2点；
+2. 地点：学校礼堂；
+3. 报名方式：本周三前到学生会办公室报名；
+4. 欢迎大家参加。
+`,
+sampleAnswer: `NOTICE
+In order to improve our English, the Student Union is going to hold an English speech contest.
+The detailed information is as follows. To begin with, the time is at 2:00 pm next Friday.
+Furthermore, the place is the school hall.
+Please come to the Student Union office to sign up before this Wednesday.
+Finally, it will be a great chance for you.
+Everyone is welcome. We are looking forward to your coming.
+The Student Union
+`,
+explanation: `作文解析：
+
+第一部分：标题讲解
+模板原文：
+[标题：NOTICE / VOLUNTEERS WANTED / A LETTER OF PROPOSAL]
+
+作文原文：
+NOTICE
+
+翻译：
+通知
+
+分析：
+题目要求写一则“通知”。模板的标题里给了三个选项，我们只要选最合适的那个就行。
+
+NOTICE 意思是“通知”。
+VOLUNTEERS WANTED 意思是“招募志愿者”。
+A LETTER OF PROPOSAL 意思是“倡议书”。
+因为题目明确说“请根据以下信息写一则通知”，所以我们要把方括号里的内容替换成 NOTICE。
+规则：
+标题通常要居中写，而且所有字母都要大写，这样才醒目。
+
+第二部分：开头讲解（目的与事件）
+模板原文：
+In order to [目的], the [主办方] is going to [动作: hold/recruit/introduce] [对象: an activity/volunteers/a spot].
+
+作文原文：
+In order to improve our English, the Student Union is going to hold an English speech contest.
+
+翻译：
+为了提高我们的英语水平，学生会将要举办一场英语演讲比赛。
+
+分析：
+这个长句子里，我们填了四个空，咱们一个一个来：
+
+[目的]：题目暗示举办比赛是为了学英语，所以填 improve our English（提高我们的英语）。
+[主办方]：题目说你是“校学生会主席”，所以主办方就是 the Student Union（学生会）。
+[动作]：这里要选一个动词。因为是“演讲比赛”，我们要用 hold（举办）这个词。
+[对象]：具体是什么活动呢？题目说是“英语演讲比赛”，所以填 an English speech contest。
+规则：
+
+In order to 后面必须跟动词原形，表示“为了……”。比如 improve（提高）就是动词原形。
+be going to 意思是“打算、将要”，后面也要跟动词原形，比如这里的 hold。
+hold 是“举办”的意思，这是一个很常用的词，要记住哦。
+第三部分：正文讲解（时间）
+模板原文：
+To begin with, the [关键点: time/location/reason] is [具体信息].
+
+作文原文：
+To begin with, the time is at 2:00 pm next Friday.
+
+翻译：
+首先，时间是在下周五下午2点。
+
+分析：
+
+模板里的 To begin with 是连接词，意思是“首先”，我们保留不动。
+[关键点]：这一句我们要讲时间，所以填 time。
+[具体信息]：题目里写的是“下周五下午2点”，英语要翻译成 at 2:00 pm next Friday。
+规则：
+
+时间的表达通常用介词 at。比如 at 2:00 pm。
+英语的日期习惯把小的时间放在前面，大的时间放在后面（先说下午2点，再说下周五）。不过这里 next Friday 也可以放在前面，但在考试中，标准的顺序通常是“时间点 + 星期”。
+第四部分：正文讲解（地点）
+模板原文：
+Furthermore, the main [内容: contents/tasks/suggestions] include [细节A] and [细节B].
+
+作文原文：
+Furthermore, the place is the school hall.
+
+翻译：
+此外，地点是学校礼堂。
+
+分析：
+这里作文做了一个聪明的“变通”。
+
+模板原本给的是 the main contents include...（主要内容包含……），这个句式比较复杂，还要填A和B两个细节。
+为了降低难度，这里直接套用了上一句的句型：the [关键点] is [具体信息]。
+所以，place（地点）对应关键点，the school hall（学校礼堂）对应具体信息。
+规则：
+
+Furthermore 意思是“此外、而且”，是用来连接下一个要点的词，相当于 Also。
+在写作文时，如果模板的一个句子太难，我们可以模仿前面简单的句子结构来写，这叫“仿写”，是很好的得分策略。
+第五部分：正文讲解（报名方式）
+模板原文：
+Finally, it will be a great chance for you.
+(注：模板原文此处没有专门的报名空缺，作文为了涵盖题目要点，增加了这一句。)
+
+作文原文：
+Please come to the Student Union office to sign up before this Wednesday.
+
+翻译：
+请在本周三之前到学生会办公室报名。
+
+分析：
+题目里有个要点是“报名方式”。模板里没有专门留报名的空，所以我们需要自己加一句。
+
+come to... 表示“来某个地方”。
+sign up 是一个固定搭配，意思是“报名”。
+before this Wednesday 表示“本周三之前”。
+规则：
+
+这是一句祈使句。所谓祈使句，就是以动词原形开头，表示请求或命令。
+这里用 Please 开头，语气很客气，非常适合用在通知里邀请大家参加。
+第六部分：结尾讲解
+模板原文：
+Everyone is welcome. We are looking forward to your coming.
+[落款：The Student Union]
+[日期：May 20, 2024]
+
+作文原文：
+Everyone is welcome. We are looking forward to your coming.
+The Student Union
+
+翻译：
+欢迎大家参加。我们期待着你的到来。
+学生会
+
+分析：
+
+这部分完全照抄了模板，因为模板提供的结束语非常标准，适用于各种活动通知。
+Everyone is welcome 意思是“欢迎大家”，对应题目要求。
+落款写 The Student Union，因为题目说你是“校学生会主席”，代表学生会发通知，所以落款是组织名称，而不是你个人的名字“李华”。
+规则：
+
+look forward to 是一个非常重要的短语，意思是“期待”。注意这里的 to 后面要跟名词或动名词（动词加ing），所以用了 your coming（你的到来）。
+整体总结
+好啦，我们讲完了！你看，其实没那么难对吧？这篇作文主要涉及了以下几个核心点，你只要把这几点记牢，以后写通知就不怕了：
+
+时态：通知通常讲将来的计划，所以多用 be going to（打算/将要）或者 will（将）。
+介词用法：
+时间点用 at（如 at 2:00 pm）。
+具体某一天用 on（如 on Friday，虽然文中用了 next Friday 不需要介词，但你要知道这个规则）。
+截止时间用 before（在……之前）。
+固定搭配：
+hold a contest（举办比赛）。
+sign up（报名）。
+look forward to doing（期待做某事）。
+`},
+{
+content: `你是李华，你校将举办"英语角"活动，想邀请外教Mr. Smith参加。
+内容包括：
+1. 邀请他担任嘉宾；
+2. 活动时间：周五晚7点；地点：图书馆前广场；
+3. 希望他能分享学习英语的建议。
+`,
+sampleAnswer: `Invitation to English Corner
+Dear Mr. Smith,
+I am writing to invite you to our English Corner.
+There are a few things I want to tell you. To start with, the activity is at 7:00 pm this Friday. Also, the place is the square in front of the library. Finally, we hope you can share some advice on learning English.
+Thank you for your time and attention. I am looking forward to hearing from you soon. Wish you all the best.
+Yours,
+Li Hua
+`,
+explanation: `作文解析：
+
+第一步：称呼
+模板原文： Dear [称呼],
+作文原文： Dear Mr. Smith,
+翻译： 亲爱的史密斯先生：
+分析：
+题目里告诉我们外教的名字叫 Mr. Smith。在英语书信里，如果你知道对方的姓氏和身份，最礼貌的写法就是 Dear + 称呼。
+规则：
+
+Dear 是“亲爱的”意思，写信开头都要用。
+Mr. 意思是“先生”，后面必须跟男性的姓氏。注意 Mr. 后面有一个小圆点（.），不能丢哦。
+第二步：写信目的
+模板原文： I am writing to [动词短语：表达目的].
+作文原文： I am writing to invite you to our English Corner.
+翻译： 我写信是为了邀请您参加我们的英语角。
+分析：
+这里要把“表达目的”换成具体我们要做的事。题目要求是“邀请外教参加”，所以核心动作是“邀请”。
+规则：
+
+invite 是动词，意思是“邀请”。
+invite sb. to sp. 是一个固定搭配，意思是“邀请某人去某地”。这里 sb. 是 you（您），sp. 是 our English Corner（我们的英语角）。
+整句话连起来：invite you to…（邀请您去……）。
+第三步：细节一（时间）
+模板原文： To start with, [细节一：主旨句].
+作文原文： To start with, the activity is at 7:00 pm this Friday.
+翻译： 首先，活动定于本周五晚上7点。
+分析：
+题目给出了第一个信息点：“活动时间：周五晚7点”。我们需要用英语把这个时间说清楚。因为主语是“活动”，所以动词用单数形式 is。
+规则：
+
+To start with 是连接词，意思是“首先”，用来开始列举第一点。
+at 是介词，专门用来连接“具体的时间点”。比如 at 7:00（在7点）。
+this Friday 意思是“这周五”。英语的时间习惯把小的单位放在前面，大的单位放在后面，所以写成“7点 + 周五”。
+第四步：细节二（地点）
+模板原文： Also, [细节二：拓展句].
+作文原文： Also, the place is the square in front of the library.
+翻译： 其次，地点是图书馆前的广场。
+分析：
+题目给出了第二个信息点：“地点：图书馆前广场”。这里我们用最简单的句型“地点是……”。
+规则：
+
+Also 是连接词，意思是“而且、此外”，用来引出第二点。
+in front of 是一个短语，意思是“在……前面”。这是一个非常常用的方位词。
+the square in front of the library 意思就是“图书馆前面的那个广场”。把地点状语放在名词后面修饰，是英语的特色。
+第五步：细节三（希望与建议）
+模板原文： Finally, [细节三：补充句].
+作文原文： Finally, we hope you can share some advice on learning English.
+翻译： 最后，我们希望您能分享一些关于学习英语的建议。
+分析：
+题目要求“希望他能分享学习英语的建议”。这里的核心动词是“希望”和“分享”。
+规则：
+
+Finally 是连接词，意思是“最后”。
+hope 是动词“希望”。用法是 hope + 句子。这里后面跟了一个句子 you can share…（您可以分享……）。
+share 意思是“分享”。
+advice 意思是“建议”。注意，这个词在英语里是不可数名词，不能加 s。
+advice on… 意思是“关于……的建议”。这里 on learning English 就是“关于学习英语”。
+第六步：落款
+模板原文： [Yours/Best regards,]
+作文原文： Yours,
+翻译： 您真诚的，
+分析：
+这是信件结尾的客套话。模板给了两个选项，我们选一个最常用的 Yours 就可以了。
+
+第七步：署名
+模板原文： [名称]
+作文原文： Li Hua
+翻译： 李华
+分析：
+题目说你是李华，所以这里直接写名字。注意首字母要大写。
+
+整体总结
+好啦，同学你看，这篇作文其实一点都不难，对吧？我们来总结一下今天学到的几个最核心的语法点：
+
+介词 at 的用法： 用在具体时间点前面，比如 at 7:00 pm。
+方位短语： in front of 表示“在……前面”。
+动词搭配： invite sb. to sp.（邀请某人去某地）和 share sth.（分享某物）。
+名词的单复数： advice（建议）是个不可数名词，永远不要加 s。
+`},
+{
+content: `原定于本周六的英语角活动因天气原因取消。请你以英语角负责人的名义，在班级群里发一条英文通知，内容包括：
+1. 通知活动取消。
+2. 说明取消原因（大雨）。
+3. 告知改期至下周六同一时间。
+4. 表达歉意。
+`,
+sampleAnswer: `NOTICE
+In order to tell you the change, the English Corner is going to cancel the activity this Saturday.
+The detailed information is as follows. To begin with, the reason is the heavy rain. Furthermore, the activity will be held next Saturday at the same time. Finally, we are sorry for the change.
+Everyone is welcome. We are looking forward to your coming.
+The English Corner
+`,
+explanation: `作文解析：
+
+第一部分：标题
+模板原文：
+[标题：NOTICE / VOLUNTEERS WANTED / A LETTER OF PROPOSAL]
+
+作文原文：
+NOTICE
+
+翻译：
+通知
+
+分析：
+题目要求我们写一条“通知”。
+
+模板给了三个选项，我们根据题目要求，选择了 NOTICE。
+注意：通知的标题通常要居中写，并且全部大写，这样才醒目。
+规则：
+
+NOTICE 意思是“通知”。写应用文时，一定要先判断文体，如果是通知，标题直接写 NOTICE 即可。
+第二部分：开头句（目的与动作）
+模板原文：
+In order to [目的], the [主办方] is going to [动作: hold/recruit/introduce] [对象: an activity/volunteers/a spot].
+
+作文原文：
+In order to tell you the change, the English Corner is going to cancel the activity this Saturday.
+
+翻译：
+为了告诉大家这个变动，英语角打算取消本周六的活动。
+
+分析：
+这里我们替换了四个地方：
+
+[目的]：题目说“通知活动取消”，目的就是“告诉大家这个变动”。所以我们填 tell you the change。
+[主办方]：题目说是“英语角负责人”，也就是主办方是“英语角”。所以我们填 the English Corner。
+[动作]：题目要求“取消活动”。模板里的 hold 是“举办”，recruit 是“招募”，都不对。我们需要用一个新的词：cancel（取消）。
+[对象]：取消的是什么？是“本周六的活动”。所以我们填 the activity this Saturday。
+规则：
+
+In order to 意思是“为了”，后面必须跟动词原形（比如 tell）。
+is going to 意思是“打算/将要”，后面也必须跟动词原形（比如 cancel）。这是一个一般将来时的用法，表示还没发生但计划要做的事。
+第三部分：细节一（原因）
+模板原文：
+To begin with, the [关键点: time/location/reason] is [具体信息].
+
+作文原文：
+To begin with, the reason is the heavy rain.
+
+翻译：
+首先，原因是由于大雨。
+
+分析：
+这里我们替换了两个地方：
+
+[关键点]：题目要求“说明取消原因”。所以我们选 reason（原因）。
+[具体信息]：原因具体是什么？题目说是“大雨”。所以我们填 the heavy rain。
+规则：
+
+To begin with 是一个连接词，意思是“首先”，用来开启下文，让文章有条理。
+这里的句型是 主语 + is + 表语。The reason（主语）是 heavy rain（表语）。
+heavy rain 意思是“大雨”。虽然 big 也是“大”，但形容雨大要用 heavy，这是一个固定搭配。
+第四部分：细节二（改期信息）
+模板原文：
+Furthermore, the main [内容: contents/tasks/suggestions] include [细节A] and [细节B].
+
+作文原文：
+Furthermore, the activity will be held next Saturday at the same time.
+
+翻译：
+此外，活动将于下周六同一时间举行。
+
+分析：
+这里答案对模板进行了句式调整。
+
+题目要求“告知改期至下周六同一时间”。如果硬套模板说“内容包括……”，会有点别扭。所以这里改成了一个更直接的句子：the activity will be held...（活动将被举行……）。
+will be held：这是一个重点。活动是“被”举办的，所以要用被动语态。
+next Saturday at the same time：对应题目里的“下周六同一时间”。
+规则：
+
+被动语态：简单说就是“动作的承受者作主语”。这里活动不能自己举办自己，是被我们举办，所以用 be held。will be held 表示“将要被举办”。
+hold 这个词是“举办/举行”的意思，它的过去分词是 held。
+第五部分：细节三（表达歉意）
+模板原文：
+Finally, it will be a great chance for you.
+
+作文原文：
+Finally, we are sorry for the change.
+
+翻译：
+最后，我们对这个变动表示歉意。
+
+分析：
+
+模板原句是“这是一个好机会”，通常用于招募志愿者或介绍活动。
+但本题是“取消活动”，这是一件遗憾的事，题目要求“表达歉意”。所以我们直接换成了道歉的句子。
+we are sorry for...：这是一个非常地道且常用的道歉句型，意为“我们对……感到抱歉”。
+规则：
+
+be sorry for... 意思是“为……感到抱歉/遗憾”。这里 for 是一个介词，后面跟名词或者动词的 -ing 形式。
+写作文时，要根据实际情况灵活调整，模板里的句子如果不合适，就要换成得体的话（比如这里换成道歉）。
+第六部分：落款
+模板原文：
+[落款：The Student Union]
+
+作文原文：
+The English Corner
+
+翻译：
+英语角
+
+分析：
+
+题目要求以“英语角负责人”的名义写，落款通常是单位或组织名称。所以把“学生会”改成了 The English Corner。
+整体总结
+这篇作文虽然短，但我们复习了几个非常核心的语法点，一定要记住：
+
+一般将来时：用 be going to 或 will 表示将来要做的事。结构是：be going to + 动词原形。
+被动语态：当主语是动作的承受者时使用。结构是：be + 过去分词。文中出现了 will be held（将被举行）。
+固定搭配：
+heavy rain：大雨（不用 big）。
+be sorry for：为……感到抱歉。
+at the same time：在同一时间。
+`},
+{
+content: `你的英国笔友Tom来信说，他对中国传统节日很感兴趣。请你给他回一封邮件，向他推荐一个你最喜欢的节日（如春节、端午节）。内容包括：
+1. 节日名称和时间。
+2. 主要庆祝活动（至少两项）。
+3. 你推荐这个节日的原因。
+`,
+sampleAnswer: `My Favorite Chinese Festival
+Dear Tom,
+I am writing to introduce my favorite Chinese festival to you.
+There are a few things I want to tell you. To start with, the Spring Festival is in January or February. Also, people eat dumplings and watch the Spring Festival Gala. Finally, I like it because it is a time for family reunion.
+Thank you for your time and attention. I am looking forward to hearing from you soon. Wish you all the best.
+Yours,
+Li Hua
+`,
+explanation: `作文解析：
+
+第一部分：称呼
+模板原文：
+Dear [称呼],
+
+作文原文：
+Dear Tom,
+
+翻译：
+亲爱的Tom：
+
+分析：
+题目里你的笔友名字叫什么？对，就是Tom。所以在这里，我们直接把Tom填进去就好。
+
+规则：
+在英语信件开头，我们通常用 “Dear + 名字” 的形式。这就像我们中文写信说“亲爱的Tom”一样，是一个非常礼貌且标准的开头。记得名字的首字母 T 要 大写 哦！
+
+第二部分：写信目的
+模板原文：
+I am writing to [动词短语：表达目的].
+
+作文原文：
+I am writing to introduce my favorite Chinese festival to you.
+
+翻译：
+我写信是为了给你介绍我最喜欢的中国节日。
+
+分析：
+题目要求你“推荐一个你最喜欢的节日”。推荐就是“介绍给别人”，所以我们用 introduce（介绍）这个词。
+
+introduce 是动词，意思是“介绍”。
+my favorite Chinese festival 意思是“我最喜欢的中国节日”，这是介绍的对象。
+规则：
+这里有一个非常重要的固定搭配：introduce A to B，意思是“把A介绍给B”。
+因为模板里已经有了 to，所以我们直接在to后面加上动词原形 introduce，这就构成了“为了做某事”的意思。
+
+第三部分：细节一（节日名称和时间）
+模板原文：
+To start with, [细节一：主旨句].
+
+作文原文：
+To start with, the Spring Festival is in January or February.
+
+翻译：
+首先，春节是在一月或二月。
+
+分析：
+题目第一个要求是“节日名称和时间”。
+
+名称：我们选了 the Spring Festival（春节）。这是一个专有名词，首字母要大写。
+时间：春节通常在农历的一月或二月，对应英文就是 in January or February。
+规则：
+这里用到了 一般现在时。简单来说，就是描述一个客观事实或习惯。因为春节的时间是固定的，所以我们用 is。
+介词 in 用在月份前面，比如“在一月”就是 in January。
+
+第四部分：细节二（庆祝活动）
+模板原文：
+Also, [细节二：拓展句].
+
+作文原文：
+Also, people eat dumplings and watch the Spring Festival Gala.
+
+翻译：
+此外，人们吃饺子并且看春节联欢晚会。
+
+分析：
+题目第二个要求是“主要庆祝活动（至少两项）”。
+
+活动一：吃饺子 -> eat dumplings。
+活动二：看春晚 -> watch the Spring Festival Gala。
+我们用 and 把这两个动作连起来，表示“和”。
+规则：
+这里依然用 一般现在时。因为春节吃饺子、看春晚是中国人的传统习惯，每到春节都会做，所以动词要用原形：eat 和 watch。
+注意：dumplings 用了复数（加了s），因为大家通常会吃很多个饺子。
+
+第五部分：细节三（推荐原因）
+模板原文：
+Finally, [细节三：补充句].
+
+作文原文：
+Finally, I like it because it is a time for family reunion.
+
+翻译：
+最后，我喜欢它是因为这是一个家庭团聚的时刻。
+
+分析：
+题目第三个要求是“推荐原因”。
+
+原因：家庭团聚 -> family reunion。
+句型结构：我用了一个因果关系的句子，“我喜欢它”是结果，“因为…”是原因。
+规则：
+这里用到了 because（因为）这个连词。
+句型结构是：主语 + 动词 + because + 句子。
+family reunion 是个很地道的表达，reunion 的意思是“重聚、团圆”。这是一个非常加分的词汇哦！
+
+第六部分：落款
+模板原文：
+[Yours/Best regards,]
+[名称]
+
+作文原文：
+Yours,
+Li Hua
+
+翻译：
+你的，
+李华
+
+分析：
+这是信件结尾的标准格式。考试中通常署名为“李华”。
+
+规则：
+Yours 是书信结尾最常用的客套话，放在信的右下角。
+Li Hua 是名字，首字母必须大写。注意标点符号，Yours后面通常加逗号。
+
+整体总结
+好啦，看完了是不是觉得很简单？这篇作文我们主要复习了以下几个核心点：
+
+固定搭配： introduce … to …（把…介绍给…），这是写推荐信的神器。
+一般现在时： 当我们要描述习惯、事实或真理时，动词要用原形（如 eat, watch, is）。
+连词的使用：
+and 用来连接两个并列的动作（吃饺子和看春晚）。
+because 用来解释原因（为什么喜欢）。
+专有名词大写： 节日名称和人名首字母都要大写。
+`},
+{
+content: `假设你是学生会主席李华，学校将举办"国际文化节"。请你写一封邮件，邀请所有外教参加。内容包括：
+1. 表达邀请诚意。
+2. 活动时间：5月25日（周六）上午9点。
+3. 活动地点：学校大礼堂。
+4. 希望他们能准备一个简短节目或介绍本国文化。
+`,
+sampleAnswer: `Invitation to International Culture Festival
+Dear foreign teachers,
+I am writing to invite you to the International Culture Festival.
+There are a few things I want to tell you. To start with, the activity is at 9:00 am on May 25th, Saturday. Also, the place is the school hall. Finally, we hope you can prepare a short show or introduce your country's culture.
+Thank you for your time and attention. I am looking forward to hearing from you soon. Wish you all the best.
+Yours,
+Li Hua
+`,
+explanation: `作文解析：
+
+第一步：称呼
+模板原文：
+Dear [称呼],
+
+作文原文：
+Dear foreign teachers,
+
+翻译：
+亲爱的外教们：
+
+分析：
+题目要求是“邀请所有外教”，所以我们要直接称呼他们。
+
+foreign teachers 意思是“外教”。
+因为是邀请“所有”外教，不止一个人，所以 teacher 后面加了 s，变成复数形式。
+规则：
+可数名词（就是可以数得清的东西，比如苹果、老师）如果表示超过一个，通常要在后面加 s 或者 es，这叫复数。比如：teacher → teachers。
+
+第二步：表达目的
+模板原文：
+I am writing to [动词短语：表达目的].
+
+作文原文：
+I am writing to invite you to the International Culture Festival.
+
+翻译：
+我写信是为了邀请你们参加国际文化节。
+
+分析：
+
+题目要求“表达邀请诚意”，也就是我们写信的目的。
+这里我们用了 invite you to… 这个搭配，意思是“邀请你们去……”。
+International Culture Festival 是题目里给出的专有名词“国际文化节”，注意首字母要大写哦。
+规则：
+invite sb. to sp. 是一个固定搭配，意思是“邀请某人去某地（或参加某活动）”。
+
+invite：邀请
+sb. (somebody)：某人
+to：去/参加
+sp. (some place)：某地/某活动
+第三步：细节一（活动时间）
+模板原文：
+To start with, [细节一：主旨句].
+
+作文原文：
+To start with, the activity is at 9:00 am on May 25th, Saturday.
+
+翻译：
+首先，活动定在5月25日（周六）上午9点。
+
+分析：
+
+To start with 是模板给出的连接词，意思是“首先”，让文章更有条理。
+题目里的“活动时间”信息，我们需要把它串联起来。
+the activity 指代上面提到的“国际文化节”。
+is at… 用来引出时间。
+规则：
+英语里表达时间有个规矩：“先小后大”。
+
+先说具体的几点（at 9:00 am），再说具体的某一天（on May 25th），最后说星期几（Saturday）。
+介词用法：at 接具体时刻（几点）；on 接具体某一天（几月几号、星期几）。
+第四步：细节二（活动地点）
+模板原文：
+Also, [细节二：拓展句].
+
+作文原文：
+Also, the place is the school hall.
+
+翻译：
+另外，地点是在学校大礼堂。
+
+分析：
+
+Also 是模板给出的连接词，意思是“而且/另外”，表示递进。
+题目要求写出“活动地点”。
+我们用最简单的句型：主语+系动词+表语。
+the place（地点）是主语，is（是）是动词，the school hall（学校大礼堂）是地点。
+规则：
+这里用了一个最简单的句型：主系表结构。
+
+主语：谁/什么。
+系动词：通常是 be动词，起连接作用。
+表语：说明主语是什么或怎么样。
+第五步：细节三（希望与要求）
+模板原文：
+Finally, [细节三：补充句].
+
+作文原文：
+Finally, we hope you can prepare a short show or introduce your country’s culture.
+
+翻译：
+最后，我们希望你们能准备一个简短节目或者介绍你们国家的文化。
+
+分析：
+
+Finally 是模板给出的连接词，意思是“最后”。
+题目要求“希望他们能准备一个简短节目或介绍本国文化”。
+we hope 后面跟了一个句子，说明希望的内容。
+prepare a short show 意思是“准备一个短节目”。
+introduce your country’s culture 意思是“介绍你们国家的文化”。
+规则：
+hope（希望）后面经常跟一个句子，这个句子里常常用 can（能够）来表示一种可能性或礼貌的请求。
+
+or 是“或者”的意思，连接两个动作：prepare（准备）和 introduce（介绍）。
+第六步：落款
+模板原文：
+[Yours/Best regards,]
+[名称]
+
+作文原文：
+Yours,
+Li Hua
+
+翻译：
+你的，
+李华
+
+分析：
+
+书信的结尾客套话，用 Yours 既简单又得体。
+根据题目假设，你是“学生会主席李华”，所以签名写 Li Hua。
+规则：
+书信作文的最后，一定要有落款和签名。签名下面通常不加点（.）。
+
+整体总结
+这篇作文我们主要练习了以下几个核心点，你都学会了吗？
+
+名词复数：当对象不止一个时，记得给名词加上 s（如 foreign teachers）。
+时间表达顺序：英语时间是“先小后大”，先说几点，再说日期。
+介词用法：
+at 用于具体的时刻（at 9:00 am）。
+on 用于具体的某一天（on May 25th）。
+invite sb. to… 邀请某人去……
+简单句型：用“主语 + is + 地点/时间”这种简单的结构，也能把事情说清楚。
+`},
 
 
 ];

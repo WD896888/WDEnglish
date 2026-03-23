@@ -3502,5 +3502,3458 @@ take a walk：散步。
 寻找线索词：做阅读理解时，先看题目里的特殊疑问词（如 How, What）和时间地点词（如 every evening, dad），再回文章里找原词，这是最快的解题秘诀。
 `
 },
+{
+    article: `Last Saturday, Lucy and her classmates joined a volunteer activity in Green Park. Their teacher wanted them to help clean the park and make it a better place for everyone. So they met at the school gate early in the morning and walked there together. Each student carried a pair of gloves and a rubbish bag.
+
+When they arrived, they saw plastic bottles, paper, and fallen leaves on the ground. They quickly started working in groups. Some picked up litter near the lake, while others cleaned the benches and the walking paths. Lucy and her best friend Emma planted a few flowers beside the entrance. A little boy who was playing with his father smiled and said, “The park looks nicer now!”
+
+At noon, the students sat under a tree to rest. They drank water and shared sandwiches from home. Although they were tired, they felt proud of what they had done. Their teacher thanked them for their hard work and told them that small actions can make a big difference.
+
+Before leaving, Lucy looked around the park and felt happy. The place was cleaner, brighter, and more welcoming. She decided that she would take part in more volunteer activities in the future.`,
+    questions: [
+        {
+            text: "Why did Lucy and her classmates go to Green Park?",
+            answer: "To help clean the park and make it a better place for everyone."
+        },
+        {
+            text: "What did each student carry?",
+            answer: "A pair of gloves and a rubbish bag."
+        },
+        {
+            text: "What did Lucy and Emma do beside the entrance?",
+            answer: "They planted a few flowers."
+        },
+        {
+            text: "What did Lucy decide before leaving?",
+            answer: "She decided that she would take part in more volunteer activities in the future."
+        },
+        {
+            text: "Translate: “Although they were tired, they felt proud of what they had done.”",
+            reference: "虽然他们很累，但他们为自己所做的事情感到自豪。"
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： Why did Lucy and her classmates go to Green Park?
+翻译： 为什么Lucy和她的同学们要去Green Park？
+
+阅读原文： Their teacher wanted them to help clean the park and make it a better place for everyone.
+翻译： 他们的老师想让他们帮忙打扫公园，让它对每个人来说都成为一个更好的地方。
+
+分析：
+
+这道题问的是“原因”（Why）。
+我们在文章第一段找关键词 "Green Park"。
+既然是问“为什么去”，那一定是去那儿做某件事。文章里说老师“wanted them to...”（想让他们……），这就是目的。
+线索词是 "to"（为了），后面跟着的动作就是原因。
+规则：
+
+这里有个结构叫 "want sb to do sth"，意思是“想要某人做某事”。比如：I want you to study（我想要你学习）。这里的 "to" 后面接动词原形，表示目的或打算。
+答案： To help clean the park and make it a better place for everyone.
+
+第2题
+题目： What did each student carry?
+翻译： 每个学生带了什么？
+
+阅读原文： Each student carried a pair of gloves and a rubbish bag.
+翻译： 每个学生都带了一副手套和一个垃圾袋。
+
+分析：
+
+这道题问的是“什么东西”（What）。
+我们要像侦探一样找线索词。题目里的 "each student"（每个学生）就是最大的线索！
+在原文里找到这句话，看 "carried"（带/拿，carry的过去式）后面接的是什么？对，就是手套和垃圾袋。
+规则：
+
+"each" 意思是“每一个”，强调个体。只要看到它，通常就是在说每一个人都做了某事。
+"a pair of" 是一个固定搭配，意思是“一双/一副”，比如一双鞋子就是 a pair of shoes。
+答案： A pair of gloves and a rubbish bag.
+
+第3题
+题目： What did Lucy and Emma do beside the entrance?
+翻译： Lucy和Emma在入口旁做了什么？
+
+阅读原文： Lucy and her best friend Emma planted a few flowers beside the entrance.
+翻译： Lucy和她最好的朋友Emma在入口旁边种了一些花。
+
+分析：
+
+这道题问的是动作（做了什么）。
+先锁定人物："Lucy and Emma"。
+再锁定地点："entrance"（入口）。
+在文章里找到这句话，看看她们在这个地点做了什么动作？单词 "planted" 就是“种植”的意思。
+规则：
+
+这里用到了 "planted"，它是动词 "plant"（种植）的过去式。因为故事发生在上周末，所以动词要变身，加上 "-ed"，表示这是过去发生的事情。
+答案： They planted a few flowers.
+
+第4题
+题目： What did Lucy decide before leaving?
+翻译： Lucy在离开前决定了什么？
+
+阅读原文： She decided that she would take part in more volunteer activities in the future.
+翻译： 她决定将来参加更多的志愿者活动。
+
+分析：
+
+这道题找的是“决定”（decide）。
+线索词是 "Before leaving"（离开前）。我们在最后一段找。
+看到单词 "decided"（决定）了吗？它后面跟着的一长串话，就是她决定的内容。
+规则：
+
+"take part in" 是一个非常常用的短语，意思是“参加”。以后看到这几个词凑在一起，你就知道是加入某个活动的意思。
+"would" 是 "will"（将要）的过去式。因为她是当时决定的，站在当时的时间点看未来，就要用“过去将来时”，听起来很高级，其实就是“当时想将来会怎么样”。
+答案： She decided that she would take part in more volunteer activities in the future.
+
+翻译题
+题目： Translate: “Although they were tired, they felt proud of what they had done.”
+翻译： 虽然他们很累，但他们为自己所做的事情感到自豪。
+
+分析：
+
+这句话有两个部分，中间用 "Although"（虽然）连接。
+前半句："they were tired"（他们很累）。
+后半句："they felt proud of..."（他们为……感到自豪）。"proud" 是“自豪”的意思，"felt" 是“感觉”（feel的过去式）。
+最后："what they had done" 直译是“他们已经做的事情”。在这里作为“为……自豪”的对象。
+规则：
+
+"Although" 引导让步状语从句，通俗点说就是“虽然……但是……”。注意哦，英语里有了Although就不能再加But（但是），这是英语和中文不一样的地方，千万别写成 "Although..., but..."。
+答案： 虽然他们很累，但他们为自己所做的事情感到自豪。
+
+整体总结
+做完这几道题，我们来复习一下这篇短文里藏着的几个“法宝”：
+
+一般过去时：整篇文章都在讲故事，所以你会看到大量的动词变身，比如 joined (join), carried (carry), planted (plant), decided (decide)。看到动词后面加了-ed，你就知道这是以前发生的事。
+不定式表目的：比如题目里的 "To help..."，就是用来说明“为了去做什么”。
+固定搭配：
+a pair of（一双/一副）
+take part in（参加）
+be proud of（为……感到自豪）
+`
+},
+{
+    article: `In my free time, I work as a part-time guide at the city museum. I have always loved history, so this job is perfect for me. Every Saturday, I arrive at the museum one hour early to check the rooms and make sure everything is ready for the visitors.
+
+When the doors open, I stand near the entrance and welcome people with a smile. Some visitors want to know where to start, while others ask me about the oldest objects in the museum. I enjoy answering their questions and telling them interesting stories about the past.
+
+One of my favorite parts of the job is helping school children during their visits. They are always curious and ask many questions. Last week, one little girl asked me how people wrote letters hundreds of years ago. I showed her an old pen and some paper, and her eyes grew wide with surprise.
+
+At the end of the day, I help tidy up the rooms and write a short report for my manager. Sometimes I feel tired after standing for hours, but I am still happy. This job allows me to share my love of history with others.`,
+    questions: [
+        {
+            text: "Where does the writer work?",
+            answer: "At the city museum."
+        },
+        {
+            text: "Why does the writer arrive at the museum one hour early?",
+            answer: "To check the rooms and make sure everything is ready for the visitors."
+        },
+        {
+            text: "Who does the writer especially enjoy helping?",
+            answer: "School children."
+        },
+        {
+            text: "How does the writer feel about the job at the end of the day?",
+            answer: "Tired but happy."
+        },
+        {
+            text: "Translate:“This job allows me to share my love of history with others.”",
+            reference: "这份工作让我能够与他人分享我对历史的热爱。"
+        }
+    ],
+    explanation: `题目解析：
+
+第 1 题
+题目： Where does the writer work?
+翻译： 作者在哪里工作？
+
+阅读原文： In my free time, I work as a part-time guide at the city museum.
+翻译： 在我的空闲时间，我在城市博物馆做兼职导游。
+
+分析：
+
+这道题问的是地点（Where）。
+我们要看懂题目里的关键词 work（工作）。
+回到文章第一段，第一句就出现了 "work" 这个词。
+句子里有个短语 at the city museum。在英语里，at 后面接地点，表示“在……地方”。
+所以，作者工作的地点就是城市博物馆。
+规则：
+
+特殊疑问词 Where：意思是“哪里”，用来提问地点。回答时通常用介词（比如 at, in）开头，后面跟地点名词。
+答案： At the city museum.
+
+第 2 题
+题目： Why does the writer arrive at the museum one hour early?
+翻译： 作者为什么要提前一小时到达博物馆？
+
+阅读原文： Every Saturday, I arrive at the museum one hour early to check the rooms and make sure everything is ready for the visitors.
+翻译： 每个星期六，我提前一小时到达博物馆，为了检查房间并确保一切都为游客准备好了。
+
+分析：
+
+这道题问的是原因。
+我们在原文里找到 "arrive at the museum one hour early" 这部分，后面紧跟着一个词 to。
+这里的 to 后面跟着动作，表示目的，意思是“为了去做……”。
+原文说 "to check the rooms..."（为了检查房间），这就是提前到达的目的，也就是原因。
+规则：
+
+动词不定式表目的：就是 to + 动词原形（比如 to check, to do）。放在句子后面，通常表示做前面那件事的“目的”，可以翻译成“为了……”。回答 Why 的问题，经常用 To 开头。
+答案： To check the rooms and make sure everything is ready for the visitors.
+
+第 3 题
+题目： Who does the writer especially enjoy helping?
+翻译： 作者特别喜欢帮助谁？
+
+阅读原文： One of my favorite parts of the job is helping school children during their visits.
+翻译： 这份工作中我最喜欢的部分之一就是在参观期间帮助小学生。
+
+分析：
+
+这道题问的是人。
+题目里的关键词是 enjoy helping（喜欢帮助）。
+我们在原文里找意思相近的词。文章里有一句 "One of my favorite parts... is helping..."（我最喜欢的部分是帮助……）。
+这里的 "favorite"（最喜欢的）和题目里的 "especially enjoy"（特别喜欢）是一个意思，这叫同义替换。
+帮助的对象是谁呢？原文说是 school children（小学生/学校的孩子）。
+规则：
+
+Who 提问：问的是“谁”，回答必须是“人”。
+同义替换：做题时，题目通常不会傻傻地用原文的词，而是换一个意思一样的词。比如原文用 favorite，题目用 enjoy，意思是一样的，不要被吓到哦！
+答案： School children.
+
+第 4 题
+题目： How does the writer feel about the job at the end of the day?
+翻译： 在一天结束时，作者对这份工作感觉如何？
+
+阅读原文： Sometimes I feel tired after standing for hours, but I am still happy.
+翻译： 有时候站立几个小时后我会觉得累，但是我依然很快乐。
+
+分析：
+
+这道题问的是感受，也就是心情怎么样。
+题目里的关键词是 at the end of the day（在一天结束时）。
+我们在文章最后一段找，看到了 "Sometimes I feel..."。
+这里有两个形容词描述心情：一个是 tired（累），一个是 happy（快乐）。
+中间有个连词 but（但是），表示转折。虽然累，但是快乐。所以答案要把这两种感觉都写出来。
+规则：
+
+转折连词 but：意思是“但是”。它连接的前后两部分意思通常是相反的。做题时，but 后面的内容往往是重点，但这里问的是整体感受，所以“累”和“快乐”都要答。
+答案： Tired but happy.
+
+第 5 题
+题目： Translate:“This job allows me to share my love of history with others.”
+翻译： 这份工作让我能够与他人分享我对历史的热爱。
+
+阅读原文： This job allows me to share my love of history with others.
+翻译： （见上）
+
+分析：
+
+这是一个翻译练习。我们来拆解一下句子结构。
+主语是 This job（这份工作）。
+谓语动词是 allows（允许/让）。
+allow sb to do sth 是一个固定搭配，意思是“允许某人做某事”或“让某人能够做某事”。这里 sb 是 me（我），to do sth 是 to share...（去分享……）。
+share sth with sb 又是一个固定搭配，意思是“和某人分享某物”。这里是把“我对历史的热爱” 和“他人” 分享。
+规则：
+
+allow sb to do sth：允许某人做某事。这里的 to do 叫做动词不定式，你可以把它简单理解为“去做某事”。
+share sth with sb：和某人分享某事。记住介词用 with。
+答案： 这份工作让我能够与他人分享我对历史的热爱。
+
+整体总结
+今天这篇阅读理解，我们复习了几个非常核心的语法点，你把它们记在小本本上，以后做题会经常见到：
+
+特殊疑问词的用法：Where问地点，Who问人，Why问原因，How问方式或感受。
+动词不定式：to + 动词原形，经常用来表示“目的”（为了做……）或者跟在动词后面做补充（比如 allow me to...）。
+固定搭配：allow sb to do sth（让某人做某事）和 share sth with sb（和某人分享）。
+`
+},
+{
+    article: `Last month, our school held a science fair in the school hall. My classmates and I were very excited because every group had to make a small project and present it to the teachers and students. I worked with Tom and Lily. We decided to build a simple robot that could move forward with the help of a small battery.
+
+For a whole week, we stayed after school to prepare for the fair. Tom brought some wires from home, Lily painted the outside of the robot, and I wrote down the steps of our work. At first, the robot did not move at all, and we felt disappointed. However, our science teacher encouraged us to try again and check every part carefully. In the end, we found the problem and fixed it.
+
+On the day of the fair, many students stopped at our table and asked questions. The judges wanted to know how the robot worked and why we chose this project. We answered confidently. Although we did not win first prize, we learned a lot from the experience.
+
+After the fair, I realized that working as a team was just as important as getting a prize.`,
+    questions: [
+        {
+            text: "What did the writer and his classmates build for the science fair?",
+            answer: "A simple robot that could move forward with the help of a small battery."
+        },
+        {
+            text: "How long did they stay after school to prepare for the fair?",
+            answer: "For a whole week."
+        },
+        {
+            text: "Who encouraged them when the robot did not move?",
+            answer: "Their science teacher."
+        },
+        {
+            text: "What did the writer realize after the fair?",
+            answer: "That working as a team was just as important as getting a prize."
+        },
+        {
+            text: "Translate:“Although we did not win first prize, we learned a lot from the experience.”",
+            reference: "虽然我们没有赢得一等奖，但我们从这次经历中学到了很多。"
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： What did the writer and his classmates build for the science fair?
+
+翻译： 作者和他的同学们为科学展览制作了什么？
+
+阅读原文： We decided to build a simple robot that could move forward with the help of a small battery.
+
+翻译： 我们决定制作一个可以借助小电池向前移动的简易机器人。
+
+分析：
+
+这道题考的是寻找细节。
+我们要像侦探一样去找线索词。题目里的关键词是 "build"（制作） 和 "science fair"（科学展览）。
+回到文章第一段，我们看到 "...science fair..."，接着往下找动作。文章说 "We decided to build a simple robot..."（我们决定制作一个简易机器人）。
+这里的 "that could move forward..." 是修饰机器人的，告诉我们这是一个什么样的机器人。
+规则：
+
+这里的 "decided to build" 用到了一个固定搭配：decide to do something（决定做某事）。"to build" 是不定式，表示“去制作”。
+重点：题目问“做了什么”，原文直接给出了 "build a simple robot"，这就是答案核心。
+答案： A simple robot that could move forward with the help of a small battery.
+
+第二题
+题目： How long did they stay after school to prepare for the fair?
+
+翻译： 他们放学后留校准备展览有多长时间？
+
+阅读原文： For a whole week, we stayed after school to prepare for the fair.
+
+翻译： 整整一周，我们都放学留校去为展览做准备。
+
+分析：
+
+这道题考的是时间状语。
+题目里的关键提问词是 "How long"（多久/多长时间），这说明我们要在文章里找一个表示时间段的词。
+我们在第二段开头一眼就看到了 "For a whole week"。在英语里，"For + 时间段" 就是用来回答“多久”的。
+同时，题目里的 "prepare for the fair"（为展览准备）和原文完全一致，这就确认了位置没错。
+规则：
+
+"For a whole week" 的意思是“持续了整整一周”。
+以后看到 How long 提问，就要立刻去文章里找 “for...” 或者具体的数字加时间单位（比如 three days, two hours）。
+答案： For a whole week.
+
+第三题
+题目： Who encouraged them when the robot did not move?
+
+翻译： 当机器人不动的时候，谁鼓励了他们？
+
+阅读原文： However, our science teacher encouraged us to try again and check every part carefully.
+
+翻译： 然而，我们的科学老师鼓励我们要再次尝试，并仔细检查每一个部件。
+
+分析：
+
+这道题考的是人物识别。
+题目里的关键词是 "encouraged"（鼓励） 和 "robot did not move"（机器人不动）。
+我们在第二段中间看到：“...the robot did not move...” （机器人不动），紧接着下一句开头有转折词 "However"（然而）。
+这一句里出现了动作 "encouraged us"，而发出这个动作的人就是 "our science teacher"。
+规则：
+
+这里的语法点是一般过去时。动词 "encourage" 变成了过去式 "encouraged"，因为事情已经发生了。
+结构是：encourage sb. to do sth.（鼓励某人做某事）。老师鼓励我们去尝试。
+答案： Their science teacher.
+
+第四题
+题目： What did the writer realize after the fair?
+
+翻译： 展览结束后，作者意识到了什么？
+
+阅读原文： After the fair, I realized that working as a team was just as important as getting a prize.
+
+翻译： 展览结束后，我意识到团队合作和获奖一样重要。
+
+分析：
+
+这道题考的是理解主旨和结果。
+关键词是 "realize"（意识到）。通常这种“想法、感悟”都在文章的最后。
+我们看到最后一段，果然有 "After the fair, I realized..."。
+后面紧跟的那句话就是答案："working as a team was just as important as getting a prize"。意思是团队合作和拿奖一样重要。
+规则：
+
+这里有一个非常实用的句型：as ... as ...（和……一样……）。
+"just as important as" 就是“和……一样重要”。中间用形容词原级。
+"working as a team" 是一个动名词短语做主语，把“团队合作”这件事当成一个名词来用。
+答案： That working as a team was just as important as getting a prize.
+
+翻译题
+题目： Translate:“Although we did not win first prize, we learned a lot from the experience.”
+
+翻译： 虽然我们没有赢得一等奖，但我们从这次经历中学到了很多。
+
+分析：
+
+这是一个经典的转折句。
+"Although" 引导让步状语从句，意思是“虽然”。
+"did not win" 是过去时的否定形式，翻译为“没有赢得”。
+"first prize" 意思是“一等奖”。
+"learned ... from ..." 意思是“从……中学到……”。
+"experience" 在这里指“经历”。
+规则：
+
+重点注意：中文习惯说“虽然……但是……”，但在英语里，although（虽然）和 but（但是）不能同时出现在一个句子里。用了 Although，后面就不能加 but。这是一个常考的小陷阱哦！
+答案： 虽然我们没有赢得一等奖，但我们从这次经历中学到了很多。
+
+整体总结
+做得真棒！我们今天其实复习了几个非常重要的核心语法点，我来帮你梳理一下：
+
+特殊疑问词的用法：
+What 问事物（做什么）。
+How long 问时间多久（找时间段）。
+Who 问人物（找谁）。
+动词搭配：
+decide to do sth.（决定做某事）。
+encourage sb. to do sth.（鼓励某人做某事）。
+learn from...（从……中学习）。
+连词规则：
+Although（虽然）引导的从句，主句不再用 but。
+比较句型：
+as ... as ...（和……一样……），中间形容词用原级。
+`
+},
+{
+    article: `One afternoon, Ben was walking home from school when dark clouds suddenly covered the sky. Soon, heavy rain began to fall. Ben opened his umbrella and ran toward a small shop near the road. There he saw his elderly neighbor, Mrs. White, standing with two heavy shopping bags in her hands. She looked worried because her home was still a few streets away.
+
+Ben quickly went over to her and offered to help. Mrs. White smiled and thanked him. Just then, Ben’s friend Jack arrived with another umbrella. The two boys decided to walk Mrs. White home together. Ben carried one of the bags, and Jack held the umbrella over her. They walked slowly because the road was wet and slippery.
+
+When they finally reached her building, Mrs. White invited them in for some hot tea. But the boys politely said no, because their parents were waiting for them at home. Before they left, Mrs. White said, “You made this rainy day much warmer for me.”
+
+Ben felt happy on his way home. He realized that helping others does not always require big actions. Sometimes, a small act of kindness can mean a lot.`,
+    questions: [
+        {
+            text: "What was the weather like when Ben was walking home?",
+            answer: "Dark clouds suddenly covered the sky and heavy rain began to fall."
+        },
+        {
+            text: "Who did Ben see near the small shop?",
+            answer: "His elderly neighbor, Mrs. White."
+        },
+        {
+            text: "What did Ben and Jack do to help Mrs. White?",
+            answer: "Ben carried one of the bags, and Jack held the umbrella over her."
+        },
+        {
+            text: "What did Ben realize at the end of the story?",
+            answer: "He realized that helping others does not always require big actions."
+        },
+        {
+            text: "Translate:“Sometimes, a small act of kindness can mean a lot.”",
+            reference: "有时候，一个小小的善举也能意义重大。"
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： What was the weather like when Ben was walking home?
+
+翻译： Ben放学回家的时候，天气怎么样？
+
+阅读原文： One afternoon, Ben was walking home from school when dark clouds suddenly covered the sky. Soon, heavy rain began to fall.
+
+翻译： 一天下午，Ben正从学校走回家，这时乌云突然遮住了天空。很快，大雨开始落下。
+
+分析：
+
+这是一道“细节理解题”。题目里的关键词是 weather（天气）。
+既然问天气，我们就要在文章里找描写“天”或者“雨”的句子。
+文章第一句就告诉我们：dark clouds（乌云）遮住了天空，heavy rain（大雨）开始落下。
+这就是答案所在呀！把这两点结合起来就是满分答案啦。
+规则：
+
+特殊疑问句：题目用 What 提问，回答时不能用 Yes 或 No，要具体回答内容。
+时态一致性：题目用的是过去式 was，说明事情已经发生了，所以回答时也要用过去式（如 began, covered）。
+答案： Dark clouds suddenly covered the sky and heavy rain began to fall.
+
+第二题
+题目： Who did Ben see near the small shop?
+
+翻译： Ben在小商店附近看见了谁？
+
+阅读原文： There he saw his elderly neighbor, Mrs. White, standing with two heavy shopping bags in her hands.
+
+翻译： 在那里，他看见他的老邻居，White太太，手里提着两个沉重的购物袋站在那儿。
+
+分析：
+
+这是一道“寻找人物题”。关键词是 Who（谁）和 see（看见）。
+我们要在文章里找“Ben看见...”的句子。很快就能锁定这句话：“he saw...”。
+句子里的 elderly neighbor（老邻居）和 Mrs. White 就是我们要找的人名和身份。
+直接把这部分提取出来就可以啦。
+规则：
+
+专有名词：Mrs. White 是人名，首字母必须大写，这是专有名词，不能随便改动。
+答案： His elderly neighbor, Mrs. White.
+
+第三题
+题目： What did Ben and Jack do to help Mrs. White?
+
+翻译： Ben和Jack做了什么来帮助White太太？
+
+阅读原文： Ben carried one of the bags, and Jack held the umbrella over her.
+
+翻译： Ben提着其中一个袋子，Jack在她上方撑着伞。
+
+分析：
+
+这是一道“动作细节题”。关键词是 Ben and Jack 以及 help（帮助）。
+题目问他们“做了什么”，所以我们要找动词（表示动作的词）。
+文章里写道：Ben carried（提/搬运）袋子，Jack held（撑/举）伞。
+这两个动作就是他们提供的帮助，把它们连起来回答就对了。
+规则：
+
+动词过去式：文章讲的是过去的故事，所以 carry 变成了 carried，hold 变成了 held。回答问题时也要保持这个形式，不能变回原形哦。
+答案： Ben carried one of the bags, and Jack held the umbrella over her.
+
+第四题
+题目： What did Ben realize at the end of the story?
+
+翻译： Ben在故事最后意识到了什么？
+
+阅读原文： He realized that helping others does not always require big actions.
+
+翻译： 他意识到帮助别人并不总是需要巨大的行动。
+
+分析：
+
+这是一道“中心思想题”。关键词是 realize（意识到）和 end（结尾）。
+我们去文章最后一段找。Ben在回家的路上想通了一个道理。
+原文里有一句：“He realized that...” 后面跟的内容就是他意识到的事情。
+只要把 that 后面的句子抄下来，就是标准答案！
+规则：
+
+宾语从句：这里的 that 引导的是一个完整的句子，作为 realized 的宾语（也就是意识到的具体内容）。简单来说，就是“意识到...（这件事）”。
+答案： He realized that helping others does not always require big actions.
+
+第五题
+题目： Translate:“Sometimes, a small act of kindness can mean a lot.”
+
+翻译： 有时候，一个小小的善举也能意义重大。
+
+阅读原文： Sometimes, a small act of kindness can mean a lot.
+
+分析：
+
+这是一句非常有哲理的话，咱们拆开来看：
+Sometimes：有时候。
+a small act of kindness：核心词是 act（举动/行为），of kindness 是修饰它的，意思是“善良的举动”。合起来就是“一个小小的善举”。
+can mean a lot：mean 是“意味着/有意义”的意思，a lot 表示“很多”。合起来就是“意义重大”或者“很有意义”。
+规则：
+
+翻译技巧：英文喜欢用长的名词短语，翻译成中文时，我们可以适当调整语序，让它读起来更像中国话。比如“act of kindness”翻译成“善举”就很地道。
+答案： 有时候，一个小小的善举也能意义重大。
+
+整体总结
+亲爱的同学，你看，其实并没有那么难，对不对？这篇阅读理解主要考察了以下几个核心点，我们再来复习一下：
+
+过去进行时：文章开头出现了 "was walking"，表示过去某个时间点正在进行的动作。
+动词过去式：故事发生在过去，所以动词都变了样子，比如 carry -> carried，hold -> held，begin -> began。
+宾语从句：第4题里的 "realized that..."，that 后面跟着一个完整的句子，解释心里的想法。
+介词短语：比如 "with two heavy shopping bags"（提着两个沉甸甸的袋子），用来补充描写人物的状态。
+`
+},
+{
+    article: `Dear Amy,
+
+Sorry I haven’t written to you earlier. I have been busy these days because I am taking part in a two-week English summer camp in Qingdao. There are students from many different cities, so I have made several new friends here.
+
+Every morning, we have English speaking classes with our teachers. They ask us to talk in pairs, give short speeches, and play language games. In the afternoon, we usually do outdoor activities. Yesterday, we had a beach volleyball match, and my team won. It was tiring but great fun.
+
+Last weekend, we visited an aquarium and learned about sea animals. After that, we wrote short reports in English about what we saw. My teacher said my report was clear and interesting, which made me very happy.
+
+The camp will end next Friday with a talent show. I am going to sing an English song with my roommates. I hope you can join this camp next year.
+
+Best wishes,
+Linda`,
+    questions: [
+        {
+            text: "Where is Linda taking part in the English summer camp?",
+            answer: "In Qingdao."
+        },
+        {
+            text: "What do the students do every morning?",
+            answer: "They have English speaking classes with their teachers."
+        },
+        {
+            text: "What did they do last weekend?",
+            answer: "They visited an aquarium and learned about sea animals."
+        },
+        {
+            text: "When will the camp end?",
+            answer: "Next Friday."
+        },
+        {
+            text: "Translate:“My teacher said my report was clear and interesting, which made me very happy.”",
+            reference: "我的老师说我的报告清晰又有趣，这让我非常高兴。"
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： Where is Linda taking part in the English summer camp?
+
+翻译： Linda 正在哪里参加英语夏令营？
+
+阅读原文： I have been busy these days because I am taking part in a two-week English summer camp in Qingdao.
+
+翻译： 这些天我一直很忙，因为我正在青岛参加一个为期两周的英语夏令营。
+
+分析：
+
+这道题是在问地点。看到问题里的 Where（哪里），我们就要去文章里找表示地点的词。
+请看文章第一段第二句，这里有一个非常关键的短语 in Qingdao（在青岛）。
+这里的 in 是一个介词（就是用来表示位置关系的词），后面跟着地点名，这就是我们要找的答案啦！
+规则：
+
+in + 地点：表示“在某地”。比如 in Beijing（在北京），in the room（在房间里）。
+答案： In Qingdao.
+
+第2题
+题目： What do the students do every morning?
+
+翻译： 学生们每天早上做什么？
+
+阅读原文： Every morning, we have English speaking classes with our teachers.
+
+翻译： 每天早上，我们和老师一起上英语口语课。
+
+分析：
+
+这道题是在问具体的事情。问题里的线索词是 every morning（每天早上）。
+我们拿着这个“放大镜”去文章里找，很快就在第二段第一句发现了同样的词：Every morning。
+后面紧跟着的内容就是答案：have English speaking classes。只要把这个短语抄下来就对了！
+规则：
+
+have classes：意思是“上课”。这里是在讲习惯性的动作，所以用的是一般现在时。
+答案： They have English speaking classes with their teachers.
+
+第3题
+题目： What did they do last weekend?
+
+翻译： 他们上周末做了什么？
+
+阅读原文： Last weekend, we visited an aquarium and learned about sea animals.
+
+翻译： 上周末，我们参观了一个水族馆并了解了海洋动物。
+
+分析：
+
+注意看问题里的时间状语（表示时间的词）：Last weekend（上周末）。
+我们去文章里找这个时间，它在第三段的开头。
+这里的动作是 visited（参观）和 learned（学习/了解）。
+细心的同学会发现，这里的动词后面加了 -ed。这是因为事情已经发生过了，是过去的事。
+规则：
+
+一般过去时：表示过去发生的事情。规则动词后面通常要加 -ed。比如 visit 变成 visited。
+答案： They visited an aquarium and learned about sea animals.
+
+第4题
+题目： When will the camp end?
+
+翻译： 夏令营将在什么时候结束？
+
+阅读原文： The camp will end next Friday with a talent show.
+
+翻译： 夏令营将于下周五以才艺表演的形式结束。
+
+分析：
+
+问题问的是 When（什么时候），这是一个问时间的题。
+同时，问题里还有个词 will，表示“将要”，说明还没发生，是将来的事。
+我们在最后一段找到了 will end（将结束），紧接着后面的时间 next Friday（下周五）就是答案。
+规则：
+
+一般将来时：表示将来要发生的动作。结构通常是 will + 动词原形。
+答案： Next Friday.
+
+翻译题
+题目： Translate:“My teacher said my report was clear and interesting, which made me very happy.”
+
+翻译： 我的老师说我的报告清晰又有趣，这让我非常高兴。
+
+分析：
+
+这句话有两部分，我们把它拆开看就不难了。
+前半句：My teacher said... 意思是“我的老师说……”。说了什么呢？my report was clear and interesting，意思是“我的报告是清晰且有趣的”。这里的 and 连接了两个形容词，表示并列关系。
+后半句：which made me very happy。这里的 which 是一个“连接词”，它指代的是前面发生的整件事（也就是“老师说我的报告好”这件事）。这件事让“我”很开心。
+规则：
+
+make + 人 + 形容词：意思是“让某人觉得……”。比如 make me happy（让我开心），make him sad（让他难过）。
+整体总结
+今天这篇阅读理解，我们复习了几个非常重要的基础语法点，只要你记住了它们，以后做阅读题会越来越顺手：
+
+特殊疑问词：Where 问地点，When 问时间，What 问事情。
+时态的识别：
+看到 every morning，知道是经常做的事（一般现在时）。
+看到 last weekend 和动词加 -ed，知道是过去发生的事（一般过去时）。
+看到 will，知道是将来的事（一般将来时）。
+介词短语：in + 地点，表示“在某地”。
+`
+},
+{
+    article: `In my free time, I work part-time in a small bookstore near my home. I got this job last year, and I still enjoy it very much. I usually arrive at the shop at nine in the morning. The first thing I do is open the windows, clean the tables, and put new books on the shelves.
+
+When customers come in, some of them already know what they want, but others ask me for advice. I like recommending storybooks to children and travel books to adults. Sometimes, a customer returns later and tells me that he or she enjoyed the book I suggested. That always makes me feel proud.
+
+The bookstore is busiest on weekends. On Saturday afternoons, parents often bring their children to the reading corner. I help the children find easy and interesting books, and sometimes I read short stories aloud to them. The shop owner says that I am patient and friendly.
+
+At the end of the day, I feel tired from standing for so many hours, but I am also happy. This job has taught me how to communicate with different people and how to be more responsible.`,
+    questions: [
+        {
+            text: "Where does the writer work part-time?",
+            answer: "In a small bookstore near his home."
+        },
+        {
+            text: "What does the writer do first in the morning?",
+            answer: "He opens the windows, cleans the tables, and puts new books on the shelves."
+        },
+        {
+            text: "When is the bookstore busiest?",
+            answer: "On weekends."
+        },
+        {
+            text: "What has the job taught the writer?",
+            answer: "How to communicate with different people and how to be more responsible."
+        },
+        {
+            text: "Translate:“That always makes me feel proud.”",
+            reference: "那总是让我感到自豪。"
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： Where does the writer work part-time?
+翻译： 作者在哪里做兼职？
+
+阅读原文： In my free time, I work part-time in a small bookstore near my home.
+翻译： 在业余时间，我在我家附近的一家小书店做兼职。
+
+分析：
+这道题问的是地点。我们要像侦探一样找线索词。
+
+找线索：题目里有个很重要的词 “work part-time”（做兼职）。
+定位：我们看文章第一句，是不是也有 “work part-time”？
+逻辑推导：题目问“在哪里”，我们就要看表示地点的词。句子里的 “in a small bookstore”（在一家小书店）就是地点。后面的 “near my home” 是补充说明书店位置的。
+规则：
+这里用到了介词 “in”，表示“在……里面”。以后看到题目问 Where（哪里），我们就要去文章里找像 in, at, on 后面跟着的地点名词。
+
+答案： In a small bookstore near his home.
+
+第2题
+题目： What does the writer do first in the morning?
+翻译： 作者早上第一件事是做什么？
+
+阅读原文： The first thing I do is open the windows, clean the tables, and put new books on the shelves.
+翻译： 我做的第一件事是打开窗户，擦桌子，并把新书放上书架。
+
+分析：
+这道题问的是具体的动作。
+
+找线索：题目里有个超级明显的“路标”词 —— “first”（第一）。
+定位：我们在文章第一段最后一句找到了 “The first thing”。
+逻辑推导：题目问“做什么”，我们要找动词。句子里的动词是 open（打开）、clean（打扫）和 put（放）。这三件事是并列的，都是作者做的事。
+规则：
+这里有一个简单的并列结构，用 and 连接。就像我们说“我要吃苹果、香蕉和梨”，英语里也是用 and 把几个动作连起来。
+
+答案： He opens the windows, cleans the tables, and puts new books on the shelves.
+
+第3题
+题目： When is the bookstore busiest?
+翻译： 书店什么时候最忙？
+
+阅读原文： The bookstore is busiest on weekends.
+翻译： 书店在周末最忙。
+
+分析：
+这道题问的是时间。
+
+找线索：题目里有个关键形容词 “busiest”。这个词长得很特别，后面加了 -est。
+定位：我们扫视文章，在第三段第一句看到了一模一样的词 “busiest”。
+逻辑推导：题目问“When”（什么时候），句子里的 “on weekends”（在周末）就是时间答案。
+规则：
+“busiest” 是形容词 busy（忙）的最高级，意思是“最忙的”。以后看到单词后面加 -est，通常都表示“最……”。另外，表示时间要注意前面的介词 on，比如 on weekends（在周末），on Monday（在周一）。
+
+答案： On weekends.
+
+第4题
+题目： What has the job taught the writer?
+翻译： 这份工作教会了作者什么？
+
+阅读原文： This job has taught me how to communicate with different people and how to be more responsible.
+翻译： 这份工作教会了我如何与不同的人交流，以及如何变得更有责任感。
+
+分析：
+这道题问的是收获。
+
+找线索：题目里有个动词 “taught”，它是 teach（教）的过去式变形。
+定位：文章最后一句刚好有 “This job has taught me…”。
+逻辑推导：题目问“教了什么”，答案就在 “taught me” 后面。后面跟着两个 “how to…”（如何……），这就是学到的具体内容。
+规则：
+这里有个结构叫 “疑问词+to do”。比如 how to communicate（如何去交流）。这是一种很常用的表达，意思是“怎么做某事”。不用管复杂的语法名词，记住 “how to + 动作” 就可以了。
+
+答案： How to communicate with different people and how to be more responsible.
+
+第5题
+题目： Translate:“That always makes me feel proud.”
+翻译： 那总是让我感到自豪。
+
+阅读原文： That always makes me feel proud.
+翻译： 那总是让我感到自豪。
+
+分析：
+这是一句很简单的主动句。
+
+That：代词，指代前面提到的事情（顾客回来夸书好看）。
+always：频率副词，意思是“总是”。
+makes me feel proud：这是核心。make sb. do sth.（让某人做某事）。这里 sb. 是 me，do sth. 是 feel（感觉）。proud 是形容词，意思是“自豪的”。
+规则：
+这里有个重要句型：make + 人 + 动词原形。比如：Music makes me dance（音乐让我跳舞）。注意这里的 dance 没有变形，用的是原形。
+
+答案： 那总是让我感到自豪。
+
+整体总结
+同学，你看，其实这篇文章并不难，对吧？我们主要复习了这几个核心点：
+
+特殊疑问词的用法：看到 Where 找地点，看到 When 找时间，看到 What 找动作或事物。
+形容词最高级：像 busiest 这种加 -est 的词，表示“最……”。
+介词短语：in a bookstore（在书店里），on weekends（在周末），这些小词能帮我们锁定地点和时间。
+固定搭配：make sb. do sth.（让某人做某事），后面的动词要用原形哦。
+`
+},
+{
+    article: `During the winter holiday, Li Hua noticed that his grandmother often sat alone in the living room. Her friends lived far away, and she felt lonely. Li Hua decided to do something to help her. He bought a new smartphone for his grandmother with his saved pocket money.
+
+At first, the grandmother was afraid to use it. She thought it was too difficult for an old person. But Li Hua was very patient. He spent two hours every afternoon teaching her how to make video calls, send voice messages, and read the news online.
+
+A week later, the grandmother could use the smartphone easily. Now, she makes video calls with her old friends every evening. She also shares photos of her daily life with her family members. She told Li Hua, "I feel like I am young again." Li Hua was very happy. Technology can bring families closer, no matter the distance.`,
+    questions: [
+        {
+            text: "Who did Li Hua buy the smartphone for?",
+            answer: "His grandmother."
+        },
+        {
+            text: "How did the grandmother feel at first?",
+            answer: "She was afraid to use it."
+        },
+        {
+            text: "How much time did Li Hua spend teaching her every afternoon?",
+            answer: "Two hours."
+        },
+        {
+            text: "What does the grandmother do with her old friends every evening now?",
+            answer: "She makes video calls with her old friends every evening."
+        },
+        {
+            text: "Translate the underlined sentence into Chinese: \"Technology can bring families closer, no matter the distance.\"",
+            reference: "无论距离多远，科技都能拉近家人的距离。"
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： Who did Li Hua buy the smartphone for?
+
+翻译： 李华为谁买了这部智能手机？
+
+阅读原文： He bought a new smartphone for his grandmother with his saved pocket money.
+
+翻译： 他用攒下的零花钱为他的祖母买了一部新智能手机。
+
+分析：
+
+这道题问的是“为谁买”，也就是我们要找一个“人”。
+请看句子里有个关键词 for（为），顺着 for 往后看，就是受益的人。
+前面第一句也提到了 "his grandmother"（他的祖母），这也是一个线索，说明故事是围绕奶奶展开的。
+规则：
+
+特殊疑问词 Who：意思是“谁”，专门用来问人。看到 Who，我们就要去文章里找人名或者称呼（比如 grandmother, Li Hua）。
+答案： His grandmother.
+
+第二题
+题目： How did the grandmother feel at first?
+
+翻译： 奶奶起初感觉如何？
+
+阅读原文： At first, the grandmother was afraid to use it.
+
+翻译： 起初，祖母不敢（害怕）使用它。
+
+分析：
+
+题目里的关键词是 at first（起初），这是一个时间状语，告诉我们事情发生的时间节点。
+我们在原文第二段第一句也找到了 At first。这就像是个路标，答案就在这就话里。
+原文说 "she thought it was too difficult"（她觉得太难了），所以她的感受是 "afraid"（害怕/不敢）。
+规则：
+
+时间状语：就是表示时间的词，比如 at first（起初）, now（现在）, yesterday（昨天）。它们能帮我们定位事情发生的顺序。
+be afraid to do something：意思是“害怕做某事”或“不敢做某事”。
+答案： She was afraid to use it.
+
+第三题
+题目： How much time did Li Hua spend teaching her every afternoon?
+
+翻译： 李华每天下午花多少时间教她？
+
+阅读原文： He spent two hours every afternoon teaching her...
+
+翻译： 他每天下午花两个小时教她……
+
+分析：
+
+题目里的关键词是 How much time（多少时间）和 every afternoon（每天下午）。
+带着这两个线索去文中找，你会发现文中也有一模一样的 every afternoon。
+在这个词组前面，就是表示时间的数字：two hours（两小时）。
+规则：
+
+How much time：专门用来询问时间的长短。回答通常是 "For + 时间段" 或者直接说时间段（如 Two hours）。
+spend time doing something：这是一个固定搭配，意思是“花费时间做某事”。文中用的是 teaching，因为前面有 spend time，所以动词 teach 变成了 teaching。
+答案： Two hours.
+
+第四题
+题目： What does the grandmother do with her old friends every evening now?
+
+翻译： 奶奶现在每天傍晚和老朋友们做什么？
+
+阅读原文： Now, she makes video calls with her old friends every evening.
+
+翻译： 现在，她每天傍晚和老朋友们打视频电话。
+
+分析：
+
+题目里的线索词有三个：now（现在）、old friends（老朋友）、every evening（每天傍晚）。
+我们在第三段找到了这句话，里面这三个词都出现了。
+题目问“做什么”，也就是问动作。在这个句子里，动作就是 makes video calls。
+规则：
+
+一般现在时：文中用了 "makes"（而不是 made），表示这是现在经常发生的动作。因为奶奶已经学会了，所以是习惯性的动作。
+make video calls：打视频电话。
+答案： She makes video calls with her old friends every evening.
+
+第五题
+题目： Translate the underlined sentence into Chinese: "Technology can bring families closer, no matter the distance."
+
+翻译： 无论距离多远，科技都能拉近家人的距离。
+
+分析：
+
+我们把句子拆开来看：
+Technology：科技。
+can bring families closer：can（能）+ bring（带来/使得）+ families（家人）+ closer（更亲近）。合起来就是“能让家人更亲近”。
+no matter the distance：no matter（无论/不管）+ the distance（距离）。这就是“无论距离多远”。
+规则：
+
+no matter：意思是“无论；不管”，后面常跟疑问词或者名词，表示条件不重要。
+bring + 名词 + 形容词：意思是“使……处于某种状态”。比如 bring families closer（使家人更亲近）。
+答案： 无论距离多远，科技都能拉近家人的距离。
+
+整体总结
+今天的文章虽然不长，但包含了几个很重要的基础语法点，我们一起来复习一下：
+
+一般过去时：故事主体（李华买手机、教奶奶）都发生在过去，所以动词用了 bought (买)、thought (想)、spent (花费)。记住：讲故事通常用过去时。
+固定搭配 spend time doing：意思是“花费时间做某事”。文中是 spent... teaching，这是考试中的高频考点。
+时间状语的定位作用：At first（起初）、Now（现在）、every afternoon（每天下午）这些词就像路标，能帮我们迅速在文章里找到对应的答案。
+疑问词的选择：
+Who 问人
+How 问方式或感受
+How much time 问时间长短
+What 问动作或事物
+`
+},
+{
+    article: `When Mary first entered university, she was a very shy girl. She rarely spoke in public and was afraid of making mistakes. One day, her English teacher suggested that she join the university's English Speaking Club.
+
+Mary was nervous but decided to give it a try. At the club, she met many friendly students. They didn't laugh at her when she pronounced words incorrectly. Instead, they encouraged her and helped her practice. The club members met every Wednesday afternoon in the library to discuss different topics.
+
+After one semester, Mary changed completely. She was no longer the shy girl who hid in the corner. Last month, she even took part in a speech contest and won second prize. She learned that facing fears is the first step to success. She was deeply thankful for the support from her friends and teacher.`,
+    questions: [
+        {
+            text: "What kind of girl was Mary when she first entered university?",
+            answer: "A very shy girl."
+        },
+        {
+            text: "Who suggested that Mary join the English Speaking Club?",
+            answer: "Her English teacher."
+        },
+        {
+            text: "When did the club members meet to discuss topics?",
+            answer: "Every Wednesday afternoon."
+        },
+        {
+            text: "What prize did Mary win in the speech contest last month?",
+            answer: "Second prize."
+        },
+        {
+            text: "Translate the underlined sentence into Chinese: \"She was deeply thankful for the support from her friends and teacher.\"",
+            reference: "她非常感谢朋友和老师对她的支持。"
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： What kind of girl was Mary when she first entered university?
+
+翻译： Mary刚进大学时是个什么样的女孩？
+
+阅读原文： When Mary first entered university, she was a very shy girl.
+
+翻译： 当Mary第一次进入大学时，她是一个非常害羞的女孩。
+
+分析：
+这道题是在考我们“找细节”的能力。
+
+先看题目里的关键词 "first entered university"（第一次进入大学），这就像是一个路标。
+带着这个路标去文章里找，一眼就能看到文章的第一句就有这几个词。
+题目问“是什么样的女孩”，文章紧接着就说 "she was a very shy girl"（她是一个非常害羞的女孩）。
+所以，答案直接就在这句话里，把它摘抄下来就可以啦。
+规则：
+这道题体现了原文定位的原则。做阅读理解时，一定要先看题目里的时间、地点、人物等关键词，然后回到原文去找包含这些词的句子，答案往往就在那句话里，甚至都不需要你自己去编。
+
+答案： A very shy girl.
+
+第2题
+题目： Who suggested that Mary join the English Speaking Club?
+
+翻译： 谁建议Mary加入英语演讲俱乐部？
+
+阅读原文： One day, her English teacher suggested that she join the university's English Speaking Club.
+
+翻译： 有一天，她的英语老师建议她加入大学的英语演讲俱乐部。
+
+分析：
+这道题考的是“谁做的动作”。
+
+题目里的核心动词是 "suggested"（建议），核心事件是 "join the English Speaking Club"（加入英语演讲俱乐部）。
+我们去文章里找这两样东西。在第一段的最后一句，我们看到了 "suggested" 和 "English Speaking Club"。
+既然问的是“谁”，我们就看句子的主语，也就是动词前面是谁。原文写的是 "her English teacher"（她的英语老师）。
+注意哦，不要只写 "teacher"，最好写完整 "Her English teacher"，这样才严谨。
+规则：
+这里有个语法点想跟你提一下，原文里有一个短语 "suggested that she join"。你看这里的 join 用的是原形。这是因为 suggest（建议）是一个特殊的词，它后面如果跟着“某人做某事”，那个“做”要用动词原形（术语叫“虚拟语气”）。你以后看到 suggest，记得它有这个“特权”就行，做题时能认出它就好。
+
+答案： Her English teacher.
+
+第3题
+题目： When did the club members meet to discuss topics?
+
+翻译： 俱乐部成员什么时候聚在一起讨论话题？
+
+阅读原文： The club members met every Wednesday afternoon in the library to discuss different topics.
+
+翻译： 俱乐部成员每个周三下午在图书馆聚会讨论不同的话题。
+
+分析：
+这道题考的是“时间”。
+
+题目里的关键词是 "When"（什么时候）和 "meet"（聚会）、"discuss topics"（讨论话题）。
+我们在第二段里找，很快就能发现 "The club members met..." 这一句。
+题目问时间，我们就在句子里找表示时间的词。你看，"met" 后面紧跟着 "every Wednesday afternoon"（每个周三下午）。
+这就是我们要找的时间状语，直接把它作为答案写下来。
+规则：
+一般过去时。原文里用了 "met"（meet的过去式），说明这是过去发生的事情。题目问 "When did..." 也是过去时的提问。做这种题，只要对上了号，答案就是现成的。
+
+答案： Every Wednesday afternoon.
+
+第4题
+题目： What prize did Mary win in the speech contest last month?
+
+翻译： Mary上个月在演讲比赛中赢得了什么奖？
+
+阅读原文： Last month, she even took part in a speech contest and won second prize.
+
+翻译： 上个月，她甚至参加了一场演讲比赛并获得了二等奖。
+
+分析：
+这道题考的是“具体的事物/结果”。
+
+锁定题目里的关键词 "last month"（上个月）和 "speech contest"（演讲比赛）。
+我们去文章最后一段找，看到了 "Last month" 开头的句子。
+题目问“什么奖”（What prize），我们就在句子里找和 "prize" 或者 "win"（赢得）相关的词。
+原文写的是 "won second prize"（赢得了二等奖）。所以答案就是 "second prize"。
+规则：
+这里涉及到了短语 "take part in"，意思是“参加”。原文里 "took part in" 是过去式。句子里的 "won second prize" 是一个很常用的搭配，“赢得二等奖”。记住，数字序数词（比如 second）经常用来修饰 prize（奖品）。
+
+答案： Second prize.
+
+第5题
+题目： Translate the underlined sentence into Chinese: "She was deeply thankful for the support from her friends and teacher."
+
+翻译： 请将划线句子翻译成中文：“她非常感谢朋友和老师对她的支持。”
+
+阅读原文： She was deeply thankful for the support from her friends and teacher.
+
+分析：
+翻译句子虽然看起来难，但我们把它拆成三小块来看：
+
+"She was deeply thankful"：She 是“她”，was 是“是”，deeply 是“深深地”，thankful 是“感激的/感谢的”。合起来就是“她深深地感到感激”。我们中国人习惯说“她非常感谢”或者“她深表感激”。
+"for the support"：for 在这里表示原因，“因为...”；support 意思是“支持”。所以是“因为支持”。
+"from her friends and teacher"：from 是“来自”，friends 是“朋友”，teacher 是“老师”。合起来是“来自她的朋友和老师”。
+整合逻辑：
+她因为来自朋友和老师的支持而深深地感激。
+→ 润色成通顺的中文：她非常感谢朋友和老师对她的支持。
+
+规则：
+这里有一个很重要的固定搭配，请一定要拿小本本记下来：be thankful for...，意思是“因……而感激”或者“对……表示感谢”。以后看到 "thankful"，后面十有八九跟着 "for"。
+
+答案： 她非常感谢朋友和老师对她的支持。
+
+整体总结
+你看，做完这五道题，是不是发现并没有想象中那么难？我们这篇阅读理解主要涉及了以下几个核心点，老师帮你梳理一下：
+
+原文定位法：做阅读题，最重要就是像我们刚才那样，拿着题目里的“路标词”（时间、人名、动词）回文章里找原话，答案通常就在那一句里。
+一般过去时：整篇文章都在讲故事，所以动词大部分都是过去式（比如 entered, suggested, met, won）。看到这些词的变化，要知道它们是在讲过去发生的事。
+固定搭配：
+suggest that... (should) do：建议某人做某事（动词用原形）。
+take part in：参加。
+be thankful for：因……而感激。
+`
+},
+{
+    article: `Dear Peter,
+
+How is everything going? I am writing to tell you about my wonderful trip to Xi'an last week. As you know, I have always been interested in Chinese history, and this trip was a dream come true for me.
+
+I went there with my parents by high-speed train. It only took us about five hours from Beijing. The city is amazing! On the first day, we visited the Terracotta Army (兵马俑). I was shocked by the life-sized figures of soldiers and horses. They look so real!
+
+On the second day, we rode bicycles on the Ancient City Wall. The weather was perfect—sunny with a gentle breeze. In the evening, we went to a famous street and tried lots of local food. The noodles there were the most delicious food I have ever eaten.
+
+I bought a small gift for you and I will give it to you when we meet next week.
+
+Best wishes,
+Jack`,
+    questions: [
+        {
+            text: "Where did Jack go for his trip last week?",
+            answer: "To Xi'an."
+        },
+        {
+            text: "How did Jack and his parents travel there?",
+            answer: "By high-speed train."
+        },
+        {
+            text: "What did they do on the Ancient City Wall?",
+            answer: "They rode bicycles."
+        },
+        {
+            text: "When will Jack give the small gift to Peter?",
+            answer: "When they meet next week."
+        },
+        {
+            text: "Translate the underlined sentence into Chinese: \"The noodles there were the most delicious food I have ever eaten.\"",
+            reference: "那里的面条是我吃过的最好吃的食物。"
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： Where did Jack go for his trip last week?
+翻译： 杰克上周去哪里旅行了？
+
+阅读原文： I am writing to tell you about my wonderful trip to Xi’an last week.
+翻译： 我写信是想告诉你我上周去西安的美妙旅程。
+
+分析：
+
+这道题在问“地点”。
+我们要在原文里找“线索词”。题目里有个很重要的词 last week（上周）。
+带着这个词去文中找，你会发现文章第一段最后一句话正好有 last week。
+这句话里有个词组 trip to…，意思是“去……的旅行”。跟在 to 后面的那个地名，就是目的地。
+所以，Xi’an 就是我们需要的答案。
+规则：
+
+Where 是疑问词，专门用来问“哪里”。
+trip to + 地点：这是一个固定搭配，表示“去某地的旅行”。这里的 to 表示方向。
+答案： To Xi’an.
+
+第二题
+题目： How did Jack and his parents travel there?
+翻译： 杰克和他父母是怎么去那里的？
+
+阅读原文： I went there with my parents by high-speed train.
+翻译： 我和父母坐高铁去了那里。
+
+分析：
+
+这道题在问“交通方式”。
+题目里的线索词是 parents（父母）。
+我们在文中找到第二段第一句，里面有 with my parents（和我父母），这就对上号了。
+这句话后面有个 by，这是个大线索！by 后面通常接交通工具。
+by high-speed train 意思就是“乘坐高铁”。
+规则：
+
+How 是疑问词，专门问“怎么做”或“方式”。
+by + 交通工具：这是英语里表达“乘坐某种交通工具”最常用的方式。比如 by bus（坐公交），by bike（骑自行车）。
+答案： By high-speed train.
+
+第三题
+题目： What did they do on the Ancient City Wall?
+翻译： 他们在古城墙上做了什么？
+
+阅读原文： On the second day, we rode bicycles on the Ancient City Wall.
+翻译： 第二天，我们在古城墙上骑了自行车。
+
+分析：
+
+这道题在问“做了什么事”。
+题目里的关键线索是地点 Ancient City Wall（古城墙）。
+我们在文中第三段第一句找到了这个词。
+这时候要看这个词前面的动词。前面的动作是 rode bicycles。
+虽然你可能不认识 rode，但你也一定认识 bicycles（自行车）！看到自行车，那动作肯定就是“骑”啦。
+规则：
+
+What 是疑问词，问“什么”。
+rode 是 ride（骑）的过去式。因为这件事发生在“第二天”，是过去的事，所以动词要变形。这就叫过去式，表示动作发生在过去。
+答案： They rode bicycles.
+
+第四题
+题目： When will Jack give the small gift to Peter?
+翻译： 杰克什么时候会把小礼物给彼得？
+
+阅读原文： I will give it to you when we meet next week.
+翻译： 下周我们见面时我会把它（礼物）给你。
+
+分析：
+
+这道题在问“时间”。
+题目里有线索词 gift（礼物）和 give（给）。
+我们在文中最后一段找到了 give it to you，这里的 it 指的就是前面的礼物。
+后面紧接着就是一个时间状语从句：when we meet next week（当我们下周见面时）。
+题目问“什么时候”，我们就把这个时间状语摘出来即可。
+规则：
+
+When 是疑问词，问“什么时候”。
+will 表示“将来”，意思是“将要”。看到 will，你就知道这事还没发生，是未来的打算。
+答案： When they meet next week.
+
+第五题
+题目： Translate the underlined sentence into Chinese: “The noodles there were the most delicious food I have ever eaten.”
+翻译： 那里的面条是我吃过的最好吃的食物。
+
+分析：
+
+这句话稍微有点长，我们把它切开来吃。
+第一部分：The noodles there。核心词是 noodles（面条）。there 是后置定语，修饰面条，意思是“那里的面条”。
+第二部分：were。它是 are 的过去式，意思是“是”。
+第三部分：the most delicious food。这是句子的重点。delicious 是“美味的”，the most delicious 是它的最高级，意思是“最美味的”。合起来就是“最美味的食物”。
+第四部分：I have ever eaten。这是一个小尾巴，跟在 food 后面修饰它。意思是“我曾经吃过的”。
+规则：
+
+最高级：当我们在形容词后面加上 most，前面加上 the，就表示“最……”。比如 the most beautiful（最漂亮的）。
+I have ever eaten 是一个从句，这里你只需要知道它是用来强调范围的，意思是“在我吃过的所有东西里”。
+答案： 那里的面条是我吃过的最好吃的食物。
+
+整体总结
+你看，其实也没那么难对不对？我们刚才其实复习了这几个核心语法点，记住它们，以后做题更轻松：
+
+特殊疑问词：Where 问地点，How 问方式，When 问时间，What 问做什么。看到这些词开头，就要去文中找对应的信息。
+介词 by：by + 交通工具，表示“乘坐……”，这是一个非常实用的固定搭配。
+过去式：文章讲的是上周的事，所以动词像 go 变成了 went，ride 变成了 rode。看到这些变形，要知道它是在讲过去发生的事。
+形容词最高级：the most + 形容词，表示“最……”。比如文中的 the most delicious（最美味的）。
+`
+},
+{
+    article: `Last Saturday morning, a group of college students decided to do something meaningful for their city. Instead of staying in bed or playing computer games, they went to the central park to pick up rubbish.
+
+They arrived at the park at 8:00 AM. The leader divided them into four small teams. Each team was given plastic bags and gloves. They worked hard, picking up empty bottles, paper, and plastic bags from the grass and near the lake.
+
+While they were working, many people walking in the park saw them. A little boy even ran over to help them pick up a bottle. By noon, the students had collected over twenty bags of rubbish. Though they felt very tired, their hearts were full of joy. They hope more people will take action to protect our environment.`,
+    questions: [
+        {
+            text: "When did the college students go to the central park?",
+            answer: "Last Saturday morning."
+        },
+        {
+            text: "Why did the students go to the park?",
+            answer: "To pick up rubbish."
+        },
+        {
+            text: "What was each team given?",
+            answer: "Plastic bags and gloves."
+        },
+        {
+            text: "How many bags of rubbish did they collect by noon?",
+            answer: "Over twenty bags of rubbish."
+        },
+        {
+            text: "Translate the underlined sentence into Chinese: \"They hope more people will take action to protect our environment.\"",
+            reference: "他们希望更多的人能采取行动保护我们的环境。"
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： When did the college students go to the central park?
+
+翻译： 这些大学生是什么时候去中心公园的？
+
+阅读原文： "Last Saturday morning, a group of college students decided to do something meaningful for their city. Instead of staying in bed or playing computer games, they went to the central park to pick up rubbish."
+
+翻译： 上周六早上，一群大学生决定为他们的城市做些有意义的事情。他们没有赖床或玩电脑游戏，而是去了中心公园捡垃圾。
+
+分析：
+
+这是一道典型的时间细节题。题目里的关键词是 When（什么时候）。
+我们要带着关键词去文章里“寻宝”。题目问的是“go to the central park”（去中心公园），我们在第二句找到了这个动作。
+往前看一眼，句首有一个非常明显的时间状语：Last Saturday morning。这就是我们要找的时间点。
+规则：
+
+特殊疑问词：看到 When 提问，答案一定要是一个表示时间的词或短语，比如“yesterday”（昨天）、“at 8:00”（在8点）等。
+答案： Last Saturday morning.
+
+第2题
+题目： Why did the students go to the park?
+
+翻译： 学生们为什么去公园？
+
+阅读原文： "...they went to the central park to pick up rubbish."
+
+翻译： ……他们去了中心公园（是为了）捡垃圾。
+
+分析：
+
+这是一道原因/目的题。关键词是 Why（为什么）。
+文章里说 "they went to the central park"（他们去了公园），紧接着后面跟着一个 to pick up rubbish。
+这里的 to 是一个非常关键的线索词，它在这里表示目的，意思是“为了”。
+规则：
+
+不定式表目的：简单来说，就是用 to + 动词 来表示“去做某事”。比如 "to eat"（去吃/为了吃），"to play"（去玩/为了玩）。这里 "to pick up rubbish" 就是“为了捡垃圾”，这就是他们去公园的目的。
+答案： To pick up rubbish.
+
+第3题
+题目： What was each team given?
+
+翻译： 每个小组被分发了什么？
+
+阅读原文： "Each team was given plastic bags and gloves."
+
+翻译： 每个小组被分发了塑料袋和手套。
+
+分析：
+
+这是一道细节题。关键词是 What（什么东西）。
+我们在文章里找到 "Each team"（每个小组）和 "given"（给）这两个词。
+往后一看，答案直接就写在后面了：plastic bags and gloves。
+规则：
+
+被动语态：题目和原文里都用了 "was given" 这种形式。这叫“被动语态”，通俗点说就是“被给”。如果是主动语态，就是“某人给了他们东西”；被动语态就是“他们被给了东西”。对于基础差的同学，只要知道这里强调的是他们拿到了什么东西就行。
+答案： Plastic bags and gloves.
+
+第4题
+题目： How many bags of rubbish did they collect by noon?
+
+翻译： 到中午为止，他们收集了多少袋垃圾？
+
+阅读原文： "By noon, the students had collected over twenty bags of rubbish."
+
+翻译： 到中午的时候，学生们已经收集了超过二十袋垃圾。
+
+分析：
+
+这是一道数字细节题。关键词是 How many（多少）和 by noon（到中午）。
+我们在文章里快速找到 "By noon" 这个时间点。
+接着往后读，看到了 "bags of rubbish"（袋垃圾），前面的数字就是答案：over twenty。
+规则：
+
+Over的用法：这里的 over 不是“在……上面”的意思，而是表示数量，意思是“超过”、“多于”，相当于 "more than"。
+答案： Over twenty bags of rubbish.
+
+第5题
+题目： Translate the underlined sentence into Chinese: "They hope more people will take action to protect our environment."
+
+翻译： 他们希望更多的人能采取行动保护我们的环境。
+
+阅读原文： They hope more people will take action to protect our environment.
+
+分析：
+
+这是一道翻译题。我们把句子拆成小块来看：
+They hope：他们希望。（hope是“希望”的意思）
+more people：更多的人。（more是“更多”）
+will take action：将要采取行动。（will表示“将要”，take action是一个固定搭配，叫“采取行动”）。
+to protect our environment：去保护我们的环境。（to在这里又是表目的，protect是“保护”，environment是“环境”）。
+规则：
+
+宾语从句：这里的 "more people... environment" 整个一大段都是跟着 hope 的，作 hope 的宾语。简单理解就是：他们希望（一件事情）。这件事情的内容就是“更多人采取行动”。
+固定搭配：take action 是考试常客，一定要记住是“采取行动”的意思，别翻译成“拿动作”。
+答案： 他们希望更多的人能采取行动保护我们的环境。
+
+整体总结
+同学，你看，只要静下心来，是不是觉得其实也没那么难？我们来总结一下这篇短文涉及的几个核心语法点：
+
+特殊疑问词的用法：看到 When 找时间，看到 Why 找原因/目的，看到 How many 找数量。
+动词不定式：to + 动词 常用来表示目的，翻译成“为了做……”或“去做……”。
+被动语态：be + 动词过去分词（比如 was given），表示“被……”。
+重点短语：take action（采取行动），pick up（捡起）。
+`
+},
+{
+    article: `Last summer, Lisa decided to volunteer at an old people's home near her neighborhood. She had always wanted to help others, but she never had the chance before. When she walked into the building for the first time, she felt a little nervous.
+
+The manager, Mrs. Wang, welcomed her warmly and showed her around the home. Lisa was introduced to several elderly residents. Some of them were sitting quietly in the garden, while others were reading books in the common room. Mrs. Wang asked Lisa to spend time talking with the residents and help them with simple daily tasks.
+
+At first, Lisa didn't know what to say. But soon, an old man named Mr. Chen started telling her stories about his youth. He talked about how he had traveled across the country by train when he was young. Lisa listened carefully and found his stories truly fascinating. As the days went by, Lisa built close friendships with many of the residents.
+
+One afternoon, Mr. Chen gave Lisa a small painting he had made himself. "Thank you for listening to me," he said with a gentle smile. "You have brought sunshine into my days." Lisa was deeply touched by his words.
+
+By the end of the summer, Lisa realized that volunteering was not just about helping others. It was also a wonderful way to learn from older people and understand the true meaning of kindness. She decided to continue visiting the home every weekend, even after school started again.`,
+    questions: [
+        {
+            text: "Where did Lisa volunteer last summer?",
+            answer: "At an old people's home near her neighborhood."
+        },
+        {
+            text: "What did Mrs. Wang ask Lisa to do?",
+            answer: "To spend time talking with the residents and help them with simple daily tasks."
+        },
+        {
+            text: "What did Mr. Chen give Lisa one afternoon?",
+            answer: "A small painting he had made himself."
+        },
+        {
+            text: "What did Lisa decide to do after the summer ended?",
+            answer: "She decided to continue visiting the home every weekend."
+        },
+        {
+            text: "Translate the underlined sentence into Chinese.\"It was also a wonderful way to learn from older people and understand the true meaning of kindness.\"",
+            reference: "这也是一种向老年人学习并理解善良真谛的极好方式。"
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： Where did Lisa volunteer last summer?
+
+翻译： 去年夏天，丽莎在哪里做志愿者？
+
+阅读原文： Last summer, Lisa decided to volunteer at an old people's home near her neighborhood.
+
+翻译： 去年夏天，丽莎决定去她社区附近的一家敬老院做志愿者。
+
+分析：
+
+这道题在问“地点”。
+我们要像侦探一样找线索。题目里的关键词是 Last summer（去年夏天）和 Lisa。
+我们回到文章第一段第一句，一下子就抓住了 Last summer 这个时间状语（表示时间的词）。
+接着往后看，发现 volunteer（做志愿者）这个词，后面紧跟的地点就是答案啦！
+规则：
+
+这里的 an old people's home 意思是“一家敬老院”。Home 大家都知道是“家”的意思，这里指代老人的居住场所。
+答案： At an old people's home near her neighborhood.
+
+第二题
+题目： What did Mrs. Wang ask Lisa to do?
+
+翻译： 王女士让丽莎做什么？
+
+阅读原文： Mrs. Wang asked Lisa to spend time talking with the residents and help them with simple daily tasks.
+
+翻译： 王女士让丽莎花时间和老人们聊天，并帮助他们完成简单的日常任务。
+
+分析：
+
+这道题在问“做什么事情”。
+抓住关键词 Mrs. Wang 和 Lisa。我们顺着文章往下看，在第二段找到了 Mrs. Wang。
+句子里有个非常重要的结构：asked Lisa to...（让丽莎去……）。
+后面紧接着的两件事就是答案：一是 talking with the residents（和居民聊天），二是 help them（帮助他们）。
+规则：
+
+Ask someone to do something 意思是“让某人做某事”。这里的 to 后面接动词原形，表示动作。
+Residents 这个词可能有点难，在这个语境下，指的是住在敬老院里的“居民”或者“老人”。
+答案： To spend time talking with the residents and help them with simple daily tasks.
+
+第三题
+题目： What did Mr. Chen give Lisa one afternoon?
+
+翻译： 一个下午，陈先生给了丽莎什么？
+
+阅读原文： One afternoon, Mr. Chen gave Lisa a small painting he had made himself.
+
+翻译： 一天下午，陈先生给了丽莎一幅他自己画的小画。
+
+分析：
+
+这道题在问“什么东西”。
+我们要找时间线索词 One afternoon（一天下午）和人物 Mr. Chen。
+在第四段第一句，我们看到了 gave Lisa...（给了丽莎……）。
+Gave 是 give（给）的过去式。给的东西就是后面的 a small painting（一幅小画）。
+规则：
+
+Give someone something 是一个双宾语结构，就是“给某人某物”。这里 Lisa 是人，painting 是物。
+后面的 he had made himself 是修饰这幅画的，意思是“他自己亲手做的”，核心词就是 painting。
+答案： A small painting he had made himself.
+
+第四题
+题目： What did Lisa decide to do after the summer ended?
+
+翻译： 夏天结束后，丽莎决定做什么？
+
+阅读原文： She decided to continue visiting the home every weekend, even after school started again.
+
+翻译： 她决定继续在每个周末去敬老院，即使在开学后也是如此。
+
+分析：
+
+这道题问的是“夏天结束后的决定”。
+我们要跳到文章的最后一段，也就是结尾的地方。
+找到关键词 decided（决定）。
+Decided to... 后面接的就是决定要做的事：continue visiting（继续拜访）。
+规则：
+
+Decide to do something 意思是“决定做某事”。这是一个非常高频的短语，一定要记住哦！
+Continue 意思是“继续”，后面常加动词的-ing形式，表示“继续做某事”。
+答案： She decided to continue visiting the home every weekend.
+
+第五题
+题目： Translate the underlined sentence into Chinese. "It was also a wonderful way to learn from older people and understand the true meaning of kindness."
+
+翻译： 翻译划线句子。
+
+阅读原文： It was also a wonderful way to learn from older people and understand the true meaning of kindness.
+
+翻译： 这也是一种向老年人学习并理解善良真谛的极好方式。
+
+分析：
+
+我们来把这个长句子拆解一下，变成短句子就好懂了。
+It was also... 意思是“它也是……”。
+a wonderful way 意思是“一种极好的方式”。
+to learn from older people 意思是“向老年人学习”。
+and understand... 意思是“并且理解……”。
+the true meaning of kindness 意思是“善良的真正含义（真谛）”。
+规则：
+
+这句话用了 It is/was a way to do... 的句型，意思是“这是做……的一种方式”。
+Meaning 是“意思、含义”，Kindness 是名词“善良”，形容词是 kind（善良的）。
+答案： 这也是一种向老年人学习并理解善良真谛的极好方式。
+
+整体总结
+做完这篇阅读理解，我们复习了几个很重要的核心语法点：
+
+一般过去时：文章主要在讲故事，所以动词多用过去式，比如 decided, walked, gave, said。大家看到这些词要知道事情已经发生了。
+不定式结构：我们见到了很多 to do 的形式，比如 decided to volunteer（决定去做志愿者），asked Lisa to spend（让丽莎去度过时光）。记住：to 后面接动词原形，通常表示目的或打算。
+并列关系：在翻译题中，我们看到 learn... and understand...，这是用 and 连接的两个动作，表示“既学习……又理解……”。
+`
+},
+{
+    article: `Dear Mom,
+
+I hope you and Dad are doing well. I'm writing to tell you about my new life in Shanghai. I arrived here two weeks ago, and everything has been exciting so far.
+
+My new apartment is small but comfortable. It is on the 12th floor of a tall building, and I can see the river from my bedroom window. The neighborhood is very convenient, with supermarkets, restaurants, and a subway station all within walking distance.
+
+I started my new job at a marketing company last Monday. My colleagues are very friendly and helpful. On my first day, a girl named Lily showed me around the office and introduced me to everyone. My manager told me that he was impressed by my performance during the interview and expected me to do well in the team.
+
+The only thing I'm not used to is the weather here. It has been very hot and humid, quite different from our hometown. I drink lots of water every day and try to stay indoors during the hottest hours.
+
+I miss you and Dad very much. I plan to come home for the Mid-Autumn Festival in September. Please take care of yourselves. I will call you this weekend.
+
+With love,
+Xiaoming`,
+    questions: [
+        {
+            text: "When did Xiaoming arrive in Shanghai?",
+            answer: "Two weeks ago."
+        },
+        {
+            text: "What can Xiaoming see from his bedroom window?",
+            answer: "The river."
+        },
+        {
+            text: "Who showed Xiaoming around the office on his first day?",
+            answer: "A girl named Lily."
+        },
+        {
+            text: "What is Xiaoming not used to in Shanghai?",
+            answer: "The weather there."
+        },
+        {
+            text: "Translate the underlined sentence into Chinese.\"My manager told me that he was impressed by my performance during the interview and expected me to do well in the team.\"",
+            reference: "我的经理告诉我，他对我面试时的表现印象深刻，并期望我在团队中表现出色。"
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： When did Xiaoming arrive in Shanghai?
+
+翻译： 小明是什么时候到达上海的？
+
+阅读原文： I arrived here two weeks ago, and everything has been exciting so far.
+
+翻译： 我两周前到达这里，到目前为止一切都很令人兴奋。
+
+分析：
+
+这是一道细节理解题。题目里的关键词是 When（什么时候）。
+我们要在信里找“到达”这个词，也就是 arrived。
+找到句子后，看它后面跟着的时间状语（表示时间的词）。这里紧跟着的就是 two weeks ago（两周前）。
+很多同学容易搞混 “two weeks ago”（两周前）和 “for two weeks”（已经两周了），这里强调的是“到达”这个动作发生在过去的时间点。
+规则：
+
+一般过去时：句子里的动词用了过去式，表示过去发生的动作。比如这里的 arrived 就是 arrive 的过去式。看到 ago（以前）这个词，通常就要用一般过去时。
+答案： Two weeks ago.
+
+第二题
+题目： What can Xiaoming see from his bedroom window?
+
+翻译： 小明从卧室窗户能看到什么？
+
+阅读原文： It is on the 12th floor of a tall building, and I can see the river from my bedroom window.
+
+翻译： 它在一栋高楼的三楼，我可以从卧室窗户看到那条河。
+
+分析：
+
+这也是一道细节理解题。题目里的关键词是 What（什么东西）和 bedroom window（卧室窗户）。
+我们拿着“bedroom window”这个“探测器”去文章里找，很快就在第二段找到了。
+句子说 “I can see the river from my bedroom window”（我可以从卧室窗户看到…什么？）。
+答案就在眼皮底下，就是那条河。
+规则：
+
+情态动词 can：意思是“能、会”。后面直接跟动词原形 see，不能加 to。就像我们说 “I can swim”（我会游泳），不说 “I can to swim”。
+答案： The river.
+
+第三题
+题目： Who showed Xiaoming around the office on his first day?
+
+翻译： 谁在第一天带小明参观了办公室？
+
+阅读原文： On my first day, a girl named Lily showed me around the office and introduced me to everyone.
+
+翻译： 在我第一天上班的时候，一个叫莉莉的女孩带我参观了办公室，并把我介绍给了大家。
+
+分析：
+
+这是一道细节理解题。关键词是 Who（谁）和 showed… around the office（带…参观办公室）。
+既然问的是“谁”，我们就要在句子里找表示“人”的名词。
+文章里说 “a girl named Lily”（一个叫莉莉的女孩）做了这个动作。
+虽然“同事都很友好”，但具体带他参观的是莉莉。
+规则：
+
+过去分词做后置定语：这里有个短语 “a girl named Lily”。这里的 named 是“被取名”的意思。整句话的意思是“一个被叫做莉莉的女孩”。放在名词后面修饰它，这就是后置定语。如果不理解语法，你就记住了：named Lily 是修饰 girl 的，告诉你是哪个女孩。
+答案： A girl named Lily.
+
+第四题
+题目： What is Xiaoming not used to in Shanghai?
+
+翻译： 小明在上海还不习惯什么？
+
+阅读原文： The only thing I’m not used to is the weather here.
+
+翻译： 我唯一不习惯的事情是这里的天气。
+
+分析：
+
+这是一道细节理解题。关键词是 not used to（不习惯）。
+我们在文章里找到这个短语，发现句子结构是 “The only thing I’m not used to is…”（我唯一不习惯的是…）。
+后面紧跟的就是答案：the weather here（这里的天气）。
+注意：虽然前面提到了热和潮湿，但那是天气的具体表现，概括起来就是“天气”。
+规则：
+
+be used to：这个短语的意思是“习惯于…”。中间的 used 不是“使用”的意思哦。如果是否定，就是 be not used to。后面通常跟名词或者动名词。比如：I am used to the food（我习惯了这个食物）。
+答案： The weather there.
+
+第五题（翻译题）
+题目： Translate the underlined sentence into Chinese. “My manager told me that he was impressed by my performance during the interview and expected me to do well in the team.”
+
+翻译： 我的经理告诉我，他对我面试时的表现印象深刻，并期望我在团队中表现出色。
+
+分析：
+
+这是一道长难句翻译题。别怕，我们把它拆开看。
+第一部分是主句：“My manager told me that…”（我的经理告诉我…）。that 后面全是经理说的内容，是个宾语从句。
+第二部分是宾语从句里的第一件事：“he was impressed by my performance during the interview”。
+be impressed by 是个固定搭配，意思是“对…印象深刻”。
+performance 意思是“表现”。
+这部分连起来就是：他对我面试期间的表现印象深刻。
+第三部分是宾语从句里的第二件事：“and expected me to do well in the team”。
+expect sb. to do sth. 意思是“期望某人做某事”。
+连起来就是：并且期望我在团队里做得好。
+规则：
+
+被动语态：句子里的 “was impressed” 是被动语态。结构是 be动词 + 动词过去分词。字面意思是“被…打动了”，我们翻译成通顺的中文就是“对…印象深刻”。以后看到 be + done (动词过去式)，大概率就是被动语态。
+答案： 我的经理告诉我，他对我面试时的表现印象深刻，并期望我在团队中表现出色。
+
+整体总结
+今天我们通过这篇简单的书信，复习了几个非常重要的基础点：
+
+一般过去时：看到 ago（以前）、last Monday（上周一）这种词，动词通常要变成过去式，表示过去发生的事。
+情态动词 can：后面直接加动词原形，表示“能、会”。
+固定搭配：
+be used to (习惯于…)
+be impressed by (对…印象深刻)
+expect sb. to do sth. (期望某人做某事)
+过去分词作定语：像 “named Lily” 放在名词后面修饰名词，表示“被叫做…的”。
+`
+},
+{
+    article: `When Tom was a child, he spent every summer at his grandparents' farm in the countryside. The farm was surrounded by green hills and wide fields. Tom loved waking up early to hear the birds singing and smell the fresh morning air.
+
+Every morning, his grandfather would take him to feed the chickens and collect eggs. Tom always felt excited when he found a warm egg in the nest. After that, his grandmother would cook a big breakfast for the whole family, including fresh eggs, bread, and homemade jam.
+
+In the afternoons, Tom liked to explore the woods behind the farm with his dog, Lucky. They would run through the trees, chase butterflies, and sometimes find small streams where Tom would skip stones across the water. Those simple moments became some of the happiest memories of his childhood.
+
+One summer, Tom's grandfather taught him how to ride a horse. At first, Tom was afraid and held on tightly. But with his grandfather's patient encouragement, he soon learned to ride confidently. That experience taught Tom an important lesson: with patience and courage, you can overcome any fear.
+
+Now Tom is an adult and lives in the city. But whenever he feels tired or stressed, he closes his eyes and thinks of those golden days on the farm. The memories always bring a warm smile to his face.`,
+    questions: [
+        {
+            text: "Where did Tom spend every summer when he was a child?",
+            answer: "At his grandparents' farm in the countryside."
+        },
+        {
+            text: "What did Tom and his grandfather do every morning?",
+            answer: "Feed the chickens and collect eggs."
+        },
+        {
+            text: "What did Tom's grandfather teach him one summer?",
+            answer: "How to ride a horse."
+        },
+        {
+            text: "What does Tom do whenever he feels tired or stressed?",
+            answer: "But whenever he feels tired or stressed, he closes his eyes and thinks of those golden days on the farm."
+        },
+        {
+            text: "Translate the underlined sentence into Chinese.\"Those simple moments became some of the happiest memories of his childhood.\"",
+            reference: "那些简单的时刻成为了他童年最幸福的回忆。"
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： Where did Tom spend every summer when he was a child?
+翻译： 当汤姆是个孩子的时候，他每年夏天在哪里度过？
+
+阅读原文： When Tom was a child, he spent every summer at his grandparents' farm in the countryside.
+翻译： 当汤姆是个孩子的时候，他每年夏天都在乡下他祖父母的农场度过。
+
+分析：
+
+这道题问的是地点（Where）。
+我们要像侦探一样找“线索词”。题目里有 "every summer"（每一个夏天）和 "child"（孩子）。
+回到文章第一句，一眼就看到了这两个词！句子里的动词是 "spent"（度过），那他在哪里度过呢？看后面有个 "at"，这是一个介词，通常用来引出地点。"at his grandparents' farm" 就是在他祖父母的农场。
+所以，答案就是农场所在地。
+规则：
+
+介词 at：常用来表示一个具体的点位置，比如 at home（在家），at school（在学校）。这里指在农场这个地点。
+spend time at some place：意思是“在某地度过时间”。
+答案： At his grandparents' farm in the countryside.
+
+第2题
+题目： What did Tom and his grandfather do every morning?
+翻译： 汤姆和他的祖父每天早上做什么？
+
+阅读原文： Every morning, his grandfather would take him to feed the chickens and collect eggs.
+翻译： 每天早上，他的祖父会带他去喂鸡和捡鸡蛋。
+
+分析：
+
+这道题问的是做什么（What... do），找的是动作。
+线索词非常明显，是 "Every morning"（每天早上）。我们带着这个词去文章里找。
+在第二段第一句找到了！开头就是 "Every morning"。
+接下来找动作：句子说祖父带他 "feed the chickens"（喂鸡）和 "collect eggs"（捡鸡蛋）。这就是他们做的事情。
+规则：
+
+would do：这里不是“将要”，而是表示“过去常常”。用来描述过去习惯性发生的动作。
+并列关系：看到 "and" 这个词，就知道前后动作是连在一起的，答案要把两件事都写出来，不能漏掉。
+答案： Feed the chickens and collect eggs.
+
+第3题
+题目： What did Tom's grandfather teach him one summer?
+翻译： 有一年夏天，汤姆的祖父教了他什么？
+
+阅读原文： One summer, Tom's grandfather taught him how to ride a horse.
+翻译： 有一年夏天，汤姆的祖父教他如何骑马。
+
+分析：
+
+这道题问的是教了什么内容。
+线索词是 "One summer"（有一个夏天）和 "teach"（教）。
+我们在文章里找大写的 "One summer"，在第四段第一句找到了。
+句子里有个词 "taught"，这就是 "teach" 的过去式（过去发生的事嘛）。
+教的内容紧跟在后面："how to ride a horse"（如何骑马）。
+规则：
+
+不规则动词过去式：teach（教）的过去式是 taught。英语里很多动词变过去式不是直接加 -ed，这种需要特别记忆。
+疑问词+不定式："how to ride a horse" 这种结构就像把一个问题变成了一个短语，意思是“如何去做某事”。
+答案： How to ride a horse.
+
+第4题
+题目： What does Tom do whenever he feels tired or stressed?
+翻译： 每当汤姆感到疲惫或有压力时，他会做什么？
+
+阅读原文： But whenever he feels tired or stressed, he closes his eyes and thinks of those golden days on the farm.
+翻译： 但是每当他感到疲惫或有压力时，他就会闭上眼睛，回想农场里那些美好的日子。
+
+分析：
+
+这道题问的是汤姆现在的习惯动作。
+线索词是 "tired or stressed"（疲惫或有压力）。我们在最后一段找。
+找到这两个词后，看后面跟着的动作是什么。
+这里的动作是 "closes his eyes"（闭上眼睛）和 "thinks of"（回想/想起）。
+题目里的 "But whenever..." 是条件，回答的时候，我们直接把后面发生的动作写出来就可以。
+规则：
+
+一般现在时：因为这是汤姆现在经常做的事情，所以动词用原形或第三人称单数（closes, thinks）。
+thinks of：这是一个固定搭配，意思是“想起”、“记起”或者“想念”。
+答案： He closes his eyes and thinks of those golden days on the farm.
+
+第5题
+题目： Translate the underlined sentence into Chinese. "Those simple moments became some of the happiest memories of his childhood."
+翻译： 那些简单的时刻成为了他童年最幸福的回忆。
+
+阅读原文： Those simple moments became some of the happiest memories of his childhood.
+翻译： 那些简单的时刻成为了他童年最幸福的回忆。
+
+分析：
+
+我们把句子拆开来看，像拼积木一样。
+主语：Those simple moments（那些简单的时刻/瞬间）。
+谓语：became（变成了/成为了）。这是 become 的过去式。
+宾语：some of the happiest memories（最幸福的回忆中的一部分）。
+这里有个 "happiest"，是 happy（幸福）的最高级，表示“最幸福的”。
+"memories" 是 memory（记忆）的复数形式。
+修饰语：of his childhood（他童年的）。放在 memories 后面修饰它。
+连起来通顺一下：那些简单的时刻，变成了他童年里最幸福的回忆。
+规则：
+
+最高级：happy 是原级，happiest 是最高级（前面通常加 the），表示程度最深。
+名词所有格/修饰关系："of his childhood" 这种结构，翻译时通常把前面的名词（childhood）放到前面来翻译，变成“他童年的回忆”。
+答案： 那些简单的时刻成为了他童年最幸福的回忆。
+
+整体总结
+通过这篇小短文，我们复习了几个很重要的基础语法点，老师帮你列出来，以后遇到就不怕啦：
+
+一般过去时：故事里大部分动词都用了过去式，比如 spent（度过）、taught（教）、became（成为）。这是因为故事发生在过去。记单词的时候，最好把动词的过去式一起记。
+介词短语表地点：比如 at his grandparents' farm，介词 at 后面跟地点，这是回答“在哪里”的关键。
+并列连词 and：看到 and，就要知道它连接了两个平等的东西，比如两个动作（feed and collect）或者两个形容词，答案通常要写全，不能只写一半。
+疑问词定位法：做阅读理解时，先看题目里的疑问词和特殊词，再回文章找，这样速度最快。
+`
+},
+{
+    article: `Regular exercise is important for both our body and mind. Experts suggest that adults should do at least 30 minutes of moderate exercise every day. This can include walking, jogging, swimming, or cycling. Even simple activities like taking the stairs instead of the elevator can make a difference.
+
+Exercise has many benefits. First, it helps to keep our heart strong and healthy. Second, it can help us control our weight and reduce the risk of serious diseases. Third, exercise is also good for our mental health. Studies have shown that people who exercise regularly feel less stressed and sleep better at night.
+
+However, many people find it hard to start exercising. The key is to choose an activity that you enjoy and start with small goals. For example, you could begin by walking for just 15 minutes a day and gradually increase the time. It is also helpful to exercise with a friend, as this can make the activity more enjoyable and keep you motivated.
+
+It is important to remember that any amount of exercise is better than none. You don't need to go to an expensive gym or buy special equipment. A pair of comfortable shoes and a willingness to move are all you need. Start today, and you will soon notice the positive changes in your life.`,
+    questions: [
+        {
+            text: "How many minutes of moderate exercise do experts suggest adults should do every day?",
+            answer: "At least 30 minutes."
+        },
+        {
+            text: "What are the benefits of exercise for mental health according to the passage?",
+            answer: "People who exercise regularly feel less stressed and sleep better at night."
+        },
+        {
+            text: "Why is it helpful to exercise with a friend?",
+            answer: "Because it can make the activity more enjoyable and keep you motivated."
+        },
+        {
+            text: "What do you need to start exercising according to the last paragraph?",
+            answer: "A pair of comfortable shoes and a willingness to move."
+        },
+        {
+            text: "Translate the underlined sentence into Chinese.\"The key is to choose an activity that you enjoy and start with small goals.\"",
+            reference: "关键是选择一项你喜欢的活动，并从小目标开始。"
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： How many minutes of moderate exercise do experts suggest adults should do every day?
+
+翻译： 专家建议成年人每天应该做多少分钟的中等强度运动？
+
+阅读原文： Experts suggest that adults should do at least 30 minutes of moderate exercise every day.
+
+翻译： 专家建议成年人每天应该做至少30分钟的中等强度运动。
+
+分析：
+
+这是一道典型的“数字细节题”。题目里的关键词是 How many minutes（多少分钟），这告诉我们答案一定是一个表示时间的数字。
+我们去文章里找“亲戚词”。题目里的 experts suggest（专家建议）就是我们的导航仪。
+在第一段第二句，我们一眼就看到了 Experts suggest，紧接着往后读，发现了数字 30 minutes。前面的 at least 意思是“至少”，这就是我们要找的完整答案啦。
+规则：
+
+细节查找规则：做阅读理解时，先看题目里的特殊疑问词（如 How many, What, Why），它们决定了你要找的是“数字”、“东西”还是“原因”。
+答案： At least 30 minutes.
+
+第2题
+题目： What are the benefits of exercise for mental health according to the passage?
+
+翻译： 根据文章，运动对心理健康有什么好处？
+
+阅读原文： Studies have shown that people who exercise regularly feel less stressed and sleep better at night.
+
+翻译： 研究表明，经常运动的人感到的压力更小，晚上睡得更好。
+
+分析：
+
+这道题问的是“好处”。题目里有一个非常关键的专有名词：mental health（心理健康）。
+我们拿着这个词去第二段“寻宝”。第二段列举了很多好处，当你看到 Third（第三点）的时候，后面紧跟了一句：exercise is also good for our mental health。找到了！
+接下来，我们要看这句话后面说了什么。Studies have shown that…（研究表明……），后面跟的内容就是答案：feel less stressed（感觉压力更小）和 sleep better（睡得更好）。
+规则：
+
+关键词定位规则：题目里那些大写字母开头的词、或者很专业的词（如 mental health），通常在文章里很好找，看到它们就像看到路标一样。
+答案： People who exercise regularly feel less stressed and sleep better at night.
+
+第3题
+题目： Why is it helpful to exercise with a friend?
+
+翻译： 为什么和朋友一起运动是有帮助的？
+
+阅读原文： It is also helpful to exercise with a friend, as this can make the activity more enjoyable and keep you motivated.
+
+翻译： 和朋友一起运动也很有帮助，因为这可以使活动更有趣，并让你保持动力。
+
+分析：
+
+题目问的是“为什么”，也就是找原因。关键词是 exercise with a friend（和朋友运动）。
+我们在第三段最后一句找到了这个词组。句子中间有一个至关重要的词 as。
+在这里，as 的意思是“因为”。它就像一个等号，后面跟着的就是原因：make the activity more enjoyable（让活动更有趣）和 keep you motivated（让你保持动力）。把这两点抄下来就是答案。
+规则：
+
+因果逻辑词：看到 Why 提问，就要去文中找表示“因为”的词，比如 because, as, for 等。
+答案： Because it can make the activity more enjoyable and keep you motivated.
+
+第4题
+题目： What do you need to start exercising according to the last paragraph?
+
+翻译： 根据最后一段，你需要什么来开始运动？
+
+阅读原文： A pair of comfortable shoes and a willingness to move are all you need.
+
+翻译： 你只需要一双舒适的鞋子和一种想动起来的意愿。
+
+分析：
+
+题目问的是“需要什么”，这是一个“物体寻找题”。关键词是 last paragraph（最后一段）和 need（需要）。
+我们跳到最后一段，倒数第二句出现了 all you need（你需要的一切）。这句话的主语就是我们需要的东西。
+主语是：A pair of comfortable shoes（一双舒适的鞋子）和 a willingness to move（一种想动起来的意愿/决心）。
+规则：
+
+主谓宾结构：简单的句子像“我吃苹果”，就是“主语（动作发出者）+ 谓语（动作）+ 宾语（动作承受者）”。这里 shoes 和 willingness 是主语，are 是谓语，need 是相关的概念。
+答案： A pair of comfortable shoes and a willingness to move.
+
+第5题
+题目： Translate the underlined sentence into Chinese. “The key is to choose an activity that you enjoy and start with small goals.”
+
+翻译： 关键是选择一项你喜欢的活动，并从小目标开始。
+
+阅读原文： The key is to choose an activity that you enjoy and start with small goals.
+
+分析：
+
+这句话其实是个“洋葱”，我们要一层层剥开。
+第一层（主干）：The key is… 意思是“关键是……”。
+第二层（动作）：to choose… and start… 这是不定式短语做表语（别怕这个术语，就是跟在“是”后面的动作）。意思是“去选择……并且开始……”。
+第三层（修饰）：that you enjoy。这是一个小小的句子，跟在 activity 后面，专门用来修饰 activity。意思是“你喜欢的（活动）”。所以连起来就是：选择一项你喜欢的活动。
+最后加上 start with small goals（从小目标开始）。
+规则：
+
+定语从句：像“that you enjoy”这样跟在名词后面，用来解释说明这个名词的句子，就叫定语从句。翻译的时候，通常要把它翻译成“……的”，放在那个名词的前面。比如：an activity (that you enjoy) -> 一项(你喜欢的)活动。
+答案： 关键是选择一项你喜欢的活动，并从小目标开始。
+
+整体总结
+今天这篇阅读理解，我们复习了几个非常核心的基础语法点，我们来回顾一下：
+
+特殊疑问词的用法：看到 How many 找数字，看到 Why 找原因，看到 What 找东西。这是做阅读理解的“指南针”。
+关键词定位：做题前先画题目里的关键词（如 mental health, friend），然后去文中“连连看”，能大大提高准确率。
+简单的从句概念：我们在翻译题里遇到了 that you enjoy，这叫定语从句。记住它的功能就是“形容词”，翻译成“……的”放在名词前面就好啦。
+`
+},
+{
+    article: `Last winter, David took a train to visit his friend in Beijing. It was his first time traveling alone, and he felt both excited and a little worried. He checked his bag carefully before leaving home to make sure he had his ticket, phone, and wallet.
+
+The train journey was long but comfortable. David sat by the window and watched the snowy scenery outside. After a few hours, he fell asleep. When he woke up, he suddenly realized that his wallet was missing. He searched everywhere in his seat area but could not find it. David started to feel very anxious because all his cash and bank cards were inside.
+
+A young woman sitting across from him noticed his worried face and asked him what had happened. After hearing his story, she offered to lend him some money for the rest of his trip. Her unexpected kindness gave David hope and reminded him that there are still many good people in the world. David was very grateful and took her phone number so that he could pay her back later.
+
+When he finally arrived in Beijing, his friend was waiting at the station. David told his friend everything that had happened on the train. His friend smiled and said, "Sometimes bad things happen, but they also bring us closer to good people."
+
+A week later, David returned the money to the woman and sent her a thank-you gift. They have remained good friends ever since.`,
+    questions: [
+        {
+            text: "Why did David take a train last winter?",
+            answer: "To visit his friend in Beijing."
+        },
+        {
+            text: "What did David realize when he woke up on the train?",
+            answer: "He suddenly realized that his wallet was missing."
+        },
+        {
+            text: "What did the young woman offer to do for David?",
+            answer: "She offered to lend him some money for the rest of his trip."
+        },
+        {
+            text: "What did David do a week later?",
+            answer: "He returned the money to the woman and sent her a thank-you gift."
+        },
+        {
+            text: "Translate the underlined sentence into Chinese.\"Her unexpected kindness gave David hope and reminded him that there are still many good people in the world.\"",
+            reference: "她意想不到的善意给了大卫希望，并提醒他世界上仍然有很多好人。"
+        }
+    ],
+    explanation: `题目解析：
+
+第 1 题
+题目： Why did David take a train last winter?
+翻译： 大卫为什么在去年冬天坐火车？
+定位原文： "Last winter, David took a train to visit his friend in Beijing."
+翻译： 去年冬天，大卫坐火车去北京看望他的朋友。
+分析：
+
+这是一道典型的“原因题”。题目问的是“Why”（为什么）。
+我们要在文章第一段找线索。看到了吗？第一句就有时间状语 "Last winter"（去年冬天），这和题目里的时间是完全匹配的。
+接着看句子后面，有一个非常重要的结构："to visit..."。在英语里，"to do something" 放在动作后面，经常用来表示“目的”，也就是“为了去做某事”。
+所以，他坐火车的目的就是为了 "visit his friend"。
+规则： 不定式表目的。简单来说，就是“to + 动词原形”放在后面，意思是“为了去做……”。比如：I went to the shop to buy bread.（我去商店为了买面包。）
+答案： To visit his friend in Beijing.
+第 2 题
+题目： What did David realize when he woke up on the train?
+翻译： 当大卫在火车上醒来时，他意识到了什么？
+定位原文： "When he woke up, he suddenly realized that his wallet was missing."
+翻译： 当他醒来时，他突然意识到他的钱包不见了。
+分析：
+
+这道题的关键词是 "woke up"（醒来）。我们拿着这个“放大镜”去文章里找，很快就在第二段中间发现了这个短语。
+题目问“他意识到了什么？”，原文里 "realized"（意识到）后面跟着的那句话就是答案。
+这里的线索词是 "that"，它引导的是大卫意识到的具体内容。
+规则： 宾语从句。这里的“that”就像一个小挂钩，后面挂着的整句话都是“realized”的对象（宾语）。你只需要把“that”后面的内容抄下来，就是答案啦。
+答案： He suddenly realized that his wallet was missing.
+第 3 题
+题目： What did the young woman offer to do for David?
+翻译： 那位年轻女士主动提出为大卫做什么？
+定位原文： "After hearing his story, she offered to lend him some money for the rest of his trip."
+翻译： 听完他的遭遇后，她主动提出借给他一些钱，供他剩下的旅程使用。
+分析：
+
+题目问的是“young woman”（年轻女士）做了什么。我们在第三段可以看到描写这位女士的动作。
+这里的关键线索词是 "offered to"。题目里的 "offer to do" 和原文是完全一致的，这叫“原词重现”，也就是送分题！
+既然问的是“offer to do”了，那后面跟着的内容 "lend him some money" 就是她要做的事。
+规则： offer to do sth. 意思是“主动提出做某事”。这里的 "lend" 是“借出”的意思。记住：看到 offer to，后面肯定跟着一个动作。
+答案： She offered to lend him some money for the rest of his trip.
+第 4 题
+题目： What did David do a week later?
+翻译： 一周后大卫做了什么？
+定位原文： "A week later, David returned the money to the woman and sent her a thank-you gift."
+翻译： 一周后，大卫把钱还给了那位女士，并送给她一份感谢礼物。
+分析：
+
+这道题的线索非常明显，就是时间状语 "A week later"（一周后）。
+我们直接看文章最后一段，开头就是 "A week later"。
+后面紧跟的两个动作："returned"（归还）和 "sent"（发送/送给），这就是大卫做的事情。
+这里的 "and" 是一个并列连词，说明大卫做了两件事，答题时最好都写全。
+规则： 并列关系。看到 "and" 就要知道，它前后连接的两个动作是平等的，缺一不可，就像“我和你”一样紧密。
+答案： He returned the money to the woman and sent her a thank-you gift.
+第 5 题
+题目： Translate the underlined sentence into Chinese. "Her unexpected kindness gave David hope and reminded him that there are still many good people in the world."
+翻译： 她意想不到的善意给了大卫希望，并提醒他世界上仍然有很多好人。
+分析：
+
+这是一道翻译题。我们来像拼积木一样拆解这个长句子。
+第一部分（主语）： "Her unexpected kindness"。"Her" 是“她的”，"kindness" 是“善意”，中间的 "unexpected" 是形容词，意思是“意想不到的”。合起来就是：她意想不到的善意。
+第二部分（谓语和宾语）： 句子里有一个 "and"，连接了两个动作。
+第一个动作："gave David hope"。结构是 "give sb. sth."（给某人某物），即“给了大卫希望”。
+第二个动作："reminded him that..."。"remind" 是“提醒”，"him" 是“他”。后面 "that..." 引导的是提醒的具体内容：世界上仍有许多好人。
+规则： 形容词修饰名词。比如 "unexpected kindness"，形容词 "unexpected" 像一顶帽子，戴在名词 "kindness" 头上，用来修饰它。翻译时要把形容词放在名词前面。
+答案： 她意想不到的善意给了大卫希望，并提醒他世界上仍然有很多好人。
+整体总结
+核心语法点回顾：
+
+不定式表目的： 比如 "to visit"，放在句尾表示“为了去做某事”，是阅读理解中找原因的关键。
+宾语从句： 像 "realized that..." 和 "reminded him that..."，动词后面跟出来的具体内容，一定要看全。
+时态一致性： 这篇文章是一个故事，所以大量使用了 一般过去时（比如 took, realized, offered, returned），大家要注意动词过去式的变化。
+`
+},
+{
+    article: `Blog Post: My First Semester at College
+
+By: Liu Wei | Posted: January 15
+
+Looking back at my first semester at college, I feel both proud and grateful. When I first arrived on campus in September, everything was new and unfamiliar. I didn't know anyone, and I was worried about making friends and keeping up with my studies.
+
+Luckily, my roommate Zhang Peng was very outgoing and friendly. He introduced me to several classmates, and we quickly became a close group. We would study together in the library in the evenings and play basketball on weekends.
+
+The most challenging subject for me was English. I had never been good at it in high school, and the college-level courses were even harder. I decided to wake up early every morning to practice reading and listening. After months of hard work, my English grades improved greatly, and I even won a prize in the college English speech contest.
+
+Besides studying, I also joined the photography club. Through this club, I learned how to take beautiful photos and met people who shared my interest. We went on several trips together to take pictures of nature and city life.
+
+My first semester taught me that college life is about more than just studying. It's about growing as a person, trying new things, and building friendships that will last a lifetime. I am looking forward to the next semester.`,
+    questions: [
+        {
+            text: "How did Liu Wei feel when he first arrived on campus?",
+            answer: "He was worried about making friends and keeping up with his studies."
+        },
+        {
+            text: "What was the most challenging subject for Liu Wei?",
+            answer: "English."
+        },
+        {
+            text: "What did Liu Wei do to improve his English?",
+            answer: "He decided to wake up early every morning to practice reading and listening."
+        },
+        {
+            text: "What club did Liu Wei join in college?",
+            answer: "The photography club."
+        },
+        {
+            text: "Translate the underlined sentence into Chinese.\"After months of hard work, my English grades improved greatly, and I even won a prize in the college English speech contest.\"",
+            reference: "经过几个月的努力，我的英语成绩有了很大提高，我甚至在大学英语演讲比赛中获了奖。"
+        }
+    ],
+    explanation: `题目解析：
+
+第 1 题
+题目： How did Liu Wei feel when he first arrived on campus?
+
+翻译： 刘伟刚到校园时感觉如何？
+
+阅读原文： When I first arrived on campus in September, everything was new and unfamiliar. I didn’t know anyone, and I was worried about making friends and keeping up with my studies.
+
+翻译： 当我九月份第一次来到校园时，一切都是新鲜和陌生的。我不认识任何人，我担心交朋友和跟上学习进度。
+
+分析：
+
+这是一道细节理解题。题目问的是“感觉”。
+我们要像侦探一样找线索词。题目里的 “first arrived”（第一次到达）就是最重要的线索。
+我们在文章第一段找到了 “When I first arrived…” 这句话。往后读，你会发现有一个非常关键的形容词 “worried”（担心的）。
+文章紧接着说他在担心什么事：“making friends”（交朋友）和 “keeping up with my studies”（跟上学习进度）。
+题目问什么，我们就答什么，把原文的句子稍微整理一下就是答案啦。
+规则：
+
+这里有一个短语 “keep up with”，意思是“跟上、赶上”。比如“跟上进度”就是 keep up with the studies。
+“worried” 是形容词，意思是“担心的”。它是用来形容心情的，以后看到题目问 “How did he feel?”（他感觉如何？），就要在文章里找这种形容心情的词。
+答案： He was worried about making friends and keeping up with his studies.
+
+第 2 题
+题目： What was the most challenging subject for Liu Wei?
+
+翻译： 对刘伟来说最具挑战性的科目是什么？
+
+阅读原文： The most challenging subject for me was English.
+
+翻译： 对我来说最具挑战性的科目是英语。
+
+分析：
+
+这道题也是细节题，也就是“送分题”！
+抓住题目里的 “most challenging subject”（最具挑战性的科目）这个大线索。
+带着这个词回到文章里“寻宝”。在第三段第一句，你会发现原文竟然和题目长得一模一样！
+原文说：The most challenging subject for me was English. 答案直接就在系动词 “was” 后面，简直太友好了。
+规则：
+
+“challenging” 是一个形容词，意思是“具有挑战性的、困难的”。如果你不认识这个词，也没关系，文章通常会在后面解释为什么困难（比如后面提到高中就没学好，大学更难）。
+记住：看到题目里的关键词，去文章里找同样的词，通常答案就在附近。
+答案： English.
+
+第 3 题
+题目： What did Liu Wei do to improve his English?
+
+翻译： 刘伟做了什么来提高他的英语？
+
+阅读原文： I decided to wake up early every morning to practice reading and listening.
+
+翻译： 我决定每天早上早起练习阅读和听力。
+
+分析：
+
+题目问的是“做了什么”，这是在问动作。
+线索词是 “improve his English”（提高英语）。我们在文章第三段找这个短语。
+找到第三段，前面说英语很难，紧接着出现了一个动作词 “decided”（决定）。
+决定做什么呢？后面紧跟着 “wake up early”（早起）。
+早起的目的是什么？“to practice reading and listening”（为了练习阅读和听力）。这就是他为了提高英语所做的具体事情。
+规则：
+
+“decide to do something” 是一个很常用的搭配，意思是“决定做某事”。这里的 “to” 后面跟动词原形（比如 wake, practice），表示要做的事情。
+“practice doing something” 意思是“练习做某事”。注意这里 practice 后面跟的是 ing 形式。
+答案： He decided to wake up early every morning to practice reading and listening.
+
+第 4 题
+题目： What club did Liu Wei join in college?
+
+翻译： 刘伟在大学参加了什么社团？
+
+阅读原文： Besides studying, I also joined the photography club.
+
+翻译： 除了学习，我还参加了摄影社团。
+
+分析：
+
+这道题的线索词非常明显，就是 “club”（社团）。
+我们在文章里扫视，寻找 “club” 这个词。在第四段的第一句，我们看到了 “club”。
+前面有个动词 “joined”（参加），这不就是题目问的“参加了什么”吗？
+答案就在 joined 后面：“the photography club”。
+规则：
+
+“join” 是动词，意思是“加入、参加”。通常指加入某个组织、团体。
+“photography” 是“摄影”的意思。虽然这个词有点长，但通过上下文（后面提到 take beautiful photos 拍漂亮的照片）也能猜出来它的意思。
+答案： The photography club.
+
+第 5 题
+题目： Translate the underlined sentence into Chinese. “After months of hard work, my English grades improved greatly, and I even won a prize in the college English speech contest.”
+
+翻译： 经过几个月的努力，我的英语成绩有了很大提高，我甚至在大学英语演讲比赛中获了奖。
+
+分析：
+
+这是一道翻译题，我们把长句子切成三段来看，就不难了。
+第一段： “After months of hard work”。
+“After” 是“在……之后”；“months” 是“月”；“hard work” 是“努力工作/学习”。合起来就是：经过几个月的努力。
+第二段： “my English grades improved greatly”。
+“grades” 是“成绩”；“improved” 是“提高/改善”；“greatly” 是“大大地”。合起来就是：我的英语成绩有了很大提高。
+第三段： “and I even won a prize in the college English speech contest”。
+“and” 连接两个句子，表示并列；“even” 是“甚至”；“won a prize” 是“获奖”；“college English speech contest” 是“大学英语演讲比赛”（contest 是比赛的意思）。合起来就是：我甚至在大学英语演讲比赛中获了奖。
+规则：
+
+翻译长句子的秘诀就是先拆分，再组合。不要试图一个词一个词地硬翻，要看懂每个小片段的意思，然后按照中国人的说话习惯连起来。
+“improve” 是个不及物动词，这里指成绩“变好了、提高了”。
+答案： 经过几个月的努力，我的英语成绩有了很大提高，我甚至在大学英语演讲比赛中获了奖。
+
+整体总结
+哇，同学，你看，我们是不是把所有题目都解决了？我们来总结一下这篇短文里最重要的几个语法点：
+
+一般过去时：
+你会发现文章里充满了 -ed 结尾的动词（比如 arrived, decided, joined, improved, won）。
+大白话解释：因为作者是在回忆过去（大一第一学期）发生的事情，所以动词都要用“过去式”。以后你写日记回忆昨天的事，也要记得把动词变成过去式哦。
+动词搭配：
+decide to do (决定去做…)。
+practice doing (练习做…)。
+这两个是考试常客，一定要记在小本本上。
+细节查找能力：
+做阅读理解，不需要你看懂每一个单词。学会圈画关键词（比如题目里的 subject, club），然后去文章里找“双胞胎”句子，答案往往就在那里等着你。
+`
+},
+{
+    article: `Protecting the environment is one of the most important tasks of our time. Every year, millions of tons of waste are thrown into rivers and oceans, causing serious harm to animals and plants. Air pollution from factories and cars also affects people's health in many cities around the world.
+
+There are many things we can do to help protect the environment. First, we should try to reduce the amount of waste we produce. This means using fewer plastic bags and recycling paper, glass, and metal. Second, we can save energy by turning off lights and electrical devices when they are not in use. Third, planting more trees is one of the most effective ways to improve air quality and fight climate change.
+
+Governments around the world are also taking action. Many countries have introduced laws to limit pollution and encourage the use of clean energy, such as solar and wind power. Some cities have built more bicycle lanes to encourage people to ride bikes instead of driving cars.
+
+However, protecting the environment is not just the responsibility of governments. It requires the effort of every individual. Small actions, when taken by millions of people, can make a huge difference. Let us all do our part to keep our planet clean and green for future generations.`,
+    questions: [
+        {
+            text: "What causes serious harm to animals and plants every year?",
+            answer: "Millions of tons of waste thrown into rivers and oceans."
+        },
+        {
+            text: "How can we save energy according to the passage?",
+            answer: "By turning off lights and electrical devices when they are not in use."
+        },
+        {
+            text: "What have many countries introduced to limit pollution?",
+            answer: "Laws to limit pollution and encourage the use of clean energy."
+        },
+        {
+            text: "Whose responsibility is it to protect the environment?",
+            answer: "It is not just the responsibility of governments, but requires the effort of every individual."
+        },
+        {
+            text: "Translate the underlined sentence into Chinese.\"Third, planting more trees is one of the most effective ways to improve air quality and fight climate change.\"",
+            reference: "第三，种植更多的树木是改善空气质量和应对气候变化的最有效方法之一。"
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： What causes serious harm to animals and plants every year?
+翻译： 每年，什么对动植物造成了严重的危害？
+
+阅读原文： Every year, millions of tons of waste are thrown into rivers and oceans, causing serious harm to animals and plants.
+翻译： 每年，数百万吨的废物被倒入河流和海洋，对动植物造成严重的危害。
+
+分析：
+
+找线索： 题目里的关键词是 “serious harm”（严重的危害）和 “animals and plants”（动植物）。我们要像雷达一样，去文章第一段扫描这两个词。
+定位： 很快我们在第一段第二句找到了它们。题目问的是“什么造成了危害”，我们要往句子的前面看。
+逻辑推导： 句子说“waste are thrown… causing serious harm”，意思是“废物被倒进河海……造成了危害”。显然，罪魁祸首就是前面的 “waste”（废物）。
+细节处理： 答案不能只写一个词 “waste”，因为句子是被动语态（are thrown），我们要把完整的主语拿过来：millions of tons of waste thrown into rivers and oceans（被倒入河流和海洋的数百万吨废物）。
+规则：
+
+被动语态： 原文里的 “are thrown” 就是被动语态，表示“被扔”。结构是 be + 动词过去分词。在这里只要知道它是表示“废物被扔”这个意思就行。
+答案： Millions of tons of waste thrown into rivers and oceans.
+
+第二题
+题目： How can we save energy according to the passage?
+翻译： 根据文章，我们要如何节约能源？
+
+阅读原文： Second, we can save energy by turning off lights and electrical devices when they are not in use.
+翻译： 第二，我们可以通过在不用的时候关掉灯和电器来节约能源。
+
+分析：
+
+找线索： 题目里的核心词是 “save energy”（节约能源）。我们要去文章第二段找这个短语。
+定位： 在第二段中间，我们看到了 “save energy”。
+逻辑推导： 题目问“如何”，英文里通常用 “by”（通过……方式）来回答。句子里的结构是 “save energy by…”，后面跟着的就是方法。
+抓重点： 方法是 “turning off lights and electrical devices…”（关灯和关电器）。后面那个 “when they are not in use”（当它们不用时）是时间状语，最好也带上，这样答案才完整。
+规则：
+
+By doing something： 这是一个固定搭配，意思是“通过做某事”。题目问“怎么做”，我们就要盯着 “by” 后面的内容看。
+答案： By turning off lights and electrical devices when they are not in use.
+
+第三题
+题目： What have many countries introduced to limit pollution?
+翻译： 许多国家引入了什么来限制污染？
+
+阅读原文： Many countries have introduced laws to limit pollution and encourage the use of clean energy, such as solar and wind power.
+翻译： 许多国家已经制定了法律来限制污染并鼓励使用清洁能源，比如太阳能和风能。
+
+分析：
+
+找线索： 题目里的关键词很显眼：“Many countries”（许多国家）、“introduced”（引入/制定）、“limit pollution”（限制污染）。
+定位： 带着这三个词去第三段找，第一句就全都有！
+逻辑推导： 题目问“引入了什么”。我们看 “introduced” 后面紧跟的词是 “laws”（法律）。这就是答案的核心。
+补全信息： 仅仅是 “laws” 有点太短了，为了回答得漂亮，我们要把法律的内容也带上，即 “to limit pollution…”。
+规则：
+
+Introduce： 在这里不是“介绍认识”的意思，而是指“引入（新事物）”或“制定（法律）”。
+答案： Laws to limit pollution and encourage the use of clean energy.
+
+第四题
+题目： Whose responsibility is it to protect the environment?
+翻译： 保护环境是谁的责任？
+
+阅读原文： However, protecting the environment is not just the responsibility of governments. It requires the effort of every individual.
+翻译： 然而，保护环境不仅仅是政府的责任。它需要每个人的努力。
+
+分析：
+
+找线索： 题目问的是 “Whose responsibility”（谁的责任）。
+定位： 在文章最后一段，我们看到了 “responsibility” 这个大词。
+逻辑推导： 文章先说 “not just the responsibility of governments”（不仅仅是政府的责任），接着说 “requires the effort of every individual”（需要每个人的努力）。这就说明，责任在于“政府和每个人”。
+整合答案： 既然题目问是谁的责任，我们不能只答“个人”，因为文章强调的是“不仅仅是政府，也是每个人”。把两句合起来回答最准确。
+规则：
+
+Not just… but…： 虽然文章没有直接写 “but”，但意思上是转折的，“不仅仅是A，而是需要B”。
+答案： It is not just the responsibility of governments, but requires the effort of every individual.
+
+第五题
+题目： Translate the underlined sentence into Chinese. “Third, planting more trees is one of the most effective ways to improve air quality and fight climate change.”
+翻译： 第三，种植更多的树木是改善空气质量和应对气候变化的最有效方法之一。
+
+分析：
+
+拆解句子： 这个句子比较长，我们把它切成几块来看。
+Third： 第三（表示顺序）。
+Planting more trees： 种植更多的树木。这是一个动名词短语做主语（把“种树”这件事当成一个名词来看）。
+is： 是（系动词）。
+one of the most effective ways： 最有效的方法之一。
+to improve air quality and fight climate change： 去改善空气质量和应对气候变化。这是补充说明前面的“方法”是用来干嘛的。
+组合翻译： 按照中文习惯，把这几块拼起来：第三 + 种树 + 是 + 最有效方法之一 + (去改善空气和应对气候变化的)。稍微润色一下，就是“第三，种植更多的树木是改善空气质量和应对气候变化的最有效方法之一。”
+规则：
+
+One of the + 最高级 + 名词复数： 这是英语里的黄金法则，意思是“最……的……之一”。比如 “one of the most effective ways” = 最有效的方法之一。看到这个结构，翻译时一定要加上“之一”两个字，不然就丢分啦！
+答案： 第三，种植更多的树木是改善空气质量和应对气候变化的最有效方法之一。
+
+整体总结
+来，我们回顾一下这篇阅读理解涉及的几个核心语法点，其实一点都不难：
+
+介词 by 的用法：在第二题中，我们看到了 “by doing something”，表示“通过做某事”来实现某个目的。
+被动语态：第一题里的 “waste are thrown”（废物被扔），强调动作的承受者，而不是谁扔的。
+One of 结构：第五题里的 “one of the most effective ways”，牢记它的意思是“最……的之一”，名词 way 必须加 s 变复数。
+`
+},
+{
+    article: `The Spring Festival, also known as Chinese New Year, is the most important traditional festival in China. It usually falls in January or February, marking the beginning of the lunar new year. Preparations for the festival begin weeks in advance, as families clean their homes, buy new clothes, and prepare special foods.
+
+On New Year's Eve, family members gather together for a big dinner, which is called the "reunion dinner." This meal is the highlight of the celebration, as it brings the whole family together. Common dishes include fish, dumplings, and rice cakes, each carrying a special meaning of good luck and prosperity.
+
+After dinner, many families stay up late to watch the Spring Festival Gala on television. At midnight, fireworks light up the sky, and the sound of firecrackers fills the air, welcoming the new year with joy and excitement. Children receive red envelopes containing money from their elders, which is believed to bring good fortune.
+
+During the following days, people visit relatives and friends, exchanging greetings and best wishes. The celebration lasts for about fifteen days and ends with the Lantern Festival, when people enjoy beautiful lantern displays and eat sweet rice balls called "tangyuan."
+
+The Spring Festival is more than just a holiday. It is a time for family, love, and hope for the year ahead.`,
+    questions: [
+        {
+            text: "When does the Spring Festival usually fall?",
+            answer: "In January or February."
+        },
+        {
+            text: "What is the \"reunion dinner\"?",
+            answer: "A big dinner on New Year's Eve when family members gather together."
+        },
+        {
+            text: "What do children receive from their elders during the Spring Festival?",
+            answer: "Red envelopes containing money."
+        },
+        {
+            text: "When does the celebration of the Spring Festival end?",
+            answer: "With the Lantern Festival."
+        },
+        {
+            text: "Translate the underlined sentence into Chinese.\"At midnight, fireworks light up the sky, and the sound of firecrackers fills the air, welcoming the new year with joy and excitement.\"",
+            reference: "午夜时分，烟花照亮夜空，空气中弥漫着鞭炮声，带着欢乐与兴奋迎接新年的到来。"
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： When does the Spring Festival usually fall?
+翻译： 春节通常在什么时候？
+
+阅读原文： It usually falls in January or February, marking the beginning of the lunar new year.
+翻译： 它（春节）通常在在一月或二月，标志着农历新年的开始。
+
+分析：
+
+这是一道细节题。我们要像侦探一样，拿着题目里的关键词去文章里找线索。
+题目里的关键词是 "When"（什么时候） 和 "usually fall"（通常在）。
+我们定位到文章第一段第二句话，开头就是 "It usually falls..."。这里的 "It" 指的就是上一句的 "The Spring Festival"（春节）。
+紧跟在 "falls" 后面的就是我们要找的时间："in January or February"。
+规则：
+
+这里的 "fall" 不是“摔倒”的意思哦，在这里它表示 “发生”或“降临”（比如节日落在哪一天）。
+"in January or February"：在英语中，表示在具体的月份，前面要用介词 in。
+答案： In January or February.
+
+第二题
+题目： What is the "reunion dinner"?
+翻译： 什么是“团圆饭”？
+
+阅读原文： On New Year's Eve, family members gather together for a big dinner, which is called the "reunion dinner."
+翻译： 在除夕夜，家庭成员聚在一起吃大餐，这被称为“团圆饭”。
+
+分析：
+
+这是一道定义题。题目问的是“reunion dinner”是什么。
+我们在第二段第一句找到了 "reunion dinner" 这个词。
+往前看，我们会发现它前面有一个很重要的词 "which is called"，意思是“被称为……”。这就好比说：“A就是被称为B的那个东西”。所以，"reunion dinner" 指的就是前面的 "a big dinner"（一顿大餐）。
+同时，句子开头告诉了我们时间："On New Year's Eve"（在除夕夜），动作是 "family members gather together"（家庭成员聚在一起）。
+规则：
+
+"which is called..." 是一个定语从句（别怕这个术语！），它的作用就是补充说明前面的名词。这里你可以简单理解为：前面的那个大餐，人们管它叫“团圆饭”。
+答案： A big dinner on New Year's Eve when family members gather together.
+
+第三题
+题目： What do children receive from their elders during the Spring Festival?
+翻译： 春节期间孩子们从长辈那里收到什么？
+
+阅读原文： Children receive red envelopes containing money from their elders, which is believed to bring good fortune.
+翻译： 孩子们收到长辈给的装有钱的红包，这被认为能带来好运。
+
+分析：
+
+这又是一道细节题。我们要找主语 "Children"（孩子们） 和动词 "receive"（收到）。
+在第三段的最后一句，我们一眼就看到了 "Children receive..."。
+他们收到了什么呢？紧跟在 receive 后面的名词就是答案："red envelopes containing money"。
+题目里的 "elders" 对应原文里的 "elders"，完全一致，确定答案无误。
+规则：
+
+"containing money" 是一个修饰成分，用来形容 "red envelopes"（红包）。意思是“装着钱的红包”。如果不加 "containing money"，只说 "red envelopes" 也是对的，但原文更具体，我们最好按原文回答。
+答案： Red envelopes containing money.
+
+第四题
+题目： When does the celebration of the Spring Festival end?
+翻译： 春节的庆祝活动什么时候结束？
+
+阅读原文： The celebration lasts for about fifteen days and ends with the Lantern Festival, when people enjoy beautiful lantern displays...
+翻译： 庆祝活动持续大约十五天，并以元宵节结束，届时人们会欣赏美丽的灯展……
+
+分析：
+
+这道题问的是 "end"（结束） 的时间。
+我们要找动词 "end" 或者它的变体。在第四段第二句，我们看到了 "ends with"，意思是“以……结束”。
+跟在 "ends with" 后面的就是答案："the Lantern Festival"（元宵节）。
+规则：
+
+"ends with" 是一个很好用的短语，意思是“以……作为结束”。比如：The story ends with a happy ending.（故事以大团圆结局结束。）
+答案： With the Lantern Festival.
+
+第五题
+题目： Translate the underlined sentence into Chinese. "At midnight, fireworks light up the sky, and the sound of firecrackers fills the air, welcoming the new year with joy and excitement."
+翻译： 午夜时分，烟花照亮夜空，空气中弥漫着鞭炮声，带着欢乐与兴奋迎接新年的到来。
+
+分析：
+
+这是一道翻译题。我们把这个长句子切成三段来看，就不难了。
+第一段： "At midnight, fireworks light up the sky"。
+At midnight = 在午夜/午夜时分。
+fireworks = 烟花。
+light up = 点亮/照亮。
+the sky = 天空。
+第二段： "and the sound of firecrackers fills the air"。
+and = 并且/和。
+the sound of firecrackers = 鞭炮的声音。
+fills the air = 充满了空气（通顺点翻译就是：空气中弥漫着……）。
+第三段： "welcoming the new year with joy and excitement"。
+这里的 welcoming 是动词的-ing形式，表示一种伴随的动作或结果。意思是“以此来迎接……”。
+with joy and excitement = 带着欢乐和兴奋。
+规则：
+
+翻译的时候，不要一个词一个词地硬翻，要把英语的语序调整成中国人习惯的语序。比如 "fills the air"，直译是“填满空气”，我们说“弥漫在空气中”就更舒服。
+答案： 午夜时分，烟花照亮夜空，空气中弥漫着鞭炮声，带着欢乐与兴奋迎接新年的到来。
+
+整体总结
+今天这篇阅读理解做得非常棒！我们复习了几个很核心的语法点，老师帮你整理一下：
+
+介词的使用：在月份前用 in（in January），在具体某一天或除夕前用 on（On New Year's Eve），在午夜这种具体时间点用 at（At midnight）。这是一个固定搭配，记住了考试就能拿分！
+动词-ing形式作伴随状语：比如文中的 "marking..." 和 "welcoming..."。简单来说，就是前面发生了一个动作，后面紧跟着用一个-ing形式来补充说明当时的状态或结果。
+定语从句：虽然这个名字听起来很专业，但你只要记得，像 "which is called..." 这种结构，就是在给前面的名词做解释说明，像贴标签一样。
+`
+},
+{
+    article: `Smartphones have become an essential part of our daily lives. Today, most people use their phones not only for making calls and sending messages but also for shopping, reading news, watching videos, and even managing their health.
+
+One of the biggest advantages of smartphones is that they allow us to stay connected with others at any time and from any place. Through social media apps, we can share photos, send voice messages, and make video calls with friends and family around the world. This has made communication much easier and faster than before.
+
+However, spending too much time on smartphones can also cause problems. Many studies have shown that overuse of smartphones may lead to poor eyesight, lack of sleep, and difficulty in concentrating on work or study. Some people become so dependent on their phones that they feel anxious when they cannot use them.
+
+To use smartphones wisely, experts suggest setting a daily time limit for phone use. It is also a good idea to put the phone away during meals and before bedtime. Instead of looking at a screen, we can spend more time reading books, exercising, or talking with people face to face.
+
+Smartphones are powerful tools, but we should learn to control them rather than let them control us.`,
+    questions: [
+        {
+            text: "What do most people use smartphones for besides making calls and sending messages?",
+            answer: "For shopping, reading news, watching videos, and even managing their health."
+        },
+        {
+            text: "What is one of the biggest advantages of smartphones?",
+            answer: "They allow us to stay connected with others at any time and from any place."
+        },
+        {
+            text: "What do experts suggest to use smartphones wisely?",
+            answer: "Setting a daily time limit for phone use."
+        },
+        {
+            text: "What should we do instead of looking at a screen according to the passage?",
+            answer: "We can spend more time reading books, exercising, or talking with people face to face."
+        },
+        {
+            text: "Translate the underlined sentence into Chinese.\"Many studies have shown that overuse of smartphones may lead to poor eyesight, lack of sleep, and difficulty in concentrating on work or study.\"",
+            reference: "许多研究表明，过度使用智能手机可能会导致视力下降、睡眠不足以及在工作或学习时难以集中注意力。"
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： What do most people use smartphones for besides making calls and sending messages?
+翻译： 除了打电话和发短信，大多数人还用智能手机做什么？
+
+阅读原文： Today, most people use their phones not only for making calls and sending messages but also for shopping, reading news, watching videos, and even managing their health.
+翻译： 如今，大多数人使用手机不仅是为了打电话和发短信，还为了购物、看新闻、看视频，甚至管理他们的健康。
+
+分析：
+
+这是一道细节查找题。就像我们要去超市找苹果在哪里一样，我们得先找到“路标”。
+题目里的路标词是 “most people”（大多数人）和 “besides”（除了…之外）。
+我们在原文第一段第二句看到了 “most people”。
+题目问“除了打电话…还做什么？”，原文里有一个非常关键的短语结构：“not only… but also…”。这个结构的意思是“不仅……而且……”。
+前半部分 “making calls and sending messages” 是题目里已经有的（除了这部分），我们要找的就是 “but also” 后面跟着的内容。
+顺着 “but also for” 往后读，就能看到答案啦。
+规则：
+
+“Not only… but also…” 是一个连词词组，表示递进关系，强调后半部分。做题时，如果题目问“不仅”前面的东西，答案往往在“而且”后面；反之亦然。
+答案： For shopping, reading news, watching videos, and even managing their health.
+
+第2题
+题目： What is one of the biggest advantages of smartphones?
+翻译： 智能手机最大的优点之一是什么？
+
+阅读原文： One of the biggest advantages of smartphones is that they allow us to stay connected with others at any time and from any place.
+翻译： 智能手机最大的优点之一是，它们允许我们随时随地与他人保持联系。
+
+分析：
+
+这道题也是细节查找题。
+我们要找的是“优点”，英文关键词是 “advantages”。
+扫描文章，我们在第二段第一句直接看到了 “One of the biggest advantages”，这简直就是原封不动的题目啊！
+既然问句问的是“是什么”，那我们直接看系动词 “is” 后面跟着的内容，那就是答案。
+规则：
+
+“One of the + 形容词最高级 + 名词复数” 意思是“最……的……之一”。比如 “One of the biggest apples”（最大的苹果之一）。看到这个结构，知道它在强调某事物的一个特征即可。
+答案： They allow us to stay connected with others at any time and from any place.
+
+第3题
+题目： What do experts suggest to use smartphones wisely?
+翻译： 专家建议如何明智地使用智能手机？
+
+阅读原文： To use smartphones wisely, experts suggest setting a daily time limit for phone use.
+翻译： 为了明智地使用智能手机，专家建议为手机使用设定每日时间限制。
+
+分析：
+
+这道题要找的是“专家的建议”。
+关键词有两个：“experts”（专家）和 “suggest”（建议）。
+我们来到文章第四段（倒数第二段），第一句就出现了这两个词。
+题目问“建议做什么”，原文里 “suggest” 后面紧跟的内容就是答案。这里有个语法点要注意，“suggest” 后面跟了 “setting”（设定），这就是专家建议的具体动作。
+规则：
+
+“Suggest doing sth”：suggest 后面通常不直接跟“某人做某事”，而是跟动词的ing形式（动名词）。这里 “setting” 就是 “set”（设定）加了 “ing”。意思就是“建议做某事”。
+答案： Setting a daily time limit for phone use.
+
+第4题
+题目： What should we do instead of looking at a screen according to the passage?
+翻译： 根据文章，我们应该做什么来代替看屏幕？
+
+阅读原文： Instead of looking at a screen, we can spend more time reading books, exercising, or talking with people face to face.
+翻译： 我们不应该盯着屏幕看，而是可以花更多时间读书、锻炼，或者与人面对面交谈。
+
+分析：
+
+这道题的关键词是 “Instead of”（代替；而不是）。
+我们在第四段最后一句找到了这个短语。
+题目问“我们应该做什么来代替…”，原文结构是 “Instead of A, we can do B”。
+既然 “Instead of” 后面接的是“看屏幕”（我们要摒弃的行为），那么我们要做的事情就是逗号后面的内容，也就是 “spend more time…” 后面的一系列动作。
+规则：
+
+“Instead of” 表示“代替、而不是”。它强调的是对比：of 后面的是被否定或不被推荐的内容，而主句里的内容才是被推荐的内容。
+答案： We can spend more time reading books, exercising, or talking with people face to face.
+
+第5题
+题目： Translate the underlined sentence into Chinese. “Many studies have shown that overuse of smartphones may lead to poor eyesight, lack of sleep, and difficulty in concentrating on work or study.”
+翻译： 许多研究表明，过度使用智能手机可能会导致视力下降、睡眠不足以及在工作或学习时难以集中注意力。
+
+分析：
+
+这是一道长难句翻译题。我们把它拆成三段来看，就像切香肠一样。
+第一段（头部）： “Many studies have shown that…”。主语是 “Many studies”（许多研究），谓语是 “have shown”（已经表明）。“that” 后面引导的是研究表明的具体内容。
+第二段（肚子）： “…overuse of smartphones may lead to…”。这里的主语是 “overuse of smartphones”（过度使用智能手机）。谓语是 “may lead to”（可能导致）。这是一个很重要的短语 “lead to”，意思是“导致”。
+第三段（尾巴）： “…poor eyesight, lack of sleep, and difficulty in concentrating on work or study.”。这是 “lead to” 后面的三个结果，用 “and” 连接。
+poor eyesight：视力差（视力下降）。
+lack of sleep：缺乏睡眠。
+difficulty in concentrating…：做某事有困难。concentrate on 是“集中注意力于…”。
+规则：
+
+“Lead to” 是一个非常高频的动词短语，后面通常接不好的结果，翻译为“导致”。
+“Have difficulty in doing sth” 意思是“做某事有困难”。句子里的 “difficulty in concentrating” 就是“在集中注意力方面有困难”。
+答案： 许多研究表明，过度使用智能手机可能会导致视力下降、睡眠不足以及在工作或学习时难以集中注意力。
+
+整体总结
+这位同学，你看，其实这篇阅读理解并不可怕，对不对？我们来总结一下今天学到的几个核心知识点：
+
+Not only… but also…：不仅……而且……。这是表示并列关系的法宝，做题时要注意前后内容的对应。
+Suggest doing sth.：建议做某事。记住 suggest 后面的小尾巴通常是 -ing 形式。
+Instead of：代替；而不是。看到它就要知道，后面接的通常是不被提倡的内容。
+Lead to：导致。通常用于连接原因和结果。
+`
+},
+{
+    article: `Last weekend, Sarah and her roommates decided to clean up the small park near their college. They prepared gloves, garbage bags, brooms, and some water. The park had become dirty because of visitors who left trash everywhere.
+
+As they were picking up plastic bottles and food wrappers, an old man who often walked his dog in the park stopped to watch them. He was moved by their actions and joined them. Soon, more people who were passing by also began to help. Within three hours, the park looked completely different.
+
+Sarah felt tired but extremely proud. She realized that environmental protection does not need grand gestures; it starts with small actions by ordinary people. When they finished, they sat on the grass and shared the snacks they had brought. The old man thanked them and said the park finally felt like home again.
+
+Before leaving, the students put up a sign that read “Please keep our park clean.” They promised to return once a month to maintain it.`,
+    questions: [
+        {
+            text: "What did Sarah and her roommates prepare before going to the park?",
+            answer: "Gloves, garbage bags, brooms, and some water."
+        },
+        {
+            text: "Why had the park become dirty?",
+            answer: "Because visitors left trash everywhere"
+        },
+        {
+            text: "How did Sarah feel after the cleanup?",
+            answer: "Tired but extremely proud."
+        },
+        {
+            text: "What did the students put up before leaving?",
+            answer: "A sign that read “Please keep our park clean.”"
+        },
+        {
+            text: "Translate the following sentence into Chinese:“She realized that environmental protection does not need grand gestures; it starts with small actions by ordinary people.”",
+            reference: "她意识到环境保护不需要宏大的举动；它始于普通人的微小行动。"
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： What did Sarah and her roommates prepare before going to the park?
+翻译： Sarah和她的室友们去公园之前准备了什么？
+
+阅读原文： They prepared gloves, garbage bags, brooms, and some water.
+翻译： 她们准备了手套、垃圾袋、扫帚和一些水。
+
+分析：
+这是一道细节查找题。
+
+先看题目里的关键词 "prepare"（准备）和 "before going to the park"（去公园前）。
+带着这两个词回到文章第一段找。你看，第一段第二句的开头是不是就是 "They prepared..."？
+这就叫“所见即所得”，后面跟着的一串名词就是她们准备的东西。
+规则：
+这里用到了一般过去时。
+
+通俗解释： 因为事情发生在上周末，已经结束了，所以动词要变个样子表示“过去”。比如 prepare 变成了 prepared。
+答案： Gloves, garbage bags, brooms, and some water.
+
+第二题
+题目： Why had the park become dirty?
+翻译： 公园为什么变脏了？
+
+阅读原文： The park had become dirty because of visitors who left trash everywhere.
+翻译： 公园变脏了，是因为游客们到处乱扔垃圾。
+
+分析：
+这是一道因果关系题。
+
+题目问“为什么”，我们在文章里找表示原因的词。
+英语里最常见的表示原因的词是 "because"（因为）。
+在第一段最后一句，我们找到了 "because of"（因为，由于）。后面紧跟的内容就是原因：游客到处扔垃圾。
+规则：
+这里有一个短语 "because of"。
+
+通俗解释： 意思是“因为”。它后面通常接名词（比如这里的 visitors）。整句话的意思就是“因为那些到处乱扔垃圾的游客”。
+答案： Because visitors left trash everywhere.
+
+第三题
+题目： How did Sarah feel after the cleanup?
+翻译： 清理工作结束后，Sarah感觉怎么样？
+
+阅读原文： Sarah felt tired but extremely proud.
+翻译： Sarah感到很累，但也极其自豪。
+
+分析：
+这是一道情感态度题。
+
+题目问的是“感觉如何”，我们要找形容心情的词。
+去文章里找 Sarah 这个名字。在第三段第一句："Sarah felt..."（Sarah感觉...）。
+后面紧跟的两个词就是答案：累和自豪。
+规则：
+这里有个词 "but"（但是）。
+
+通俗解释： 这是一个转折词。前面说“累”（不好的感觉），后面说“自豪”（好的感觉），中间用 "but" 连接，表示虽然身体累，但心里是高兴的。
+答案： Tired but extremely proud.
+
+第四题
+题目： What did the students put up before leaving?
+翻译： 学生们离开前竖立（张贴）了什么？
+
+阅读原文： Before leaving, the students put up a sign that read “Please keep our park clean.”
+翻译： 离开前，学生们竖起了一个写着“请保持我们公园整洁”的牌子。
+
+分析：
+这是一道细节查找题。
+
+题目里的时间线索很重要："Before leaving"（离开前）。
+我们去文章最后一段找，一眼就看到了开头也是 "Before leaving"。
+动作是 "put up"（竖起、张贴），后面跟着的宾语就是答案：一个牌子。
+规则：
+这里有个短语 "put up"。
+
+通俗解释： 这里的意思不是“放上去”，而是指“竖立”或“张贴”东西（比如牌子、海报）。
+答案： A sign that read “Please keep our park clean.”
+
+第五题
+题目： Translate the following sentence into Chinese:“She realized that environmental protection does not need grand gestures; it starts with small actions by ordinary people.”
+翻译： 她意识到环境保护不需要宏大的举动；它始于普通人的微小行动。
+
+分析：
+这是一个长句，我们要把它切成两半看：
+
+前半句： "She realized that..." 意思是“她意识到……”。后面的内容是她意识到的具体事情。"environmental protection" 是个大词，叫“环境保护”；"grand gestures" 字面意思是宏大的姿态，这里指“轰轰烈烈的大举动”。
+后半句： 分号后面，"it" 指代前面的“环境保护”。"starts with" 是个重点短语，意思是“始于”。“ordinary people”就是“普通人”。
+规则：
+这里有个句型 "start with..."。
+
+通俗解释： 意思是“以……开始”。比如 "Dinner starts with soup"（晚餐以喝汤开始）。
+答案： 她意识到环境保护不需要宏大的举动；它始于普通人的微小行动。
+
+整体总结
+今天这篇小短文，其实主要涉及了这几点核心语法，只要掌握了它们，以后类似的阅读理解你都能搞定：
+
+一般过去时：文章讲的是上周末发生的事，所以你会看到大量的动词过去式，比如 decided (决定), prepared (准备), stopped (停止)。
+因果逻辑：题目常考“为什么”，我们要学会找 because 或 because of 这样的“线索词”。
+短语搭配：文中出现了两个很实用的短语：
+put up：张贴、竖立。
+start with：以……开始。
+`
+},
+{
+    article: `Dear Xiaofeng,
+
+I’m really sorry for my long silence. The past six months have been the busiest time of my life.
+
+After I got my associate degree, I was offered a position in a logistics company in Wuhan. The first two months were extremely difficult because I had to learn a completely new system and work overtime almost every day. However, my manager noticed my efforts and gave me more responsibilities.
+
+Last month, I was sent to Guangzhou for training. The weather there is very humid, but the training was excellent. I learned a lot about supply chain management. In the evenings, I would walk along the Pearl River to relax.
+
+The most important news is that I have decided to take the postgraduate entrance examination next year while continuing to work. It will be very hard, but I don’t want to stop growing.
+
+How are you doing? Are you still preparing for the zhuan sheng ben exam? Please tell me everything in your next letter. I really miss our late-night study sessions.
+
+Take care,
+Lin Tao`,
+    questions: [
+        {
+            text: "Where does Lin Tao currently work?",
+            answer: "In a logistics company in Wuhan."
+        },
+        {
+            text: "Why were the first two months difficult for him?",
+            answer: "Because he had to learn a completely new system and work overtime almost every day."
+        },
+        {
+            text: "What has Lin Tao decided to do next year?",
+            answer: "To take the postgraduate entrance examination while continuing to work."
+        },
+        {
+            text: "What does he miss about his old days with Xiaofeng?",
+            answer: "Their late-night study sessions."
+        },
+        {
+            text: "Translate the following sentence into Chinese:“However, my manager noticed my efforts and gave me more responsibilities.”",
+            reference: "然而，我的经理注意到了我的努力，并给了我更多的职责。"
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： Where does Lin Tao currently work?
+翻译： 林涛目前在哪里工作？
+
+阅读原文： After I got my associate degree, I was offered a position in a logistics company in Wuhan.
+翻译： 在拿到大专文凭后，我得到了武汉一家物流公司的一个职位。
+
+分析：
+
+这道题问的是“地点”。我们要像侦探一样，在文章里寻找表示地点的名词。
+句子里的线索词是 “Wuhan”（武汉） 和 “logistics company”（物流公司）。
+逻辑推导：文章说他在武汉的一家物流公司得到了一个职位，并且后面提到他决定明年“一边工作一边考研”，说明他现在还在那里工作。
+规则：
+
+“be offered a position” 是一个被动语态的用法。通俗点说，就是“被给了一个职位”，也就是“得到了一份工作”。
+“Currently” 意思是“目前”。找答案时，要看现在的状态，而不是过去的经历。
+答案： In a logistics company in Wuhan.
+
+第二题
+题目： Why were the first two months difficult for him?
+翻译： 为什么头两个月对他来说很难？
+
+阅读原文： The first two months were extremely difficult because I had to learn a completely new system and work overtime almost every day.
+翻译： 头两个月极其困难，因为我必须学习一个全新的系统，而且几乎每天都要加班。
+
+分析：
+
+题目问的是“原因”。在英语里，最直接表示原因的词就是 “because”（因为）。
+我们找到了原文中的 “because”，它后面的内容就是答案！
+线索词是 “learn a completely new system” 和 “work overtime”。
+规则：
+
+“have to” 表示“不得不，必须”，说明是被迫的或者必须去做的任务。
+“work overtime” 是一个很实用的短语，意思就是“加班”。over是“超过”，time是“时间”，超过了工作时间就是加班。
+答案： Because he had to learn a completely new system and work overtime almost every day.
+
+第三题
+题目： What has Lin Tao decided to do next year?
+翻译： 林涛决定明年做什么？
+
+阅读原文： The most important news is that I have decided to take the postgraduate entrance examination next year while continuing to work.
+翻译： 最重要的消息是，我已经决定明年一边继续工作，一边参加研究生入学考试。
+
+分析：
+
+题目有关键词 “decided”（决定） 和 “next year”（明年）。
+我们在原文里找到这两个词定位，发现句子结构是：I have decided to…（我已经决定去……）。
+后面紧跟着的 “take the postgraduate entrance examination” 就是具体要做的事情。
+规则：
+
+“decide to do something” 意思是“决定做某事”。to后面跟动词原形，这是固定搭配。
+“postgraduate entrance examination” 虽然很长，但我们要拆开看：postgraduate（研究生），entrance（入口/入学），examination（考试），合起来就是我们常说的“考研”。
+答案： To take the postgraduate entrance examination while continuing to work.
+
+第四题
+题目： What does he miss about his old days with Xiaofeng?
+翻译： 他怀念和小峰在一起的哪些旧时光？
+
+阅读原文： I really miss our late-night study sessions.
+翻译： 我真的很怀念我们深夜一起学习的时光。
+
+分析：
+
+题目里的关键词是 “miss”（怀念/想念）。
+我们在文章最后一段找到了 “miss”。句子很短，直接把答案读出来就行。
+线索词是 “late-night study sessions”。
+规则：
+
+“late-night” 是个合成词，意思是“深夜的”。
+“sessions” 在这里指“一段时间”或“活动”，结合上下文，就是指他们以前晚上一起学习的那些时间段。
+答案： Their late-night study sessions.
+
+句子翻译练习
+题目： Translate the following sentence into Chinese:“However, my manager noticed my efforts and gave me more responsibilities.”
+
+分析：
+
+However：然而/但是（表示转折）。
+my manager：我的经理。
+noticed my efforts：注意到了我的努力。notice是“注意”，efforts是“努力”。
+and：并且（连接两个动作）。
+gave me more responsibilities：给了我更多的职责。gave是give的过去式，responsibilities是“职责/责任”。
+答案： 然而，我的经理注意到了我的努力，并给了我更多的职责。
+
+整体总结
+今天这篇阅读理解，我们主要复习了下面这几个核心语法点，只要你记住了它们，以后遇到类似的句子就不怕啦：
+
+一般过去时：文章里出现了很多动词的过去式，比如 got (get的过去式)、offered、sent、gave。这说明作者是在回忆过去发生的事情。
+被动语态：比如 “I was offered…” 和 “I was sent…”。结构是 be动词 + 动词的过去分词。意思就是“我被给予……”或者“我被派往……”，重点在于动作的接受者，而不是谁做了这个动作。
+因果逻辑词：看到了 because，我们就知道后面紧跟的是原因，这对于做阅读理解题目非常有帮助！
+`
+},
+{
+    article: `Emma was always afraid of speaking in public. When her teacher asked her to give a five-minute presentation in front of the whole class, she felt nervous and wanted to refuse. However, her best friend Lily encouraged her to try.
+
+For the next week, Emma practiced in front of the mirror every evening. Lily listened to her speech many times and gave her useful advice. On the day of the presentation, Emma’s hands were shaking at first, but as she continued, she became more confident. When she finished, the whole class clapped loudly.
+
+After that experience, Emma realized that facing fear is the only way to grow. She thanked Lily for her support and decided to join the school speech club to improve herself further.`,
+    questions: [
+        {
+            text: "Who encouraged Emma to give the presentation?",
+            answer: "Her best friend Lily."
+        },
+        {
+            text: "How did Emma prepare for the presentation?",
+            answer: "She practiced in front of the mirror every evening, and Lily listened to her speech many times and gave her useful advice."
+        },
+        {
+            text: "How did Emma feel at the beginning of her speech?",
+            answer: "She felt nervous and her hands were shaking."
+        },
+        {
+            text: "What did Emma decide to do after the presentation?",
+            answer: "She decided to join the school speech club to improve herself further."
+        },
+        {
+            text: "Translate: “Emma realized that facing fear is the only way to grow.”",
+            reference: "艾玛意识到，直面恐惧是成长的唯一方式。"
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： Who encouraged Emma to give the presentation?
+
+翻译： 谁鼓励艾玛去做这个演讲？
+
+阅读原文： However, her best friend Lily encouraged her to try.
+
+翻译： 然而，她最好的朋友莉莉鼓励她去尝试。
+
+分析：
+
+我们先看题目里的关键词 Who，它在问“谁”，说明我们要在文章里找一个人名。
+再看题目里的核心动作 encouraged（鼓励）。我们要去文章里找，谁做了“鼓励”这个动作。
+在原文句子里，我们可以看到 Lily 是主语，是她发出了“encouraged”这个动作。
+线索词： Who（问人）、encouraged（动作）。
+规则：
+
+这里的 encouraged 是动词“encourage”的过去式。
+过去式是什么意思呢？就是这件事情已经发生了，是昨天、前天或者故事里那个时候做的事，所以动词加了个“d”或者“ed”。只要看到这个，就知道是过去的事。
+答案： Her best friend Lily.
+
+第二题
+题目： How did Emma prepare for the presentation?
+
+翻译： 艾玛是如何准备这次演讲的？
+
+阅读原文： For the next week, Emma practiced in front of the mirror every evening. Lily listened to her speech many times and gave her useful advice.
+
+翻译： 在接下来的一周里，艾玛每天晚上都在镜子前练习。莉莉听了她很多次演讲，并给了她有用的建议。
+
+分析：
+
+题目里的关键词是 How（如何），这在问方式和方法。
+题目里的 prepare（准备）是关键动作。
+我们要去文章里找：艾玛为了演讲做了什么事？
+原文里有两句话都在说她做的准备：一是 practiced in front of the mirror（在镜子前练习），二是 Lily listened… and gave… advice（莉莉听并给建议）。
+这就需要我们把这两点都找出来，合在一起才是完整的答案。
+规则：
+
+这里出现了 and 这个词，它表示“和、并且”，说明前后是并列关系，两件事都很重要，都不能丢掉哦。
+答案： She practiced in front of the mirror every evening, and Lily listened to her speech many times and gave her useful advice.
+
+第三题
+题目： How did Emma feel at the beginning of her speech?
+
+翻译： 艾玛在演讲开始时感觉如何？
+
+阅读原文： On the day of the presentation, Emma’s hands were shaking at first, but as she continued, she became more confident.
+
+翻译： 演讲那天，艾玛的手起初在发抖，但随着她继续讲下去，她变得更自信了。
+
+分析：
+
+题目问的是 How… feel（感觉怎样），我们要找描写心情或身体反应的词。
+题目里有个很重要的时间词 at the beginning（一开始）。原文里有个同义词叫 at first，也是“起初、一开始”的意思。这就是我们的定位线索！
+找到这句话后，我们看到：hands were shaking（手在发抖）。手发抖是因为什么呢？结合上文她一直很 nervous（紧张），所以这里描写的是她紧张的状态。
+线索词： at the beginning 对应原文的 at first。
+规则：
+
+were shaking 是“正在发抖”的意思。这里用到了过去进行时，就是表示过去那个特定时刻，动作正在进行中。就像我们在拍照，照片里的人正在跑、正在吃一样。
+答案： She felt nervous and her hands were shaking.
+
+第四题
+题目： What did Emma decide to do after the presentation?
+
+翻译： 演讲结束后，艾玛决定做什么？
+
+阅读原文： She thanked Lily for her support and decided to join the school speech club to improve herself further.
+
+翻译： 她感谢了莉莉的支持，并决定加入学校演讲社团来进一步提升自己。
+
+分析：
+
+题目问的是 What… decide to do（决定做什么）。
+时间点是 after the presentation（演讲后）。我们去文章最后一段找，因为故事是按时间顺序发展的，最后一段就是演讲结束后的事。
+原文里直接就有 decided to 这个短语，后面跟着的 join the school speech club 就是她决定做的事。
+线索词： decided to。
+规则：
+
+decide to do something 意思是“决定做某事”。to 后面跟动词原形，这是一种固定搭配，就像我们要说“我想去吃”而不是“我想去吃苹果”里的“去”一样，起到连接作用。
+答案： She decided to join the school speech club to improve herself further.
+
+翻译讲解
+题目： Translate: “Emma realized that facing fear is the only way to grow.”
+
+翻译： 艾玛意识到，直面恐惧是成长的唯一方式。
+
+分析：
+
+这句话的主语是 Emma（艾玛）。
+谓语动词是 realized（意识到）。
+后面这一大串 that facing fear is the only way to grow 是一个宾语从句。简单来说，就是艾玛意识到的具体内容。
+在这个内容里，facing fear（直面恐惧）是主语，is 是谓语，the only way（唯一方式）是宾语。
+规则：
+
+这里的 facing 是动名词。就是把动词“face”（面对）加上“ing”，让它变成一个名词的身份，可以在句子里做主语。比如“游泳有益健康”，我们说 Swimming is good for health，这里的Swimming就是动名词。
+答案： 艾玛意识到，直面恐惧是成长的唯一方式。
+
+整体总结
+同学，你看，我们做完这几道题，其实主要用到了这几个核心知识点，是不是没那么吓人？
+
+一般过去时：文章讲的是一个过去的故事，所以大部分动词都用了过去式，比如 practiced (练习), asked (问), clapped (鼓掌)。看到这些词，要知道事情已经发生过了。
+关键词定位：做阅读理解最重要的就是找线索。比如题目问“谁”，我们就找人名；题目问“如何”，我们就找具体的动作方法；题目里的时间词（如 beginning）通常能在文章里找到对应的时间词（如 at first）。
+并列连词 and：看到 and 就要知道，它前后连接的内容通常是同等重要的，答题时如果漏掉一半，可能就拿不到满分啦。
+`
+},
+{
+    article: `Dear Mingjie,
+
+How have you been? I’m writing to share my recent experience as an intern.
+
+Two months ago, I started an internship at a local bookstore. At first, I was only responsible for arranging books and cleaning. Later, the manager asked me to help customers find books and introduce new arrivals. I was surprised to discover that I actually enjoy talking with different people.
+
+The best part is that I can read many new books during breaks. I have already finished three novels this month. Although the pay is not high, I am learning a lot about communication and time management.
+
+Have you found an internship yet? I think real working experience is very valuable for us before graduation.
+
+Looking forward to your reply.
+
+Yours,
+Xiaowen`,
+    questions: [
+        {
+            text: "What was she responsible for at the beginning?",
+            answer: "Arranging books and cleaning."
+        },
+        {
+            text: "What does she enjoy doing now?",
+            answer: "Talking with different people."
+        },
+        {
+            text: "What is the best part of her internship?",
+            answer: "She can read many new books during breaks."
+        },
+        {
+            text: "What does she think about real working experience?",
+            answer: "She thinks it is very valuable for us before graduation."
+        },
+        {
+            text: "Translate: “Although the pay is not high, I am learning a lot about communication and time management.”",
+            reference: "虽然工资不高，但我正在学到很多关于沟通和时间管理的知识。"
+        }
+    ],
+    explanation: `题目解析：
+
+第一题
+题目： What was she responsible for at the beginning?
+翻译： 一开始她负责什么？
+
+阅读原文： At first, I was only responsible for arranging books and cleaning.
+翻译： 起初，我只负责整理书籍和打扫卫生。
+
+分析：
+这道题是在问“过去发生的事情”。
+
+找线索词： 题目里有个很重要的词 "at the beginning"（一开始）。这就像个路标，告诉我们要去文章里找表示“开始”的时间点。
+定位句子： 文章第二段第一句就有 "At first"，这就是“起初、一开始”的意思，和题目完全对应。
+锁定答案： 接下来看这句话里 "responsible for"（对……负责）后面跟着的内容，是 "arranging books and cleaning"。
+规则：
+这里有个固定搭配：be responsible for...，意思是“对……负责”或“负责做某事”。
+
+"arranging" 是 "arrange"（整理）加了 "ing"，因为跟在介词 "for" 后面，动词就要变身成名词性质（动名词），所以加了ing。
+答案： Arranging books and cleaning.
+
+第二题
+题目： What does she enjoy doing now?
+翻译： 她现在喜欢做什么？
+
+阅读原文： I was surprised to discover that I actually enjoy talking with different people.
+翻译： 我很惊讶地发现，我其实很享受与不同的人交谈。
+
+分析：
+
+找线索词： 题目里的关键词是 "enjoy"（享受/喜欢）。
+定位句子： 我们在文章里像雷达一样扫描 "enjoy" 这个词，很快就在第二段的最后一句发现了它。
+锁定答案： "enjoy" 后面紧接着的内容就是答案："talking with different people"。
+规则：
+这里有个非常重要的语法规则：enjoy doing sth.（享受做某事）。
+
+在英语里，"enjoy" 这个动词很特别，如果后面跟动作，那个动作一定要变成 -ing 形式（动名词）。所以这里用的是 "talking" 而不是 "talk"。记住：喜欢做某事，动词就要加ing哦！
+答案： Talking with different people.
+
+第三题
+题目： What is the best part of her internship?
+翻译： 她实习期间最棒的部分是什么？
+
+阅读原文： The best part is that I can read many new books during breaks.
+翻译： 最棒的部分是我可以在休息时间读很多新书。
+
+分析：
+
+找线索词： 题目里有个最高级 "the best part"（最好的部分），这是非常明显的线索。
+定位句子： 在第三段第一句，直接出现了 "The best part is..."，这就是在回答我们的问题。
+锁定答案： "is"（是）后面的内容就是答案，直接抄下来即可。
+规则：
+这里有个结构：that I can read...。这是一个宾语从句（简单说就是，一个完整的句子当了“是”的听众）。
+
+"during breaks" 意思是“在休息期间”。"during" 是一个介词，表示“在……期间”。
+答案： She can read many new books during breaks.
+
+第四题
+题目： What does she think about real working experience?
+翻译： 她如何看待真实的工作经验？
+
+阅读原文： I think real working experience is very valuable for us before graduation.
+翻译： 我认为真实的工作经验对我们毕业前来说非常有价值。
+
+分析：
+
+找线索词： 题目问的是她对 "real working experience"（真实工作经验）的看法。
+定位句子： 带着这个短语去文章找，在第四段第二句找到了一模一样的词组。
+锁定答案： 题目问“她怎么看”，也就是问她的观点。句子里 "I think..."（我认为……）后面的就是她的观点："it is very valuable for us before graduation"。
+规则：
+valuable 是个形容词，意思是“有价值的”。
+
+句子结构是：主语 + is + 形容词。这是一个很基础的“主系表”结构，用来描述主语是什么样子的。
+答案： She thinks it is very valuable for us before graduation.
+
+翻译讲解
+题目： Translate: “Although the pay is not high, I am learning a lot about communication and time management.”
+
+翻译： 虽然工资不高，但我正在学到很多关于沟通和时间管理的知识。
+
+分析：
+
+拆解句子： 这个长句子被一个逗号分成了两半。
+前半句： "Although the pay is not high"。Although 是“虽然”的意思，引导一个让步状语从句（就是先退一步说）。
+后半句： "I am learning a lot about..."。这是句子的主干。am learning 是现在进行时，表示“正在学习”。
+重点搭配： learn about 意思是“学习关于……的知识”。
+规则：
+这里有个中国学生最容易犯的错误点，一定要记住：
+
+Although（虽然）和 But（但是）不能同时出现在一个句子里！
+在中文里我们说“虽然……但是……”，但在英语里，用了 Although 就不能用 But，用了 But 就不能用 Although。这篇文章里用了 Although，所以后半句直接开始说内容，没有出现 But，这是非常标准的英语写法。
+整体总结
+今天这篇阅读理解，我们复习了几个非常核心的语法点，只要你掌握了它们，以后做题会越来越顺手：
+
+固定搭配 enjoy doing sth.：看到 enjoy，后面动词记得加 -ing。
+介词用法：be responsible for（对……负责），learn about（了解/学习关于……）。
+连词规则：Although（虽然）引导的句子，后面不能跟 but（但是）。
+时态识别：am/is/are + doing 表示“正在做某事”（现在进行时）。
+`
+},
+{
+    article: `Mr. Wang is seventy years old and lives alone. His grandson, Xiao Kai, visits him every Saturday afternoon. Last month, Xiao Kai decided to teach his grandfather how to use a smartphone.
+
+At first, Mr. Wang found it very difficult. His hands were not steady and he often forgot the steps. But Xiao Kai was very patient. He taught him one thing at a time: how to make video calls, how to send voice messages, and how to watch short videos.
+
+After three weeks, Mr. Wang could use the phone quite well. He was especially happy to see his granddaughter who lives in another city through video calls. Both grandfather and grandson felt closer than ever before.`,
+    questions: [
+        {
+            text: "What did Xiao Kai decide to teach his grandfather?",
+            answer: "How to use a smartphone."
+        },
+        {
+            text: "Why was it difficult for Mr. Wang at first?",
+            answer: "Because his hands were not steady and he often forgot the steps."
+        },
+        {
+            text: "How long did it take for Mr. Wang to learn?",
+            answer: "Three weeks."
+        },
+        {
+            text: "How did they feel after Mr. Wang learned to use the phone?",
+            answer: "They felt closer than ever before."
+        },
+        {
+            text: "Translate: “Both grandfather and grandson felt closer than ever before.”",
+            reference: "祖孙两人都感觉比以往任何时候都更亲近了。"
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： What did Xiao Kai decide to teach his grandfather?
+翻译： 小凯决定教他的爷爷什么？
+
+阅读原文： Last month, Xiao Kai decided to teach his grandfather how to use a smartphone.
+翻译： 上个月，小凯决定教他的爷爷如何使用智能手机。
+
+分析：
+
+这是一道寻找细节的题目。
+我们先看题目里的关键词 “decide to teach”（决定教）。
+带着这个词去文章里找，你会发现第一段最后一句正好有 “decided to teach”。
+题目问的是“教什么”，也就是 teach 后面的内容。原文里 teach 后面跟着的是 “how to use a smartphone”（如何使用智能手机）。
+规则：
+
+特殊疑问词 What：它是用来提问“什么东西”或“什么事情”的。在这里，它问的是 teach（教）的宾语（对象）。
+decide to do something：意思是“决定做某事”。这里的 to do 就是 teach，这是固定搭配。
+答案： How to use a smartphone.
+
+第2题
+题目： Why was it difficult for Mr. Wang at first?
+翻译： 为什么起初这对王先生来说很难？
+
+阅读原文： His hands were not steady and he often forgot the steps.
+翻译： 他的手不稳，而且他经常忘记步骤。
+
+分析：
+
+题目里的 “Why”（为什么）告诉我们，这道题要找原因。
+题目里的 “at first”（起初）和 “difficult”（困难）是关键线索。
+我们回到文章第二段，第一句就是 “At first, Mr. Wang found it very difficult.”（起初，王先生觉得很难）。
+紧接着的下一句就是解释原因的：“His hands were not steady”（手不稳）和 “he often forgot the steps”（经常忘步骤）。这就是两个直接的原因。
+规则：
+
+Why 提问，Because 回答：虽然我们在做题时不需要写 Because，但在心里要明白，找的就是原因。
+and 的作用：这里用了 and 连接两个句子，表示并列关系，说明这两点原因加在一起导致了困难。
+答案： Because his hands were not steady and he often forgot the steps.
+
+第3题
+题目： How long did it take for Mr. Wang to learn?
+翻译： 王先生学了多久？
+
+阅读原文： After three weeks, Mr. Wang could use the phone quite well.
+翻译： 三周后，王先生能很好地使用手机了。
+
+分析：
+
+题目里的 “How long” 是专门用来提问时间段的，意思是“多久”。
+我们在文章里找表示时间的词。在第三段开头，我们看到了 “After three weeks”（三周后）。
+这句话说他能很好地使用手机了，说明他学会用了，花了三周的时间。
+规则：
+
+How long：用来询问时间的长度。比如回答通常是 “For two days”（两天）或者 “Three weeks”（三周）。
+After + 时间段：表示“在多长时间之后”，常用于过去时态的故事里。
+答案： Three weeks.
+
+第4题
+题目： How did they feel after Mr. Wang learned to use the phone?
+翻译： 在王先生学会使用手机后，他们感觉如何？
+
+阅读原文： Both grandfather and grandson felt closer than ever before.
+翻译： 祖孙两人都感觉比以往任何时候都更亲近了。
+
+分析：
+
+题目里的 “How” 在这里询问的是状态或感受。
+线索词是 “feel”（感觉）。我们去文章最后一句找。
+原文直接写道：“felt closer”。Felt 是 feel 的过去式，意思是“感觉更亲近了”。
+规则：
+
+一般过去时：故事发生在过去，所以动词要变形式。Feel（感觉）变成了 Felt。这是不规则变化，需要记忆哦。
+形容词表达感受：Closer 是形容词，用来描述心情。
+答案： They felt closer than ever before.
+
+翻译练习
+句子： “Both grandfather and grandson felt closer than ever before.”
+
+分析：
+
+Both… and…：意思是“……和……两者都”。
+Grandfather and grandson：爷爷和孙子，我们可以意译为“祖孙两人”。
+Felt：感觉（feel的过去式）。
+Closer：更亲近（close的比较级）。
+Than ever before：比以往任何时候。
+翻译： 祖孙两人都感觉比以往任何时候都更亲近了。
+
+整体总结
+今天这篇短文非常温馨，我们复习了几个核心的语法点：
+
+特殊疑问词的用法：
+What 问“什么”（找东西/事件）。
+Why 问“为什么”（找原因）。
+How long 问“多久”（找时间段）。
+How 问“怎么样”（找状态/感受）。
+时态意识：
+文章讲的是过去的故事，所以动词用了过去式，比如 lived, visited, decided, felt。看到 -ed 结尾或者不规则变形（如 felt），要知道这代表事情已经发生了。
+固定搭配：
+decide to do sth.（决定做某事）。
+Both… and…（两者都）。
+`
+},
+{
+    article: `Dear Professor Liu,
+
+I am writing to tell you about my new eating habits.
+
+After I failed the last exam, I realized that my unhealthy lifestyle was affecting my studies. I used to eat too much fast food and stayed up very late. So I decided to make a change.
+
+Now I get up at 6:30 every morning and run for thirty minutes. I also prepare simple and healthy meals by myself. I eat more vegetables and fruit and drink plenty of water. Surprisingly, I now have more energy and can concentrate better when I study.
+
+I know it is not easy to keep these good habits, but I will try my best. Thank you for your advice last time. It helped me a lot.
+
+Respectfully,
+Chen Hao`,
+    questions: [
+        {
+            text: "Why did Chen Hao decide to change his lifestyle?",
+            answer: "Because he realized that his unhealthy lifestyle was affecting his studies after he failed the last exam."
+        },
+        {
+            text: "How long does he run every morning?",
+            answer: "For thirty minutes."
+        },
+        {
+            text: "What does he eat more of now?",
+            answer: "More vegetables and fruit."
+        },
+        {
+            text: "What benefit has he noticed since changing his habits?",
+            answer: "He now has more energy and can concentrate better when he studies."
+        },
+        {
+            text: "Translate: “Surprisingly, I now have more energy and can concentrate better when I study.”",
+            reference: "令人惊讶的是，我现在精力更充沛了，学习时也能更好地集中注意力了。"
+        }
+    ],
+    explanation: `题目解析：
+
+第1题
+题目： Why did Chen Hao decide to change his lifestyle?
+
+翻译： 为什么陈浩决定改变他的生活方式？
+
+阅读原文： After I failed the last exam, I realized that my unhealthy lifestyle was affecting my studies. So I decided to make a change.
+
+翻译： 在上次考试不及格后，我意识到我不健康的生活方式正在影响我的学业。所以我决定做出改变。
+
+分析：
+
+这是一道询问原因的题目。题目里的关键词是 Why（为什么）。
+我们去文章里找线索。看到第二段第一句：After I failed the last exam（在我上次考试不及格之后）。
+接着看后面：I realized...（我意识到……）。意识到什么呢？是因为他不健康的生活方式影响了学习。
+重点来了，句子里的 So（所以）这个词非常重要，它表示结果。前面说的“考试不及格”和“意识到影响学习”就是原因。
+逻辑推导：因为考试挂了 -> 发现生活方式不健康影响了学习 -> 所以决定改变。
+规则：
+
+因果关系：英语里常常用 Because（因为）回答 Why（为什么）。文章里用了 So（所以）来连接原因和结果。看到 So，前面说的话就是原因。
+答案： Because he realized that his unhealthy lifestyle was affecting his studies after he failed the last exam.
+
+第2题
+题目： How long does he run every morning?
+
+翻译： 他每天早上跑多久？
+
+阅读原文： Now I get up at 6:30 every morning and run for thirty minutes.
+
+翻译： 现在我每天早上6:30起床，跑三十分钟。
+
+分析：
+
+这是一道询问时间段的题目。题目里的关键词是 How long（多久）。
+我们要去文章里找“跑”这个动作。在第三段第一句找到了 run。
+紧跟在 run 后面的就是时间啦！看这里：for thirty minutes。
+for 在这里表示“长达……”，后面接时间，就是跑了多久的意思。
+规则：
+
+How long 是问时间的长度。回答通常是一个时间段，比如“for + 时间”。
+介词 for：在这里它就像一个小钩子，钩住后面的一段时间，表示动作持续了多久。
+答案： For thirty minutes.
+
+第3题
+题目： What does he eat more of now?
+
+翻译： 他现在吃什么更多了？
+
+阅读原文： I eat more vegetables and fruit and drink plenty of water.
+
+翻译： 我吃更多的蔬菜和水果，喝大量的水。
+
+分析：
+
+这道题问的是具体的事物。关键词是 What（什么）。
+题目里还有一个线索词 more（更多），我们要去文章里找带有 more 的句子。
+在第三段第二句，我们看到了：I eat more vegetables and fruit。
+这是一个并列结构，vegetables（蔬菜）和 fruit（水果）用 and 连在一起，都是他多吃的东西。
+规则：
+
+并列连词 and：这个单词就像胶水，把两样东西粘在一起。这里把蔬菜和水果粘在一起，说明这两样都是答案。
+答案： More vegetables and fruit.
+
+第4题
+题目： What benefit has he noticed since changing his habits?
+
+翻译： 改变习惯后，他注意到了什么好处？
+
+阅读原文： Surprisingly, I now have more energy and can concentrate better when I study.
+
+翻译： 令人惊讶的是，我现在精力更充沛了，学习时也能更好地集中注意力了。
+
+分析：
+
+这道题问的是 benefit（好处、益处）。既然是好处，肯定是积极的变化。
+我们看第三段最后一句。关键词 Surprisingly（令人惊讶地）后面往往跟着重点信息。
+他说现在 have more energy（有更多精力），而且 concentrate better（注意力更集中）。
+这两个都是好的变化，所以这就是他得到的好处。
+规则：
+
+形容词比较级：看到 more（更多）和 better（更好），这是在把现在和过去做比较。过去精力少，现在精力多；过去注意力差，现在注意力好。这就是“好处”。
+答案： He now has more energy and can concentrate better when he studies.
+
+第5题
+题目： Translate: “Surprisingly, I now have more energy and can concentrate better when I study.”
+
+翻译： 令人惊讶的是，我现在精力更充沛了，学习时也能更好地集中注意力了。
+
+分析：
+
+这句话其实刚才第4题我们已经拆解过一半了，我们再仔细看看结构。
+Surprisingly：副词，放在句首，翻译成“令人惊讶的是”。
+I now have more energy：主语是I（我），谓语是have（有），宾语是more energy（更多精力）。合起来就是“我现在精力更充沛了”。
+and can concentrate better：and连接两个动作。can是“能”，concentrate是“集中注意力”，better是“更好”。合起来就是“也能更好地集中注意力”。
+when I study：这是一个时间状语从句（表示时间的附属句子）。when是“当……的时候”，I study是“我学习”。所以翻译成“学习时”或“当我学习的时候”。
+规则：
+
+时间状语从句：由 when（当……时）引导的句子。在英语里，这个从句可以放在后面，但在中文翻译里，我们习惯先说时间（比如“学习时”），再说主要的事情。
+答案： 令人惊讶的是，我现在精力更充沛了，学习时也能更好地集中注意力了。
+
+整体总结
+好啦，题目都讲完了，我们来看看今天这几个题涉及到的几个核心语法点，其实都不难：
+
+因果逻辑：看到 So（所以）就要知道前面是在讲原因，后面是在讲结果。
+特殊疑问词：
+Why 问原因，用 Because 回答。
+How long 问时长，用 For + 时间 回答。
+What 问事物，找具体的名词。
+并列结构：and 像胶水一样，连接两个并列的成分（比如蔬菜和水果）。
+比较级：more（更多）、better（更好），用来表示现在比过去进步了。
+`
+},
+
 
 ];
