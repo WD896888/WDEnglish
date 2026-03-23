@@ -19,6 +19,16 @@ window.ExamModule = (function() {
     const THEMES = ['default', 'neumorphism']; // 支持多主题扩展
     let currentTheme = 'default';
 
+    // 考试设置配置
+    const SETTINGS_KEY = 'wdenglish_exam_settings';
+    let examSettings = {
+        allowTextSelection: false,  // 解除文本选中限制
+        allowTranslation: false     // 解除划词翻译限制
+    };
+
+    // 是否已交卷
+    let isSubmitted = false;
+
     // 考试时长（秒）- 120分钟
     const EXAM_DURATION = 120 * 60;
     
@@ -66,6 +76,8 @@ window.ExamModule = (function() {
         cacheElements();
         bindEvents();
         initTheme();
+        loadSettings();
+        createSettingsModal();
     }
 
     /**
@@ -76,6 +88,7 @@ window.ExamModule = (function() {
             overlay: document.getElementById('examOverlay'),
             closeBtn: document.getElementById('examCloseBtn'),
             themeToggleBtn: document.getElementById('examThemeToggleBtn'),
+            settingsBtn: document.getElementById('examSettingsBtn'),
             paperContainer: document.getElementById('examPaperContainer'),
             leftColumn: document.getElementById('examLeftColumn'),
             rightColumn: document.getElementById('examRightColumn'),
@@ -87,7 +100,8 @@ window.ExamModule = (function() {
             explanationContent: document.getElementById('examExplanationContent'),
             clockTime: document.getElementById('examClockTime'),
             clockHour: document.getElementById('examClockHour'),
-            clockMinute: document.getElementById('examClockMinute')
+            clockMinute: document.getElementById('examClockMinute'),
+            settingsModal: document.getElementById('examSettingsModal')
         };
     }
 
@@ -106,6 +120,35 @@ window.ExamModule = (function() {
         }
         if (elements.themeToggleBtn) {
             elements.themeToggleBtn.addEventListener('click', toggleTheme);
+        }
+        if (elements.settingsBtn) {
+            elements.settingsBtn.addEventListener('click', openSettingsModal);
+        }
+    }
+
+    /**
+     * 加载考试设置
+     */
+    function loadSettings() {
+        try {
+            const saved = localStorage.getItem(SETTINGS_KEY);
+            if (saved) {
+                const parsed = JSON.parse(saved);
+                examSettings = { ...examSettings, ...parsed };
+            }
+        } catch (e) {
+            console.error('加载考试设置失败:', e);
+        }
+    }
+
+    /**
+     * 保存考试设置
+     */
+    function saveSettings() {
+        try {
+            localStorage.setItem(SETTINGS_KEY, JSON.stringify(examSettings));
+        } catch (e) {
+            console.error('保存考试设置失败:', e);
         }
     }
 
@@ -187,9 +230,251 @@ window.ExamModule = (function() {
     }
 
     /**
+     * 创建设置模态框
+     */
+    function createSettingsModal() {
+        // 检查是否已存在
+        if (document.getElementById('examSettingsModal')) {
+            return;
+        }
+
+        const modalHtml = `
+            <div class="exam-settings-modal" id="examSettingsModal">
+                <div class="exam-settings-modal-overlay"></div>
+                <div class="exam-settings-modal-content">
+                    <div class="exam-settings-modal-header">
+                        <h3>考试设置</h3>
+                        <button class="exam-settings-modal-close" id="examSettingsModalClose">&times;</button>
+                    </div>
+                    <div class="exam-settings-modal-body">
+                        <div class="exam-settings-section">
+                            <h4 class="exam-settings-section-title">功能设置</h4>
+                            <p class="exam-settings-section-desc">以下设置仅在考试未交卷时生效，交卷后将自动解除所有限制。</p>
+                            
+                            <div class="exam-toggle-item">
+                                <div class="exam-toggle-info">
+                                    <div class="exam-toggle-label">解除文本选中限制</div>
+                                    <div class="exam-toggle-desc">开启后可在考试期间选中文本内容</div>
+                                </div>
+                                <label class="exam-toggle-switch">
+                                    <input type="checkbox" id="examToggleTextSelection">
+                                    <span class="exam-toggle-slider"></span>
+                                </label>
+                            </div>
+                            
+                            <div class="exam-toggle-item">
+                                <div class="exam-toggle-info">
+                                    <div class="exam-toggle-label">解除划词翻译限制</div>
+                                    <div class="exam-toggle-desc">开启后选中文本可进行翻译（需同时开启文本选中）</div>
+                                </div>
+                                <label class="exam-toggle-switch">
+                                    <input type="checkbox" id="examToggleTranslation">
+                                    <span class="exam-toggle-slider"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="exam-settings-modal-footer">
+                        <button class="exam-settings-btn-action" id="examSettingsCancelBtn">取消</button>
+                        <button class="exam-settings-btn-action primary" id="examSettingsConfirmBtn">确定</button>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        document.body.insertAdjacentHTML('beforeend', modalHtml);
+
+        // 缓存模态框元素
+        elements.settingsModal = document.getElementById('examSettingsModal');
+
+        // 绑定事件
+        bindSettingsModalEvents();
+    }
+
+    /**
+     * 绑定设置模态框事件
+     */
+    function bindSettingsModalEvents() {
+        const modal = document.getElementById('examSettingsModal');
+        const closeBtn = document.getElementById('examSettingsModalClose');
+        const overlay = modal ? modal.querySelector('.exam-settings-modal-overlay') : null;
+        const cancelBtn = document.getElementById('examSettingsCancelBtn');
+        const confirmBtn = document.getElementById('examSettingsConfirmBtn');
+
+        // 关闭按钮
+        if (closeBtn) {
+            closeBtn.addEventListener('click', closeSettingsModal);
+        }
+
+        // 点击遮罩关闭
+        if (overlay) {
+            overlay.addEventListener('click', closeSettingsModal);
+        }
+
+        // 取消按钮
+        if (cancelBtn) {
+            cancelBtn.addEventListener('click', closeSettingsModal);
+        }
+
+        // 确定按钮
+        if (confirmBtn) {
+            confirmBtn.addEventListener('click', confirmSettings);
+        }
+
+        // 开关只需要改变UI状态，不需要直接修改设置值
+        // 设置值在点击确认时才从开关读取并保存
+    }
+
+    // 设置模态框临时状态（用于取消时还原）
+    let tempSettings = {
+        allowTextSelection: false,
+        allowTranslation: false
+    };
+
+    /**
+     * 打开设置模态框
+     */
+    function openSettingsModal() {
+        const modal = document.getElementById('examSettingsModal');
+        const textSelectionToggle = document.getElementById('examToggleTextSelection');
+        const translationToggle = document.getElementById('examToggleTranslation');
+
+        if (modal) {
+            // 保存当前设置作为临时状态（用于取消时还原）
+            tempSettings.allowTextSelection = examSettings.allowTextSelection;
+            tempSettings.allowTranslation = examSettings.allowTranslation;
+
+            // 同步当前设置到开关
+            if (textSelectionToggle) {
+                textSelectionToggle.checked = examSettings.allowTextSelection;
+            }
+            if (translationToggle) {
+                translationToggle.checked = examSettings.allowTranslation;
+            }
+
+            // 根据当前主题添加主题类
+            if (currentTheme === 'neumorphism') {
+                modal.classList.add('exam-theme-neumorphism');
+            } else {
+                modal.classList.remove('exam-theme-neumorphism');
+            }
+
+            modal.classList.add('active');
+        }
+    }
+
+    /**
+     * 关闭设置模态框（还原开关状态）
+     */
+    function closeSettingsModal() {
+        const modal = document.getElementById('examSettingsModal');
+        const textSelectionToggle = document.getElementById('examToggleTextSelection');
+        const translationToggle = document.getElementById('examToggleTranslation');
+
+        // 还原开关状态到打开前的状态
+        if (textSelectionToggle) {
+            textSelectionToggle.checked = tempSettings.allowTextSelection;
+        }
+        if (translationToggle) {
+            translationToggle.checked = tempSettings.allowTranslation;
+        }
+
+        if (modal) {
+            modal.classList.remove('active');
+        }
+    }
+
+    /**
+     * 确认设置
+     */
+    function confirmSettings() {
+        const textSelectionToggle = document.getElementById('examToggleTextSelection');
+        const translationToggle = document.getElementById('examToggleTranslation');
+
+        // 从开关获取最终设置值
+        if (textSelectionToggle) {
+            examSettings.allowTextSelection = textSelectionToggle.checked;
+        }
+        if (translationToggle) {
+            examSettings.allowTranslation = translationToggle.checked;
+        }
+
+        // 保存设置
+        saveSettings();
+
+        // 关闭模态框（不需要还原，因为已经确认）
+        const modal = document.getElementById('examSettingsModal');
+        if (modal) {
+            modal.classList.remove('active');
+        }
+
+        // 应用设置（仅在未交卷时）
+        if (!isSubmitted) {
+            applySettings();
+        }
+    }
+
+    /**
+     * 应用设置
+     */
+    function applySettings() {
+        if (examSettings.allowTextSelection) {
+            // 开启文本选中
+            enableTextSelectionWithoutTranslation();
+            
+            // 绑定事件监听器（如果还没有绑定）
+            if (elements.overlay && !textSelectionEventsBound) {
+                elements.overlay.addEventListener('mouseup', handleExamMouseUp);
+                elements.overlay.addEventListener('click', handleOverlayClick);
+                elements.overlay.addEventListener('contextmenu', handleContextMenu);
+                textSelectionEventsBound = true;
+            }
+        } else {
+            // 关闭文本选中
+            disableTextSelection();
+        }
+    }
+
+    /**
+     * 仅开启文本选中（不开启翻译）
+     */
+    function enableTextSelectionWithoutTranslation() {
+        if (elements.overlay) {
+            elements.overlay.classList.add('exam-selectable');
+        }
+        
+        // 为试卷内容区域添加选中样式
+        const contentAreas = document.querySelectorAll('.exam-content, .exam-article, .exam-summary, .exam-section');
+        contentAreas.forEach(area => {
+            area.style.cursor = 'text';
+        });
+    }
+
+    /**
+     * 禁用文本选中
+     */
+    function disableTextSelection() {
+        if (elements.overlay) {
+            elements.overlay.classList.remove('exam-selectable');
+        }
+        
+        // 移除内容区域的选中样式
+        const contentAreas = document.querySelectorAll('.exam-content, .exam-article, .exam-summary, .exam-section');
+        contentAreas.forEach(area => {
+            area.style.cursor = '';
+        });
+
+        // 隐藏翻译气泡
+        hideExamTooltip();
+    }
+
+    /**
      * 打开考试
      */
     function openExam() {
+        // 重置交卷状态
+        isSubmitted = false;
+
         if (elements.overlay) {
             // 先添加准备状态
             elements.overlay.classList.add('exam-preparing');
@@ -235,6 +520,14 @@ window.ExamModule = (function() {
         }
         isTranslating = false;
         
+        // 移除事件监听器
+        if (elements.overlay && textSelectionEventsBound) {
+            elements.overlay.removeEventListener('mouseup', handleExamMouseUp);
+            elements.overlay.removeEventListener('click', handleOverlayClick);
+            elements.overlay.removeEventListener('contextmenu', handleContextMenu);
+            textSelectionEventsBound = false;
+        }
+        
         if (elements.overlay) {
             elements.overlay.classList.remove('active');
             elements.overlay.classList.remove('exam-selectable');
@@ -252,6 +545,9 @@ window.ExamModule = (function() {
             translation: new Set(),
             essay: new Set()
         };
+
+        // 重置交卷状态
+        isSubmitted = false;
         
         // 触发首页入场动画
         if (typeof triggerPageEnterAnimation === 'function') {
@@ -539,12 +835,20 @@ window.ExamModule = (function() {
             elements.submitBtn.disabled = false;
             elements.submitBtn.textContent = '提交试卷';
         }
+
+        // 应用用户设置（仅在未交卷时）
+        if (!isSubmitted && examSettings.allowTextSelection) {
+            applySettings();
+        }
     }
 
     /**
      * 重新生成试卷
      */
     function regeneratePaper() {
+        // 重置交卷状态
+        isSubmitted = false;
+
         // 重置计时器
         stopTimer();
         startTimer();
@@ -552,7 +856,7 @@ window.ExamModule = (function() {
         // 隐藏翻译气泡框
         hideExamTooltip();
         
-        // 移除选中权限（需要重新提交才能选中）
+        // 移除选中权限
         if (elements.overlay) {
             elements.overlay.classList.remove('exam-selectable');
         }
@@ -1037,6 +1341,9 @@ window.ExamModule = (function() {
      * 提交试卷
      */
     async function submitExam() {
+        // 设置交卷状态
+        isSubmitted = true;
+
         // 停止计时器
         stopTimer();
         
@@ -1880,6 +2187,7 @@ window.ExamModule = (function() {
     // 翻译相关变量
     let isTranslating = false;
     let examTooltip = null;
+    let textSelectionEventsBound = false; // 事件是否已绑定标志
 
     /**
      * 启用文字选中功能并绑定翻译事件
@@ -1897,12 +2205,28 @@ window.ExamModule = (function() {
         });
         
         // 绑定选中翻译事件（使用事件捕获，确保能捕获到）
-        if (elements.overlay) {
+        // 只在未绑定时绑定，防止重复绑定
+        if (elements.overlay && !textSelectionEventsBound) {
             elements.overlay.addEventListener('mouseup', handleExamMouseUp);
             elements.overlay.addEventListener('click', handleOverlayClick);
             // 屏蔽右键菜单
             elements.overlay.addEventListener('contextmenu', handleContextMenu);
+            textSelectionEventsBound = true;
         }
+    }
+
+    /**
+     * 检查是否可以翻译（供外部调用）
+     */
+    function canTranslate() {
+        return isSubmitted || (examSettings.allowTextSelection && examSettings.allowTranslation);
+    }
+
+    /**
+     * 检查是否可以选中文本（供外部调用）
+     */
+    function canSelectText() {
+        return isSubmitted || examSettings.allowTextSelection;
     }
 
     /**
@@ -1924,8 +2248,15 @@ window.ExamModule = (function() {
             // 只有当有选中文本时才阻止默认行为，防止迷你菜单弹出
             if (selection.toString().trim()) {
                 e.preventDefault();
-                // 显示翻译气泡
-                showTooltipForSelection(selection);
+                
+                // 检查是否允许翻译
+                // 条件：已交卷 或 (开启文本选中 且 开启划词翻译)
+                const canTranslate = isSubmitted || (examSettings.allowTextSelection && examSettings.allowTranslation);
+                
+                if (canTranslate) {
+                    // 显示翻译气泡
+                    showTooltipForSelection(selection);
+                }
             }
         }
     }
